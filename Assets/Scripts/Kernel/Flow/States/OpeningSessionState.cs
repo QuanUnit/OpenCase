@@ -1,5 +1,5 @@
 using Cysharp.Threading.Tasks;
-using GameHub.UI.Panels;
+using GameHub.Root.Panels;
 using Kernel.Configs;
 using QCore.StateMachine.States;
 using QCore.UISystem.Services;

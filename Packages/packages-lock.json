@@ -7,6 +7,13 @@
       "dependencies": {},
       "hash": "73a63b7f672b88f7e9992f6917eb458a8cbb6fa9"
     },
+    "com.dbrizov.naughtyattributes": {
+      "version": "https://github.com/dbrizov/NaughtyAttributes.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "8a8fa5a9659a6d63f196391c71e06c4286c8acd7"
+    },
     "com.mathijsbakker.extenject": {
       "version": "https://github.com/QuanUnit/QCore.git?path=/Assets/QCore/Zenject#modules/zenject",
       "depth": 0,
@@ -31,6 +38,16 @@
       "dependencies": {},
       "hash": "255ccfbea0ed12f2fec253301bf7c0821f91c754"
     },
+    "com.qcore.tools": {
+      "version": "https://github.com/QuanUnit/QCore.git?path=/Assets/QCore/Tools#modules/tools",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.5",
+        "com.dbrizov.naughtyattributes": "2.1.4"
+      },
+      "hash": "9180309bab3f1443a8aaf35ea2f8780878c904d9"
+    },
     "com.qcore.ui": {
       "version": "https://github.com/QuanUnit/QCore.git?path=/Assets/QCore/UISystem#modules/ui",
       "depth": 0,
@@ -38,7 +55,7 @@
       "dependencies": {
         "com.cysharp.unitask": "2.2.5"
       },
-      "hash": "59c8f9479808ca69e74ebe69dbd90c506a9ee022"
+      "hash": "b4706c5b11088429a3af7ce08782aa2cd72eb25e"
     },
     "com.unity.2d.animation": {
       "version": "10.2.1",

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
-using GameHub.UI.Panels;
-using GameHub.UI.Presenters;
+using GameHub.Root.Panels;
+using GameHub.Root.Presenters;
 using QCore.UISystem.Panels;
 using QCore.UISystem.Presenters;
 using QCore.UISystem.Services.Factories;
