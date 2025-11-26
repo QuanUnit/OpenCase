@@ -3,6 +3,7 @@
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
     "com.qcore.statemachine": "https://github.com/QuanUnit/QCore.git?path=/Assets/QCore/StateMachine#modules/state-machine",
     "com.qcore.ui": "https://github.com/QuanUnit/QCore.git?path=/Assets/QCore/UISystem#modules/ui",
+    "com.qcore.addressableswrapper": "https://github.com/QuanUnit/QCore.git?path=/Assets/QCore/AddressablesWrapper#modules/addressables",
     "com.mathijsbakker.extenject": "https://github.com/QuanUnit/QCore.git?path=/Assets/QCore/Zenject#modules/zenject",
     "com.unity.collab-proxy": "2.10.0",
     "com.unity.feature.2d": "2.0.1",
