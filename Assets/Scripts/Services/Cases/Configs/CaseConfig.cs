@@ -4,11 +4,12 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using QCore.AddressablesWrapper.Containers;
 using QCore.Tools.Configs;
+using Services.Skins.Configs;
 using UnityEngine;
 
-namespace Services.Skins.Configs
+namespace Services.Cases.Configs
 {
-    [CreateAssetMenu(menuName = "Configs/Skins/" + nameof(CaseConfig), fileName = nameof(CaseConfig))]
+    [CreateAssetMenu(menuName = "Configs/Cases/" + nameof(CaseConfig), fileName = nameof(CaseConfig))]
     public class CaseConfig : IdentifiedScriptableObject
     {
         public UIContextData ContextData => _contextData;

@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Services.Skins.Configs
 {
-    [CreateAssetMenu(menuName = "Configs/Skins/" + nameof(SkinConfig), fileName = nameof(SkinConfig))]
+    [CreateAssetMenu(menuName = "Configs/Skins/" + nameof(SkinsGlobalSettingsConfig), fileName = nameof(SkinsGlobalSettingsConfig))]
     public class SkinsGlobalSettingsConfig : ScriptableObject
     {
         public AnimationCurve FloatValueCurve => _floatValueCurve;
@@ -14,7 +14,7 @@ namespace Services.Skins.Configs
         public float PriceMultiplierBySouvenir => _priceMultiplierBySouvenir;
         public float StatTrakChance => _statTrakChance;
         public float SouvenirChance => _souvenirChance;
-        public SerializableKeyValuePairCollection<Wear, FloatRange> WearValuesMap => _wearValuesMap;
+        public IReadOnlyList<KeyValue<Wear, FloatRange>> WearValuesMap => _wearValuesMap;
         
         [SerializeField] private AnimationCurve _floatValueCurve;
         [SerializeField] private AnimationCurve _priceByFloatValueCurve;
@@ -22,6 +22,6 @@ namespace Services.Skins.Configs
         [SerializeField] [Range(0f, 1f)] private float _souvenirChance;
         [SerializeField] private float _priceMultiplierByStatTrak;
         [SerializeField] private float _priceMultiplierBySouvenir;
-        [SerializeField] private SerializableKeyValuePairCollection<Wear, FloatRange> _wearValuesMap;
+        [SerializeField] private List<KeyValue<Wear, FloatRange>> _wearValuesMap;
     }
 }

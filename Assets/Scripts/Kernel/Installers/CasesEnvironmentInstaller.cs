@@ -1,3 +1,4 @@
+using Services.Cases.Configs;
 using Services.Skins.Configs;
 using UnityEngine;
 using Zenject;
