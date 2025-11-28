@@ -1,0 +1,44 @@
+using System.Collections.Generic;
+using System.Linq;
+using QCore.Tools.Identifiers;
+using QCore.Tools.Mathematics;
+using Services.Skins.Configs;
+using Zenject;
+
+namespace Services.Skins
+{
+    public class SkinsDatabaseService : ISkinsDatabaseService
+    {
+        [Inject] private AllSkinsConfig _allSkinsConfig;
+        [Inject] private SkinsGlobalSettingsConfig _skinsGlobalSettingsConfig;
+
+        private Dictionary<QGuid, SkinConfig> _skinsMap;
+        
+        public void Init()
+        {
+            _skinsMap = _allSkinsConfig.Skins.ToDictionary(a => a.Id, b => b);
+        }
+
+        public SkinConfig GetSkinConfigById(QGuid id)
+        {
+            return _skinsMap[id];
+        }
+
+        public Wear GetSkinWear(Skin skin)
+        {
+            float floatValue = skin.FloatValue;
+
+            foreach (var pair in _skinsGlobalSettingsConfig.WearValuesMap)
+            {
+                FloatRange range = pair.Value;
+                
+                if (range.InRange(floatValue))
+                {
+                    return pair.Key;
+                }
+            }
+
+            return Wear.BattleScarred;
+        }
+    }
+}

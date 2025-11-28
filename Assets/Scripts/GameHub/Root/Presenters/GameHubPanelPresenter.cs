@@ -5,8 +5,6 @@ namespace GameHub.Root.Presenters
 {
     public class GameHubPanelPresenter : PanelPresenter<GameHubPanel>
     {
-        
-        
         protected override void StartPresentingInternal()
         {
             Panel.CasesClickHandle += CasesClickHandle;

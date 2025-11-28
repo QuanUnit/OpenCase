@@ -46,7 +46,7 @@
         "com.cysharp.unitask": "2.5.5",
         "com.dbrizov.naughtyattributes": "2.1.4"
       },
-      "hash": "9180309bab3f1443a8aaf35ea2f8780878c904d9"
+      "hash": "c046f796362a90d29ac62500da7b72b820e1e135"
     },
     "com.qcore.ui": {
       "version": "https://github.com/QuanUnit/QCore.git?path=/Assets/QCore/UISystem#modules/ui",
