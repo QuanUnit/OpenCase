@@ -15,8 +15,188 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: 7fa7cfac63b5245409cdfcfbb1bfaaba
   m_SerializeEntries:
+  - m_GUID: 0da6673ac05c962488b68ea770f1af37
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_64_CZ75-Auto_Emerald.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f3ba1e2d1ba96248b18a201cb44e237
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_65_CZ75-Auto_Emerald_Quartz.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 191fa7cdbbf4e7c45943726dfacb9887
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_54_CZ75-Auto_Pole_Position.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ac4bf44cce533e4298352e199a7b348
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_52_CZ75-Auto_Chalice.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fa8f8b2a0c97cf4282410b19942ba90
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_59_CZ75-Auto_Tigris.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 302f64f075abd2940b38c3cf190abb3b
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_57_CZ75-Auto_Syndicate.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31e6218abef9d53409c92811de91ffc9
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_72_CZ75-Auto_Twist.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34126fea8493f204f913ec0ff6fa8fc3
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_69_CZ75-Auto_Poison_Dart.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a2485c285d5590478c432eb8f6d5278
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_50_CZ75-Auto_Xiangliu.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40698fa9df70b364f8671febc63c5f0e
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_78_CZ75-Auto_Framework.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4220e6d4d7de32545a0cd701621356e1
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_54_Desert_Eagle_Golden_Koi.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f4ce31e745d48f43bdf4305d344d335
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_57_Desert_Eagle_Ocean_Drive.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60e9ff80b429c2244beb75817c45d67e
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_62_CZ75-Auto_Crimson_Web.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64d0e5bb205822b45b7e9b0538975f12
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_56_Desert_Eagle_Printstream.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69514195ecbd5b34b9f24ea7578c4f0d
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_75_CZ75-Auto_Midnight_Palm.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6dc53577899024442928060591df3334
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_67_CZ75-Auto_Imprint.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70cf021846069204cbb72f36af8bbb40
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_68_CZ75-Auto_Nitro.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b1a094508dcaee46868a8ca5010e890
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_74_CZ75-Auto_Copper_Fiber.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fda79a5aaa258a409ea181d9bf4eadf
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_70_CZ75-Auto_Polymer.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1f50059916f10947906126f5febe20c
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_48_CZ75-Auto_Victoria.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba884675075533a42beda95f6386f3b6
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_66_CZ75-Auto_Hexane.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c23cad43665e51e40bcceb096ec6cae7
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_81_CZ75-Auto_Indigo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c26f20201e6001243ae61c04d7ed92cb
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_55_CZ75-Auto_Red_Astor.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c60a3a7bc4e75d24596b28e6626aab0f
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_49_CZ75-Auto_The_Fuschia_Is_Now.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c936846b39f3b8243a6418a0172f0c7b
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_83_CZ75-Auto_Pink_Pearl.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c99f53bd7bb6df346978f7093525199d
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_56_CZ75-Auto_Slalom.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d729f8b4b873c8e4fae64e568f9359d2
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_79_CZ75-Auto_Green_Plaid.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7a1c55904f78a845b8bdefbecc2284d
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_71_CZ75-Auto_Tuxedo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0764e76c5a6bd541a9956e94317d00b
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_53_CZ75-Auto_Eco.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6b964440573c744eba078e868c5d582
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_55_Desert_Eagle_Code_Red.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec0eff895fc943e4998c3befc34a326e
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_51_CZ75-Auto_Yellow_Jacket.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed1a8ca1629d0d046a955af52bff1817
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_77_CZ75-Auto_Army_Sheen.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edd9e285ec7faf54f94fcc40e3877fce
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_63_CZ75-Auto_Distressed.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f84155e950e6d334493cdb19c3cbea09
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_61_CZ75-Auto_Circaetus.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc9e6e9e0b6e88b42a4507ce61bfa8a8
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_60_CZ75-Auto_Tread_Plate.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ff05fd6aa35d5104cb1183ceda725e2e
     m_Address: RuntimeScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fff31383b937ae14f88207e32116584c
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_58_CZ75-Auto_Tacticat.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

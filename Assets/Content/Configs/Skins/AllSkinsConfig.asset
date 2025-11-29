@@ -12,4 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ab1b05f67314e36aa12a9b1fb777848, type: 3}
   m_Name: AllSkinsConfig
   m_EditorClassIdentifier: 
-  _skins: []
+  _skins:
+  - {fileID: 11400000, guid: bf2bfec8c42b48b4ab4cde0cad67f730, type: 2}
+  - {fileID: 11400000, guid: a48c6683f9c01824b9ad1a502287300f, type: 2}
+  - {fileID: 11400000, guid: 949ee1bde26d0844e857bd1a9a19dbfc, type: 2}
+  - {fileID: 11400000, guid: d4712166a7d3a384c8d1f3b710ba9dd2, type: 2}
+  - {fileID: 11400000, guid: 1179a3e63fa781143bea545b4a8c705d, type: 2}
+  - {fileID: 11400000, guid: 0cfefaf2d3a65544dbdb5e726222073a, type: 2}

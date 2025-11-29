@@ -46,3 +46,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _allSkinsConfig: {fileID: 11400000, guid: 477f6d101d30cb84d8b7b6ba3a277190, type: 2}
   _skinsGlobalSettingsConfig: {fileID: 11400000, guid: fa2ebab03e780a043a8d4e6f20758105, type: 2}
+  _skinsUIContextDataConfig: {fileID: 11400000, guid: f5a89ada1107035469b9d1827e3b3943, type: 2}

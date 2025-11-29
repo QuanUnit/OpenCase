@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using GameHub.Cases.Panels;
+using GameHub.Cases.Presenters;
 using GameHub.Root.Panels;
 using GameHub.Root.Presenters;
 using QCore.UISystem.Panels;
@@ -16,6 +18,7 @@ namespace Services.UI.Common
         private Dictionary<Type, Type> _panelTypeToPresenterType = new Dictionary<Type, Type>()
         {
             { typeof(GameHubPanel), typeof(GameHubPanelPresenter) },
+            { typeof(CasesSubPanel), typeof(CasesSubPanelPresenter) },
         };
         
         public IPanelPresenter<T> Create<T>(T panel) where T : Panel

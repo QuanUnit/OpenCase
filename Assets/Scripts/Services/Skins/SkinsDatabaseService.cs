@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Cysharp.Threading.Tasks;
 using QCore.Tools.Identifiers;
 using QCore.Tools.Mathematics;
 using Services.Skins.Configs;
@@ -9,11 +10,26 @@ namespace Services.Skins
 {
     public class SkinsDatabaseService : ISkinsDatabaseService
     {
+        public IEnumerable<SkinConfig> AllSkinsConfigs => _skinsMap.Values;
+        
         [Inject] private AllSkinsConfig _allSkinsConfig;
         [Inject] private SkinsGlobalSettingsConfig _skinsGlobalSettingsConfig;
 
         private Dictionary<QGuid, SkinConfig> _skinsMap;
         
+        public async UniTask LoadAllSkins()
+        {
+            List<UniTask> tasks = new List<UniTask>(_allSkinsConfig.Skins.Count);
+
+            foreach (var skin in _allSkinsConfig.Skins)
+            {
+                UniTask task = skin.LoadAssets();
+                tasks.Add(task);
+            }
+
+            await UniTask.WhenAll(tasks);
+        }
+
         public void Init()
         {
             _skinsMap = _allSkinsConfig.Skins.ToDictionary(a => a.Id, b => b);
@@ -39,6 +55,14 @@ namespace Services.Skins
             }
 
             return Wear.BattleScarred;
+        }
+
+        public void ReleaseAllSkins()
+        {
+            foreach (var skin in _allSkinsConfig.Skins)
+            {
+                skin.ReleaseAssets();
+            }
         }
     }
 }

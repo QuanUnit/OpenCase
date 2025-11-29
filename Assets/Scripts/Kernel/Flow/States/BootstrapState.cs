@@ -1,6 +1,5 @@
 using QCore.StateMachine.States;
 using QCore.UISystem.Services;
-using Services;
 using Services.Skins;
 using Zenject;
 
@@ -10,6 +9,7 @@ namespace Kernel.Flow.States
     {
         [Inject] private IUIPanelsService _panelsService;
         [Inject] private ISkinsDatabaseService _skinsDatabaseService;
+        [Inject] private ISkinsUIContextDataService _skinsUIContextDataService;
         
         public override void Enter()
         {
@@ -22,6 +22,7 @@ namespace Kernel.Flow.States
         {
             _panelsService.Init();
             _skinsDatabaseService.Init();
+            _skinsUIContextDataService.Init();
         }
     }
 }
