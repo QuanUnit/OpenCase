@@ -17,7 +17,7 @@ namespace Services.Skins
 
         private Dictionary<QGuid, SkinConfig> _skinsMap;
         
-        public async UniTask LoadAllSkins()
+        public async UniTask LoadAllSkinsAssets()
         {
             List<UniTask> tasks = new List<UniTask>(_allSkinsConfig.Skins.Count);
 
@@ -57,7 +57,7 @@ namespace Services.Skins
             return Wear.BattleScarred;
         }
 
-        public void ReleaseAllSkins()
+        public void ReleaseAllSkinsAssets()
         {
             foreach (var skin in _allSkinsConfig.Skins)
             {

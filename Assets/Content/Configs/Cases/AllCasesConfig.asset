@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f04be85a8a7549cf962d177b591dfec7, type: 3}
   m_Name: AllCasesConfig
   m_EditorClassIdentifier: 
-  _cases: []
+  _categoriesMap:
+  - Key:
+      Name: Secret Collection
+    Value:
+    - {fileID: 11400000, guid: 7b05c9cadde93354fb3eb08bf5256748, type: 2}

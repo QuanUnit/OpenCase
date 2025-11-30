@@ -15,10 +15,11 @@ namespace Services.UI.Common
     {
         [Inject] private DiContainer _container;
 
-        private Dictionary<Type, Type> _panelTypeToPresenterType = new Dictionary<Type, Type>()
+        private readonly Dictionary<Type, Type> _panelTypeToPresenterType = new Dictionary<Type, Type>()
         {
             { typeof(GameHubPanel), typeof(GameHubPanelPresenter) },
             { typeof(CasesSubPanel), typeof(CasesSubPanelPresenter) },
+            { typeof(CaseSpinSubPanel), typeof(CaseSpinSubPanelPresenter) },
         };
         
         public IPanelPresenter<T> Create<T>(T panel) where T : Panel

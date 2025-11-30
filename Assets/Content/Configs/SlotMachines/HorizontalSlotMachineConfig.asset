@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: HorizontalSlotMachineConfig
   m_EditorClassIdentifier: 
   _durationRange:
-    _from: 5
+    _from: 5.5
     _to: 5.5
   _spinningCurve:
     serializedVersion: 2

@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using QCore.StateMachine.States;
+using Services.Cases;
 using Services.Skins;
 using Zenject;
 
@@ -9,6 +10,7 @@ namespace Kernel.Flow.States
     public class LoadingAssetsState : State
     {
         [Inject] private ISkinsDatabaseService _skinsDatabaseService;
+        [Inject] private ICasesDatabaseService _casesDatabaseService;
         
         public override async void Enter()
         {
@@ -21,7 +23,8 @@ namespace Kernel.Flow.States
         {
             List<UniTask> tasks = new List<UniTask>()
             {
-                _skinsDatabaseService.LoadAllSkins(),
+                _skinsDatabaseService.LoadAllSkinsAssets(),
+                _casesDatabaseService.LoadCasesAssets(),
             };
 
             await UniTask.WhenAll(tasks);

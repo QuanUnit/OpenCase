@@ -8,10 +8,10 @@ namespace Services.Skins
     public interface ISkinsDatabaseService
     {
         public IEnumerable<SkinConfig> AllSkinsConfigs { get; }
-        public UniTask LoadAllSkins();
+        public UniTask LoadAllSkinsAssets();
         public void Init();
         public SkinConfig GetSkinConfigById(QGuid id);
         public Wear GetSkinWear(Skin skin);
-        public void ReleaseAllSkins();
+        public void ReleaseAllSkinsAssets();
     }
 }

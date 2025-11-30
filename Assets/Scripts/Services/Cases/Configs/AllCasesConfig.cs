@@ -1,6 +1,6 @@
+using System;
 using System.Collections.Generic;
-using NaughtyAttributes;
-using Tools.AssetsExtensions;
+using QCore.Tools.Collections;
 using UnityEngine;
 
 namespace Services.Cases.Configs
@@ -8,19 +8,14 @@ namespace Services.Cases.Configs
     [CreateAssetMenu(menuName = "Configs/Cases/" + nameof(AllCasesConfig), fileName = nameof(AllCasesConfig))]
     public class AllCasesConfig : ScriptableObject
     {
-        public IReadOnlyList<CaseConfig> Cases => _cases;
+        public IReadOnlyList<KeyValue<CasesCategory, List<CaseConfig>>> CategoriesMap => _categoriesMap;
         
-        [SerializeField] private List<CaseConfig> _cases;
-
-#if UNITY_EDITOR
-        
-        [Button]
-        private void Collect()
-        {
-            _cases = AssetDatabaseTools.FindAllAssets<CaseConfig>();
-        }
-        
-#endif
-
+        [SerializeField] private List<KeyValue<CasesCategory, List<CaseConfig>>> _categoriesMap;
+    }
+    
+    [Serializable]
+    public struct CasesCategory
+    {
+        public string Name;
     }
 }

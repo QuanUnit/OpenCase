@@ -64,6 +64,7 @@ namespace SlotMachines.Horizontal
             _spinTween = null;
             _cts?.Cancel();
             _cts?.Dispose();
+            _cts = null;
         }
 
         public void StopSpinAndClear()

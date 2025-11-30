@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using QCore.AddressablesWrapper.Containers;
+using QCore.Tools.Collections;
 using QCore.Tools.Configs;
 using Services.Skins.Configs;
 using UnityEngine;
@@ -14,31 +15,22 @@ namespace Services.Cases.Configs
     {
         public UIContextData ContextData => _contextData;
         public string Name => _name;
-        public IReadOnlyList<SkinConfig> SkinConfigs => _skinConfigs;
+        public float Price => _price;
+        public WeightedMap<SkinConfig> SkinsMapEntries => _skinsMap;
         
         [SerializeField] private string _name;
+        [SerializeField] private float _price;
         [SerializeField] private UIContextData _contextData;
-        [SerializeField] private List<SkinConfig> _skinConfigs;
+        [SerializeField] private WeightedMap<SkinConfig> _skinsMap;
 
         public async UniTask LoadAssets(CancellationToken cancellationToken = default)
         {
-            List<UniTask> tasks = new List<UniTask>(_skinConfigs.Count);
-
-            foreach (var skin in _skinConfigs)
-            {
-                UniTask task = skin.LoadAssets(cancellationToken);
-                tasks.Add(task);
-            }
-
-            await UniTask.WhenAll(tasks);
+            await _contextData.SpriteSource.Load(cancellationToken);
         }
 
         public void ReleaseAssets()
         {
-            foreach (var skin in _skinConfigs)
-            {
-                skin.ReleaseAssets();
-            }
+            _contextData.SpriteSource.Release();
         }
         
         [Serializable]

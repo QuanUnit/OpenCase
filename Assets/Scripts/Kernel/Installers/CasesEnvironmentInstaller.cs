@@ -1,5 +1,5 @@
+using Services.Cases;
 using Services.Cases.Configs;
-using Services.Skins.Configs;
 using UnityEngine;
 using Zenject;
 
@@ -12,6 +12,8 @@ namespace Kernel.Installers
         public override void InstallBindings()
         {
             Container.BindInstance(_allCasesConfig).AsSingle();
+
+            Container.Bind<ICasesDatabaseService>().To<CasesDatabaseService>().AsSingle();
         }
     }
 }

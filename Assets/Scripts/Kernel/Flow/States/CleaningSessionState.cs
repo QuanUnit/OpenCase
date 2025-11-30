@@ -21,7 +21,7 @@ namespace Kernel.Flow.States
 
         private void ReleaseAssets()
         {
-            _skinsDatabaseService.ReleaseAllSkins();
+            _skinsDatabaseService.ReleaseAllSkinsAssets();
         }
     }
 }

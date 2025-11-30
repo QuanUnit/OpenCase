@@ -46,7 +46,7 @@
         "com.cysharp.unitask": "2.5.5",
         "com.dbrizov.naughtyattributes": "2.1.4"
       },
-      "hash": "ef87fc46bf7c11b8fbdfd1e64c41a5eee316f9af"
+      "hash": "6e57303f3669be863b795e89a5d24103cacb7bc9"
     },
     "com.qcore.ui": {
       "version": "https://github.com/QuanUnit/QCore.git?path=/Assets/QCore/UISystem#modules/ui",
@@ -55,7 +55,7 @@
       "dependencies": {
         "com.cysharp.unitask": "2.2.5"
       },
-      "hash": "b4706c5b11088429a3af7ce08782aa2cd72eb25e"
+      "hash": "8f8d939065e80683f2b08ba78040de5f6bcde83d"
     },
     "com.unity.2d.animation": {
       "version": "10.2.1",
