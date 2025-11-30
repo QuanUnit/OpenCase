@@ -70,6 +70,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44ff9f774390af34787c9c54dea659cb
+    m_Address: Assets/Content/Textures/Cases/case_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4f4ce31e745d48f43bdf4305d344d335
     m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_57_Desert_Eagle_Ocean_Drive.png
     m_ReadOnly: 0

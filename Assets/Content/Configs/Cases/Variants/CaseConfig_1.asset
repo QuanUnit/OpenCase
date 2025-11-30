@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
-  m_Name: CaseConfig
+  m_Name: CaseConfig_1
   m_EditorClassIdentifier: 
   _id:
     _idBody: e0ce30c5-c681-4822-a26d-d1ec485ac3d0
@@ -19,7 +19,7 @@ MonoBehaviour:
   _contextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: 0da6673ac05c962488b68ea770f1af37
+        m_AssetGUID: 44ff9f774390af34787c9c54dea659cb
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 
@@ -27,9 +27,9 @@ MonoBehaviour:
   _skinsMap:
     _entries:
     - Key: {fileID: 11400000, guid: bf2bfec8c42b48b4ab4cde0cad67f730, type: 2}
-      Value: 10
+      Value: 15
     - Key: {fileID: 11400000, guid: a48c6683f9c01824b9ad1a502287300f, type: 2}
-      Value: 10
+      Value: 1
     - Key: {fileID: 11400000, guid: 949ee1bde26d0844e857bd1a9a19dbfc, type: 2}
       Value: 1
     - Key: {fileID: 11400000, guid: d4712166a7d3a384c8d1f3b710ba9dd2, type: 2}
