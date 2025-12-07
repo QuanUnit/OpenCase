@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5f94c84b3aa729f489179d88564e304a
+guid: e7b0149386aa19445a66b2f5aac4e542
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2116404285546977000
-    second: Copilot_20251130_153231_0
+      213: -1366600086726182377
+    second: Copilot_20251130_161539_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,9 +46,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Copilot_20251130_153231_0
+      name: Copilot_20251130_161539_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 19
-        width: 1005
-        height: 1000
+        x: 55
+        y: 36
+        width: 967
+        height: 983
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e654290c7afe5d10800000000000000
-      internalID: 2116404285546977000
+      spriteID: 71afaa0367cd80de0800000000000000
+      internalID: -1366600086726182377
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Copilot_20251130_153231_0: 2116404285546977000
+      Copilot_20251130_161539_0: -1366600086726182377
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

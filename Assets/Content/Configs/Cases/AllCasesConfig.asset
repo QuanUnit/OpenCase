@@ -16,4 +16,5 @@ MonoBehaviour:
   - Key:
       Name: Secret Collection
     Value:
-    - {fileID: 11400000, guid: 7b05c9cadde93354fb3eb08bf5256748, type: 2}
+    - {fileID: 11400000, guid: 16d02fdbba33fdf42a4cc7d28c84246b, type: 2}
+    - {fileID: 11400000, guid: 24b2351aacdab4249965ace77cc8b838, type: 2}

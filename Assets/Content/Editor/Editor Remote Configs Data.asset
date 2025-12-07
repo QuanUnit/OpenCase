@@ -25,7 +25,7 @@ MonoBehaviour:
     Parser:
       rid: 7223176935738703951
     Interpreter:
-      rid: 7223176876830228560
+      rid: 7223176935738703952
   references:
     version: 2
     RefIds:
@@ -44,3 +44,7 @@ MonoBehaviour:
       data:
         _modelType:
           classRef: RemoteData.Editor.Models.SkinDataModel, Assembly-CSharp-Editor
+    - rid: 7223176935738703952
+      type: {class: CasesDataInterpreter, ns: RemoteData.Editor.Interpreters, asm: Assembly-CSharp-Editor}
+      data:
+        _casesFolder: {fileID: 102900000, guid: 0d399f878262273439e847b317ed0a21, type: 3}

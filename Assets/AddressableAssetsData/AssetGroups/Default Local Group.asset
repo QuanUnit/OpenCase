@@ -345,6 +345,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7b0149386aa19445a66b2f5aac4e542
+    m_Address: Assets/Content/Textures/Cases/case_2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ec0eff895fc943e4998c3befc34a326e
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_51_CZ75-Auto_Yellow_Jacket.png
     m_ReadOnly: 0
