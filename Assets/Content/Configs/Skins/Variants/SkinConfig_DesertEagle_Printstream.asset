@@ -18,14 +18,14 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: 
+        m_AssetGUID: 64d0e5bb205822b45b7e9b0538975f12
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
-  Rarity: 0
+  Rarity: 3
   Price:
-    MinPrice: 0
-    MaxPrice: 0
-  AvailableStatTrak: 0
+    MinPrice: 100
+    MaxPrice: 400
+  AvailableStatTrak: 1
   AvailableSouvenir: 0

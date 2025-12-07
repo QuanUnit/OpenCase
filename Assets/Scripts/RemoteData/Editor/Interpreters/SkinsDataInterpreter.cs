@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
+using QCore.AddressablesWrapper.Containers;
 using RemoteData.Editor.Models;
 using Services.Skins.Configs;
 using UnityEditor;
@@ -12,20 +14,25 @@ namespace RemoteData.Editor.Interpreters
     public class SkinsDataInterpreter : IInterpreter
     {
         [SerializeField] private DefaultAsset _skinsFolder;
+        [SerializeField] private DefaultAsset _skinsIconsSourceFolder;
         
         public void Interpret(List<IEntityModel> parsedData)
         {
-            string path = AssetDatabase.GetAssetPath(_skinsFolder);
-            Dictionary<string, SkinConfig> allSkinsMap = GetExistingSkins(path);
+            string skinsPath = AssetDatabase.GetAssetPath(_skinsFolder);
+            string skinsIconsPath = AssetDatabase.GetAssetPath(_skinsIconsSourceFolder);
+            
+            Dictionary<string, SkinConfig> allSkinsMap = GetExistingSkins(skinsPath);
             
             foreach (SkinDataModel skinDataModel in parsedData)
             {
-                SkinConfig skinConfig = TryGetOrCreateNew(allSkinsMap, skinDataModel.Id, path);
+                SkinConfig skinConfig = TryGetOrCreateNew(allSkinsMap, skinDataModel.Id, skinsPath);
 
                 skinConfig.Price = new PriceRange(skinDataModel.Price.Min, skinDataModel.Price.Max);
                 skinConfig.AvailableSouvenir = skinDataModel.AvailableSouvenir;
                 skinConfig.AvailableStatTrak = skinDataModel.AvailableStatTrak;
                 skinConfig.Rarity = skinDataModel.Rarity;
+
+                TrySetIconToSkin(skinConfig, skinsIconsPath);
                 
                 EditorUtility.SetDirty(skinConfig);
                 AssetDatabase.SaveAssetIfDirty(skinConfig);
@@ -67,17 +74,55 @@ namespace RemoteData.Editor.Interpreters
         private SkinConfig CrateNew(string skinId, string skinsPath)
         {
             SkinConfig newSkin = ScriptableObject.CreateInstance<SkinConfig>();
-            newSkin.name = $"SkinConfig_{skinId}";
             newSkin.CreateId();
             newSkin.SkinStringId = skinId;
 
-            string assetPath = $"{skinsPath}/{skinId}.asset";
+            string assetPath = $"{skinsPath}/SkinConfig_{skinId}.asset";
 
             AssetDatabase.CreateAsset(newSkin, assetPath);
-            EditorUtility.SetDirty(newSkin);
-            AssetDatabase.SaveAssetIfDirty(newSkin);
             
             return newSkin;
+        }
+
+        private bool TrySetIconToSkin(SkinConfig skinConfig, string iconsRootPath)
+        {
+            if (skinConfig == null || string.IsNullOrEmpty(iconsRootPath))
+                return false;
+
+            string[] files = Directory.GetFiles(iconsRootPath, "*.png", SearchOption.AllDirectories);
+
+            foreach (string file in files)
+            {
+                string assetPath = file.Replace("\\", "/");
+                string fileName = Path.GetFileNameWithoutExtension(assetPath);
+
+                string[] fileParts = fileName.Split('_', StringSplitOptions.RemoveEmptyEntries);
+                string[] skinParts = skinConfig.name.Split('_', StringSplitOptions.RemoveEmptyEntries);
+
+                if (fileParts.Length > 0 && skinParts.Length > 0)
+                {
+                    string lastFileWord = fileParts[^1];
+                    string lastSkinWord = skinParts[^1];
+
+                    if (string.Equals(lastFileWord, lastSkinWord, StringComparison.OrdinalIgnoreCase))
+                    {
+                        Sprite icon = AssetDatabase.LoadAssetAtPath<Sprite>(assetPath);
+                        if (icon != null)
+                        {
+                            string iconGuid = AssetDatabase.AssetPathToGUID(assetPath);
+
+                            skinConfig.ContextData = new SkinConfig.UIContextData()
+                            {
+                                SpriteSource = new AddressableLoadContainerSprite(iconGuid)
+                            };
+
+                            return true;
+                        }
+                    }
+                }
+            }
+
+            return false;
         }
     }
 }
