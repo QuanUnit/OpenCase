@@ -8,6 +8,12 @@ namespace Tools.Mathematics
         public int Min;
         public int Max;
 
+        public IntRange(int min, int max)
+        {
+            Min = min;
+            Max = max;
+        }
+        
         public bool IsInside(int value)
         {
             return value >= Min && value <= Max;

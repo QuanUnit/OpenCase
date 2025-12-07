@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac22031112ea42b183a8d7f67e344c5c, type: 3}
+  m_Name: Editor Remote Configs Data
+  m_EditorClassIdentifier: 
+  SheetId: 1BDM3-eJjxRLRXyI6vH9Fj_krPHTZDppZI7jJINBstAE
+  Pages:
+  - Name: Skins
+    Id: 0
+    Parser:
+      rid: 7223176876830228559
+    Interpreter:
+      rid: 7223176876830228560
+  references:
+    version: 2
+    RefIds:
+    - rid: 7223176876830228559
+      type: {class: SkinsSheetParser, ns: RemoteData.Editor.Parsers, asm: Assembly-CSharp-Editor}
+      data:
+        _modelType:
+          classRef: RemoteData.Editor.Models.SkinDataModel, Assembly-CSharp-Editor
+    - rid: 7223176876830228560
+      type: {class: SkinsDataInterpreter, ns: RemoteData.Editor.Interpreters, asm: Assembly-CSharp-Editor}
+      data:
+        _skinsFolder: {fileID: 102900000, guid: 560caa7133b53a54fbd9a1034d9b21ae, type: 3}
