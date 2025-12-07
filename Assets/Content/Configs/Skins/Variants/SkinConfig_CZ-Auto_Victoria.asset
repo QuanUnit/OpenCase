@@ -15,6 +15,7 @@ MonoBehaviour:
   _id:
     _idBody: f981445c-e56c-4bdb-8eb5-fef89fe7c834
   SkinStringId: CZ-Auto_Victoria
+  Name: Victoria
   ContextData:
     SpriteSource:
       _assetReference:

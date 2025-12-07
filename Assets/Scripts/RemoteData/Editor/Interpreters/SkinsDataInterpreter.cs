@@ -31,6 +31,7 @@ namespace RemoteData.Editor.Interpreters
                 skinConfig.AvailableSouvenir = skinDataModel.AvailableSouvenir;
                 skinConfig.AvailableStatTrak = skinDataModel.AvailableStatTrak;
                 skinConfig.Rarity = skinDataModel.Rarity;
+                skinConfig.Name = skinDataModel.Name;
 
                 TrySetIconToSkin(skinConfig, skinsIconsPath);
                 

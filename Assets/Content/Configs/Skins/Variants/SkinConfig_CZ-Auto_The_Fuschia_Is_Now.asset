@@ -15,6 +15,7 @@ MonoBehaviour:
   _id:
     _idBody: dfa0b349-80a3-469d-b51a-4decd4f9c7e1
   SkinStringId: CZ-Auto_The_Fuschia_Is_Now
+  Name: The Fuschia Is Now
   ContextData:
     SpriteSource:
       _assetReference:

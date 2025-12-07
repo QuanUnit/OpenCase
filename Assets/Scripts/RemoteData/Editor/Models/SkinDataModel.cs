@@ -6,6 +6,7 @@ namespace RemoteData.Editor.Models
     public class SkinDataModel : IEntityModel
     {
         public string Id;
+        public string Name;
         public Rarity Rarity;
         public IntRange Price;
         public bool AvailableStatTrak;

@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using QCore.AddressablesWrapper.Containers;
@@ -13,24 +12,20 @@ namespace Services.Cases.Configs
     [CreateAssetMenu(menuName = "Configs/Cases/" + nameof(CaseConfig), fileName = nameof(CaseConfig))]
     public class CaseConfig : IdentifiedScriptableObject
     {
-        public UIContextData ContextData => _contextData;
-        public string Name => _name;
-        public float Price => _price;
-        public WeightedMap<SkinConfig> SkinsMapEntries => _skinsMap;
+        public string CaseStringId;
+        public string Name;
+        public float Price;
+        public WeightedMap<SkinConfig> SkinsMapEntries;
+        public UIContextData ContextData;
         
-        [SerializeField] private string _name;
-        [SerializeField] private float _price;
-        [SerializeField] private UIContextData _contextData;
-        [SerializeField] private WeightedMap<SkinConfig> _skinsMap;
-
         public async UniTask LoadAssets(CancellationToken cancellationToken = default)
         {
-            await _contextData.SpriteSource.Load(cancellationToken);
+            await ContextData.SpriteSource.Load(cancellationToken);
         }
 
         public void ReleaseAssets()
         {
-            _contextData.SpriteSource.Release();
+            ContextData.SpriteSource.Release();
         }
         
         [Serializable]

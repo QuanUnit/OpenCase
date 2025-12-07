@@ -11,6 +11,7 @@ namespace Services.Skins.Configs
     public class SkinConfig : IdentifiedScriptableObject
     {
         public string SkinStringId;
+        public string Name;
         public UIContextData ContextData;
         public Rarity Rarity;
         public PriceRange Price;

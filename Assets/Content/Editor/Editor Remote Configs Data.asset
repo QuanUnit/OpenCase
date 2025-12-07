@@ -20,6 +20,12 @@ MonoBehaviour:
       rid: 7223176876830228559
     Interpreter:
       rid: 7223176876830228560
+  - Name: Cases
+    Id: 686572383
+    Parser:
+      rid: 7223176935738703951
+    Interpreter:
+      rid: 7223176876830228560
   references:
     version: 2
     RefIds:
@@ -32,3 +38,9 @@ MonoBehaviour:
       type: {class: SkinsDataInterpreter, ns: RemoteData.Editor.Interpreters, asm: Assembly-CSharp-Editor}
       data:
         _skinsFolder: {fileID: 102900000, guid: 560caa7133b53a54fbd9a1034d9b21ae, type: 3}
+        _skinsIconsSourceFolder: {fileID: 102900000, guid: 2e3da14a374621b4986714adbdcee823, type: 3}
+    - rid: 7223176935738703951
+      type: {class: CasesSheetParser, ns: RemoteData.Editor.Parsers, asm: Assembly-CSharp-Editor}
+      data:
+        _modelType:
+          classRef: RemoteData.Editor.Models.SkinDataModel, Assembly-CSharp-Editor

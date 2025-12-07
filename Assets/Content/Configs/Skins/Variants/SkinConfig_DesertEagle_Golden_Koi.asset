@@ -15,6 +15,7 @@ MonoBehaviour:
   _id:
     _idBody: 6938d2e2-5f71-4f53-a6a1-9775c5bf6774
   SkinStringId: DesertEagle_Golden_Koi
+  Name: Golden_Koi
   ContextData:
     SpriteSource:
       _assetReference:

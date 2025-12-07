@@ -10,31 +10,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
-  m_Name: CaseConfig_1
+  m_Name: CaseConfig_Case_Test
   m_EditorClassIdentifier: 
   _id:
-    _idBody: e0ce30c5-c681-4822-a26d-d1ec485ac3d0
-  _name: Military
-  _price: 29
-  _contextData:
+    _idBody: 5b30bd4e-a49a-4410-ae76-badb47d0c6be
+  CaseStringId: Case_Test
+  Name: Test
+  Price: 21.99
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: a48c6683f9c01824b9ad1a502287300f, type: 2}
+      Value: 10.5
+    - Key: {fileID: 11400000, guid: bf2bfec8c42b48b4ab4cde0cad67f730, type: 2}
+      Value: 10.5
+    - Key: {fileID: 11400000, guid: 949ee1bde26d0844e857bd1a9a19dbfc, type: 2}
+      Value: 10.5
+    - Key: {fileID: 11400000, guid: d4712166a7d3a384c8d1f3b710ba9dd2, type: 2}
+      Value: 10.5
+    - Key: {fileID: 11400000, guid: 1179a3e63fa781143bea545b4a8c705d, type: 2}
+      Value: 10.5
+    - Key: {fileID: 11400000, guid: 0cfefaf2d3a65544dbdb5e726222073a, type: 2}
+      Value: 10.5
+  ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: 44ff9f774390af34787c9c54dea659cb
+        m_AssetGUID: 
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
-  _skinsMap:
-    _entries:
-    - Key: {fileID: 11400000, guid: bf2bfec8c42b48b4ab4cde0cad67f730, type: 2}
-      Value: 15
-    - Key: {fileID: 11400000, guid: a48c6683f9c01824b9ad1a502287300f, type: 2}
-      Value: 1
-    - Key: {fileID: 11400000, guid: 949ee1bde26d0844e857bd1a9a19dbfc, type: 2}
-      Value: 1
-    - Key: {fileID: 11400000, guid: d4712166a7d3a384c8d1f3b710ba9dd2, type: 2}
-      Value: 1
-    - Key: {fileID: 11400000, guid: 1179a3e63fa781143bea545b4a8c705d, type: 2}
-      Value: 1
-    - Key: {fileID: 11400000, guid: 0cfefaf2d3a65544dbdb5e726222073a, type: 2}
-      Value: 1

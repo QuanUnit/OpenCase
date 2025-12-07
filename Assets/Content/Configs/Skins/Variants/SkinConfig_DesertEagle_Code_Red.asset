@@ -15,6 +15,7 @@ MonoBehaviour:
   _id:
     _idBody: 054ba0fd-fe0f-47b9-a29a-6bf551df4c92
   SkinStringId: DesertEagle_Code_Red
+  Name: Code Red
   ContextData:
     SpriteSource:
       _assetReference:

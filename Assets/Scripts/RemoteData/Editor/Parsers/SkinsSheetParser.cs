@@ -34,14 +34,15 @@ namespace RemoteData.Editor.Parsers
                 SkinDataModel skinData = new SkinDataModel();
                 
                 skinData.Id = csvReader.GetField(0);
-                skinData.Rarity = csvReader.GetField<Rarity>(1);
+                skinData.Name = csvReader.GetField(1);
+                skinData.Rarity = csvReader.GetField<Rarity>(2);
 
-                string priceRange = csvReader.GetField(2);
+                string priceRange = csvReader.GetField(3);
                 Match match = _rangeRegex.Match(priceRange);
 
                 skinData.Price = new IntRange(int.Parse(match.Groups[1].Value), int.Parse(match.Groups[2].Value));
-                skinData.AvailableStatTrak = csvReader.GetField<bool>(3);
-                skinData.AvailableSouvenir = csvReader.GetField<bool>(4);
+                skinData.AvailableStatTrak = csvReader.GetField<bool>(4);
+                skinData.AvailableSouvenir = csvReader.GetField<bool>(5);
                 
                 skinDataModels.Add(skinData);
             }

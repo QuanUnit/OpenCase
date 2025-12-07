@@ -15,6 +15,7 @@ MonoBehaviour:
   _id:
     _idBody: ccdc2006-e82b-4690-9da0-9426d7642d6a
   SkinStringId: DesertEagle_Ocean_Drive
+  Name: Ocean_Drive
   ContextData:
     SpriteSource:
       _assetReference:

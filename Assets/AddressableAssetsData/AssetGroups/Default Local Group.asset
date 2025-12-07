@@ -15,6 +15,26 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: 7fa7cfac63b5245409cdfcfbb1bfaaba
   m_SerializeEntries:
+  - m_GUID: 016be9bae5c50944c8515eb8ff63c445
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_85_Desert_Eagle_Oxide_Blaze.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01f9d6856d973f74a94f62f49e1c321d
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_60_Desert_Eagle_Conspiracy.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 047d770ee8437604da519ae0b3993543
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_69_Desert_Eagle_Pilot.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 069d22b1eed518243aa424dbe98c0fab
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_62_Desert_Eagle_Mecha_Industries.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0da6673ac05c962488b68ea770f1af37
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_64_CZ75-Auto_Emerald.png
     m_ReadOnly: 0
@@ -22,6 +42,21 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0f3ba1e2d1ba96248b18a201cb44e237
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_65_CZ75-Auto_Emerald_Quartz.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1316b0d7b65ae2145bc2eba5a9080bdb
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_59_Desert_Eagle_Cobalt_Disruption.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1460c274185177444975b77d800c21d8
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_61_Desert_Eagle_Kumicho_Dragon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 159f3e3d793ea1942b599769d395db05
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_82_Desert_Eagle_Urban_Rubble.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -40,8 +75,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 257a624f4949dc441bc73ceeb9dfde50
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_47_CZ75-Auto.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26938f4acd731314b971655dab73de54
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_87_Desert_Eagle_Night_Heist.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 302f64f075abd2940b38c3cf190abb3b
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_57_CZ75-Auto_Syndicate.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3139dae6257cc3c46b6c1c2062b53957
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_66_Desert_Eagle_Heirloom.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -70,8 +120,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 435d4dd4172582e459286177357d97a3
+    m_Address: "Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_71_Desert_Eagle_Sunset_Storm_\u58F1.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 44ff9f774390af34787c9c54dea659cb
     m_Address: Assets/Content/Textures/Cases/case_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ec22c2b7d0a564459993694c9cc20ab
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_63_Desert_Eagle_Fennec_Fox.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -80,8 +140,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51d6869a4645f2742bbb672412e8023a
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_91_Desert_Eagle_Mudder.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a385f5ef4d215c42bcae373ca3bc884
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_92_Desert_Eagle_Urban_DDPAT.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 60e9ff80b429c2244beb75817c45d67e
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_62_CZ75-Auto_Crimson_Web.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6108eff927c3fd4428828a1be282eee8
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_96_Desert_Eagle_Tilted.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 629b3ed5269aa134599f3163f90745fa
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_94_Desert_Eagle_Night.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -90,8 +170,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6937bbc9f2421ac489d12ec56e2a4da4
+    m_Address: "Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_70_Desert_Eagle_Sunset_Storm_\u5F10.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 69514195ecbd5b34b9f24ea7578c4f0d
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_75_CZ75-Auto_Midnight_Palm.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a8057e3989975a45a772f80220c4fa8
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_68_Desert_Eagle_Blaze.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -105,6 +195,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74629ac4a03182d4f892446a6f9e7aaf
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_72_Desert_Eagle_Crimson_Web.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7b1a094508dcaee46868a8ca5010e890
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_74_CZ75-Auto_Copper_Fiber.png
     m_ReadOnly: 0
@@ -115,8 +210,48 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8127b1b1c59a48e40b20a8542d00e7e7
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_81_Desert_Eagle_Meteorite.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 851906d0f7695b74f9205a8f89a716ef
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_58_Desert_Eagle_Hypnotic.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8cf99a639777aad4ea3de3f6ec3f568a
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_84_Desert_Eagle_Corinthian.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91784c8c5bf6511418d09e91f2295c27
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_90_Desert_Eagle_Mint_Fan.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a10b11ea09ef5444985b2118e2fa8c75
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_93_Desert_Eagle_Midnight_Storm.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a1f50059916f10947906126f5febe20c
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_48_CZ75-Auto_Victoria.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a28184bba10bca3408beae787330b791
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_75_Desert_Eagle_Directive.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0091b9e5c558dd4e9b798b50bf3eedb
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_65_Desert_Eagle_Starcade.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba18ec353211e094a83f2d0d206fd35c
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_67_Desert_Eagle_Hand_Cannon.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -140,6 +275,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c726ccdf1c8777a48b0a407e1f6c57e8
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_73_Desert_Eagle_Naga.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c936846b39f3b8243a6418a0172f0c7b
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_83_CZ75-Auto_Pink_Pearl.png
     m_ReadOnly: 0
@@ -150,6 +290,31 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9b94dadc6e6a5347b3585618dca8880
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_79_Desert_Eagle_Mulberry.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccd2a50869ee4894383b5723e2bafa46
+    m_Address: "Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_77_Desert_Eagle_Emerald_J\xF6rmungandr.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfcc50663428c714cb6b8e38b1536e58
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_2_Desert_Eagle.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1c3fa3866f9a51488ee078e4195e990
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_86_Desert_Eagle_Blue_Ply.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2dd45e8d1c7d4944b50f65586404233
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_89_Desert_Eagle_Calligraffiti.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d729f8b4b873c8e4fae64e568f9359d2
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_79_CZ75-Auto_Green_Plaid.png
     m_ReadOnly: 0
@@ -157,6 +322,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d7a1c55904f78a845b8bdefbecc2284d
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_71_CZ75-Auto_Tuxedo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: daf857f0da2c1f2448d0aa6203961c59
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_78_Desert_Eagle_Trigger_Discipline.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd89986079fa71d44912082d6ab83063
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_80_Desert_Eagle_Serpent_Strike.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -185,13 +360,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f19f4d59fa1193e44bb86d903f5ab11a
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_76_Desert_Eagle_Light_Rail.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f24c20f67ebed41479ddbf547f0d5be2
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_64_Desert_Eagle_Heat_Treated.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f84155e950e6d334493cdb19c3cbea09
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_61_CZ75-Auto_Circaetus.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8b83050d5df20b4a80e9119d3f2df75
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_83_Desert_Eagle_Bronze_Deco.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fc9e6e9e0b6e88b42a4507ce61bfa8a8
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_60_CZ75-Auto_Tread_Plate.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd9b32e2f896e734baf7454ed2226000
+    m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_88_Desert_Eagle_Sputnik.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

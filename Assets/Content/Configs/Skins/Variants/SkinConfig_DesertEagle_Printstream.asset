@@ -15,6 +15,7 @@ MonoBehaviour:
   _id:
     _idBody: fe23cea0-ae8e-447b-87c0-ab24a466787f
   SkinStringId: DesertEagle_Printstream
+  Name: Printstream
   ContextData:
     SpriteSource:
       _assetReference:
