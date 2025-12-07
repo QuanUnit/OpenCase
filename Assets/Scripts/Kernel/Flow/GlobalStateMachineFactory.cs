@@ -14,6 +14,7 @@ namespace Kernel.Flow
             
             stateMachine.AddState(CreateState<BootstrapState>());
             stateMachine.AddState(CreateState<LoadingSaveState>());
+            stateMachine.AddState(CreateState<SettingPersistentWithoutSaveSate>());
             stateMachine.AddState(CreateState<LoadingAssetsState>());
             stateMachine.AddState(CreateState<OpeningSessionState>());
             stateMachine.AddState(CreateState<PlayingSessionState>());

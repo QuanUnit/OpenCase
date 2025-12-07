@@ -26,7 +26,7 @@ MonoBehaviour:
         m_EditorAssetChanged: 0
   Rarity: 0
   Price:
-    MinPrice: 100
-    MaxPrice: 400
+    MinPrice: 10
+    MaxPrice: 30
   AvailableStatTrak: 1
   AvailableSouvenir: 0

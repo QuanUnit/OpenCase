@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using GameHub.Cases.Panels;
 using GameHub.Cases.Presenters;
+using GameHub.Inventory.Panels;
+using GameHub.Inventory.Presenters;
 using GameHub.Root.Panels;
 using GameHub.Root.Presenters;
 using QCore.UISystem.Panels;
@@ -20,6 +22,7 @@ namespace Services.UI.Common
             { typeof(GameHubPanel), typeof(GameHubPanelPresenter) },
             { typeof(CasesSubPanel), typeof(CasesSubPanelPresenter) },
             { typeof(CaseSpinSubPanel), typeof(CaseSpinSubPanelPresenter) },
+            { typeof(InventorySubPanel), typeof(InventorySubPanelPresenter) },
         };
         
         public IPanelPresenter<T> Create<T>(T panel) where T : Panel

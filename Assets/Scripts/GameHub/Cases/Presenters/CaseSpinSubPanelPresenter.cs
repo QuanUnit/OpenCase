@@ -6,8 +6,10 @@ using QCore.UISystem.Presenters;
 using QCore.UISystem.Services;
 using Services.Cases;
 using Services.Cases.Configs;
+using Services.Inventory;
 using Services.Skins;
 using Services.Skins.Configs;
+using Services.Wallet;
 using SlotMachines.Horizontal;
 using UnityEngine;
 using Zenject;
@@ -20,7 +22,10 @@ namespace GameHub.Cases.Presenters
         [Inject] private IUIPanelsService _panelsService;
         [Inject] private ISkinsDatabaseService _skinsDatabaseService;
         [Inject] private ISkinsUIContextDataService _skinsUIContextDataService;
-
+        [Inject] private IInventoryService _inventoryService;
+        [Inject] private ISkinFactory _skinFactory;
+        [Inject] private SoftCurrencyWallet _softCurrencyWallet;
+        
         private CaseConfig _caseConfig;
         
         protected override void StartPresentingInternal()
@@ -41,6 +46,8 @@ namespace GameHub.Cases.Presenters
 
         private void SpinClickHandle()
         {
+            if(CanSpinCase() == false) return;
+            
             HorizontalSlotMachine slotMachine = Panel.SlotMachine;
 
             if (slotMachine.IsSpinning) return;
@@ -49,6 +56,24 @@ namespace GameHub.Cases.Presenters
 
             SlotData winSlot = DefineWinSlotData();
             slotMachine.Spin(winSlot, DefineSecondarySlotData, CreateSlot);
+
+            Skin skin = CreateSkin(winSlot);
+            
+            _inventoryService.Add(skin);
+            _softCurrencyWallet.Spend(_caseConfig.Price);
+        }
+
+        private bool CanSpinCase()
+        {
+            return _softCurrencyWallet.IsEnoughForSpend(_caseConfig.Price);
+        }
+
+        private Skin CreateSkin(SlotData slot)
+        {
+            SkinConfig skinConfig = _skinsDatabaseService.GetSkinConfigById(slot.ItemId);
+            Skin skin = _skinFactory.CreateRandom(skinConfig);
+
+            return skin;
         }
 
         private SlotData DefineWinSlotData()

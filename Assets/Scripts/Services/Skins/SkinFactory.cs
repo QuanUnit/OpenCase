@@ -1,3 +1,4 @@
+using QCore.Tools.Identifiers;
 using Services.Skins.Configs;
 using Tools.Mathematics;
 using UnityEngine;
@@ -19,8 +20,9 @@ namespace Services.Skins
             floatValue = _globalConfig.FloatValueCurve.Evaluate(floatValue);
 
             float price = CalculatePrice(config.Price, floatValue, isStatTrack, isSouvenir);
-
-            return new Skin(config.Id, floatValue, price, isStatTrack, isSouvenir);
+            QGuid id = QGuid.CreateNew();
+            
+            return new Skin(config.Id, id, floatValue, price, isStatTrack, isSouvenir);
         }
 
         private bool RandomStatTrak(SkinConfig config)

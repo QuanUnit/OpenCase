@@ -17,7 +17,8 @@ namespace Kernel.Flow.States
         {
             InitServices();
             
-            StateMachine.EnterState<LoadingSaveState>();
+            StateMachine.EnterState<SettingPersistentWithoutSaveSate>();
+            //StateMachine.EnterState<LoadingSaveState>(); // TODO change when save system implemented
         }
 
         private void InitServices()

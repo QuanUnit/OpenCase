@@ -1,5 +1,5 @@
-using System;
 using GameHub.Cases.Panels;
+using GameHub.Inventory.Panels;
 using GameHub.Root.Panels;
 using QCore.UISystem.Panels;
 using QCore.UISystem.Presenters;
@@ -17,6 +17,15 @@ namespace GameHub.Root.Presenters
         protected override void StartPresentingInternal()
         {
             Panel.CasesClickHandle += CasesClickHandle;
+            Panel.InventoryClickHandle += InventoryClickHandle;
+        }
+
+        private void InventoryClickHandle()
+        {
+            CloseActiveChildPanel();
+            
+            PanelAndPresenterData<InventorySubPanel> data = _panelsService.Open(() => Panel.InventorySubPanel);
+            _openedChildPanel = data.Panel;
         }
 
         private void CasesClickHandle()
@@ -38,6 +47,7 @@ namespace GameHub.Root.Presenters
         protected override void StopPresentingInternal()
         {
             Panel.CasesClickHandle -= CasesClickHandle;
+            Panel.InventoryClickHandle -= InventoryClickHandle;
 
             CloseActiveChildPanel();
         }

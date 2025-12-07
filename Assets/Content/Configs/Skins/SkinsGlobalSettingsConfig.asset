@@ -14,13 +14,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _floatValueCurve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   _priceByFloatValueCurve:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
@@ -28,4 +64,24 @@ MonoBehaviour:
   _souvenirChance: 0
   _priceMultiplierByStatTrak: 0
   _priceMultiplierBySouvenir: 0
-  _wearValuesMap: []
+  _wearValuesMap:
+  - Key: 0
+    Value:
+      _from: 0.8
+      _to: 1
+  - Key: 1
+    Value:
+      _from: 0.5
+      _to: 0.8
+  - Key: 2
+    Value:
+      _from: 0.3
+      _to: 0.5
+  - Key: 3
+    Value:
+      _from: 0.1
+      _to: 0.3
+  - Key: 4
+    Value:
+      _from: 0
+      _to: 0.1

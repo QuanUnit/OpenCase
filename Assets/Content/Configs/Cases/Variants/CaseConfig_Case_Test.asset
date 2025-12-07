@@ -20,13 +20,13 @@ MonoBehaviour:
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: a48c6683f9c01824b9ad1a502287300f, type: 2}
-      Value: 10.5
+      Value: 1
     - Key: {fileID: 11400000, guid: bf2bfec8c42b48b4ab4cde0cad67f730, type: 2}
-      Value: 10.5
+      Value: 1
     - Key: {fileID: 11400000, guid: 949ee1bde26d0844e857bd1a9a19dbfc, type: 2}
-      Value: 10.5
+      Value: 1
     - Key: {fileID: 11400000, guid: d4712166a7d3a384c8d1f3b710ba9dd2, type: 2}
-      Value: 10.5
+      Value: 1
     - Key: {fileID: 11400000, guid: 1179a3e63fa781143bea545b4a8c705d, type: 2}
       Value: 10.5
     - Key: {fileID: 11400000, guid: 0cfefaf2d3a65544dbdb5e726222073a, type: 2}
