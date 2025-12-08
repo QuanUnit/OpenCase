@@ -1,11 +1,10 @@
-using System;
 using TMPro;
 using UnityEngine;
 
 namespace Common.UI
 {
     [RequireComponent(typeof(TMP_Text))]
-    public class PriceView : MonoBehaviour
+    public class TextedCurrencyView : MonoBehaviour
     {
         [SerializeField] private TMP_Text _text;
         [SerializeField] private string _postfix = " $";

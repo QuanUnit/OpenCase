@@ -16,21 +16,28 @@ MonoBehaviour:
   - Key: 0
     Value:
       RarityMainColor: {r: 0.6901961, g: 0.76470596, b: 0.85098046, a: 1}
+      RarityBackgroundColor: {r: 0.22542325, g: 0.25102124, b: 0.2830187, a: 1}
   - Key: 1
     Value:
       RarityMainColor: {r: 0.36862746, g: 0.59607846, b: 0.85098046, a: 1}
+      RarityBackgroundColor: {r: 0.15370776, g: 0.24772993, b: 0.35309958, a: 1}
   - Key: 2
     Value:
       RarityMainColor: {r: 0.29411766, g: 0.41176474, b: 1, a: 1}
+      RarityBackgroundColor: {r: 0.10393338, g: 0.15534425, b: 0.41239887, a: 1}
   - Key: 3
     Value:
       RarityMainColor: {r: 0.53333336, g: 0.2784314, b: 1, a: 1}
+      RarityBackgroundColor: {r: 0.1782935, g: 0.08575566, b: 0.34770882, a: 1}
   - Key: 4
     Value:
       RarityMainColor: {r: 0.82745105, g: 0.17254902, b: 0.90196085, a: 1}
+      RarityBackgroundColor: {r: 0.2751779, g: 0.06411241, b: 0.2991913, a: 1}
   - Key: 5
     Value:
       RarityMainColor: {r: 0.9215687, g: 0.29411766, b: 0.29411766, a: 1}
+      RarityBackgroundColor: {r: 0.2991913, g: 0.08991864, b: 0.08991864, a: 1}
   - Key: 6
     Value:
       RarityMainColor: {r: 1, g: 0.8431373, b: 0, a: 1}
+      RarityBackgroundColor: {r: 0.33153635, g: 0.28731048, b: 0.049596366, a: 1}

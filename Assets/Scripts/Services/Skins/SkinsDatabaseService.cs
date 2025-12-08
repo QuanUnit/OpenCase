@@ -1,9 +1,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using Cysharp.Threading.Tasks;
+using QCore.Tools.Extensions;
 using QCore.Tools.Identifiers;
 using QCore.Tools.Mathematics;
 using Services.Skins.Configs;
+using Tools.Collections;
 using Zenject;
 
 namespace Services.Skins
@@ -55,6 +57,11 @@ namespace Services.Skins
             }
 
             return Wear.BattleScarred;
+        }
+
+        public SkinConfig GetRandomSkinConfig()
+        {
+            return _allSkinsConfig.Skins.GetRandomReadOnly();
         }
 
         public void ReleaseAllSkinsAssets()

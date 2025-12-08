@@ -7,5 +7,6 @@ namespace Services.Skins.Configs
     public struct RarityVisual
     {
         public Color RarityMainColor;
+        public Color RarityBackgroundColor;
     }
 }

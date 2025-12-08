@@ -1,6 +1,7 @@
 using Common.UI;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace GameHub.Inventory.Panels
@@ -8,7 +9,7 @@ namespace GameHub.Inventory.Panels
     public class SkinView : MonoBehaviour
     {
         [SerializeField] private TMP_Text _name;
-        [SerializeField] private PriceView _price;
+        [SerializeField] private TextedCurrencyView _price;
         [SerializeField] private Image _icon;
         [SerializeField] private Image _rarity;
         

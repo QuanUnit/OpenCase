@@ -4,6 +4,7 @@ using QCore.Tools.Identifiers;
 using Services.Cases.Configs;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace GameHub.Cases.Panels
@@ -17,7 +18,7 @@ namespace GameHub.Cases.Panels
         [SerializeField] private Button _openButton;
         [SerializeField] private Image _mainIcon;
         [SerializeField] private TMP_Text _name;
-        [SerializeField] private PriceView _price;
+        [SerializeField] private TextedCurrencyView _price;
         
         public void SetData(CaseConfig caseConfig)
         {
