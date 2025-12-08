@@ -45,9 +45,9 @@ namespace GameHub.OthersDrop.Presenters
             Panel.AddSkinView(skin, CreateSkinView);
         }
 
-        private SkinView CreateSkinView(Skin skin, SkinView prefab, Transform parent)
+        private SkinView CreateSkinView(Skin skin, SkinView prefab, Transform parent, Transform startPosition)
         {
-            SkinView view = Object.Instantiate(prefab, parent);
+            SkinView view = Object.Instantiate(prefab, startPosition.position, startPosition.rotation, parent);
             SkinConfig config = _skinsDatabaseService.GetSkinConfigById(skin.SkinSourceId);
             RarityVisual rarityVisual = _skinsUIContextDataService.GetRarityVisual(config.Rarity);
             

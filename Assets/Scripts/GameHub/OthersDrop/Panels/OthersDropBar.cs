@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using QCore.UISystem.Panels;
 using Services.Skins;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace GameHub.OthersDrop.Panels
 {
@@ -10,6 +9,8 @@ namespace GameHub.OthersDrop.Panels
     {
         [SerializeField] private SkinView _skinViewPrefab;
         [SerializeField] private Transform _viewport;
+        [SerializeField] private Transform _startPosition;
+        
         [SerializeField] private int _skinsHistorySize = 10;
 
         private Queue<SkinView> _skinsHistory = new Queue<SkinView>();
@@ -17,7 +18,7 @@ namespace GameHub.OthersDrop.Panels
         public void AddSkinView(Skin skin, CreateSkinViewAction createAction)
         {
             ClearHistoryIfOutOfSize();
-            SkinView skinView = createAction.Invoke(skin, _skinViewPrefab, _viewport);
+            SkinView skinView = createAction.Invoke(skin, _skinViewPrefab, _viewport, _startPosition);
             _skinsHistory.Enqueue(skinView);
         }
 
@@ -34,6 +35,6 @@ namespace GameHub.OthersDrop.Panels
             }
         }
 
-        public delegate SkinView CreateSkinViewAction(Skin skin, SkinView prefab, Transform parent);
+        public delegate SkinView CreateSkinViewAction(Skin skin, SkinView prefab, Transform parent, Transform startPosition);
     }
 }
