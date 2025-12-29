@@ -24,9 +24,9 @@ MonoBehaviour:
         m_SubObjectType: 
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
-  Rarity: 0
+  Rarity: 4
   Price:
-    MinPrice: 10
-    MaxPrice: 30
+    MinPrice: 17.41
+    MaxPrice: 31.46
   AvailableStatTrak: 1
   AvailableSouvenir: 0

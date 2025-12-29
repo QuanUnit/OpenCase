@@ -19,13 +19,21 @@ MonoBehaviour:
   Price: 99.5
   SkinsMapEntries:
     _entries:
-    - Key: {fileID: 11400000, guid: a48c6683f9c01824b9ad1a502287300f, type: 2}
+    - Key: {fileID: 11400000, guid: 3a0d049acd9a05e47836de2ac88ff1a0, type: 2}
       Value: 10.5
-    - Key: {fileID: 11400000, guid: bf2bfec8c42b48b4ab4cde0cad67f730, type: 2}
+    - Key: {fileID: 11400000, guid: 0e766c7d6587efd4897ac3f008e36fc2, type: 2}
       Value: 10.5
-    - Key: {fileID: 11400000, guid: 949ee1bde26d0844e857bd1a9a19dbfc, type: 2}
+    - Key: {fileID: 11400000, guid: 803c5989f65dbed4e920e0ab0b1c9916, type: 2}
       Value: 10.5
-    - Key: {fileID: 11400000, guid: d4712166a7d3a384c8d1f3b710ba9dd2, type: 2}
+    - Key: {fileID: 11400000, guid: c92e688d37c64b242a21a8d5bdada980, type: 2}
+      Value: 10.5
+    - Key: {fileID: 11400000, guid: bc4798861d92257468cb7e8ee53ae7f5, type: 2}
+      Value: 10.5
+    - Key: {fileID: 11400000, guid: 9a54f30548e46d945a00e5ccf0045a9c, type: 2}
+      Value: 10.5
+    - Key: {fileID: 11400000, guid: e561f960a9d83584ba53292273696250, type: 2}
+      Value: 10.5
+    - Key: {fileID: 11400000, guid: bfd326f296de3dc40aa654c553f19186, type: 2}
       Value: 10.5
   ContextData:
     SpriteSource:

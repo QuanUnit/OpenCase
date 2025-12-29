@@ -12,6 +12,7 @@ namespace Services.Skins
         public void Init();
         public SkinConfig GetSkinConfigById(QGuid id);
         public Wear GetSkinWear(Skin skin);
+        public Rarity GetSkinRarity(Skin skin);
         public SkinConfig GetRandomSkinConfig();
         public void ReleaseAllSkinsAssets();
     }

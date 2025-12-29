@@ -1,5 +1,5 @@
+using QCore.Tools.Mathematics;
 using Services.Skins;
-using Tools.Mathematics;
 
 namespace RemoteData.Editor.Models
 {
@@ -8,7 +8,7 @@ namespace RemoteData.Editor.Models
         public string Id;
         public string Name;
         public Rarity Rarity;
-        public IntRange Price;
+        public FloatRange Price;
         public bool AvailableStatTrak;
         public bool AvailableSouvenir;
     }

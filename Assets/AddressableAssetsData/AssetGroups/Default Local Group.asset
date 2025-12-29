@@ -45,8 +45,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 123303bffd7e07a4b8413cf68c9f8064
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_75_Dual_Berettas_Retribution.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12fbb86f96b465646bbb5c74d19f92d8
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_90_Dual_Berettas_Moon_in_Libra.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1316b0d7b65ae2145bc2eba5a9080bdb
     m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_59_Desert_Eagle_Cobalt_Disruption.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13ce21fd3cc60a244ba63580798e4d35
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_70_Dual_Berettas_Panther.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -70,8 +85,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b3dfca0bfe7e394bb950d215d1e9ae5
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_68_Dual_Berettas_Angel_Eyes.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1fa8f8b2a0c97cf4282410b19942ba90
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_59_CZ75-Auto_Tigris.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22579824dbfd7e248ab9c19bcf02cd2c
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_83_Dual_Berettas_Stained.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -80,8 +105,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26814699b6363ac429d791426b82d09f
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_79_Dual_Berettas_Emerald.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 26938f4acd731314b971655dab73de54
     m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_87_Desert_Eagle_Night_Heist.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d2877e4838e33e45b2a374ee28d86f7
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_89_Dual_Berettas_Briar.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fb99885fa15a264e83c65e11b3715d4
+    m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_244_CZ75-Auto_Jungle_Dashed.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -105,8 +145,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 350b92334f9466343a0b86cff4a7b36c
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_72_Dual_Berettas_Ventilators.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3729e6cfa5d16d84d9c9f938f41a2f63
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_62_Dual_Berettas_Demolition.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3a2485c285d5590478c432eb8f6d5278
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_50_CZ75-Auto_Xiangliu.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b6ba542861f73049bf11131b4ad65fc
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_84_Dual_Berettas_Pyre.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e9fe7a55596fc0459d96ee41bd5734a
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_58_Dual_Berettas_Marina.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -120,6 +180,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 432cf38d3a5e3de4ba9a734d2819d82a
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_74_Dual_Berettas_Dualing_Dragons.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 435d4dd4172582e459286177357d97a3
     m_Address: "Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_71_Desert_Eagle_Sunset_Storm_\u58F1.png"
     m_ReadOnly: 0
@@ -127,6 +192,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 44ff9f774390af34787c9c54dea659cb
     m_Address: Assets/Content/Textures/Cases/case_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e0ef6333edce9546b1fa64cb9d945d1
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_54_Dual_Berettas_Cobra_Strike.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -185,6 +255,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c3aa2ea0cc91c14598ab675381d9dc8
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_55_Dual_Berettas_Twin_Turbo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6dc53577899024442928060591df3334
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_67_CZ75-Auto_Imprint.png
     m_ReadOnly: 0
@@ -195,8 +270,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71d40624e4c8635449cb651e97d1a89f
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_57_Dual_Berettas_Hemoglobin.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 74629ac4a03182d4f892446a6f9e7aaf
     m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_72_Desert_Eagle_Crimson_Web.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7654ebd45a2920449a77c51c55ab1813
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_67_Dual_Berettas_Sweet_Little_Angels.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78c7ed060bdfaf3458a20c88ea5e2d01
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_66_Dual_Berettas_Hydro_Strike.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 793904ecd9c6f114e8fc88aa034ddcda
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_91_Dual_Berettas_Contractor.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -230,6 +325,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92092233da9bebb4380aa4cfebb527d0
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_81_Dual_Berettas_Tread.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9944f6cd45adfd041a078ac5efc94790
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_87_Dual_Berettas_Rose_Nacre.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a10b11ea09ef5444985b2118e2fa8c75
     m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_93_Desert_Eagle_Midnight_Storm.png
     m_ReadOnly: 0
@@ -242,6 +347,31 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a28184bba10bca3408beae787330b791
     m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_75_Desert_Eagle_Directive.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a67e86f268d0ded4cbe021e09473bc89
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_80_Dual_Berettas_Shred.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6c7464b63f110847b27f57496d8cc8e
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_61_Dual_Berettas_Cobalt_Quartz.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a700172c9e8b1ff4aac868947f11edb7
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_73_Dual_Berettas_Cartel.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad45fb5e79a410f438c3b6b0b4c6c05a
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_77_Dual_Berettas_Balance.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afdbf238195fae346803c2d4a998e2e6
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_63_Dual_Berettas_Royal_Consorts.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -270,6 +400,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c332749f814dae64ebbe3285ad6db387
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_82_Dual_Berettas_Hideout.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c60a3a7bc4e75d24596b28e6626aab0f
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_49_CZ75-Auto_The_Fuschia_Is_Now.png
     m_ReadOnly: 0
@@ -295,8 +430,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb6b5ea25951eb646b24e5e81aa7e0af
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_88_Dual_Berettas_Polished_Malachite.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ccd2a50869ee4894383b5723e2bafa46
     m_Address: "Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_77_Desert_Eagle_Emerald_J\xF6rmungandr.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf59711207cda5b49b983458e5076a1f
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_94_Dual_Berettas_Oil_Change.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -315,6 +460,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d630f84e317e3244db7ad09f752b0c02
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_93_Dual_Berettas_Heist.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d729f8b4b873c8e4fae64e568f9359d2
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_79_CZ75-Auto_Green_Plaid.png
     m_ReadOnly: 0
@@ -325,8 +475,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da7302fdadb120c4996f5fcad11a657a
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_56_Dual_Berettas_Melondrama.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: daf857f0da2c1f2448d0aa6203961c59
     m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_78_Desert_Eagle_Trigger_Discipline.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd2f916e338374745a78953790995b8b
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_59_Dual_Berettas_Urban_Shock.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -335,8 +495,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df0f677ce79499845a0dfe1dfa89ff6e
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_92_Dual_Berettas_Colony.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfb88215a6552d34dabe35d17e6df625
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_71_Dual_Berettas_Anodized_Navy.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e05d72368379c774fa677f238885bb8c
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_76_Dual_Berettas_Elite_1.6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e0764e76c5a6bd541a9956e94317d00b
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_53_CZ75-Auto_Eco.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2aca780b71496540b72b3dd52369941
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_86_Dual_Berettas_Drift_Wood.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -347,6 +527,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e7b0149386aa19445a66b2f5aac4e542
     m_Address: Assets/Content/Textures/Cases/case_2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9debed4365b4054cba9e3cf8493d4ce
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_60_Dual_Berettas_Duelist.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebdfb38b82da1c940921e3ab4d5ed51e
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_95_Dual_Berettas_BorDeux.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -375,6 +565,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5fa3964dc00da24fa1d0e9be5a968a4
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_69_Dual_Berettas_Black_Limba.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f84155e950e6d334493cdb19c3cbea09
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto/imgi_61_CZ75-Auto_Circaetus.png
     m_ReadOnly: 0
@@ -382,6 +577,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f8b83050d5df20b4a80e9119d3f2df75
     m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle/imgi_83_Desert_Eagle_Bronze_Deco.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f93daf69d3a27cf468a607f94bd45707
+    m_Address: Assets/Content/Textures/Skins/Weapons/DualBerettas/imgi_65_Dual_Berettas_Flora_Carnivora.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

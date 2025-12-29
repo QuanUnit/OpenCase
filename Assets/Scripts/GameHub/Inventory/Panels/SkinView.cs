@@ -1,17 +1,20 @@
+using System;
 using Common.UI;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace GameHub.Inventory.Panels
 {
     public class SkinView : MonoBehaviour
     {
+        public event Action<SkinView> Clicked; 
+        
         [SerializeField] private TMP_Text _name;
         [SerializeField] private TextedCurrencyView _price;
         [SerializeField] private Image _icon;
         [SerializeField] private Image _rarity;
+        [SerializeField] private Button _button;
         
         public void SetView(Data data)
         {
@@ -19,6 +22,27 @@ namespace GameHub.Inventory.Panels
             _price.SetView(data.Price);
             _icon.sprite = data.Icon;
             _rarity.color = data.RarityColor;
+        }
+
+        private void OnEnable()
+        {
+            if (_button != null)
+            {
+                _button.onClick.AddListener(ClickHandle);
+            }
+        }
+
+        private void ClickHandle()
+        {
+            Clicked?.Invoke(this);
+        }
+
+        private void OnDisable()
+        {
+            if (_button != null)
+            {
+                _button.onClick.RemoveListener(ClickHandle);
+            }
         }
 
         public struct Data

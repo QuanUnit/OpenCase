@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using QCore.Tools.Identifiers;
 using Services.Skins;
+using UnityEngine;
 
 namespace Services.Inventory
 {
@@ -34,6 +35,23 @@ namespace Services.Inventory
             }
 
             return false;
+        }
+
+        public Skin Get(QGuid id)
+        {
+            bool has = TryGet(id, out Skin skin);
+
+            if (has == false)
+            {
+                throw new MissingReferenceException($"Skin with id {id} is missing in inventory");
+            }
+
+            return skin;
+        }
+
+        public bool TryGet(QGuid id, out Skin skin)
+        {
+            return _skins.TryGetValue(id, out skin);
         }
     }
 }

@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using GameHub.Inventory.Panels;
+using QCore.Tools.Identifiers;
 using QCore.UISystem.Presenters;
+using QCore.UISystem.Services;
 using Services.Inventory;
 using Services.Skins;
 using Services.Skins.Configs;
@@ -14,12 +16,32 @@ namespace GameHub.Inventory.Presenters
         [Inject] private IInventoryService _inventoryService;
         [Inject] private ISkinsDatabaseService _skinsDatabaseService;
         [Inject] private ISkinsUIContextDataService _skinsUIContextDataService;
+        [Inject] private IUIPanelsService _uiPanelsService;
         
         protected override void StartPresentingInternal()
         {
             IEnumerable<Skin> skins = _inventoryService.AllSkins;
-            
+
+            Panel.SkinClicked += SkinClickHandle;
             Panel.AddSkinViews(skins, CreateSkinView);
+
+            _inventoryService.Removed += SkinRemoveHandle;
+            _inventoryService.Added += SkinAddHandle;
+        }
+
+        private void SkinAddHandle(Skin skin)
+        {
+            Panel.AddSkinView(skin, CreateSkinView);
+        }
+
+        private void SkinRemoveHandle(Skin skin)
+        {
+            Panel.RemoveSkinView(skin.Id);
+        }
+
+        private void SkinClickHandle(QGuid skinId)
+        {
+            _uiPanelsService.OpenWithPayload(() => Panel.SkinDetailsPopup, skinId);
         }
 
         private SkinView CreateSkinView(Skin skin, SkinView prefab, Transform parent)
@@ -41,7 +63,12 @@ namespace GameHub.Inventory.Presenters
 
         protected override void StopPresentingInternal()
         {
+            Panel.SkinClicked -= SkinClickHandle;
+            _inventoryService.Removed -= SkinRemoveHandle;
+            _inventoryService.Added -= SkinAddHandle;
+            
             Panel.RemoveAllSkinViews();
+            _uiPanelsService.Close<SkinDetailsPopup>();
         }
     }
 }

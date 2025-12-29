@@ -59,6 +59,12 @@ namespace Services.Skins
             return Wear.BattleScarred;
         }
 
+        public Rarity GetSkinRarity(Skin skin)
+        {
+            SkinConfig skinConfig = GetSkinConfigById(skin.SkinSourceId);
+            return skinConfig.Rarity;
+        }
+
         public SkinConfig GetRandomSkinConfig()
         {
             return _allSkinsConfig.Skins.GetRandomReadOnly();

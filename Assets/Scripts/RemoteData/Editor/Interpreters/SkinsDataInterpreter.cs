@@ -27,7 +27,7 @@ namespace RemoteData.Editor.Interpreters
             {
                 SkinConfig skinConfig = TryGetOrCreateNew(allSkinsMap, skinDataModel.Id, skinsPath);
 
-                skinConfig.Price = new PriceRange(skinDataModel.Price.Min, skinDataModel.Price.Max);
+                skinConfig.Price = new PriceRange(skinDataModel.Price.From, skinDataModel.Price.To);
                 skinConfig.AvailableSouvenir = skinDataModel.AvailableSouvenir;
                 skinConfig.AvailableStatTrak = skinDataModel.AvailableStatTrak;
                 skinConfig.Rarity = skinDataModel.Rarity;

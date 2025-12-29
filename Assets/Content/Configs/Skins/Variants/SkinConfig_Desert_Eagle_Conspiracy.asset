@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_Desert_Eagle_Conspiracy
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 141e5b72-e140-45d4-b61a-b118f121c79c
+  SkinStringId: Desert_Eagle_Conspiracy
+  Name: Conspiracy
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 01f9d6856d973f74a94f62f49e1c321d
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 4
+  Price:
+    MinPrice: 14.89
+    MaxPrice: 19.05
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

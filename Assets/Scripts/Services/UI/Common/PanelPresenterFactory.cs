@@ -26,6 +26,7 @@ namespace Services.UI.Common
             { typeof(CaseSpinSubPanel), typeof(CaseSpinSubPanelPresenter) },
             { typeof(InventorySubPanel), typeof(InventorySubPanelPresenter) },
             { typeof(OthersDropBar), typeof(OthersDropBarPresenter) },
+            { typeof(SkinDetailsPopup), typeof(SkinDetailsPopupPresenter) },
         };
         
         public IPanelPresenter<T> Create<T>(T panel) where T : Panel

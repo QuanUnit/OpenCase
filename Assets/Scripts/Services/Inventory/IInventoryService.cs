@@ -15,5 +15,7 @@ namespace Services.Inventory
         public void Add(Skin skin);
         public bool Remove(Skin skin);
         public bool Remove(QGuid id);
+        public Skin Get(QGuid id);
+        public bool TryGet(QGuid id, out Skin skin);
     }
 }

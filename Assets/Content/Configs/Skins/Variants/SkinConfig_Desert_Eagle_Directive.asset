@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_Desert_Eagle_Directive
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: dd1d1c6e-57d5-4b10-945e-16639e015ac7
+  SkinStringId: Desert_Eagle_Directive
+  Name: Directive
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: a28184bba10bca3408beae787330b791
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 3
+  Price:
+    MinPrice: 0.87
+    MaxPrice: 42.01
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0
