@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_R8_Revolver_Survivalist
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: e27411db-c70c-49d0-96dd-4b2ce9360fc3
+  SkinStringId: R8_Revolver_Survivalist
+  Name: Survivalist
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 9d112791e6d0cdd4f92d7a60d555755f
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 0.2
+    MaxPrice: 0.69
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

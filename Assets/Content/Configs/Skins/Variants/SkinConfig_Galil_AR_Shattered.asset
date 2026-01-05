@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_Galil_AR_Shattered
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: a8eafd18-e832-47fd-8b7a-7ed5c53c6fa1
+  SkinStringId: Galil_AR_Shattered
+  Name: Shattered
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 8f714c20d3ae979438a1c21e4bb20215
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 3.7
+    MaxPrice: 38.04
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

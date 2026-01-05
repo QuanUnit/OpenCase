@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_M4A4_Buzz_Kill
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: e8aac46e-3878-493b-a964-72a3aa1de131
+  SkinStringId: M4A4_Buzz_Kill
+  Name: Buzz Kill
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: ef06ff509e7a89248ac820f9da5e0d07
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 5
+  Price:
+    MinPrice: 425.83
+    MaxPrice: 894.56
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

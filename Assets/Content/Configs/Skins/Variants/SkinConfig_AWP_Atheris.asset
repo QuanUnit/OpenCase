@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_AWP_Atheris
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 051ada69-1d92-4b0f-ad40-43c102ed1fef
+  SkinStringId: AWP_Atheris
+  Name: Atheris
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 04b6a4827153ead41999c46066e867a0
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 3
+  Price:
+    MinPrice: 3.13
+    MaxPrice: 16.41
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

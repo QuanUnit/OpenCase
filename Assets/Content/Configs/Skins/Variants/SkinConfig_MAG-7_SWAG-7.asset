@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_MAG-7_SWAG-7
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 069e0f6e-e0dd-46e5-8c50-628e096fea21
+  SkinStringId: MAG-7_SWAG-7
+  Name: SWAG-7
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 3
+  Price:
+    MinPrice: 0.4
+    MaxPrice: 4.46
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

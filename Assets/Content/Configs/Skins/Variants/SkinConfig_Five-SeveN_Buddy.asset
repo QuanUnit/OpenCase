@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_Five-SeveN_Buddy
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 3ef7b02e-4125-423d-9caa-3efc3c426033
+  SkinStringId: Five-SeveN_Buddy
+  Name: Buddy
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: ba176af526f960c47bf6e651c474a6c7
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 3
+  Price:
+    MinPrice: 0.53
+    MaxPrice: 2.69
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_AK-47_Wasteland_Rebel
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 6117f355-f5b0-48ab-8563-5bcb4aca0dfa
+  SkinStringId: AK-47_Wasteland_Rebel
+  Name: Wasteland Rebel
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 014c360d651278d43b6208d889dd84b4
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 5
+  Price:
+    MinPrice: 70.64
+    MaxPrice: 471.42
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

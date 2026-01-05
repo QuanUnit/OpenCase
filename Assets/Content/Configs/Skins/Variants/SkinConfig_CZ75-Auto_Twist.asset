@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_CZ75-Auto_Twist
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 9418b2dc-22ca-44dc-9c18-42243d65aa67
+  SkinStringId: CZ75-Auto_Twist
+  Name: Twist
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 31e6218abef9d53409c92811de91ffc9
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 0.79
+    MaxPrice: 2.52
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_M4A4_Poseidon
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 9342529c-3ae7-48e4-a01b-c5ad19ce91a7
+  SkinStringId: M4A4_Poseidon
+  Name: Poseidon
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 06cdf4b6a1156c849b54c42171c62c17
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 4
+  Price:
+    MinPrice: 1311.18
+    MaxPrice: 3403.85
+  AvailableStatTrak: 0
+  AvailableSouvenir: 0

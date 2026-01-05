@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_Glock-18_Royal_Legion
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: df739e97-ea14-4dbd-8a4f-5f5a89f83a43
+  SkinStringId: Glock-18_Royal_Legion
+  Name: Royal Legion
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 1eab8ae864f01134c8a8c2cd546ee22c
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 3
+  Price:
+    MinPrice: 2.23
+    MaxPrice: 40.94
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

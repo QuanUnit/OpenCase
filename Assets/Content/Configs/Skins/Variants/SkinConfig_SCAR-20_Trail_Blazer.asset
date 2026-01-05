@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_SCAR-20_Trail_Blazer
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 60d41932-5473-4fc1-83d9-17837b160e78
+  SkinStringId: SCAR-20_Trail_Blazer
+  Name: Trail Blazer
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 867fbd95b5225a04986da7605d77a105
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 0.09
+    MaxPrice: 0.96
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

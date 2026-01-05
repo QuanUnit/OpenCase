@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_USP-S_Ancient_Visions
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 88450b04-16fa-42b0-93a7-ee904af234b9
+  SkinStringId: USP-S_Ancient_Visions
+  Name: Ancient Visions
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: b183159b8dd373840886f47c977d54bd
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 3
+  Price:
+    MinPrice: 55.44
+    MaxPrice: 124.17
+  AvailableStatTrak: 0
+  AvailableSouvenir: 1

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_MAC-10_Carnivore
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: beae7ea0-e5b4-4112-86f3-2b2e41a45b6d
+  SkinStringId: MAC-10_Carnivore
+  Name: Carnivore
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: e77b9c8a442c1e340896b0652a2a3258
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 0.22
+    MaxPrice: 1.35
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

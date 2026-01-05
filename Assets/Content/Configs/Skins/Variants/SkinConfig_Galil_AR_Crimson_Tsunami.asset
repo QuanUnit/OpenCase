@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_Galil_AR_Crimson_Tsunami
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 2a90ff45-363d-4d5a-a43a-677d0d9b10de
+  SkinStringId: Galil_AR_Crimson_Tsunami
+  Name: Crimson Tsunami
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 989b6d8c75eb2f44c956b15b581f988e
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 3
+  Price:
+    MinPrice: 1.67
+    MaxPrice: 5.36
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

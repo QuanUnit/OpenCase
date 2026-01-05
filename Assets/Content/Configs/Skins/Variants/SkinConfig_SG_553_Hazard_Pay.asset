@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_SG_553_Hazard_Pay
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 7680833a-3b10-4949-b61c-d89e42d4bc3f
+  SkinStringId: SG_553_Hazard_Pay
+  Name: Hazard Pay
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: e0221d3b867f6ad4fa4f641bc167acbf
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 4
+  Price:
+    MinPrice: 219.89
+    MaxPrice: 1423.7
+  AvailableStatTrak: 0
+  AvailableSouvenir: 1

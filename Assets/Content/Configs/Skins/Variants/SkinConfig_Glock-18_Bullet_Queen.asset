@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_Glock-18_Bullet_Queen
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: aede2097-e2ce-4557-8a60-f8604ebb87b2
+  SkinStringId: Glock-18_Bullet_Queen
+  Name: Bullet Queen
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 824d99dcb92042c4799f5a546a9a422e
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 5
+  Price:
+    MinPrice: 48.52
+    MaxPrice: 150.07
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

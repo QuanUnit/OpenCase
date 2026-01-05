@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_UMP-45_Fade
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: b705b528-bfcd-454c-a970-0ade51c97501
+  SkinStringId: UMP-45_Fade
+  Name: Fade
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 7f6b1095c0e15f149b81495c4b1c85e9
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 4
+  Price:
+    MinPrice: 476.22
+    MaxPrice: 560.23
+  AvailableStatTrak: 0
+  AvailableSouvenir: 1

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_P90_Desert_Warfare
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 564ddd5f-cc2f-4b93-808e-ab64fd7b6c59
+  SkinStringId: P90_Desert_Warfare
+  Name: Desert Warfare
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 7c15b9f62f09fb343a58d4363d89c30d
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 2.03
+    MaxPrice: 6.98
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

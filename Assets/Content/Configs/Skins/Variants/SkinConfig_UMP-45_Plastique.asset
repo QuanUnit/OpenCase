@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_UMP-45_Plastique
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: b585f6d7-ea83-4c8d-a852-a053c9305912
+  SkinStringId: UMP-45_Plastique
+  Name: Plastique
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 91623cd401f48724c827246461e6bbd9
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 3
+  Price:
+    MinPrice: 0.53
+    MaxPrice: 3.67
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

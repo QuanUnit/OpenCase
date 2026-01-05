@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_SG_553_Tiger_Moth
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 8f4e1ab3-3209-49d4-9f9e-d0dde9babcb9
+  SkinStringId: SG_553_Tiger_Moth
+  Name: Tiger Moth
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: b3de2d1f11dbd7f4189589326562cfd9
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 3
+  Price:
+    MinPrice: 0.9
+    MaxPrice: 6.25
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

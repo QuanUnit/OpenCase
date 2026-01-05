@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_PP-Bizon_High_Roller
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: dfa405f5-eb0c-4187-ae56-d4fce20087a0
+  SkinStringId: PP-Bizon_High_Roller
+  Name: High Roller
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 1e5136d9649a4c641b456571bc88b217
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 4
+  Price:
+    MinPrice: 7.86
+    MaxPrice: 26.95
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_AUG_Bengal_Tiger
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 1af68123-7fcf-4d41-8e7c-d4ac436a3433
+  SkinStringId: AUG_Bengal_Tiger
+  Name: Bengal Tiger
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 9b94889a45a40cc4bae2b1f630758e20
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 4
+  Price:
+    MinPrice: 11.7
+    MaxPrice: 73.99
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

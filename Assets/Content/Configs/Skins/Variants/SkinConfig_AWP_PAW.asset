@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_AWP_PAW
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: f97f5747-e48c-4ad3-8913-73caf17b36ce
+  SkinStringId: AWP_PAW
+  Name: PAW
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 581de565829c2c94db0afc712ab29a1a
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 3
+  Price:
+    MinPrice: 1.28
+    MaxPrice: 4.94
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

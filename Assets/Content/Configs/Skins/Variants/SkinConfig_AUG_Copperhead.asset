@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_AUG_Copperhead
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: c21ed693-2e2f-4222-b3b0-3beee307bb4a
+  SkinStringId: AUG_Copperhead
+  Name: Copperhead
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 44ba7a288a5a1bf44b05ae1254a54d23
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 79.59
+    MaxPrice: 107.27
+  AvailableStatTrak: 0
+  AvailableSouvenir: 0

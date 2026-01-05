@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_AWP_POP_AWP
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: adbb3c8b-caf4-4f67-89f3-f7dcabaeed14
+  SkinStringId: AWP_POP_AWP
+  Name: POP AWP
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 06661c73073d3f240a2973a93aabee4a
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 3
+  Price:
+    MinPrice: 11.57
+    MaxPrice: 41.75
+  AvailableStatTrak: 0
+  AvailableSouvenir: 0

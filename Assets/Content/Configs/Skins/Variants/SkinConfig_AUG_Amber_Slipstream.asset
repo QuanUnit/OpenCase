@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_AUG_Amber_Slipstream
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 28a78baa-2767-4f82-a46f-9915ce07fc91
+  SkinStringId: AUG_Amber_Slipstream
+  Name: Amber Slipstream
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 30c35f9ef7282294390c548ec986f538
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 0.22
+    MaxPrice: 0.48
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

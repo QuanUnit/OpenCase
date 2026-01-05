@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_CZ75-Auto_Polymer
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 51b70989-be5e-43e1-ad19-d266e34d645d
+  SkinStringId: CZ75-Auto_Polymer
+  Name: Polymer
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 7fda79a5aaa258a409ea181d9bf4eadf
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 0.52
+    MaxPrice: 1.22
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_PP-Bizon_Harvester
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 4048780c-6c0c-4d0d-981e-1632b2393ed3
+  SkinStringId: PP-Bizon_Harvester
+  Name: Harvester
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: d1e8c13defa4e9a4c8cb4f30103119b1
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 0.22
+    MaxPrice: 1.64
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

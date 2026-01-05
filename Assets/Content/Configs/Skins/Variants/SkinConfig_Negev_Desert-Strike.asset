@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_Negev_Desert-Strike
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 8bdd41dc-2219-4b1c-86a1-e3e408ec1b43
+  SkinStringId: Negev_Desert-Strike
+  Name: Desert-Strike
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 09eaf986543dc544e89e41fb0bd4d141
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 0.25
+    MaxPrice: 0.43
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

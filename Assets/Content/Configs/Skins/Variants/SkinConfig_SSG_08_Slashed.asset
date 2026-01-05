@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_SSG_08_Slashed
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: f6277b77-e1ca-4d33-b92b-6aac986781e5
+  SkinStringId: SSG_08_Slashed
+  Name: Slashed
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: f380d1a806687984d8c49f7cf3608761
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 1.16
+    MaxPrice: 1.29
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

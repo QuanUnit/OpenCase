@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_CZ75-Auto_The_Fuschia_Is_Now
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 67bfa5a1-1ce8-47b5-bb1c-43c0ee4d4327
+  SkinStringId: CZ75-Auto_The_Fuschia_Is_Now
+  Name: The Fuschia Is Now
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: c60a3a7bc4e75d24596b28e6626aab0f
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 4
+  Price:
+    MinPrice: 19.5
+    MaxPrice: 32.99
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_MAC-10_Ensnared
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: f1a07955-34b4-4809-9fd2-5869cdb917cf
+  SkinStringId: MAC-10_Ensnared
+  Name: Ensnared
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: dbb624fc850c34e47bbfc086107bab29
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 0.06
+    MaxPrice: 0.73
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

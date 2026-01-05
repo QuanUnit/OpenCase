@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_AUG_Syd_Mead
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: a01edc70-3a73-4d67-8267-f2315e468e60
+  SkinStringId: AUG_Syd_Mead
+  Name: Syd Mead
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: a8cbefac546f28447b9125dfaff145a0
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 4
+  Price:
+    MinPrice: 9.85
+    MaxPrice: 33.52
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

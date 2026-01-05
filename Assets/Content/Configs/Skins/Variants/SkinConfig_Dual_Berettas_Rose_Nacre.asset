@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_Dual_Berettas_Rose_Nacre
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 44c2383f-1d46-4b1e-a378-ddfe586bea6d
+  SkinStringId: Dual_Berettas_Rose_Nacre
+  Name: Rose Nacre
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 9944f6cd45adfd041a078ac5efc94790
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 1
+  Price:
+    MinPrice: 0.03
+    MaxPrice: 0.3
+  AvailableStatTrak: 0
+  AvailableSouvenir: 0

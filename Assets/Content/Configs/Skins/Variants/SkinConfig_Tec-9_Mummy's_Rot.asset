@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_Tec-9_Mummy's_Rot
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: b1e4ace8-04f5-4642-bd0e-c6689fbdbe24
+  SkinStringId: Tec-9_Mummy's_Rot
+  Name: Mummy's Rot
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: ea3100e8df54dd045a1be6b5c78cb539
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 1.18
+    MaxPrice: 6.8
+  AvailableStatTrak: 0
+  AvailableSouvenir: 1

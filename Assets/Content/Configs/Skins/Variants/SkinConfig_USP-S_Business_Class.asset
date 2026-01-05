@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_USP-S_Business_Class
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 80ceeca2-8e55-4cee-9ec2-2b42f2f16761
+  SkinStringId: USP-S_Business_Class
+  Name: Business Class
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: df1c7993dcd2273469c2c18a405a633d
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 35.32
+    MaxPrice: 82.81
+  AvailableStatTrak: 0
+  AvailableSouvenir: 0

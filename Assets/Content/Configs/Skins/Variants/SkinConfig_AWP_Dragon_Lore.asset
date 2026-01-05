@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_AWP_Dragon_Lore
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: a8daa718-3ed0-4371-ade5-73ce3ed7281c
+  SkinStringId: AWP_Dragon_Lore
+  Name: Dragon Lore
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: cac8ec99de0ad2e4b888714d7e7d0ff1
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 5
+  Price:
+    MinPrice: 5420
+    MaxPrice: 11939.4
+  AvailableStatTrak: 0
+  AvailableSouvenir: 1

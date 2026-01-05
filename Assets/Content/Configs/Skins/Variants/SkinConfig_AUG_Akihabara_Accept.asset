@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_AUG_Akihabara_Accept
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: b87cffc4-f28a-41f7-a672-fe0af7f55a03
+  SkinStringId: AUG_Akihabara_Accept
+  Name: Akihabara Accept
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 931c91dc55c39ed4782f5768724a3787
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 5
+  Price:
+    MinPrice: 283.53
+    MaxPrice: 3654.07
+  AvailableStatTrak: 0
+  AvailableSouvenir: 0

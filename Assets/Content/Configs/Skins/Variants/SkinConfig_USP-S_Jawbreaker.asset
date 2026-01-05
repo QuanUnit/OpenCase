@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_USP-S_Jawbreaker
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 4fd9c779-3a1d-4b5e-916f-66ddb4f7a9c3
+  SkinStringId: USP-S_Jawbreaker
+  Name: Jawbreaker
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 4418d75b851ac0647a25707c7543aba2
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 4
+  Price:
+    MinPrice: 4.07
+    MaxPrice: 25.5
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_Dual_Berettas_Briar
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 12c4abe3-7c1f-49cf-9131-b10ee0f63291
+  SkinStringId: Dual_Berettas_Briar
+  Name: Briar
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 2d2877e4838e33e45b2a374ee28d86f7
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 0
+  Price:
+    MinPrice: 2.4
+    MaxPrice: 4.37
+  AvailableStatTrak: 0
+  AvailableSouvenir: 1

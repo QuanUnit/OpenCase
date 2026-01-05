@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_SCAR-20_Fragments
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: e9c311b8-fc6a-4b15-b633-b8a7d0585c05
+  SkinStringId: SCAR-20_Fragments
+  Name: Fragments
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 7cc9eafbd71c09144a970612d6948f67
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 0.05
+    MaxPrice: 0.45
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

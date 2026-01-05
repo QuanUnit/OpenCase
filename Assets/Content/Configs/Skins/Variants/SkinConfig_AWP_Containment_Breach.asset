@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_AWP_Containment_Breach
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 2ce7e5db-1812-4798-843a-6b0c696fe392
+  SkinStringId: AWP_Containment_Breach
+  Name: Containment Breach
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: df5e60b49106aac439d25b43fc3236a7
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 5
+  Price:
+    MinPrice: 66.11
+    MaxPrice: 930
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

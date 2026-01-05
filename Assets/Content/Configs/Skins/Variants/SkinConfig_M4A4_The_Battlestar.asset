@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_M4A4_The_Battlestar
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 33d813e4-6d8c-4a7e-ae15-981d8ca9f6cd
+  SkinStringId: M4A4_The_Battlestar
+  Name: The Battlestar
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 35453578f09ea3442afc9b86b2e40fda
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 5
+  Price:
+    MinPrice: 34.6
+    MaxPrice: 255.44
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

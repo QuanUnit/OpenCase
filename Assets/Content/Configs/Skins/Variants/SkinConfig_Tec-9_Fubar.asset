@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_Tec-9_Fubar
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: f01dfc83-fc5c-4989-9668-74927c330b4f
+  SkinStringId: Tec-9_Fubar
+  Name: Fubar
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: db4be23bda93fa04b8f4e00569b9d8e1
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 0.08
+    MaxPrice: 3.63
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

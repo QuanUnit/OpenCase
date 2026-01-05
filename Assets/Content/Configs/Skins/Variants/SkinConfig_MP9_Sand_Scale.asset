@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_MP9_Sand_Scale
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 000d5199-820a-4a55-a235-56623da6aad3
+  SkinStringId: MP9_Sand_Scale
+  Name: Sand Scale
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 347d69466b1d1bc478b5e206740b672b
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 0.52
+    MaxPrice: 1.15
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

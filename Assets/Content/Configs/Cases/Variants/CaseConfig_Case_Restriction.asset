@@ -16,25 +16,57 @@ MonoBehaviour:
     _idBody: fcce7be6-2b8f-49d8-903a-c68a06b41d60
   CaseStringId: Case_Restriction
   Name: Restriction
-  Price: 99.5
+  Price: 0.39
   SkinsMapEntries:
     _entries:
-    - Key: {fileID: 11400000, guid: 3a0d049acd9a05e47836de2ac88ff1a0, type: 2}
-      Value: 10.5
-    - Key: {fileID: 11400000, guid: 0e766c7d6587efd4897ac3f008e36fc2, type: 2}
-      Value: 10.5
-    - Key: {fileID: 11400000, guid: 803c5989f65dbed4e920e0ab0b1c9916, type: 2}
-      Value: 10.5
-    - Key: {fileID: 11400000, guid: c92e688d37c64b242a21a8d5bdada980, type: 2}
-      Value: 10.5
-    - Key: {fileID: 11400000, guid: bc4798861d92257468cb7e8ee53ae7f5, type: 2}
-      Value: 10.5
-    - Key: {fileID: 11400000, guid: 9a54f30548e46d945a00e5ccf0045a9c, type: 2}
-      Value: 10.5
-    - Key: {fileID: 11400000, guid: e561f960a9d83584ba53292273696250, type: 2}
-      Value: 10.5
-    - Key: {fileID: 11400000, guid: bfd326f296de3dc40aa654c553f19186, type: 2}
-      Value: 10.5
+    - Key: {fileID: 11400000, guid: 7a37a7391b917eb4bb2a6f60d2860a42, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: f6fc1f2e206b24948b508eb07eb8fa68, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: 77985b42b412efe4a8fee32fd9c80c05, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: 24d8e0fec6e86f94697fdab953cc2b0f, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: d6a533f3e2f7cd64bb6fed7e44415bfb, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: 92fdcf3cc6311cc4f81124cb317cb014, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: 0d65966e022d99644adf481aaecafa01, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: 0501b6615f037e441a2ada9d4a60bfdf, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: dd161168df0f2a44b82a9739772e763d, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: 183a0e19fa2fb83459700e2cfd821db2, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: 6863af4854e3a6440bd91f676380edcc, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: 86ed528a223a2ba478cacafa9780f93b, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: 74a6d3f28fbff3946937a02e257857d8, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: 9b4cca4df9fff8d4aa3d92ef67db2513, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: 97cebbc9310ddd34fa9ba23e7836f67f, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: f93853b66d4dc3345a7e08dbf10a7ec5, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: b564505413acc124e9db59ef5bdcee9d, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: c2416884889b1b74398cae34c4ee23b4, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: dbbb9410d8f4aa4419193617946d7953, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: 49f3cb6860e86df41be19f04dc13e7cd, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: 11f899634c1638841ae1c365f901683b, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: 5686fbef87af3e04da13d7cb0aa04408, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: 74624463a9c34014f82e1ad6a0331530, type: 2}
+      Value: 1
+    - Key: {fileID: 11400000, guid: df55ba98c4cc6784fbb9978947683e20, type: 2}
+      Value: 1
   ContextData:
     SpriteSource:
       _assetReference:

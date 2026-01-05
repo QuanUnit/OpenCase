@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_Nova_Red_Quartz
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 196178ba-b978-4d64-acfa-bb98079b4f8f
+  SkinStringId: Nova_Red_Quartz
+  Name: Red Quartz
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 0f3ba1e2d1ba96248b18a201cb44e237
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 3
+  Price:
+    MinPrice: 11.12
+    MaxPrice: 19.44
+  AvailableStatTrak: 0
+  AvailableSouvenir: 0

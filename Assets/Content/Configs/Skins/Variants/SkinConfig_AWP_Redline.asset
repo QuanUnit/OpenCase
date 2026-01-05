@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_AWP_Redline
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 9af4024f-34db-4bb8-9b75-b991fa7511c7
+  SkinStringId: AWP_Redline
+  Name: Redline
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 65d03d253664184419b56e1d92cde5e4
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 4
+  Price:
+    MinPrice: 38.95
+    MaxPrice: 73.09
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

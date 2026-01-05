@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_R8_Revolver_Night
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 975918d7-37c8-436c-b084-3e2e192bd9ae
+  SkinStringId: R8_Revolver_Night
+  Name: Night
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 629b3ed5269aa134599f3163f90745fa
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 0
+  Price:
+    MinPrice: 0.41
+    MaxPrice: 6.47
+  AvailableStatTrak: 0
+  AvailableSouvenir: 1

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_MP5-SD_Autumn_Twilly
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 2afd2044-c110-4fd1-b4e6-6d84365bf64e
+  SkinStringId: MP5-SD_Autumn_Twilly
+  Name: Autumn Twilly
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 8f0e6f1e1bf58b047b505ce3b62d966d
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 3
+  Price:
+    MinPrice: 11.64
+    MaxPrice: 20.17
+  AvailableStatTrak: 0
+  AvailableSouvenir: 0

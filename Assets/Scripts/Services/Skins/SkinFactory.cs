@@ -8,7 +8,12 @@ namespace Services.Skins
 {
     public class SkinFactory : ISkinFactory
     {
-        [Inject] private SkinsGlobalSettingsConfig _globalConfig;
+        private readonly SkinsGlobalSettingsConfig _globalConfig;
+
+        public SkinFactory(SkinsGlobalSettingsConfig globalConfig)
+        {
+            _globalConfig = globalConfig;
+        }
         
         public Skin CreateRandom(SkinConfig config)
         {

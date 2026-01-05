@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_FAMAS_Prime_Conspiracy
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: beec141c-5813-44bb-8847-41ef26a6178d
+  SkinStringId: FAMAS_Prime_Conspiracy
+  Name: Prime Conspiracy
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 01f9d6856d973f74a94f62f49e1c321d
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 3
+  Price:
+    MinPrice: 94.66
+    MaxPrice: 121.14
+  AvailableStatTrak: 0
+  AvailableSouvenir: 0

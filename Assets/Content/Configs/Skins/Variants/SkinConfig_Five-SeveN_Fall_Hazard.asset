@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_Five-SeveN_Fall_Hazard
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 5d6d5039-23a8-4b4f-b11c-dba8db3a38d6
+  SkinStringId: Five-SeveN_Fall_Hazard
+  Name: Fall Hazard
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 0ad50fad320c1bd45a0da8a6da96c106
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 4
+  Price:
+    MinPrice: 221.24
+    MaxPrice: 949.62
+  AvailableStatTrak: 0
+  AvailableSouvenir: 1

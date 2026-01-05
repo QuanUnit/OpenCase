@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_P90_Death_Grip
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 0be75fca-1cca-4e68-adce-0f034e07ac55
+  SkinStringId: P90_Death_Grip
+  Name: Death Grip
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: f0daff63e8a07f4458d9351490ae6f87
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 3
+  Price:
+    MinPrice: 21.82
+    MaxPrice: 51.22
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

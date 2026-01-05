@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_MP7_Motherboard
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 252d2b3b-2010-42bb-a841-f3fa01990bf5
+  SkinStringId: MP7_Motherboard
+  Name: Motherboard
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 82b7b82cfd445064cb2c3a3b98939d4d
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 1
+  Price:
+    MinPrice: 0.01
+    MaxPrice: 0.09
+  AvailableStatTrak: 0
+  AvailableSouvenir: 1

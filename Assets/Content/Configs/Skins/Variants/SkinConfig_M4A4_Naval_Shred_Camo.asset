@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_M4A4_Naval_Shred_Camo
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 6059176f-7310-47a2-8f87-867449c201bd
+  SkinStringId: M4A4_Naval_Shred_Camo
+  Name: Naval Shred Camo
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 3e4a4e4a3e9b04444be43bff04a701e5
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 1
+  Price:
+    MinPrice: 0.04
+    MaxPrice: 0.66
+  AvailableStatTrak: 0
+  AvailableSouvenir: 0

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_AUG_Lil'_Pig
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 06b9b268-be57-46e3-ade3-bd056e2fac45
+  SkinStringId: AUG_Lil'_Pig
+  Name: Lil' Pig
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 96b4b0401c305ae41a5458e3d12a4021
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 4
+  Price:
+    MinPrice: 56.98
+    MaxPrice: 203.08
+  AvailableStatTrak: 0
+  AvailableSouvenir: 0

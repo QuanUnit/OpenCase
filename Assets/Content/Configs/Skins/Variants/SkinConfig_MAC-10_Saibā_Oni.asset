@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: "SkinConfig_MAC-10_Saib\u0101_Oni"
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 33270ba4-2eb8-4872-93f6-05fa7c9f529a
+  SkinStringId: "MAC-10_Saib\u0101_Oni"
+  Name: "Saib\u0101 Oni"
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 38347e19c15fef84dbf80a19a61cb4f4
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 3
+  Price:
+    MinPrice: 0.82
+    MaxPrice: 6.6
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

@@ -26,7 +26,7 @@ MonoBehaviour:
         m_EditorAssetChanged: 0
   Rarity: 5
   Price:
-    MinPrice: 35.99
-    MaxPrice: 227.64
+    MinPrice: 37.17
+    MaxPrice: 244.66
   AvailableStatTrak: 1
   AvailableSouvenir: 0

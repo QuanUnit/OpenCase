@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_PP-Bizon_Water_Sigil
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 9b48e2a4-b8e9-4c9c-814a-2f8f0a48e521
+  SkinStringId: PP-Bizon_Water_Sigil
+  Name: Water Sigil
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 24b50d9a166becd46acc7f7f39f30ebf
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 1.64
+    MaxPrice: 2.99
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

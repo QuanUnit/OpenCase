@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_P250_Epicenter
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: f3025eba-b63c-49e1-beff-1c6f4dff5bfd
+  SkinStringId: P250_Epicenter
+  Name: Epicenter
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 999769a191bf35a4396de4808669f2a9
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 4
+  Price:
+    MinPrice: 4.58
+    MaxPrice: 33.65
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

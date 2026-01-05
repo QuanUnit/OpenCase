@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_AK-47_Point_Disarray
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 66b94a6f-7153-49e2-b240-68a2ac93e3ce
+  SkinStringId: AK-47_Point_Disarray
+  Name: Point Disarray
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 75d1dada712adbe499d439d8884f6622
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 4
+  Price:
+    MinPrice: 13.55
+    MaxPrice: 83
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

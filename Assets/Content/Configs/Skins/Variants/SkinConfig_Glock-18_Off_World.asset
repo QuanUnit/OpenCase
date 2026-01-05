@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_Glock-18_Off_World
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 5c458a09-d154-4854-b8ac-22a346106b31
+  SkinStringId: Glock-18_Off_World
+  Name: Off World
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: ecd1477bcb21bc44ab4262a5b07a832d
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Price:
+    MinPrice: 0.14
+    MaxPrice: 1.3
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

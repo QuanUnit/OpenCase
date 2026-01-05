@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_AUG_Stymphalian
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 0d0ee74e-243d-41a5-920d-9e2a5f50f555
+  SkinStringId: AUG_Stymphalian
+  Name: Stymphalian
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: cdd8e6b5c188c274d9738bcea356adc1
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 4
+  Price:
+    MinPrice: 3.41
+    MaxPrice: 12.7
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

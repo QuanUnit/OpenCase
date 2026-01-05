@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_P90_Shallow_Grave
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 27570a70-77e4-4844-b929-997099bb8eb0
+  SkinStringId: P90_Shallow_Grave
+  Name: Shallow Grave
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: a864f8e2b5092de49957a8ec2bbb8610
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 4
+  Price:
+    MinPrice: 46.84
+    MaxPrice: 82.78
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0

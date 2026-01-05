@@ -27,6 +27,6 @@ MonoBehaviour:
   Rarity: 1
   Price:
     MinPrice: 0.08
-    MaxPrice: 2.38
+    MaxPrice: 2.46
   AvailableStatTrak: 0
   AvailableSouvenir: 1

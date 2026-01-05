@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_G3SG1_High_Seas
+  m_EditorClassIdentifier: 
+  _id:
+    _idBody: 17c72bb8-87ee-4a3b-9617-682679e553a5
+  SkinStringId: G3SG1_High_Seas
+  Name: High Seas
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 1ce135eca727f074dae2a26e86b44002
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 3
+  Price:
+    MinPrice: 0.56
+    MaxPrice: 4.33
+  AvailableStatTrak: 1
+  AvailableSouvenir: 0
