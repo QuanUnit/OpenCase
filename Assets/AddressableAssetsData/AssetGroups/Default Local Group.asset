@@ -25,6 +25,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 327eb49d6ce8a634a8b99e48ce8b8a24
+    m_Address: Assets/Content/Textures/Skins/Weapons/SSG-08
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34316e70721a4e3419f67c49bbb474a2
+    m_Address: Assets/Content/Textures/Skins/Weapons/GalilAR
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 356e56d94bab13c4bb32804238dfe68a
     m_Address: Assets/Content/Textures/Skins/Weapons/DesertEagle
     m_ReadOnly: 0
@@ -40,8 +50,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ed2ca077889aad4980d15e16378c7a1
+    m_Address: Assets/Content/Textures/Skins/Weapons/MAC-10
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5910311d6950356419491f1830bbbb64
     m_Address: Assets/Content/Textures/Skins/Weapons/Revolver
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f0201fd54cef884b85983526738bb27
+    m_Address: Assets/Content/Textures/Skins/Weapons/UMP-45
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -55,8 +75,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81080f7f3e0585444828e64d30636664
+    m_Address: Assets/Content/Textures/Skins/Weapons/M4A1-S
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 836fc3280882f3342a2dd7bebf32e7a2
     m_Address: Assets/Content/Textures/Skins/Weapons/CZ75-Auto
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a61eb6adcfe6154d81103b2aab05df6
+    m_Address: Assets/Content/Textures/Skins/Weapons/MP5-SD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c371e2131053dc4ea1aac0963c3e8b9
+    m_Address: Assets/Content/Textures/Skins/Weapons/Famas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac828ede1aff2fb46b1e3a6409d7232e
+    m_Address: Assets/Content/Textures/Cases
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -65,8 +105,43 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c11d4a093d40a81429db03cc0ed39867
+    m_Address: Assets/Content/Textures/Skins/Weapons/MP7
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c195bef2700ea2a41b205a1e3b853cf0
+    m_Address: Assets/Content/Textures/Skins/Weapons/G3SG1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c54de277582e8f84d8671eed50273e8d
+    m_Address: Assets/Content/Textures/Skins/Weapons/SG553
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ce9ee063fa32c774db9b104f452f5319
     m_Address: Assets/Content/Textures/Skins/Weapons/P250
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3872943c012c134f9cee3b1c9dbe847
+    m_Address: Assets/Content/Textures/Skins/Weapons/P90
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3c18d0a7a25aea42bd0a44658dd1116
+    m_Address: Assets/Content/Textures/Skins/Weapons/MP9
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3d650fe8dafdc243a2b732b7e31ebf3
+    m_Address: Assets/Content/Textures/Skins/Weapons/SCAR-20
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6bf35a1db9d2444eab0ee2a23ff51a2
+    m_Address: Assets/Content/Textures/Skins/Weapons/PP-Bizon
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -77,6 +152,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f602647158fa3bd47ab4622dc05fd3ac
     m_Address: Assets/Content/Textures/Skins/Weapons/USP
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc88ab0b9becb404a85acdac98aa09eb
+    m_Address: Assets/Content/Textures/Skins/Weapons/M4A4
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
