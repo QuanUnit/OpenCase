@@ -1,0 +1,23 @@
+{
+    "name": "Features.OthersDrop",
+    "rootNamespace": "Features.OthersDrop",
+    "references": [
+        "Features.Skins",
+        "Shared",
+        "QCore.Tools",
+        "QCore.UI",
+        "QCore.AddressablesWrapper",
+        "Zenject",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

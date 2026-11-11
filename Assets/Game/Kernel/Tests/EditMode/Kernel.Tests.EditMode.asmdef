@@ -1,0 +1,29 @@
+{
+    "name": "Kernel.Tests.EditMode",
+    "rootNamespace": "Kernel.Tests.EditMode",
+    "references": [
+        "Kernel",
+        "Shared",
+        "Zenject",
+        "UniTask",
+        "QCore.UI",
+        "QCore.StateMachine",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

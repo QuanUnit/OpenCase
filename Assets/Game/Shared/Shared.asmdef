@@ -1,0 +1,20 @@
+{
+    "name": "Shared",
+    "rootNamespace": "Shared",
+    "references": [
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "UniTask",
+        "QCore.UI",
+        "Zenject"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

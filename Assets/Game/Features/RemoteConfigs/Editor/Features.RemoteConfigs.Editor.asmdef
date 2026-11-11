@@ -1,0 +1,25 @@
+{
+    "name": "Features.RemoteConfigs.Editor",
+    "rootNamespace": "Features.RemoteConfigs.Editor",
+    "references": [
+        "Features.Skins",
+        "Features.Cases",
+        "Shared",
+        "QCore.Tools",
+        "QCore.AddressablesWrapper",
+        "UniTask",
+        "rotorz.unity3d-class-type-reference",
+        "MackySoft.SerializeReferenceExtensions"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Features.Cases",
+    "rootNamespace": "Features.Cases",
+    "references": [
+        "Features.Skins",
+        "Features.Inventory",
+        "Features.Wallet",
+        "Features.SlotMachine",
+        "Shared",
+        "QCore.Tools",
+        "QCore.UI",
+        "QCore.AddressablesWrapper",
+        "Zenject",
+        "UniTask",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

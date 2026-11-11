@@ -1,0 +1,21 @@
+{
+    "name": "Features.SlotMachine",
+    "rootNamespace": "Features.SlotMachine",
+    "references": [
+        "Features.Skins",
+        "Shared",
+        "QCore.Tools",
+        "UniTask",
+        "UnityEngine.UI",
+        "UniTask.DOTween"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

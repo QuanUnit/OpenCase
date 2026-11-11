@@ -1,0 +1,29 @@
+{
+    "name": "Kernel",
+    "rootNamespace": "Kernel",
+    "references": [
+        "Features.Skins",
+        "Features.Wallet",
+        "Features.SlotMachine",
+        "Features.Inventory",
+        "Features.OthersDrop",
+        "Features.Cases",
+        "Features.GameHub",
+        "Shared",
+        "QCore.StateMachine",
+        "QCore.UI",
+        "Zenject",
+        "UniTask",
+        "Unity.Addressables",
+        "Unity.ResourceManager"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

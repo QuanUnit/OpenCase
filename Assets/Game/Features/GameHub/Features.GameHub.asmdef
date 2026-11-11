@@ -1,0 +1,24 @@
+{
+    "name": "Features.GameHub",
+    "rootNamespace": "Features.GameHub",
+    "references": [
+        "Features.Cases",
+        "Features.Inventory",
+        "Features.OthersDrop",
+        "Features.Wallet",
+        "Shared",
+        "QCore.UI",
+        "Zenject",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

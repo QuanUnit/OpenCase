@@ -1,0 +1,25 @@
+{
+    "name": "Features.RemoteConfigs.Editor.Tests",
+    "rootNamespace": "Features.RemoteConfigs.Editor.Tests",
+    "references": [
+        "Features.RemoteConfigs.Editor",
+        "rotorz.unity3d-class-type-reference",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

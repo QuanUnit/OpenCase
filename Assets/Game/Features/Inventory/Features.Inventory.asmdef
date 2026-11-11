@@ -1,0 +1,24 @@
+{
+    "name": "Features.Inventory",
+    "rootNamespace": "Features.Inventory",
+    "references": [
+        "Features.Skins",
+        "Features.Wallet",
+        "Shared",
+        "QCore.Tools",
+        "QCore.UI",
+        "Zenject",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "QCore.AddressablesWrapper"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Features.Skins",
+    "rootNamespace": "Features.Skins",
+    "references": [
+        "Shared",
+        "QCore.Tools",
+        "QCore.AddressablesWrapper",
+        "NaughtyAttributes.Core",
+        "Zenject",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

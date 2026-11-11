@@ -1,0 +1,26 @@
+{
+    "name": "Features.Inventory.Tests.EditMode",
+    "rootNamespace": "Features.Inventory.Tests.EditMode",
+    "references": [
+        "Features.Inventory",
+        "Features.Skins",
+        "QCore.Tools",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
