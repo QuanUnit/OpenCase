@@ -6,6 +6,7 @@ using Shared.UI.SelectableSet;
 using QCore.Tools.Identifiers;
 using QCore.UISystem.Panels;
 using Features.Skins.Data;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -26,6 +27,9 @@ namespace Features.Inventory.UI.Panels
         [SerializeField] private SkinDetailsPopup _skinDetailsPopup;
         [SerializeField] private Button _sellButton;
         [SerializeField] private TextedCurrencyView _sellButtonCurrency;
+        [SerializeField] private TMP_Text _itemsCount;
+        [SerializeField] private TextedCurrencyView _totalValue;
+        [SerializeField] private GameObject _emptyState;
 
         private readonly Dictionary<QGuid, SkinView> _activeViews = new Dictionary<QGuid, SkinView>();
         private readonly Dictionary<SkinView, QGuid> _viewToSkinIdMap = new Dictionary<SkinView, QGuid>();
@@ -33,6 +37,8 @@ namespace Features.Inventory.UI.Panels
         private void OnEnable()
         {
             _sellButton.onClick.AddListener(SellClickHandle);
+
+            UpdateSummary();
         }
 
         public void AddSkinViews(IEnumerable<Skin> skins, CreateSkinViewAction createAction)
@@ -50,6 +56,8 @@ namespace Features.Inventory.UI.Panels
             created.Clicked += SkinClickHandle;
             _activeViews.Add(skin.Id, created);
             _viewToSkinIdMap.Add(created, skin.Id);
+
+            UpdateSummary();
         }
 
         private void SkinClickHandle(SkinView sender)
@@ -68,6 +76,8 @@ namespace Features.Inventory.UI.Panels
 
             view.Clicked -= SkinClickHandle;
             Destroy(view.gameObject);
+
+            UpdateSummary();
         }
 
         public void RemoveAllSkinViews()
@@ -93,6 +103,20 @@ namespace Features.Inventory.UI.Panels
             _sellButtonCurrency.SetView(price);
         }
         
+        private void UpdateSummary()
+        {
+            var totalValue = 0f;
+
+            foreach (var view in _activeViews.Values)
+            {
+                totalValue += view.Price;
+            }
+
+            _itemsCount.SetText("{0}", _activeViews.Count);
+            _totalValue.SetView(totalValue);
+            _emptyState.SetActive(_activeViews.Count == 0);
+        }
+
         private void SellClickHandle()
         {
             SellClicked?.Invoke();

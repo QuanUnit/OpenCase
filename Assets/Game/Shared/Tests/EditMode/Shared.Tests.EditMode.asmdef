@@ -3,6 +3,7 @@
     "rootNamespace": "Shared.Tests.EditMode",
     "references": [
         "Shared",
+        "Unity.TextMeshPro",
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner"
     ],

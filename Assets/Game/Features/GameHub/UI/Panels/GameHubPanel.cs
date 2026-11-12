@@ -1,5 +1,5 @@
 using System;
-using Shared.UI;
+using Shared.UI.Effects;
 using Features.Cases.UI.Panels;
 using Features.Inventory.UI.Panels;
 using Features.OthersDrop.UI.Panels;
@@ -21,6 +21,7 @@ namespace Features.GameHub.UI.Panels
         [Header("Buttons")]
         [SerializeField] private Button _casesButton;
         [SerializeField] private Button _inventoryButonl;
+        [SerializeField] private TabIndicator _tabIndicator;
         
         [Header("Sub Panels")]
         [SerializeField] private CasesSubPanel _casesSubPanel;
@@ -28,7 +29,7 @@ namespace Features.GameHub.UI.Panels
 
         [Header("Hub elements")] 
         [SerializeField] private OthersDropBar _othersDropBar;
-        [SerializeField] private TextedCurrencyView _softCurencyView;
+        [SerializeField] private NumberCounter _softCurrencyCounter;
 
         
         private void OnEnable()
@@ -39,7 +40,21 @@ namespace Features.GameHub.UI.Panels
 
         public void SetSoftCurrency(float value)
         {
-            _softCurencyView.SetView(value);
+            _softCurrencyCounter.SetValue(value);
+        }
+
+        public void SetActiveTab(GameHubTab tab)
+        {
+            var index = (int)tab;
+
+            if (_tabIndicator.gameObject.activeSelf == false)
+            {
+                _tabIndicator.gameObject.SetActive(true);
+                _tabIndicator.SelectImmediately(index);
+                return;
+            }
+
+            _tabIndicator.Select(index);
         }
 
         private void InventoryButtonClickHandle()

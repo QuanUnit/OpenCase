@@ -42,6 +42,7 @@ namespace Features.GameHub.UI.Presenters
         private void InventoryClickHandle()
         {
             CloseActiveChildPanel();
+            Panel.SetActiveTab(GameHubTab.Inventory);
             
             var data = _panelsService.Open(() => Panel.InventorySubPanel);
             _openedChildPanel = data.Panel;
@@ -50,6 +51,7 @@ namespace Features.GameHub.UI.Presenters
         private void CasesClickHandle()
         {
             CloseActiveChildPanel();
+            Panel.SetActiveTab(GameHubTab.Cases);
             
             var data = _panelsService.Open(() => Panel.CasesSubPanel);
             _openedChildPanel = data.Panel;

@@ -1,6 +1,6 @@
 # OpenCase: карта проекта для агентов
 
-Unity-игра про открытие кейсов (скины, инвентарь, продажа). Читай этот файл в начале сессии.
+Unity-игра про открытие кейсов (скины, инвентарь, продажа). Читай этот файл в начале сессии. Работаешь с UI или префабами: читай также `UI_DESIGN.md` (токены, типографика, эффекты, правила).
 
 ## 1. Стек
 - Unity 6000.3.25f1, URP.
@@ -13,7 +13,7 @@ Unity-игра про открытие кейсов (скины, инвента�
 
 | Сборка | Путь | Назначение | Зависит от (наши) |
 |---|---|---|---|
-| `Shared` | `Assets/Game/Shared` | Lifecycle-интерфейсы, `BindPanelPresenter`, SelectableSet, Tools, общие шрифты/текстуры/шаблоны | нет |
+| `Shared` | `Assets/Game/Shared` | Lifecycle-интерфейсы, `BindPanelPresenter`, SelectableSet, Tools, общие шрифты/текстуры/шаблоны, `Shared.UI.Theme` (`UiTheme`), `Shared.UI.Effects`, `Content/Configs/UiTheme.asset` | нет |
 | `Features.Wallet` | `Assets/Game/Features/Wallet` | кошелёк, мягкая валюта | нет |
 | `Features.Skins` | `Assets/Game/Features/Skins` | модели скинов, базы, `SkinFactory`, конфиги | Shared |
 | `Features.SlotMachine` | `Assets/Game/Features/SlotMachine` | виджет горизонтальной рулетки (без инсталлера) | Skins, Shared |
@@ -121,7 +121,9 @@ Features/<Name>/
 - Сцена грузится по Addressables-адресу `RuntimeScene` (`ProjectKernelConfig`); адрес не менять.
 - Записи Addressables для папок текстур ссылаются на GUID папок; при переносе папки сохраняй `.meta`.
 - `.sln`, `.csproj`, `.idea` в `.gitignore`; их не правим и не коммитим.
-- `GameHubPanel` имеет сериализованные поля с опечатками (`_inventoryButonl`, `_softCurencyView`): переименовывай только с `[FormerlySerializedAs]`.
+- `GameHubPanel` имеет сериализованное поле с опечаткой `_inventoryButonl`: переименовывай только с `[FormerlySerializedAs]`. Баланс показывает `_softCurrencyCounter` (`NumberCounter`).
+- `RubikBold/Medium SDF` динамические: после play-сессий в них появляются новые глифы, этот шум не коммить.
+- Визуальные значения берём из `UiTheme.asset` (эталон, совпадает с подобранными значениями в `UI_DESIGN.md` §1), правила в `UI_DESIGN.md`. Префабы правим только через `PrefabUtility` (editor открыт).
 - `CaseConfig_Case_Test.asset` содержит 4 висячих ссылки на скины (было до рефакторинга).
 - Тип не должен называться как сегмент `Features.<Имя>` (класс `Wallet` внутри `Features.Wallet` перекрывается namespace). Снаружи фичи используй `IWallet`/`SoftCurrencyWallet`; при конфликте пиши `Services.Wallet`.
 - `Kernel.asmdef` ссылается на все фичи; новая фича без записи в `ProjectContext` не получит биндинги.
@@ -150,3 +152,10 @@ TMPDIR_AGENT="/tmp/opencase"; mkdir -p "$TMPDIR_AGENT"
 ```
 Один тест: добавь `-testFilter "<полное.имя.Класса>"`. Логи: `$TMPDIR_AGENT/*.log`.
 Битые ссылки: `grep -rn "m_Script: {fileID: 0}" Assets/Game Assets/Scenes` -> пусто.
+
+## 12. Unity MCP
+- Пакет `com.coplaydev.unity-mcp`. Сервер стартует вместе с редактором: `http://localhost:8080/mcp`. `.mcp.json` в корне репо регистрирует его для Claude Code как `UnityMCP`.
+- Нужен `uvx` в PATH (поставлен через pip, симлинк в `/usr/local/bin`).
+- Редактор должен быть в фокусе для скриншотов и анимаций: без фокуса player loop не тикает, кадры чёрные.
+- Пока редактор открыт, batchmode-команды недоступны (проект залочен): используй MCP `run_tests` и `read_console`. Если `run_tests` не стартует, запускай `TestRunnerApi` через `execute_code`.
+- Перед правкой ассетов выходи из play mode.

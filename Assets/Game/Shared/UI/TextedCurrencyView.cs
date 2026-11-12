@@ -1,3 +1,4 @@
+using Shared.UI.Effects;
 using TMPro;
 using UnityEngine;
 
@@ -7,11 +8,10 @@ namespace Shared.UI
     public class TextedCurrencyView : MonoBehaviour
     {
         [SerializeField] private TMP_Text _text;
-        [SerializeField] private string _postfix = " $";
         
         public void SetView(float price)
         {
-            _text.text = $"{price:F}{_postfix}";
+            _text.text = NumberCounterFormatter.FormatMoney(price);
         }
 
 #if UNITY_EDITOR

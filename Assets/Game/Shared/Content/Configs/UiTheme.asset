@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1531a185be3e4b07a7ef38340f208c6, type: 3}
+  m_Name: UiTheme
+  m_EditorClassIdentifier: Shared::Shared.UI.Theme.UiTheme
+  _background: {r: 0.043137256, g: 0.050980393, b: 0.07058824, a: 1}
+  _surface: {r: 0.08235294, g: 0.09411765, b: 0.12941177, a: 1}
+  _surfaceRaised: {r: 0.11372549, g: 0.12941177, b: 0.17254902, a: 1}
+  _stroke: {r: 0.16470589, g: 0.18431373, b: 0.23921569, a: 1}
+  _textPrimary: {r: 0.9490196, g: 0.95686275, b: 0.972549, a: 1}
+  _textMuted: {r: 0.5411765, g: 0.5764706, b: 0.6509804, a: 1}
+  _accent: {r: 1, g: 0.5411765, b: 0.12156863, a: 1}
+  _accentLight: {r: 1, g: 0.70980394, b: 0.2784314, a: 1}
+  _success: {r: 0.23921569, g: 0.8627451, b: 0.5176471, a: 1}
+  _danger: {r: 1, g: 0.3019608, b: 0.36862746, a: 1}
+  _overlay: {r: 0, g: 0, b: 0, a: 0.85}
+  _bodyFont: {fileID: 11400000, guid: 22d6e047d70d24424871ac6a5d32af34, type: 2}
+  _headingFont: {fileID: 11400000, guid: d6f92425ca7a8462a840949c6e85b2e9, type: 2}
+  _heading1Size: 44
+  _heading1CharacterSpacing: 2
+  _heading2Size: 30
+  _bodySize: 22
+  _captionSize: 16
+  _numberSize: 24
+  _roundedRect12: {fileID: 21300000, guid: 4cade2dc8547d43cc82d63c797fe33df, type: 3}
+  _roundedRect16: {fileID: 21300000, guid: 01474d99f9e994151b962c31211c50a6, type: 3}
+  _roundedRect24: {fileID: 21300000, guid: 8955fa02e362b4cda8baa199aa476863, type: 3}
+  _pill: {fileID: 21300000, guid: 19360be4136484508a39fc3b3d03a4ee, type: 3}
+  _roundedOutline16: {fileID: 21300000, guid: 98882969feece4d66916d4c21958fe7d, type: 3}
+  _softGlow: {fileID: 21300000, guid: dcb110508aa354a8fbb3ddcab94f4f0a, type: 3}
+  _verticalGradient: {fileID: 21300000, guid: ff44f9fe635b04c648b150854b5dc1b3, type: 3}
+  _circle: {fileID: 21300000, guid: 15496c508f2ff423cb56a743d5fb6039, type: 3}
+  _coinIcon: {fileID: 21300000, guid: 03b47ed79d1074e63adbf694dc6e025d, type: 3}
+  _boxIcon: {fileID: 21300000, guid: e5b48d07eb5b84be4a2add8bfa317d7f, type: 3}
+  _gridIcon: {fileID: 21300000, guid: 1fe9df4df7ee04f47b8cb76ded045d4f, type: 3}
+  _closeIcon: {fileID: 21300000, guid: 8a9eb3db324214e0aae27c16c30ba99e, type: 3}
+  _checkIcon: {fileID: 21300000, guid: 53849241c32834174b6164bddcde7e58, type: 3}
+  _caseIcon: {fileID: 21300000, guid: 422740e3ecd2905479e966a2c2905c73, type: 3}
+  _spacingSmall: 16
+  _spacingMedium: 24
+  _spacingLarge: 32
+  _rarityStripThickness: 4
+  _rarityGlowAlpha: 0.3
+  _fastDuration: 0.12
+  _baseDuration: 0.25
+  _counterDuration: 0.4
+  _winPunchScale: 1.12
+  _winPunchDuration: 0.35
+  _screenFlashAlpha: 0.025
+  _screenFlashDuration: 0.4

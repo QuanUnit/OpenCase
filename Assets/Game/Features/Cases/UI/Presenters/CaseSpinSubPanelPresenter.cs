@@ -44,6 +44,8 @@ namespace Features.Cases.UI.Presenters
         {
             Panel.SpinClicked += SpinClickHandle;
             Panel.BackClicked += BackClickHandle;
+
+            Panel.SetCaseView(_caseConfig.Name, _caseConfig.Price);
         }
         
         public void SetPayload(QGuid payload)
@@ -73,6 +75,21 @@ namespace Features.Cases.UI.Presenters
             
             _inventoryService.Add(skin);
             _softCurrencyWallet.Spend(_caseConfig.Price);
+
+            Panel.SetReward(CreateRewardData(skin));
+        }
+
+        private CaseSpinSubPanel.RewardData CreateRewardData(Skin skin)
+        {
+            var skinConfig = _skinsDatabaseService.GetSkinConfigById(skin.SkinSourceId);
+            var rarityVisual = _skinsUIContextDataService.GetRarityVisual(skinConfig.Rarity);
+
+            return new CaseSpinSubPanel.RewardData()
+            {
+                SkinName = skinConfig.Name,
+                RarityColor = rarityVisual.RarityMainColor,
+                Price = skin.Price,
+            };
         }
 
         private bool CanSpinCase()

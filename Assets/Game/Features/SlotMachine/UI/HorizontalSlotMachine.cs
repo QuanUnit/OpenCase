@@ -13,6 +13,8 @@ namespace Features.SlotMachine.UI
 {
     public class HorizontalSlotMachine : MonoBehaviour
     {
+        public event Action<Slot> SpinCompleted;
+
         public bool IsSpinning => _spinTween != null;
         
         [SerializeField] private HorizontalSlotMachineConfig _slotMachineConfig;
@@ -51,11 +53,22 @@ namespace Features.SlotMachine.UI
 
             await UniTask.Yield(cancellationToken: _cts.Token);
             
+            var isSpinCompleted = false;
+
             _spinTween = GetSpinTween(winSlot, extraData);
+            _spinTween.OnComplete(() => isSpinCompleted = true);
             await _spinTween.AwaitForComplete(cancellationToken: _cts.Token);
+
+            if (isSpinCompleted == false)
+            {
+                return;
+            }
 
             _cts = null;
             _spinTween = null;
+
+            winSlot.PlayWin();
+            SpinCompleted?.Invoke(winSlot);
         }
         
         public void StopSpin()

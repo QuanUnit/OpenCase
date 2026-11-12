@@ -4,6 +4,6 @@ namespace Features.SlotMachine.UI
 {
     public abstract class Slot : MonoBehaviour
     {
-        
+        public abstract void PlayWin();
     }
 }

@@ -19,11 +19,15 @@ namespace Features.Inventory.UI.Panels
         [SerializeField] private TMP_Text _skinName;
         [SerializeField] private TMP_Text _floatValue;
         [SerializeField] private TextedCurrencyView _currencyView;
+        [SerializeField] private Image _rarityGlow;
+        [SerializeField, Range(0f, 1f)] private float _rarityGlowAlpha = 0.3f;
 
         public void SetView(Data data)
         {
             _skinIcon.sprite = data.SkinIcon;
+            _skinIcon.enabled = data.SkinIcon != null;
             _rarityBar.color = data.RarityColor;
+            _rarityGlow.color = new Color(data.RarityColor.r, data.RarityColor.g, data.RarityColor.b, _rarityGlowAlpha);
             _skinName.text = data.SkinName;
             _currencyView.SetView(data.Price);
             _floatValue.SetText($"{data.FloatValue:F7}");

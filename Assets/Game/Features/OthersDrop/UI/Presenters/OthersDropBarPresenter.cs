@@ -61,7 +61,6 @@ namespace Features.OthersDrop.UI.Presenters
             view.SetView(new SkinView.Data()
             {
                 Name = config.Name,
-                RarityBackground = rarityVisual.RarityBackgroundColor,
                 RarityBar = rarityVisual.RarityMainColor,
                 SkinIcon = config.ContextData.SpriteSource.GetAsset(),
             });
