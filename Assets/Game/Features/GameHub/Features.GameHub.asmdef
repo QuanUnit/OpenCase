@@ -3,6 +3,7 @@
     "rootNamespace": "Features.GameHub",
     "references": [
         "Features.Cases",
+        "Features.Clicker",
         "Features.Inventory",
         "Features.OthersDrop",
         "Features.Wallet",

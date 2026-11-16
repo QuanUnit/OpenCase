@@ -1,0 +1,22 @@
+{
+    "name": "Features.Clicker",
+    "rootNamespace": "Features.Clicker",
+    "references": [
+        "Features.Wallet",
+        "Shared",
+        "QCore.UI",
+        "Zenject",
+        "UniTask",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -19,8 +19,9 @@ Unity-игра про открытие кейсов (скины, инвента�
 | `Features.SlotMachine` | `Assets/Game/Features/SlotMachine` | виджет горизонтальной рулетки (без инсталлера) | Skins, Shared |
 | `Features.Inventory` | `Assets/Game/Features/Inventory` | инвентарь, продажа, `SelectedSkinsBuffer` | Skins, Wallet, Shared |
 | `Features.OthersDrop` | `Assets/Game/Features/OthersDrop` | лента дропа других игроков | Skins, Shared |
+| `Features.Clicker` | `Assets/Game/Features/Clicker` | вкладка EARN: клик/удержание монеты даёт мягкую валюту (`ClickerConfig`: награда, интервал удержания, частицы) | Wallet, Shared |
 | `Features.Cases` | `Assets/Game/Features/Cases` | кейсы, спин кейса | Skins, Inventory, Wallet, SlotMachine, Shared |
-| `Features.GameHub` | `Assets/Game/Features/GameHub` | главная панель-хаб | Cases, Inventory, OthersDrop, Wallet, Shared |
+| `Features.GameHub` | `Assets/Game/Features/GameHub` | главная панель-хаб | Cases, Clicker, Inventory, OthersDrop, Wallet, Shared |
 | `Kernel` | `Assets/Game/Kernel` | бутстрап, state machine, DI-корень, фабрика презентеров | все фичи, Shared |
 | `Features.RemoteConfigs.Editor` | `Assets/Game/Features/RemoteConfigs/Editor` | импорт конфигов из таблиц (только Editor) | Skins, Cases, Shared |
 
@@ -76,6 +77,7 @@ Features/<Name>/
 - MonoInstaller: только `[SerializeField]` конфигов и биндинги.
 - Биндинг интерфейса: `Container.Bind<IX>().To<X>().AsSingle()`; несколько ролей: `Container.Bind(typeof(A), typeof(B)).To<X>().AsSingle()`.
 - Все локальные переменные через `var`.
+- В контейнер биндим только конфиги, сервисы, фабрики и подобные сущности, не данные (модели, состояние выбора и т.п.). Состояние, нужное только пока открыта панель, храним полем в презентере (презентер создаётся заново при каждом открытии).
 
 ## 6. Флоу запуска
 `Bootstrapper` -> `BootstrapState` -> `SettingPersistentWithoutSaveState` -> `LoadingAssetsState` -> `OpeningSessionState` -> `PlayingSessionState`.
@@ -102,6 +104,8 @@ Features/<Name>/
 - Без магических чисел для настраиваемых значений (скорость, длительность, порог): выноси в конфиг/`[SerializeField]`. Константы формул (`0.5f`, `1f`, `2f * Mathf.PI`) оставляем.
 - Статические методы только в статических классах; в нестатическом классе не объявляем.
 - Пустая строка между смысловыми блоками; без однострочных «схлопываний» ради краткости.
+- Общую логику, не привязанную к фиче (математика, коллекции, лейаут), выносим в `Shared/Tools` (тулы, экстеншены), а не во вспомогательные классы фичи.
+- UI-раскладка: компонентами Unity Layout; своя логика лейаута в коде только для того, что Unity Layout сделать не может (подробно в `UI_DESIGN.md` §8.1).
 - Приоритет источников стиля: `.codestyle/DECISIONS.md` (если есть), затем соседние файлы, затем чаще встречающийся стиль.
 
 ## 8. Тесты
@@ -110,7 +114,7 @@ Features/<Name>/
 - NSubstitute НЕ используем: не грузится в этой версии Unity (Castle.Core требует `System.Diagnostics.EventLog`). Пиши ручные фейки в папке теста (`FakeAssetsLoader`, `FakeUIPanelsService`).
 - Фейковые MonoBehaviour нельзя `AddComponent` из editor-сборки теста: `PanelPresenterFactoryTests` берёт `FormatterServices.GetUninitializedObject`, фабрике нужен только тип.
 - ScriptableObject с private `[SerializeField]` заполняем через `SerializedObject` (пример: `Assets/Game/Features/Skins/Tests/EditMode/SkinsGlobalSettingsConfigBuilder.cs`).
-- Покрыто: Wallet, Inventory (`InventoryService`, `SelectedSkinsBuffer`), `SkinFactory`, Shared (`IntRange`, математика, коллекции), Kernel (`PanelPresenterFactory`, состояния, `ProjectContext`), `RemoteConfigsData`.
+- Покрыто: Wallet, Inventory (`InventoryService`, `SelectedSkinsBuffer`), `SkinFactory`, Shared (`IntRange`, математика, `MoneyMath`, коллекции), Clicker (`ClickerService`), Kernel (`PanelPresenterFactory`, состояния, `ProjectContext`), `RemoteConfigsData`.
 - Пробелы: `SkinsDatabaseService`, `CasesDatabaseService`, презентеры, PlayMode.
 - Тесты в `*/Tests/` часть проекта и не удаляются перед коммитом; удаляются только временные проверочные тесты агента.
 
@@ -124,9 +128,9 @@ Features/<Name>/
 - `GameHubPanel` имеет сериализованное поле с опечаткой `_inventoryButonl`: переименовывай только с `[FormerlySerializedAs]`. Баланс показывает `_softCurrencyCounter` (`NumberCounter`).
 - `RubikBold/Medium SDF` динамические: после play-сессий в них появляются новые глифы, этот шум не коммить.
 - Визуальные значения берём из `UiTheme.asset` (эталон, совпадает с подобранными значениями в `UI_DESIGN.md` §1), правила в `UI_DESIGN.md`. Префабы правим только через `PrefabUtility` (editor открыт).
-- `CaseConfig_Case_Test.asset` содержит 4 висячих ссылки на скины (было до рефакторинга).
 - Тип не должен называться как сегмент `Features.<Имя>` (класс `Wallet` внутри `Features.Wallet` перекрывается namespace). Снаружи фичи используй `IWallet`/`SoftCurrencyWallet`; при конфликте пиши `Services.Wallet`.
 - `Kernel.asmdef` ссылается на все фичи; новая фича без записи в `ProjectContext` не получит биндинги.
+- Мультиоткрытие кейсов: диапазон x1–x5 и задержка каскада в `CaseSpinConfig.asset` (`Features/Cases/Content/Configs`), выбранный множитель живёт полем в `CaseSpinSubPanelPresenter`. Сначала создаются все скины, потом одно списание `цена × N`.
 
 ## 10. Рабочие правила
 - Коммит только после явного подтверждения в чате. Перед коммитом показывай список файлов; спрашивай: «Сделать коммит?».

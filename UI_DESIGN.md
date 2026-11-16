@@ -36,7 +36,7 @@
 Сетка 8px, отступы 16/24/32. Теней нет, кроме SoftGlow. Карточка: Surface + Outline Stroke, при hover обводка до Accent 60%.
 
 ## 4. Иконки и лицензии
-`Shared/Content/Textures/UI/Icons/`: `icon_coin`, `icon_box`, `icon_grid`, `icon_close`, `icon_check` (128px, белые на прозрачном, генерируются процедурно, лицензия проекта), `icon_case` (старый ассет). Реестр: `Icons/LICENSES.md`. Сторонние ассеты только с лицензией OFL / CC0 / MIT / ISC / Apache-2.0: файл лицензии рядом, источник записать в `LICENSES.md`/`SOURCE.md`.
+`Shared/Content/Textures/UI/Icons/`: `icon_coin`, `icon_box`, `icon_grid`, `icon_close`, `icon_check`, `icon_tap` (128px, белые на прозрачном, генерируются процедурно, лицензия проекта), `icon_case` (старый ассет). Реестр: `Icons/LICENSES.md`. Сторонние ассеты только с лицензией OFL / CC0 / MIT / ISC / Apache-2.0: файл лицензии рядом, источник записать в `LICENSES.md`/`SOURCE.md`.
 
 ## 5. Компоненты и шаблоны
 `Shared/Content/Prefabs/Templates/`:
@@ -57,6 +57,7 @@
 | `ShineSweep` | диагональный блик по CTA раз в 3s; `_area` с Mask |
 | `TabIndicator` (+`TabIndicatorItem`) | подчёркивание едет к активному табу, цвета текста Primary/Muted; панель хаба |
 | `NumberCounter` | число тянется к новому значению 0.4s, вспышка Success/Danger; баланс |
+| `MoneyBurst` (+`MoneyBurstVariant`) | пул Image-частиц (монеты/купюры из `Textures/UI/Particles`): разлёт, гравитация, вращение, затухание; награда кликера |
 | `ScalePunch` | пунш масштаба 1.12; победный слот |
 | `ScreenFlash` | вспышка цветом редкости на весь экран; на последний ребёнок панели спина |
 
@@ -74,6 +75,10 @@
 ## 8. Do / Don't
 - Do: токены из `UiTheme`; Rubik; спрайты из `Generated`; `Visual`-паттерн; PanelAppear на Content; проверка скриншотом.
 - Don't: свои цвета и шрифты в префабах; тени; цвет редкости в тексте; PanelAppear на элементе внутри LayoutGroup; магические числа в эффектах; правка YAML префабов при открытом редакторе (только `PrefabUtility`).
+
+## 8.1. Лейаут
+- Раскладку делаем компонентами Unity Layout: `Horizontal/Vertical/GridLayoutGroup`, `LayoutElement` (min/preferred/flexible), `ContentSizeFitter`, `AspectRatioFitter`, якоря и `RectTransform`.
+- Свою логику лейаута в коде (расчёт позиций, размеров, `anchoredPosition` в цикле) пишем, только если нужное поведение или его часть Unity Layout сделать не может. Пример: равномерный `localScale` содержимого, который layout-группы игнорируют. Тогда кастомной остаётся только эта часть, в виде маленького переиспользуемого компонента в `Shared.UI`, остальное по-прежнему на Unity Layout.
 
 ## 9. Как проверять (Unity MCP)
 1. Play из `BootstrappScene`, пройти экран через `execute_code` (найти `Button`, вызвать `onClick.Invoke()`).
