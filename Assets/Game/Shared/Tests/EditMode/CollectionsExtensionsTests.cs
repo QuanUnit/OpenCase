@@ -24,5 +24,37 @@ namespace Shared.Tests.EditMode
 
             Assert.AreEqual(42, source.GetRandomReadOnly());
         }
+
+        [Test]
+        public void IndexOfMax_SeveralElements_ReturnsIndexOfLargestValue()
+        {
+            var source = new List<float> { 0.5f, 3f, 1.2f };
+
+            Assert.AreEqual(1, source.IndexOfMax(value => value));
+        }
+
+        [Test]
+        public void IndexOfMax_EqualValues_ReturnsFirstIndex()
+        {
+            var source = new List<float> { 2f, 2f };
+
+            Assert.AreEqual(0, source.IndexOfMax(value => value));
+        }
+
+        [Test]
+        public void IndexOfMax_NegativeValues_ReturnsIndexOfLargestValue()
+        {
+            var source = new List<float> { -5f, -1f, -3f };
+
+            Assert.AreEqual(1, source.IndexOfMax(value => value));
+        }
+
+        [Test]
+        public void IndexOfMax_EmptyList_ReturnsMinusOne()
+        {
+            var source = new List<float>();
+
+            Assert.AreEqual(-1, source.IndexOfMax(value => value));
+        }
     }
 }

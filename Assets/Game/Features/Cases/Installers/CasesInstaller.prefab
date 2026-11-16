@@ -45,3 +45,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _allCasesConfig: {fileID: 11400000, guid: 8e0f741f416bccc4aa7c4e78a11a7a2d, type: 2}
+  _caseSpinConfig: {fileID: 11400000, guid: ee87a464209cf43958e234553e018aee, type: 2}

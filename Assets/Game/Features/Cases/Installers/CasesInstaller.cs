@@ -12,10 +12,12 @@ namespace Features.Cases.Installers
     public class CasesInstaller : MonoInstaller
     {
         [SerializeField] private AllCasesConfig _allCasesConfig;
-        
+        [SerializeField] private CaseSpinConfig _caseSpinConfig;
+
         public override void InstallBindings()
         {
             Container.BindInstance(_allCasesConfig).AsSingle();
+            Container.BindInstance(_caseSpinConfig).AsSingle();
 
             Container.Bind(typeof(ICasesDatabaseService), typeof(IInitializableService), typeof(IAssetsLoader)).To<CasesDatabaseService>().AsSingle();
 

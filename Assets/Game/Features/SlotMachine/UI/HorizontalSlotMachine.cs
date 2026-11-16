@@ -22,7 +22,7 @@ namespace Features.SlotMachine.UI
         [SerializeField] private Transform _slotsViewport;
         [SerializeField] private Transform _pointer;
 
-        private Vector3 _startViewportLocalPosition;
+        private Vector2 _startViewportAnchoredPosition;
         private List<Slot> _createdSlots = new List<Slot>();
         
         private Tween _spinTween;
@@ -30,19 +30,24 @@ namespace Features.SlotMachine.UI
 
         private void Awake()
         {
-            _startViewportLocalPosition = _slotsViewport.localPosition;
+            _startViewportAnchoredPosition = ((RectTransform)_slotsViewport).anchoredPosition;
         }
 
         public async UniTask Spin(SlotData winSlotData, DefineSecondarySlotAction defineSecondarySlotAction,
             CreateSlotAction createSlotAction, ExtraData extraData = default)
         {
-            if (IsSpinning)
+            if (IsSpinning == true)
             {
                 throw new InvalidOperationException("Slot machine is spinning already");
             }
             
             var winSlotPositionIndex = _slotMachineConfig.WinSlotPositionIndex.Random();
             var totalSlotsCount = _slotMachineConfig.TotalSlotsCount.Random();
+
+            if (extraData.FillViewportAfterWinSlot == true)
+            {
+                totalSlotsCount = Mathf.Max(totalSlotsCount, winSlotPositionIndex + 1 + GetSlotsCountToFillViewportHalf());
+            }
 
             CreateSlots(winSlotData, totalSlotsCount, winSlotPositionIndex, 
                 defineSecondarySlotAction, createSlotAction);
@@ -52,6 +57,8 @@ namespace Features.SlotMachine.UI
             _cts = new CancellationTokenSource();
 
             await UniTask.Yield(cancellationToken: _cts.Token);
+
+            LayoutRebuilder.ForceRebuildLayoutImmediate((RectTransform)_slotsViewport);
             
             var isSpinCompleted = false;
 
@@ -64,6 +71,7 @@ namespace Features.SlotMachine.UI
                 return;
             }
 
+            _cts.Dispose();
             _cts = null;
             _spinTween = null;
 
@@ -92,6 +100,15 @@ namespace Features.SlotMachine.UI
             _createdSlots.Clear();
         }
 
+        private int GetSlotsCountToFillViewportHalf()
+        {
+            var viewportHalfWidth = ((RectTransform)_slotsViewport.parent).rect.width * 0.5f;
+            var slotWidth = ((RectTransform)_slotPrefab.transform).rect.width;
+            var slotStep = slotWidth + _slotsViewport.GetComponent<HorizontalLayoutGroup>().spacing;
+
+            return Mathf.CeilToInt(viewportHalfWidth / slotStep) + 1;
+        }
+
         private Tween GetSpinTween(Slot winSlot, ExtraData extraData)
         {
             var winSlotTransform = (RectTransform)winSlot.transform;
@@ -104,7 +121,7 @@ namespace Features.SlotMachine.UI
             var halfSize = scaledSize.x / 2;
             var deviation = Random.Range(-halfSize, halfSize);
             
-            _slotsViewport.localPosition = _startViewportLocalPosition;
+            ((RectTransform)_slotsViewport).anchoredPosition = _startViewportAnchoredPosition;
             
             var localWinSlotPos = _slotsViewport.InverseTransformPoint(winSlotTransform.position);
             var localPointerPos = _slotsViewport.InverseTransformPoint(_pointer.position);
@@ -147,10 +164,18 @@ namespace Features.SlotMachine.UI
         public struct ExtraData
         {
             public float AdditionalSpinDuration;
+            public bool FillViewportAfterWinSlot;
 
             public ExtraData(float additionalSpinDuration)
             {
                 AdditionalSpinDuration = additionalSpinDuration;
+                FillViewportAfterWinSlot = false;
+            }
+
+            public ExtraData(float additionalSpinDuration, bool fillViewportAfterWinSlot)
+            {
+                AdditionalSpinDuration = additionalSpinDuration;
+                FillViewportAfterWinSlot = fillViewportAfterWinSlot;
             }
         }
     }
