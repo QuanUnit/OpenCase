@@ -20,6 +20,11 @@ namespace Features.RemoteConfigs.Editor.Parsers
             return parsedData;
         }
 
+        public List<IEntityModel> ParseCsv(string csvRawString)
+        {
+            return ParseDataInternal(csvRawString);
+        }
+
         protected abstract List<IEntityModel> ParseDataInternal(string csvRawString);
 
         public Type GetModelType()

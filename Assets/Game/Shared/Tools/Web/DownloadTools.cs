@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using System.Threading.Tasks;
 using UnityEngine;
@@ -77,6 +78,27 @@ namespace Shared.Tools.Web
             Debug.Log($"File saved by path: {localPath}");
 
             return localPath;
+        }
+
+        public static async Task<string> DownloadText(string url, int timeoutSeconds, Action<float> progressChanged)
+        {
+            using var request = UnityWebRequest.Get(url);
+            request.timeout = timeoutSeconds;
+            var operation = request.SendWebRequest();
+
+            while (operation.isDone == false)
+            {
+                progressChanged(request.downloadProgress);
+                await Task.Yield();
+            }
+
+            if (request.result != UnityWebRequest.Result.Success)
+            {
+                throw new InvalidOperationException($"Download failed: {url}: {request.error}");
+            }
+
+            progressChanged(1f);
+            return request.downloadHandler.text;
         }
 
         public static async Task<string> DownloadGoogleSheetAsCsv(string sheetId, string pageId)
