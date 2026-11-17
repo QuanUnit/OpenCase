@@ -23,7 +23,7 @@ Unity-игра про открытие кейсов (скины, инвента�
 | `Features.Cases` | `Assets/Game/Features/Cases` | кейсы, спин кейса | Skins, Inventory, Wallet, SlotMachine, Shared |
 | `Features.GameHub` | `Assets/Game/Features/GameHub` | главная панель-хаб | Cases, Clicker, Inventory, OthersDrop, Wallet, Shared |
 | `Kernel` | `Assets/Game/Kernel` | бутстрап, state machine, DI-корень, фабрика презентеров | все фичи, Shared |
-| `Features.RemoteConfigs.Editor` | `Assets/Game/Features/RemoteConfigs/Editor` | импорт конфигов из таблиц, экспорт скинов в таблицу `Tools/Skins Sheet Exporter` (CSGO-API + цены market.csgo.com, запись через Google Sheets API сервисным аккаунтом; путь к JSON-ключу в EditorPrefs, ключ в ассеты не кладём) (только Editor) | Skins, Cases, Shared |
+| `Features.RemoteConfigs.Editor` | `Assets/Game/Features/RemoteConfigs/Editor` | импорт конфигов из таблиц `Tools/Remotes Configs Importer` (страницы по очереди, иконки не трогает, итоговый отчёт; опция «Download missing icons after import»), иконки скинов `Tools/Skin Icons` (CSGO-API → `<Id>.png` в папке оружия, режимы Only missing / Repair mismatches / Replace all, dry run, существующие файлы не перезаписывает и не удаляет, папки оружия с иконками регистрирует в Addressables (`Default Local Group`, адрес = путь); настройки `Content/SkinIconsConfig.asset`), экспорт скинов в таблицу `Tools/Skins Sheet Exporter` (CSGO-API + цены market.csgo.com, запись через Google Sheets API сервисным аккаунтом; путь к JSON-ключу в EditorPrefs, ключ в ассеты не кладём) (только Editor) | Skins, Cases, Shared (+ Unity.Addressables.Editor) |
 
 - Граница закреплена asmdef: недопустимая зависимость не компилируется. Новую ссылку добавляй в asmdef только при реальной необходимости.
 - Фичи не ссылаются на Kernel. Kernel ссылается на все фичи.
@@ -114,8 +114,8 @@ Features/<Name>/
 - NSubstitute НЕ используем: не грузится в этой версии Unity (Castle.Core требует `System.Diagnostics.EventLog`). Пиши ручные фейки в папке теста (`FakeAssetsLoader`, `FakeUIPanelsService`).
 - Фейковые MonoBehaviour нельзя `AddComponent` из editor-сборки теста: `PanelPresenterFactoryTests` берёт `FormatterServices.GetUninitializedObject`, фабрике нужен только тип.
 - ScriptableObject с private `[SerializeField]` заполняем через `SerializedObject` (пример: `Assets/Game/Features/Skins/Tests/EditMode/SkinsGlobalSettingsConfigBuilder.cs`).
-- Покрыто: Wallet, Inventory (`InventoryService`, `SelectedSkinsBuffer`), `SkinFactory`, Shared (`IntRange`, математика, `MoneyMath`, коллекции, `Base64UrlTools`, `JsonStringTools`, `JsonReader`, `RsaKeyTools`), Clicker (`ClickerService`), Kernel (`PanelPresenterFactory`, состояния, `ProjectContext`), `RemoteConfigsData`, экспорт скинов в таблицу (сборка строк, слияние, CSV, JWT, запросы и порядок вызовов Google Sheets API через фейковый `IHttpSender`).
-- Пробелы: `SkinsDatabaseService`, `CasesDatabaseService`, презентеры, PlayMode.
+- Покрыто: Wallet, Inventory (`InventoryService`, `SelectedSkinsBuffer`), `SkinFactory`, Shared (`IntRange`, математика, `MoneyMath`, коллекции, `Base64UrlTools`, `JsonStringTools`, `JsonReader`, `RsaKeyTools`), Clicker (`ClickerService`), Kernel (`PanelPresenterFactory`, состояния, `ProjectContext`), `RemoteConfigsData`, экспорт скинов в таблицу (сборка строк, слияние, CSV, JWT, запросы и порядок вызовов Google Sheets API через фейковый `IHttpSender`), импорт конфигов (`RemoteConfigsImporter`: порядок страниц, ошибки загрузки; неизвестные скины в кейсах), планирование иконок скинов (маппинг id и фаз Doppler, папки оружия, режимы, имена файлов).
+- Пробелы: `SkinsDatabaseService`, `CasesDatabaseService`, презентеры, PlayMode, IO-часть `SkinIconsRunner` (загрузка, импорт, Addressables).
 - Тесты в `*/Tests/` часть проекта и не удаляются перед коммитом; удаляются только временные проверочные тесты агента.
 
 ## 9. Подводные камни

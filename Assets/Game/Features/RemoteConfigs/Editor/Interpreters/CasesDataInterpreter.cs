@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using QCore.AddressablesWrapper.Containers;
 using QCore.Tools.Collections;
 using Features.RemoteConfigs.Editor.Models;
 using Features.Cases.Configs;
@@ -17,40 +15,89 @@ namespace Features.RemoteConfigs.Editor.Interpreters
     public class CasesDataInterpreter : IInterpreter
     {
         [SerializeField] private DefaultAsset _casesFolder;
-        
-        public void Interpret(List<IEntityModel> parsedData)
+
+        public ImportReport Interpret(List<IEntityModel> parsedData)
         {
-            var skinsPath = AssetDatabase.GetAssetPath(_casesFolder);
-            
-            var allCasesMap = GetExistingCases(skinsPath);
+            var report = new ImportReport();
+            var casesPath = AssetDatabase.GetAssetPath(_casesFolder);
+
+            var allCasesMap = GetExistingCases(casesPath);
+            var existingIds = allCasesMap.Keys.ToList();
             var allSkinsMap = GetExistingSkins();
-            
-            foreach (CaseDataModel caseDataModel in parsedData)
+            var caseDataModels = parsedData.Cast<CaseDataModel>().ToList();
+
+            var changedConfigs = new List<CaseConfig>();
+
+            AssetDatabase.StartAssetEditing();
+
+            try
             {
-                var caseConfig = TryGetOrCreateNew(allCasesMap, caseDataModel.Id, skinsPath);
-
-                caseConfig.Name = caseDataModel.Name;
-                caseConfig.Price = caseDataModel.Price;
-
-                var skinsMap = new WeightedMap<SkinConfig>();
-
-                foreach (var pair in caseDataModel.SkinsMap)
+                foreach (var caseDataModel in caseDataModels)
                 {
-                    var skinConfig = allSkinsMap[pair.Key];
-                    var weight = pair.Value;
-                    skinsMap.Add(skinConfig, weight);
+                    try
+                    {
+                        changedConfigs.Add(Apply(caseDataModel, allCasesMap, allSkinsMap, casesPath, report));
+                    }
+                    catch (Exception exception)
+                    {
+                        report.Errors.Add($"{caseDataModel.Id}: {exception.Message}");
+                    }
                 }
+            }
+            finally
+            {
+                AssetDatabase.StopAssetEditing();
+                Save(changedConfigs);
+            }
 
-                caseConfig.SkinsMapEntries = skinsMap;
-                
-                EditorUtility.SetDirty(caseConfig);
+            var idsComparer = new ImportIdsComparer();
+            report.Missing.AddRange(idsComparer.FindMissing(existingIds, caseDataModels.Select(model => model.Id)));
+
+            return report;
+        }
+
+        private CaseConfig Apply(CaseDataModel caseDataModel, Dictionary<string, CaseConfig> allCasesMap, Dictionary<string, SkinConfig> allSkinsMap, string casesPath, ImportReport report)
+        {
+            var caseConfig = GetOrCreate(allCasesMap, caseDataModel.Id, casesPath, report);
+
+            caseConfig.Name = caseDataModel.Name;
+            caseConfig.Price = caseDataModel.Price;
+            caseConfig.SkinsMapEntries = BuildSkinsMap(caseDataModel, allSkinsMap, report);
+
+            EditorUtility.SetDirty(caseConfig);
+
+            return caseConfig;
+        }
+
+        private void Save(List<CaseConfig> changedConfigs)
+        {
+            foreach (var caseConfig in changedConfigs)
+            {
                 AssetDatabase.SaveAssetIfDirty(caseConfig);
             }
         }
 
+        public WeightedMap<SkinConfig> BuildSkinsMap(CaseDataModel caseDataModel, IReadOnlyDictionary<string, SkinConfig> skinsById, ImportReport report)
+        {
+            var skinsMap = new WeightedMap<SkinConfig>();
+
+            foreach (var pair in caseDataModel.SkinsMap)
+            {
+                if (skinsById.TryGetValue(pair.Key, out var skinConfig) == false)
+                {
+                    report.UnknownReferences.Add($"{caseDataModel.Id}: {pair.Key}");
+                    continue;
+                }
+
+                skinsMap.Add(skinConfig, pair.Value);
+            }
+
+            return skinsMap;
+        }
+
         private Dictionary<string, CaseConfig> GetExistingCases(string path)
         {
-            var skins = new Dictionary<string, CaseConfig>();
+            var cases = new Dictionary<string, CaseConfig>();
             var guids = AssetDatabase.FindAssets($"t:{nameof(CaseConfig)}", new[] { path });
 
             foreach (var guid in guids)
@@ -58,36 +105,38 @@ namespace Features.RemoteConfigs.Editor.Interpreters
                 var assetPath = AssetDatabase.GUIDToAssetPath(guid);
                 var caseConfig = AssetDatabase.LoadAssetAtPath<CaseConfig>(assetPath);
 
-                if (caseConfig != null && !skins.ContainsKey(caseConfig.CaseStringId))
+                if (caseConfig != null && cases.ContainsKey(caseConfig.CaseStringId) == false)
                 {
-                    skins.Add(caseConfig.CaseStringId, caseConfig);
+                    cases.Add(caseConfig.CaseStringId, caseConfig);
                 }
             }
 
-            return skins;
+            return cases;
         }
 
         private Dictionary<string, SkinConfig> GetExistingSkins()
         {
             var skins = AssetDatabaseTools.FindAllAssets<SkinConfig>();
 
-            return skins.ToDictionary(a => a.SkinStringId, b => b);
+            return skins.ToDictionary(skin => skin.SkinStringId, skin => skin);
         }
 
-        private CaseConfig TryGetOrCreateNew(Dictionary<string, CaseConfig> casesMap, string caseId, string casesPath)
+        private CaseConfig GetOrCreate(Dictionary<string, CaseConfig> casesMap, string caseId, string casesPath, ImportReport report)
         {
-            if (casesMap.TryGetValue(caseId, out var caseConfig))
+            if (casesMap.TryGetValue(caseId, out var caseConfig) == true)
             {
+                report.Updated.Add(caseId);
                 return caseConfig;
             }
 
-            var newCase = CrateNew(caseId, casesPath);
+            var newCase = CreateNew(caseId, casesPath);
             casesMap.Add(caseId, newCase);
+            report.Created.Add(caseId);
 
             return newCase;
         }
 
-        private CaseConfig CrateNew(string caseId, string casesPath)
+        private CaseConfig CreateNew(string caseId, string casesPath)
         {
             var caseConfig = ScriptableObject.CreateInstance<CaseConfig>();
             caseConfig.CreateId();
@@ -96,7 +145,7 @@ namespace Features.RemoteConfigs.Editor.Interpreters
             var assetPath = $"{casesPath}/CaseConfig_{caseId}.asset";
 
             AssetDatabase.CreateAsset(caseConfig, assetPath);
-            
+
             return caseConfig;
         }
     }

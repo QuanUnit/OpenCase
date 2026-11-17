@@ -5,8 +5,6 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
 {
     public class SkinsSheetMerger
     {
-        private const char IdSeparator = '_';
-
         public SkinsSheetMergeResult Merge(IReadOnlyList<SkinDataModel> existingRows, IReadOnlyList<SkinDataModel> sourceRows, ICollection<string> skippedIds)
         {
             var result = new SkinsSheetMergeResult();
@@ -62,7 +60,7 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
 
             foreach (var row in rows)
             {
-                var weapon = GetWeapon(row);
+                var weapon = SkinIds.GetWeapon(row.Id, row.Name);
 
                 if (rowsByWeapon.TryGetValue(weapon, out var weaponRows) == false)
                 {
@@ -80,18 +78,6 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
             {
                 rows.AddRange(rowsByWeapon[weapon]);
             }
-        }
-
-        private string GetWeapon(SkinDataModel row)
-        {
-            var nameSuffix = IdSeparator + row.Name.Replace(' ', IdSeparator);
-
-            if (row.Id.EndsWith(nameSuffix) == true && row.Id.Length > nameSuffix.Length)
-            {
-                return row.Id.Substring(0, row.Id.Length - nameSuffix.Length);
-            }
-
-            return row.Id;
         }
     }
 }

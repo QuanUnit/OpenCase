@@ -9,8 +9,6 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
 {
     public class SkinsSheetRowsBuilder
     {
-        private const string NameSeparator = " | ";
-
         private readonly HashSet<string> _excludedCategories;
         private readonly IReadOnlyDictionary<string, Rarity> _rarityMap;
         private readonly string _souvenirCrateMarker;
@@ -34,8 +32,8 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
                     continue;
                 }
 
-                var name = GetName(skin.name);
-                var id = GetId(skin.weapon.name, name);
+                var name = SkinIds.GetName(skin.name);
+                var id = SkinIds.Create(skin.weapon.name, name);
 
                 if (TryGetRarity(skin.rarity.name, out var rarity) == false)
                 {
@@ -86,23 +84,6 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
             return _rarityMap.TryGetValue(rarityName, out rarity);
         }
 
-        private string GetName(string fullName)
-        {
-            var separatorIndex = fullName.IndexOf(NameSeparator, StringComparison.Ordinal);
-
-            if (separatorIndex < 0)
-            {
-                return fullName;
-            }
-
-            return fullName.Substring(separatorIndex + NameSeparator.Length);
-        }
-
-        private string GetId(string weaponName, string name)
-        {
-            return $"{weaponName}_{name}".Replace(' ', '_');
-        }
-
         private bool TryGetPrice(SourceSkin skin, string name, IReadOnlyDictionary<string, float> prices, out FloatRange price)
         {
             price = default;
@@ -113,7 +94,7 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
 
             foreach (var wear in skin.wears)
             {
-                if (prices.TryGetValue(GetMarketHashName(skin.weapon.name, name, wear.name), out var wearPrice) == false)
+                if (prices.TryGetValue(SkinIds.GetMarketHashName(skin.weapon.name, name, wear.name), out var wearPrice) == false)
                 {
                     continue;
                 }
@@ -130,11 +111,6 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
 
             price = new FloatRange(min, max);
             return true;
-        }
-
-        private string GetMarketHashName(string weaponName, string name, string wearName)
-        {
-            return $"{weaponName}{NameSeparator}{name} ({wearName})";
         }
 
         private void MergeVariant(SkinDataModel row, SourceSkin skin, FloatRange price)

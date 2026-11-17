@@ -5,6 +5,6 @@ namespace Features.RemoteConfigs.Editor.Interpreters
 {
     public interface IInterpreter
     {
-        public void Interpret(List<IEntityModel> parsedData);
+        public ImportReport Interpret(List<IEntityModel> parsedData);
     }
 }

@@ -1,12 +1,9 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Text;
 using QCore.AddressablesWrapper.Containers;
 using Features.RemoteConfigs.Editor.Models;
 using Features.Skins.Configs;
-using Shared.Tools.DebugExtensions;
 using UnityEditor;
 using UnityEngine;
 
@@ -16,48 +13,65 @@ namespace Features.RemoteConfigs.Editor.Interpreters
     public class SkinsDataInterpreter : IInterpreter
     {
         [SerializeField] private DefaultAsset _skinsFolder;
-        [SerializeField] private DefaultAsset _skinsIconsSourceFolder;
 
-        public void Interpret(List<IEntityModel> parsedData)
+        public ImportReport Interpret(List<IEntityModel> parsedData)
         {
+            var report = new ImportReport();
             var skinsPath = AssetDatabase.GetAssetPath(_skinsFolder);
-            var skinsIconsPath = AssetDatabase.GetAssetPath(_skinsIconsSourceFolder);
-
-            var skinsIconsFinder = new SkinsConfigsIconsFinder(skinsIconsPath);
-            skinsIconsFinder.Warmup();
-
             var allSkinsMap = GetExistingSkins(skinsPath);
-            var skinsWithoutIcons = new List<SkinConfig>();
-            
-            foreach (SkinDataModel skinDataModel in parsedData)
+            var existingIds = allSkinsMap.Keys.ToList();
+            var skinDataModels = parsedData.Cast<SkinDataModel>().ToList();
+
+            var changedConfigs = new List<SkinConfig>();
+
+            AssetDatabase.StartAssetEditing();
+
+            try
             {
-                var skinConfig = TryGetOrCreateNew(allSkinsMap, skinDataModel.Id, skinsPath);
-
-                skinConfig.Price = new PriceRange(skinDataModel.Price.From, skinDataModel.Price.To);
-                skinConfig.AvailableSouvenir = skinDataModel.AvailableSouvenir;
-                skinConfig.AvailableStatTrak = skinDataModel.AvailableStatTrak;
-                skinConfig.Rarity = skinDataModel.Rarity;
-                skinConfig.Name = skinDataModel.Name;
-
-                var isIconsSet = skinsIconsFinder.TrySetIconToSkinConfig(skinConfig);
-
-                if (isIconsSet == false)
+                foreach (var skinDataModel in skinDataModels)
                 {
-                    skinsWithoutIcons.Add(skinConfig);
+                    try
+                    {
+                        changedConfigs.Add(Apply(skinDataModel, allSkinsMap, skinsPath, report));
+                    }
+                    catch (Exception exception)
+                    {
+                        report.Errors.Add($"{skinDataModel.Id}: {exception.Message}");
+                    }
                 }
-                
-                EditorUtility.SetDirty(skinConfig);
-                AssetDatabase.SaveAssetIfDirty(skinConfig);
+            }
+            finally
+            {
+                AssetDatabase.StopAssetEditing();
+                Save(changedConfigs);
             }
 
-            LogSkinsConfigsWithoutIcons(skinsWithoutIcons);
+            var idsComparer = new ImportIdsComparer();
+            report.Missing.AddRange(idsComparer.FindMissing(existingIds, skinDataModels.Select(model => model.Id)));
+
+            return report;
         }
 
-        private void LogSkinsConfigsWithoutIcons(IEnumerable<SkinConfig> skinsConfigs)
+        private SkinConfig Apply(SkinDataModel skinDataModel, Dictionary<string, SkinConfig> allSkinsMap, string skinsPath, ImportReport report)
         {
-            foreach (var skinConfig in skinsConfigs)
+            var skinConfig = GetOrCreate(allSkinsMap, skinDataModel.Id, skinsPath, report);
+
+            skinConfig.Price = new PriceRange(skinDataModel.Price.From, skinDataModel.Price.To);
+            skinConfig.AvailableSouvenir = skinDataModel.AvailableSouvenir;
+            skinConfig.AvailableStatTrak = skinDataModel.AvailableStatTrak;
+            skinConfig.Rarity = skinDataModel.Rarity;
+            skinConfig.Name = skinDataModel.Name;
+
+            EditorUtility.SetDirty(skinConfig);
+
+            return skinConfig;
+        }
+
+        private void Save(List<SkinConfig> changedConfigs)
+        {
+            foreach (var skinConfig in changedConfigs)
             {
-                DebugColor.Log($"Icon not found for: {skinConfig.SkinStringId}", Color.yellow, skinConfig);
+                AssetDatabase.SaveAssetIfDirty(skinConfig);
             }
         }
 
@@ -71,7 +85,7 @@ namespace Features.RemoteConfigs.Editor.Interpreters
                 var assetPath = AssetDatabase.GUIDToAssetPath(guid);
                 var skin = AssetDatabase.LoadAssetAtPath<SkinConfig>(assetPath);
 
-                if (skin != null && !skins.ContainsKey(skin.SkinStringId))
+                if (skin != null && skins.ContainsKey(skin.SkinStringId) == false)
                 {
                     skins.Add(skin.SkinStringId, skin);
                 }
@@ -80,24 +94,30 @@ namespace Features.RemoteConfigs.Editor.Interpreters
             return skins;
         }
 
-        private SkinConfig TryGetOrCreateNew(Dictionary<string, SkinConfig> skinsMap, string skinId, string skinsPath)
+        private SkinConfig GetOrCreate(Dictionary<string, SkinConfig> skinsMap, string skinId, string skinsPath, ImportReport report)
         {
-            if (skinsMap.TryGetValue(skinId, out var skinConfig))
+            if (skinsMap.TryGetValue(skinId, out var skinConfig) == true)
             {
+                AddUnique(report.Updated, skinId);
                 return skinConfig;
             }
 
-            var newSkin = CrateNew(skinId, skinsPath);
+            var newSkin = CreateNew(skinId, skinsPath);
             skinsMap.Add(skinId, newSkin);
+            report.Created.Add(skinId);
 
             return newSkin;
         }
 
-        private SkinConfig CrateNew(string skinId, string skinsPath)
+        private SkinConfig CreateNew(string skinId, string skinsPath)
         {
             var newSkin = ScriptableObject.CreateInstance<SkinConfig>();
             newSkin.CreateId();
             newSkin.SkinStringId = skinId;
+            newSkin.ContextData = new SkinConfig.UIContextData
+            {
+                SpriteSource = new AddressableLoadContainerSprite(),
+            };
 
             var assetPath = $"{skinsPath}/SkinConfig_{skinId}.asset";
 
@@ -105,101 +125,13 @@ namespace Features.RemoteConfigs.Editor.Interpreters
 
             return newSkin;
         }
-    }
 
-    public class SkinsConfigsIconsFinder
-    {
-        private bool IsWarmup => _iconsPaths.Count > 0;
-
-        private readonly string _iconsRootPath;
-        private readonly List<string> _iconsPaths;
-        private readonly char[] _splitters;
-
-        public SkinsConfigsIconsFinder(string iconsRootPath)
+        private void AddUnique(List<string> list, string value)
         {
-            _iconsRootPath = iconsRootPath;
-            _iconsPaths = new List<string>();
-            _splitters = new[] { '_', '-', ' ', '.' };
-        }
-
-        public void Warmup()
-        {
-            var rawIconsPaths = Directory.GetFiles(_iconsRootPath, "*.png", SearchOption.AllDirectories);
-
-            foreach (var rawIconPath in rawIconsPaths)
+            if (list.Contains(value) == false)
             {
-                var iconPath = rawIconPath.Replace("\\", "/");
-                _iconsPaths.Add(iconPath);
+                list.Add(value);
             }
-        }
-
-        public bool TrySetIconToSkinConfig(SkinConfig skinConfig)
-        {
-            if (skinConfig == null)
-            {
-                return false;
-            }
-
-            var maxMatches = 0;
-            string bestIconPath = null;
-            string bestIconName = null;
-            
-            var skinNameParts = skinConfig.SkinStringId.Split(_splitters, StringSplitOptions.RemoveEmptyEntries);
-
-            foreach (var iconPath in _iconsPaths)
-            {
-                var iconName = Path.GetFileNameWithoutExtension(iconPath);
-                var iconNameParts = iconName.Split(_splitters, StringSplitOptions.RemoveEmptyEntries);
-                if (iconNameParts.Length == 0 || skinNameParts.Length == 0) continue;
-                
-                var matches = iconNameParts.Count(iconPart => skinNameParts.Any(skinPart =>
-                    string.Equals(iconPart, skinPart, StringComparison.OrdinalIgnoreCase)));
-                
-                if (matches > maxMatches)
-                {
-                    maxMatches = matches;
-                    bestIconPath = iconPath;
-                    bestIconName = iconName;
-                }
-            }
-
-            if (bestIconPath != null && LastWordIsTheSame(bestIconName, skinConfig.SkinStringId))
-            {
-                LoadAndSetIconToSkinConfig(bestIconPath, skinConfig);
-                return true;
-            }
-
-            ResetSkinConfigIcon(skinConfig);
-            return false;
-        }
-
-        private void LoadAndSetIconToSkinConfig(string iconPath, SkinConfig skinConfig)
-        {
-            var icon = AssetDatabase.LoadAssetAtPath<Sprite>(iconPath);
-
-            if (icon != null)
-            {
-                var iconGuid = AssetDatabase.AssetPathToGUID(iconPath);
-
-                skinConfig.ContextData = new SkinConfig.UIContextData()
-                {
-                    SpriteSource = new AddressableLoadContainerSprite(iconGuid)
-                };
-            }
-        }
-
-        private void ResetSkinConfigIcon(SkinConfig skinConfig)
-        {
-            skinConfig.ContextData = new SkinConfig.UIContextData()
-            {
-                SpriteSource = new AddressableLoadContainerSprite(),
-            };
-        }
-
-        private bool LastWordIsTheSame(string skinName, string iconName)
-        {
-            return skinName.Split(_splitters, StringSplitOptions.RemoveEmptyEntries)[^1] ==
-                   iconName.Split(_splitters, StringSplitOptions.RemoveEmptyEntries)[^1];
         }
     }
 }

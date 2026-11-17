@@ -7,6 +7,8 @@
         "Shared",
         "QCore.Tools",
         "QCore.AddressablesWrapper",
+        "Unity.Addressables",
+        "Unity.Addressables.Editor",
         "UniTask",
         "rotorz.unity3d-class-type-reference",
         "MackySoft.SerializeReferenceExtensions"

@@ -16,12 +16,16 @@ namespace Features.RemoteConfigs.Editor.Parsers
         public async Task<List<IEntityModel>> ParseData(string sheetId, string pageId)
         {
             var csvData = await DownloadTools.DownloadGoogleSheetAsCsv(sheetId, pageId);
-            var parsedData = ParseDataInternal(csvData);
-            return parsedData;
+            return ParseCsv(csvData);
         }
 
         public List<IEntityModel> ParseCsv(string csvRawString)
         {
+            if (string.IsNullOrEmpty(csvRawString) == true)
+            {
+                throw new InvalidOperationException("Sheet page could not be downloaded or is empty");
+            }
+
             return ParseDataInternal(csvRawString);
         }
 

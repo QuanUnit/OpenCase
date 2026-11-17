@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d23b758a0a27409f99266f09d3f92a0, type: 3}
+  m_Name: SkinIconsConfig
+  m_EditorClassIdentifier: Features.RemoteConfigs.Editor::Features.RemoteConfigs.Editor.Icons.SkinIconsConfig
+  _iconsRootFolder: {fileID: 102900000, guid: 2e3da14a374621b4986714adbdcee823, type: 3}
+  _skinConfigsFolder: {fileID: 102900000, guid: 560caa7133b53a54fbd9a1034d9b21ae, type: 3}
+  _sourceConfig: {fileID: 11400000, guid: 4aa4296cf6167427abadb69ee6ec89dd, type: 2}
+  _maxParallelDownloads: 8
+  _downloadTimeoutSeconds: 30
+  _addressablesGroupName: Default Local Group
+  _copiedPlatforms:
+  - Standalone
+  - iPhone
+  - Android
+  - WebGL
