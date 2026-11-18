@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Neon_Nights
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  _id:
+    _idBody: 4fb16c9d-70aa-41bd-9275-a83d64b0bc30
+  CaseStringId: Case_Neon_Nights
+  Name: Neon Nights
+  Price: 4.39
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 674b94a11a56c91418f9c9e128db6f53, type: 2}
+      Value: 26.709444
+    - Key: {fileID: 11400000, guid: 9bd736ebac913dc48bf8531d4c28bfdd, type: 2}
+      Value: 26.709444
+    - Key: {fileID: 11400000, guid: 945aa4467f272314f902b5e34a782815, type: 2}
+      Value: 26.709444
+    - Key: {fileID: 11400000, guid: 6cca41f593a28314087502d4dcf80f83, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: 7070d60abe6eb2b4692e810a8122ff12, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: a3b9826c3e33dc34c9545e61e16f331a, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: 046ed91f83186fe4591b46259e66088b, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: 929da9f1a74e1b648a427e4150117861, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: ae421b85e33981f419b4e18cb7c3e5f2, type: 2}
+      Value: 1.0694473
+    - Key: {fileID: 11400000, guid: 8a5869c8214828443b40fc9c7e38c6c8, type: 2}
+      Value: 1.0694473
+    - Key: {fileID: 11400000, guid: faf92cfcb83ac3641b61c02bf223ccc4, type: 2}
+      Value: 1.0694473
+    - Key: {fileID: 11400000, guid: e541d50b6d4ee9b40ad35c8e2429d337, type: 2}
+      Value: 0.21388945
+    - Key: {fileID: 11400000, guid: 8f981e12746ca3942a3c1675fd174f96, type: 2}
+      Value: 0.21388945
+    - Key: {fileID: 11400000, guid: 18518e21c2aa0604fa4a825f58f36456, type: 2}
+      Value: 0.21388945
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: c8706e12b7734415b9872b0b2ae6f5c1
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0

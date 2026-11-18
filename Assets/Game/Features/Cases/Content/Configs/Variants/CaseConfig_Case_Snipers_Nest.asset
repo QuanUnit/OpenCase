@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Snipers_Nest
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  _id:
+    _idBody: 16c7e320-81f5-4965-8ac7-1ff6aa4da0f7
+  CaseStringId: Case_Snipers_Nest
+  Name: Sniper's Nest
+  Price: 4.05
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 0c423389ec8b7154dbd30dee5e92ab7f, type: 2}
+      Value: 13.354722
+    - Key: {fileID: 11400000, guid: be9bc0e2052a2364f895649e5e7e3ddd, type: 2}
+      Value: 13.354722
+    - Key: {fileID: 11400000, guid: 6234abf6e5f829745a52863b0e9e5803, type: 2}
+      Value: 13.354722
+    - Key: {fileID: 11400000, guid: ba3910d9844db92438b84f4e64433228, type: 2}
+      Value: 13.354722
+    - Key: {fileID: 11400000, guid: 4b3b783754ad60e4785329df18786a8b, type: 2}
+      Value: 13.354722
+    - Key: {fileID: 11400000, guid: ed626f3cba99ed54d8b530377e0c2650, type: 2}
+      Value: 13.354722
+    - Key: {fileID: 11400000, guid: 43cfe6fd6ee93024e8514ebeab178370, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: 70a2b8dfa3b30cd42a4f255602eb6288, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: fdf76ce0a7e4f1843818fb32f6147c7b, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: bd68a97e7cf72d94ba003d9e74da9f6f, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: 4ae196f70ae3518439b4d2cd30ef48ee, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: 891e997f055df804ca6692b18285e1be, type: 2}
+      Value: 1.0694473
+    - Key: {fileID: 11400000, guid: 2fe6d41a1debc1148a667e33b0cbe859, type: 2}
+      Value: 1.0694473
+    - Key: {fileID: 11400000, guid: 680cca7a9ae378043bacbed5bef1f803, type: 2}
+      Value: 1.0694473
+    - Key: {fileID: 11400000, guid: 6b9635b1f5f88c24c93b52831ea9cf3b, type: 2}
+      Value: 0.32083416
+    - Key: {fileID: 11400000, guid: cb0bd619908d4744a9371b60ffc12ffc, type: 2}
+      Value: 0.32083416
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 81b52fea42be94bad917a30ec69171f2
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0

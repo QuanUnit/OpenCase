@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_High_Roller
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  _id:
+    _idBody: 0ab0122d-9e1e-42da-870c-641798c65bcd
+  CaseStringId: Case_High_Roller
+  Name: High Roller
+  Price: 154.38
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 4b77a1e4e46a451449f739ed2c391910, type: 2}
+      Value: 16.666666
+    - Key: {fileID: 11400000, guid: 6555707aa7a1a4c41b4e96aa500458ab, type: 2}
+      Value: 16.666666
+    - Key: {fileID: 11400000, guid: 9d3578de23f154947a7bd176e6674196, type: 2}
+      Value: 16.666666
+    - Key: {fileID: 11400000, guid: 2e452a6295071054998edbe2602fe5eb, type: 2}
+      Value: 16.666666
+    - Key: {fileID: 11400000, guid: 13a0ec538f38fc745ad7ecc7278b98d7, type: 2}
+      Value: 16.666666
+    - Key: {fileID: 11400000, guid: 58437b520f98144428aa6adcf8f4ddbb, type: 2}
+      Value: 4.1666665
+    - Key: {fileID: 11400000, guid: d4b5e72bd467753439c8aa203741d041, type: 2}
+      Value: 4.1666665
+    - Key: {fileID: 11400000, guid: 8b5dc4f003cc8a14187726298dd5d1eb, type: 2}
+      Value: 4.1666665
+    - Key: {fileID: 11400000, guid: 94eed944543f6bc4bb265cab91f580fa, type: 2}
+      Value: 4.1666665
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 428746de923384f40a38cbdbcdf81847
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0

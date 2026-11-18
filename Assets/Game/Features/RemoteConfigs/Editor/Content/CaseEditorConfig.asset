@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1849f450ea63e49c49462fe7f514755d, type: 3}
+  m_Name: CaseEditorConfig
+  m_EditorClassIdentifier: Features.RemoteConfigs.Editor::Features.RemoteConfigs.Editor.Cases.CaseEditorConfig
+  _allCasesConfig: {fileID: 11400000, guid: 8e0f741f416bccc4aa7c4e78a11a7a2d, type: 2}
+  _skinsGlobalSettingsConfig: {fileID: 11400000, guid: fa2ebab03e780a043a8d4e6f20758105, type: 2}
+  _skinsUIContextDataConfig: {fileID: 11400000, guid: f5a89ada1107035469b9d1827e3b3943, type: 2}
+  _clickerConfig: {fileID: 11400000, guid: 482d8663adb2d48e7adcd84ff5a99c75, type: 2}
+  _casesFolder: {fileID: 102900000, guid: 0d399f878262273439e847b317ed0a21, type: 3}
+  _defaultCaseIcon: {fileID: 21300000, guid: 44ff9f774390af34787c9c54dea659cb, type: 3}
+  _addressablesGroupName: Default Local Group
+  _remoteConfigsData: {fileID: 11400000, guid: f3dc4cf9fbc3ec34a9ba0cfe11c3bd06, type: 2}
+  _casesPageName: Cases
+  _sheetsApiConfig: {fileID: 11400000, guid: 4aa4296cf6167427abadb69ee6ec89dd, type: 2}
+  _newCaseIdPrefix: Case_New_
+  _newCaseName: New Case
+  _newCasePrice: 1
+  _duplicateIdSuffix: _Copy
+  _newCategoryName: New Category
+  _defaultSkinWeight: 1
+  _oddsTotalWeight: 100
+  _rarityOdds:
+  - Rarity: 0
+    Odds: 1998
+  - Rarity: 1
+    Odds: 399.6
+  - Rarity: 2
+    Odds: 79.92
+  - Rarity: 3
+    Odds: 15.98
+  - Rarity: 4
+    Odds: 3.2
+  - Rarity: 5
+    Odds: 0.64
+  - Rarity: 6
+    Odds: 0.26
+  _fixedRarityShares:
+  - Rarity: 6
+    Odds: 0.0026
+  _priceStep: 0.01
+  _defaultTargetReturnToPlayer: 0.9
+  _valueSamplesCount: 512
+  _priceMultipliers:
+  - 2
+  - 5
+  - 10
+  _rareRarity: 5
+  _topContributorsCount: 5
+  _maxReturnToPlayer: 1
+  _minReturnToPlayer: 0.6
+  _defaultSimulationOpens: 100000
+  _dominantShare: 0.4
+  _commonRarityChance: 0.1
+  _errorColor: {r: 1, g: 0.35, b: 0.35, a: 1}
+  _warningColor: {r: 1, g: 0.8, b: 0.25, a: 1}
+  _goodColor: {r: 0.45, g: 0.85, b: 0.45, a: 1}

@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using System.Globalization;
-using System.Text;
 using Features.RemoteConfigs.Editor.Models;
 
 namespace Features.RemoteConfigs.Editor.Exporters.Skins
@@ -8,7 +7,6 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
     public class SkinsSheetCsvWriter
     {
         private const string PriceFormat = "0.00";
-        private const string LineSeparator = "\r\n";
         private const string StatTrakColumn = "AvailableStatTrak";
         private const string SouvenirColumn = "AvailableSouvenir";
 
@@ -16,7 +14,7 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
         public int ColumnsCount => _header.Count;
 
         private readonly CultureInfo _priceCulture;
-        private readonly char[] _charactersToQuote;
+        private readonly SheetCsvFormatter _csvFormatter = new SheetCsvFormatter();
 
         private readonly List<string> _header = new List<string>
         {
@@ -34,7 +32,6 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
         {
             _priceCulture = (CultureInfo)CultureInfo.InvariantCulture.Clone();
             _priceCulture.NumberFormat.NumberDecimalSeparator = ",";
-            _charactersToQuote = new[] { ',', '"', '\r', '\n' };
             _booleanColumns = new HashSet<int> { _header.IndexOf(StatTrakColumn), _header.IndexOf(SouvenirColumn) };
         }
 
@@ -63,24 +60,7 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
 
         public string ToCsv(IReadOnlyList<List<string>> values)
         {
-            var builder = new StringBuilder();
-
-            foreach (var line in values)
-            {
-                for (var index = 0; index < line.Count; index++)
-                {
-                    if (index > 0)
-                    {
-                        builder.Append(',');
-                    }
-
-                    builder.Append(Escape(line[index]));
-                }
-
-                builder.Append(LineSeparator);
-            }
-
-            return builder.ToString();
+            return _csvFormatter.ToCsv(values);
         }
 
         private string FormatPrice(float from, float to)
@@ -96,16 +76,6 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
             }
 
             return SheetBooleanValues.False;
-        }
-
-        private string Escape(string value)
-        {
-            if (value.IndexOfAny(_charactersToQuote) < 0)
-            {
-                return value;
-            }
-
-            return $"\"{value.Replace("\"", "\"\"")}\"";
         }
     }
 }

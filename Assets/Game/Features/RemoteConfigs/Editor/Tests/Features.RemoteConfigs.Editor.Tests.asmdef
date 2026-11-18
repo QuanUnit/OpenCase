@@ -4,6 +4,7 @@
     "references": [
         "Features.RemoteConfigs.Editor",
         "Features.Skins",
+        "Features.Skins.Tests.EditMode",
         "QCore.Tools",
         "rotorz.unity3d-class-type-reference",
         "UnityEngine.TestRunner",

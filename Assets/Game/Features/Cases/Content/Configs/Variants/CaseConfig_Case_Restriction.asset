@@ -16,7 +16,7 @@ MonoBehaviour:
     _idBody: fcce7be6-2b8f-49d8-903a-c68a06b41d60
   CaseStringId: Case_Restriction
   Name: Restriction
-  Price: 0.39
+  Price: 0.79
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 7a37a7391b917eb4bb2a6f60d2860a42, type: 2}

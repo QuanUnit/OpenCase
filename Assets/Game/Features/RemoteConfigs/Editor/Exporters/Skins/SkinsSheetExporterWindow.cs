@@ -14,7 +14,6 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
     public class SkinsSheetExporterWindow : EditorWindow
     {
         private const string Title = "Skins Sheet Exporter";
-        private const string KeyPathPrefsKey = "OpenCase.SkinsSheetExporter.ServiceAccountKeyPath";
         private const float ButtonHeight = 30f;
         private const float BrowseButtonWidth = 70f;
         private const string KeyInsideProjectMessage = "The service account key must be stored outside the project folder so it is never imported or committed. Move it (for example to your home folder) and choose it again.";
@@ -41,7 +40,7 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
 
         private void OnEnable()
         {
-            _keyPath = EditorPrefs.GetString(KeyPathPrefsKey, string.Empty);
+            _keyPath = EditorPrefs.GetString(GoogleSheetsPrefs.ServiceAccountKeyPathKey, string.Empty);
 
             if (_config == null)
             {
@@ -113,7 +112,7 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
             }
 
             _keyPath = path;
-            EditorPrefs.SetString(KeyPathPrefsKey, _keyPath);
+            EditorPrefs.SetString(GoogleSheetsPrefs.ServiceAccountKeyPathKey, _keyPath);
         }
 
         private bool IsKeyUsable()

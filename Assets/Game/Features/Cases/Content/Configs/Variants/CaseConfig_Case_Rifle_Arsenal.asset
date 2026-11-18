@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Rifle_Arsenal
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  _id:
+    _idBody: 47a5ea52-d3d3-46c9-a335-e55970bc8ec4
+  CaseStringId: Case_Rifle_Arsenal
+  Name: Rifle Arsenal
+  Price: 4.57
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 1bbbd1a6598211e46bfe198cfb95076e, type: 2}
+      Value: 13.354722
+    - Key: {fileID: 11400000, guid: b997c160bc4071544a697725140813c1, type: 2}
+      Value: 13.354722
+    - Key: {fileID: 11400000, guid: 27e6d0c84b7369b48b507343e4075b0e, type: 2}
+      Value: 13.354722
+    - Key: {fileID: 11400000, guid: 536618c675bb6964f976df578eb77d4a, type: 2}
+      Value: 13.354722
+    - Key: {fileID: 11400000, guid: d8465f6e1f271eb449f0c7786fe36b6c, type: 2}
+      Value: 13.354722
+    - Key: {fileID: 11400000, guid: 0a25fac4abbcaa04c96ec6b5bf6e67d5, type: 2}
+      Value: 13.354722
+    - Key: {fileID: 11400000, guid: 5e2d211f368823e47b0ca070aa040360, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: e23baf1c103336e42a999cd194814f3d, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: 53d8887fad724aa4fb0d74a3dd8fe759, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: 010f3633904619a409270d5b9249f408, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: 4e71517c98fc28042a91d7abf8927df4, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: 91a0524f50f15e74aa1b67b88302b8b8, type: 2}
+      Value: 1.0694473
+    - Key: {fileID: 11400000, guid: bdbc4c309bc09b0429976db3d8343c02, type: 2}
+      Value: 1.0694473
+    - Key: {fileID: 11400000, guid: b585c90bdd7c79a40b76c62f5fc51cb2, type: 2}
+      Value: 1.0694473
+    - Key: {fileID: 11400000, guid: d7558f48ba8144045993c7967b6d53a3, type: 2}
+      Value: 0.32083416
+    - Key: {fileID: 11400000, guid: d4b5e72bd467753439c8aa203741d041, type: 2}
+      Value: 0.32083416
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 43b2dfd6fd54e493a817e401d50e9a59
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0

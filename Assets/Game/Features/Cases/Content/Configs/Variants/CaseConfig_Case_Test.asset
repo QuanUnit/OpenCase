@@ -16,7 +16,7 @@ MonoBehaviour:
     _idBody: 5b30bd4e-a49a-4410-ae76-badb47d0c6be
   CaseStringId: Case_Test
   Name: Test
-  Price: 21.99
+  Price: 52.94
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: a48c6683f9c01824b9ad1a502287300f, type: 2}

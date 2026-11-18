@@ -4,6 +4,7 @@
     "references": [
         "Features.Skins",
         "Features.Cases",
+        "Features.Clicker",
         "Shared",
         "QCore.Tools",
         "QCore.AddressablesWrapper",
