@@ -25,6 +25,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17c949b06934b9c40a6b81a327f22b66
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/Nova
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 327eb49d6ce8a634a8b99e48ce8b8a24
     m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/SSG-08
     m_ReadOnly: 0
@@ -50,8 +55,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e19912d57ca22d478c2628d9ce0910f
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/M249
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4ed2ca077889aad4980d15e16378c7a1
     m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/MAC-10
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f1f4fc9cc72ea740b42b29a480f0f67
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/Sawed-Off
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -75,6 +90,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 702211a7ae875f84388042ccf8b01db7
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/Negev
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 81080f7f3e0585444828e64d30636664
     m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/M4A1-S
     m_ReadOnly: 0
@@ -87,6 +107,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8a61eb6adcfe6154d81103b2aab05df6
     m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/MP5-SD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ab9ee8252fbb45e18da4156ca6506db
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/Zeusx27
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -155,8 +180,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f634a1f7570b81c4eb0664ad2131bf69
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/MAG-7
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fc88ab0b9becb404a85acdac98aa09eb
     m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/M4A4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcb7535eba4b0af49bbf68ded56f68c8
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/XM1014
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
