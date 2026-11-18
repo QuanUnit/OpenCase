@@ -12,6 +12,16 @@ namespace Shared.Tools.Collections
             return source[index];
         }
 
+        public static void Shuffle<T>(this IList<T> source)
+        {
+            for (var index = source.Count - 1; index > 0; index--)
+            {
+                var swapIndex = Random.Range(0, index + 1);
+
+                (source[index], source[swapIndex]) = (source[swapIndex], source[index]);
+            }
+        }
+
         public static int IndexOfMax<T>(this IReadOnlyList<T> source, Func<T, float> selector)
         {
             var maxIndex = -1;

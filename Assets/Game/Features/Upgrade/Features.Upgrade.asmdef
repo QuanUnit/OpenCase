@@ -1,0 +1,26 @@
+{
+    "name": "Features.Upgrade",
+    "rootNamespace": "Features.Upgrade",
+    "references": [
+        "Features.Skins",
+        "Features.Inventory",
+        "Shared",
+        "QCore.Tools",
+        "QCore.UI",
+        "Zenject",
+        "UniTask",
+        "UniTask.DOTween",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "QCore.AddressablesWrapper"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

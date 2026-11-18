@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using NUnit.Framework;
 using Shared.Tools.Collections;
 
@@ -55,6 +56,36 @@ namespace Shared.Tests.EditMode
             var source = new List<float>();
 
             Assert.AreEqual(-1, source.IndexOfMax(value => value));
+        }
+
+        [Test]
+        public void Shuffle_List_KeepsSameElements()
+        {
+            var source = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8 };
+
+            source.Shuffle();
+
+            CollectionAssert.AreEquivalent(new List<int> { 1, 2, 3, 4, 5, 6, 7, 8 }, source);
+        }
+
+        [Test]
+        public void Shuffle_ManyCalls_ChangesOrderAtLeastOnce()
+        {
+            var original = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8 };
+            var isChanged = false;
+
+            for (var attempt = 0; attempt < 20; attempt++)
+            {
+                var source = new List<int>(original);
+                source.Shuffle();
+
+                if (source.SequenceEqual(original) == false)
+                {
+                    isChanged = true;
+                }
+            }
+
+            Assert.IsTrue(isChanged == true);
         }
     }
 }

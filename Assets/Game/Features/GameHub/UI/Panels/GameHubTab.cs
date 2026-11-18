@@ -5,5 +5,6 @@ namespace Features.GameHub.UI.Panels
         Cases = 0,
         Inventory = 1,
         Earn = 2,
+        Upgrade = 3,
     }
 }
