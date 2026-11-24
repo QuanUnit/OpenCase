@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection: The Cobblestone Collection
   Price:
     MinPrice: 3815.44
     MaxPrice: 4000

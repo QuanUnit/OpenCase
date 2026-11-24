@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection: The Vanguard Collection
   Price:
     MinPrice: 7.06
     MaxPrice: 23.61

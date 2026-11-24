@@ -31,6 +31,14 @@ namespace Features.Skins.Services
             return new Skin(config.Id, id, floatValue, price, isStatTrack, isSouvenir);
         }
 
+        public Skin Create(SkinConfig config, float floatValue, bool isStatTrak)
+        {
+            var price = CalculatePrice(config.Price, floatValue, isStatTrak, false);
+            var id = QGuid.CreateNew();
+
+            return new Skin(config.Id, id, floatValue, price, isStatTrak, false);
+        }
+
         private bool RandomStatTrak(SkinConfig config)
         {
             if (config.AvailableStatTrak == false) return false;

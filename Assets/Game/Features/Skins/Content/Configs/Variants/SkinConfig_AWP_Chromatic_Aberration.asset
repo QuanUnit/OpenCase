@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
+  Collection: The Recoil Collection
   Price:
     MinPrice: 27.98
     MaxPrice: 102.66

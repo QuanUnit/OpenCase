@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection: Limited Edition Item
   Price:
     MinPrice: 1.13
     MaxPrice: 71.31

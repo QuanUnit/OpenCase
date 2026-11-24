@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
+  Collection: The Revolver Case Collection
   Price:
     MinPrice: 0.96
     MaxPrice: 9.27

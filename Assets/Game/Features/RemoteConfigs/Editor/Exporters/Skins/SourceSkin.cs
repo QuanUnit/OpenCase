@@ -14,6 +14,7 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
         public bool souvenir;
         public SourceNamedEntity[] wears;
         public SourceNamedEntity[] crates;
+        public SourceNamedEntity[] collections;
         public string phase;
         public string image;
     }

@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection: The Wildfire Collection
   Price:
     MinPrice: 15.05
     MaxPrice: 245.17

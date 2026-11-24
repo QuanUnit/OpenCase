@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
+  Collection: The Dust Collection
   Price:
     MinPrice: 11.17
     MaxPrice: 61.48

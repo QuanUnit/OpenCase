@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
+  Collection: The Revolution Collection
   Price:
     MinPrice: 28.55
     MaxPrice: 130.09

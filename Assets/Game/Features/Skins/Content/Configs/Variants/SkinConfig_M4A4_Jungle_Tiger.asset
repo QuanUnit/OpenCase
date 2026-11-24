@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
+  Collection: The Aztec Collection
   Price:
     MinPrice: 8.26
     MaxPrice: 100.66

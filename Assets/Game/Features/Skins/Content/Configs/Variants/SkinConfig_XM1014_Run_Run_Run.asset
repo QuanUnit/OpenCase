@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
+  Collection: The Train 2025 Collection
   Price:
     MinPrice: 0.35
     MaxPrice: 3.8

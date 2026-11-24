@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
+  Collection: The Assault Collection
   Price:
     MinPrice: 98.31
     MaxPrice: 976.15

@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
+  Collection: The Cache Collection
   Price:
     MinPrice: 15.38
     MaxPrice: 31.14

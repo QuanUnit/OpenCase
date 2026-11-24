@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
+  Collection: The Militia Collection
   Price:
     MinPrice: 6.53
     MaxPrice: 127.34

@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection: The Dreams & Nightmares Collection
   Price:
     MinPrice: 5.48
     MaxPrice: 24.36

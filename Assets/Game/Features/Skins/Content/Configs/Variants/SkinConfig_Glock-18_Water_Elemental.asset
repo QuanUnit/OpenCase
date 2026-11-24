@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection: The Breakout Collection
   Price:
     MinPrice: 18.63
     MaxPrice: 35.32

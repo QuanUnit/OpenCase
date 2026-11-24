@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection: The Overpass 2024 Collection
   Price:
     MinPrice: 27.14
     MaxPrice: 157.32

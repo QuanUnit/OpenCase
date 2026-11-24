@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
+  Collection: The Alpha Collection
   Price:
     MinPrice: 24.73
     MaxPrice: 521.8

@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
+  Collection: The Gallery Collection
   Price:
     MinPrice: 43.63
     MaxPrice: 385.08

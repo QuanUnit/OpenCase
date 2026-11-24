@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
+  Collection: The Sport & Field Collection
   Price:
     MinPrice: 515.3
     MaxPrice: 516.66

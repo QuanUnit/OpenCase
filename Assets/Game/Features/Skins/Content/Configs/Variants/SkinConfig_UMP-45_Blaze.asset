@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
+  Collection: The Mirage Collection
   Price:
     MinPrice: 41.26
     MaxPrice: 46.91

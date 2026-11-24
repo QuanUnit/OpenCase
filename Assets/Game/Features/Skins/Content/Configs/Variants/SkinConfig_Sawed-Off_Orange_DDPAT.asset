@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
+  Collection: The eSports 2013 Collection
   Price:
     MinPrice: 12.31
     MaxPrice: 67.11

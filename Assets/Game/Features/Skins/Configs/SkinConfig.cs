@@ -18,6 +18,7 @@ namespace Features.Skins.Configs
         public string Name;
         public UIContextData ContextData;
         public Rarity Rarity;
+        public string Collection;
         public PriceRange Price;
         public bool AvailableStatTrak;
         public bool AvailableSouvenir;

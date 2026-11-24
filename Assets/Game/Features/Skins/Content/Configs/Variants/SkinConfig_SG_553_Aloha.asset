@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
+  Collection: The Clutch Collection
   Price:
     MinPrice: 0.06
     MaxPrice: 0.37

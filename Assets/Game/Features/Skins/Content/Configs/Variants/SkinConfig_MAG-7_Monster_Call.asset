@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
+  Collection: The Fracture Collection
   Price:
     MinPrice: 0.38
     MaxPrice: 4.63

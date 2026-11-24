@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
+  Collection: The Spectrum Collection
   Price:
     MinPrice: 130.52
     MaxPrice: 217.82

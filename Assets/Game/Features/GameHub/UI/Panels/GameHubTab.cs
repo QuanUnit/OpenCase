@@ -6,5 +6,6 @@ namespace Features.GameHub.UI.Panels
         Inventory = 1,
         Earn = 2,
         Upgrade = 3,
+        Contracts = 4,
     }
 }

@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
+  Collection: The Genesis Collection
   Price:
     MinPrice: 0.09
     MaxPrice: 0.95

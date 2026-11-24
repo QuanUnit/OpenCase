@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
+  Collection: The St. Marc Collection
   Price:
     MinPrice: 81.34
     MaxPrice: 141.45

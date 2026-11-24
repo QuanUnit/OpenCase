@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
+  Collection: The eSports 2014 Summer Collection
   Price:
     MinPrice: 72.5
     MaxPrice: 563.96

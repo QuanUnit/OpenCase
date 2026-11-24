@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
+  Collection: The Radiant Collection
   Price:
     MinPrice: 0.4
     MaxPrice: 2.37

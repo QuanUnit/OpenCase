@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection: The Winter Offensive Collection
   Price:
     MinPrice: 38.95
     MaxPrice: 73.09

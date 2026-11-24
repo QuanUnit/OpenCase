@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection: The Arms Deal 3 Collection
   Price:
     MinPrice: 19.5
     MaxPrice: 32.99

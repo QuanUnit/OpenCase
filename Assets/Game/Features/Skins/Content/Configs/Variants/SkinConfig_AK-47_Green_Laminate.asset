@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
+  Collection: The 2021 Vertigo Collection
   Price:
     MinPrice: 23.49
     MaxPrice: 88.81

@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
+  Collection: The 2018 Nuke Collection
   Price:
     MinPrice: 0
     MaxPrice: 0

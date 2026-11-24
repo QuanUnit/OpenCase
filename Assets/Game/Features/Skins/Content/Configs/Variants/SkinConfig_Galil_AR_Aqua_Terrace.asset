@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
+  Collection: The Rising Sun Collection
   Price:
     MinPrice: 130.79
     MaxPrice: 242.73

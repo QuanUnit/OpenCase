@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
+  Collection: The Norse Collection
   Price:
     MinPrice: 6.33
     MaxPrice: 12.81

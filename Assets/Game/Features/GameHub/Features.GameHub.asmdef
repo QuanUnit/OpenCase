@@ -4,6 +4,7 @@
     "references": [
         "Features.Cases",
         "Features.Clicker",
+        "Features.Contracts",
         "Features.Inventory",
         "Features.OthersDrop",
         "Features.Wallet",

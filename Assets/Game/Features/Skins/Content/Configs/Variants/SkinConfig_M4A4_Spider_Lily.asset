@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
+  Collection: The Operation Riptide Collection
   Price:
     MinPrice: 6.31
     MaxPrice: 105.46

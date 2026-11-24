@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
+  Collection: The Canals Collection
   Price:
     MinPrice: 94.17
     MaxPrice: 288.88

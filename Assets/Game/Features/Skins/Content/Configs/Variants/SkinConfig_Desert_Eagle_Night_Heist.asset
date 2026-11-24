@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
+  Collection: The Havoc Collection
   Price:
     MinPrice: 25.02
     MaxPrice: 78.28

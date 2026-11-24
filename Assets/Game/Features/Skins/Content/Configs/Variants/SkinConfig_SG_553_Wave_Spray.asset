@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
+  Collection: The Bravo Collection
   Price:
     MinPrice: 3.38
     MaxPrice: 16.27

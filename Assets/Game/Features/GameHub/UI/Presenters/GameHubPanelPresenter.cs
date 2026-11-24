@@ -28,6 +28,7 @@ namespace Features.GameHub.UI.Presenters
             Panel.InventoryClickHandle += InventoryClickHandle;
             Panel.EarnClickHandle += EarnClickHandle;
             Panel.UpgradeClickHandle += UpgradeClickHandle;
+            Panel.ContractsClickHandle += ContractsClickHandle;
 
             _softCurrencyWallet.Changed += SoftCurrencyWalletChangeHandle;
             
@@ -77,6 +78,15 @@ namespace Features.GameHub.UI.Presenters
             _openedChildPanel = data.Panel;
         }
 
+        private void ContractsClickHandle()
+        {
+            CloseActiveChildPanel();
+            Panel.SetActiveTab(GameHubTab.Contracts);
+
+            var data = _panelsService.Open(() => Panel.ContractSubPanel);
+            _openedChildPanel = data.Panel;
+        }
+
         private void CloseActiveChildPanel()
         {
             if (_openedChildPanel != null)
@@ -91,6 +101,7 @@ namespace Features.GameHub.UI.Presenters
             Panel.InventoryClickHandle -= InventoryClickHandle;
             Panel.EarnClickHandle -= EarnClickHandle;
             Panel.UpgradeClickHandle -= UpgradeClickHandle;
+            Panel.ContractsClickHandle -= ContractsClickHandle;
             _softCurrencyWallet.Changed -= SoftCurrencyWalletChangeHandle;
 
             CloseActiveChildPanel();

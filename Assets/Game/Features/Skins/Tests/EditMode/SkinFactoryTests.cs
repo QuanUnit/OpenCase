@@ -103,5 +103,45 @@ namespace Features.Skins.Tests.EditMode
             Assert.AreEqual(config.Id, second.SkinSourceId);
             Assert.AreNotEqual(first.Id, second.Id);
         }
+
+        [Test]
+        public void Create_GivenFloat_KeepsFloatAndPricesByCurve()
+        {
+            var globalConfig = new SkinsGlobalSettingsConfigBuilder().Build();
+            var factory = new SkinFactory(globalConfig);
+            var config = CreateSkinConfig(false, false);
+
+            var skin = factory.Create(config, 0.25f, false);
+
+            Assert.AreEqual(0.25f, skin.FloatValue, 0.0001f);
+            Assert.AreEqual(12.5f, skin.Price, 0.0001f);
+        }
+
+        [Test]
+        public void Create_StatTrak_AppliesMultiplier()
+        {
+            var globalConfig = new SkinsGlobalSettingsConfigBuilder()
+                .WithPriceMultiplierByStatTrak(2f)
+                .Build();
+            var factory = new SkinFactory(globalConfig);
+            var config = CreateSkinConfig(true, false);
+
+            var skin = factory.Create(config, 0f, true);
+
+            Assert.IsTrue(skin.IsStatTrak == true);
+            Assert.AreEqual(20f, skin.Price, 0.0001f);
+        }
+
+        [Test]
+        public void Create_ReturnsNotSouvenir()
+        {
+            var globalConfig = new SkinsGlobalSettingsConfigBuilder().Build();
+            var factory = new SkinFactory(globalConfig);
+            var config = CreateSkinConfig(false, true);
+
+            var skin = factory.Create(config, 0.5f, false);
+
+            Assert.IsTrue(skin.IsSouvenir == false);
+        }
     }
 }

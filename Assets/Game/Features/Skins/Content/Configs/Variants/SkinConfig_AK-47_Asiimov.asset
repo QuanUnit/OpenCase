@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
+  Collection: The Danger Zone Collection
   Price:
     MinPrice: 38.24
     MaxPrice: 576.67

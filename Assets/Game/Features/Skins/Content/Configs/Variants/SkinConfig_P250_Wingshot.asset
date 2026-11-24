@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
+  Collection: The Shadow Collection
   Price:
     MinPrice: 1.27
     MaxPrice: 8.61

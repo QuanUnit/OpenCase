@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
+  Collection: The Baggage Collection
   Price:
     MinPrice: 76.56
     MaxPrice: 227.8

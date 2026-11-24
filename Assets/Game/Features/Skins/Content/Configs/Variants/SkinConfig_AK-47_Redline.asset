@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection: The Phoenix Collection
   Price:
     MinPrice: 28.19
     MaxPrice: 203.68

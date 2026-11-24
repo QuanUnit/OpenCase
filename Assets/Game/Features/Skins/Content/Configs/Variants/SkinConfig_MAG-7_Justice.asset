@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection: The Prisma 2 Collection
   Price:
     MinPrice: 4.66
     MaxPrice: 22.83

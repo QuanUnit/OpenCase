@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
+  Collection: The Inferno Collection
   Price:
     MinPrice: 6.99
     MaxPrice: 195.36

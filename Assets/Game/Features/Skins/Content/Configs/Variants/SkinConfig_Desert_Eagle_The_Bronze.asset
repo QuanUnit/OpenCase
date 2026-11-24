@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
+  Collection: The Control Collection
   Price:
     MinPrice: 3.21
     MaxPrice: 4.91

@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
+  Collection: The Falchion Collection
   Price:
     MinPrice: 33.38
     MaxPrice: 184.02

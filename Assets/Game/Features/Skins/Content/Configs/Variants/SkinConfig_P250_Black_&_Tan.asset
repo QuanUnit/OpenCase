@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
+  Collection: The 2021 Dust 2 Collection
   Price:
     MinPrice: 15.49
     MaxPrice: 29.43

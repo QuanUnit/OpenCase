@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection: The Dust 2 Collection
   Price:
     MinPrice: 1.11
     MaxPrice: 1.64

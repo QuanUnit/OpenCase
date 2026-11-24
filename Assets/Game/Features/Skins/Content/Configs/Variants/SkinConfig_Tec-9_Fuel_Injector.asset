@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection: The Gamma 2 Collection
   Price:
     MinPrice: 8.73
     MaxPrice: 51.18

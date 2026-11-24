@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
+  Collection: The Chroma 3 Collection
   Price:
     MinPrice: 0.21
     MaxPrice: 0.44

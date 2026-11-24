@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
+  Collection: The Operation Hydra Collection
   Price:
     MinPrice: 423.42
     MaxPrice: 1154.2

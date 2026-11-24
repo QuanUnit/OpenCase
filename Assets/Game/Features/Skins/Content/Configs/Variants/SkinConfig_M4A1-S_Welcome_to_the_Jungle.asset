@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
+  Collection: The Ancient Collection
   Price:
     MinPrice: 648.94
     MaxPrice: 3203.25

@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
+  Collection: The Chroma Collection
   Price:
     MinPrice: 112.47
     MaxPrice: 114.43

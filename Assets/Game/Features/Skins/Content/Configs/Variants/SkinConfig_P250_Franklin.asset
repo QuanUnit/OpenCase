@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection: The Bank Collection
   Price:
     MinPrice: 1.26
     MaxPrice: 4.34

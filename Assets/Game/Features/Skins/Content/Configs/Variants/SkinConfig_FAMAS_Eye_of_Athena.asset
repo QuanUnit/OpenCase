@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection: The Horizon Collection
   Price:
     MinPrice: 5.56
     MaxPrice: 29.51

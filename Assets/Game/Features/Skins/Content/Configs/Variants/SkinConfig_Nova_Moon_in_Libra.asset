@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
+  Collection: The Gods and Monsters Collection
   Price:
     MinPrice: 4.51
     MaxPrice: 6.63

@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection: The 2018 Nuke Collection
   Price:
     MinPrice: 5.27
     MaxPrice: 155.12

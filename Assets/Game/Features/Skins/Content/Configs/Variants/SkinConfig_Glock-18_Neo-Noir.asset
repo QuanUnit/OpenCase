@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
+  Collection: The Operation Broken Fang Collection
   Price:
     MinPrice: 29.61
     MaxPrice: 276.07

@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
+  Collection: The 2021 Mirage Collection
   Price:
     MinPrice: 67.71
     MaxPrice: 96.94

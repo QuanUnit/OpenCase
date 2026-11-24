@@ -31,5 +31,10 @@ namespace Features.Upgrade.Tests.EditMode
 
             return new Skin(config.Id, QGuid.CreateNew(), 0.1f, _lastPrices[config], false, false);
         }
+
+        public Skin Create(SkinConfig config, float floatValue, bool isStatTrak)
+        {
+            return new Skin(config.Id, QGuid.CreateNew(), floatValue, 0f, isStatTrak, false);
+        }
     }
 }

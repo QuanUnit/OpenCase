@@ -49,6 +49,7 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
             skin.rarity ??= new SourceNamedEntity();
             skin.wears ??= Array.Empty<SourceNamedEntity>();
             skin.crates ??= Array.Empty<SourceNamedEntity>();
+            skin.collections ??= Array.Empty<SourceNamedEntity>();
         }
     }
 }

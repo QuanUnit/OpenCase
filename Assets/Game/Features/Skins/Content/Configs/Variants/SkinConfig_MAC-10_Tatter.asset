@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
+  Collection: The Huntsman Collection
   Price:
     MinPrice: 6.39
     MaxPrice: 12.13

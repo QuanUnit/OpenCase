@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
+  Collection: The Chroma 2 Collection
   Price:
     MinPrice: 1.01
     MaxPrice: 13.75

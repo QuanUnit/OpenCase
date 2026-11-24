@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
+  Collection: The Snakebite Collection
   Price:
     MinPrice: 26.92
     MaxPrice: 198.62

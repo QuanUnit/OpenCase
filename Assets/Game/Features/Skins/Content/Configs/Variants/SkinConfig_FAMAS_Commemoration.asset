@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
+  Collection: The CS20 Collection
   Price:
     MinPrice: 30.34
     MaxPrice: 50.54

@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
+  Collection: The Graphic Design Collection
   Price:
     MinPrice: 203.7
     MaxPrice: 1942.78

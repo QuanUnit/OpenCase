@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
+  Collection: The Train Collection
   Price:
     MinPrice: 0.07
     MaxPrice: 0.09

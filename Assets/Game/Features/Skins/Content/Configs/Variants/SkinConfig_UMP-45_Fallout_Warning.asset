@@ -25,6 +25,7 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
+  Collection: The Nuke Collection
   Price:
     MinPrice: 9.61
     MaxPrice: 75.16
