@@ -132,6 +132,8 @@ Features/<Name>/
 - Тип не должен называться как сегмент `Features.<Имя>` (класс `Wallet` внутри `Features.Wallet` перекрывается namespace). Снаружи фичи используй `IWallet`/`SoftCurrencyWallet`; при конфликте пиши `Services.Wallet`.
 - `Kernel.asmdef` ссылается на все фичи; новая фича без записи в `ProjectContext` не получит биндинги.
 - Мультиоткрытие кейсов: диапазон x1–x5 и задержка каскада в `CaseSpinConfig.asset` (`Features/Cases/Content/Configs`), выбранный множитель живёт полем в `CaseSpinSubPanelPresenter`. Сначала создаются все скины, потом одно списание `цена × N`.
+- Продажа скинов только через `Features.Inventory.Services.ISkinSellService` (`Sell`, `SellAll`, `GetSellPrice`): любая показанная цена продажи (карточки дропа, плашка итога, SELL инвентаря, попап) берётся из `GetSellPrice`, поэтому показанное == зачисленное. Тесты: `SkinSellServiceTests`, `SkinConfigTests` (`WeaponName`), `CaseDropsResultTests`.
+- Результат открытия: строка `SlotMachineCell.prefab` = лента (`MachineArea`, `UniformScaleFitter`) + слот карточки 540px справа (`DropResultCard`: оружие, имя, износ из `SkinsUIContextDataConfig._wearNames`, бейджи, цена, Sell); лента сужена и центрирована на маркере. При N > 1 под лентами `DropsTotalBar` (сумма непроданных, Sell all, после продажи всего "ALL SOLD +сумма"). Учёт дропов и продаж: `Features.Cases.Data.CaseDropsResult` (поле презентера, не в DI).
 - Кейсы: источник правды — страница Cases таблицы (`Id,Name,Price,SkinId,Weight`, запятая как десятичный разделитель). Правки кейсов в `Tools/Case Editor` пушь кнопкой «Push cases to sheet», иначе следующий импорт их откатит. Иконки кейсов лежат в `Cases/Content/Textures` (папка адресуемая целиком).
 
 ## 10. Рабочие правила

@@ -1,12 +1,10 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using QCore.UISystem.Panels;
 using Features.SlotMachine.UI;
 using Shared.Tools.Collections;
 using Shared.UI;
 using Shared.UI.Effects;
-using Shared.UI.Layout;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,9 +16,11 @@ namespace Features.Cases.UI.Panels
         public event Action SpinClicked;
         public event Action BackClicked;
         public event Action<int> CountSelected;
+        public event Action<int> DropSellClicked;
+        public event Action SellAllClicked;
 
         [Header("Slot machines")]
-        [SerializeField] private UniformScaleFitter _slotMachineCellPrefab;
+        [SerializeField] private SlotMachineCellView _slotMachineCellPrefab;
         [SerializeField] private RectTransform _slotMachinesStack;
         [SerializeField, Range(0f, 1f)] private float _multipleSpinsScale = 0.6f;
 
@@ -50,20 +50,12 @@ namespace Features.Cases.UI.Panels
         [SerializeField] private TMP_Text _caseName;
         [SerializeField] private RectTransform _idleHint;
 
-        [Header("Single reward")]
-        [SerializeField] private RectTransform _reward;
-        [SerializeField] private TMP_Text _rewardName;
-        [SerializeField] private TextedCurrencyView _rewardPrice;
-        [SerializeField] private Image _rewardRarity;
-
-        [Header("Rewards summary")]
-        [SerializeField] private RectTransform _summary;
-        [SerializeField] private TMP_Text _summaryCaption;
-        [SerializeField] private string _summaryCaptionFormat = "{0} ITEMS · TOTAL";
-        [SerializeField] private TextedCurrencyView _summaryTotal;
-        [SerializeField] private TMP_Text _summaryBestName;
-        [SerializeField] private string _summaryBestNameFormat = "BEST: {0}";
-        [SerializeField] private Image _summaryBestRarity;
+        [Header("Drops")]
+        [SerializeField] private GameObject _dropsTotalSlot;
+        [SerializeField] private DropsTotalBar _dropsTotalBar;
+        [SerializeField] private MoneyBurst _moneyBurst;
+        [SerializeField, Min(0)] private int _sellParticlesCount = 12;
+        [SerializeField, Min(0)] private int _sellAllParticlesCount = 32;
 
         [Header("Case contents")]
         [SerializeField] private CaseContentItemView _caseContentItemPrefab;
@@ -78,9 +70,10 @@ namespace Features.Cases.UI.Panels
         private readonly List<LayoutElement> _slotMachineCells = new List<LayoutElement>();
         private readonly List<HorizontalSlotMachine> _slotMachines = new List<HorizontalSlotMachine>();
         private readonly List<HorizontalSlotMachine> _activeSlotMachines = new List<HorizontalSlotMachine>();
+        private readonly List<DropResultCard> _dropResultCards = new List<DropResultCard>();
         private readonly List<CaseContentItemView> _caseContentItems = new List<CaseContentItemView>();
         private readonly List<SpinCountOptionView> _countOptions = new List<SpinCountOptionView>();
-        private readonly List<RewardData> _rewards = new List<RewardData>();
+        private readonly List<DropResultCard.Data> _rewards = new List<DropResultCard.Data>();
 
         private int _completedSpinsCount;
         private bool _isSpinning;
@@ -90,13 +83,10 @@ namespace Features.Cases.UI.Panels
         {
             _spinButton.onClick.AddListener(SpinClickHandle);
             _backButton.onClick.AddListener(BackClickHandle);
+            _dropsTotalBar.SellAllClicked += SellAllClickHandle;
 
-            _rewards.Clear();
-            _completedSpinsCount = 0;
-
+            ResetDrops();
             _idleHint.gameObject.SetActive(true);
-            _reward.gameObject.SetActive(false);
-            _summary.gameObject.SetActive(false);
         }
 
         public void SetCaseView(string caseName)
@@ -180,7 +170,7 @@ namespace Features.Cases.UI.Panels
             _activeSlotMachines.Clear();
 
             var scale = count == 1 ? 1f : _multipleSpinsScale;
-            var cellHeight = _slotMachineCellPrefab.Target.rect.height * scale;
+            var cellHeight = _slotMachineCellPrefab.DesignHeight * scale;
 
             for (var index = 0; index < _slotMachines.Count; index++)
             {
@@ -200,12 +190,9 @@ namespace Features.Cases.UI.Panels
                 }
             }
 
-            _rewards.Clear();
-            _completedSpinsCount = 0;
-
+            ResetDrops();
             _idleHint.gameObject.SetActive(true);
-            _reward.gameObject.SetActive(false);
-            _summary.gameObject.SetActive(false);
+            _dropsTotalSlot.SetActive(count > 1);
 
             return _activeSlotMachines;
         }
@@ -217,8 +204,7 @@ namespace Features.Cases.UI.Panels
                 slotMachine.StopSpinAndClear();
             }
 
-            _rewards.Clear();
-            _completedSpinsCount = 0;
+            ResetDrops();
         }
 
         public void SetSpinState(bool isSpinning)
@@ -254,27 +240,53 @@ namespace Features.Cases.UI.Panels
             RefreshSpinButtonInteractable();
         }
 
-        public void SetRewards(IReadOnlyList<RewardData> rewards)
+        public void SetRewards(IReadOnlyList<DropResultCard.Data> rewards)
         {
-            _rewards.Clear();
+            ResetDrops();
             _rewards.AddRange(rewards);
-            _completedSpinsCount = 0;
 
             _idleHint.gameObject.SetActive(false);
-            _reward.gameObject.SetActive(false);
-            _summary.gameObject.SetActive(false);
+        }
+
+        public void SetDropsTotal(int unsoldCount, float unsoldTotal, float soldTotal)
+        {
+            _dropsTotalBar.SetState(unsoldCount, unsoldTotal, soldTotal);
+        }
+
+        public void MarkDropSold(int index, float amount)
+        {
+            _dropResultCards[index].MarkSold(amount);
+        }
+
+        public void PlayDropSoldFeedback(int index)
+        {
+            _moneyBurst.PlayAt(_dropResultCards[index].SellButtonRect, _sellParticlesCount);
+        }
+
+        public void MarkDropUnavailable(int index)
+        {
+            _dropResultCards[index].MarkUnavailable();
+        }
+
+        public void PlaySellAllFeedback()
+        {
+            _moneyBurst.PlayAt(_dropsTotalBar.SellAllButtonRect, _sellAllParticlesCount);
         }
 
         private void CreateSlotMachine()
         {
             var cell = Instantiate(_slotMachineCellPrefab, _slotMachinesStack);
-            var slotMachine = cell.Target.GetComponent<HorizontalSlotMachine>();
+            var slotMachine = cell.SlotMachine;
+            var dropResultCard = cell.DropResultCard;
 
             cell.name = $"{_slotMachineCellPrefab.name} ({_slotMachines.Count})";
             slotMachine.SpinCompleted += SpinCompleteHandle;
+            dropResultCard.SellClicked += DropSellClickHandle;
+            dropResultCard.Hide();
 
-            _slotMachineCells.Add(cell.GetComponent<LayoutElement>());
+            _slotMachineCells.Add(cell.LayoutElement);
             _slotMachines.Add(slotMachine);
+            _dropResultCards.Add(dropResultCard);
             _idleHint.SetAsLastSibling();
         }
 
@@ -291,46 +303,54 @@ namespace Features.Cases.UI.Panels
             _spinButton.interactable = _isSpinning == false && _isAffordable == true;
         }
 
-        private void SpinCompleteHandle(Slot winSlot)
+        private void ResetDrops()
         {
+            _rewards.Clear();
+            _completedSpinsCount = 0;
+
+            foreach (var dropResultCard in _dropResultCards)
+            {
+                dropResultCard.Hide();
+            }
+
+            _dropsTotalBar.Hide();
+        }
+
+        private void SpinCompleteHandle(HorizontalSlotMachine slotMachine, Slot winSlot)
+        {
+            var index = _activeSlotMachines.IndexOf(slotMachine);
+
+            _dropResultCards[index].Show(_rewards[index]);
             _completedSpinsCount++;
 
-            if (_rewards.Count == 0 || _completedSpinsCount < _rewards.Count)
+            if (_completedSpinsCount == _rewards.Count)
             {
-                return;
-            }
-
-            if (_rewards.Count == 1)
-            {
-                ShowSingleReward(_rewards[0]);
-            }
-            else
-            {
-                ShowRewardsSummary();
+                ShowAllDropsCompleted();
             }
         }
 
-        private void ShowSingleReward(RewardData reward)
+        private void ShowAllDropsCompleted()
         {
-            _rewardName.text = reward.SkinName;
-            _rewardPrice.SetView(reward.Price);
-            _rewardRarity.color = reward.RarityColor;
-            _reward.gameObject.SetActive(true);
+            var bestIndex = _rewards.IndexOfMax(reward => reward.SellPrice);
+            var bestReward = _rewards[bestIndex];
 
-            _screenFlash.Play(reward.RarityColor);
-        }
-
-        private void ShowRewardsSummary()
-        {
-            var bestReward = _rewards[_rewards.IndexOfMax(reward => reward.Price)];
-
-            _summaryCaption.text = string.Format(_summaryCaptionFormat, _rewards.Count);
-            _summaryTotal.SetView(_rewards.Sum(reward => reward.Price));
-            _summaryBestName.text = string.Format(_summaryBestNameFormat, bestReward.SkinName);
-            _summaryBestRarity.color = bestReward.RarityColor;
-            _summary.gameObject.SetActive(true);
+            if (_rewards.Count > 1)
+            {
+                _dropResultCards[bestIndex].MarkBest(bestReward.RarityColor);
+                _dropsTotalBar.Show();
+            }
 
             _screenFlash.Play(bestReward.RarityColor);
+        }
+
+        private void DropSellClickHandle(DropResultCard dropResultCard)
+        {
+            DropSellClicked?.Invoke(_dropResultCards.IndexOf(dropResultCard));
+        }
+
+        private void SellAllClickHandle()
+        {
+            SellAllClicked?.Invoke();
         }
 
         private void CountOptionClickHandle(int count)
@@ -352,6 +372,7 @@ namespace Features.Cases.UI.Panels
         {
             _spinButton.onClick.RemoveListener(SpinClickHandle);
             _backButton.onClick.RemoveListener(BackClickHandle);
+            _dropsTotalBar.SellAllClicked -= SellAllClickHandle;
         }
 
         private void OnDestroy()
@@ -361,17 +382,15 @@ namespace Features.Cases.UI.Panels
                 slotMachine.SpinCompleted -= SpinCompleteHandle;
             }
 
+            foreach (var dropResultCard in _dropResultCards)
+            {
+                dropResultCard.SellClicked -= DropSellClickHandle;
+            }
+
             foreach (var countOption in _countOptions)
             {
                 countOption.Clicked -= CountOptionClickHandle;
             }
-        }
-
-        public struct RewardData
-        {
-            public string SkinName;
-            public Color RarityColor;
-            public float Price;
         }
     }
 }

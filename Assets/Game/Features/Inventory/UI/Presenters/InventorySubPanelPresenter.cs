@@ -9,7 +9,6 @@ using Features.Inventory.Services;
 using Features.Skins.Data;
 using Features.Skins.Services;
 using Features.Skins.Configs;
-using Features.Wallet.Services;
 using UnityEngine;
 using Features.Inventory.Data;
 
@@ -21,18 +20,18 @@ namespace Features.Inventory.UI.Presenters
         private readonly ISkinsDatabaseService _skinsDatabaseService;
         private readonly ISkinsUIContextDataService _skinsUIContextDataService;
         private readonly IUIPanelsService _uiPanelsService;
-        private readonly SoftCurrencyWallet _softCurrencyWallet;
+        private readonly ISkinSellService _skinSellService;
         
         private SelectableSetController _controller;
         private SelectedSkinsBuffer _selectedSkinsBuffer;
         
-        public InventorySubPanelPresenter(IInventoryService inventoryService, ISkinsDatabaseService skinsDatabaseService, ISkinsUIContextDataService skinsUIContextDataService, IUIPanelsService uiPanelsService, SoftCurrencyWallet softCurrencyWallet)
+        public InventorySubPanelPresenter(IInventoryService inventoryService, ISkinsDatabaseService skinsDatabaseService, ISkinsUIContextDataService skinsUIContextDataService, IUIPanelsService uiPanelsService, ISkinSellService skinSellService)
         {
             _inventoryService = inventoryService;
             _skinsDatabaseService = skinsDatabaseService;
             _skinsUIContextDataService = skinsUIContextDataService;
             _uiPanelsService = uiPanelsService;
-            _softCurrencyWallet = softCurrencyWallet;
+            _skinSellService = skinSellService;
 
             _controller = new SelectableSetController();
             _selectedSkinsBuffer = new SelectedSkinsBuffer();
@@ -96,7 +95,7 @@ namespace Features.Inventory.UI.Presenters
 
         private void UpdateSellButtonCurrency()
         {
-            var totalCurrency = _selectedSkinsBuffer.TotalPrice;
+            var totalCurrency = _skinSellService.GetSellPrice(_selectedSkinsBuffer.Skins.ToList());
             Panel.SetSellButtonPrice(totalCurrency);
         }
 
@@ -122,12 +121,7 @@ namespace Features.Inventory.UI.Presenters
         
         private void SellClickHandle()
         {
-            foreach (var skin in _selectedSkinsBuffer.Skins)
-            {
-                _inventoryService.Remove(skin);
-            }
-            
-            _softCurrencyWallet.Add(_selectedSkinsBuffer.TotalPrice);
+            _skinSellService.SellAll(_selectedSkinsBuffer.Skins.ToList());
             _selectedSkinsBuffer.Clear();
             _controller.StopSelecting();
         }
@@ -142,7 +136,7 @@ namespace Features.Inventory.UI.Presenters
             {
                 Icon = skinConfig.ContextData.SpriteSource.GetAsset(),
                 Name = skinConfig.Name,
-                Price = skin.Price,
+                Price = _skinSellService.GetSellPrice(skin),
                 RarityColor = rarityVisual.RarityMainColor,
             });
 

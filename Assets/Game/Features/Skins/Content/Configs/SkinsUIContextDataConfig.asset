@@ -41,3 +41,14 @@ MonoBehaviour:
     Value:
       RarityMainColor: {r: 1, g: 0.8431373, b: 0, a: 1}
       RarityBackgroundColor: {r: 0.33153635, g: 0.28731048, b: 0.049596366, a: 1}
+  _wearNames:
+  - Key: 0
+    Value: Battle-Scarred
+  - Key: 1
+    Value: Well-Worn
+  - Key: 2
+    Value: Field-Tested
+  - Key: 3
+    Value: Minimal Wear
+  - Key: 4
+    Value: Factory New

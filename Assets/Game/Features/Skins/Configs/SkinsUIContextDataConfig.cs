@@ -9,7 +9,9 @@ namespace Features.Skins.Configs
     public class SkinsUIContextDataConfig : ScriptableObject
     {
         public IReadOnlyList<KeyValue<Rarity, RarityVisual>> RarityVisuals => _rarityVisuals;
+        public IReadOnlyList<KeyValue<Wear, string>> WearNames => _wearNames;
         
         [SerializeField] private List<KeyValue<Rarity, RarityVisual>> _rarityVisuals;
+        [SerializeField] private List<KeyValue<Wear, string>> _wearNames;
     }
 }

@@ -13,7 +13,7 @@ namespace Features.SlotMachine.UI
 {
     public class HorizontalSlotMachine : MonoBehaviour
     {
-        public event Action<Slot> SpinCompleted;
+        public event Action<HorizontalSlotMachine, Slot> SpinCompleted;
 
         public bool IsSpinning => _spinTween != null;
         
@@ -76,7 +76,7 @@ namespace Features.SlotMachine.UI
             _spinTween = null;
 
             winSlot.PlayWin();
-            SpinCompleted?.Invoke(winSlot);
+            SpinCompleted?.Invoke(this, winSlot);
         }
         
         public void StopSpin()

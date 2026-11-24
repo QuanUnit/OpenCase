@@ -11,6 +11,7 @@ namespace Features.Inventory.Installers
         public override void InstallBindings()
         {
             Container.Bind<IInventoryService>().To<InventoryService>().AsSingle();
+            Container.Bind<ISkinSellService>().To<SkinSellService>().AsSingle();
 
             Container.BindPanelPresenter<InventorySubPanel, InventorySubPanelPresenter>();
             Container.BindPanelPresenter<SkinDetailsPopup, SkinDetailsPopupPresenter>();

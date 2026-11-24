@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Cysharp.Threading.Tasks;
 using Features.Cases.Configs;
+using Features.Cases.Data;
 using Features.Cases.Services;
 using Features.Cases.UI.Panels;
 using Features.Inventory.Services;
@@ -27,9 +28,11 @@ namespace Features.Cases.UI.Presenters
         private readonly ISkinsDatabaseService _skinsDatabaseService;
         private readonly ISkinsUIContextDataService _skinsUIContextDataService;
         private readonly IInventoryService _inventoryService;
+        private readonly ISkinSellService _skinSellService;
         private readonly ISkinFactory _skinFactory;
         private readonly SoftCurrencyWallet _softCurrencyWallet;
         private readonly CaseSpinConfig _caseSpinConfig;
+        private readonly CaseDropsResult _dropsResult = new CaseDropsResult();
 
         private CaseConfig _caseConfig;
         private bool _isPresenting;
@@ -37,13 +40,14 @@ namespace Features.Cases.UI.Presenters
         private int _spinRunId;
         private int _count;
 
-        public CaseSpinSubPanelPresenter(ICasesDatabaseService casesDatabaseService, IUIPanelsService panelsService, ISkinsDatabaseService skinsDatabaseService, ISkinsUIContextDataService skinsUIContextDataService, IInventoryService inventoryService, ISkinFactory skinFactory, SoftCurrencyWallet softCurrencyWallet, CaseSpinConfig caseSpinConfig)
+        public CaseSpinSubPanelPresenter(ICasesDatabaseService casesDatabaseService, IUIPanelsService panelsService, ISkinsDatabaseService skinsDatabaseService, ISkinsUIContextDataService skinsUIContextDataService, IInventoryService inventoryService, ISkinSellService skinSellService, ISkinFactory skinFactory, SoftCurrencyWallet softCurrencyWallet, CaseSpinConfig caseSpinConfig)
         {
             _casesDatabaseService = casesDatabaseService;
             _panelsService = panelsService;
             _skinsDatabaseService = skinsDatabaseService;
             _skinsUIContextDataService = skinsUIContextDataService;
             _inventoryService = inventoryService;
+            _skinSellService = skinSellService;
             _skinFactory = skinFactory;
             _softCurrencyWallet = softCurrencyWallet;
             _caseSpinConfig = caseSpinConfig;
@@ -55,6 +59,8 @@ namespace Features.Cases.UI.Presenters
             Panel.SpinClicked += SpinClickHandle;
             Panel.BackClicked += BackClickHandle;
             Panel.CountSelected += CountSelectHandle;
+            Panel.DropSellClicked += DropSellClickHandle;
+            Panel.SellAllClicked += SellAllClickHandle;
             _softCurrencyWallet.Changed += WalletChangeHandle;
 
             _isPresenting = true;
@@ -105,6 +111,7 @@ namespace Features.Cases.UI.Presenters
             Panel.SetSelectedCount(_count);
             Panel.SetSpinPrice(GetTotalPrice());
             Panel.PrepareSlotMachines(_count);
+            ClearDrops();
 
             RefreshAffordability();
         }
@@ -133,6 +140,7 @@ namespace Features.Cases.UI.Presenters
         {
             _isSpinning = false;
             Panel.StopSlotMachines();
+            ClearDrops();
 
             _panelsService.Close(Panel.GetType());
         }
@@ -147,7 +155,7 @@ namespace Features.Cases.UI.Presenters
             var count = _count;
             var winSlots = new List<SlotData>(count);
             var skins = new List<Skin>(count);
-            var rewards = new List<CaseSpinSubPanel.RewardData>(count);
+            var rewards = new List<DropResultCard.Data>(count);
 
             for (var index = 0; index < count; index++)
             {
@@ -171,6 +179,9 @@ namespace Features.Cases.UI.Presenters
 
             var slotMachines = Panel.PrepareSlotMachines(count);
             Panel.SetRewards(rewards);
+
+            _dropsResult.Start(skins);
+            RefreshDropsTotal();
 
             _spinRunId++;
             RunSpins(slotMachines, winSlots, _spinRunId).Forget();
@@ -212,16 +223,87 @@ namespace Features.Cases.UI.Presenters
             return _caseConfig.Price * _count;
         }
 
-        private CaseSpinSubPanel.RewardData CreateRewardData(Skin skin)
+        private void DropSellClickHandle(int index)
+        {
+            var amount = _skinSellService.Sell(_dropsResult.GetSkin(index));
+
+            _dropsResult.MarkSold(index, amount);
+            ShowDropSold(index, amount);
+
+            if (amount > 0f)
+            {
+                Panel.PlayDropSoldFeedback(index);
+            }
+
+            RefreshDropsTotal();
+        }
+
+        private void SellAllClickHandle()
+        {
+            var unsoldIndices = _dropsResult.GetUnsoldIndices();
+            var unsoldSkins = _dropsResult.GetUnsoldSkins();
+            var amounts = new List<float>(unsoldSkins.Count);
+
+            foreach (var skin in unsoldSkins)
+            {
+                amounts.Add(_skinSellService.CanSell(skin) == true ? _skinSellService.GetSellPrice(skin) : 0f);
+            }
+
+            var amount = _skinSellService.SellAll(unsoldSkins);
+
+            for (var index = 0; index < unsoldIndices.Count; index++)
+            {
+                _dropsResult.MarkSold(unsoldIndices[index], amounts[index]);
+                ShowDropSold(unsoldIndices[index], amounts[index]);
+            }
+
+            if (amount > 0f)
+            {
+                Panel.PlaySellAllFeedback();
+            }
+
+            RefreshDropsTotal();
+        }
+
+        private void ShowDropSold(int index, float amount)
+        {
+            if (amount > 0f)
+            {
+                Panel.MarkDropSold(index, amount);
+            }
+            else
+            {
+                Panel.MarkDropUnavailable(index);
+            }
+        }
+
+        private void RefreshDropsTotal()
+        {
+            var unsoldSkins = _dropsResult.GetUnsoldSkins();
+
+            Panel.SetDropsTotal(unsoldSkins.Count, _skinSellService.GetSellPrice(unsoldSkins), _dropsResult.SoldTotal);
+        }
+
+        private void ClearDrops()
+        {
+            _dropsResult.Clear();
+        }
+
+        private DropResultCard.Data CreateRewardData(Skin skin)
         {
             var skinConfig = _skinsDatabaseService.GetSkinConfigById(skin.SkinSourceId);
             var rarityVisual = _skinsUIContextDataService.GetRarityVisual(skinConfig.Rarity);
+            var wear = _skinsDatabaseService.GetSkinWear(skin);
 
-            return new CaseSpinSubPanel.RewardData()
+            return new DropResultCard.Data()
             {
+                WeaponName = skinConfig.WeaponName,
                 SkinName = skinConfig.Name,
+                WearName = _skinsUIContextDataService.GetWearName(wear),
+                IsStatTrak = skin.IsStatTrak,
+                IsSouvenir = skin.IsSouvenir,
+                SellPrice = _skinSellService.GetSellPrice(skin),
                 RarityColor = rarityVisual.RarityMainColor,
-                Price = skin.Price,
             };
         }
 
@@ -270,12 +352,15 @@ namespace Features.Cases.UI.Presenters
             Panel.SpinClicked -= SpinClickHandle;
             Panel.BackClicked -= BackClickHandle;
             Panel.CountSelected -= CountSelectHandle;
+            Panel.DropSellClicked -= DropSellClickHandle;
+            Panel.SellAllClicked -= SellAllClickHandle;
             _softCurrencyWallet.Changed -= WalletChangeHandle;
 
             _isPresenting = false;
             _isSpinning = false;
 
             Panel.StopSlotMachines();
+            ClearDrops();
         }
     }
 }

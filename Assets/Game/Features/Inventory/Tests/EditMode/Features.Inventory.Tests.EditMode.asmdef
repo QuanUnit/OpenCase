@@ -4,6 +4,8 @@
     "references": [
         "Features.Inventory",
         "Features.Skins",
+        "Features.Wallet",
+        "Shared",
         "QCore.Tools",
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner"

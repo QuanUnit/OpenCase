@@ -7,7 +7,6 @@ using Features.Inventory.Services;
 using Features.Skins.Data;
 using Features.Skins.Services;
 using Features.Skins.Configs;
-using Features.Wallet.Services;
 
 namespace Features.Inventory.UI.Presenters
 {
@@ -17,17 +16,17 @@ namespace Features.Inventory.UI.Presenters
         private readonly ISkinsUIContextDataService _skinsUIContextDataService;
         private readonly ISkinsDatabaseService _skinsDatabaseService;
         private readonly IUIPanelsService _uiPanelsService;
-        private readonly SoftCurrencyWallet _wallet;
+        private readonly ISkinSellService _skinSellService;
         
         private Skin _skin;
 
-        public SkinDetailsPopupPresenter(IInventoryService inventoryService, ISkinsUIContextDataService skinsUIContextDataService, ISkinsDatabaseService skinsDatabaseService, IUIPanelsService uiPanelsService, SoftCurrencyWallet wallet)
+        public SkinDetailsPopupPresenter(IInventoryService inventoryService, ISkinsUIContextDataService skinsUIContextDataService, ISkinsDatabaseService skinsDatabaseService, IUIPanelsService uiPanelsService, ISkinSellService skinSellService)
         {
             _inventoryService = inventoryService;
             _skinsUIContextDataService = skinsUIContextDataService;
             _skinsDatabaseService = skinsDatabaseService;
             _uiPanelsService = uiPanelsService;
-            _wallet = wallet;
+            _skinSellService = skinSellService;
         }
         
         public void SetPayload(QGuid payload)
@@ -46,7 +45,7 @@ namespace Features.Inventory.UI.Presenters
             
             Panel.SetView(new SkinDetailsPopup.Data()
             {
-                Price = _skin.Price,
+                Price = _skinSellService.GetSellPrice(_skin),
                 RarityColor = rarityVisual.RarityMainColor,
                 SkinIcon = skinConfig.ContextData.SpriteSource.GetAsset(),
                 SkinName = skinConfig.Name,
@@ -63,10 +62,7 @@ namespace Features.Inventory.UI.Presenters
         {
             _uiPanelsService.Close<SkinDetailsPopup>();
 
-            var price = _skin.Price;
-            
-            _wallet.Add(price);
-            _inventoryService.Remove(_skin);
+            _skinSellService.Sell(_skin);
         }
 
         protected override void StopPresentingInternal()

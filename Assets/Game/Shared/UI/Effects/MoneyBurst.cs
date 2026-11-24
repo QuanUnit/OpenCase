@@ -48,11 +48,22 @@ namespace Shared.UI.Effects
         {
             for (var index = 0; index < count; index++)
             {
-                Spawn();
+                Spawn(_origin);
             }
         }
 
-        private void Spawn()
+        public void PlayAt(RectTransform source, int count)
+        {
+            var center = source.TransformPoint(source.rect.center);
+            var origin = (Vector2)_container.InverseTransformPoint(center);
+
+            for (var index = 0; index < count; index++)
+            {
+                Spawn(origin);
+            }
+        }
+
+        private void Spawn(Vector2 origin)
         {
             var variant = _variants[Random.Range(0, _variants.Length)];
             var angle = (_directionAngle + Random.Range(-_spreadAngle, _spreadAngle)) * Mathf.Deg2Rad;
@@ -62,7 +73,7 @@ namespace Shared.UI.Effects
             {
                 Item = TakeItem(),
                 Color = variant.Color,
-                StartPosition = _origin + direction * _spawnRadius,
+                StartPosition = origin + direction * _spawnRadius,
                 Velocity = direction * Random.Range(_speedRange.x, _speedRange.y),
                 StartRotation = Random.Range(0f, 360f),
                 Spin = Random.Range(_spinRange.x, _spinRange.y),
