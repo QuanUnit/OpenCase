@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Tigris
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a701a019-d6a6-4afc-8319-d04eff58a7e3
-  SkinStringId: CZ-Auto_Tigris
+  Id:
+    _value: CZ-Auto_Tigris
   Name: Tigris
   ContextData:
     SpriteSource:

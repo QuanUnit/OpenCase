@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Visions
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e1834db8-a030-4f6a-9171-1fb627d10178
-  SkinStringId: P250_Visions
+  Id:
+    _value: P250_Visions
   Name: Visions
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Recoil Collection
+  Collection:
+    _value: Collection_Recoil
   Price:
     MinPrice: 3.24
     MaxPrice: 12.39

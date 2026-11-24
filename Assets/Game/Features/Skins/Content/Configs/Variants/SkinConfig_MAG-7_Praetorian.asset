@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAG-7_Praetorian
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3ccf536b-1728-46ea-afbc-51bb8b24d93c
-  SkinStringId: MAG-7_Praetorian
+  Id:
+    _value: MAG-7_Praetorian
   Name: Praetorian
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Wildfire Collection
+  Collection:
+    _value: Collection_Wildfire
   Price:
     MinPrice: 1.68
     MaxPrice: 6.12

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: "SkinConfig_M4A4_\u9F8D\u738B_(Dragon_King)"
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 49a064f6-f716-49de-b646-4854ebff9304
-  SkinStringId: "M4A4_\u9F8D\u738B_(Dragon_King)"
+  Id:
+    _value: "M4A4_\u9F8D\u738B_(Dragon_King)"
   Name: "\u9F8D\u738B (Dragon King)"
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Chroma Collection
+  Collection:
+    _value: Collection_Chroma
   Price:
     MinPrice: 16.9
     MaxPrice: 98.08

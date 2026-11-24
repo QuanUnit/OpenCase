@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Shared.UI;
 using Shared.UI.SelectableSet;
-using QCore.Tools.Identifiers;
-using QCore.UISystem.Panels;
 using Features.Skins.Data;
+using QCore.UISystem.Panels;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,7 +13,7 @@ namespace Features.Inventory.UI.Panels
 {
     public class InventorySubPanel : Panel
     {
-        public event Action<QGuid> SkinClicked;
+        public event Action<SkinInstanceId> SkinClicked;
         public event Action SellClicked; 
 
         public SkinDetailsPopup SkinDetailsPopup => _skinDetailsPopup;
@@ -31,8 +30,8 @@ namespace Features.Inventory.UI.Panels
         [SerializeField] private TextedCurrencyView _totalValue;
         [SerializeField] private GameObject _emptyState;
 
-        private readonly Dictionary<QGuid, SkinView> _activeViews = new Dictionary<QGuid, SkinView>();
-        private readonly Dictionary<SkinView, QGuid> _viewToSkinIdMap = new Dictionary<SkinView, QGuid>();
+        private readonly Dictionary<SkinInstanceId, SkinView> _activeViews = new Dictionary<SkinInstanceId, SkinView>();
+        private readonly Dictionary<SkinView, SkinInstanceId> _viewToSkinIdMap = new Dictionary<SkinView, SkinInstanceId>();
 
         private void OnEnable()
         {
@@ -66,7 +65,7 @@ namespace Features.Inventory.UI.Panels
             SkinClicked?.Invoke(skinId);
         }
 
-        public void RemoveSkinView(QGuid id)
+        public void RemoveSkinView(SkinInstanceId id)
         {
             var removed = _activeViews.Remove(id, out var view);
 
@@ -88,7 +87,7 @@ namespace Features.Inventory.UI.Panels
             }
         }
 
-        public QGuid GetSkinId(SkinView view)
+        public SkinInstanceId GetSkinId(SkinView view)
         {
             return _viewToSkinIdMap[view];
         }

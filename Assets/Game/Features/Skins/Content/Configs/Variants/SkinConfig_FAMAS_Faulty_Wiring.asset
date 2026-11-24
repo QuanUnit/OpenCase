@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Faulty_Wiring
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0c592a06-5dda-4c0d-a84d-8ef1bead705a
-  SkinStringId: FAMAS_Faulty_Wiring
+  Id:
+    _value: FAMAS_Faulty_Wiring
   Name: Faulty Wiring
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The 2021 Vertigo Collection
+  Collection:
+    _value: Collection_2021_Vertigo
   Price:
     MinPrice: 0.67
     MaxPrice: 1.27

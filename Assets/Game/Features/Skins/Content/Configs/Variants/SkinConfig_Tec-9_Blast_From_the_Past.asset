@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Blast_From_the_Past
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8664bbc3-e039-4c67-a264-0ae31f01b91b
-  SkinStringId: Tec-9_Blast_From_the_Past
+  Id:
+    _value: Tec-9_Blast_From_the_Past
   Name: Blast From the Past
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Ancient Collection
+  Collection:
+    _value: Collection_Ancient
   Price:
     MinPrice: 12.97
     MaxPrice: 21.4

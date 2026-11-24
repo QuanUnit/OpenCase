@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SCAR-20_Storm
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 60e3ce6f-e00c-4a17-acc0-8f8abdf075bf
-  SkinStringId: SCAR-20_Storm
+  Id:
+    _value: SCAR-20_Storm
   Name: Storm
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Cobblestone Collection
+  Collection:
+    _value: Collection_Cobblestone
   Price:
     MinPrice: 1.9
     MaxPrice: 14.21

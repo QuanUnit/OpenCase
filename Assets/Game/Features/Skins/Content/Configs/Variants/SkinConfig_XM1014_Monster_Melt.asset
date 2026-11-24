@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Monster_Melt
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ea5afeac-3b7b-40d1-93c6-09131297e16c
-  SkinStringId: XM1014_Monster_Melt
+  Id:
+    _value: XM1014_Monster_Melt
   Name: Monster Melt
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Overpass 2024 Collection
+  Collection:
+    _value: Collection_Overpass_2024
   Price:
     MinPrice: 3.35
     MaxPrice: 23.12

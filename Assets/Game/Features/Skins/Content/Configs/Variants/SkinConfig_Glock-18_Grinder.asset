@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Grinder
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d7a819e7-c96f-475b-90e3-d403282de59f
-  SkinStringId: Glock-18_Grinder
+  Id:
+    _value: Glock-18_Grinder
   Name: Grinder
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Vanguard Collection
+  Collection:
+    _value: Collection_Vanguard
   Price:
     MinPrice: 3.18
     MaxPrice: 8.6

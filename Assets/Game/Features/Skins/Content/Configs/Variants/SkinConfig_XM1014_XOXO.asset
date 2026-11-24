@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_XOXO
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c850790a-55a7-4874-84dd-e4097e0005cc
-  SkinStringId: XM1014_XOXO
+  Id:
+    _value: XM1014_XOXO
   Name: XOXO
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Snakebite Collection
+  Collection:
+    _value: Collection_Snakebite
   Price:
     MinPrice: 3.25
     MaxPrice: 23.63

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Asterion
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: dbd05677-cc2e-409c-be31-17c04ad333bc
-  SkinStringId: MP7_Asterion
+  Id:
+    _value: MP7_Asterion
   Name: Asterion
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Gods and Monsters Collection
+  Collection:
+    _value: Collection_Gods_and_Monsters
   Price:
     MinPrice: 3.9
     MaxPrice: 6.15

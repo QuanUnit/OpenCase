@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Redline
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9af4024f-34db-4bb8-9b75-b991fa7511c7
-  SkinStringId: AWP_Redline
+  Id:
+    _value: AWP_Redline
   Name: Redline
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Winter Offensive Collection
+  Collection:
+    _value: Collection_Winter_Offensive
   Price:
     MinPrice: 38.95
     MaxPrice: 73.09

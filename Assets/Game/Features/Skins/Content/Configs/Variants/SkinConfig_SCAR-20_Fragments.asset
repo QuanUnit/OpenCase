@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SCAR-20_Fragments
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e9c311b8-fc6a-4b15-b633-b8a7d0585c05
-  SkinStringId: SCAR-20_Fragments
+  Id:
+    _value: SCAR-20_Fragments
   Name: Fragments
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Revolution Collection
+  Collection:
+    _value: Collection_Revolution
   Price:
     MinPrice: 0.05
     MaxPrice: 0.45

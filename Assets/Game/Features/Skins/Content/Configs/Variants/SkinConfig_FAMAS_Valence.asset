@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Valence
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: debaf507-9275-4fb8-aa58-49b4cbb0c725
-  SkinStringId: FAMAS_Valence
+  Id:
+    _value: FAMAS_Valence
   Name: Valence
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Wildfire Collection
+  Collection:
+    _value: Collection_Wildfire
   Price:
     MinPrice: 3.49
     MaxPrice: 15.75

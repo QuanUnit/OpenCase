@@ -9,7 +9,6 @@ using Features.Upgrade.Configs;
 using Features.Upgrade.Data;
 using Features.Upgrade.Services;
 using Features.Upgrade.UI.Panels;
-using QCore.Tools.Identifiers;
 using QCore.UISystem.Presenters;
 using UnityEngine;
 using Object = UnityEngine.Object;
@@ -61,7 +60,7 @@ namespace Features.Upgrade.UI.Presenters
             ClearSelection();
         }
 
-        private void SkinClickHandle(QGuid skinId)
+        private void SkinClickHandle(SkinInstanceId skinId)
         {
             _source = _inventoryService.Get(skinId);
             _selectedIndex = NoSelection;
@@ -221,7 +220,7 @@ namespace Features.Upgrade.UI.Presenters
 
         private UpgradeSkinCard.Data CreateCardData(Skin skin)
         {
-            var skinConfig = _skinsDatabaseService.GetSkinConfigById(skin.SkinSourceId);
+            var skinConfig = _skinsDatabaseService.GetSkinConfigById(skin.ConfigId);
 
             return new UpgradeSkinCard.Data()
             {
@@ -242,7 +241,7 @@ namespace Features.Upgrade.UI.Presenters
         private SkinView CreateSkinView(Skin skin, SkinView prefab, Transform parent)
         {
             var view = Object.Instantiate(prefab, parent);
-            var skinConfig = _skinsDatabaseService.GetSkinConfigById(skin.SkinSourceId);
+            var skinConfig = _skinsDatabaseService.GetSkinConfigById(skin.ConfigId);
 
             view.SetView(new SkinView.Data()
             {

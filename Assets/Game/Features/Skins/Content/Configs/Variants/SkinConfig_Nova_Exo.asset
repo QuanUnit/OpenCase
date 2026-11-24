@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Nova_Exo
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1a8deb57-7cca-4298-9665-d1f28e3ef91a
-  SkinStringId: Nova_Exo
+  Id:
+    _value: Nova_Exo
   Name: Exo
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Gamma Collection
+  Collection:
+    _value: Collection_Gamma
   Price:
     MinPrice: 0.26
     MaxPrice: 0.55

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Pit_Viper
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a4978443-00c7-42a2-9ecc-2bb3a75427a2
-  SkinStringId: AWP_Pit_Viper
+  Id:
+    _value: AWP_Pit_Viper
   Name: Pit Viper
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Italy Collection
+  Collection:
+    _value: Collection_Italy
   Price:
     MinPrice: 0.53
     MaxPrice: 1.1

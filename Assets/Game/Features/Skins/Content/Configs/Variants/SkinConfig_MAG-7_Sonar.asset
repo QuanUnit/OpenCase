@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAG-7_Sonar
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3cd1ea72-659a-4a50-ac42-b9299350f5bc
-  SkinStringId: MAG-7_Sonar
+  Id:
+    _value: MAG-7_Sonar
   Name: Sonar
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Glove Collection
+  Collection:
+    _value: Collection_Glove
   Price:
     MinPrice: 0.55
     MaxPrice: 1.26

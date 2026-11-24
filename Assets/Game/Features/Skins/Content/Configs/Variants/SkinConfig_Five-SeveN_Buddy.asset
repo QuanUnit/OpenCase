@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Buddy
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3ef7b02e-4125-423d-9caa-3efc3c426033
-  SkinStringId: Five-SeveN_Buddy
+  Id:
+    _value: Five-SeveN_Buddy
   Name: Buddy
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The CS20 Collection
+  Collection:
+    _value: Collection_CS20
   Price:
     MinPrice: 0.53
     MaxPrice: 2.69

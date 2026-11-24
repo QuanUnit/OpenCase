@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Acheron
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 94369270-e009-4d3b-accb-5f82bad6f25c
-  SkinStringId: AWP_Acheron
+  Id:
+    _value: AWP_Acheron
   Name: Acheron
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The 2018 Nuke Collection
+  Collection:
+    _value: Collection_2018_Nuke
   Price:
     MinPrice: 0.32
     MaxPrice: 2.42

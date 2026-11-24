@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Tatter
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: bd990ffb-5cc3-4b98-8118-70473432124a
-  SkinStringId: MAC-10_Tatter
+  Id:
+    _value: MAC-10_Tatter
   Name: Tatter
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Huntsman Collection
+  Collection:
+    _value: Collection_Huntsman
   Price:
     MinPrice: 6.39
     MaxPrice: 12.13

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P2000_Panther_Camo
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 04614b99-fe23-4dcd-840f-7891bb858e24
-  SkinStringId: P2000_Panther_Camo
+  Id:
+    _value: P2000_Panther_Camo
   Name: Panther Camo
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Ancient Collection
+  Collection:
+    _value: Collection_Ancient
   Price:
     MinPrice: 2.56
     MaxPrice: 4.69

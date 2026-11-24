@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Eye_of_Zapems
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b4135d3b-f520-48e0-8f3c-7a40e00c98a4
-  SkinStringId: AUG_Eye_of_Zapems
+  Id:
+    _value: AUG_Eye_of_Zapems
   Name: Eye of Zapems
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Overpass 2024 Collection
+  Collection:
+    _value: Collection_Overpass_2024
   Price:
     MinPrice: 3.23
     MaxPrice: 26.08

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Prey
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 49706c5f-7d06-4a8f-a05e-398c390f822b
-  SkinStringId: MP7_Prey
+  Id:
+    _value: MP7_Prey
   Name: Prey
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The 2021 Dust 2 Collection
+  Collection:
+    _value: Collection_2021_Dust_2
   Price:
     MinPrice: 0.36
     MaxPrice: 0.5

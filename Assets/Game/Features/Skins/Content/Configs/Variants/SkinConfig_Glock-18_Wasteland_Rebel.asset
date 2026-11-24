@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Wasteland_Rebel
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2bc672a4-05ec-4b3a-bc78-25597471efbb
-  SkinStringId: Glock-18_Wasteland_Rebel
+  Id:
+    _value: Glock-18_Wasteland_Rebel
   Name: Wasteland Rebel
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Gamma Collection
+  Collection:
+    _value: Collection_Gamma
   Price:
     MinPrice: 105.33
     MaxPrice: 177.27

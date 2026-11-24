@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_G3SG1_The_Executioner
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a1c1330f-430a-4231-81d2-77fa3a8d2555
-  SkinStringId: G3SG1_The_Executioner
+  Id:
+    _value: G3SG1_The_Executioner
   Name: The Executioner
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Revolver Case Collection
+  Collection:
+    _value: Collection_Revolver_Case
   Price:
     MinPrice: 7.42
     MaxPrice: 58.31

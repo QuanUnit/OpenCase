@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Run_and_Hide
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2ab43267-3351-4e51-8d5a-7f198942a1c0
-  SkinStringId: P90_Run_and_Hide
+  Id:
+    _value: P90_Run_and_Hide
   Name: Run and Hide
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Ancient Collection
+  Collection:
+    _value: Collection_Ancient
   Price:
     MinPrice: 162.83
     MaxPrice: 380

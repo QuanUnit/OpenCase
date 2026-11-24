@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_Business_Class
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 80ceeca2-8e55-4cee-9ec2-2b42f2f16761
-  SkinStringId: USP-S_Business_Class
+  Id:
+    _value: USP-S_Business_Class
   Name: Business Class
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Baggage Collection
+  Collection:
+    _value: Collection_Baggage
   Price:
     MinPrice: 35.32
     MaxPrice: 82.81

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Silver
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3a44295f-7ef8-468b-8043-bd8d7a69f820
-  SkinStringId: CZ-Auto_Silver
+  Id:
+    _value: CZ-Auto_Silver
   Name: Silver
   ContextData:
     SpriteSource:

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M249_Shipping_Forecast
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 32543407-f481-4649-b692-ff4bd456f8fc
-  SkinStringId: M249_Shipping_Forecast
+  Id:
+    _value: M249_Shipping_Forecast
   Name: Shipping Forecast
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Gods and Monsters Collection
+  Collection:
+    _value: Collection_Gods_and_Monsters
   Price:
     MinPrice: 16.18
     MaxPrice: 19.34

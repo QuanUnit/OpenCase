@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Dual_Berettas_Balance
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 72578941-ee20-4806-a31d-10631ad5ce38
-  SkinStringId: Dual_Berettas_Balance
+  Id:
+    _value: Dual_Berettas_Balance
   Name: Balance
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Shattered Web Collection
+  Collection:
+    _value: Collection_Shattered_Web
   Price:
     MinPrice: 0.85
     MaxPrice: 5.37

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Gum_Wall_Camo
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 368f3819-3c27-4f1d-8452-ccad5441c57b
-  SkinStringId: XM1014_Gum_Wall_Camo
+  Id:
+    _value: XM1014_Gum_Wall_Camo
   Name: Gum Wall Camo
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Ascent Collection
+  Collection:
+    _value: Collection_Ascent
   Price:
     MinPrice: 0.03
     MaxPrice: 0.27

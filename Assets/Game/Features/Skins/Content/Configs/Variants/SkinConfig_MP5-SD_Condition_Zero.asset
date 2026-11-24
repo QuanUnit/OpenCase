@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP5-SD_Condition_Zero
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e0859a18-f20c-4692-9c2b-9a157d4d2d5a
-  SkinStringId: MP5-SD_Condition_Zero
+  Id:
+    _value: MP5-SD_Condition_Zero
   Name: Condition Zero
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Operation Broken Fang Collection
+  Collection:
+    _value: Collection_Operation_Broken_Fang
   Price:
     MinPrice: 0.44
     MaxPrice: 3.1

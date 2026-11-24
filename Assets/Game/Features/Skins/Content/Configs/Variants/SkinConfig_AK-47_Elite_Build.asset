@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Elite_Build
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1479a68c-9f58-458d-9217-23e37693dfdc
-  SkinStringId: AK-47_Elite_Build
+  Id:
+    _value: AK-47_Elite_Build
   Name: Elite Build
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Chroma 2 Collection
+  Collection:
+    _value: Collection_Chroma_2
   Price:
     MinPrice: 1.15
     MaxPrice: 8.34

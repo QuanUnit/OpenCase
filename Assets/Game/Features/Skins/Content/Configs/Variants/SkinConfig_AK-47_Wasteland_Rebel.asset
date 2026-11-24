@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Wasteland_Rebel
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 6117f355-f5b0-48ab-8563-5bcb4aca0dfa
-  SkinStringId: AK-47_Wasteland_Rebel
+  Id:
+    _value: AK-47_Wasteland_Rebel
   Name: Wasteland Rebel
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Vanguard Collection
+  Collection:
+    _value: Collection_Vanguard
   Price:
     MinPrice: 70.64
     MaxPrice: 471.42

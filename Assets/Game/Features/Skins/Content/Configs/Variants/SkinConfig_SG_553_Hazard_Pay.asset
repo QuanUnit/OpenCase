@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SG_553_Hazard_Pay
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7680833a-3b10-4949-b61c-d89e42d4bc3f
-  SkinStringId: SG_553_Hazard_Pay
+  Id:
+    _value: SG_553_Hazard_Pay
   Name: Hazard Pay
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The 2021 Vertigo Collection
+  Collection:
+    _value: Collection_2021_Vertigo
   Price:
     MinPrice: 219.89
     MaxPrice: 1423.7

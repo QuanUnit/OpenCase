@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Duality
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f52e8447-97ee-4590-bdb9-9331b7de38dc
-  SkinStringId: AWP_Duality
+  Id:
+    _value: AWP_Duality
   Name: Duality
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Revolution Collection
+  Collection:
+    _value: Collection_Revolution
   Price:
     MinPrice: 3.39
     MaxPrice: 14.66

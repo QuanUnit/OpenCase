@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Nevermore
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8d704eb8-6b02-469e-a60f-7725c4eaf014
-  SkinStringId: P250_Nevermore
+  Id:
+    _value: P250_Nevermore
   Name: Nevermore
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Danger Zone Collection
+  Collection:
+    _value: Collection_Danger_Zone
   Price:
     MinPrice: 0.83
     MaxPrice: 2.19

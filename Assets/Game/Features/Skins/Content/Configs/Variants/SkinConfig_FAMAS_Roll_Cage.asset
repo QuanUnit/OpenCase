@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Roll_Cage
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 03e94472-11df-4dc2-a232-ad30f6d9d0a6
-  SkinStringId: FAMAS_Roll_Cage
+  Id:
+    _value: FAMAS_Roll_Cage
   Name: Roll Cage
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Gamma 2 Collection
+  Collection:
+    _value: Collection_Gamma_2
   Price:
     MinPrice: 97.09
     MaxPrice: 181.19

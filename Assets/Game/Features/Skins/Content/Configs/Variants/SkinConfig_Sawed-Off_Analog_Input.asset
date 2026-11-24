@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Sawed-Off_Analog_Input
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 191100ba-d843-4fd7-884c-d1e90a47fbd1
-  SkinStringId: Sawed-Off_Analog_Input
+  Id:
+    _value: Sawed-Off_Analog_Input
   Name: Analog Input
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Kilowatt Collection
+  Collection:
+    _value: Collection_Kilowatt
   Price:
     MinPrice: 0.43
     MaxPrice: 1.78

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SG_553_Desert_Blossom
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d38c4226-42a7-4bb8-b3e1-5bec910a5ba9
-  SkinStringId: SG_553_Desert_Blossom
+  Id:
+    _value: SG_553_Desert_Blossom
   Name: Desert Blossom
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The 2021 Mirage Collection
+  Collection:
+    _value: Collection_2021_Mirage
   Price:
     MinPrice: 11.54
     MaxPrice: 17.37

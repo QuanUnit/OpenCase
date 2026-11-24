@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A1-S_VariCamo
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b08e0346-e50f-45dc-ad79-8e582f67742d
-  SkinStringId: M4A1-S_VariCamo
+  Id:
+    _value: M4A1-S_VariCamo
   Name: VariCamo
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Dust 2 Collection
+  Collection:
+    _value: Collection_Dust_2
   Price:
     MinPrice: 0.14
     MaxPrice: 1.1

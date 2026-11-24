@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_PP-Bizon_Chemical_Green
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: baeaa457-f7a1-4048-9e61-d040d47cc12d
-  SkinStringId: PP-Bizon_Chemical_Green
+  Id:
+    _value: PP-Bizon_Chemical_Green
   Name: Chemical Green
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Cache Collection
+  Collection:
+    _value: Collection_Cache
   Price:
     MinPrice: 2.36
     MaxPrice: 9.93

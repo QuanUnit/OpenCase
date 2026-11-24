@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SSG_08_Carbon_Fiber
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: fd9ea82c-130d-45a6-9d96-362da7d802e6
-  SkinStringId: SSG_08_Carbon_Fiber
+  Id:
+    _value: SSG_08_Carbon_Fiber
   Name: Carbon Fiber
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The 2021 Vertigo Collection
+  Collection:
+    _value: Collection_2021_Vertigo
   Price:
     MinPrice: 4.18
     MaxPrice: 6

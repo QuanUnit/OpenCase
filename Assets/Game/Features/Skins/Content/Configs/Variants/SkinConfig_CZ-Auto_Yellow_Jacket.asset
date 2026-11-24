@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Yellow_Jacket
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8f182a4c-7b07-4b89-8ed6-ee16999e35c5
-  SkinStringId: CZ-Auto_Yellow_Jacket
+  Id:
+    _value: CZ-Auto_Yellow_Jacket
   Name: Yellow Jacket
   ContextData:
     SpriteSource:

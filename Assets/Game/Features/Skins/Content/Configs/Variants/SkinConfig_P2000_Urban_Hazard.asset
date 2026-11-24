@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P2000_Urban_Hazard
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3deefbe1-c169-43b4-a56d-d34e7d92e9a7
-  SkinStringId: P2000_Urban_Hazard
+  Id:
+    _value: P2000_Urban_Hazard
   Name: Urban Hazard
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Clutch Collection
+  Collection:
+    _value: Collection_Clutch
   Price:
     MinPrice: 0.06
     MaxPrice: 0.93

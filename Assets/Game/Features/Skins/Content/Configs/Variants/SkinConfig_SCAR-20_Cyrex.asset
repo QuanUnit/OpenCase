@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SCAR-20_Cyrex
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 51800ea1-d77e-4f88-9b0b-4b597143a1b3
-  SkinStringId: SCAR-20_Cyrex
+  Id:
+    _value: SCAR-20_Cyrex
   Name: Cyrex
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Huntsman Collection
+  Collection:
+    _value: Collection_Huntsman
   Price:
     MinPrice: 24.49
     MaxPrice: 48.59

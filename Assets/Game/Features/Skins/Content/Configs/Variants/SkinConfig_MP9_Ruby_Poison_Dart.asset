@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Ruby_Poison_Dart
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 653c91c4-43de-495d-bdcc-b9c3c00ee73b
-  SkinStringId: MP9_Ruby_Poison_Dart
+  Id:
+    _value: MP9_Ruby_Poison_Dart
   Name: Ruby Poison Dart
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Falchion Collection
+  Collection:
+    _value: Collection_Falchion
   Price:
     MinPrice: 1.24
     MaxPrice: 3.49

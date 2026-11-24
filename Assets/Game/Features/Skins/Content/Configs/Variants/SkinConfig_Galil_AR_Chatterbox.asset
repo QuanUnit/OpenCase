@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_Chatterbox
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1726edd3-0df7-4281-a047-d832af27b85c
-  SkinStringId: Galil_AR_Chatterbox
+  Id:
+    _value: Galil_AR_Chatterbox
   Name: Chatterbox
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Chroma Collection
+  Collection:
+    _value: Collection_Chroma
   Price:
     MinPrice: 109.24
     MaxPrice: 182.17

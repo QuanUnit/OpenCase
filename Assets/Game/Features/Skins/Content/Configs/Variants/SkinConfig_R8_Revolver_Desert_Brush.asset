@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_R8_Revolver_Desert_Brush
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 39ee8b31-f897-491b-aa9b-b9200f6db65a
-  SkinStringId: R8_Revolver_Desert_Brush
+  Id:
+    _value: R8_Revolver_Desert_Brush
   Name: Desert Brush
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The 2021 Dust 2 Collection
+  Collection:
+    _value: Collection_2021_Dust_2
   Price:
     MinPrice: 0.38
     MaxPrice: 0.51

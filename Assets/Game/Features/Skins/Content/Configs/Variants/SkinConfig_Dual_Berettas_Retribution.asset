@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Dual_Berettas_Retribution
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: eb145353-d7ca-4698-8388-057fd08a4d99
-  SkinStringId: Dual_Berettas_Retribution
+  Id:
+    _value: Dual_Berettas_Retribution
   Name: Retribution
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Huntsman Collection
+  Collection:
+    _value: Collection_Huntsman
   Price:
     MinPrice: 2.99
     MaxPrice: 6.06

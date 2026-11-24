@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Metallic_DDPAT
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3cbb6c93-1bbf-4876-9ef0-9a3a67f0eee1
-  SkinStringId: P250_Metallic_DDPAT
+  Id:
+    _value: P250_Metallic_DDPAT
   Name: Metallic DDPAT
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Train Collection
+  Collection:
+    _value: Collection_Train
   Price:
     MinPrice: 0.09
     MaxPrice: 0.15

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Smoking_Kills
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0d2484fc-c212-47b0-89fb-d4f3e971dc5d
-  SkinStringId: MP7_Smoking_Kills
+  Id:
+    _value: MP7_Smoking_Kills
   Name: Smoking Kills
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Genesis Collection
+  Collection:
+    _value: Collection_Genesis
   Price:
     MinPrice: 5.11
     MaxPrice: 46.19

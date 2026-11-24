@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Ripple
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e7729189-b2a4-486a-856c-0928593e40f3
-  SkinStringId: P250_Ripple
+  Id:
+    _value: P250_Ripple
   Name: Ripple
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Spectrum Collection
+  Collection:
+    _value: Collection_Spectrum
   Price:
     MinPrice: 0.24
     MaxPrice: 0.45

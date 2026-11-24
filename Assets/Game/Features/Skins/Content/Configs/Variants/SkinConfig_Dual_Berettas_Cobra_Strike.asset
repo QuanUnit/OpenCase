@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Dual_Berettas_Cobra_Strike
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 77a1bedc-8af2-4630-ae06-71dc86983c49
-  SkinStringId: Dual_Berettas_Cobra_Strike
+  Id:
+    _value: Dual_Berettas_Cobra_Strike
   Name: Cobra Strike
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Operation Hydra Collection
+  Collection:
+    _value: Collection_Operation_Hydra
   Price:
     MinPrice: 62.01
     MaxPrice: 112.12

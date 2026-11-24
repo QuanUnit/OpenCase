@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Orange_Peel
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 88496029-5945-49f0-8cb6-9b565e0ff9f7
-  SkinStringId: MP7_Orange_Peel
+  Id:
+    _value: MP7_Orange_Peel
   Name: Orange Peel
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Mirage Collection
+  Collection:
+    _value: Collection_Mirage
   Price:
     MinPrice: 20.58
     MaxPrice: 48.37

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Directive
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: dd1d1c6e-57d5-4b10-945e-16639e015ac7
-  SkinStringId: Desert_Eagle_Directive
+  Id:
+    _value: Desert_Eagle_Directive
   Name: Directive
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Gamma 2 Collection
+  Collection:
+    _value: Collection_Gamma_2
   Price:
     MinPrice: 0.95
     MaxPrice: 47.65

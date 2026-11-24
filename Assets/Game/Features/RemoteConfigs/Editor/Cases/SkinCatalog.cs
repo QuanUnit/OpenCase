@@ -44,11 +44,11 @@ namespace Features.RemoteConfigs.Editor.Cases
             _iconPresence.Clear();
 
             var configs = AssetDatabaseTools.FindAllAssets<SkinConfig>()
-                .Where(config => string.IsNullOrEmpty(config.SkinStringId) == false)
-                .OrderBy(config => config.SkinStringId, StringComparer.Ordinal)
+                .Where(config => string.IsNullOrEmpty(config.Id.Value) == false)
+                .OrderBy(config => config.Id.Value, StringComparer.Ordinal)
                 .ToList();
 
-            var idsWithNames = configs.Select(config => new KeyValuePair<string, string>(config.SkinStringId, config.Name ?? string.Empty)).ToList();
+            var idsWithNames = configs.Select(config => new KeyValuePair<string, string>(config.Id.Value, config.Name ?? string.Empty)).ToList();
             var weapons = new SkinIconWeaponResolver().Resolve(idsWithNames);
 
             for (var index = 0; index < configs.Count; index++)
@@ -69,7 +69,7 @@ namespace Features.RemoteConfigs.Editor.Cases
                 return info;
             }
 
-            info = new CaseSkinInfo(config, config.SkinStringId);
+            info = new CaseSkinInfo(config, config.Id.Value);
             _skinsByConfig[config] = info;
 
             return info;

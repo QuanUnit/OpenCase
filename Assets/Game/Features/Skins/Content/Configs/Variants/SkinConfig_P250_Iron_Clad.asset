@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Iron_Clad
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 10e37272-cdcb-43f3-bdeb-d4a592ed226c
-  SkinStringId: P250_Iron_Clad
+  Id:
+    _value: P250_Iron_Clad
   Name: Iron Clad
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Gamma Collection
+  Collection:
+    _value: Collection_Gamma
   Price:
     MinPrice: 0.22
     MaxPrice: 2.1

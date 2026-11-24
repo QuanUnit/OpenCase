@@ -28,7 +28,7 @@ namespace Features.RemoteConfigs.Editor.Cases
                 }
 
                 var info = _catalog.GetInfo(entry.Key);
-                result.Add(new CaseStatsEntry(entry.Key.SkinStringId, info.DisplayName, entry.Key.Rarity, entry.Value, _catalog.GetDistribution(entry.Key)));
+                result.Add(new CaseStatsEntry(entry.Key.Id.Value, info.DisplayName, entry.Key.Rarity, entry.Value, _catalog.GetDistribution(entry.Key)));
             }
 
             return result;

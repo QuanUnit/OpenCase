@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_Caiman
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 86c2343a-81d6-4e56-97f1-4676895fddae
-  SkinStringId: USP-S_Caiman
+  Id:
+    _value: USP-S_Caiman
   Name: Caiman
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Huntsman Collection
+  Collection:
+    _value: Collection_Huntsman
   Price:
     MinPrice: 36.02
     MaxPrice: 82

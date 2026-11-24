@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Bone_Machine
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a39e68fa-3867-4019-bfe1-a4a94f6733c2
-  SkinStringId: XM1014_Bone_Machine
+  Id:
+    _value: XM1014_Bone_Machine
   Name: Bone Machine
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Cache Collection
+  Collection:
+    _value: Collection_Cache
   Price:
     MinPrice: 9.68
     MaxPrice: 25.6

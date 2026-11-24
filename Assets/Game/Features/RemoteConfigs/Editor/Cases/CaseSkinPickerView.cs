@@ -91,7 +91,7 @@ namespace Features.RemoteConfigs.Editor.Cases
 
             if (GUILayout.Button($"Add selected ({selectedCount})") == true)
             {
-                added = _selected.Where(skin => _caseSkins.Contains(skin) == false).OrderBy(skin => skin.SkinStringId, StringComparer.Ordinal).ToList();
+                added = _selected.Where(skin => _caseSkins.Contains(skin) == false).OrderBy(skin => skin.Id.Value, StringComparer.Ordinal).ToList();
                 _selected.Clear();
             }
 

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Powercore
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a64f5f34-f265-4742-a1d8-b6b78cf8b736
-  SkinStringId: MP7_Powercore
+  Id:
+    _value: MP7_Powercore
   Name: Powercore
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Horizon Collection
+  Collection:
+    _value: Collection_Horizon
   Price:
     MinPrice: 0.57
     MaxPrice: 4.93

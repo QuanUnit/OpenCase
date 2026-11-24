@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SCAR-20_Crimson_Web
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c9fd337f-a653-41ab-a26c-6655b2796e7f
-  SkinStringId: SCAR-20_Crimson_Web
+  Id:
+    _value: SCAR-20_Crimson_Web
   Name: Crimson Web
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Arms Deal 2 Collection
+  Collection:
+    _value: Collection_Arms_Deal_2
   Price:
     MinPrice: 1.73
     MaxPrice: 23.42

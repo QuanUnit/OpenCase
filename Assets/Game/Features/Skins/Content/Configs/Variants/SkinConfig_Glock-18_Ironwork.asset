@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Ironwork
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 29328db9-19bc-40e5-8789-1877aa0f053a
-  SkinStringId: Glock-18_Ironwork
+  Id:
+    _value: Glock-18_Ironwork
   Name: Ironwork
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Glove Collection
+  Collection:
+    _value: Collection_Glove
   Price:
     MinPrice: 0.51
     MaxPrice: 5.55

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SCAR-20_Emerald
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f04c75e9-a80b-466a-ad30-0f6cbba21893
-  SkinStringId: SCAR-20_Emerald
+  Id:
+    _value: SCAR-20_Emerald
   Name: Emerald
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Alpha Collection
+  Collection:
+    _value: Collection_Alpha
   Price:
     MinPrice: 54.66
     MaxPrice: 71.27

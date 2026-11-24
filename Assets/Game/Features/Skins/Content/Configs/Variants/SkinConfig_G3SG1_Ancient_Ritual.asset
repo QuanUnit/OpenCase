@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_G3SG1_Ancient_Ritual
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 809a33a7-4641-4f2f-8523-937ed094ff9a
-  SkinStringId: G3SG1_Ancient_Ritual
+  Id:
+    _value: G3SG1_Ancient_Ritual
   Name: Ancient Ritual
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Ancient Collection
+  Collection:
+    _value: Collection_Ancient
   Price:
     MinPrice: 2.51
     MaxPrice: 5.41

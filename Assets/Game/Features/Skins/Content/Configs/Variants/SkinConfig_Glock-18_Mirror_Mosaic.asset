@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Mirror_Mosaic
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b747540e-8a53-4c72-8bfe-f8aae52c8e29
-  SkinStringId: Glock-18_Mirror_Mosaic
+  Id:
+    _value: Glock-18_Mirror_Mosaic
   Name: Mirror Mosaic
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Genesis Collection
+  Collection:
+    _value: Collection_Genesis
   Price:
     MinPrice: 5.54
     MaxPrice: 47.09

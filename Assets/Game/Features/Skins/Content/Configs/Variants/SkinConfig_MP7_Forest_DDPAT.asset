@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Forest_DDPAT
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2ffb4afb-2794-430c-91e4-90717f039013
-  SkinStringId: MP7_Forest_DDPAT
+  Id:
+    _value: MP7_Forest_DDPAT
   Name: Forest DDPAT
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Bank Collection
+  Collection:
+    _value: Collection_Bank
   Price:
     MinPrice: 0.01
     MaxPrice: 0.28

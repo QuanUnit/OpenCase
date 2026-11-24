@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Nitro
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c4d67c23-e45a-4abd-9c91-3232257c2934
-  SkinStringId: CZ-Auto_Nitro
+  Id:
+    _value: CZ-Auto_Nitro
   Name: Nitro
   ContextData:
     SpriteSource:

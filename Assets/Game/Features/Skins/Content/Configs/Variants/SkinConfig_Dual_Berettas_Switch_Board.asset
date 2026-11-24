@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Dual_Berettas_Switch_Board
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c8c5f1ab-8473-4f3e-afca-d57ee9203a22
-  SkinStringId: Dual_Berettas_Switch_Board
+  Id:
+    _value: Dual_Berettas_Switch_Board
   Name: Switch Board
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Control Collection
+  Collection:
+    _value: Collection_Control
   Price:
     MinPrice: 2.69
     MaxPrice: 4.18

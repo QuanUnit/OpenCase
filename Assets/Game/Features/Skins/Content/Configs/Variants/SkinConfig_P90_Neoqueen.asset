@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Neoqueen
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c5b50f87-fc5d-4a86-87ed-0dcd03529df7
-  SkinStringId: P90_Neoqueen
+  Id:
+    _value: P90_Neoqueen
   Name: Neoqueen
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Revolution Collection
+  Collection:
+    _value: Collection_Revolution
   Price:
     MinPrice: 0.41
     MaxPrice: 1.78

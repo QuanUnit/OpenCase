@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Stained_Glass
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9b1bf9fe-0e6f-40a9-88a1-4e9fd54bc948
-  SkinStringId: MP9_Stained_Glass
+  Id:
+    _value: MP9_Stained_Glass
   Name: Stained Glass
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Canals Collection
+  Collection:
+    _value: Collection_Canals
   Price:
     MinPrice: 109.83
     MaxPrice: 372.85

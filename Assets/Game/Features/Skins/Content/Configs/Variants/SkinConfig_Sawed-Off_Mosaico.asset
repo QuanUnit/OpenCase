@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Sawed-Off_Mosaico
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 55f10607-2d4b-49dd-8b4e-3067975360bd
-  SkinStringId: Sawed-Off_Mosaico
+  Id:
+    _value: Sawed-Off_Mosaico
   Name: Mosaico
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Alpha Collection
+  Collection:
+    _value: Collection_Alpha
   Price:
     MinPrice: 3.33
     MaxPrice: 26.67

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SG_553_Barricade
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 85144cf2-7c6d-4038-8f5e-fa2f17a00c80
-  SkinStringId: SG_553_Barricade
+  Id:
+    _value: SG_553_Barricade
   Name: Barricade
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Norse Collection
+  Collection:
+    _value: Collection_Norse
   Price:
     MinPrice: 6.55
     MaxPrice: 10.4

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Negev_Phoenix_Stencil
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 90df59da-fa72-4512-b099-a1331d24ec76
-  SkinStringId: Negev_Phoenix_Stencil
+  Id:
+    _value: Negev_Phoenix_Stencil
   Name: Phoenix Stencil
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Havoc Collection
+  Collection:
+    _value: Collection_Havoc
   Price:
     MinPrice: 18.85
     MaxPrice: 28.2

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Predator
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ef7d771a-23db-409f-9694-3a8d8a03d38a
-  SkinStringId: AK-47_Predator
+  Id:
+    _value: AK-47_Predator
   Name: Predator
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Dust Collection
+  Collection:
+    _value: Collection_Dust
   Price:
     MinPrice: 12.33
     MaxPrice: 79.02

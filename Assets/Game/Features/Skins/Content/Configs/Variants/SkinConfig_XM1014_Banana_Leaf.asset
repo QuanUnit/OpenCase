@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Banana_Leaf
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 02104e34-e8cd-458a-bab2-60e271808475
-  SkinStringId: XM1014_Banana_Leaf
+  Id:
+    _value: XM1014_Banana_Leaf
   Name: Banana Leaf
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The St. Marc Collection
+  Collection:
+    _value: Collection_St_Marc
   Price:
     MinPrice: 13.49
     MaxPrice: 18.96

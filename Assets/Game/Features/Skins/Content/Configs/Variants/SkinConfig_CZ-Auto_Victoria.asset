@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Victoria
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f981445c-e56c-4bdb-8eb5-fef89fe7c834
-  SkinStringId: CZ-Auto_Victoria
+  Id:
+    _value: CZ-Auto_Victoria
   Name: Victoria
   ContextData:
     SpriteSource:

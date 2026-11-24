@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Crossfade
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 921e5538-71e8-4c3f-a486-7dfeb4670c0c
-  SkinStringId: AK-47_Crossfade
+  Id:
+    _value: AK-47_Crossfade
   Name: Crossfade
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Graphic Design Collection
+  Collection:
+    _value: Collection_Graphic_Design
   Price:
     MinPrice: 2.06
     MaxPrice: 7.7

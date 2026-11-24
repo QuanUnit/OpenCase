@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_Purple_DDPAT
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: eb7ee326-e779-4427-aefd-a719d3b793b5
-  SkinStringId: USP-S_Purple_DDPAT
+  Id:
+    _value: USP-S_Purple_DDPAT
   Name: Purple DDPAT
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The 2021 Mirage Collection
+  Collection:
+    _value: Collection_2021_Mirage
   Price:
     MinPrice: 20.26
     MaxPrice: 50.71

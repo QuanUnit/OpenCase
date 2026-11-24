@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Tornado
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b6c1abf3-d4e8-4940-91f3-74598d7c3428
-  SkinStringId: Tec-9_Tornado
+  Id:
+    _value: Tec-9_Tornado
   Name: Tornado
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Alpha Collection
+  Collection:
+    _value: Collection_Alpha
   Price:
     MinPrice: 3.79
     MaxPrice: 57.96

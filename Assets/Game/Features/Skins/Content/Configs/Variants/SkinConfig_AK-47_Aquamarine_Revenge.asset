@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Aquamarine_Revenge
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 082d0399-9243-4af4-9c08-c45cdeb25165
-  SkinStringId: AK-47_Aquamarine_Revenge
+  Id:
+    _value: AK-47_Aquamarine_Revenge
   Name: Aquamarine Revenge
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Falchion Collection
+  Collection:
+    _value: Collection_Falchion
   Price:
     MinPrice: 37.01
     MaxPrice: 239.3

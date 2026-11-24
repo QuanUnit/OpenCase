@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Oxide_Blaze
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c6d60a55-5fd6-4090-8825-750ca8cdcbdb
-  SkinStringId: XM1014_Oxide_Blaze
+  Id:
+    _value: XM1014_Oxide_Blaze
   Name: Oxide Blaze
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Clutch Collection
+  Collection:
+    _value: Collection_Clutch
   Price:
     MinPrice: 0.06
     MaxPrice: 0.39

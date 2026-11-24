@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Nova_Interlock
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 826335ee-da96-485f-ad74-a907a65e5370
-  SkinStringId: Nova_Interlock
+  Id:
+    _value: Nova_Interlock
   Name: Interlock
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The 2021 Vertigo Collection
+  Collection:
+    _value: Collection_2021_Vertigo
   Price:
     MinPrice: 12.82
     MaxPrice: 18.88

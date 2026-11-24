@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Coral_Bloom
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f7d9448f-79b1-4078-8381-d298099cd374
-  SkinStringId: Glock-18_Coral_Bloom
+  Id:
+    _value: Glock-18_Coral_Bloom
   Name: Coral Bloom
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Radiant Collection
+  Collection:
+    _value: Collection_Radiant
   Price:
     MinPrice: 0.36
     MaxPrice: 4.11

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Random_Access
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 70e94a66-1a60-4a62-a008-de8e92d2e510
-  SkinStringId: AUG_Random_Access
+  Id:
+    _value: AUG_Random_Access
   Name: Random Access
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The 2018 Nuke Collection
+  Collection:
+    _value: Collection_2018_Nuke
   Price:
     MinPrice: 0.64
     MaxPrice: 5.41

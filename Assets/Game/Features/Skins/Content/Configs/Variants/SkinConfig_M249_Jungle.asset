@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M249_Jungle
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: cd1cd088-a8ce-4a62-9a02-702350a24013
-  SkinStringId: M249_Jungle
+  Id:
+    _value: M249_Jungle
   Name: Jungle
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The St. Marc Collection
+  Collection:
+    _value: Collection_St_Marc
   Price:
     MinPrice: 3.21
     MaxPrice: 11.04

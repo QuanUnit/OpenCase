@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Wraiths
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7d5441c5-eebf-464b-8c2f-f0693726fd94
-  SkinStringId: Glock-18_Wraiths
+  Id:
+    _value: Glock-18_Wraiths
   Name: Wraiths
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Shadow Collection
+  Collection:
+    _value: Collection_Shadow
   Price:
     MinPrice: 0.27
     MaxPrice: 2.21

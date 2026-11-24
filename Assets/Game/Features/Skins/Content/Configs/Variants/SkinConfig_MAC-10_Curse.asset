@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Curse
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a60e3535-63bb-49d6-b727-92413552046a
-  SkinStringId: MAC-10_Curse
+  Id:
+    _value: MAC-10_Curse
   Name: Curse
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Huntsman Collection
+  Collection:
+    _value: Collection_Huntsman
   Price:
     MinPrice: 9.12
     MaxPrice: 17.53

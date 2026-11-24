@@ -20,7 +20,7 @@ namespace Features.Contracts.Services
 
         private static readonly IReadOnlyList<SkinConfig> EmptyCandidates = Array.Empty<SkinConfig>();
 
-        private Dictionary<(string Collection, Rarity Rarity), List<SkinConfig>> _index;
+        private Dictionary<(SkinCollectionId Collection, Rarity Rarity), List<SkinConfig>> _index;
 
         public int InputsCount => _config.InputsCount;
 
@@ -40,14 +40,14 @@ namespace Features.Contracts.Services
                 return false;
             }
 
-            var config = _skinsDatabaseService.GetSkinConfigById(skin.SkinSourceId);
+            var config = _skinsDatabaseService.GetSkinConfigById(skin.ConfigId);
 
             if (config.Rarity < _config.MinInputRarity || config.Rarity > _config.MaxInputRarity)
             {
                 return false;
             }
 
-            if (string.IsNullOrEmpty(config.Collection) == true)
+            if (config.Collection.IsEmpty == true)
             {
                 return false;
             }
@@ -84,8 +84,8 @@ namespace Features.Contracts.Services
                 return false;
             }
 
-            var firstConfig = _skinsDatabaseService.GetSkinConfigById(first.SkinSourceId);
-            var candidateConfig = _skinsDatabaseService.GetSkinConfigById(candidate.SkinSourceId);
+            var firstConfig = _skinsDatabaseService.GetSkinConfigById(first.ConfigId);
+            var candidateConfig = _skinsDatabaseService.GetSkinConfigById(candidate.ConfigId);
 
             return candidateConfig.Rarity == firstConfig.Rarity;
         }
@@ -104,7 +104,7 @@ namespace Features.Contracts.Services
 
             foreach (var input in inputs)
             {
-                var config = _skinsDatabaseService.GetSkinConfigById(input.SkinSourceId);
+                var config = _skinsDatabaseService.GetSkinConfigById(input.ConfigId);
                 var candidates = GetCandidates(config.Collection, config.Rarity + 1);
                 var chance = 1f / (inputs.Count * candidates.Count);
 
@@ -195,7 +195,7 @@ namespace Features.Contracts.Services
             return outcomes[outcomes.Count - 1];
         }
 
-        private IReadOnlyList<SkinConfig> GetCandidates(string collection, Rarity rarity)
+        private IReadOnlyList<SkinConfig> GetCandidates(SkinCollectionId collection, Rarity rarity)
         {
             EnsureIndex();
 
@@ -214,11 +214,11 @@ namespace Features.Contracts.Services
                 return;
             }
 
-            _index = new Dictionary<(string Collection, Rarity Rarity), List<SkinConfig>>();
+            _index = new Dictionary<(SkinCollectionId Collection, Rarity Rarity), List<SkinConfig>>();
 
             foreach (var config in _skinsDatabaseService.AllSkinsConfigs)
             {
-                if (string.IsNullOrEmpty(config.Collection) == true)
+                if (config.Collection.IsEmpty == true)
                 {
                     continue;
                 }

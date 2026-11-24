@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_G3SG1_Hunter
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 892e2b9f-af36-4aef-867c-c8ce6b68a032
-  SkinStringId: G3SG1_Hunter
+  Id:
+    _value: G3SG1_Hunter
   Name: Hunter
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Spectrum 2 Collection
+  Collection:
+    _value: Collection_Spectrum_2
   Price:
     MinPrice: 0.09
     MaxPrice: 0.75

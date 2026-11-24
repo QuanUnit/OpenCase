@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Glacier_Mesh
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ecd6c710-ac85-4537-8249-48bd9d7c939a
-  SkinStringId: P90_Glacier_Mesh
+  Id:
+    _value: P90_Glacier_Mesh
   Name: Glacier Mesh
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Vertigo Collection
+  Collection:
+    _value: Collection_Vertigo
   Price:
     MinPrice: 4.74
     MaxPrice: 37.92

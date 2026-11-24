@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Dark_Water
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 606f27e7-c849-4a1b-8df5-0d4ab3a99c76
-  SkinStringId: FAMAS_Dark_Water
+  Id:
+    _value: FAMAS_Dark_Water
   Name: Dark Water
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Ancient Collection
+  Collection:
+    _value: Collection_Ancient
   Price:
     MinPrice: 21.46
     MaxPrice: 22.05

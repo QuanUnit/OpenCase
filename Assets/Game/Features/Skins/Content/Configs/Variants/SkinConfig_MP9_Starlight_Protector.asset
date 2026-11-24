@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Starlight_Protector
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8367ccb6-ca01-409e-baee-015826372a04
-  SkinStringId: MP9_Starlight_Protector
+  Id:
+    _value: MP9_Starlight_Protector
   Name: Starlight Protector
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Dreams & Nightmares Collection
+  Collection:
+    _value: Collection_Dreams_And_Nightmares
   Price:
     MinPrice: 64.55
     MaxPrice: 97.54

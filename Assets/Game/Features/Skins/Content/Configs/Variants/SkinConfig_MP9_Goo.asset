@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Goo
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5dfe92f6-e5d8-4534-bf63-66dc8a71c0a1
-  SkinStringId: MP9_Goo
+  Id:
+    _value: MP9_Goo
   Name: Goo
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Spectrum 2 Collection
+  Collection:
+    _value: Collection_Spectrum_2
   Price:
     MinPrice: 0.76
     MaxPrice: 2.81

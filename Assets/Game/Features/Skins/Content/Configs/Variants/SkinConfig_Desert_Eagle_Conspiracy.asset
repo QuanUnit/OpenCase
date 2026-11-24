@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Conspiracy
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 141e5b72-e140-45d4-b61a-b118f121c79c
-  SkinStringId: Desert_Eagle_Conspiracy
+  Id:
+    _value: Desert_Eagle_Conspiracy
   Name: Conspiracy
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Breakout Collection
+  Collection:
+    _value: Collection_Breakout
   Price:
     MinPrice: 18.39
     MaxPrice: 21.95

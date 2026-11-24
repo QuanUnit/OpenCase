@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Gold_Brick
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c04d9553-064a-4440-b2c7-c78d5d5eb53a
-  SkinStringId: MAC-10_Gold_Brick
+  Id:
+    _value: MAC-10_Gold_Brick
   Name: Gold Brick
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Ancient Collection
+  Collection:
+    _value: Collection_Ancient
   Price:
     MinPrice: 57.71
     MaxPrice: 122.24

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A4_Evil_Daimyo
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8ca04198-e99d-4d7a-8c1b-a07f68ca2684
-  SkinStringId: M4A4_Evil_Daimyo
+  Id:
+    _value: M4A4_Evil_Daimyo
   Name: Evil Daimyo
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Falchion Collection
+  Collection:
+    _value: Collection_Falchion
   Price:
     MinPrice: 2.59
     MaxPrice: 9.54

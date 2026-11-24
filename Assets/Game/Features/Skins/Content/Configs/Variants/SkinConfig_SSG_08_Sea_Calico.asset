@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SSG_08_Sea_Calico
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 29b7af9b-341a-4c69-92d3-0eabed6c01ea
-  SkinStringId: SSG_08_Sea_Calico
+  Id:
+    _value: SSG_08_Sea_Calico
   Name: Sea Calico
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The St. Marc Collection
+  Collection:
+    _value: Collection_St_Marc
   Price:
     MinPrice: 367.56
     MaxPrice: 1398.01

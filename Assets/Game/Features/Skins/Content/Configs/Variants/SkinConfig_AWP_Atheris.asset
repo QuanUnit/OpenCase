@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Atheris
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 051ada69-1d92-4b0f-ad40-43c102ed1fef
-  SkinStringId: AWP_Atheris
+  Id:
+    _value: AWP_Atheris
   Name: Atheris
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Prisma Collection
+  Collection:
+    _value: Collection_Prisma
   Price:
     MinPrice: 3.13
     MaxPrice: 16.41

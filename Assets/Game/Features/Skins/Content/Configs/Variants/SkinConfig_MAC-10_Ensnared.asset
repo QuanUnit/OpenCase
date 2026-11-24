@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Ensnared
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f1a07955-34b4-4809-9fd2-5869cdb917cf
-  SkinStringId: MAC-10_Ensnared
+  Id:
+    _value: MAC-10_Ensnared
   Name: Ensnared
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Dreams & Nightmares Collection
+  Collection:
+    _value: Collection_Dreams_And_Nightmares
   Price:
     MinPrice: 0.06
     MaxPrice: 0.73

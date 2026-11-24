@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_Night_Ops
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: dd8388d9-6c49-44fd-aafa-3a558a629882
-  SkinStringId: USP-S_Night_Ops
+  Id:
+    _value: USP-S_Night_Ops
   Name: Night Ops
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Lake Collection
+  Collection:
+    _value: Collection_Lake
   Price:
     MinPrice: 0.16
     MaxPrice: 1.54

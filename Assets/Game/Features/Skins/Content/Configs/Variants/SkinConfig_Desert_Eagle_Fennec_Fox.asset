@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Fennec_Fox
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3d671f3e-1c61-48cc-87bc-9cd7614bcbcf
-  SkinStringId: Desert_Eagle_Fennec_Fox
+  Id:
+    _value: Desert_Eagle_Fennec_Fox
   Name: Fennec Fox
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The 2021 Mirage Collection
+  Collection:
+    _value: Collection_2021_Mirage
   Price:
     MinPrice: 393.35
     MaxPrice: 1226.59

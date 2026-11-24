@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Emerald_Quartz
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 957727cc-3265-4c74-ac85-6a96073b614a
-  SkinStringId: CZ-Auto_Emerald_Quartz
+  Id:
+    _value: CZ-Auto_Emerald_Quartz
   Name: Emerald Quartz
   ContextData:
     SpriteSource:

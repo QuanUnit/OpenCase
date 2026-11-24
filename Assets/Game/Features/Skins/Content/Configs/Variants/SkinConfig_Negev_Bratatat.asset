@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Negev_Bratatat
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c3f25683-e1eb-4316-b92a-8f5bddd3ae21
-  SkinStringId: Negev_Bratatat
+  Id:
+    _value: Negev_Bratatat
   Name: Bratatat
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The eSports 2014 Summer Collection
+  Collection:
+    _value: Collection_eSports_2014_Summer
   Price:
     MinPrice: 1.19
     MaxPrice: 6.14

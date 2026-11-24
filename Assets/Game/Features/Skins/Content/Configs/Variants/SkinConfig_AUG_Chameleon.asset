@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Chameleon
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 67c2b812-f234-40b4-b0fe-efb93787eb49
-  SkinStringId: AUG_Chameleon
+  Id:
+    _value: AUG_Chameleon
   Name: Chameleon
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Phoenix Collection
+  Collection:
+    _value: Collection_Phoenix
   Price:
     MinPrice: 68.29
     MaxPrice: 84.6

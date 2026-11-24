@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Emerald
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: bb9a2797-95e1-4cbc-8f9a-83eb0ffc5d35
-  SkinStringId: CZ-Auto_Emerald
+  Id:
+    _value: CZ-Auto_Emerald
   Name: Emerald
   ContextData:
     SpriteSource:

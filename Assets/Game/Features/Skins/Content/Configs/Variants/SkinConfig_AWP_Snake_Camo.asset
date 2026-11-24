@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Snake_Camo
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 49daf0c7-8da6-4147-8b98-82958926685f
-  SkinStringId: AWP_Snake_Camo
+  Id:
+    _value: AWP_Snake_Camo
   Name: Snake Camo
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Dust Collection
+  Collection:
+    _value: Collection_Dust
   Price:
     MinPrice: 81.2
     MaxPrice: 428.98

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Shinobu
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ae5b38f0-0c63-4841-a1bd-41e03d67a449
-  SkinStringId: Glock-18_Shinobu
+  Id:
+    _value: Glock-18_Shinobu
   Name: Shinobu
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Fever Collection
+  Collection:
+    _value: Collection_Fever
   Price:
     MinPrice: 4.34
     MaxPrice: 30.7

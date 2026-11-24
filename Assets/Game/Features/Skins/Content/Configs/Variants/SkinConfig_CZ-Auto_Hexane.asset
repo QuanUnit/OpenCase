@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Hexane
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 41f282e1-8d4d-485c-abaa-2bd85ea37e8d
-  SkinStringId: CZ-Auto_Hexane
+  Id:
+    _value: CZ-Auto_Hexane
   Name: Hexane
   ContextData:
     SpriteSource:

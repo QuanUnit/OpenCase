@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Reactor
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: bccd02c5-9928-4c0f-b035-0553a7fe064c
-  SkinStringId: Glock-18_Reactor
+  Id:
+    _value: Glock-18_Reactor
   Name: Reactor
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Cache Collection
+  Collection:
+    _value: Collection_Cache
   Price:
     MinPrice: 12.9
     MaxPrice: 92.14

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAG-7_SWAG-7
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 069e0f6e-e0dd-46e5-8c50-628e096fea21
-  SkinStringId: MAG-7_SWAG-7
+  Id:
+    _value: MAG-7_SWAG-7
   Name: SWAG-7
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Clutch Collection
+  Collection:
+    _value: Collection_Clutch
   Price:
     MinPrice: 0.4
     MaxPrice: 4.46

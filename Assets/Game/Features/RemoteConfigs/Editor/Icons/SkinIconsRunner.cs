@@ -145,7 +145,7 @@ namespace Features.RemoteConfigs.Editor.Icons
         {
             var orderedConfigs = configsByPath.OrderBy(pair => pair.Key, StringComparer.Ordinal).ToList();
             var idsWithNames = orderedConfigs
-                .Select(pair => new KeyValuePair<string, string>(pair.Value.SkinStringId, pair.Value.Name))
+                .Select(pair => new KeyValuePair<string, string>(pair.Value.Id.Value, pair.Value.Name))
                 .ToList();
 
             var weapons = _weaponResolver.Resolve(idsWithNames);
@@ -154,7 +154,7 @@ namespace Features.RemoteConfigs.Editor.Icons
             for (var index = 0; index < orderedConfigs.Count; index++)
             {
                 var config = orderedConfigs[index].Value;
-                states.Add(new SkinIconConfigState(config.SkinStringId, weapons[index], GetCurrentIconPath(config), orderedConfigs[index].Key));
+                states.Add(new SkinIconConfigState(config.Id.Value, weapons[index], GetCurrentIconPath(config), orderedConfigs[index].Key));
             }
 
             return states;

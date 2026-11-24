@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: "SkinConfig_Desert_Eagle_Sunset_Storm_\u5F10"
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 644037b1-8da0-44e6-b6b4-abfa2d952bae
-  SkinStringId: "Desert_Eagle_Sunset_Storm_\u5F10"
+  Id:
+    _value: "Desert_Eagle_Sunset_Storm_\u5F10"
   Name: "Sunset Storm \u5F10"
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Rising Sun Collection
+  Collection:
+    _value: Collection_Rising_Sun
   Price:
     MinPrice: 637.5
     MaxPrice: 916.02

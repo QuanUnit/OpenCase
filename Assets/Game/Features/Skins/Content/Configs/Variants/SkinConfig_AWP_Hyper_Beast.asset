@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Hyper_Beast
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e20bd502-12c6-4f88-852e-4d1015393801
-  SkinStringId: AWP_Hyper_Beast
+  Id:
+    _value: AWP_Hyper_Beast
   Name: Hyper Beast
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Falchion Collection
+  Collection:
+    _value: Collection_Falchion
   Price:
     MinPrice: 33.38
     MaxPrice: 184.02

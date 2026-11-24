@@ -1,5 +1,5 @@
 using Features.Cases.UI.Panels;
-using QCore.Tools.Identifiers;
+using Features.Cases.Data;
 using QCore.UISystem.Panels;
 using QCore.UISystem.Presenters;
 using QCore.UISystem.Services;
@@ -28,7 +28,7 @@ namespace Features.Cases.UI.Presenters
             Panel.CreateCasesViews(_casesDatabaseService.AllCases);
         }
 
-        private void CaseOpenClickHandle(QGuid caseId)
+        private void CaseOpenClickHandle(CaseId caseId)
         {
             var data = _panelsService.OpenWithPayload(() => Panel.CaseSpinSubPanel, caseId);
             _openedChildPanel = data.Panel;

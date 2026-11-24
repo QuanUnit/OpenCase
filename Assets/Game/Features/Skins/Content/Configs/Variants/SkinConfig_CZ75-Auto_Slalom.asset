@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ75-Auto_Slalom
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5d3bd085-1ed3-4747-a32c-33e055eec34d
-  SkinStringId: CZ75-Auto_Slalom
+  Id:
+    _value: CZ75-Auto_Slalom
   Name: Slalom
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Graphic Design Collection
+  Collection:
+    _value: Collection_Graphic_Design
   Price:
     MinPrice: 11.62
     MaxPrice: 32.6

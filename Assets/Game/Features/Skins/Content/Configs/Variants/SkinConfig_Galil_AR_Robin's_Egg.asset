@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_Robin's_Egg
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9a0f9c89-a2c7-4c08-92ca-0f9ecd078849
-  SkinStringId: Galil_AR_Robin's_Egg
+  Id:
+    _value: Galil_AR_Robin's_Egg
   Name: Robin's Egg
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Ascent Collection
+  Collection:
+    _value: Collection_Ascent
   Price:
     MinPrice: 0.04
     MaxPrice: 0.36

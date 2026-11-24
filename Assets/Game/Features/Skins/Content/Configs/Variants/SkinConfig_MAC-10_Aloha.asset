@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Aloha
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 58b474c2-0cf2-4434-a343-013cce28c970
-  SkinStringId: MAC-10_Aloha
+  Id:
+    _value: MAC-10_Aloha
   Name: Aloha
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Operation Hydra Collection
+  Collection:
+    _value: Collection_Operation_Hydra
   Price:
     MinPrice: 3.62
     MaxPrice: 7.6

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_VariCamo_Blue
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2ccd3900-6ac3-40fb-bb5c-6f35bdcf9a76
-  SkinStringId: XM1014_VariCamo_Blue
+  Id:
+    _value: XM1014_VariCamo_Blue
   Name: VariCamo Blue
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Overpass Collection
+  Collection:
+    _value: Collection_Overpass
   Price:
     MinPrice: 10.02
     MaxPrice: 19.32

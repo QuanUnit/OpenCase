@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ75-Auto_Tigris
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e8af3fb4-aebe-48aa-ba3a-289e1f87eab9
-  SkinStringId: CZ75-Auto_Tigris
+  Id:
+    _value: CZ75-Auto_Tigris
   Name: Tigris
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Breakout Collection
+  Collection:
+    _value: Collection_Breakout
   Price:
     MinPrice: 1.83
     MaxPrice: 5.64

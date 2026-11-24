@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Tom_Cat
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 735c6233-7140-4d03-b73e-2ce82fcbf5fc
-  SkinStringId: AUG_Tom_Cat
+  Id:
+    _value: AUG_Tom_Cat
   Name: Tom Cat
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Prisma 2 Collection
+  Collection:
+    _value: Collection_Prisma_2
   Price:
     MinPrice: 0.09
     MaxPrice: 0.41

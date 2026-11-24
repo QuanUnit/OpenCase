@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Poplar_Thicket
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 92b8480c-13df-4a29-bdf6-5c0ed9f215a7
-  SkinStringId: MAC-10_Poplar_Thicket
+  Id:
+    _value: MAC-10_Poplar_Thicket
   Name: Poplar Thicket
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Boreal Collection
+  Collection:
+    _value: Collection_Boreal
   Price:
     MinPrice: 0.16
     MaxPrice: 1.83

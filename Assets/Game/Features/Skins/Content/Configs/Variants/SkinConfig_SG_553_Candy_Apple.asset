@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SG_553_Candy_Apple
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 04ded220-1815-465b-833b-64fc4658f704
-  SkinStringId: SG_553_Candy_Apple
+  Id:
+    _value: SG_553_Candy_Apple
   Name: Candy Apple
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Canals Collection
+  Collection:
+    _value: Collection_Canals
   Price:
     MinPrice: 4.69
     MaxPrice: 14.41

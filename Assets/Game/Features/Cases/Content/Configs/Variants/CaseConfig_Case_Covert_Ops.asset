@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
   m_Name: CaseConfig_Case_Covert_Ops
   m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
-  _id:
-    _idBody: 84abbb60-f559-4019-bbdc-1fb2dc511308
-  CaseStringId: Case_Covert_Ops
+  Id:
+    _value: Case_Covert_Ops
   Name: Covert Ops
   Price: 34.57
   SkinsMapEntries:

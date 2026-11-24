@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SCAR-20_Splash_Jam
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 24660ee1-d139-42a0-aaa0-7da6d9334d02
-  SkinStringId: SCAR-20_Splash_Jam
+  Id:
+    _value: SCAR-20_Splash_Jam
   Name: Splash Jam
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Militia Collection
+  Collection:
+    _value: Collection_Militia
   Price:
     MinPrice: 11.69
     MaxPrice: 2412.19

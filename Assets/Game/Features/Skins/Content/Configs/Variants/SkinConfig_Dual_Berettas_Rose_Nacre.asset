@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Dual_Berettas_Rose_Nacre
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 44c2383f-1d46-4b1e-a378-ddfe586bea6d
-  SkinStringId: Dual_Berettas_Rose_Nacre
+  Id:
+    _value: Dual_Berettas_Rose_Nacre
   Name: Rose Nacre
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Ascent Collection
+  Collection:
+    _value: Collection_Ascent
   Price:
     MinPrice: 0.03
     MaxPrice: 0.3

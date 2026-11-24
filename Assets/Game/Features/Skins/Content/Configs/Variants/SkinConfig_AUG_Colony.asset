@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Colony
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: addf012b-b5ab-4654-a0c1-18bab188a223
-  SkinStringId: AUG_Colony
+  Id:
+    _value: AUG_Colony
   Name: Colony
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Mirage Collection
+  Collection:
+    _value: Collection_Mirage
   Price:
     MinPrice: 2.42
     MaxPrice: 14.25

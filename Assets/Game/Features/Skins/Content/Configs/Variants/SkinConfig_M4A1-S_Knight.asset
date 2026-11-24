@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A1-S_Knight
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c1ea4959-a38e-4c97-9d45-238b588c0b47
-  SkinStringId: M4A1-S_Knight
+  Id:
+    _value: M4A1-S_Knight
   Name: Knight
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Cobblestone Collection
+  Collection:
+    _value: Collection_Cobblestone
   Price:
     MinPrice: 3815.44
     MaxPrice: 4000

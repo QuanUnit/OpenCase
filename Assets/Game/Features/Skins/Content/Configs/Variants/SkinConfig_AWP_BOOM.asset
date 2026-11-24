@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_BOOM
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2242830d-27eb-436f-9d0b-3ddba7cf5251
-  SkinStringId: AWP_BOOM
+  Id:
+    _value: AWP_BOOM
   Name: BOOM
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The eSports 2013 Collection
+  Collection:
+    _value: Collection_eSports_2013
   Price:
     MinPrice: 111.39
     MaxPrice: 662.02

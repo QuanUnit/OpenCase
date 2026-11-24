@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: "SkinConfig_Sawed-Off_Kiss\u2665Love"
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e1f1b01d-7c14-4e51-bd29-0527e43bb1f3
-  SkinStringId: "Sawed-Off_Kiss\u2665Love"
+  Id:
+    _value: "Sawed-Off_Kiss\u2665Love"
   Name: "Kiss\u2665Love"
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Recoil Collection
+  Collection:
+    _value: Collection_Recoil
   Price:
     MinPrice: 3.21
     MaxPrice: 23.48

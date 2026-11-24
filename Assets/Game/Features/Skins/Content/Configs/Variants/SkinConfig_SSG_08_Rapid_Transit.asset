@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SSG_08_Rapid_Transit
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 744fdda5-ea0d-4c34-9c33-6e3300697bad
-  SkinStringId: SSG_08_Rapid_Transit
+  Id:
+    _value: SSG_08_Rapid_Transit
   Name: Rapid Transit
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Gallery Collection
+  Collection:
+    _value: Collection_Gallery
   Price:
     MinPrice: 0.63
     MaxPrice: 9.19

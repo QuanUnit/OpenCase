@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SG_553_Fallout_Warning
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 39b66473-1c44-4393-8dc9-d7857118dc3f
-  SkinStringId: SG_553_Fallout_Warning
+  Id:
+    _value: SG_553_Fallout_Warning
   Name: Fallout Warning
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Cache Collection
+  Collection:
+    _value: Collection_Cache
   Price:
     MinPrice: 2.46
     MaxPrice: 6.42

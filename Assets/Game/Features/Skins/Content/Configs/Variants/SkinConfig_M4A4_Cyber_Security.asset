@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A4_Cyber_Security
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 91461537-4926-4dc2-938f-77e7819b9bd0
-  SkinStringId: M4A4_Cyber_Security
+  Id:
+    _value: M4A4_Cyber_Security
   Name: Cyber Security
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Operation Broken Fang Collection
+  Collection:
+    _value: Collection_Operation_Broken_Fang
   Price:
     MinPrice: 22.31
     MaxPrice: 281.11

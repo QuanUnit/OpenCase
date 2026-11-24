@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_PP-Bizon_Cobalt_Halftone
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0d6a28c8-0e61-441d-9cdc-e23e00bbd275
-  SkinStringId: PP-Bizon_Cobalt_Halftone
+  Id:
+    _value: PP-Bizon_Cobalt_Halftone
   Name: Cobalt Halftone
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Winter Offensive Collection
+  Collection:
+    _value: Collection_Winter_Offensive
   Price:
     MinPrice: 0.54
     MaxPrice: 3.03

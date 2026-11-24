@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SG_553_Bulldozer
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f383af7f-e1b3-4d3f-be51-ed73b9082eb3
-  SkinStringId: SG_553_Bulldozer
+  Id:
+    _value: SG_553_Bulldozer
   Name: Bulldozer
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Chop Shop Collection
+  Collection:
+    _value: Collection_Chop_Shop
   Price:
     MinPrice: 285
     MaxPrice: 384.75

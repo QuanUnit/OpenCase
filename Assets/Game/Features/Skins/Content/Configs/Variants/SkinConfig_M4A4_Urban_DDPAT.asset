@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A4_Urban_DDPAT
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8bbc793e-9bcc-4918-8284-74cc8c05e6f9
-  SkinStringId: M4A4_Urban_DDPAT
+  Id:
+    _value: M4A4_Urban_DDPAT
   Name: Urban DDPAT
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Train Collection
+  Collection:
+    _value: Collection_Train
   Price:
     MinPrice: 0.07
     MaxPrice: 18.92

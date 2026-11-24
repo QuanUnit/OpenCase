@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Sawed-Off_Full_Stop
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 54add50c-f0be-4730-9359-1c76f681751b
-  SkinStringId: Sawed-Off_Full_Stop
+  Id:
+    _value: Sawed-Off_Full_Stop
   Name: Full Stop
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Italy Collection
+  Collection:
+    _value: Collection_Italy
   Price:
     MinPrice: 0.09
     MaxPrice: 0.52

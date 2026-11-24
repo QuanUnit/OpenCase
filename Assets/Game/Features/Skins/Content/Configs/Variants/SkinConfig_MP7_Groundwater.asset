@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Groundwater
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 081085f3-62cd-4b7a-83df-843a6449779c
-  SkinStringId: MP7_Groundwater
+  Id:
+    _value: MP7_Groundwater
   Name: Groundwater
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Alpha Collection
+  Collection:
+    _value: Collection_Alpha
   Price:
     MinPrice: 2.23
     MaxPrice: 57.25

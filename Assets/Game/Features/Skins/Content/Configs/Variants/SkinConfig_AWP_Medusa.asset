@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Medusa
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: dd605100-fbc8-43c1-b0ec-6441805748d8
-  SkinStringId: AWP_Medusa
+  Id:
+    _value: AWP_Medusa
   Name: Medusa
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Gods and Monsters Collection
+  Collection:
+    _value: Collection_Gods_and_Monsters
   Price:
     MinPrice: 1837.96
     MaxPrice: 5355.1

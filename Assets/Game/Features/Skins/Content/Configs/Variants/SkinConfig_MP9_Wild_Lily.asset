@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Wild_Lily
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7b5ce79e-e271-44ee-8330-d8cea4bcb4b2
-  SkinStringId: MP9_Wild_Lily
+  Id:
+    _value: MP9_Wild_Lily
   Name: Wild Lily
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The St. Marc Collection
+  Collection:
+    _value: Collection_St_Marc
   Price:
     MinPrice: 2513.1
     MaxPrice: 3064.9

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_UMP-45_Momentum
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 45e59a51-8ecc-4a3d-bca3-3f4c6addf6c7
-  SkinStringId: UMP-45_Momentum
+  Id:
+    _value: UMP-45_Momentum
   Name: Momentum
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Danger Zone Collection
+  Collection:
+    _value: Collection_Danger_Zone
   Price:
     MinPrice: 3.88
     MaxPrice: 12.24

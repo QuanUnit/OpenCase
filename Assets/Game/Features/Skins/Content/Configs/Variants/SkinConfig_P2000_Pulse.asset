@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P2000_Pulse
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 85fe1d7d-9ddd-42db-8bbe-d1b1a24fc6f9
-  SkinStringId: P2000_Pulse
+  Id:
+    _value: P2000_Pulse
   Name: Pulse
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Huntsman Collection
+  Collection:
+    _value: Collection_Huntsman
   Price:
     MinPrice: 0.93
     MaxPrice: 1.91

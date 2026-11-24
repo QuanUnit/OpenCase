@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_Chromatic_Aberration
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: aefeb2df-d892-4842-8f30-0f43ab7fb657
-  SkinStringId: Galil_AR_Chromatic_Aberration
+  Id:
+    _value: Galil_AR_Chromatic_Aberration
   Name: Chromatic Aberration
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Snakebite Collection
+  Collection:
+    _value: Collection_Snakebite
   Price:
     MinPrice: 3.27
     MaxPrice: 35.95

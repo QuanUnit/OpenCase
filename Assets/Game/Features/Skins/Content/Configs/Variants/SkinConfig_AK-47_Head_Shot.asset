@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Head_Shot
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c1a83a83-b8eb-4f6f-955c-45126d5bc03e
-  SkinStringId: AK-47_Head_Shot
+  Id:
+    _value: AK-47_Head_Shot
   Name: Head Shot
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Revolution Collection
+  Collection:
+    _value: Collection_Revolution
   Price:
     MinPrice: 28.55
     MaxPrice: 130.09

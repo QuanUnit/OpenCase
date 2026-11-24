@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Nova_Candy_Apple
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1c55bc5a-8d81-4345-ae26-9cb378b137cc
-  SkinStringId: Nova_Candy_Apple
+  Id:
+    _value: Nova_Candy_Apple
   Name: Candy Apple
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Italy Collection
+  Collection:
+    _value: Collection_Italy
   Price:
     MinPrice: 0.07
     MaxPrice: 0.17

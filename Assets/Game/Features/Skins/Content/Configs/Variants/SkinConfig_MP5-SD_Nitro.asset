@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP5-SD_Nitro
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 385b6cbe-96b1-443d-9be9-a205f21dcd9e
-  SkinStringId: MP5-SD_Nitro
+  Id:
+    _value: MP5-SD_Nitro
   Name: Nitro
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Control Collection
+  Collection:
+    _value: Collection_Control
   Price:
     MinPrice: 2.68
     MaxPrice: 8.68

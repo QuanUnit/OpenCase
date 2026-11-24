@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Cobalt_Disruption
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8bd81da0-4a49-44d2-96b3-47fce5b41623
-  SkinStringId: Desert_Eagle_Cobalt_Disruption
+  Id:
+    _value: Desert_Eagle_Cobalt_Disruption
   Name: Cobalt Disruption
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The eSports 2013 Winter Collection
+  Collection:
+    _value: Collection_eSports_2013_Winter
   Price:
     MinPrice: 77
     MaxPrice: 106.87

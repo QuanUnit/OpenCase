@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Winterized
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 35047b25-f982-44bf-8e26-6f0ceac00ef1
-  SkinStringId: Glock-18_Winterized
+  Id:
+    _value: Glock-18_Winterized
   Name: Winterized
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Recoil Collection
+  Collection:
+    _value: Collection_Recoil
   Price:
     MinPrice: 0.05
     MaxPrice: 0.76

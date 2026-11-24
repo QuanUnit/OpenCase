@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Vault_Heist
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d61cdbb4-e226-4c9a-9c07-3d38b44cfd51
-  SkinStringId: MP7_Vault_Heist
+  Id:
+    _value: MP7_Vault_Heist
   Name: Vault Heist
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Havoc Collection
+  Collection:
+    _value: Collection_Havoc
   Price:
     MinPrice: 3.33
     MaxPrice: 5.48

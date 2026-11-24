@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Starcade
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9c8bcff6-4b25-4273-9507-8973aaa6bf9d
-  SkinStringId: Desert_Eagle_Starcade
+  Id:
+    _value: Desert_Eagle_Starcade
   Name: Starcade
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Graphic Design Collection
+  Collection:
+    _value: Collection_Graphic_Design
   Price:
     MinPrice: 52.47
     MaxPrice: 486.55

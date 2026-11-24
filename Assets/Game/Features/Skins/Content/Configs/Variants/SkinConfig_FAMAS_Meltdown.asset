@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Meltdown
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: eccea7df-fc6f-4ff8-a862-64bd7c1109e0
-  SkinStringId: FAMAS_Meltdown
+  Id:
+    _value: FAMAS_Meltdown
   Name: Meltdown
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The 2021 Train Collection
+  Collection:
+    _value: Collection_2021_Train
   Price:
     MinPrice: 59.87
     MaxPrice: 125.37

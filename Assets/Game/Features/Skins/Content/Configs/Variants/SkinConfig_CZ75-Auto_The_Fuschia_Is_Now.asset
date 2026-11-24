@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ75-Auto_The_Fuschia_Is_Now
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 67bfa5a1-1ce8-47b5-bb1c-43c0ee4d4327
-  SkinStringId: CZ75-Auto_The_Fuschia_Is_Now
+  Id:
+    _value: CZ75-Auto_The_Fuschia_Is_Now
   Name: The Fuschia Is Now
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Arms Deal 3 Collection
+  Collection:
+    _value: Collection_Arms_Deal_3
   Price:
     MinPrice: 19.5
     MaxPrice: 32.99

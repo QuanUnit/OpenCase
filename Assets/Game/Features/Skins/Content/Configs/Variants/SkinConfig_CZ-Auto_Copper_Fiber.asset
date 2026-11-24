@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Copper_Fiber
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ffb624e5-d844-4bc7-9a82-958ef1e6a751
-  SkinStringId: CZ-Auto_Copper_Fiber
+  Id:
+    _value: CZ-Auto_Copper_Fiber
   Name: Copper Fiber
   ContextData:
     SpriteSource:

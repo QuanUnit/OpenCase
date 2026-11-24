@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Verdant_Growth
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: cb71519b-2552-471a-8a75-1e0c8d0290f1
-  SkinStringId: P90_Verdant_Growth
+  Id:
+    _value: P90_Verdant_Growth
   Name: Verdant Growth
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The 2021 Mirage Collection
+  Collection:
+    _value: Collection_2021_Mirage
   Price:
     MinPrice: 1.8
     MaxPrice: 2.84

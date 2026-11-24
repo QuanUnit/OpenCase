@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A1-S_Black_Lotus
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d0ee1722-0d07-47c5-a4a5-ff1e05e8be8b
-  SkinStringId: M4A1-S_Black_Lotus
+  Id:
+    _value: M4A1-S_Black_Lotus
   Name: Black Lotus
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Kilowatt Collection
+  Collection:
+    _value: Collection_Kilowatt
   Price:
     MinPrice: 6.34
     MaxPrice: 18.12

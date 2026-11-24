@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Scrawl
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: fa2768f4-d126-439b-881e-dad06e5c218d
-  SkinStringId: Five-SeveN_Scrawl
+  Id:
+    _value: Five-SeveN_Scrawl
   Name: Scrawl
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Dreams & Nightmares Collection
+  Collection:
+    _value: Collection_Dreams_And_Nightmares
   Price:
     MinPrice: 0.05
     MaxPrice: 0.74

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_R8_Revolver_Banana_Cannon
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9bbb4041-5b7f-4ea2-89d7-faa532370736
-  SkinStringId: R8_Revolver_Banana_Cannon
+  Id:
+    _value: R8_Revolver_Banana_Cannon
   Name: Banana Cannon
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Revolution Collection
+  Collection:
+    _value: Collection_Revolution
   Price:
     MinPrice: 0.4
     MaxPrice: 4.88

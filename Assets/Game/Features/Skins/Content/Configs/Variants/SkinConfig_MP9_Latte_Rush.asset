@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Latte_Rush
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: cae8cde2-f996-4000-b8d5-bc3a2704b719
-  SkinStringId: MP9_Latte_Rush
+  Id:
+    _value: MP9_Latte_Rush
   Name: Latte Rush
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Train 2025 Collection
+  Collection:
+    _value: Collection_Train_2025
   Price:
     MinPrice: 21.54
     MaxPrice: 208.99

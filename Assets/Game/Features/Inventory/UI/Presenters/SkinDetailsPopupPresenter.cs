@@ -1,16 +1,15 @@
 using Features.Inventory.UI.Panels;
-using QCore.Tools.Identifiers;
+using Features.Skins.Data;
 using QCore.UISystem.Panels;
 using QCore.UISystem.Presenters;
 using QCore.UISystem.Services;
 using Features.Inventory.Services;
-using Features.Skins.Data;
 using Features.Skins.Services;
 using Features.Skins.Configs;
 
 namespace Features.Inventory.UI.Presenters
 {
-    public class SkinDetailsPopupPresenter : PanelPresenter<SkinDetailsPopup>, IPanelPresenterWithPayload<QGuid>
+    public class SkinDetailsPopupPresenter : PanelPresenter<SkinDetailsPopup>, IPanelPresenterWithPayload<SkinInstanceId>
     {
         private readonly IInventoryService _inventoryService;
         private readonly ISkinsUIContextDataService _skinsUIContextDataService;
@@ -29,7 +28,7 @@ namespace Features.Inventory.UI.Presenters
             _skinSellService = skinSellService;
         }
         
-        public void SetPayload(QGuid payload)
+        public void SetPayload(SkinInstanceId payload)
         {
             _skin = _inventoryService.Get(payload);
         }
@@ -37,7 +36,7 @@ namespace Features.Inventory.UI.Presenters
         protected override void StartPresentingInternal()
         {
             var rarity = _skinsDatabaseService.GetSkinRarity(_skin);
-            var skinConfig = _skinsDatabaseService.GetSkinConfigById(_skin.SkinSourceId);
+            var skinConfig = _skinsDatabaseService.GetSkinConfigById(_skin.ConfigId);
             var rarityVisual = _skinsUIContextDataService.GetRarityVisual(rarity);
 
             Panel.CloseClicked += CloseClickHandle;

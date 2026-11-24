@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A4_Tornado
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 6bc3619b-81b6-48a0-8f7a-cfbdbc861464
-  SkinStringId: M4A4_Tornado
+  Id:
+    _value: M4A4_Tornado
   Name: Tornado
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Inferno Collection
+  Collection:
+    _value: Collection_Inferno
   Price:
     MinPrice: 6.99
     MaxPrice: 195.36

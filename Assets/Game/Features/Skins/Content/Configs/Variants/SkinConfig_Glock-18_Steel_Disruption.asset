@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Steel_Disruption
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1050ec35-b064-4883-a56a-72f09ce3c279
-  SkinStringId: Glock-18_Steel_Disruption
+  Id:
+    _value: Glock-18_Steel_Disruption
   Name: Steel Disruption
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The eSports 2014 Summer Collection
+  Collection:
+    _value: Collection_eSports_2014_Summer
   Price:
     MinPrice: 6.42
     MaxPrice: 17.4

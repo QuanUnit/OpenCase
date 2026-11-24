@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Blue_Fissure
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 290fde59-3d48-48ef-87ff-5862ad0e0e5a
-  SkinStringId: Glock-18_Blue_Fissure
+  Id:
+    _value: Glock-18_Blue_Fissure
   Name: Blue Fissure
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Arms Deal 3 Collection
+  Collection:
+    _value: Collection_Arms_Deal_3
   Price:
     MinPrice: 2.21
     MaxPrice: 22.71

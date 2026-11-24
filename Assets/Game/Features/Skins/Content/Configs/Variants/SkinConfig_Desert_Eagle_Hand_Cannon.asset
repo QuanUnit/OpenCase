@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Hand_Cannon
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e9cffc1d-5ea5-410a-a44d-59957bc19970
-  SkinStringId: Desert_Eagle_Hand_Cannon
+  Id:
+    _value: Desert_Eagle_Hand_Cannon
   Name: Hand Cannon
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Cobblestone Collection
+  Collection:
+    _value: Collection_Cobblestone
   Price:
     MinPrice: 469.82
     MaxPrice: 685.86

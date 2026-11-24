@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_Phoenix_Blacklight
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f869d360-fe84-40b1-9879-9d5135bc808c
-  SkinStringId: Galil_AR_Phoenix_Blacklight
+  Id:
+    _value: Galil_AR_Phoenix_Blacklight
   Name: Phoenix Blacklight
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Havoc Collection
+  Collection:
+    _value: Collection_Havoc
   Price:
     MinPrice: 90.81
     MaxPrice: 316.62

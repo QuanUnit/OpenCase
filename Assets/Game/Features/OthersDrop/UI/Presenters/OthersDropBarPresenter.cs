@@ -55,7 +55,7 @@ namespace Features.OthersDrop.UI.Presenters
         private SkinView CreateSkinView(Skin skin, SkinView prefab, Transform parent, Transform startPosition)
         {
             var view = Object.Instantiate(prefab, startPosition.position, startPosition.rotation, parent);
-            var config = _skinsDatabaseService.GetSkinConfigById(skin.SkinSourceId);
+            var config = _skinsDatabaseService.GetSkinConfigById(skin.ConfigId);
             var rarityVisual = _skinsUIContextDataService.GetRarityVisual(config.Rarity);
             
             view.SetView(new SkinView.Data()

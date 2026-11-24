@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M249_Midnight_Palm
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ace54b91-eda4-4e2e-b32d-452a1c0b0e4e
-  SkinStringId: M249_Midnight_Palm
+  Id:
+    _value: M249_Midnight_Palm
   Name: Midnight Palm
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The 2021 Dust 2 Collection
+  Collection:
+    _value: Collection_2021_Dust_2
   Price:
     MinPrice: 2.12
     MaxPrice: 3.46

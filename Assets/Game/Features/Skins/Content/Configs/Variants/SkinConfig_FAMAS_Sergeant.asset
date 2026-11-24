@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Sergeant
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7703de3a-7f07-4df2-88cb-1e789402b122
-  SkinStringId: FAMAS_Sergeant
+  Id:
+    _value: FAMAS_Sergeant
   Name: Sergeant
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Phoenix Collection
+  Collection:
+    _value: Collection_Phoenix
   Price:
     MinPrice: 2
     MaxPrice: 14.8

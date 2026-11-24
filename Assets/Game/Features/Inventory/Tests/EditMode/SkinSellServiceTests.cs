@@ -3,9 +3,9 @@ using Features.Inventory.Services;
 using Features.Skins.Data;
 using Features.Wallet.Services;
 using NUnit.Framework;
-using QCore.Tools.Identifiers;
 using Shared.Tools.Mathematics;
 using Shared.UI.Effects;
+using Shared.Identifiers;
 
 namespace Features.Inventory.Tests.EditMode
 {
@@ -27,7 +27,7 @@ namespace Features.Inventory.Tests.EditMode
 
         private Skin CreateSkin(float price)
         {
-            return new Skin(QGuid.CreateNew(), QGuid.CreateNew(), 0.1f, price, false, false);
+            return new Skin(EntityIds.CreateUnique<SkinId>("TestSkin"), EntityIds.CreateUnique<SkinInstanceId>(SkinInstanceId.EntityName), 0.1f, price, false, false);
         }
 
         private int ParseDisplayedCents(string displayed)

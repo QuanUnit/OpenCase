@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_Target_Acquired
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7a39302b-b366-4401-bd5a-f0060169c38f
-  SkinStringId: USP-S_Target_Acquired
+  Id:
+    _value: USP-S_Target_Acquired
   Name: Target Acquired
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Control Collection
+  Collection:
+    _value: Collection_Control
   Price:
     MinPrice: 148.82
     MaxPrice: 628.81

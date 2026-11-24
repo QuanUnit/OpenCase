@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A4_Spider_Lily
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2c2062b2-d82b-4f95-bc3f-794c78490b53
-  SkinStringId: M4A4_Spider_Lily
+  Id:
+    _value: M4A4_Spider_Lily
   Name: Spider Lily
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Operation Riptide Collection
+  Collection:
+    _value: Collection_Operation_Riptide
   Price:
     MinPrice: 6.31
     MaxPrice: 105.46

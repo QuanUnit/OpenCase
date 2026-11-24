@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Nemesis
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 46fcc39f-2010-4962-9e5d-4be2f9132346
-  SkinStringId: MP7_Nemesis
+  Id:
+    _value: MP7_Nemesis
   Name: Nemesis
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Falchion Collection
+  Collection:
+    _value: Collection_Falchion
   Price:
     MinPrice: 5.62
     MaxPrice: 17.33

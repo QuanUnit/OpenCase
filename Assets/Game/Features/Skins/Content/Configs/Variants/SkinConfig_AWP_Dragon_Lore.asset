@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Dragon_Lore
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a8daa718-3ed0-4371-ade5-73ce3ed7281c
-  SkinStringId: AWP_Dragon_Lore
+  Id:
+    _value: AWP_Dragon_Lore
   Name: Dragon Lore
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Cobblestone Collection
+  Collection:
+    _value: Collection_Cobblestone
   Price:
     MinPrice: 5420
     MaxPrice: 11939.4

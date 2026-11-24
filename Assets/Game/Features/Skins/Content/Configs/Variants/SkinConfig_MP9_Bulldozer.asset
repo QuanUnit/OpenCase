@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Bulldozer
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3c19af33-e5c4-4c90-b6d6-1cff1ad94cb7
-  SkinStringId: MP9_Bulldozer
+  Id:
+    _value: MP9_Bulldozer
   Name: Bulldozer
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Assault Collection
+  Collection:
+    _value: Collection_Assault
   Price:
     MinPrice: 98.31
     MaxPrice: 976.15

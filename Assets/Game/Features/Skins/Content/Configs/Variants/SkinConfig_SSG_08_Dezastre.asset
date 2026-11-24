@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SSG_08_Dezastre
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b85cc103-79f9-4e4b-a0c8-3b12fcf63345
-  SkinStringId: SSG_08_Dezastre
+  Id:
+    _value: SSG_08_Dezastre
   Name: Dezastre
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Kilowatt Collection
+  Collection:
+    _value: Collection_Kilowatt
   Price:
     MinPrice: 0.05
     MaxPrice: 0.79

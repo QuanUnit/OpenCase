@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_The_Empress
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 12550d87-4d57-4814-ae64-8d2017a34b9d
-  SkinStringId: AK-47_The_Empress
+  Id:
+    _value: AK-47_The_Empress
   Name: The Empress
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Spectrum 2 Collection
+  Collection:
+    _value: Collection_Spectrum_2
   Price:
     MinPrice: 75.25
     MaxPrice: 318.14

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Copperhead
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c21ed693-2e2f-4222-b3b0-3beee307bb4a
-  SkinStringId: AUG_Copperhead
+  Id:
+    _value: AUG_Copperhead
   Name: Copperhead
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Dust Collection
+  Collection:
+    _value: Collection_Dust
   Price:
     MinPrice: 79.59
     MaxPrice: 107.27

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Sundown
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8f024715-632b-4c8b-adff-36c58ee67417
-  SkinStringId: FAMAS_Sundown
+  Id:
+    _value: FAMAS_Sundown
   Name: Sundown
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The St. Marc Collection
+  Collection:
+    _value: Collection_St_Marc
   Price:
     MinPrice: 78.4
     MaxPrice: 115

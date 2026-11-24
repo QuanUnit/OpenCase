@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A1-S_Chantico's_Fire
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e5fe51e5-e862-4528-a517-6e1a3e488903
-  SkinStringId: M4A1-S_Chantico's_Fire
+  Id:
+    _value: M4A1-S_Chantico's_Fire
   Name: Chantico's Fire
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Chroma 3 Collection
+  Collection:
+    _value: Collection_Chroma_3
   Price:
     MinPrice: 110.88
     MaxPrice: 448.99

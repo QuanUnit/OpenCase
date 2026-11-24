@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using QCore.Tools.Collections;
-using QCore.Tools.Identifiers;
+using Features.Cases.Data;
 using QCore.UISystem.Panels;
 using Features.Cases.Configs;
 using UnityEngine;
@@ -10,7 +10,7 @@ namespace Features.Cases.UI.Panels
 {
     public class CasesSubPanel : Panel
     {
-        public event Action<QGuid> CaseOpenClicked;
+        public event Action<CaseId> CaseOpenClicked;
         public CaseSpinSubPanel CaseSpinSubPanel => _caseSpinSubPanel;
     
         [SerializeField] private CaseSpinSubPanel _caseSpinSubPanel;
@@ -20,7 +20,7 @@ namespace Features.Cases.UI.Panels
 
         [SerializeField] private Transform _viewport;
 
-        private readonly Dictionary<QGuid, CaseView> _createdCasesMap = new Dictionary<QGuid, CaseView>();
+        private readonly Dictionary<CaseId, CaseView> _createdCasesMap = new Dictionary<CaseId, CaseView>();
         
         public void CreateCasesViews(IEnumerable<KeyValue<CasesCategory, List<CaseConfig>>> casesData)
         {

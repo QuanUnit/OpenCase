@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Sand_Storm
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5a3bf080-97e8-4f90-a8d9-60262852180c
-  SkinStringId: AUG_Sand_Storm
+  Id:
+    _value: AUG_Sand_Storm
   Name: Sand Storm
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The 2021 Mirage Collection
+  Collection:
+    _value: Collection_2021_Mirage
   Price:
     MinPrice: 67.71
     MaxPrice: 96.94

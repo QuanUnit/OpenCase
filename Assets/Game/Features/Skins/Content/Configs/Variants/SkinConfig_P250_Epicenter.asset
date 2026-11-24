@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Epicenter
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f3025eba-b63c-49e1-beff-1c6f4dff5bfd
-  SkinStringId: P250_Epicenter
+  Id:
+    _value: P250_Epicenter
   Name: Epicenter
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Gallery Collection
+  Collection:
+    _value: Collection_Gallery
   Price:
     MinPrice: 4.58
     MaxPrice: 33.65

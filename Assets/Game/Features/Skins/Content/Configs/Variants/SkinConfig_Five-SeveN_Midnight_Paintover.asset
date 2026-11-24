@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Midnight_Paintover
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ba0e135a-a411-4e7d-b8ca-4d2bdf252b03
-  SkinStringId: Five-SeveN_Midnight_Paintover
+  Id:
+    _value: Five-SeveN_Midnight_Paintover
   Name: Midnight Paintover
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Overpass 2024 Collection
+  Collection:
+    _value: Collection_Overpass_2024
   Price:
     MinPrice: 0.03
     MaxPrice: 0.28

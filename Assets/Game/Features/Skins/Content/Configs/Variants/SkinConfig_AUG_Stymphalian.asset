@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Stymphalian
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0d0ee74e-243d-41a5-920d-9e2a5f50f555
-  SkinStringId: AUG_Stymphalian
+  Id:
+    _value: AUG_Stymphalian
   Name: Stymphalian
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Clutch Collection
+  Collection:
+    _value: Collection_Clutch
   Price:
     MinPrice: 3.41
     MaxPrice: 12.7

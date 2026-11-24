@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_G3SG1_Violet_Murano
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 36cae412-4a7a-4833-a02b-34185bd3c06c
-  SkinStringId: G3SG1_Violet_Murano
+  Id:
+    _value: G3SG1_Violet_Murano
   Name: Violet Murano
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Canals Collection
+  Collection:
+    _value: Collection_Canals
   Price:
     MinPrice: 22.8
     MaxPrice: 42.72

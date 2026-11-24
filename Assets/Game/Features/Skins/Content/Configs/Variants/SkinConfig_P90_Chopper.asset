@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Chopper
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3a139ea3-84cd-4b42-a4da-6c69b037aacb
-  SkinStringId: P90_Chopper
+  Id:
+    _value: P90_Chopper
   Name: Chopper
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Gamma Collection
+  Collection:
+    _value: Collection_Gamma
   Price:
     MinPrice: 1.07
     MaxPrice: 4.34

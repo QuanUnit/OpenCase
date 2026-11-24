@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Nova_Rust_Coat
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 62a2a807-62f7-4d66-9433-570c270ded72
-  SkinStringId: Nova_Rust_Coat
+  Id:
+    _value: Nova_Rust_Coat
   Name: Rust Coat
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Havoc Collection
+  Collection:
+    _value: Collection_Havoc
   Price:
     MinPrice: 3.35
     MaxPrice: 5.82

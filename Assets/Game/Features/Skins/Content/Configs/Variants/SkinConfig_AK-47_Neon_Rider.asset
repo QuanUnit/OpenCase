@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Neon_Rider
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3ca76085-6986-40ad-98ac-1f6181d3ec4a
-  SkinStringId: AK-47_Neon_Rider
+  Id:
+    _value: AK-47_Neon_Rider
   Name: Neon Rider
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Horizon Collection
+  Collection:
+    _value: Collection_Horizon
   Price:
     MinPrice: 44.87
     MaxPrice: 285.92

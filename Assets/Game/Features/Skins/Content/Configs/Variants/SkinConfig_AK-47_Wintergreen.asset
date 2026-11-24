@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Wintergreen
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c07f166b-e4c2-4fd6-b165-522cf0a5b2c7
-  SkinStringId: AK-47_Wintergreen
+  Id:
+    _value: AK-47_Wintergreen
   Name: Wintergreen
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Boreal Collection
+  Collection:
+    _value: Collection_Boreal
   Price:
     MinPrice: 0.91
     MaxPrice: 11.08

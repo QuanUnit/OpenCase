@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SG_553_Aerial
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7f41967d-460d-452a-999b-5f0588b10d4e
-  SkinStringId: SG_553_Aerial
+  Id:
+    _value: SG_553_Aerial
   Name: Aerial
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Gamma Collection
+  Collection:
+    _value: Collection_Gamma
   Price:
     MinPrice: 0.24
     MaxPrice: 0.69

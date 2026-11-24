@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_PP-Bizon_Blue_Streak
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1c1cd9cf-2216-4551-8fbc-7392092f20df
-  SkinStringId: PP-Bizon_Blue_Streak
+  Id:
+    _value: PP-Bizon_Blue_Streak
   Name: Blue Streak
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The eSports 2014 Summer Collection
+  Collection:
+    _value: Collection_eSports_2014_Summer
   Price:
     MinPrice: 2.98
     MaxPrice: 14.09

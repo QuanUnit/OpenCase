@@ -8,6 +8,7 @@ using Features.Skins.Configs;
 using Shared.Tools.AssetsExtensions;
 using UnityEditor;
 using UnityEngine;
+using Features.Cases.Data;
 
 namespace Features.RemoteConfigs.Editor.Interpreters
 {
@@ -105,9 +106,9 @@ namespace Features.RemoteConfigs.Editor.Interpreters
                 var assetPath = AssetDatabase.GUIDToAssetPath(guid);
                 var caseConfig = AssetDatabase.LoadAssetAtPath<CaseConfig>(assetPath);
 
-                if (caseConfig != null && cases.ContainsKey(caseConfig.CaseStringId) == false)
+                if (caseConfig != null && cases.ContainsKey(caseConfig.Id.Value) == false)
                 {
-                    cases.Add(caseConfig.CaseStringId, caseConfig);
+                    cases.Add(caseConfig.Id.Value, caseConfig);
                 }
             }
 
@@ -118,7 +119,7 @@ namespace Features.RemoteConfigs.Editor.Interpreters
         {
             var skins = AssetDatabaseTools.FindAllAssets<SkinConfig>();
 
-            return skins.ToDictionary(skin => skin.SkinStringId, skin => skin);
+            return skins.ToDictionary(skin => skin.Id.Value, skin => skin);
         }
 
         private CaseConfig GetOrCreate(Dictionary<string, CaseConfig> casesMap, string caseId, string casesPath, ImportReport report)
@@ -139,8 +140,7 @@ namespace Features.RemoteConfigs.Editor.Interpreters
         private CaseConfig CreateNew(string caseId, string casesPath)
         {
             var caseConfig = ScriptableObject.CreateInstance<CaseConfig>();
-            caseConfig.CreateId();
-            caseConfig.CaseStringId = caseId;
+            caseConfig.Id = new CaseId(caseId);
 
             var assetPath = $"{casesPath}/CaseConfig_{caseId}.asset";
 

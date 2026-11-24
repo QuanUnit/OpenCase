@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Dual_Berettas_Flora_Carnivora
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e140dec0-ad03-4557-bd0b-e11085773c06
-  SkinStringId: Dual_Berettas_Flora_Carnivora
+  Id:
+    _value: Dual_Berettas_Flora_Carnivora
   Name: Flora Carnivora
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Recoil Collection
+  Collection:
+    _value: Collection_Recoil
   Price:
     MinPrice: 0.4
     MaxPrice: 4.61

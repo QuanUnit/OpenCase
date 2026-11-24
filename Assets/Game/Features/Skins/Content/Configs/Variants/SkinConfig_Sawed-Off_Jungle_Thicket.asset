@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Sawed-Off_Jungle_Thicket
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d1031b5d-1ce0-43de-8c81-30cd2b299eb6
-  SkinStringId: Sawed-Off_Jungle_Thicket
+  Id:
+    _value: Sawed-Off_Jungle_Thicket
   Name: Jungle Thicket
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The St. Marc Collection
+  Collection:
+    _value: Collection_St_Marc
   Price:
     MinPrice: 3.53
     MaxPrice: 5.32

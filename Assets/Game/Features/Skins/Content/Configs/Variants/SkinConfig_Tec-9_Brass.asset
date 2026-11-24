@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Brass
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 77a30fbb-229d-4a20-b844-14d61cbf92a0
-  SkinStringId: Tec-9_Brass
+  Id:
+    _value: Tec-9_Brass
   Name: Brass
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Inferno Collection
+  Collection:
+    _value: Collection_Inferno
   Price:
     MinPrice: 3.24
     MaxPrice: 74.81

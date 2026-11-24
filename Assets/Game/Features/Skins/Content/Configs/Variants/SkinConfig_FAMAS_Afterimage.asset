@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Afterimage
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: adcd6cba-9325-4787-a4ef-dccae03f8662
-  SkinStringId: FAMAS_Afterimage
+  Id:
+    _value: FAMAS_Afterimage
   Name: Afterimage
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The eSports 2013 Winter Collection
+  Collection:
+    _value: Collection_eSports_2013_Winter
   Price:
     MinPrice: 24.51
     MaxPrice: 51.36

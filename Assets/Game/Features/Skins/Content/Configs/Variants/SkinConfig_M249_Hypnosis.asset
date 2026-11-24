@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M249_Hypnosis
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9c855318-f4ef-4624-bfe5-c637d51b21fd
-  SkinStringId: M249_Hypnosis
+  Id:
+    _value: M249_Hypnosis
   Name: Hypnosis
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Gallery Collection
+  Collection:
+    _value: Collection_Gallery
   Price:
     MinPrice: 0.09
     MaxPrice: 1.61

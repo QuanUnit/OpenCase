@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Black_Laminate
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 525d805c-b772-498d-9451-40f0eefb0c4e
-  SkinStringId: AK-47_Black_Laminate
+  Id:
+    _value: AK-47_Black_Laminate
   Name: Black Laminate
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Vertigo Collection
+  Collection:
+    _value: Collection_Vertigo
   Price:
     MinPrice: 36.34
     MaxPrice: 245.19

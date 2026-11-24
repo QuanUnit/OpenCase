@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SSG_08_Death_Strike
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e9bc6548-48f5-4bef-8119-9e76d30a4996
-  SkinStringId: SSG_08_Death_Strike
+  Id:
+    _value: SSG_08_Death_Strike
   Name: Death Strike
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The 2021 Dust 2 Collection
+  Collection:
+    _value: Collection_2021_Dust_2
   Price:
     MinPrice: 315
     MaxPrice: 641.9

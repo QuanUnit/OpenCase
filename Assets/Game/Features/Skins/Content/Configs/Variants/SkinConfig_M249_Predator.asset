@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M249_Predator
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e776a969-41c5-4209-b151-3f9821ce5882
-  SkinStringId: M249_Predator
+  Id:
+    _value: M249_Predator
   Name: Predator
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Havoc Collection
+  Collection:
+    _value: Collection_Havoc
   Price:
     MinPrice: 0.44
     MaxPrice: 2.79

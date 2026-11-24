@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Black_&_Tan
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2529ef4f-9eb2-4d1b-8444-3ac8e30370d6
-  SkinStringId: P250_Black_&_Tan
+  Id:
+    _value: P250_Black_&_Tan
   Name: Black & Tan
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The 2021 Dust 2 Collection
+  Collection:
+    _value: Collection_2021_Dust_2
   Price:
     MinPrice: 15.49
     MaxPrice: 29.43

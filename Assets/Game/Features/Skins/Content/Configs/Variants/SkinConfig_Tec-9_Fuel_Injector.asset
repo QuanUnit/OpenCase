@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Fuel_Injector
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d5626e79-017d-471a-9a3c-13583f601a38
-  SkinStringId: Tec-9_Fuel_Injector
+  Id:
+    _value: Tec-9_Fuel_Injector
   Name: Fuel Injector
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Gamma 2 Collection
+  Collection:
+    _value: Collection_Gamma_2
   Price:
     MinPrice: 8.73
     MaxPrice: 51.18

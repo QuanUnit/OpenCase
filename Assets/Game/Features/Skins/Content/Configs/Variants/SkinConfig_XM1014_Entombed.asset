@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Entombed
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 4c688744-5410-4c59-82fd-ad7e0666e155
-  SkinStringId: XM1014_Entombed
+  Id:
+    _value: XM1014_Entombed
   Name: Entombed
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Fracture Collection
+  Collection:
+    _value: Collection_Fracture
   Price:
     MinPrice: 3.23
     MaxPrice: 8.06

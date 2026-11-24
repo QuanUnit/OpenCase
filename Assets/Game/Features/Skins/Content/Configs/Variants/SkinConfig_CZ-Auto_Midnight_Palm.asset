@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Midnight_Palm
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: cfdd9f93-9e50-40ae-ba94-afaa05946ca0
-  SkinStringId: CZ-Auto_Midnight_Palm
+  Id:
+    _value: CZ-Auto_Midnight_Palm
   Name: Midnight Palm
   ContextData:
     SpriteSource:

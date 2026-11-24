@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SCAR-20_Stone_Mosaico
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 07ecfef1-bafb-4611-b554-0f7b40d63023
-  SkinStringId: SCAR-20_Stone_Mosaico
+  Id:
+    _value: SCAR-20_Stone_Mosaico
   Name: Stone Mosaico
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Canals Collection
+  Collection:
+    _value: Collection_Canals
   Price:
     MinPrice: 1.48
     MaxPrice: 7.84

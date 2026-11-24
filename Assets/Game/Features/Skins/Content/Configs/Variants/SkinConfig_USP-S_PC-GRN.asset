@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_PC-GRN
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ed023afc-928f-4ae2-a8dd-08e0353db591
-  SkinStringId: USP-S_PC-GRN
+  Id:
+    _value: USP-S_PC-GRN
   Name: PC-GRN
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Fever Collection
+  Collection:
+    _value: Collection_Fever
   Price:
     MinPrice: 0.11
     MaxPrice: 1.25

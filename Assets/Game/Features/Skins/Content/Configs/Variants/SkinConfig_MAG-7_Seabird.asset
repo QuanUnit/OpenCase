@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAG-7_Seabird
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9fec710d-57eb-414c-a7d4-a912f5799888
-  SkinStringId: MAG-7_Seabird
+  Id:
+    _value: MAG-7_Seabird
   Name: Seabird
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Chop Shop Collection
+  Collection:
+    _value: Collection_Chop_Shop
   Price:
     MinPrice: 1.64
     MaxPrice: 6.25

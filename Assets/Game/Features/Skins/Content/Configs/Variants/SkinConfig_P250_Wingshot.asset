@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Wingshot
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 825b00d2-20fe-4f96-baf4-4d168dde61dd
-  SkinStringId: P250_Wingshot
+  Id:
+    _value: P250_Wingshot
   Name: Wingshot
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Shadow Collection
+  Collection:
+    _value: Collection_Shadow
   Price:
     MinPrice: 1.27
     MaxPrice: 8.61

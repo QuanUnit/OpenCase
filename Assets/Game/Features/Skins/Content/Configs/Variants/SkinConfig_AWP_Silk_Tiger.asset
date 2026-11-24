@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Silk_Tiger
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 4cfe8050-702f-4af3-8686-c419bab2959b
-  SkinStringId: AWP_Silk_Tiger
+  Id:
+    _value: AWP_Silk_Tiger
   Name: Silk Tiger
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Havoc Collection
+  Collection:
+    _value: Collection_Havoc
   Price:
     MinPrice: 202.85
     MaxPrice: 1151.56

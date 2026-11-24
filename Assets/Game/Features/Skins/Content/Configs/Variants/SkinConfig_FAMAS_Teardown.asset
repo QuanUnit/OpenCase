@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Teardown
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 413eaa20-aacc-428f-ae0f-818738c0fdd3
-  SkinStringId: FAMAS_Teardown
+  Id:
+    _value: FAMAS_Teardown
   Name: Teardown
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Safehouse Collection
+  Collection:
+    _value: Collection_Safehouse
   Price:
     MinPrice: 0.07
     MaxPrice: 0.63

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Apep's_Curse
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7446dfc7-ad9e-49b3-b87f-a76fc9d0232c
-  SkinStringId: P250_Apep's_Curse
+  Id:
+    _value: P250_Apep's_Curse
   Name: Apep's Curse
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Anubis Collection
+  Collection:
+    _value: Collection_Anubis
   Price:
     MinPrice: 77.52
     MaxPrice: 277

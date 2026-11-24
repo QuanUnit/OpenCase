@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Dual_Berettas_Marina
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9730681e-a33b-46ff-b091-33ea8155df86
-  SkinStringId: Dual_Berettas_Marina
+  Id:
+    _value: Dual_Berettas_Marina
   Name: Marina
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Winter Offensive Collection
+  Collection:
+    _value: Collection_Winter_Offensive
   Price:
     MinPrice: 3.69
     MaxPrice: 16.84

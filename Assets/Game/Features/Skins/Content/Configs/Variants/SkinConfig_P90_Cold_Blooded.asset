@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Cold_Blooded
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 74dc9e7d-c6d8-4d83-ad5e-bd3744183ad7
-  SkinStringId: P90_Cold_Blooded
+  Id:
+    _value: P90_Cold_Blooded
   Name: Cold Blooded
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Arms Deal 2 Collection
+  Collection:
+    _value: Collection_Arms_Deal_2
   Price:
     MinPrice: 55.49
     MaxPrice: 56.17

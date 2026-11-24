@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_Dusk_Ruins
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 532e65bf-3d80-4399-83b2-bd9d239eeda3
-  SkinStringId: Galil_AR_Dusk_Ruins
+  Id:
+    _value: Galil_AR_Dusk_Ruins
   Name: Dusk Ruins
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Ancient Collection
+  Collection:
+    _value: Collection_Ancient
   Price:
     MinPrice: 16.85
     MaxPrice: 54.02

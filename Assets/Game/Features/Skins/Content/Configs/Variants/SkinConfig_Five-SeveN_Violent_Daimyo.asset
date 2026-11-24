@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Violent_Daimyo
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b337ed38-6121-49b2-b3e7-4d417a572b3d
-  SkinStringId: Five-SeveN_Violent_Daimyo
+  Id:
+    _value: Five-SeveN_Violent_Daimyo
   Name: Violent Daimyo
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Gamma Collection
+  Collection:
+    _value: Collection_Gamma
   Price:
     MinPrice: 0.27
     MaxPrice: 1.34

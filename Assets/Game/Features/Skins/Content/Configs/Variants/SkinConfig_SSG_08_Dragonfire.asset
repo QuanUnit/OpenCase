@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SSG_08_Dragonfire
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d03ff4d6-06ea-4b36-976a-6c3e09fcd028
-  SkinStringId: SSG_08_Dragonfire
+  Id:
+    _value: SSG_08_Dragonfire
   Name: Dragonfire
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Glove Collection
+  Collection:
+    _value: Collection_Glove
   Price:
     MinPrice: 422.55
     MaxPrice: 535.73

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Fade
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d0168d58-267a-4976-a837-764a6672e22b
-  SkinStringId: MP7_Fade
+  Id:
+    _value: MP7_Fade
   Name: Fade
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The 2018 Inferno Collection
+  Collection:
+    _value: Collection_2018_Inferno
   Price:
     MinPrice: 2.95
     MaxPrice: 5.9

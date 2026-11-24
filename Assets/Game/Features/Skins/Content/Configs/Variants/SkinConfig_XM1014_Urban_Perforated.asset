@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Urban_Perforated
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7fee5b17-6a1a-45af-8bfb-7d1b5280d276
-  SkinStringId: XM1014_Urban_Perforated
+  Id:
+    _value: XM1014_Urban_Perforated
   Name: Urban Perforated
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Vertigo Collection
+  Collection:
+    _value: Collection_Vertigo
   Price:
     MinPrice: 1.47
     MaxPrice: 25.45

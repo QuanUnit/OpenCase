@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Seasons
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 16979d18-d2c7-4eb1-bfed-569bec98759e
-  SkinStringId: XM1014_Seasons
+  Id:
+    _value: XM1014_Seasons
   Name: Seasons
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Spectrum Collection
+  Collection:
+    _value: Collection_Spectrum
   Price:
     MinPrice: 1.33
     MaxPrice: 2.99

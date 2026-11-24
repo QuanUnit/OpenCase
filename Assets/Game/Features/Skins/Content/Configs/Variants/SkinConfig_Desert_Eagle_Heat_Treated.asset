@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Heat_Treated
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 6f241286-62fd-4566-916b-6342fded06fc
-  SkinStringId: Desert_Eagle_Heat_Treated
+  Id:
+    _value: Desert_Eagle_Heat_Treated
   Name: Heat Treated
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: Limited Edition Item
+  Collection:
+    _value: Collection_Limited_Edition_Item
   Price:
     MinPrice: 1.13
     MaxPrice: 71.31

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_PAW
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f97f5747-e48c-4ad3-8913-73caf17b36ce
-  SkinStringId: AWP_PAW
+  Id:
+    _value: AWP_PAW
   Name: PAW
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Horizon Collection
+  Collection:
+    _value: Collection_Horizon
   Price:
     MinPrice: 1.28
     MaxPrice: 4.94

@@ -1,6 +1,6 @@
 using System;
 using Shared.UI;
-using QCore.Tools.Identifiers;
+using Features.Cases.Data;
 using Features.Cases.Configs;
 using TMPro;
 using UnityEngine;
@@ -13,7 +13,7 @@ namespace Features.Cases.UI.Panels
     {
         public event Action<CaseView> OpenClicked;
         
-        public QGuid CaseId { get; private set; }
+        public CaseId CaseId { get; private set; }
         
         [SerializeField] private Button _openButton;
         [SerializeField] private Image _mainIcon;

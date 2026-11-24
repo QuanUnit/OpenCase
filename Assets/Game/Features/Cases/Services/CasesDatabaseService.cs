@@ -2,8 +2,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Cysharp.Threading.Tasks;
 using QCore.Tools.Collections;
-using QCore.Tools.Identifiers;
 using Features.Cases.Configs;
+using Features.Cases.Data;
 using Shared.Lifecycle;
 
 namespace Features.Cases.Services
@@ -13,7 +13,7 @@ namespace Features.Cases.Services
         private readonly AllCasesConfig _allCasesConfig;
 
         public IReadOnlyList<KeyValue<CasesCategory, List<CaseConfig>>> AllCases => _allCasesConfig.CategoriesMap;
-        private Dictionary<QGuid, CaseConfig> _allCasesMap;
+        private Dictionary<CaseId, CaseConfig> _allCasesMap;
 
         public CasesDatabaseService(AllCasesConfig allCasesConfig)
         {
@@ -41,7 +41,7 @@ namespace Features.Cases.Services
             await UniTask.WhenAll(tasks);
         }
 
-        public CaseConfig GetCaseById(QGuid id)
+        public CaseConfig GetCaseById(CaseId id)
         {
             return _allCasesMap[id];
         }

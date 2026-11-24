@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Pink_Pearl
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 81899692-5a5a-4eae-bf72-24206660cf65
-  SkinStringId: CZ-Auto_Pink_Pearl
+  Id:
+    _value: CZ-Auto_Pink_Pearl
   Name: Pink Pearl
   ContextData:
     SpriteSource:

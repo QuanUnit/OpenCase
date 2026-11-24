@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A4_Sheet_Lightning
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 87a7701e-ac71-4f71-bfb7-38dfc6cdf624
-  SkinStringId: M4A4_Sheet_Lightning
+  Id:
+    _value: M4A4_Sheet_Lightning
   Name: Sheet Lightning
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Boreal Collection
+  Collection:
+    _value: Collection_Boreal
   Price:
     MinPrice: 1.78
     MaxPrice: 24.24

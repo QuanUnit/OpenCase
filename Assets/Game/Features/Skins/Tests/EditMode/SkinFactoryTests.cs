@@ -99,8 +99,8 @@ namespace Features.Skins.Tests.EditMode
             var first = factory.CreateRandom(config);
             var second = factory.CreateRandom(config);
 
-            Assert.AreEqual(config.Id, first.SkinSourceId);
-            Assert.AreEqual(config.Id, second.SkinSourceId);
+            Assert.AreEqual(config.Id, first.ConfigId);
+            Assert.AreEqual(config.Id, second.ConfigId);
             Assert.AreNotEqual(first.Id, second.Id);
         }
 

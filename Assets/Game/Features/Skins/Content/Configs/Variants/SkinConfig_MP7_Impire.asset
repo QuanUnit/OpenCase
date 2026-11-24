@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Impire
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 33902635-da07-456f-a3ef-ee6a1a71354e
-  SkinStringId: MP7_Impire
+  Id:
+    _value: MP7_Impire
   Name: Impire
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Wildfire Collection
+  Collection:
+    _value: Collection_Wildfire
   Price:
     MinPrice: 2.06
     MaxPrice: 6.26

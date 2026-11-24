@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Hot_Rod
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5be6385e-4962-433d-a3c6-45cbbd0de81c
-  SkinStringId: AUG_Hot_Rod
+  Id:
+    _value: AUG_Hot_Rod
   Name: Hot Rod
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Assault Collection
+  Collection:
+    _value: Collection_Assault
   Price:
     MinPrice: 465.81
     MaxPrice: 480

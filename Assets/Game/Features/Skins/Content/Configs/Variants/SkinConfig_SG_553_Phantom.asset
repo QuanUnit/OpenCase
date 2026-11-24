@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SG_553_Phantom
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 4a546798-8085-47d5-ad81-caa64f2fbab1
-  SkinStringId: SG_553_Phantom
+  Id:
+    _value: SG_553_Phantom
   Name: Phantom
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Spectrum 2 Collection
+  Collection:
+    _value: Collection_Spectrum_2
   Price:
     MinPrice: 0.7
     MaxPrice: 2.46

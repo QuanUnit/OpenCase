@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Skulls
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 033cb6b5-9673-43ae-a689-4a68066087d6
-  SkinStringId: MP7_Skulls
+  Id:
+    _value: MP7_Skulls
   Name: Skulls
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Arms Deal Collection
+  Collection:
+    _value: Collection_Arms_Deal
   Price:
     MinPrice: 12.94
     MaxPrice: 15.55

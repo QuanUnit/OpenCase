@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ75-Auto_Yellow_Jacket
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 13ef57ba-cc2e-4c69-9ed6-92f813068de2
-  SkinStringId: CZ75-Auto_Yellow_Jacket
+  Id:
+    _value: CZ75-Auto_Yellow_Jacket
   Name: Yellow Jacket
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Falchion Collection
+  Collection:
+    _value: Collection_Falchion
   Price:
     MinPrice: 4.45
     MaxPrice: 24.66

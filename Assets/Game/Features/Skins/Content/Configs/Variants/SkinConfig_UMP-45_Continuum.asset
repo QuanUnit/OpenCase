@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_UMP-45_Continuum
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 6616243d-4c79-409b-a419-fd6900e1355c
-  SkinStringId: UMP-45_Continuum
+  Id:
+    _value: UMP-45_Continuum
   Name: Continuum
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Genesis Collection
+  Collection:
+    _value: Collection_Genesis
   Price:
     MinPrice: 0.52
     MaxPrice: 5.3

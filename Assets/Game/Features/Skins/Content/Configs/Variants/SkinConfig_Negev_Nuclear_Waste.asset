@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Negev_Nuclear_Waste
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f19f2c6c-cdc5-401e-b143-9746ef3627f1
-  SkinStringId: Negev_Nuclear_Waste
+  Id:
+    _value: Negev_Nuclear_Waste
   Name: Nuclear Waste
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Cache Collection
+  Collection:
+    _value: Collection_Cache
   Price:
     MinPrice: 3.04
     MaxPrice: 6.27

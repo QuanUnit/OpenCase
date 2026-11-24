@@ -4,6 +4,7 @@
     "references": [
         "Features.RemoteConfigs.Editor",
         "Features.Skins",
+        "Shared",
         "Features.Skins.Tests.EditMode",
         "QCore.Tools",
         "rotorz.unity3d-class-type-reference",

@@ -22,7 +22,7 @@ namespace Features.RemoteConfigs.Editor.Collections
             {
                 var report = await Fill();
 
-                Debug.Log($"Skin collections: assigned {report.Assigned.Count}, unchanged {report.Unchanged.Count}, missing {report.Missing.Count}");
+                Debug.Log($"Skin collections: assigned {report.Assigned.Count}, unchanged {report.Unchanged.Count}, missing {report.Missing.Count}, new collections {report.Registered.Count}");
 
                 if (report.Missing.Count > 0)
                 {
@@ -46,7 +46,8 @@ namespace Features.RemoteConfigs.Editor.Collections
             var skins = new SkinsSourcesParser().ParseSkins(skinsJson);
             var collections = new SkinCollectionsMapper().Map(skins);
             var skinConfigs = FindSkinConfigs(config.SkinConfigsPath);
-            var report = new SkinCollectionsApplier().Apply(skinConfigs, collections);
+            var registry = AssetDatabaseTools.FindAllAssets<SkinCollectionsConfig>().First();
+            var report = new SkinCollectionsApplier().Apply(skinConfigs, collections, registry);
 
             AssetDatabase.SaveAssets();
 

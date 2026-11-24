@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Titanium_Bit
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2c595dbe-5d42-40cc-8ff1-d53b2bcaac93
-  SkinStringId: Tec-9_Titanium_Bit
+  Id:
+    _value: Tec-9_Titanium_Bit
   Name: Titanium Bit
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Arms Deal 3 Collection
+  Collection:
+    _value: Collection_Arms_Deal_3
   Price:
     MinPrice: 6.65
     MaxPrice: 9.27

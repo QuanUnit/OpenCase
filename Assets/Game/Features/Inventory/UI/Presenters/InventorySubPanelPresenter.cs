@@ -2,11 +2,10 @@ using System.Collections.Generic;
 using System.Linq;
 using Shared.UI.SelectableSet;
 using Features.Inventory.UI.Panels;
-using QCore.Tools.Identifiers;
+using Features.Skins.Data;
 using QCore.UISystem.Presenters;
 using QCore.UISystem.Services;
 using Features.Inventory.Services;
-using Features.Skins.Data;
 using Features.Skins.Services;
 using Features.Skins.Configs;
 using UnityEngine;
@@ -114,7 +113,7 @@ namespace Features.Inventory.UI.Presenters
             Panel.RemoveSkinView(skin.Id);
         }
 
-        private void SkinClickHandle(QGuid skinId)
+        private void SkinClickHandle(SkinInstanceId skinId)
         {
             _uiPanelsService.OpenWithPayload(() => Panel.SkinDetailsPopup, skinId);
         }
@@ -129,7 +128,7 @@ namespace Features.Inventory.UI.Presenters
         private SkinView CreateSkinView(Skin skin, SkinView prefab, Transform parent)
         {
             var view = Object.Instantiate(prefab, parent);
-            var skinConfig = _skinsDatabaseService.GetSkinConfigById(skin.SkinSourceId);
+            var skinConfig = _skinsDatabaseService.GetSkinConfigById(skin.ConfigId);
             var rarityVisual = _skinsUIContextDataService.GetRarityVisual(skinConfig.Rarity);
             
             view.SetView(new SkinView.Data()

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Dual_Berettas_Sweet_Little_Angels
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 952996bc-6d97-4ae7-8e1f-532daae3d64b
-  SkinStringId: Dual_Berettas_Sweet_Little_Angels
+  Id:
+    _value: Dual_Berettas_Sweet_Little_Angels
   Name: Sweet Little Angels
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Overpass 2024 Collection
+  Collection:
+    _value: Collection_Overpass_2024
   Price:
     MinPrice: 3.26
     MaxPrice: 24.08

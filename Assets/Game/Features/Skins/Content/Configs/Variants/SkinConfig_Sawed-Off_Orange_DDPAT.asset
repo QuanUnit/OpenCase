@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Sawed-Off_Orange_DDPAT
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7c178954-a2a8-4b0d-9c7f-6be9fe1bb1bf
-  SkinStringId: Sawed-Off_Orange_DDPAT
+  Id:
+    _value: Sawed-Off_Orange_DDPAT
   Name: Orange DDPAT
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The eSports 2013 Collection
+  Collection:
+    _value: Collection_eSports_2013
   Price:
     MinPrice: 12.31
     MaxPrice: 67.11

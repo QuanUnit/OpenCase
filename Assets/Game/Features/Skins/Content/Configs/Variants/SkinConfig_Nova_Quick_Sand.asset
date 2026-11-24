@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Nova_Quick_Sand
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ca9c7571-806a-40a0-86c5-04af06bf4fef
-  SkinStringId: Nova_Quick_Sand
+  Id:
+    _value: Nova_Quick_Sand
   Name: Quick Sand
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The 2021 Dust 2 Collection
+  Collection:
+    _value: Collection_2021_Dust_2
   Price:
     MinPrice: 14.25
     MaxPrice: 21.75

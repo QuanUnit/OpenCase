@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SCAR-20_Palm
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5c218b2b-b5b2-41c5-ac4b-590ca9be2b52
-  SkinStringId: SCAR-20_Palm
+  Id:
+    _value: SCAR-20_Palm
   Name: Palm
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Dust Collection
+  Collection:
+    _value: Collection_Dust
   Price:
     MinPrice: 11.17
     MaxPrice: 61.48

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Broken_Record
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a49cfc86-734c-4cc7-8ec6-91d0d4e2aaf5
-  SkinStringId: MP9_Broken_Record
+  Id:
+    _value: MP9_Broken_Record
   Name: Broken Record
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Genesis Collection
+  Collection:
+    _value: Collection_Genesis
   Price:
     MinPrice: 0.08
     MaxPrice: 1.05

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Nuclear_Threat
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: bb617e27-04a6-46a3-b0c0-fd35ed84ea8a
-  SkinStringId: P250_Nuclear_Threat
+  Id:
+    _value: P250_Nuclear_Threat
   Name: Nuclear Threat
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Nuke Collection
+  Collection:
+    _value: Collection_Nuke
   Price:
     MinPrice: 34.49
     MaxPrice: 372.27

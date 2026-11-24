@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_UMP-45_Day_Lily
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: da7310e8-94a3-41d9-b08e-f4c9f617e98e
-  SkinStringId: UMP-45_Day_Lily
+  Id:
+    _value: UMP-45_Day_Lily
   Name: Day Lily
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The St. Marc Collection
+  Collection:
+    _value: Collection_St_Marc
   Price:
     MinPrice: 81.34
     MaxPrice: 141.45

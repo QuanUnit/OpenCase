@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ75-Auto_Circaetus
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9c3f7ab5-e71d-466e-9027-04e12f4ef228
-  SkinStringId: CZ75-Auto_Circaetus
+  Id:
+    _value: CZ75-Auto_Circaetus
   Name: Circaetus
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Snakebite Collection
+  Collection:
+    _value: Collection_Snakebite
   Price:
     MinPrice: 0.15
     MaxPrice: 0.98

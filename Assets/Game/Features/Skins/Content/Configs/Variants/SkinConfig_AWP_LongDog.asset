@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_LongDog
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 08443ac1-8a57-4f09-b605-5b09c2105f34
-  SkinStringId: AWP_LongDog
+  Id:
+    _value: AWP_LongDog
   Name: LongDog
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Train 2025 Collection
+  Collection:
+    _value: Collection_Train_2025
   Price:
     MinPrice: 99.43
     MaxPrice: 1420.85

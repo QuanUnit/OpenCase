@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Indigo
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d6ae5200-e5cf-4592-8618-28836b9101ad
-  SkinStringId: MAC-10_Indigo
+  Id:
+    _value: MAC-10_Indigo
   Name: Indigo
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Cobblestone Collection
+  Collection:
+    _value: Collection_Cobblestone
   Price:
     MinPrice: 1.97
     MaxPrice: 22.87

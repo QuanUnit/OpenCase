@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_Desert_Tactical
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: da1ab6c3-cf69-4d03-a2c5-36e95c968bd8
-  SkinStringId: USP-S_Desert_Tactical
+  Id:
+    _value: USP-S_Desert_Tactical
   Name: Desert Tactical
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Anubis Collection
+  Collection:
+    _value: Collection_Anubis
   Price:
     MinPrice: 0.17
     MaxPrice: 1.49

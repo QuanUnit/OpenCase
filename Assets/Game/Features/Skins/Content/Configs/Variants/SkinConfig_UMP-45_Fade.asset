@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_UMP-45_Fade
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b705b528-bfcd-454c-a970-0ade51c97501
-  SkinStringId: UMP-45_Fade
+  Id:
+    _value: UMP-45_Fade
   Name: Fade
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The 2021 Dust 2 Collection
+  Collection:
+    _value: Collection_2021_Dust_2
   Price:
     MinPrice: 476.22
     MaxPrice: 560.23

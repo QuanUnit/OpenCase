@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAG-7_Cinquedea
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c0c7fd03-5a51-4035-94f7-df7abfc93703
-  SkinStringId: MAG-7_Cinquedea
+  Id:
+    _value: MAG-7_Cinquedea
   Name: Cinquedea
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Canals Collection
+  Collection:
+    _value: Collection_Canals
   Price:
     MinPrice: 405.76
     MaxPrice: 726.09

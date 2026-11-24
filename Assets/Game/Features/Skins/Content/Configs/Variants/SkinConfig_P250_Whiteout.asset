@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Whiteout
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ce3f35f3-7e83-4806-ac68-2701f85b911f
-  SkinStringId: P250_Whiteout
+  Id:
+    _value: P250_Whiteout
   Name: Whiteout
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Chop Shop Collection
+  Collection:
+    _value: Collection_Chop_Shop
   Price:
     MinPrice: 49.92
     MaxPrice: 244.54

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Cyanospatter
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 59217a03-ea15-4fc5-ac3d-e3d2875b9345
-  SkinStringId: FAMAS_Cyanospatter
+  Id:
+    _value: FAMAS_Cyanospatter
   Name: Cyanospatter
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Lake Collection
+  Collection:
+    _value: Collection_Lake
   Price:
     MinPrice: 0.02
     MaxPrice: 1.49

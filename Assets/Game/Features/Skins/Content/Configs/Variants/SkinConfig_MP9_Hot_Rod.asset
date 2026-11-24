@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Hot_Rod
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0b2fa000-ce43-4427-ba6e-05c2dfbc7175
-  SkinStringId: MP9_Hot_Rod
+  Id:
+    _value: MP9_Hot_Rod
   Name: Hot Rod
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Mirage Collection
+  Collection:
+    _value: Collection_Mirage
   Price:
     MinPrice: 365
     MaxPrice: 432.66

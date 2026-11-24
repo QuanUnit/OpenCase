@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Pipsqueak
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f88fcf7d-4caf-4613-aed0-f3dcdbf90767
-  SkinStringId: MAC-10_Pipsqueak
+  Id:
+    _value: MAC-10_Pipsqueak
   Name: Pipsqueak
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Overpass 2024 Collection
+  Collection:
+    _value: Collection_Overpass_2024
   Price:
     MinPrice: 0.31
     MaxPrice: 6.7

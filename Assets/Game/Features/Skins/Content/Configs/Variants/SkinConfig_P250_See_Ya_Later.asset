@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_See_Ya_Later
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ff273617-1bb6-4c68-9ce5-98302f664ab3
-  SkinStringId: P250_See_Ya_Later
+  Id:
+    _value: P250_See_Ya_Later
   Name: See Ya Later
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Spectrum 2 Collection
+  Collection:
+    _value: Collection_Spectrum_2
   Price:
     MinPrice: 80.01
     MaxPrice: 116.09

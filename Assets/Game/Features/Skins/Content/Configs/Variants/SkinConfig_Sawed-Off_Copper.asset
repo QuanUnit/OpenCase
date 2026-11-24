@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Sawed-Off_Copper
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9d298cbb-0777-4bcd-9c27-e3d432bb6342
-  SkinStringId: Sawed-Off_Copper
+  Id:
+    _value: Sawed-Off_Copper
   Name: Copper
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Dust Collection
+  Collection:
+    _value: Collection_Dust
   Price:
     MinPrice: 84.63
     MaxPrice: 143.02

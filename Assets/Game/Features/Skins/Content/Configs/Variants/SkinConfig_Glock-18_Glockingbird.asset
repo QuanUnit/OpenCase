@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Glockingbird
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f77e740e-b5df-4d0b-9350-680bb4336b69
-  SkinStringId: Glock-18_Glockingbird
+  Id:
+    _value: Glock-18_Glockingbird
   Name: Glockingbird
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Boreal Collection
+  Collection:
+    _value: Collection_Boreal
   Price:
     MinPrice: 2.13
     MaxPrice: 16.14

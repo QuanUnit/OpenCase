@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Sunset_Lily
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ed05ee54-d031-450d-8a9c-c6e5ede6882b
-  SkinStringId: P90_Sunset_Lily
+  Id:
+    _value: P90_Sunset_Lily
   Name: Sunset Lily
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The St. Marc Collection
+  Collection:
+    _value: Collection_St_Marc
   Price:
     MinPrice: 14.22
     MaxPrice: 20.18

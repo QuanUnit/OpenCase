@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Heaven_Guard
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5627cb19-66c1-4b5c-8a88-1de2d6dab2d4
-  SkinStringId: XM1014_Heaven_Guard
+  Id:
+    _value: XM1014_Heaven_Guard
   Name: Heaven Guard
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Huntsman Collection
+  Collection:
+    _value: Collection_Huntsman
   Price:
     MinPrice: 6.59
     MaxPrice: 14.54

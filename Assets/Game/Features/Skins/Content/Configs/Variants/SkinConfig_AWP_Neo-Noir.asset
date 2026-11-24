@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Neo-Noir
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 100adc04-1682-4e63-beab-61693362554a
-  SkinStringId: AWP_Neo-Noir
+  Id:
+    _value: AWP_Neo-Noir
   Name: Neo-Noir
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Danger Zone Collection
+  Collection:
+    _value: Collection_Danger_Zone
   Price:
     MinPrice: 35.75
     MaxPrice: 53.15

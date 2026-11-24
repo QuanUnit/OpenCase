@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Module
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1c30c4e1-45c7-49c5-9a95-f8f365f63207
-  SkinStringId: P90_Module
+  Id:
+    _value: P90_Module
   Name: Module
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Huntsman Collection
+  Collection:
+    _value: Collection_Huntsman
   Price:
     MinPrice: 1.37
     MaxPrice: 1.61

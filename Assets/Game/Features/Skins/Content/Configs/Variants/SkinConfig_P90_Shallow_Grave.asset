@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Shallow_Grave
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 27570a70-77e4-4844-b929-997099bb8eb0
-  SkinStringId: P90_Shallow_Grave
+  Id:
+    _value: P90_Shallow_Grave
   Name: Shallow Grave
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Glove Collection
+  Collection:
+    _value: Collection_Glove
   Price:
     MinPrice: 46.84
     MaxPrice: 82.78

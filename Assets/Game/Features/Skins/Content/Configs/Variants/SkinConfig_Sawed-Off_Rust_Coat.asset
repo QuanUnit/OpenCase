@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Sawed-Off_Rust_Coat
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d45c0807-6d7c-4c56-a2d2-ec7fa76da7b9
-  SkinStringId: Sawed-Off_Rust_Coat
+  Id:
+    _value: Sawed-Off_Rust_Coat
   Name: Rust Coat
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Cobblestone Collection
+  Collection:
+    _value: Collection_Cobblestone
   Price:
     MinPrice: 10.62
     MaxPrice: 15.96

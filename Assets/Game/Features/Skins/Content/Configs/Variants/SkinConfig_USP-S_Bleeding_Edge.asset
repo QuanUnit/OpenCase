@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_Bleeding_Edge
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 90081046-b32d-48b2-82a9-f0e93a37bb1a
-  SkinStringId: USP-S_Bleeding_Edge
+  Id:
+    _value: USP-S_Bleeding_Edge
   Name: Bleeding Edge
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Radiant Collection
+  Collection:
+    _value: Collection_Radiant
   Price:
     MinPrice: 2.84
     MaxPrice: 21.88

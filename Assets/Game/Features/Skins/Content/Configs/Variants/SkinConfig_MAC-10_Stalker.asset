@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Stalker
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 584897d0-b07a-43cf-b097-b1a989329e57
-  SkinStringId: MAC-10_Stalker
+  Id:
+    _value: MAC-10_Stalker
   Name: Stalker
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Shattered Web Collection
+  Collection:
+    _value: Collection_Shattered_Web
   Price:
     MinPrice: 34.36
     MaxPrice: 143.9

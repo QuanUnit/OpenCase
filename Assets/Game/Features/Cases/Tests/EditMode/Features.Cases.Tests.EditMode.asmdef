@@ -4,6 +4,7 @@
     "references": [
         "Features.Cases",
         "Features.Skins",
+        "Shared",
         "QCore.Tools",
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner"

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_Metallic_Squeezer
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 366b0ccb-0297-471f-933d-5c3939f486d3
-  SkinStringId: Galil_AR_Metallic_Squeezer
+  Id:
+    _value: Galil_AR_Metallic_Squeezer
   Name: Metallic Squeezer
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Overpass 2024 Collection
+  Collection:
+    _value: Collection_Overpass_2024
   Price:
     MinPrice: 0.31
     MaxPrice: 2.12

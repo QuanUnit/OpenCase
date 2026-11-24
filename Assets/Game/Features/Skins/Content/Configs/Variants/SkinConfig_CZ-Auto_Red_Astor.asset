@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Red_Astor
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e8baf4bc-6645-4a9a-838c-2887d52c7acf
-  SkinStringId: CZ-Auto_Red_Astor
+  Id:
+    _value: CZ-Auto_Red_Astor
   Name: Red Astor
   ContextData:
     SpriteSource:

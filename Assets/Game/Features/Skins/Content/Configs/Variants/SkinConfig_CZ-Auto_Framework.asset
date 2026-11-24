@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Framework
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ab14b1f8-5bac-4cef-a904-19eea40937de
-  SkinStringId: CZ-Auto_Framework
+  Id:
+    _value: CZ-Auto_Framework
   Name: Framework
   ContextData:
     SpriteSource:

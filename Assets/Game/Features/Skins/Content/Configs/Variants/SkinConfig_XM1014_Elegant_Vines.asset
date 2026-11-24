@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Elegant_Vines
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ba677a5c-2b33-4dd6-b273-923c843ff00c
-  SkinStringId: XM1014_Elegant_Vines
+  Id:
+    _value: XM1014_Elegant_Vines
   Name: Elegant Vines
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The 2021 Mirage Collection
+  Collection:
+    _value: Collection_2021_Mirage
   Price:
     MinPrice: 63.37
     MaxPrice: 87.74

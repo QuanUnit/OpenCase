@@ -14,7 +14,7 @@ namespace Features.RemoteConfigs.Editor.Cases
             Config = config;
             Weapon = weapon;
             DisplayName = $"{weapon} | {config.Name}";
-            SearchText = $"{weapon} {config.Name} {config.SkinStringId}".ToLowerInvariant();
+            SearchText = $"{weapon} {config.Name} {config.Id.Value}".ToLowerInvariant();
         }
     }
 }

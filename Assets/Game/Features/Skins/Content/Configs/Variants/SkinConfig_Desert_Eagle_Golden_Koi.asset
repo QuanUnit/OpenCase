@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Golden_Koi
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7ad8a57e-55c9-49ed-a203-37ff3822c5b3
-  SkinStringId: Desert_Eagle_Golden_Koi
+  Id:
+    _value: Desert_Eagle_Golden_Koi
   Name: Golden Koi
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Bravo Collection
+  Collection:
+    _value: Collection_Bravo
   Price:
     MinPrice: 218.07
     MaxPrice: 433.43

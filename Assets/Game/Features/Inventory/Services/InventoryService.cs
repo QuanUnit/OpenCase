@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using QCore.Tools.Identifiers;
 using Features.Skins.Data;
 using UnityEngine;
 
@@ -13,7 +12,7 @@ namespace Features.Inventory.Services
 
         public IEnumerable<Skin> AllSkins => _skins.Values;
 
-        private Dictionary<QGuid, Skin> _skins = new Dictionary<QGuid, Skin>();
+        private Dictionary<SkinInstanceId, Skin> _skins = new Dictionary<SkinInstanceId, Skin>();
         
         public void Add(Skin skin)
         {
@@ -26,7 +25,7 @@ namespace Features.Inventory.Services
             return Remove(skin.Id);
         }
 
-        public bool Remove(QGuid id)
+        public bool Remove(SkinInstanceId id)
         {
             if (_skins.Remove(id, out var skin))
             {
@@ -37,7 +36,7 @@ namespace Features.Inventory.Services
             return false;
         }
 
-        public Skin Get(QGuid id)
+        public Skin Get(SkinInstanceId id)
         {
             var has = TryGet(id, out var skin);
 
@@ -49,7 +48,7 @@ namespace Features.Inventory.Services
             return skin;
         }
 
-        public bool TryGet(QGuid id, out Skin skin)
+        public bool TryGet(SkinInstanceId id, out Skin skin)
         {
             return _skins.TryGetValue(id, out skin);
         }

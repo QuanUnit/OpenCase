@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Blaze
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 15714c18-6dda-4f89-adeb-d12eb285b3ce
-  SkinStringId: Desert_Eagle_Blaze
+  Id:
+    _value: Desert_Eagle_Blaze
   Name: Blaze
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Dust Collection
+  Collection:
+    _value: Collection_Dust
   Price:
     MinPrice: 913.09
     MaxPrice: 1028.52

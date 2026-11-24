@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Ice_Cap
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: abbef533-668d-4cb8-ab94-208f2b4e09ae
-  SkinStringId: Tec-9_Ice_Cap
+  Id:
+    _value: Tec-9_Ice_Cap
   Name: Ice Cap
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Gamma Collection
+  Collection:
+    _value: Collection_Gamma
   Price:
     MinPrice: 0.3
     MaxPrice: 0.96

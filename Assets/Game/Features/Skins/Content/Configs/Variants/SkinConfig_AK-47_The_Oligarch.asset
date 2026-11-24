@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_The_Oligarch
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 83e95b93-2797-4b73-869f-6adccd56c202
-  SkinStringId: AK-47_The_Oligarch
+  Id:
+    _value: AK-47_The_Oligarch
   Name: The Oligarch
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Genesis Collection
+  Collection:
+    _value: Collection_Genesis
   Price:
     MinPrice: 50.56
     MaxPrice: 554.22

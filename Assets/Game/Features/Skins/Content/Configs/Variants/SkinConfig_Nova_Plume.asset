@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Nova_Plume
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 28bc446f-62c5-40ff-8c28-e0f2f4a8d5a3
-  SkinStringId: Nova_Plume
+  Id:
+    _value: Nova_Plume
   Name: Plume
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Shattered Web Collection
+  Collection:
+    _value: Collection_Shattered_Web
   Price:
     MinPrice: 0.53
     MaxPrice: 2.16

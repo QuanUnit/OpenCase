@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAG-7_Justice
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 4a163243-35bd-4de2-bd8e-e07e9c30ce58
-  SkinStringId: MAG-7_Justice
+  Id:
+    _value: MAG-7_Justice
   Name: Justice
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Prisma 2 Collection
+  Collection:
+    _value: Collection_Prisma_2
   Price:
     MinPrice: 4.66
     MaxPrice: 22.83

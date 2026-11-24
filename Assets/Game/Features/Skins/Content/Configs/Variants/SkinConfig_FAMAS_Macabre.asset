@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Macabre
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e8a5ba03-2a0d-4251-a153-9b1ca4384bf4
-  SkinStringId: FAMAS_Macabre
+  Id:
+    _value: FAMAS_Macabre
   Name: Macabre
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Operation Hydra Collection
+  Collection:
+    _value: Collection_Operation_Hydra
   Price:
     MinPrice: 3.83
     MaxPrice: 7.5

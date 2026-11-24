@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Steel_Delta
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1a6ea7c7-e4df-408c-9d4d-1603a5d1bce9
-  SkinStringId: AK-47_Steel_Delta
+  Id:
+    _value: AK-47_Steel_Delta
   Name: Steel Delta
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Anubis Collection
+  Collection:
+    _value: Collection_Anubis
   Price:
     MinPrice: 1.93
     MaxPrice: 9.66

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_POP_AWP
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: adbb3c8b-caf4-4f67-89f3-f7dcabaeed14
-  SkinStringId: AWP_POP_AWP
+  Id:
+    _value: AWP_POP_AWP
   Name: POP AWP
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The 2021 Train Collection
+  Collection:
+    _value: Collection_2021_Train
   Price:
     MinPrice: 11.57
     MaxPrice: 41.75

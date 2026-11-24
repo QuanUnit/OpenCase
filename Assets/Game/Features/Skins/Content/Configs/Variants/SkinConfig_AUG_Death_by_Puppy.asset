@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Death_by_Puppy
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3de098a7-c3d4-4af6-b19f-48f831aebf53
-  SkinStringId: AUG_Death_by_Puppy
+  Id:
+    _value: AUG_Death_by_Puppy
   Name: Death by Puppy
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The CS20 Collection
+  Collection:
+    _value: Collection_CS20
   Price:
     MinPrice: 4.49
     MaxPrice: 16.12

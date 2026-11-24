@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P2000_Ocean_Foam
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 07eeb29f-caa1-43b0-8350-4410d0848642
-  SkinStringId: P2000_Ocean_Foam
+  Id:
+    _value: P2000_Ocean_Foam
   Name: Ocean Foam
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Bravo Collection
+  Collection:
+    _value: Collection_Bravo
   Price:
     MinPrice: 123.87
     MaxPrice: 132.75

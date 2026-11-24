@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Fever_Dream
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7c12a7a0-68b7-4141-9281-f33febb5e220
-  SkinStringId: AWP_Fever_Dream
+  Id:
+    _value: AWP_Fever_Dream
   Name: Fever Dream
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Spectrum Collection
+  Collection:
+    _value: Collection_Spectrum
   Price:
     MinPrice: 13.34
     MaxPrice: 25.58

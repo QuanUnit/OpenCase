@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Mehndi
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e96db53b-c6d7-499e-ada4-362c0681dc9c
-  SkinStringId: P250_Mehndi
+  Id:
+    _value: P250_Mehndi
   Name: Mehndi
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Winter Offensive Collection
+  Collection:
+    _value: Collection_Winter_Offensive
   Price:
     MinPrice: 14.89
     MaxPrice: 30.3

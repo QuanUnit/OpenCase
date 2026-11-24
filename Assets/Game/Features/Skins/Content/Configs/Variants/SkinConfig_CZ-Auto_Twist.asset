@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Twist
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e32beaf7-9ecd-4b9d-ad37-e974d22f3f88
-  SkinStringId: CZ-Auto_Twist
+  Id:
+    _value: CZ-Auto_Twist
   Name: Twist
   ContextData:
     SpriteSource:

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_R8_Revolver_Fade
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5d0ba78c-8cde-4b38-b714-23fb3f588704
-  SkinStringId: R8_Revolver_Fade
+  Id:
+    _value: R8_Revolver_Fade
   Name: Fade
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Revolver Case Collection
+  Collection:
+    _value: Collection_Revolver_Case
   Price:
     MinPrice: 73.27
     MaxPrice: 87.19

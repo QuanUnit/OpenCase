@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Meow_36
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 30222c6d-fb86-48db-8f2f-5a169aeb4aa9
-  SkinStringId: FAMAS_Meow_36
+  Id:
+    _value: FAMAS_Meow_36
   Name: Meow 36
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Recoil Collection
+  Collection:
+    _value: Collection_Recoil
   Price:
     MinPrice: 0.04
     MaxPrice: 0.75

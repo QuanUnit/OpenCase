@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Isaac
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 39b69426-7d06-4bfa-b2fa-09b6cd0920ba
-  SkinStringId: Tec-9_Isaac
+  Id:
+    _value: Tec-9_Isaac
   Name: Isaac
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Huntsman Collection
+  Collection:
+    _value: Collection_Huntsman
   Price:
     MinPrice: 1.9
     MaxPrice: 17.43

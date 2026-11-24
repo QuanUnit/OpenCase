@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Franklin
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8bd82916-83ae-4990-a9fd-42c9cc07bdc2
-  SkinStringId: P250_Franklin
+  Id:
+    _value: P250_Franklin
   Name: Franklin
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Bank Collection
+  Collection:
+    _value: Collection_Bank
   Price:
     MinPrice: 1.26
     MaxPrice: 4.34

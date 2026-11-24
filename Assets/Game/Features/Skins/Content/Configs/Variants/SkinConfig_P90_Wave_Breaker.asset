@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Wave_Breaker
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b33a1ce5-1521-438d-bd5e-551f3ea43052
-  SkinStringId: P90_Wave_Breaker
+  Id:
+    _value: P90_Wave_Breaker
   Name: Wave Breaker
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Fever Collection
+  Collection:
+    _value: Collection_Fever
   Price:
     MinPrice: 0.4
     MaxPrice: 5.13

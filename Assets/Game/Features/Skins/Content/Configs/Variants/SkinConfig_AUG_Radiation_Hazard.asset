@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Radiation_Hazard
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 31c3d351-972a-4ba7-8b44-873c4bcceae2
-  SkinStringId: AUG_Radiation_Hazard
+  Id:
+    _value: AUG_Radiation_Hazard
   Name: Radiation Hazard
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Cache Collection
+  Collection:
+    _value: Collection_Cache
   Price:
     MinPrice: 2.39
     MaxPrice: 6

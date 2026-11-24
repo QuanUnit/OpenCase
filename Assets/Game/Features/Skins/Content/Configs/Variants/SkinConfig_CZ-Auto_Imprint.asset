@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Imprint
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 67d8f8c3-a65a-44e4-8ba3-eae461f761f0
-  SkinStringId: CZ-Auto_Imprint
+  Id:
+    _value: CZ-Auto_Imprint
   Name: Imprint
   ContextData:
     SpriteSource:

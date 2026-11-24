@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Asiimov
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7336de85-dbc5-46e5-9ba2-cd800fd755be
-  SkinStringId: AK-47_Asiimov
+  Id:
+    _value: AK-47_Asiimov
   Name: Asiimov
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Danger Zone Collection
+  Collection:
+    _value: Collection_Danger_Zone
   Price:
     MinPrice: 38.24
     MaxPrice: 576.67

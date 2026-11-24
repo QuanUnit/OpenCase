@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_R8_Revolver_Amber_Fade
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d8312e09-63c5-4957-8e7b-6343cb597323
-  SkinStringId: R8_Revolver_Amber_Fade
+  Id:
+    _value: R8_Revolver_Amber_Fade
   Name: Amber Fade
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Dust 2 Collection
+  Collection:
+    _value: Collection_Dust_2
   Price:
     MinPrice: 1.11
     MaxPrice: 1.64

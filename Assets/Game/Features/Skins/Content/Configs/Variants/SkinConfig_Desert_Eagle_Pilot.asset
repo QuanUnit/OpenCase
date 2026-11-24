@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Pilot
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b2113c9a-33fa-46f0-964f-bb835bf5d2ef
-  SkinStringId: Desert_Eagle_Pilot
+  Id:
+    _value: Desert_Eagle_Pilot
   Name: Pilot
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Baggage Collection
+  Collection:
+    _value: Collection_Baggage
   Price:
     MinPrice: 76.56
     MaxPrice: 227.8

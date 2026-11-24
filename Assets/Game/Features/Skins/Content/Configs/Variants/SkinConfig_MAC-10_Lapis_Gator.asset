@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Lapis_Gator
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5484e9d2-3f47-441d-94dd-a795f39ae8ae
-  SkinStringId: MAC-10_Lapis_Gator
+  Id:
+    _value: MAC-10_Lapis_Gator
   Name: Lapis Gator
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Wildfire Collection
+  Collection:
+    _value: Collection_Wildfire
   Price:
     MinPrice: 0.4
     MaxPrice: 1.49

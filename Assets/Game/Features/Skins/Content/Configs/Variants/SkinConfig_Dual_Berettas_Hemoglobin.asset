@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Dual_Berettas_Hemoglobin
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c4f1526e-aa6a-450f-a0d5-a97c3cba0a5a
-  SkinStringId: Dual_Berettas_Hemoglobin
+  Id:
+    _value: Dual_Berettas_Hemoglobin
   Name: Hemoglobin
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Arms Deal 2 Collection
+  Collection:
+    _value: Collection_Arms_Deal_2
   Price:
     MinPrice: 12.05
     MaxPrice: 13.61

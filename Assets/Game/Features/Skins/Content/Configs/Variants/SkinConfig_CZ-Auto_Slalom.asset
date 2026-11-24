@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Slalom
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: bfa1677c-6e6e-4f15-a8fd-26e7c41f7906
-  SkinStringId: CZ-Auto_Slalom
+  Id:
+    _value: CZ-Auto_Slalom
   Name: Slalom
   ContextData:
     SpriteSource:

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_R8_Revolver_Grip
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1de08d2b-88d6-40e3-9856-77b345eae06f
-  SkinStringId: R8_Revolver_Grip
+  Id:
+    _value: R8_Revolver_Grip
   Name: Grip
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Clutch Collection
+  Collection:
+    _value: Collection_Clutch
   Price:
     MinPrice: 0.06
     MaxPrice: 0.73

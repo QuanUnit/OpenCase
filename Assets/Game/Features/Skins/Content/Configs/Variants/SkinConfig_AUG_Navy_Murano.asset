@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Navy_Murano
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 6cd6b8f1-d423-4c31-8b99-2b50e25d3191
-  SkinStringId: AUG_Navy_Murano
+  Id:
+    _value: AUG_Navy_Murano
   Name: Navy Murano
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Canals Collection
+  Collection:
+    _value: Collection_Canals
   Price:
     MinPrice: 1.4
     MaxPrice: 7.68

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A4_Poly_Mag
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0b4e19c8-669d-4b79-959c-86297284193a
-  SkinStringId: M4A4_Poly_Mag
+  Id:
+    _value: M4A4_Poly_Mag
   Name: Poly Mag
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Recoil Collection
+  Collection:
+    _value: Collection_Recoil
   Price:
     MinPrice: 0.06
     MaxPrice: 0.67

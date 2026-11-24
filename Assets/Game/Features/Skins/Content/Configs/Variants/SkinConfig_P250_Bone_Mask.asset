@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Bone_Mask
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7bdbb69a-6be6-465e-8a23-523a2d989e31
-  SkinStringId: P250_Bone_Mask
+  Id:
+    _value: P250_Bone_Mask
   Name: Bone Mask
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Mirage Collection
+  Collection:
+    _value: Collection_Mirage
   Price:
     MinPrice: 2.89
     MaxPrice: 14.25

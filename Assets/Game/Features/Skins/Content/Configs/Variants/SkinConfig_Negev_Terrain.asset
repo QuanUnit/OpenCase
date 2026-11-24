@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Negev_Terrain
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f926a40d-c85d-4e28-ba32-a18be61d8742
-  SkinStringId: Negev_Terrain
+  Id:
+    _value: Negev_Terrain
   Name: Terrain
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Phoenix Collection
+  Collection:
+    _value: Collection_Phoenix
   Price:
     MinPrice: 0.36
     MaxPrice: 0.73

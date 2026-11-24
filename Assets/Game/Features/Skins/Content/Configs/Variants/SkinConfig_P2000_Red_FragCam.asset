@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P2000_Red_FragCam
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: be0f18a2-7cfb-4330-978e-2e84b6f2e0e1
-  SkinStringId: P2000_Red_FragCam
+  Id:
+    _value: P2000_Red_FragCam
   Name: Red FragCam
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Arms Deal 3 Collection
+  Collection:
+    _value: Collection_Arms_Deal_3
   Price:
     MinPrice: 0.85
     MaxPrice: 3.08

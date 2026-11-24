@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Umbral_Rabbit
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1ddef98d-3f95-4641-8563-df5d6b4e6e3e
-  SkinStringId: Glock-18_Umbral_Rabbit
+  Id:
+    _value: Glock-18_Umbral_Rabbit
   Name: Umbral Rabbit
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Revolution Collection
+  Collection:
+    _value: Collection_Revolution
   Price:
     MinPrice: 0.41
     MaxPrice: 2.33

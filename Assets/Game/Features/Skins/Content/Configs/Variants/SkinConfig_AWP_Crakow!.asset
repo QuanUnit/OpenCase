@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Crakow!
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1c579b6b-e032-4301-abf5-63e1855f71b1
-  SkinStringId: AWP_Crakow!
+  Id:
+    _value: AWP_Crakow!
   Name: Crakow!
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Overpass 2024 Collection
+  Collection:
+    _value: Collection_Overpass_2024
   Price:
     MinPrice: 24.78
     MaxPrice: 259.26

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SG_553_Cyrex
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b5b46089-c0f2-4c78-9ea5-ef248da2021b
-  SkinStringId: SG_553_Cyrex
+  Id:
+    _value: SG_553_Cyrex
   Name: Cyrex
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Falchion Collection
+  Collection:
+    _value: Collection_Falchion
   Price:
     MinPrice: 3.88
     MaxPrice: 27.48

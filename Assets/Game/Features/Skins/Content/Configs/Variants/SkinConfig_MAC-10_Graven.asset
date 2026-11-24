@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Graven
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 4bd673fb-b18d-484f-9cb5-2bee8ebf98fa
-  SkinStringId: MAC-10_Graven
+  Id:
+    _value: MAC-10_Graven
   Name: Graven
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Bravo Collection
+  Collection:
+    _value: Collection_Bravo
   Price:
     MinPrice: 20.02
     MaxPrice: 74.14

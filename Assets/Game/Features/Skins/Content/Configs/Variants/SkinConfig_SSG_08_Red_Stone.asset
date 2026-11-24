@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SSG_08_Red_Stone
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 89404e5c-d596-4000-860f-9bf0ec44b8c9
-  SkinStringId: SSG_08_Red_Stone
+  Id:
+    _value: SSG_08_Red_Stone
   Name: Red Stone
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Norse Collection
+  Collection:
+    _value: Collection_Norse
   Price:
     MinPrice: 8.5
     MaxPrice: 31.1

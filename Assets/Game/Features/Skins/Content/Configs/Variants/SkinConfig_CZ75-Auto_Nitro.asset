@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ75-Auto_Nitro
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9ad72cc4-ce01-477c-aee1-5e9f8b268f07
-  SkinStringId: CZ75-Auto_Nitro
+  Id:
+    _value: CZ75-Auto_Nitro
   Name: Nitro
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Overpass Collection
+  Collection:
+    _value: Collection_Overpass
   Price:
     MinPrice: 9.57
     MaxPrice: 35.06

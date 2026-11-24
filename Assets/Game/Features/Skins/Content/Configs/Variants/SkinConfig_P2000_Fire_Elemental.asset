@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P2000_Fire_Elemental
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: dc4962c9-39aa-4ce8-beec-f89099abbb56
-  SkinStringId: P2000_Fire_Elemental
+  Id:
+    _value: P2000_Fire_Elemental
   Name: Fire Elemental
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Vanguard Collection
+  Collection:
+    _value: Collection_Vanguard
   Price:
     MinPrice: 66.39
     MaxPrice: 100.93

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Music_Box
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 547cc963-2375-4a8f-a47d-99e4599a46b4
-  SkinStringId: MP9_Music_Box
+  Id:
+    _value: MP9_Music_Box
   Name: Music Box
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The 2021 Mirage Collection
+  Collection:
+    _value: Collection_2021_Mirage
   Price:
     MinPrice: 11.87
     MaxPrice: 22

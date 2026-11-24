@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Army_Sheen
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0f711e18-d1e9-4a4a-ba86-c63ee3170cfb
-  SkinStringId: CZ-Auto_Army_Sheen
+  Id:
+    _value: CZ-Auto_Army_Sheen
   Name: Army Sheen
   ContextData:
     SpriteSource:

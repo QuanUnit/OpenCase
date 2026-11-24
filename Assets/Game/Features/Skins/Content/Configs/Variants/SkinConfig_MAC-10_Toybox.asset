@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Toybox
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c1dcce71-f26b-4539-993d-e45026b590cc
-  SkinStringId: MAC-10_Toybox
+  Id:
+    _value: MAC-10_Toybox
   Name: Toybox
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Operation Riptide Collection
+  Collection:
+    _value: Collection_Operation_Riptide
   Price:
     MinPrice: 23.11
     MaxPrice: 84.39

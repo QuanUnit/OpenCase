@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Dual_Berettas_Shred
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 26011f30-3700-43c4-9199-c34b85dae2c0
-  SkinStringId: Dual_Berettas_Shred
+  Id:
+    _value: Dual_Berettas_Shred
   Name: Shred
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Horizon Collection
+  Collection:
+    _value: Collection_Horizon
   Price:
     MinPrice: 0.23
     MaxPrice: 0.5

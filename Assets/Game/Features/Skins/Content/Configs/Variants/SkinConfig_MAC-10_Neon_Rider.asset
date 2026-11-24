@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Neon_Rider
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: dc6093a0-78dc-4976-9a26-ba557d258b7c
-  SkinStringId: MAC-10_Neon_Rider
+  Id:
+    _value: MAC-10_Neon_Rider
   Name: Neon Rider
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Chroma 2 Collection
+  Collection:
+    _value: Collection_Chroma_2
   Price:
     MinPrice: 110.05
     MaxPrice: 115.38

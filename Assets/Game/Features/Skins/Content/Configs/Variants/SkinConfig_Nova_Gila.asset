@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Nova_Gila
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e7e90708-cfb6-4d9f-b5bb-b2976617fce6
-  SkinStringId: Nova_Gila
+  Id:
+    _value: Nova_Gila
   Name: Gila
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Glove Collection
+  Collection:
+    _value: Collection_Glove
   Price:
     MinPrice: 5.29
     MaxPrice: 7.35

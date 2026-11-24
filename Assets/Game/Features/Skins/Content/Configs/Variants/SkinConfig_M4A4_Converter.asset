@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A4_Converter
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 91badf4c-5ca7-4cc3-ae75-6cdc388007ac
-  SkinStringId: M4A4_Converter
+  Id:
+    _value: M4A4_Converter
   Name: Converter
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The 2018 Inferno Collection
+  Collection:
+    _value: Collection_2018_Inferno
   Price:
     MinPrice: 0.22
     MaxPrice: 1.12

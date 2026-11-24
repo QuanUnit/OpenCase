@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: "SkinConfig_Desert_Eagle_Emerald_J\xF6rmungandr"
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 79ad6872-3d8e-4f1e-b6d4-f1a7217ae30e
-  SkinStringId: "Desert_Eagle_Emerald_J\xF6rmungandr"
+  Id:
+    _value: "Desert_Eagle_Emerald_J\xF6rmungandr"
   Name: "Emerald J\xF6rmungandr"
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Norse Collection
+  Collection:
+    _value: Collection_Norse
   Price:
     MinPrice: 475
     MaxPrice: 1021.12

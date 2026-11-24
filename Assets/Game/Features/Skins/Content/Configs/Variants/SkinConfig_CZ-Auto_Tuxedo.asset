@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Tuxedo
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c8fb9cf2-53e4-4702-8eb7-947c627d1c3b
-  SkinStringId: CZ-Auto_Tuxedo
+  Id:
+    _value: CZ-Auto_Tuxedo
   Name: Tuxedo
   ContextData:
     SpriteSource:

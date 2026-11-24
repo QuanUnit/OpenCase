@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Re-Entry
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 442a4782-0a07-45cc-9015-783fa160c911
-  SkinStringId: Tec-9_Re-Entry
+  Id:
+    _value: Tec-9_Re-Entry
   Name: Re-Entry
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Chroma 3 Collection
+  Collection:
+    _value: Collection_Chroma_3
   Price:
     MinPrice: 1.03
     MaxPrice: 3.04

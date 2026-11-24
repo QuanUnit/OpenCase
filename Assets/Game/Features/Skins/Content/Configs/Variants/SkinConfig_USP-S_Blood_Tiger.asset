@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_Blood_Tiger
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 48ca87f8-d5ef-49e7-a306-5267e26c6627
-  SkinStringId: USP-S_Blood_Tiger
+  Id:
+    _value: USP-S_Blood_Tiger
   Name: Blood Tiger
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The eSports 2014 Summer Collection
+  Collection:
+    _value: Collection_eSports_2014_Summer
   Price:
     MinPrice: 2.61
     MaxPrice: 8.16

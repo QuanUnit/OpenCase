@@ -1,0 +1,20 @@
+{
+    "name": "Features.Skins.Editor",
+    "rootNamespace": "Features.Skins.Editor",
+    "references": [
+        "Features.Skins",
+        "Shared",
+        "Shared.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

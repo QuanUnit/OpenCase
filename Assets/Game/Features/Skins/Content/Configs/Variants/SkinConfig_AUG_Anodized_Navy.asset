@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Anodized_Navy
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: edfa2309-2ab4-468a-b993-9c620596b40f
-  SkinStringId: AUG_Anodized_Navy
+  Id:
+    _value: AUG_Anodized_Navy
   Name: Anodized Navy
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Alpha Collection
+  Collection:
+    _value: Collection_Alpha
   Price:
     MinPrice: 32.28
     MaxPrice: 51.86

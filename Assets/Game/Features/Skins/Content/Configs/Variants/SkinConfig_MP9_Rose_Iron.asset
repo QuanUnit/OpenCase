@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Rose_Iron
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: cd49708d-fe4a-4b38-b32d-ad9da90ab54e
-  SkinStringId: MP9_Rose_Iron
+  Id:
+    _value: MP9_Rose_Iron
   Name: Rose Iron
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Winter Offensive Collection
+  Collection:
+    _value: Collection_Winter_Offensive
   Price:
     MinPrice: 8.07
     MaxPrice: 9.76

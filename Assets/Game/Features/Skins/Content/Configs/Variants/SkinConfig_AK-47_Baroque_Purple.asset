@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Baroque_Purple
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: cfdac30c-2be5-496e-91e1-460628b49ae6
-  SkinStringId: AK-47_Baroque_Purple
+  Id:
+    _value: AK-47_Baroque_Purple
   Name: Baroque Purple
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Canals Collection
+  Collection:
+    _value: Collection_Canals
   Price:
     MinPrice: 5.74
     MaxPrice: 103.06

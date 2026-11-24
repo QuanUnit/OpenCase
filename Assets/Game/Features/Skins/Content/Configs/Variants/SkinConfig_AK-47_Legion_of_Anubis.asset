@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Legion_of_Anubis
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f05a5631-16d5-4ec5-b34a-413b254d630e
-  SkinStringId: AK-47_Legion_of_Anubis
+  Id:
+    _value: AK-47_Legion_of_Anubis
   Name: Legion of Anubis
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Fracture Collection
+  Collection:
+    _value: Collection_Fracture
   Price:
     MinPrice: 31.86
     MaxPrice: 57.14

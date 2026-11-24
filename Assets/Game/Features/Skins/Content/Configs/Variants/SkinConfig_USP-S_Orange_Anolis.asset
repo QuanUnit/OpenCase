@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_Orange_Anolis
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e814b328-54bb-44d2-9e0e-f1ae019a765c
-  SkinStringId: USP-S_Orange_Anolis
+  Id:
+    _value: USP-S_Orange_Anolis
   Name: Orange Anolis
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The 2021 Dust 2 Collection
+  Collection:
+    _value: Collection_2021_Dust_2
   Price:
     MinPrice: 84.38
     MaxPrice: 139.38

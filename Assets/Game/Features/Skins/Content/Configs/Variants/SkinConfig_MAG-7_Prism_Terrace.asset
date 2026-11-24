@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAG-7_Prism_Terrace
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 52f11d7a-ce2c-46cf-a57f-83efc1adbe69
-  SkinStringId: MAG-7_Prism_Terrace
+  Id:
+    _value: MAG-7_Prism_Terrace
   Name: Prism Terrace
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The 2021 Vertigo Collection
+  Collection:
+    _value: Collection_2021_Vertigo
   Price:
     MinPrice: 46.13
     MaxPrice: 60

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Doomkitty
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: de8620a4-feeb-4efa-afa1-da59dae69d17
-  SkinStringId: FAMAS_Doomkitty
+  Id:
+    _value: FAMAS_Doomkitty
   Name: Doomkitty
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The eSports 2013 Collection
+  Collection:
+    _value: Collection_eSports_2013
   Price:
     MinPrice: 3.8
     MaxPrice: 3.92

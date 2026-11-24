@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ75-Auto_Hexane
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7972034f-2270-4443-8eb8-697c525c186c
-  SkinStringId: CZ75-Auto_Hexane
+  Id:
+    _value: CZ75-Auto_Hexane
   Name: Hexane
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The eSports 2014 Summer Collection
+  Collection:
+    _value: Collection_eSports_2014_Summer
   Price:
     MinPrice: 1.34
     MaxPrice: 4.44

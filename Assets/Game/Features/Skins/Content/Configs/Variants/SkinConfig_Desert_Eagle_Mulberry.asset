@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Mulberry
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: bc3659db-53b1-48d4-ac1a-153930c2248c
-  SkinStringId: Desert_Eagle_Mulberry
+  Id:
+    _value: Desert_Eagle_Mulberry
   Name: Mulberry
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Radiant Collection
+  Collection:
+    _value: Collection_Radiant
   Price:
     MinPrice: 4.71
     MaxPrice: 34.09

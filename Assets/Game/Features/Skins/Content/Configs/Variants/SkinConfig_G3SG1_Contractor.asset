@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_G3SG1_Contractor
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5217aa6c-be11-48f7-91a9-72b3965a04cf
-  SkinStringId: G3SG1_Contractor
+  Id:
+    _value: G3SG1_Contractor
   Name: Contractor
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Baggage Collection
+  Collection:
+    _value: Collection_Baggage
   Price:
     MinPrice: 1.98
     MaxPrice: 25.16

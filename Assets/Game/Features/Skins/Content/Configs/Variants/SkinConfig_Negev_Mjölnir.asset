@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: "SkinConfig_Negev_Mj\xF6lnir"
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f2cfddd5-8eda-4d61-8dab-a8523a26b6ce
-  SkinStringId: "Negev_Mj\xF6lnir"
+  Id:
+    _value: "Negev_Mj\xF6lnir"
   Name: "Mj\xF6lnir"
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Norse Collection
+  Collection:
+    _value: Collection_Norse
   Price:
     MinPrice: 2651.71
     MaxPrice: 2973.82

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Nova_Predator
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 06ed088e-5c76-4453-9c40-077554d53ae8
-  SkinStringId: Nova_Predator
+  Id:
+    _value: Nova_Predator
   Name: Predator
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Dust 2 Collection
+  Collection:
+    _value: Collection_Dust_2
   Price:
     MinPrice: 0.01
     MaxPrice: 0.15

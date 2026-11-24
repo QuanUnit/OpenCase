@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Fallout_Warning
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8bbb1a1b-3a0c-4b40-bec5-197fbf58e3aa
-  SkinStringId: XM1014_Fallout_Warning
+  Id:
+    _value: XM1014_Fallout_Warning
   Name: Fallout Warning
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Nuke Collection
+  Collection:
+    _value: Collection_Nuke
   Price:
     MinPrice: 9.06
     MaxPrice: 117.87

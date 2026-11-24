@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Sawed-Off_The_Kraken
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: aedd7bfb-f771-44bf-a6a5-b267c8596e5d
-  SkinStringId: Sawed-Off_The_Kraken
+  Id:
+    _value: Sawed-Off_The_Kraken
   Name: The Kraken
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Winter Offensive Collection
+  Collection:
+    _value: Collection_Winter_Offensive
   Price:
     MinPrice: 73.5
     MaxPrice: 85.33

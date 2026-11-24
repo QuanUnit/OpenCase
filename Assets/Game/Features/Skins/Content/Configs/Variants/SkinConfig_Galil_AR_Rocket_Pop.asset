@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_Rocket_Pop
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 344a441a-20b8-4453-9cc1-181ef285430a
-  SkinStringId: Galil_AR_Rocket_Pop
+  Id:
+    _value: Galil_AR_Rocket_Pop
   Name: Rocket Pop
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Falchion Collection
+  Collection:
+    _value: Collection_Falchion
   Price:
     MinPrice: 0.47
     MaxPrice: 9.64

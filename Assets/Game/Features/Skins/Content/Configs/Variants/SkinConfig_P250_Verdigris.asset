@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Verdigris
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 6a3c5c8a-4126-4aa7-a30f-8e65b7846609
-  SkinStringId: P250_Verdigris
+  Id:
+    _value: P250_Verdigris
   Name: Verdigris
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Prisma Collection
+  Collection:
+    _value: Collection_Prisma
   Price:
     MinPrice: 0.22
     MaxPrice: 0.62

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Fall_Hazard
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5d6d5039-23a8-4b4f-b11c-dba8db3a38d6
-  SkinStringId: Five-SeveN_Fall_Hazard
+  Id:
+    _value: Five-SeveN_Fall_Hazard
   Name: Fall Hazard
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The 2021 Vertigo Collection
+  Collection:
+    _value: Collection_2021_Vertigo
   Price:
     MinPrice: 221.24
     MaxPrice: 949.62

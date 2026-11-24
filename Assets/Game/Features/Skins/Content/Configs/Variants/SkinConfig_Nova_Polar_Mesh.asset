@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Nova_Polar_Mesh
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2fc2ac98-88f3-4550-80f3-f50b4858b60d
-  SkinStringId: Nova_Polar_Mesh
+  Id:
+    _value: Nova_Polar_Mesh
   Name: Polar Mesh
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Train Collection
+  Collection:
+    _value: Collection_Train
   Price:
     MinPrice: 0.01
     MaxPrice: 0.57

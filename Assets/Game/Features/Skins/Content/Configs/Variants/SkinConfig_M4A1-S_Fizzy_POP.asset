@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A1-S_Fizzy_POP
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1f4d0447-3a42-4ffd-a57a-3ce8977cdfb1
-  SkinStringId: M4A1-S_Fizzy_POP
+  Id:
+    _value: M4A1-S_Fizzy_POP
   Name: Fizzy POP
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The 2021 Train Collection
+  Collection:
+    _value: Collection_2021_Train
   Price:
     MinPrice: 1.64
     MaxPrice: 9.84

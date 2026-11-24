@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A1-S_Master_Piece
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f303c4be-27e0-4363-bc5a-80e0d83b3ac9
-  SkinStringId: M4A1-S_Master_Piece
+  Id:
+    _value: M4A1-S_Master_Piece
   Name: Master Piece
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Overpass Collection
+  Collection:
+    _value: Collection_Overpass
   Price:
     MinPrice: 109.9
     MaxPrice: 975.24

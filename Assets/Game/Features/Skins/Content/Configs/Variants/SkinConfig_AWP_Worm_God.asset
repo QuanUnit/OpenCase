@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Worm_God
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 869c7739-8d98-4c56-ab26-34e6c9f85306
-  SkinStringId: AWP_Worm_God
+  Id:
+    _value: AWP_Worm_God
   Name: Worm God
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Chroma 2 Collection
+  Collection:
+    _value: Collection_Chroma_2
   Price:
     MinPrice: 1.9
     MaxPrice: 3.89

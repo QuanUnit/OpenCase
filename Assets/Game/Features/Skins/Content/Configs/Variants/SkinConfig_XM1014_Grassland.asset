@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Grassland
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: cc330272-766c-4644-a13e-57084a98ce80
-  SkinStringId: XM1014_Grassland
+  Id:
+    _value: XM1014_Grassland
   Name: Grassland
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Militia Collection
+  Collection:
+    _value: Collection_Militia
   Price:
     MinPrice: 2
     MaxPrice: 38.48

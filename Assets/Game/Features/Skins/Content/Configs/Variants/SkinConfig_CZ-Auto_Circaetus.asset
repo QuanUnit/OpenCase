@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Circaetus
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c10d0a3d-d769-480e-82e4-1709e72efd9a
-  SkinStringId: CZ-Auto_Circaetus
+  Id:
+    _value: CZ-Auto_Circaetus
   Name: Circaetus
   ContextData:
     SpriteSource:

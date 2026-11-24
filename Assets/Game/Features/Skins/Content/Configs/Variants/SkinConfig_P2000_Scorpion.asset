@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P2000_Scorpion
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f4b81d37-b865-4534-833e-b52b3abb267c
-  SkinStringId: P2000_Scorpion
+  Id:
+    _value: P2000_Scorpion
   Name: Scorpion
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Dust Collection
+  Collection:
+    _value: Collection_Dust
   Price:
     MinPrice: 49.16
     MaxPrice: 57.07

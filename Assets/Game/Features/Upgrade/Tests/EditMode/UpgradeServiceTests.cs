@@ -4,8 +4,8 @@ using Features.Skins.Data;
 using Features.Upgrade.Configs;
 using Features.Upgrade.Services;
 using NUnit.Framework;
-using QCore.Tools.Identifiers;
 using UnityEngine;
+using Shared.Identifiers;
 
 namespace Features.Upgrade.Tests.EditMode
 {
@@ -40,7 +40,7 @@ namespace Features.Upgrade.Tests.EditMode
         private SkinConfig AddSkinConfig(float minPrice, float maxPrice, params float[] factoryPrices)
         {
             var config = ScriptableObject.CreateInstance<SkinConfig>();
-            config.CreateId();
+            config.Id = EntityIds.CreateUnique<SkinId>("TestSkin");
             config.Price = new PriceRange(minPrice, maxPrice);
 
             _skinsDatabase.Add(config);
@@ -51,7 +51,7 @@ namespace Features.Upgrade.Tests.EditMode
 
         private Skin AddSourceSkin(float price)
         {
-            var skin = new Skin(QGuid.CreateNew(), QGuid.CreateNew(), 0.1f, price, false, false);
+            var skin = new Skin(EntityIds.CreateUnique<SkinId>("TestSkin"), EntityIds.CreateUnique<SkinInstanceId>(SkinInstanceId.EntityName), 0.1f, price, false, false);
             _inventory.Add(skin);
 
             return skin;

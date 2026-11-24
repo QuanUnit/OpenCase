@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_Stainless
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 846f6198-28a3-492d-b4bf-fd983c3cc2bc
-  SkinStringId: USP-S_Stainless
+  Id:
+    _value: USP-S_Stainless
   Name: Stainless
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Arms Deal 3 Collection
+  Collection:
+    _value: Collection_Arms_Deal_3
   Price:
     MinPrice: 4.88
     MaxPrice: 41.32

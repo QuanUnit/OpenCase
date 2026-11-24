@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Dual_Berettas_Oil_Change
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9d5df9c6-f2b3-4bc5-b206-7502260a815b
-  SkinStringId: Dual_Berettas_Oil_Change
+  Id:
+    _value: Dual_Berettas_Oil_Change
   Name: Oil Change
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The 2021 Vertigo Collection
+  Collection:
+    _value: Collection_2021_Vertigo
   Price:
     MinPrice: 0.67
     MaxPrice: 1.01

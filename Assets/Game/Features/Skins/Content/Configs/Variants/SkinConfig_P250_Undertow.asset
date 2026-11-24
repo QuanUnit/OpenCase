@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Undertow
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 12cfffb3-8e73-4a22-86c1-320e17fb8b6d
-  SkinStringId: P250_Undertow
+  Id:
+    _value: P250_Undertow
   Name: Undertow
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Arms Deal 3 Collection
+  Collection:
+    _value: Collection_Arms_Deal_3
   Price:
     MinPrice: 28.22
     MaxPrice: 36.28

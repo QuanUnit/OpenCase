@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_PP-Bizon_High_Roller
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: dfa405f5-eb0c-4187-ae56-d4fce20087a0
-  SkinStringId: PP-Bizon_High_Roller
+  Id:
+    _value: PP-Bizon_High_Roller
   Name: High Roller
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Spectrum 2 Collection
+  Collection:
+    _value: Collection_Spectrum_2
   Price:
     MinPrice: 7.86
     MaxPrice: 26.95

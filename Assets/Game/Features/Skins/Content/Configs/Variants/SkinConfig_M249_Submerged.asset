@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M249_Submerged
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d376384d-de5d-4a83-80bd-67459b8f9475
-  SkinStringId: M249_Submerged
+  Id:
+    _value: M249_Submerged
   Name: Submerged
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Anubis Collection
+  Collection:
+    _value: Collection_Anubis
   Price:
     MinPrice: 0.02
     MaxPrice: 0.28

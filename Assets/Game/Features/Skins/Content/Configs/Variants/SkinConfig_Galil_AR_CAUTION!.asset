@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_CAUTION!
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9c4a41e4-934b-4f02-893e-9639cde76228
-  SkinStringId: Galil_AR_CAUTION!
+  Id:
+    _value: Galil_AR_CAUTION!
   Name: CAUTION!
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The 2021 Vertigo Collection
+  Collection:
+    _value: Collection_2021_Vertigo
   Price:
     MinPrice: 51.37
     MaxPrice: 126.71

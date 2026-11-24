@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Corticera
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 627662b0-a2c6-4810-bfe2-4bd123d37829
-  SkinStringId: AWP_Corticera
+  Id:
+    _value: AWP_Corticera
   Name: Corticera
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The eSports 2014 Summer Collection
+  Collection:
+    _value: Collection_eSports_2014_Summer
   Price:
     MinPrice: 31.12
     MaxPrice: 267.14

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_UMP-45_Primal_Saber
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8d9324b4-23dc-4d92-b908-b1e7e46be2bd
-  SkinStringId: UMP-45_Primal_Saber
+  Id:
+    _value: UMP-45_Primal_Saber
   Name: Primal Saber
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Chroma 3 Collection
+  Collection:
+    _value: Collection_Chroma_3
   Price:
     MinPrice: 10.47
     MaxPrice: 26.01

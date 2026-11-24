@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Ocean_Drive
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 263cb590-8855-458c-bbb4-bff8dc6d1fb0
-  SkinStringId: Desert_Eagle_Ocean_Drive
+  Id:
+    _value: Desert_Eagle_Ocean_Drive
   Name: Ocean Drive
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Operation Riptide Collection
+  Collection:
+    _value: Collection_Operation_Riptide
   Price:
     MinPrice: 64.95
     MaxPrice: 433.36

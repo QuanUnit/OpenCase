@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_R8_Revolver_Survivalist
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e27411db-c70c-49d0-96dd-4b2ce9360fc3
-  SkinStringId: R8_Revolver_Survivalist
+  Id:
+    _value: R8_Revolver_Survivalist
   Name: Survivalist
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Horizon Collection
+  Collection:
+    _value: Collection_Horizon
   Price:
     MinPrice: 0.2
     MaxPrice: 0.69

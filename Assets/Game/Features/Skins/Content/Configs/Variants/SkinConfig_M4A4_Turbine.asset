@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A4_Turbine
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 4254eee5-b5e6-4b5b-b8cf-254df43369f7
-  SkinStringId: M4A4_Turbine
+  Id:
+    _value: M4A4_Turbine
   Name: Turbine
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Gallery Collection
+  Collection:
+    _value: Collection_Gallery
   Price:
     MinPrice: 1.01
     MaxPrice: 31.39

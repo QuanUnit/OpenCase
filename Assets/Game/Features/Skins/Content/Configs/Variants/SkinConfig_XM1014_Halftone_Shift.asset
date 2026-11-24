@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Halftone_Shift
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5868ae92-2a30-42f7-ab9f-dcfc6a96fe00
-  SkinStringId: XM1014_Halftone_Shift
+  Id:
+    _value: XM1014_Halftone_Shift
   Name: Halftone Shift
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Graphic Design Collection
+  Collection:
+    _value: Collection_Graphic_Design
   Price:
     MinPrice: 1.55
     MaxPrice: 4.15

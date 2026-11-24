@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAG-7_Memento
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a8d274e5-57ab-4081-96a8-1dc18d73f726
-  SkinStringId: MAG-7_Memento
+  Id:
+    _value: MAG-7_Memento
   Name: Memento
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The eSports 2013 Collection
+  Collection:
+    _value: Collection_eSports_2013
   Price:
     MinPrice: 3.7
     MaxPrice: 5.2

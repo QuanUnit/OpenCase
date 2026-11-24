@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Aristocrat
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 73d60c58-7006-4b9e-8709-8c7735949ac6
-  SkinStringId: AUG_Aristocrat
+  Id:
+    _value: AUG_Aristocrat
   Name: Aristocrat
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Gamma Collection
+  Collection:
+    _value: Collection_Gamma
   Price:
     MinPrice: 1.11
     MaxPrice: 4.92

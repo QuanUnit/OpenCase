@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A1-S_Welcome_to_the_Jungle
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2f0208f4-a590-45e5-8a85-6fbeac6e0c4d
-  SkinStringId: M4A1-S_Welcome_to_the_Jungle
+  Id:
+    _value: M4A1-S_Welcome_to_the_Jungle
   Name: Welcome to the Jungle
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Ancient Collection
+  Collection:
+    _value: Collection_Ancient
   Price:
     MinPrice: 648.94
     MaxPrice: 3203.25

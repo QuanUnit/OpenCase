@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Lightning_Strike
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 483ffb61-bad5-44d0-a347-64fce25196ba
-  SkinStringId: AWP_Lightning_Strike
+  Id:
+    _value: AWP_Lightning_Strike
   Name: Lightning Strike
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Arms Deal Collection
+  Collection:
+    _value: Collection_Arms_Deal
   Price:
     MinPrice: 619.03
     MaxPrice: 633.46

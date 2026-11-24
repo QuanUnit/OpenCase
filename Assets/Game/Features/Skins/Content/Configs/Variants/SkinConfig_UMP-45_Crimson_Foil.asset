@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_UMP-45_Crimson_Foil
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 07f380db-1287-495a-b342-7ded314851db
-  SkinStringId: UMP-45_Crimson_Foil
+  Id:
+    _value: UMP-45_Crimson_Foil
   Name: Crimson Foil
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Sport & Field Collection
+  Collection:
+    _value: Collection_Sport_And_Field
   Price:
     MinPrice: 5.66
     MaxPrice: 17.27

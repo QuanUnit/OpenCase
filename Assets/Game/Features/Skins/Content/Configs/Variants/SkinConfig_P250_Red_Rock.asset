@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Red_Rock
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a8c9bcd9-9d16-4714-98eb-52cbcd3ac6e1
-  SkinStringId: P250_Red_Rock
+  Id:
+    _value: P250_Red_Rock
   Name: Red Rock
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Operation Hydra Collection
+  Collection:
+    _value: Collection_Operation_Hydra
   Price:
     MinPrice: 19.91
     MaxPrice: 48.92

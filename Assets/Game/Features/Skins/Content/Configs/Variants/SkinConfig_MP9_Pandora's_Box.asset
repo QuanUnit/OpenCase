@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Pandora's_Box
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e20a612c-60ea-4521-b328-3b7ff07ba2b0
-  SkinStringId: MP9_Pandora's_Box
+  Id:
+    _value: MP9_Pandora's_Box
   Name: Pandora's Box
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Gods and Monsters Collection
+  Collection:
+    _value: Collection_Gods_and_Monsters
   Price:
     MinPrice: 163.81
     MaxPrice: 210.57

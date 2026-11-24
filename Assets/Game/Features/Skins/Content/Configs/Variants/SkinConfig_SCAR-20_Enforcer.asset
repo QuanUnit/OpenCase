@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SCAR-20_Enforcer
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 304ba8e6-65fe-44e4-b412-8a3854928873
-  SkinStringId: SCAR-20_Enforcer
+  Id:
+    _value: SCAR-20_Enforcer
   Name: Enforcer
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Prisma 2 Collection
+  Collection:
+    _value: Collection_Prisma_2
   Price:
     MinPrice: 0.46
     MaxPrice: 4.34

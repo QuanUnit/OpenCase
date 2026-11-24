@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SG_553_Tornado
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b8b8fae1-09bf-41b3-9273-16583165f493
-  SkinStringId: SG_553_Tornado
+  Id:
+    _value: SG_553_Tornado
   Name: Tornado
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Assault Collection
+  Collection:
+    _value: Collection_Assault
   Price:
     MinPrice: 9.72
     MaxPrice: 54.3

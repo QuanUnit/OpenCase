@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_UMP-45_Plastique
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b585f6d7-ea83-4c8d-a852-a053c9305912
-  SkinStringId: UMP-45_Plastique
+  Id:
+    _value: UMP-45_Plastique
   Name: Plastique
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The CS20 Collection
+  Collection:
+    _value: Collection_CS20
   Price:
     MinPrice: 0.53
     MaxPrice: 3.67

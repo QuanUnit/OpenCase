@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Rapid_Eye_Movement
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e3ed2586-209c-43aa-b37c-3ef24aee32e2
-  SkinStringId: FAMAS_Rapid_Eye_Movement
+  Id:
+    _value: FAMAS_Rapid_Eye_Movement
   Name: Rapid Eye Movement
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Dreams & Nightmares Collection
+  Collection:
+    _value: Collection_Dreams_And_Nightmares
   Price:
     MinPrice: 5.48
     MaxPrice: 24.36

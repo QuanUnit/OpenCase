@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Halftone_Wash
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 98877d3a-8451-44ed-b79b-3b6cb5944526
-  SkinStringId: FAMAS_Halftone_Wash
+  Id:
+    _value: FAMAS_Halftone_Wash
   Name: Halftone Wash
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Graphic Design Collection
+  Collection:
+    _value: Collection_Graphic_Design
   Price:
     MinPrice: 0.18
     MaxPrice: 0.61

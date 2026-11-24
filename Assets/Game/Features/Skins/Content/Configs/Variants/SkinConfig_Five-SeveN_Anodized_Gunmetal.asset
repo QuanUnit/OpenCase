@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Anodized_Gunmetal
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 26ceb8e1-493b-4c05-86cc-e7a630246155
-  SkinStringId: Five-SeveN_Anodized_Gunmetal
+  Id:
+    _value: Five-SeveN_Anodized_Gunmetal
   Name: Anodized Gunmetal
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Alpha Collection
+  Collection:
+    _value: Collection_Alpha
   Price:
     MinPrice: 10.59
     MaxPrice: 12.97

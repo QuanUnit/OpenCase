@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P2000_Dispatch
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9dfae165-4a80-44c6-b100-e4bca7899038
-  SkinStringId: P2000_Dispatch
+  Id:
+    _value: P2000_Dispatch
   Name: Dispatch
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Control Collection
+  Collection:
+    _value: Collection_Control
   Price:
     MinPrice: 17.1
     MaxPrice: 26.43

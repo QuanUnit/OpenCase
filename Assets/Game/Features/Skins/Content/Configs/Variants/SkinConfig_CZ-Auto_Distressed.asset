@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Distressed
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b24c3d63-9a39-4b1b-ab59-549d7cde25a0
-  SkinStringId: CZ-Auto_Distressed
+  Id:
+    _value: CZ-Auto_Distressed
   Name: Distressed
   ContextData:
     SpriteSource:

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ75-Auto_Poison_Dart
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: cc3b822a-d378-4c26-b778-0b795a0ed28c
-  SkinStringId: CZ75-Auto_Poison_Dart
+  Id:
+    _value: CZ75-Auto_Poison_Dart
   Name: Poison Dart
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Huntsman Collection
+  Collection:
+    _value: Collection_Huntsman
   Price:
     MinPrice: 2.19
     MaxPrice: 24.12

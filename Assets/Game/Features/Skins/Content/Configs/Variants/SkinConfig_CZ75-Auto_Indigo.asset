@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ75-Auto_Indigo
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 98132fdd-7abb-4805-bc59-9e4d2b44890c
-  SkinStringId: CZ75-Auto_Indigo
+  Id:
+    _value: CZ75-Auto_Indigo
   Name: Indigo
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Canals Collection
+  Collection:
+    _value: Collection_Canals
   Price:
     MinPrice: 1.43
     MaxPrice: 9.33

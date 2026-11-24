@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Hyper_Beast
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 4c6f47d8-1006-43d3-a1e5-2cb22323aedc
-  SkinStringId: Five-SeveN_Hyper_Beast
+  Id:
+    _value: Five-SeveN_Hyper_Beast
   Name: Hyper Beast
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Operation Hydra Collection
+  Collection:
+    _value: Collection_Operation_Hydra
   Price:
     MinPrice: 445.52
     MaxPrice: 710.43

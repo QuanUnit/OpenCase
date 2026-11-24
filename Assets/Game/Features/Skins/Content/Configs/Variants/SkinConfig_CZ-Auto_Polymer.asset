@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Polymer
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 4898aa59-5af3-40d1-81a1-aab0c084002b
-  SkinStringId: CZ-Auto_Polymer
+  Id:
+    _value: CZ-Auto_Polymer
   Name: Polymer
   ContextData:
     SpriteSource:

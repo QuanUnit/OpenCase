@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Tiger_Stencil
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1ac49e26-d7a5-485c-b8ca-7b02c544a8a5
-  SkinStringId: Tec-9_Tiger_Stencil
+  Id:
+    _value: Tec-9_Tiger_Stencil
   Name: Tiger Stencil
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Sport & Field Collection
+  Collection:
+    _value: Collection_Sport_And_Field
   Price:
     MinPrice: 0.05
     MaxPrice: 0.23

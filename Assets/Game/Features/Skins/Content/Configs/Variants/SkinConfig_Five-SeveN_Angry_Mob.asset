@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Angry_Mob
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: acc06ff5-731a-4a32-b8ef-ba12f1e2707b
-  SkinStringId: Five-SeveN_Angry_Mob
+  Id:
+    _value: Five-SeveN_Angry_Mob
   Name: Angry Mob
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Prisma Collection
+  Collection:
+    _value: Collection_Prisma
   Price:
     MinPrice: 50.11
     MaxPrice: 73.9

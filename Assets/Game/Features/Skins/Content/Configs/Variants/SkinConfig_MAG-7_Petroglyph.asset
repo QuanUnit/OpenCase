@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAG-7_Petroglyph
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 54fb685d-fe09-485f-8208-7f774b571be5
-  SkinStringId: MAG-7_Petroglyph
+  Id:
+    _value: MAG-7_Petroglyph
   Name: Petroglyph
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Gamma 2 Collection
+  Collection:
+    _value: Collection_Gamma_2
   Price:
     MinPrice: 1.03
     MaxPrice: 3.09

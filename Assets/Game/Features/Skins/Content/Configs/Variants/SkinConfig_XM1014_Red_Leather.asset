@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Red_Leather
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 6d49fb06-24f7-4d82-92bf-1cef147b2a1f
-  SkinStringId: XM1014_Red_Leather
+  Id:
+    _value: XM1014_Red_Leather
   Name: Red Leather
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Baggage Collection
+  Collection:
+    _value: Collection_Baggage
   Price:
     MinPrice: 35.91
     MaxPrice: 61.29

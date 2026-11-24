@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Bengal_Tiger
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1af68123-7fcf-4d41-8e7c-d4ac436a3433
-  SkinStringId: AUG_Bengal_Tiger
+  Id:
+    _value: AUG_Bengal_Tiger
   Name: Bengal Tiger
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The eSports 2014 Summer Collection
+  Collection:
+    _value: Collection_eSports_2014_Summer
   Price:
     MinPrice: 11.7
     MaxPrice: 73.99

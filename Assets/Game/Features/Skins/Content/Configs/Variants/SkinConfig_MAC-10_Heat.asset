@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Heat
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 96bfc426-3f2b-437b-bc84-9b4827d760e2
-  SkinStringId: MAC-10_Heat
+  Id:
+    _value: MAC-10_Heat
   Name: Heat
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Phoenix Collection
+  Collection:
+    _value: Collection_Phoenix
   Price:
     MinPrice: 2.19
     MaxPrice: 14.86

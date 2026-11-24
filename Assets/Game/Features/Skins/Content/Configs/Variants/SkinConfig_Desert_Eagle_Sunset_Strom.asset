@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Sunset_Strom
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e327658e-16ec-443e-99cc-82309a89496c
-  SkinStringId: Desert_Eagle_Sunset_Strom
+  Id:
+    _value: Desert_Eagle_Sunset_Strom
   Name: Sunset Storm
   ContextData:
     SpriteSource:

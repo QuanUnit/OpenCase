@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Arsenic_Spill
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 93428821-e204-4596-93d9-c3577b77f2d3
-  SkinStringId: AWP_Arsenic_Spill
+  Id:
+    _value: AWP_Arsenic_Spill
   Name: Arsenic Spill
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Radiant Collection
+  Collection:
+    _value: Collection_Radiant
   Price:
     MinPrice: 0.59
     MaxPrice: 2.27

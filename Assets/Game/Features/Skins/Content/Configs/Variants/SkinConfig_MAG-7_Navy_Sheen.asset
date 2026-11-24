@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAG-7_Navy_Sheen
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e60f2b43-8fd1-4217-a1cf-3a30c9693903
-  SkinStringId: MAG-7_Navy_Sheen
+  Id:
+    _value: MAG-7_Navy_Sheen
   Name: Navy Sheen
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The 2021 Mirage Collection
+  Collection:
+    _value: Collection_2021_Mirage
   Price:
     MinPrice: 0.27
     MaxPrice: 0.47

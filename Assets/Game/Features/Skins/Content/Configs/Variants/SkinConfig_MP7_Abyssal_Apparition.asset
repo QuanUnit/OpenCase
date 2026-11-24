@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Abyssal_Apparition
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1542a4fd-e81e-47a4-8123-45b0930855a7
-  SkinStringId: MP7_Abyssal_Apparition
+  Id:
+    _value: MP7_Abyssal_Apparition
   Name: Abyssal Apparition
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Dreams & Nightmares Collection
+  Collection:
+    _value: Collection_Dreams_And_Nightmares
   Price:
     MinPrice: 5.87
     MaxPrice: 22.93

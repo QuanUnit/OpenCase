@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Dual_Berettas_Twin_Turbo
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 80fd0663-034f-422b-95e9-b7acde6c6263
-  SkinStringId: Dual_Berettas_Twin_Turbo
+  Id:
+    _value: Dual_Berettas_Twin_Turbo
   Name: Twin Turbo
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The 2018 Inferno Collection
+  Collection:
+    _value: Collection_2018_Inferno
   Price:
     MinPrice: 1.44
     MaxPrice: 11.77

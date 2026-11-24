@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Fleet_Flock
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 4961aad2-1daf-409d-bd80-6057d13c3d9d
-  SkinStringId: AUG_Fleet_Flock
+  Id:
+    _value: AUG_Fleet_Flock
   Name: Fleet Flock
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Chroma 3 Collection
+  Collection:
+    _value: Collection_Chroma_3
   Price:
     MinPrice: 10.59
     MaxPrice: 33.59

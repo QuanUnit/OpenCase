@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Muertos
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9e1544f4-ae8a-4f43-b29b-590a1cdbf367
-  SkinStringId: P250_Muertos
+  Id:
+    _value: P250_Muertos
   Name: Muertos
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Chroma Collection
+  Collection:
+    _value: Collection_Chroma
   Price:
     MinPrice: 10.71
     MaxPrice: 20.11

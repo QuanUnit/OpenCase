@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_UMP-45_Roadblock
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f5e96bb7-de25-4211-92c2-c2dd17438d42
-  SkinStringId: UMP-45_Roadblock
+  Id:
+    _value: UMP-45_Roadblock
   Name: Roadblock
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Recoil Collection
+  Collection:
+    _value: Collection_Recoil
   Price:
     MinPrice: 0.06
     MaxPrice: 0.74

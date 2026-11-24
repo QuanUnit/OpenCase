@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Mudder
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a8c10b88-ad4f-4062-b008-b884236bfbf9
-  SkinStringId: Desert_Eagle_Mudder
+  Id:
+    _value: Desert_Eagle_Mudder
   Name: Mudder
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Lake Collection
+  Collection:
+    _value: Collection_Lake
   Price:
     MinPrice: 0.05
     MaxPrice: 2.35

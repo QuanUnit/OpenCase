@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Akoben
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 53e16581-3d32-4645-8bb4-3eaee3e733f9
-  SkinStringId: MP7_Akoben
+  Id:
+    _value: MP7_Akoben
   Name: Akoben
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Spectrum Collection
+  Collection:
+    _value: Collection_Spectrum
   Price:
     MinPrice: 0.2
     MaxPrice: 0.52

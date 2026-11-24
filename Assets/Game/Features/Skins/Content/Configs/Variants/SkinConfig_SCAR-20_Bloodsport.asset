@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SCAR-20_Bloodsport
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 69e88ce5-bb29-4a42-b642-1f3d49bdbc41
-  SkinStringId: SCAR-20_Bloodsport
+  Id:
+    _value: SCAR-20_Bloodsport
   Name: Bloodsport
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Gamma Collection
+  Collection:
+    _value: Collection_Gamma
   Price:
     MinPrice: 10.27
     MaxPrice: 23.29

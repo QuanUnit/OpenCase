@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Mummy's_Rot
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b1e4ace8-04f5-4642-bd0e-c6689fbdbe24
-  SkinStringId: Tec-9_Mummy's_Rot
+  Id:
+    _value: Tec-9_Mummy's_Rot
   Name: Mummy's Rot
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Anubis Collection
+  Collection:
+    _value: Collection_Anubis
   Price:
     MinPrice: 1.18
     MaxPrice: 6.8

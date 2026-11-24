@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Desert_DDPAT
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a100b22c-b50a-456d-afac-4c47fdef5e90
-  SkinStringId: P90_Desert_DDPAT
+  Id:
+    _value: P90_Desert_DDPAT
   Name: Desert DDPAT
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The 2021 Dust 2 Collection
+  Collection:
+    _value: Collection_2021_Dust_2
   Price:
     MinPrice: 0.37
     MaxPrice: 0.54

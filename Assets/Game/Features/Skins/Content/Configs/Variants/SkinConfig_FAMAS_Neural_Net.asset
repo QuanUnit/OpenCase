@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Neural_Net
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ca839668-1d41-4379-9e1e-68f9652f46d4
-  SkinStringId: FAMAS_Neural_Net
+  Id:
+    _value: FAMAS_Neural_Net
   Name: Neural Net
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Falchion Collection
+  Collection:
+    _value: Collection_Falchion
   Price:
     MinPrice: 1.07
     MaxPrice: 3.95

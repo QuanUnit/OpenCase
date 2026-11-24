@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Sawed-Off_Serenity
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: fc9615e2-4b26-4821-bfb9-92a3593ebcd3
-  SkinStringId: Sawed-Off_Serenity
+  Id:
+    _value: Sawed-Off_Serenity
   Name: Serenity
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Chroma Collection
+  Collection:
+    _value: Collection_Chroma
   Price:
     MinPrice: 1.76
     MaxPrice: 5.91

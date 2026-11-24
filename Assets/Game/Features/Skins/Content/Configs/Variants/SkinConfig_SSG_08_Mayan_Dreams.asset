@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SSG_08_Mayan_Dreams
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ff522d3b-063d-4312-bd12-acb641628a98
-  SkinStringId: SSG_08_Mayan_Dreams
+  Id:
+    _value: SSG_08_Mayan_Dreams
   Name: Mayan Dreams
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Alpha Collection
+  Collection:
+    _value: Collection_Alpha
   Price:
     MinPrice: 3.5
     MaxPrice: 69

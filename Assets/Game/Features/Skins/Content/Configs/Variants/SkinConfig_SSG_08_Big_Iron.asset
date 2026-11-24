@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SSG_08_Big_Iron
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a33f7add-ffb3-43e1-b093-3978119e13c6
-  SkinStringId: SSG_08_Big_Iron
+  Id:
+    _value: SSG_08_Big_Iron
   Name: Big Iron
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Shadow Collection
+  Collection:
+    _value: Collection_Shadow
   Price:
     MinPrice: 11.35
     MaxPrice: 43.51

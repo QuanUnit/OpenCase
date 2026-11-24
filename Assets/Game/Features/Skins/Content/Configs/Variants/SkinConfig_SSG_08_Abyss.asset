@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SSG_08_Abyss
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: cde44f5b-0a76-4d12-b256-efe1f6745237
-  SkinStringId: SSG_08_Abyss
+  Id:
+    _value: SSG_08_Abyss
   Name: Abyss
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Breakout Collection
+  Collection:
+    _value: Collection_Breakout
   Price:
     MinPrice: 0.24
     MaxPrice: 3.99

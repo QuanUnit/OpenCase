@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SCAR-20_Caged
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c8945a1f-7fc5-42ff-805c-a499f675ab5b
-  SkinStringId: SCAR-20_Caged
+  Id:
+    _value: SCAR-20_Caged
   Name: Caged
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Genesis Collection
+  Collection:
+    _value: Collection_Genesis
   Price:
     MinPrice: 0.09
     MaxPrice: 0.95

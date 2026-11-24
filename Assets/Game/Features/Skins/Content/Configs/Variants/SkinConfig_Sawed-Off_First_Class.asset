@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Sawed-Off_First_Class
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 75f8020b-3f15-4156-83db-c20fc1fd5806
-  SkinStringId: Sawed-Off_First_Class
+  Id:
+    _value: Sawed-Off_First_Class
   Name: First Class
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Baggage Collection
+  Collection:
+    _value: Collection_Baggage
   Price:
     MinPrice: 30.07
     MaxPrice: 60.82

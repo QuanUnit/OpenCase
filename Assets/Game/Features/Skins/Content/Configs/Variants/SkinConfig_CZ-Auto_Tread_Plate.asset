@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Tread_Plate
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0e0757a2-e611-40c3-b162-238d097aed71
-  SkinStringId: CZ-Auto_Tread_Plate
+  Id:
+    _value: CZ-Auto_Tread_Plate
   Name: Tread Plate
   ContextData:
     SpriteSource:

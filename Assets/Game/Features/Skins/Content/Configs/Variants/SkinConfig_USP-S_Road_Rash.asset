@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_Road_Rash
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: bbb2627c-c26b-47c0-bf52-fa946ad2f3b2
-  SkinStringId: USP-S_Road_Rash
+  Id:
+    _value: USP-S_Road_Rash
   Name: Road Rash
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Overpass Collection
+  Collection:
+    _value: Collection_Overpass
   Price:
     MinPrice: 33.65
     MaxPrice: 244.88

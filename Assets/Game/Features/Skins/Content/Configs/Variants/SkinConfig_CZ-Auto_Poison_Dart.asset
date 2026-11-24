@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Poison_Dart
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f3712533-213e-43d2-904b-0d22e2c411f3
-  SkinStringId: CZ-Auto_Poison_Dart
+  Id:
+    _value: CZ-Auto_Poison_Dart
   Name: Poison Dart
   ContextData:
     SpriteSource:

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A4_Bullet_Rain
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: daf38e02-30fa-411f-b6f5-f370faf82bed
-  SkinStringId: M4A4_Bullet_Rain
+  Id:
+    _value: M4A4_Bullet_Rain
   Name: Bullet Rain
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The eSports 2014 Summer Collection
+  Collection:
+    _value: Collection_eSports_2014_Summer
   Price:
     MinPrice: 88.9
     MaxPrice: 428.97

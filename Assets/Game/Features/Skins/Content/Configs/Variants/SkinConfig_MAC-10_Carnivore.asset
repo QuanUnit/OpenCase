@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Carnivore
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: beae7ea0-e5b4-4112-86f3-2b2e41a45b6d
-  SkinStringId: MAC-10_Carnivore
+  Id:
+    _value: MAC-10_Carnivore
   Name: Carnivore
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Gamma Collection
+  Collection:
+    _value: Collection_Gamma
   Price:
     MinPrice: 0.22
     MaxPrice: 1.35

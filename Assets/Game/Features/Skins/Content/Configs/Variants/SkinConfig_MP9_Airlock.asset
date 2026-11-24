@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Airlock
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ef541610-e891-4fc6-a42c-8d7ee2780b5f
-  SkinStringId: MP9_Airlock
+  Id:
+    _value: MP9_Airlock
   Name: Airlock
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Gamma 2 Collection
+  Collection:
+    _value: Collection_Gamma_2
   Price:
     MinPrice: 10
     MaxPrice: 41.61

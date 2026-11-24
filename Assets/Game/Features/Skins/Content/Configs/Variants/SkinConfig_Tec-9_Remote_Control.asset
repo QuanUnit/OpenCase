@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Remote_Control
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 775df6d8-77a2-484c-9559-d4647ecade3e
-  SkinStringId: Tec-9_Remote_Control
+  Id:
+    _value: Tec-9_Remote_Control
   Name: Remote Control
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The 2018 Nuke Collection
+  Collection:
+    _value: Collection_2018_Nuke
   Price:
     MinPrice: 1.53
     MaxPrice: 37.22

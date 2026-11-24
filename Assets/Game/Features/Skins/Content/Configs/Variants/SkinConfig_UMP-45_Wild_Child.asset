@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_UMP-45_Wild_Child
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: dc263d16-d699-4cac-b0f9-bfc1d9209407
-  SkinStringId: UMP-45_Wild_Child
+  Id:
+    _value: UMP-45_Wild_Child
   Name: Wild Child
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Revolution Collection
+  Collection:
+    _value: Collection_Revolution
   Price:
     MinPrice: 3.15
     MaxPrice: 22.87

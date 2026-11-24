@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Jungle_Dashed
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 339f28a6-ca2e-471f-909a-d58f622459d2
-  SkinStringId: CZ-Auto_Jungle_Dashed
+  Id:
+    _value: CZ-Auto_Jungle_Dashed
   Name: Jungle Dashed
   ContextData:
     SpriteSource:

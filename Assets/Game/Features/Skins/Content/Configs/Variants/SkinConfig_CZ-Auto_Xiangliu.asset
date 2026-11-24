@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Xiangliu
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3f8180cd-1f8a-49c2-895d-d19139099062
-  SkinStringId: CZ-Auto_Xiangliu
+  Id:
+    _value: CZ-Auto_Xiangliu
   Name: Xiangliu
   ContextData:
     SpriteSource:

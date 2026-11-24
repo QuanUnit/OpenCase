@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Fuel_Injector
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 24c4464c-111b-4985-9af1-03dc5135c986
-  SkinStringId: AK-47_Fuel_Injector
+  Id:
+    _value: AK-47_Fuel_Injector
   Name: Fuel Injector
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Wildfire Collection
+  Collection:
+    _value: Collection_Wildfire
   Price:
     MinPrice: 112.61
     MaxPrice: 746.17

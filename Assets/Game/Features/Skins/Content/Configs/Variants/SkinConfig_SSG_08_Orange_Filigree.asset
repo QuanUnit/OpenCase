@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SSG_08_Orange_Filigree
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 227c46f7-c872-4c37-ab1c-373ef1d27d0a
-  SkinStringId: SSG_08_Orange_Filigree
+  Id:
+    _value: SSG_08_Orange_Filigree
   Name: Orange Filigree
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Canals Collection
+  Collection:
+    _value: Collection_Canals
   Price:
     MinPrice: 22.14
     MaxPrice: 32.04

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Mecha_Industries
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 6cad4dd9-8b9e-4f36-907c-bbd9d3d84786
-  SkinStringId: Desert_Eagle_Mecha_Industries
+  Id:
+    _value: Desert_Eagle_Mecha_Industries
   Name: Mecha Industries
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Danger Zone Collection
+  Collection:
+    _value: Collection_Danger_Zone
   Price:
     MinPrice: 5.29
     MaxPrice: 14.29

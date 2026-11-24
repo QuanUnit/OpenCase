@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_ScaraB_Rush
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ee541079-5f26-427e-95e8-6cab0eb826a7
-  SkinStringId: P90_ScaraB_Rush
+  Id:
+    _value: P90_ScaraB_Rush
   Name: ScaraB Rush
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Anubis Collection
+  Collection:
+    _value: Collection_Anubis
   Price:
     MinPrice: 9.27
     MaxPrice: 34.85

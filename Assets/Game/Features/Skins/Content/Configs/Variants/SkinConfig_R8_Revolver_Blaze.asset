@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_R8_Revolver_Blaze
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 03b98aaf-2ea5-4446-a6f3-cb590379a9bb
-  SkinStringId: R8_Revolver_Blaze
+  Id:
+    _value: R8_Revolver_Blaze
   Name: Blaze
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The 2021 Train Collection
+  Collection:
+    _value: Collection_2021_Train
   Price:
     MinPrice: 3.22
     MaxPrice: 3.27

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Blue_Laminate
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f3f82e5c-9f2e-4856-9f85-597443772b3f
-  SkinStringId: AK-47_Blue_Laminate
+  Id:
+    _value: AK-47_Blue_Laminate
   Name: Blue Laminate
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The eSports 2013 Winter Collection
+  Collection:
+    _value: Collection_eSports_2013_Winter
   Price:
     MinPrice: 14.63
     MaxPrice: 23.22

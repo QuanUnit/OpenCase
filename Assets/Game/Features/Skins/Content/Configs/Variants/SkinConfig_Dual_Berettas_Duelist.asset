@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Dual_Berettas_Duelist
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 981de508-04e9-474e-8a05-ca5247d2ab20
-  SkinStringId: Dual_Berettas_Duelist
+  Id:
+    _value: Dual_Berettas_Duelist
   Name: Duelist
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Chop Shop Collection
+  Collection:
+    _value: Collection_Chop_Shop
   Price:
     MinPrice: 295.51
     MaxPrice: 358.49

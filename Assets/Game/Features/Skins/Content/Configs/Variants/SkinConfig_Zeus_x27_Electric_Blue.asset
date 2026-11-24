@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Zeus_x27_Electric_Blue
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 482b5aa3-a674-4e16-95d4-8513caa16a37
-  SkinStringId: Zeus_x27_Electric_Blue
+  Id:
+    _value: Zeus_x27_Electric_Blue
   Name: Electric Blue
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Ascent Collection
+  Collection:
+    _value: Collection_Ascent
   Price:
     MinPrice: 0.04
     MaxPrice: 0.73

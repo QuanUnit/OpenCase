@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Amber_Slipstream
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 28a78baa-2767-4f82-a46f-9915ce07fc91
-  SkinStringId: AUG_Amber_Slipstream
+  Id:
+    _value: AUG_Amber_Slipstream
   Name: Amber Slipstream
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Horizon Collection
+  Collection:
+    _value: Collection_Horizon
   Price:
     MinPrice: 0.22
     MaxPrice: 0.48

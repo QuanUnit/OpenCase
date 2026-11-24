@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Schematic
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d46d4a97-5a22-4c65-ade2-45b5a8e1efa8
-  SkinStringId: P90_Schematic
+  Id:
+    _value: P90_Schematic
   Name: Schematic
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The 2021 Vertigo Collection
+  Collection:
+    _value: Collection_2021_Vertigo
   Price:
     MinPrice: 12.49
     MaxPrice: 22.88

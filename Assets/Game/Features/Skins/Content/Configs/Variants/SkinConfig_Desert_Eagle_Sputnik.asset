@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Sputnik
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 29941db4-095b-4223-af94-a4941b7354e2
-  SkinStringId: Desert_Eagle_Sputnik
+  Id:
+    _value: Desert_Eagle_Sputnik
   Name: Sputnik
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The 2021 Train Collection
+  Collection:
+    _value: Collection_2021_Train
   Price:
     MinPrice: 1.74
     MaxPrice: 6.4

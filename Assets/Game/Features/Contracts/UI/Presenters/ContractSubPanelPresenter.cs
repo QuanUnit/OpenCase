@@ -11,7 +11,6 @@ using Features.Inventory.UI.Panels;
 using Features.Skins.Configs;
 using Features.Skins.Data;
 using Features.Skins.Services;
-using QCore.Tools.Identifiers;
 using QCore.UISystem.Presenters;
 using UnityEngine;
 using Object = UnityEngine.Object;
@@ -63,7 +62,7 @@ namespace Features.Contracts.UI.Presenters
             Refresh();
         }
 
-        private void SkinClickHandle(QGuid skinId)
+        private void SkinClickHandle(SkinInstanceId skinId)
         {
             var skin = _inventoryService.Get(skinId);
 
@@ -157,7 +156,7 @@ namespace Features.Contracts.UI.Presenters
                 return;
             }
 
-            var config = _skinsDatabaseService.GetSkinConfigById(result.SkinSourceId);
+            var config = _skinsDatabaseService.GetSkinConfigById(result.ConfigId);
 
             Panel.HideSignature();
             Panel.SetInputBlocked(true);
@@ -195,7 +194,7 @@ namespace Features.Contracts.UI.Presenters
             {
                 if (index < _inputs.Count)
                 {
-                    var config = _skinsDatabaseService.GetSkinConfigById(_inputs[index].SkinSourceId);
+                    var config = _skinsDatabaseService.GetSkinConfigById(_inputs[index].ConfigId);
                     Panel.SetSlot(index, config.ContextData.SpriteSource.GetAsset(), GetRarityColor(config.Rarity));
                     continue;
                 }
@@ -257,7 +256,7 @@ namespace Features.Contracts.UI.Presenters
         private SkinView CreateSkinView(Skin skin, SkinView prefab, Transform parent)
         {
             var view = Object.Instantiate(prefab, parent);
-            var skinConfig = _skinsDatabaseService.GetSkinConfigById(skin.SkinSourceId);
+            var skinConfig = _skinsDatabaseService.GetSkinConfigById(skin.ConfigId);
 
             view.SetView(new SkinView.Data()
             {

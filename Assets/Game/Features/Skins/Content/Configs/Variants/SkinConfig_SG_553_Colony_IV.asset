@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SG_553_Colony_IV
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9e5922f5-5c4e-469e-8be2-fb900319c57a
-  SkinStringId: SG_553_Colony_IV
+  Id:
+    _value: SG_553_Colony_IV
   Name: Colony IV
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Shattered Web Collection
+  Collection:
+    _value: Collection_Shattered_Web
   Price:
     MinPrice: 11.24
     MaxPrice: 70.97

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Sawed-Off_Irradiated_Alert
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e6e554a3-ccae-4c58-adc2-a5941920cf53
-  SkinStringId: Sawed-Off_Irradiated_Alert
+  Id:
+    _value: Sawed-Off_Irradiated_Alert
   Name: Irradiated Alert
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Nuke Collection
+  Collection:
+    _value: Collection_Nuke
   Price:
     MinPrice: 2.46
     MaxPrice: 26.92

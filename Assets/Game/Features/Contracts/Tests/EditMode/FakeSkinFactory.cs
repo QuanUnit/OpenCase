@@ -1,7 +1,7 @@
 using Features.Skins.Configs;
 using Features.Skins.Data;
 using Features.Skins.Services;
-using QCore.Tools.Identifiers;
+using Shared.Identifiers;
 
 namespace Features.Contracts.Tests.EditMode
 {
@@ -22,7 +22,7 @@ namespace Features.Contracts.Tests.EditMode
             LastFloatValue = floatValue;
             LastIsStatTrak = isStatTrak;
 
-            return new Skin(config.Id, QGuid.CreateNew(), floatValue, 0f, isStatTrak, false);
+            return new Skin(config.Id, EntityIds.CreateUnique<SkinInstanceId>(SkinInstanceId.EntityName), floatValue, 0f, isStatTrak, false);
         }
     }
 }

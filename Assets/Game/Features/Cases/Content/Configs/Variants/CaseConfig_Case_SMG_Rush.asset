@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
   m_Name: CaseConfig_Case_SMG_Rush
   m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
-  _id:
-    _idBody: ab2c3acc-7b5d-4428-ab51-f640764a23f4
-  CaseStringId: Case_SMG_Rush
+  Id:
+    _value: Case_SMG_Rush
   Name: SMG Rush
   Price: 1.81
   SkinsMapEntries:

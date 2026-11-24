@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A1-S_Control_Panel
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c4239e9a-9e5d-4011-9210-197a235ee43b
-  SkinStringId: M4A1-S_Control_Panel
+  Id:
+    _value: M4A1-S_Control_Panel
   Name: Control Panel
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The 2018 Nuke Collection
+  Collection:
+    _value: Collection_2018_Nuke
   Price:
     MinPrice: 5.27
     MaxPrice: 155.12

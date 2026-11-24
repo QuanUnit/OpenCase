@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
   m_Name: CaseConfig_Case_Restriction
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: fcce7be6-2b8f-49d8-903a-c68a06b41d60
-  CaseStringId: Case_Restriction
+  Id:
+    _value: Case_Restriction
   Name: Restriction
   Price: 0.79
   SkinsMapEntries:

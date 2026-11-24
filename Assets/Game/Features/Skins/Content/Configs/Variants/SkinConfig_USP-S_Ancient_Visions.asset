@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_Ancient_Visions
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 88450b04-16fa-42b0-93a7-ee904af234b9
-  SkinStringId: USP-S_Ancient_Visions
+  Id:
+    _value: USP-S_Ancient_Visions
   Name: Ancient Visions
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Ancient Collection
+  Collection:
+    _value: Collection_Ancient
   Price:
     MinPrice: 55.44
     MaxPrice: 124.17

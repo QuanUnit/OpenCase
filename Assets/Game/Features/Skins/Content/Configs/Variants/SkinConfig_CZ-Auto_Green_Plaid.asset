@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Green_Plaid
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: adcb3649-6b89-4d7f-916d-7d45be3776f4
-  SkinStringId: CZ-Auto_Green_Plaid
+  Id:
+    _value: CZ-Auto_Green_Plaid
   Name: Green Plaid
   ContextData:
     SpriteSource:

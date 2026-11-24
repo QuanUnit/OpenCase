@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Gunsmoke
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 4229b5ac-840e-4a45-84a9-6492620eb9c4
-  SkinStringId: P250_Gunsmoke
+  Id:
+    _value: P250_Gunsmoke
   Name: Gunsmoke
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Inferno Collection
+  Collection:
+    _value: Collection_Inferno
   Price:
     MinPrice: 1.38
     MaxPrice: 27.08

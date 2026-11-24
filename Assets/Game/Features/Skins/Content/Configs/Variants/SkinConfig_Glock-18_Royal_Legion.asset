@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Royal_Legion
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: df739e97-ea14-4dbd-8a4f-5f5a89f83a43
-  SkinStringId: Glock-18_Royal_Legion
+  Id:
+    _value: Glock-18_Royal_Legion
   Name: Royal Legion
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Wildfire Collection
+  Collection:
+    _value: Collection_Wildfire
   Price:
     MinPrice: 2.23
     MaxPrice: 40.94

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Malachite
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0b159ca2-e798-49e3-88aa-cdc5f0aa147a
-  SkinStringId: MAC-10_Malachite
+  Id:
+    _value: MAC-10_Malachite
   Name: Malachite
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Chroma Collection
+  Collection:
+    _value: Collection_Chroma
   Price:
     MinPrice: 1.82
     MaxPrice: 7.71

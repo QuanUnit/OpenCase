@@ -403,9 +403,9 @@ namespace Features.RemoteConfigs.Editor.Cases
 
             EditorGUILayout.BeginVertical();
 
-            var id = EditorGUILayout.DelayedTextField("Id", _selectedCase.CaseStringId);
+            var id = EditorGUILayout.DelayedTextField("Id", _selectedCase.Id.Value);
 
-            if (id != _selectedCase.CaseStringId)
+            if (id != _selectedCase.Id.Value)
             {
                 ChangeId(id.Trim());
             }

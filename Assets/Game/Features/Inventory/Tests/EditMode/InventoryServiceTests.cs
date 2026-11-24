@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using Features.Inventory.Services;
 using Features.Skins.Data;
 using NUnit.Framework;
-using QCore.Tools.Identifiers;
 using UnityEngine;
+using Shared.Identifiers;
 
 namespace Features.Inventory.Tests.EditMode
 {
@@ -12,7 +12,7 @@ namespace Features.Inventory.Tests.EditMode
     {
         private Skin CreateSkin()
         {
-            return new Skin(QGuid.CreateNew(), QGuid.CreateNew(), 0.1f, 5f, false, false);
+            return new Skin(EntityIds.CreateUnique<SkinId>("TestSkin"), EntityIds.CreateUnique<SkinInstanceId>(SkinInstanceId.EntityName), 0.1f, 5f, false, false);
         }
 
         [Test]
@@ -64,7 +64,7 @@ namespace Features.Inventory.Tests.EditMode
             var raised = false;
             inventory.Removed += skin => raised = true;
 
-            var result = inventory.Remove(QGuid.CreateNew());
+            var result = inventory.Remove(EntityIds.CreateUnique<SkinInstanceId>(SkinInstanceId.EntityName));
 
             Assert.IsTrue(result == false);
             Assert.IsTrue(raised == false);
@@ -75,7 +75,7 @@ namespace Features.Inventory.Tests.EditMode
         {
             var inventory = new InventoryService();
 
-            Assert.Throws<MissingReferenceException>(() => inventory.Get(QGuid.CreateNew()));
+            Assert.Throws<MissingReferenceException>(() => inventory.Get(EntityIds.CreateUnique<SkinInstanceId>(SkinInstanceId.EntityName)));
         }
 
         [Test]
@@ -83,7 +83,7 @@ namespace Features.Inventory.Tests.EditMode
         {
             var inventory = new InventoryService();
 
-            var result = inventory.TryGet(QGuid.CreateNew(), out _);
+            var result = inventory.TryGet(EntityIds.CreateUnique<SkinInstanceId>(SkinInstanceId.EntityName), out _);
 
             Assert.IsTrue(result == false);
         }

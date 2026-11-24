@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Olive_Polycam
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e8f0c42b-d520-4989-8ebf-a3b84f9a3caa
-  SkinStringId: AK-47_Olive_Polycam
+  Id:
+    _value: AK-47_Olive_Polycam
   Name: Olive Polycam
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Sport & Field Collection
+  Collection:
+    _value: Collection_Sport_And_Field
   Price:
     MinPrice: 0.08
     MaxPrice: 0.73

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_Blue_Titanium
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c129485a-6b28-4089-a085-3d5a977afe0b
-  SkinStringId: Galil_AR_Blue_Titanium
+  Id:
+    _value: Galil_AR_Blue_Titanium
   Name: Blue Titanium
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The eSports 2013 Winter Collection
+  Collection:
+    _value: Collection_eSports_2013_Winter
   Price:
     MinPrice: 0
     MaxPrice: 0

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Nostalgia
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2eeab15c-9649-48b7-aae1-79d8868a1f43
-  SkinStringId: P90_Nostalgia
+  Id:
+    _value: P90_Nostalgia
   Name: Nostalgia
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The CS20 Collection
+  Collection:
+    _value: Collection_CS20
   Price:
     MinPrice: 4.51
     MaxPrice: 13.69

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_PP-Bizon_Water_Sigil
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9b48e2a4-b8e9-4c9c-814a-2f8f0a48e521
-  SkinStringId: PP-Bizon_Water_Sigil
+  Id:
+    _value: PP-Bizon_Water_Sigil
   Name: Water Sigil
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The eSports 2013 Winter Collection
+  Collection:
+    _value: Collection_eSports_2013_Winter
   Price:
     MinPrice: 1.64
     MaxPrice: 2.99

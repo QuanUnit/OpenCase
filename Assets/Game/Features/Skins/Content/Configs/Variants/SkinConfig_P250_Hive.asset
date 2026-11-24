@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Hive
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f3140c6e-2842-4234-a220-6eed1855d652
-  SkinStringId: P250_Hive
+  Id:
+    _value: P250_Hive
   Name: Hive
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Arms Deal 2 Collection
+  Collection:
+    _value: Collection_Arms_Deal_2
   Price:
     MinPrice: 1.94
     MaxPrice: 2.34

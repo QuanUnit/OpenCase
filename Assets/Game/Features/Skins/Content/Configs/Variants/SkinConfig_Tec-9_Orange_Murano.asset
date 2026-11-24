@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Orange_Murano
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8318da2d-6d53-49f3-a03a-aa79244d8a51
-  SkinStringId: Tec-9_Orange_Murano
+  Id:
+    _value: Tec-9_Orange_Murano
   Name: Orange Murano
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Canals Collection
+  Collection:
+    _value: Collection_Canals
   Price:
     MinPrice: 3.77
     MaxPrice: 12.56

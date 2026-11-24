@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Zeus_x27_Charged_Up
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 483f6170-094b-47f6-b0ce-4c0abb14c4a0
-  SkinStringId: Zeus_x27_Charged_Up
+  Id:
+    _value: Zeus_x27_Charged_Up
   Name: Charged Up
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Train 2025 Collection
+  Collection:
+    _value: Collection_Train_2025
   Price:
     MinPrice: 3.38
     MaxPrice: 31.29

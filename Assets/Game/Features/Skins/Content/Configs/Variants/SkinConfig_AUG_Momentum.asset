@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Momentum
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 10783069-10ef-47e5-b200-70683fd5b32b
-  SkinStringId: AUG_Momentum
+  Id:
+    _value: AUG_Momentum
   Name: Momentum
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Prisma Collection
+  Collection:
+    _value: Collection_Prisma
   Price:
     MinPrice: 4.65
     MaxPrice: 52

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Amber_Fade
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 41cb7f19-738e-4751-a5cc-8dfd62918133
-  SkinStringId: MAC-10_Amber_Fade
+  Id:
+    _value: MAC-10_Amber_Fade
   Name: Amber Fade
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Mirage Collection
+  Collection:
+    _value: Collection_Mirage
   Price:
     MinPrice: 14.08
     MaxPrice: 43.67

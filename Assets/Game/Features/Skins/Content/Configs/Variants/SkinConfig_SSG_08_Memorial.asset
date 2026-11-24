@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SSG_08_Memorial
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 722308e4-ad66-42ed-a52d-ab330a919ba9
-  SkinStringId: SSG_08_Memorial
+  Id:
+    _value: SSG_08_Memorial
   Name: Memorial
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Fever Collection
+  Collection:
+    _value: Collection_Fever
   Price:
     MinPrice: 0.06
     MaxPrice: 0.86

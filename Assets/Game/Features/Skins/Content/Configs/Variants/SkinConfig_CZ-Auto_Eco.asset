@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Eco
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3b9a0896-bcc2-4fc7-9bc3-7cb53a8d7ff2
-  SkinStringId: CZ-Auto_Eco
+  Id:
+    _value: CZ-Auto_Eco
   Name: Eco
   ContextData:
     SpriteSource:

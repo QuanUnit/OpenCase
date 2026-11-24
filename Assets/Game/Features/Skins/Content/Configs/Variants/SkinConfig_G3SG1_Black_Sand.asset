@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_G3SG1_Black_Sand
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f85ed8cb-28e4-4b2a-98bb-0de89388033e
-  SkinStringId: G3SG1_Black_Sand
+  Id:
+    _value: G3SG1_Black_Sand
   Name: Black Sand
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Shattered Web Collection
+  Collection:
+    _value: Collection_Shattered_Web
   Price:
     MinPrice: 0.61
     MaxPrice: 2.83

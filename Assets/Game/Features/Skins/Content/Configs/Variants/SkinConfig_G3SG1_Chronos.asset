@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_G3SG1_Chronos
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 94c38d44-39d7-4388-a1f0-b3b50c5cd544
-  SkinStringId: G3SG1_Chronos
+  Id:
+    _value: G3SG1_Chronos
   Name: Chronos
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Gods and Monsters Collection
+  Collection:
+    _value: Collection_Gods_and_Monsters
   Price:
     MinPrice: 402.83
     MaxPrice: 5000

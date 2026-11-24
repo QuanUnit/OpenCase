@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A1-S_Hot_Rod
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ccb4550f-a97c-42c3-8eb4-5a107ceb82ba
-  SkinStringId: M4A1-S_Hot_Rod
+  Id:
+    _value: M4A1-S_Hot_Rod
   Name: Hot Rod
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Chop Shop Collection
+  Collection:
+    _value: Collection_Chop_Shop
   Price:
     MinPrice: 2641.67
     MaxPrice: 3563.7

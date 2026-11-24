@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_Black_Lotus
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 61741909-43b8-4f25-9b9e-fcb5ea0d9600
-  SkinStringId: USP-S_Black_Lotus
+  Id:
+    _value: USP-S_Black_Lotus
   Name: Black Lotus
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Operation Riptide Collection
+  Collection:
+    _value: Collection_Operation_Riptide
   Price:
     MinPrice: 1.1
     MaxPrice: 19.69

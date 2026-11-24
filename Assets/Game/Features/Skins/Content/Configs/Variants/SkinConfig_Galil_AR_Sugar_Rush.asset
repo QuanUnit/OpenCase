@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_Sugar_Rush
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2fe3a41b-2aa8-457e-a5d2-a0aad5223a0f
-  SkinStringId: Galil_AR_Sugar_Rush
+  Id:
+    _value: Galil_AR_Sugar_Rush
   Name: Sugar Rush
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Operation Hydra Collection
+  Collection:
+    _value: Collection_Operation_Hydra
   Price:
     MinPrice: 70.83
     MaxPrice: 278.44

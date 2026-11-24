@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04cb34aace0f469782d87766f55fc4c, type: 3}
+  m_Name: SkinCollectionsConfig
+  m_EditorClassIdentifier: Features.Skins::Features.Skins.Configs.SkinCollectionsConfig
+  Collections:
+  - Id:
+      _value: Collection_2018_Inferno
+    Name: The 2018 Inferno Collection
+  - Id:
+      _value: Collection_2018_Nuke
+    Name: The 2018 Nuke Collection
+  - Id:
+      _value: Collection_2021_Dust_2
+    Name: The 2021 Dust 2 Collection
+  - Id:
+      _value: Collection_2021_Mirage
+    Name: The 2021 Mirage Collection
+  - Id:
+      _value: Collection_2021_Train
+    Name: The 2021 Train Collection
+  - Id:
+      _value: Collection_2021_Vertigo
+    Name: The 2021 Vertigo Collection
+  - Id:
+      _value: Collection_Alpha
+    Name: The Alpha Collection
+  - Id:
+      _value: Collection_Ancient
+    Name: The Ancient Collection
+  - Id:
+      _value: Collection_Anubis
+    Name: The Anubis Collection
+  - Id:
+      _value: Collection_Arms_Deal
+    Name: The Arms Deal Collection
+  - Id:
+      _value: Collection_Arms_Deal_2
+    Name: The Arms Deal 2 Collection
+  - Id:
+      _value: Collection_Arms_Deal_3
+    Name: The Arms Deal 3 Collection
+  - Id:
+      _value: Collection_Ascent
+    Name: The Ascent Collection
+  - Id:
+      _value: Collection_Assault
+    Name: The Assault Collection
+  - Id:
+      _value: Collection_Aztec
+    Name: The Aztec Collection
+  - Id:
+      _value: Collection_Baggage
+    Name: The Baggage Collection
+  - Id:
+      _value: Collection_Bank
+    Name: The Bank Collection
+  - Id:
+      _value: Collection_Blacksite
+    Name: The Blacksite Collection
+  - Id:
+      _value: Collection_Boreal
+    Name: The Boreal Collection
+  - Id:
+      _value: Collection_Bravo
+    Name: The Bravo Collection
+  - Id:
+      _value: Collection_Breakout
+    Name: The Breakout Collection
+  - Id:
+      _value: Collection_CS20
+    Name: The CS20 Collection
+  - Id:
+      _value: Collection_Cache
+    Name: The Cache Collection
+  - Id:
+      _value: Collection_Canals
+    Name: The Canals Collection
+  - Id:
+      _value: Collection_Chop_Shop
+    Name: The Chop Shop Collection
+  - Id:
+      _value: Collection_Chroma
+    Name: The Chroma Collection
+  - Id:
+      _value: Collection_Chroma_2
+    Name: The Chroma 2 Collection
+  - Id:
+      _value: Collection_Chroma_3
+    Name: The Chroma 3 Collection
+  - Id:
+      _value: Collection_Clutch
+    Name: The Clutch Collection
+  - Id:
+      _value: Collection_Cobblestone
+    Name: The Cobblestone Collection
+  - Id:
+      _value: Collection_Control
+    Name: The Control Collection
+  - Id:
+      _value: Collection_Danger_Zone
+    Name: The Danger Zone Collection
+  - Id:
+      _value: Collection_Dreams_And_Nightmares
+    Name: The Dreams & Nightmares Collection
+  - Id:
+      _value: Collection_Dust
+    Name: The Dust Collection
+  - Id:
+      _value: Collection_Dust_2
+    Name: The Dust 2 Collection
+  - Id:
+      _value: Collection_Falchion
+    Name: The Falchion Collection
+  - Id:
+      _value: Collection_Fever
+    Name: The Fever Collection
+  - Id:
+      _value: Collection_Fracture
+    Name: The Fracture Collection
+  - Id:
+      _value: Collection_Gallery
+    Name: The Gallery Collection
+  - Id:
+      _value: Collection_Gamma
+    Name: The Gamma Collection
+  - Id:
+      _value: Collection_Gamma_2
+    Name: The Gamma 2 Collection
+  - Id:
+      _value: Collection_Genesis
+    Name: The Genesis Collection
+  - Id:
+      _value: Collection_Glove
+    Name: The Glove Collection
+  - Id:
+      _value: Collection_Gods_and_Monsters
+    Name: The Gods and Monsters Collection
+  - Id:
+      _value: Collection_Graphic_Design
+    Name: The Graphic Design Collection
+  - Id:
+      _value: Collection_Havoc
+    Name: The Havoc Collection
+  - Id:
+      _value: Collection_Horizon
+    Name: The Horizon Collection
+  - Id:
+      _value: Collection_Huntsman
+    Name: The Huntsman Collection
+  - Id:
+      _value: Collection_Inferno
+    Name: The Inferno Collection
+  - Id:
+      _value: Collection_Italy
+    Name: The Italy Collection
+  - Id:
+      _value: Collection_Kilowatt
+    Name: The Kilowatt Collection
+  - Id:
+      _value: Collection_Lake
+    Name: The Lake Collection
+  - Id:
+      _value: Collection_Limited_Edition_Item
+    Name: Limited Edition Item
+  - Id:
+      _value: Collection_Militia
+    Name: The Militia Collection
+  - Id:
+      _value: Collection_Mirage
+    Name: The Mirage Collection
+  - Id:
+      _value: Collection_Norse
+    Name: The Norse Collection
+  - Id:
+      _value: Collection_Nuke
+    Name: The Nuke Collection
+  - Id:
+      _value: Collection_Office
+    Name: The Office Collection
+  - Id:
+      _value: Collection_Operation_Broken_Fang
+    Name: The Operation Broken Fang Collection
+  - Id:
+      _value: Collection_Operation_Hydra
+    Name: The Operation Hydra Collection
+  - Id:
+      _value: Collection_Operation_Riptide
+    Name: The Operation Riptide Collection
+  - Id:
+      _value: Collection_Overpass
+    Name: The Overpass Collection
+  - Id:
+      _value: Collection_Overpass_2024
+    Name: The Overpass 2024 Collection
+  - Id:
+      _value: Collection_Phoenix
+    Name: The Phoenix Collection
+  - Id:
+      _value: Collection_Prisma
+    Name: The Prisma Collection
+  - Id:
+      _value: Collection_Prisma_2
+    Name: The Prisma 2 Collection
+  - Id:
+      _value: Collection_Radiant
+    Name: The Radiant Collection
+  - Id:
+      _value: Collection_Recoil
+    Name: The Recoil Collection
+  - Id:
+      _value: Collection_Revolution
+    Name: The Revolution Collection
+  - Id:
+      _value: Collection_Revolver_Case
+    Name: The Revolver Case Collection
+  - Id:
+      _value: Collection_Rising_Sun
+    Name: The Rising Sun Collection
+  - Id:
+      _value: Collection_Safehouse
+    Name: The Safehouse Collection
+  - Id:
+      _value: Collection_Shadow
+    Name: The Shadow Collection
+  - Id:
+      _value: Collection_Shattered_Web
+    Name: The Shattered Web Collection
+  - Id:
+      _value: Collection_Snakebite
+    Name: The Snakebite Collection
+  - Id:
+      _value: Collection_Spectrum
+    Name: The Spectrum Collection
+  - Id:
+      _value: Collection_Spectrum_2
+    Name: The Spectrum 2 Collection
+  - Id:
+      _value: Collection_Sport_And_Field
+    Name: The Sport & Field Collection
+  - Id:
+      _value: Collection_St_Marc
+    Name: The St. Marc Collection
+  - Id:
+      _value: Collection_Train
+    Name: The Train Collection
+  - Id:
+      _value: Collection_Train_2025
+    Name: The Train 2025 Collection
+  - Id:
+      _value: Collection_Vanguard
+    Name: The Vanguard Collection
+  - Id:
+      _value: Collection_Vertigo
+    Name: The Vertigo Collection
+  - Id:
+      _value: Collection_Wildfire
+    Name: The Wildfire Collection
+  - Id:
+      _value: Collection_Winter_Offensive
+    Name: The Winter Offensive Collection
+  - Id:
+      _value: Collection_X_Ray
+    Name: The X-Ray Collection
+  - Id:
+      _value: Collection_eSports_2013
+    Name: The eSports 2013 Collection
+  - Id:
+      _value: Collection_eSports_2013_Winter
+    Name: The eSports 2013 Winter Collection
+  - Id:
+      _value: Collection_eSports_2014_Summer
+    Name: The eSports 2014 Summer Collection

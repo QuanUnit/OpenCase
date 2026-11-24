@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Negev_Raw_Ceramic
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3f9a314c-2631-4b0a-8e5b-b5800c9611fe
-  SkinStringId: Negev_Raw_Ceramic
+  Id:
+    _value: Negev_Raw_Ceramic
   Name: Raw Ceramic
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Boreal Collection
+  Collection:
+    _value: Collection_Boreal
   Price:
     MinPrice: 0.01
     MaxPrice: 0.04

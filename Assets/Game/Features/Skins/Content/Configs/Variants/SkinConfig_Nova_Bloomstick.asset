@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Nova_Bloomstick
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a902fe88-0497-43fe-a993-f3a06c211541
-  SkinStringId: Nova_Bloomstick
+  Id:
+    _value: Nova_Bloomstick
   Name: Bloomstick
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The eSports 2014 Summer Collection
+  Collection:
+    _value: Collection_eSports_2014_Summer
   Price:
     MinPrice: 11.83
     MaxPrice: 85.67

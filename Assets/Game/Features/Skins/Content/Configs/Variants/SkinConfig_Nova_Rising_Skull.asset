@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Nova_Rising_Skull
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a486b0d8-92c3-4f33-94aa-b06035190c42
-  SkinStringId: Nova_Rising_Skull
+  Id:
+    _value: Nova_Rising_Skull
   Name: Rising Skull
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Winter Offensive Collection
+  Collection:
+    _value: Collection_Winter_Offensive
   Price:
     MinPrice: 3.9
     MaxPrice: 7

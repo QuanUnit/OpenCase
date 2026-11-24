@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Graphite
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 6e389f3f-25b9-441d-b93e-344163cce84a
-  SkinStringId: AWP_Graphite
+  Id:
+    _value: AWP_Graphite
   Name: Graphite
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Bravo Collection
+  Collection:
+    _value: Collection_Bravo
   Price:
     MinPrice: 185.09
     MaxPrice: 209.45

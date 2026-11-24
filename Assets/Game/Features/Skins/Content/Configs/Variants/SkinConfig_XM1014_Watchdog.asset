@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Watchdog
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f22d24ec-9551-4daa-b856-9126baee20c8
-  SkinStringId: XM1014_Watchdog
+  Id:
+    _value: XM1014_Watchdog
   Name: Watchdog
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Operation Riptide Collection
+  Collection:
+    _value: Collection_Operation_Riptide
   Price:
     MinPrice: 0.81
     MaxPrice: 5.11

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_ZX_Spectron
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b329eaeb-6213-4d96-b8dc-41a9e8fc31c1
-  SkinStringId: FAMAS_ZX_Spectron
+  Id:
+    _value: FAMAS_ZX_Spectron
   Name: ZX Spectron
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Operation Riptide Collection
+  Collection:
+    _value: Collection_Operation_Riptide
   Price:
     MinPrice: 2.62
     MaxPrice: 19.66

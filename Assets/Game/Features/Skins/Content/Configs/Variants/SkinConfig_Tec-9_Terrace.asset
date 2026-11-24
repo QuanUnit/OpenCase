@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Terrace
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 63b52d29-7bb1-467d-84ee-0d02375b3771
-  SkinStringId: Tec-9_Terrace
+  Id:
+    _value: Tec-9_Terrace
   Name: Terrace
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Rising Sun Collection
+  Collection:
+    _value: Collection_Rising_Sun
   Price:
     MinPrice: 128.15
     MaxPrice: 220

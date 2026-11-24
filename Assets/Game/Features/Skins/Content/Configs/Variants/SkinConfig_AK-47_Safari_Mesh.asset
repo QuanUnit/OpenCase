@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Safari_Mesh
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: fe609384-9b75-4a0f-ba47-9e58e48994c0
-  SkinStringId: AK-47_Safari_Mesh
+  Id:
+    _value: AK-47_Safari_Mesh
   Name: Safari Mesh
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Dust 2 Collection
+  Collection:
+    _value: Collection_Dust_2
   Price:
     MinPrice: 0.04
     MaxPrice: 4.13

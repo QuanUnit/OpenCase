@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Rust_Leaf
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3c6bf695-8938-46f4-ac05-e86a06b16853
-  SkinStringId: Tec-9_Rust_Leaf
+  Id:
+    _value: Tec-9_Rust_Leaf
   Name: Rust Leaf
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The St. Marc Collection
+  Collection:
+    _value: Collection_St_Marc
   Price:
     MinPrice: 13.74
     MaxPrice: 23.88

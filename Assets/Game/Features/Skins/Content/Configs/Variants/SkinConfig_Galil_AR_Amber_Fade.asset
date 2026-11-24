@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_Amber_Fade
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: cf8ae69d-3e74-4ae2-9e83-b8973a61bf37
-  SkinStringId: Galil_AR_Amber_Fade
+  Id:
+    _value: Galil_AR_Amber_Fade
   Name: Amber Fade
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The 2021 Dust 2 Collection
+  Collection:
+    _value: Collection_2021_Dust_2
   Price:
     MinPrice: 18.42
     MaxPrice: 30.67

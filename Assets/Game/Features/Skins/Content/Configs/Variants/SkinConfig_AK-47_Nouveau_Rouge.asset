@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Nouveau_Rouge
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 73ad062f-b8f4-4daa-a9af-49064e97f467
-  SkinStringId: AK-47_Nouveau_Rouge
+  Id:
+    _value: AK-47_Nouveau_Rouge
   Name: Nouveau Rouge
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Radiant Collection
+  Collection:
+    _value: Collection_Radiant
   Price:
     MinPrice: 14.96
     MaxPrice: 232

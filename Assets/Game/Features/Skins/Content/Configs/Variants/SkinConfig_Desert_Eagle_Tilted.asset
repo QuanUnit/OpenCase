@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Tilted
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0adfd16e-c5bc-4671-8cfa-1f2ad246bd82
-  SkinStringId: Desert_Eagle_Tilted
+  Id:
+    _value: Desert_Eagle_Tilted
   Name: Tilted
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Overpass 2024 Collection
+  Collection:
+    _value: Collection_Overpass_2024
   Price:
     MinPrice: 0.08
     MaxPrice: 2.46

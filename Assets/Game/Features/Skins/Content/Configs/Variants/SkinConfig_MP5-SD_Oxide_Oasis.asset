@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP5-SD_Oxide_Oasis
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d1d5c72b-2491-4cf0-8e2c-5573927846d8
-  SkinStringId: MP5-SD_Oxide_Oasis
+  Id:
+    _value: MP5-SD_Oxide_Oasis
   Name: Oxide Oasis
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The 2021 Mirage Collection
+  Collection:
+    _value: Collection_2021_Mirage
   Price:
     MinPrice: 304.95
     MaxPrice: 440.11

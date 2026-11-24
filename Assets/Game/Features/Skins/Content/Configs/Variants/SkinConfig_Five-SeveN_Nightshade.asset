@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Nightshade
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 11a7acb2-e2ee-4218-8ac2-10d88c0bad5e
-  SkinStringId: Five-SeveN_Nightshade
+  Id:
+    _value: Five-SeveN_Nightshade
   Name: Nightshade
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The eSports 2013 Winter Collection
+  Collection:
+    _value: Collection_eSports_2013_Winter
   Price:
     MinPrice: 2.35
     MaxPrice: 2.94

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_Kill_Confirmed
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0bcf8c49-c42b-40d8-83cb-03af2cc9d236
-  SkinStringId: USP-S_Kill_Confirmed
+  Id:
+    _value: USP-S_Kill_Confirmed
   Name: Kill Confirmed
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Shadow Collection
+  Collection:
+    _value: Collection_Shadow
   Price:
     MinPrice: 54.79
     MaxPrice: 407.34

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Hybrid
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 13d3b556-dc53-4f64-8231-80ad4212b291
-  SkinStringId: Five-SeveN_Hybrid
+  Id:
+    _value: Five-SeveN_Hybrid
   Name: Hybrid
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Kilowatt Collection
+  Collection:
+    _value: Collection_Kilowatt
   Price:
     MinPrice: 0.42
     MaxPrice: 4.35

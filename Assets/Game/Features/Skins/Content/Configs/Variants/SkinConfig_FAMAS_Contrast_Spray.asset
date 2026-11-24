@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Contrast_Spray
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8e9ea705-9eb8-434f-a641-5ab21e18d257
-  SkinStringId: FAMAS_Contrast_Spray
+  Id:
+    _value: FAMAS_Contrast_Spray
   Name: Contrast Spray
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Office Collection
+  Collection:
+    _value: Collection_Office
   Price:
     MinPrice: 5.22
     MaxPrice: 71.27

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Copper_Borre
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b79e984c-3f88-40ef-99b1-3a3415cdc6dd
-  SkinStringId: MAC-10_Copper_Borre
+  Id:
+    _value: MAC-10_Copper_Borre
   Name: Copper Borre
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Norse Collection
+  Collection:
+    _value: Collection_Norse
   Price:
     MinPrice: 94.69
     MaxPrice: 202.7

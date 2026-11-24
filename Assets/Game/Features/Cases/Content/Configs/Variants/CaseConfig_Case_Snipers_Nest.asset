@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
   m_Name: CaseConfig_Case_Snipers_Nest
   m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
-  _id:
-    _idBody: 16c7e320-81f5-4965-8ac7-1ff6aa4da0f7
-  CaseStringId: Case_Snipers_Nest
+  Id:
+    _value: Case_Snipers_Nest
   Name: Sniper's Nest
   Price: 4.05
   SkinsMapEntries:

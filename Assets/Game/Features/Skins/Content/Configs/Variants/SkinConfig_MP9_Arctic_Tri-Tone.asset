@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Arctic_Tri-Tone
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5689b250-0032-4dea-9b91-01a12fdae076
-  SkinStringId: MP9_Arctic_Tri-Tone
+  Id:
+    _value: MP9_Arctic_Tri-Tone
   Name: Arctic Tri-Tone
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Sport & Field Collection
+  Collection:
+    _value: Collection_Sport_And_Field
   Price:
     MinPrice: 5.23
     MaxPrice: 19.69

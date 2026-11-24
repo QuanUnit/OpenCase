@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ75-Auto_Eco
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 559ef9b8-3278-40a3-bb6f-f7950e98dd29
-  SkinStringId: CZ75-Auto_Eco
+  Id:
+    _value: CZ75-Auto_Eco
   Name: Eco
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Horizon Collection
+  Collection:
+    _value: Collection_Horizon
   Price:
     MinPrice: 0.59
     MaxPrice: 6.39

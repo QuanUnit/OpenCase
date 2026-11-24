@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_Blueprint
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7ee4c72f-7649-45b9-8093-92eb780793ae
-  SkinStringId: USP-S_Blueprint
+  Id:
+    _value: USP-S_Blueprint
   Name: Blueprint
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Operation Hydra Collection
+  Collection:
+    _value: Collection_Operation_Hydra
   Price:
     MinPrice: 4.9
     MaxPrice: 51.92

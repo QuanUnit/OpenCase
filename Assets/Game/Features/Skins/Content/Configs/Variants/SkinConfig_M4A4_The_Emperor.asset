@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A4_The_Emperor
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 56ce460e-08fa-4f4a-b13e-be907f5e7c2b
-  SkinStringId: M4A4_The_Emperor
+  Id:
+    _value: M4A4_The_Emperor
   Name: The Emperor
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Prisma Collection
+  Collection:
+    _value: Collection_Prisma
   Price:
     MinPrice: 49.11
     MaxPrice: 337.74

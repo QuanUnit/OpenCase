@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_Cold_Fusion
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 49fcc7d2-2cb3-4f32-85a6-53ca38f007c4
-  SkinStringId: Galil_AR_Cold_Fusion
+  Id:
+    _value: Galil_AR_Cold_Fusion
   Name: Cold Fusion
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The 2018 Nuke Collection
+  Collection:
+    _value: Collection_2018_Nuke
   Price:
     MinPrice: 0.01
     MaxPrice: 0.21

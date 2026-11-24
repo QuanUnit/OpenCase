@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Hot_Shot
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 242eeef2-1a35-48e3-997b-30d40df5bf26
-  SkinStringId: Five-SeveN_Hot_Shot
+  Id:
+    _value: Five-SeveN_Hot_Shot
   Name: Hot Shot
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Cache Collection
+  Collection:
+    _value: Collection_Cache
   Price:
     MinPrice: 2.34
     MaxPrice: 33.96

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P2000_Marsh
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3b64d93e-36d3-49ab-b705-d556a4edde24
-  SkinStringId: P2000_Marsh
+  Id:
+    _value: P2000_Marsh
   Name: Marsh
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Boreal Collection
+  Collection:
+    _value: Collection_Boreal
   Price:
     MinPrice: 0.04
     MaxPrice: 0.35

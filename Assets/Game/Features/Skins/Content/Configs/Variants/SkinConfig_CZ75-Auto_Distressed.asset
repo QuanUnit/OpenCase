@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ75-Auto_Distressed
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2cd4f5f1-f1dd-4bf3-90df-237025c20743
-  SkinStringId: CZ75-Auto_Distressed
+  Id:
+    _value: CZ75-Auto_Distressed
   Name: Distressed
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Prisma 2 Collection
+  Collection:
+    _value: Collection_Prisma_2
   Price:
     MinPrice: 0.1
     MaxPrice: 0.85

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Dual_Berettas_Anodized_Navy
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ba8f4cc1-e951-423b-846d-3f25de191185
-  SkinStringId: Dual_Berettas_Anodized_Navy
+  Id:
+    _value: Dual_Berettas_Anodized_Navy
   Name: Anodized Navy
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Inferno Collection
+  Collection:
+    _value: Collection_Inferno
   Price:
     MinPrice: 5.5
     MaxPrice: 9.93

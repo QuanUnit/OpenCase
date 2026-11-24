@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_R8_Revolver_Bone_Mask
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 47213937-01cd-4c64-a847-5dc606a0e4d7
-  SkinStringId: R8_Revolver_Bone_Mask
+  Id:
+    _value: R8_Revolver_Bone_Mask
   Name: Bone Mask
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Bank Collection
+  Collection:
+    _value: Collection_Bank
   Price:
     MinPrice: 0.01
     MaxPrice: 0.27

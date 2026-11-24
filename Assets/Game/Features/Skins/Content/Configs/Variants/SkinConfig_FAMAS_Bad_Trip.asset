@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Bad_Trip
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 18615067-ded4-430b-80f0-0e221ef3cce0
-  SkinStringId: FAMAS_Bad_Trip
+  Id:
+    _value: FAMAS_Bad_Trip
   Name: Bad Trip
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Fever Collection
+  Collection:
+    _value: Collection_Fever
   Price:
     MinPrice: 43.75
     MaxPrice: 80.98

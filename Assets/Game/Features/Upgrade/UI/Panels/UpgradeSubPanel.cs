@@ -5,7 +5,6 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using Features.Inventory.UI.Panels;
 using Features.Skins.Data;
-using QCore.Tools.Identifiers;
 using QCore.UISystem.Panels;
 using Shared.UI.Effects;
 using TMPro;
@@ -16,7 +15,7 @@ namespace Features.Upgrade.UI.Panels
 {
     public class UpgradeSubPanel : Panel
     {
-        public event Action<QGuid> SkinClicked;
+        public event Action<SkinInstanceId> SkinClicked;
         public event Action<int> MultiplierClicked;
         public event Action UpgradeClicked;
 
@@ -43,8 +42,8 @@ namespace Features.Upgrade.UI.Panels
         [SerializeField] private Color _failColor;
         [SerializeField] private ScreenFlash _screenFlash;
 
-        private readonly Dictionary<QGuid, SkinView> _activeViews = new Dictionary<QGuid, SkinView>();
-        private readonly Dictionary<SkinView, QGuid> _viewToSkinIdMap = new Dictionary<SkinView, QGuid>();
+        private readonly Dictionary<SkinInstanceId, SkinView> _activeViews = new Dictionary<SkinInstanceId, SkinView>();
+        private readonly Dictionary<SkinView, SkinInstanceId> _viewToSkinIdMap = new Dictionary<SkinView, SkinInstanceId>();
         private readonly List<UpgradeMultiplierOption> _multiplierOptions = new List<UpgradeMultiplierOption>();
 
         private void OnEnable()
@@ -72,7 +71,7 @@ namespace Features.Upgrade.UI.Panels
             UpdateEmptyState();
         }
 
-        public void RemoveSkinView(QGuid id)
+        public void RemoveSkinView(SkinInstanceId id)
         {
             var removed = _activeViews.Remove(id, out var view);
 
@@ -102,7 +101,7 @@ namespace Features.Upgrade.UI.Panels
             }
         }
 
-        public void SetSelectedSkin(QGuid skinId)
+        public void SetSelectedSkin(SkinInstanceId skinId)
         {
             var view = _activeViews[skinId];
 

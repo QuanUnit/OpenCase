@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Ricochet
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 345935db-86f1-4088-b496-f2d992fffcfe
-  SkinStringId: AUG_Ricochet
+  Id:
+    _value: AUG_Ricochet
   Name: Ricochet
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Revolver Case Collection
+  Collection:
+    _value: Collection_Revolver_Case
   Price:
     MinPrice: 0.12
     MaxPrice: 0.75

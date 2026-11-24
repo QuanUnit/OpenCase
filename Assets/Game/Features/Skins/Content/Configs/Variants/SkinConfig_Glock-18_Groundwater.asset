@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Groundwater
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7f30ea7a-d53a-48b2-a197-4da6855e75d3
-  SkinStringId: Glock-18_Groundwater
+  Id:
+    _value: Glock-18_Groundwater
   Name: Groundwater
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Mirage Collection
+  Collection:
+    _value: Collection_Mirage
   Price:
     MinPrice: 23.52
     MaxPrice: 103.32

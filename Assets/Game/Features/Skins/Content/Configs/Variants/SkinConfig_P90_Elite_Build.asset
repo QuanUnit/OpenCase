@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Elite_Build
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0267d4eb-4c58-4154-8580-24c0845a8d0d
-  SkinStringId: P90_Elite_Build
+  Id:
+    _value: P90_Elite_Build
   Name: Elite Build
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Falchion Collection
+  Collection:
+    _value: Collection_Falchion
   Price:
     MinPrice: 0.31
     MaxPrice: 1.33

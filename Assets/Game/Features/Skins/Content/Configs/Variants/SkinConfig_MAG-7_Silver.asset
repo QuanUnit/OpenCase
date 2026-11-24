@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAG-7_Silver
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 784081c0-24af-4fa6-85e9-69a29f370c1c
-  SkinStringId: MAG-7_Silver
+  Id:
+    _value: MAG-7_Silver
   Name: Silver
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Cobblestone Collection
+  Collection:
+    _value: Collection_Cobblestone
   Price:
     MinPrice: 16.08
     MaxPrice: 17.11

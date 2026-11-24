@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Phantom_Disruptor
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 99bdba5a-99f3-45d7-8dca-7e248d4d0462
-  SkinStringId: AK-47_Phantom_Disruptor
+  Id:
+    _value: AK-47_Phantom_Disruptor
   Name: Phantom Disruptor
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Prisma 2 Collection
+  Collection:
+    _value: Collection_Prisma_2
   Price:
     MinPrice: 5.06
     MaxPrice: 30.43

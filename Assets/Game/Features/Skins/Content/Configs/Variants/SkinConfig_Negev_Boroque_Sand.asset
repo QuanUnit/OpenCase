@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Negev_Boroque_Sand
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c627f755-5f88-41c9-acc0-82858a5f5ce4
-  SkinStringId: Negev_Boroque_Sand
+  Id:
+    _value: Negev_Boroque_Sand
   Name: Boroque Sand
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Canals Collection
+  Collection:
+    _value: Collection_Canals
   Price:
     MinPrice: 1.6
     MaxPrice: 7.68

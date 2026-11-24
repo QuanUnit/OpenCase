@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SG_553_Pulse
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8cc33b50-3955-41d6-904f-058d4f54c56d
-  SkinStringId: SG_553_Pulse
+  Id:
+    _value: SG_553_Pulse
   Name: Pulse
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Phoenix Collection
+  Collection:
+    _value: Collection_Phoenix
   Price:
     MinPrice: 2.33
     MaxPrice: 8.25

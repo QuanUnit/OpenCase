@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Mecha_Industries
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: be68e66c-f110-4d6a-a63a-14b162a5922b
-  SkinStringId: FAMAS_Mecha_Industries
+  Id:
+    _value: FAMAS_Mecha_Industries
   Name: Mecha Industries
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Glove Collection
+  Collection:
+    _value: Collection_Glove
   Price:
     MinPrice: 45.9
     MaxPrice: 73

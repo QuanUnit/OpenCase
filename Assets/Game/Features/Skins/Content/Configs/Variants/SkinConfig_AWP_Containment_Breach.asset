@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Containment_Breach
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2ce7e5db-1812-4798-843a-6b0c696fe392
-  SkinStringId: AWP_Containment_Breach
+  Id:
+    _value: AWP_Containment_Breach
   Name: Containment Breach
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Shattered Web Collection
+  Collection:
+    _value: Collection_Shattered_Web
   Price:
     MinPrice: 66.11
     MaxPrice: 930

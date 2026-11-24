@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Shapewood
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: fbf8dd8f-e93d-4cf2-a4ae-4f5f6007b833
-  SkinStringId: P90_Shapewood
+  Id:
+    _value: P90_Shapewood
   Name: Shapewood
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Revolver Case Collection
+  Collection:
+    _value: Collection_Revolver_Case
   Price:
     MinPrice: 7.14
     MaxPrice: 39.21

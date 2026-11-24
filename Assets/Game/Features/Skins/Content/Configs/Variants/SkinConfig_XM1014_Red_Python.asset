@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Red_Python
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b07717cd-d6ed-4ea7-8873-24dd5a7ded55
-  SkinStringId: XM1014_Red_Python
+  Id:
+    _value: XM1014_Red_Python
   Name: Red Python
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The eSports 2014 Summer Collection
+  Collection:
+    _value: Collection_eSports_2014_Summer
   Price:
     MinPrice: 1.18
     MaxPrice: 2.42

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using Features.Inventory.UI.Panels;
 using Features.Skins.Data;
-using QCore.Tools.Identifiers;
 using QCore.UISystem.Panels;
 using Shared.UI;
 using Shared.UI.Effects;
@@ -15,7 +14,7 @@ namespace Features.Contracts.UI.Panels
 {
     public class ContractSubPanel : Panel
     {
-        public event Action<QGuid> SkinClicked;
+        public event Action<SkinInstanceId> SkinClicked;
         public event Action<int> SlotClicked;
         public event Action SignClicked;
         public event Action SignatureClearClicked;
@@ -54,11 +53,11 @@ namespace Features.Contracts.UI.Panels
         [SerializeField] private Button _resultCloseButton;
         [SerializeField] private ScreenFlash _screenFlash;
 
-        private readonly Dictionary<QGuid, SkinView> _activeViews = new Dictionary<QGuid, SkinView>();
-        private readonly Dictionary<SkinView, QGuid> _viewToSkinIdMap = new Dictionary<SkinView, QGuid>();
+        private readonly Dictionary<SkinInstanceId, SkinView> _activeViews = new Dictionary<SkinInstanceId, SkinView>();
+        private readonly Dictionary<SkinView, SkinInstanceId> _viewToSkinIdMap = new Dictionary<SkinView, SkinInstanceId>();
         private readonly List<ContractOutcomeView> _outcomeViews = new List<ContractOutcomeView>();
 
-        public IEnumerable<QGuid> SkinIds => _activeViews.Keys;
+        public IEnumerable<SkinInstanceId> SkinIds => _activeViews.Keys;
 
         private void OnEnable()
         {
@@ -93,7 +92,7 @@ namespace Features.Contracts.UI.Panels
             _viewToSkinIdMap.Add(created, skin.Id);
         }
 
-        public void RemoveSkinView(QGuid id)
+        public void RemoveSkinView(SkinInstanceId id)
         {
             var removed = _activeViews.Remove(id, out var view);
 
@@ -116,7 +115,7 @@ namespace Features.Contracts.UI.Panels
             }
         }
 
-        public void SetSkinState(QGuid id, bool isInContract, bool isAvailable)
+        public void SetSkinState(SkinInstanceId id, bool isInContract, bool isAvailable)
         {
             var view = _activeViews[id];
             var canvasGroup = view.GetComponent<CanvasGroup>();

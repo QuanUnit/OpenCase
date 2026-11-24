@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Hades
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c623bdbe-fe5d-4010-b5d5-64a295cd4531
-  SkinStringId: Tec-9_Hades
+  Id:
+    _value: Tec-9_Hades
   Name: Hades
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Gods and Monsters Collection
+  Collection:
+    _value: Collection_Gods_and_Monsters
   Price:
     MinPrice: 14.62
     MaxPrice: 30.73

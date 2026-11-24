@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Phoenix_Chalk
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d4a50f0b-77c8-4d69-afca-37172b1e55ca
-  SkinStringId: Tec-9_Phoenix_Chalk
+  Id:
+    _value: Tec-9_Phoenix_Chalk
   Name: Phoenix Chalk
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Havoc Collection
+  Collection:
+    _value: Collection_Havoc
   Price:
     MinPrice: 0.44
     MaxPrice: 9.52

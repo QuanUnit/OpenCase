@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP5-SD_Desert_Strike
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3c46195b-3970-4463-8bf7-117a0d805633
-  SkinStringId: MP5-SD_Desert_Strike
+  Id:
+    _value: MP5-SD_Desert_Strike
   Name: Desert Strike
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Prisma 2 Collection
+  Collection:
+    _value: Collection_Prisma_2
   Price:
     MinPrice: 0.08
     MaxPrice: 0.83

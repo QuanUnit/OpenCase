@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP5-SD_Kitbash
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 479f53d1-7085-4f2c-b672-b868e1dc11f7
-  SkinStringId: MP5-SD_Kitbash
+  Id:
+    _value: MP5-SD_Kitbash
   Name: Kitbash
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Fracture Collection
+  Collection:
+    _value: Collection_Fracture
   Price:
     MinPrice: 0.39
     MaxPrice: 2.45

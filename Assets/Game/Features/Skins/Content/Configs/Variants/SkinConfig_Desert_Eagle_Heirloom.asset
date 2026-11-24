@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Heirloom
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8481f1b6-9253-4273-ab82-9c2a6505b582
-  SkinStringId: Desert_Eagle_Heirloom
+  Id:
+    _value: Desert_Eagle_Heirloom
   Name: Heirloom
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Arms Deal 3 Collection
+  Collection:
+    _value: Collection_Arms_Deal_3
   Price:
     MinPrice: 4.91
     MaxPrice: 60.67

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Features.Cases.Data;
 using Features.Skins.Data;
 using NUnit.Framework;
-using QCore.Tools.Identifiers;
+using Shared.Identifiers;
 
 namespace Features.Cases.Tests.EditMode
 {
@@ -16,7 +16,7 @@ namespace Features.Cases.Tests.EditMode
 
             for (var index = 0; index < count; index++)
             {
-                skins.Add(new Skin(QGuid.CreateNew(), QGuid.CreateNew(), 0.1f, index + 1f, false, false));
+                skins.Add(new Skin(EntityIds.CreateUnique<SkinId>("TestSkin"), EntityIds.CreateUnique<SkinInstanceId>(SkinInstanceId.EntityName), 0.1f, index + 1f, false, false));
             }
 
             return skins;

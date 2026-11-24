@@ -1,12 +1,12 @@
-using QCore.Tools.Identifiers;
+using Features.Skins.Data;
 
 namespace Features.SlotMachine.Data
 {
     public struct SlotData
     {
-        public QGuid ItemId;
+        public SkinId ItemId;
 
-        public SlotData(QGuid itemId)
+        public SlotData(SkinId itemId)
         {
             ItemId = itemId;
         }

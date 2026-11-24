@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Case_Hardened
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 952e212d-6b04-4801-bc3e-a47722a8abab
-  SkinStringId: AK-47_Case_Hardened
+  Id:
+    _value: AK-47_Case_Hardened
   Name: Case Hardened
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Arms Deal Collection
+  Collection:
+    _value: Collection_Arms_Deal
   Price:
     MinPrice: 166.04
     MaxPrice: 1000

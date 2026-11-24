@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Dry_Season
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 204cc2e1-35e2-408e-ac50-44a30d2bb4b1
-  SkinStringId: MP9_Dry_Season
+  Id:
+    _value: MP9_Dry_Season
   Name: Dry Season
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Alpha Collection
+  Collection:
+    _value: Collection_Alpha
   Price:
     MinPrice: 2.8
     MaxPrice: 76.97

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Triumvirate
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c2059a81-0450-4961-8f6b-02679a89d832
-  SkinStringId: Five-SeveN_Triumvirate
+  Id:
+    _value: Five-SeveN_Triumvirate
   Name: Triumvirate
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Wildfire Collection
+  Collection:
+    _value: Collection_Wildfire
   Price:
     MinPrice: 1.65
     MaxPrice: 10.3

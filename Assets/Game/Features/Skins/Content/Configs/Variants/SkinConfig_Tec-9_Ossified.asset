@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Ossified
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c0fd862e-30a4-4567-8e11-ccb2ed675e98
-  SkinStringId: Tec-9_Ossified
+  Id:
+    _value: Tec-9_Ossified
   Name: Ossified
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Aztec Collection
+  Collection:
+    _value: Collection_Aztec
   Price:
     MinPrice: 11.24
     MaxPrice: 15

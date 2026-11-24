@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ75-Auto_Midnight_Palm
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 771671d7-11b5-4bbc-9050-0c08566dddf0
-  SkinStringId: CZ75-Auto_Midnight_Palm
+  Id:
+    _value: CZ75-Auto_Midnight_Palm
   Name: Midnight Palm
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The 2021 Mirage Collection
+  Collection:
+    _value: Collection_2021_Mirage
   Price:
     MinPrice: 2
     MaxPrice: 2.9

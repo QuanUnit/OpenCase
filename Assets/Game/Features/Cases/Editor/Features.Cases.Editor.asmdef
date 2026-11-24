@@ -1,0 +1,20 @@
+{
+    "name": "Features.Cases.Editor",
+    "rootNamespace": "Features.Cases.Editor",
+    "references": [
+        "Features.Cases",
+        "Shared",
+        "Shared.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

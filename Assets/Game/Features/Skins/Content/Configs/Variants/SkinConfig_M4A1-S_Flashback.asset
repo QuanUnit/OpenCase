@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A1-S_Flashback
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: fb88305d-a813-4315-ba10-644cab29c066
-  SkinStringId: M4A1-S_Flashback
+  Id:
+    _value: M4A1-S_Flashback
   Name: Flashback
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Glove Collection
+  Collection:
+    _value: Collection_Glove
   Price:
     MinPrice: 4.38
     MaxPrice: 22.5

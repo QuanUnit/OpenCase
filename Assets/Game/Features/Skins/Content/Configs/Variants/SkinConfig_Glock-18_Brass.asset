@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Brass
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 577d26c9-9ade-4daa-956e-0bfb3d569e74
-  SkinStringId: Glock-18_Brass
+  Id:
+    _value: Glock-18_Brass
   Name: Brass
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Dust Collection
+  Collection:
+    _value: Collection_Dust
   Price:
     MinPrice: 47.01
     MaxPrice: 330.4

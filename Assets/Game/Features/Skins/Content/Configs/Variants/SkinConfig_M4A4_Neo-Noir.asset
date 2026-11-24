@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A4_Neo-Noir
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 613cf47f-18d7-4be7-83ba-2dbfcbef7f61
-  SkinStringId: M4A4_Neo-Noir
+  Id:
+    _value: M4A4_Neo-Noir
   Name: Neo-Noir
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Clutch Collection
+  Collection:
+    _value: Collection_Clutch
   Price:
     MinPrice: 28.26
     MaxPrice: 200.07

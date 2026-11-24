@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Eye_of_Athena
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c519489e-d223-45bc-8768-4d8f92ea5c8f
-  SkinStringId: FAMAS_Eye_of_Athena
+  Id:
+    _value: FAMAS_Eye_of_Athena
   Name: Eye of Athena
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Horizon Collection
+  Collection:
+    _value: Collection_Horizon
   Price:
     MinPrice: 5.56
     MaxPrice: 29.51

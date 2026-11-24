@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Point_Disarray
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 66b94a6f-7153-49e2-b240-68a2ac93e3ce
-  SkinStringId: AK-47_Point_Disarray
+  Id:
+    _value: AK-47_Point_Disarray
   Name: Point Disarray
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Revolver Case Collection
+  Collection:
+    _value: Collection_Revolver_Case
   Price:
     MinPrice: 13.55
     MaxPrice: 83

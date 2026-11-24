@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SCAR-20_Wild_Berry
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 81b801d7-3fdd-4168-9c8f-ddcc15ff280d
-  SkinStringId: SCAR-20_Wild_Berry
+  Id:
+    _value: SCAR-20_Wild_Berry
   Name: Wild Berry
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Graphic Design Collection
+  Collection:
+    _value: Collection_Graphic_Design
   Price:
     MinPrice: 1.48
     MaxPrice: 4.39

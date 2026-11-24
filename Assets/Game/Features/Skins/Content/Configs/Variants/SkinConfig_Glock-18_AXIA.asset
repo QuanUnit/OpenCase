@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_AXIA
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 28ff8183-e714-44fc-9a21-0949e51f15ad
-  SkinStringId: Glock-18_AXIA
+  Id:
+    _value: Glock-18_AXIA
   Name: AXIA
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Sport & Field Collection
+  Collection:
+    _value: Collection_Sport_And_Field
   Price:
     MinPrice: 53.89
     MaxPrice: 221.23

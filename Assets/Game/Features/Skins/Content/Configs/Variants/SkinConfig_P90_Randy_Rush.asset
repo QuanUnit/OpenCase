@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Randy_Rush
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 431ba41f-2f79-4a6c-822b-f7ca671cbd19
-  SkinStringId: P90_Randy_Rush
+  Id:
+    _value: P90_Randy_Rush
   Name: Randy Rush
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Gallery Collection
+  Collection:
+    _value: Collection_Gallery
   Price:
     MinPrice: 0.63
     MaxPrice: 5.82

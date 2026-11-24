@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_Kami
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0a6cae9f-d698-4cb2-bbef-07c202171119
-  SkinStringId: Galil_AR_Kami
+  Id:
+    _value: Galil_AR_Kami
   Name: Kami
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Huntsman Collection
+  Collection:
+    _value: Collection_Huntsman
   Price:
     MinPrice: 1.08
     MaxPrice: 3.78

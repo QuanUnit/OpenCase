@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Dark_Age
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: da262990-8f83-43f1-964e-d749e42e004c
-  SkinStringId: MP9_Dark_Age
+  Id:
+    _value: MP9_Dark_Age
   Name: Dark Age
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Cobblestone Collection
+  Collection:
+    _value: Collection_Cobblestone
   Price:
     MinPrice: 93.92
     MaxPrice: 102.76

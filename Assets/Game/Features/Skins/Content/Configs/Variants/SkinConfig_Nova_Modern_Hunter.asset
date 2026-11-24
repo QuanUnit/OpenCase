@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Nova_Modern_Hunter
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9076f8b6-b8ff-4be9-b0ae-0d54061398e0
-  SkinStringId: Nova_Modern_Hunter
+  Id:
+    _value: Nova_Modern_Hunter
   Name: Modern Hunter
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Militia Collection
+  Collection:
+    _value: Collection_Militia
   Price:
     MinPrice: 18.86
     MaxPrice: 380.2

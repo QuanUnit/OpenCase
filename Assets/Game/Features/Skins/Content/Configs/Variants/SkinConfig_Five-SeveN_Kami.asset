@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Kami
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0c06c04e-8cc1-48d4-9fe9-cab8e4c43a75
-  SkinStringId: Five-SeveN_Kami
+  Id:
+    _value: Five-SeveN_Kami
   Name: Kami
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Winter Offensive Collection
+  Collection:
+    _value: Collection_Winter_Offensive
   Price:
     MinPrice: 1.62
     MaxPrice: 3.03

@@ -3,16 +3,17 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using QCore.AddressablesWrapper.Containers;
 using QCore.Tools.Collections;
-using QCore.Tools.Configs;
+using Features.Cases.Data;
 using Features.Skins.Configs;
+using Shared.Identifiers;
 using UnityEngine;
 
 namespace Features.Cases.Configs
 {
     [CreateAssetMenu(menuName = "Configs/Cases/" + nameof(CaseConfig), fileName = nameof(CaseConfig))]
-    public class CaseConfig : IdentifiedScriptableObject
+    public class CaseConfig : ScriptableObject
     {
-        public string CaseStringId;
+        [EntityIdDefinition] public CaseId Id = new CaseId();
         public string Name;
         public float Price;
         public WeightedMap<SkinConfig> SkinsMapEntries;

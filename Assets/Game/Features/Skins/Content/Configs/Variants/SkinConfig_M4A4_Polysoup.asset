@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A4_Polysoup
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 468e2144-9636-4be0-b753-aa9e2f49cd77
-  SkinStringId: M4A4_Polysoup
+  Id:
+    _value: M4A4_Polysoup
   Name: Polysoup
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Graphic Design Collection
+  Collection:
+    _value: Collection_Graphic_Design
   Price:
     MinPrice: 10.97
     MaxPrice: 50.31

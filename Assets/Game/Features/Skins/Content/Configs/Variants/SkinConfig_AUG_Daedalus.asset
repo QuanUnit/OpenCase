@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Daedalus
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 72c0a420-a22c-44dc-ba7d-7af2f8b85434
-  SkinStringId: AUG_Daedalus
+  Id:
+    _value: AUG_Daedalus
   Name: Daedalus
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Gods and Monsters Collection
+  Collection:
+    _value: Collection_Gods_and_Monsters
   Price:
     MinPrice: 3.99
     MaxPrice: 5.39

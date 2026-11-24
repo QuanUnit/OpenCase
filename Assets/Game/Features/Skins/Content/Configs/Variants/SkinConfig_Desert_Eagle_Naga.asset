@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Naga
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 6165b417-b8fb-45f7-b422-a56bbd841d3d
-  SkinStringId: Desert_Eagle_Naga
+  Id:
+    _value: Desert_Eagle_Naga
   Name: Naga
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Chroma Collection
+  Collection:
+    _value: Collection_Chroma
   Price:
     MinPrice: 1.91
     MaxPrice: 19.95

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A4_Desert_Storm
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c84de7f6-0cbc-43ca-b48b-de220e33c568
-  SkinStringId: M4A4_Desert_Storm
+  Id:
+    _value: M4A4_Desert_Storm
   Name: Desert Storm
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Dust Collection
+  Collection:
+    _value: Collection_Dust
   Price:
     MinPrice: 12.01
     MaxPrice: 64.06

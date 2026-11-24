@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P2000_Coach_Class
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 916e8932-55d1-4c24-9ab7-921e89ff6fd3
-  SkinStringId: P2000_Coach_Class
+  Id:
+    _value: P2000_Coach_Class
   Name: Coach Class
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Baggage Collection
+  Collection:
+    _value: Collection_Baggage
   Price:
     MinPrice: 6.51
     MaxPrice: 24.7

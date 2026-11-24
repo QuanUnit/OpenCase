@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Sawed-Off_Amber_Fade
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ee9557b8-67d8-4640-8847-27cb3c464e91
-  SkinStringId: Sawed-Off_Amber_Fade
+  Id:
+    _value: Sawed-Off_Amber_Fade
   Name: Amber Fade
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Train Collection
+  Collection:
+    _value: Collection_Train
   Price:
     MinPrice: 0.11
     MaxPrice: 0.52

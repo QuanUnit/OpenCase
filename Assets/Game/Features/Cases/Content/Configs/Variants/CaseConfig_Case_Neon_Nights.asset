@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
   m_Name: CaseConfig_Case_Neon_Nights
   m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
-  _id:
-    _idBody: 4fb16c9d-70aa-41bd-9275-a83d64b0bc30
-  CaseStringId: Case_Neon_Nights
+  Id:
+    _value: Case_Neon_Nights
   Name: Neon Nights
   Price: 4.39
   SkinsMapEntries:

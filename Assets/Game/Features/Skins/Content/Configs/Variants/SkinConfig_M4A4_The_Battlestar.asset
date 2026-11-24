@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A4_The_Battlestar
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 33d813e4-6d8c-4a7e-ae15-981d8ca9f6cd
-  SkinStringId: M4A4_The_Battlestar
+  Id:
+    _value: M4A4_The_Battlestar
   Name: The Battlestar
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Wildfire Collection
+  Collection:
+    _value: Collection_Wildfire
   Price:
     MinPrice: 34.6
     MaxPrice: 255.44

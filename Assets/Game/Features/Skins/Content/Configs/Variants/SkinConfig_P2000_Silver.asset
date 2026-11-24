@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P2000_Silver
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 27681fe4-e138-44c3-879a-59ae36d1f8a6
-  SkinStringId: P2000_Silver
+  Id:
+    _value: P2000_Silver
   Name: Silver
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Office Collection
+  Collection:
+    _value: Collection_Office
   Price:
     MinPrice: 75.24
     MaxPrice: 83.81

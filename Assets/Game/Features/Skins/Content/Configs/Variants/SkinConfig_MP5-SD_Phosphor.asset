@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP5-SD_Phosphor
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2dfdba7a-906a-4853-8446-dc8b188a42c4
-  SkinStringId: MP5-SD_Phosphor
+  Id:
+    _value: MP5-SD_Phosphor
   Name: Phosphor
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Danger Zone Collection
+  Collection:
+    _value: Collection_Danger_Zone
   Price:
     MinPrice: 4.22
     MaxPrice: 13.8

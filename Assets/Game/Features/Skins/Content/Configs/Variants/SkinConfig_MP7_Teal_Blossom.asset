@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Teal_Blossom
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b5c1c042-d2a0-4c72-b49f-f670d423c630
-  SkinStringId: MP7_Teal_Blossom
+  Id:
+    _value: MP7_Teal_Blossom
   Name: Teal Blossom
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The St. Marc Collection
+  Collection:
+    _value: Collection_St_Marc
   Price:
     MinPrice: 83.56
     MaxPrice: 107

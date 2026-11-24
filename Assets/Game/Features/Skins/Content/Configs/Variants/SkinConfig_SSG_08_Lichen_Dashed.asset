@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SSG_08_Lichen_Dashed
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7f2cb90d-b97f-40df-94d2-6d4613125166
-  SkinStringId: SSG_08_Lichen_Dashed
+  Id:
+    _value: SSG_08_Lichen_Dashed
   Name: Lichen Dashed
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Aztec Collection
+  Collection:
+    _value: Collection_Aztec
   Price:
     MinPrice: 1.54
     MaxPrice: 50.43

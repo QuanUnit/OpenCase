@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Bloodsport
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: bc7f4e36-11a9-4f3c-890f-b71a433ec911
-  SkinStringId: MP7_Bloodsport
+  Id:
+    _value: MP7_Bloodsport
   Name: Bloodsport
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Clutch Collection
+  Collection:
+    _value: Collection_Clutch
   Price:
     MinPrice: 29.42
     MaxPrice: 98.83

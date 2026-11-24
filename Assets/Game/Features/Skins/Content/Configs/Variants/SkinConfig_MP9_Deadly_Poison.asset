@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Deadly_Poison
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9545e468-cc7b-4b3b-8155-ac1264a5c1f6
-  SkinStringId: MP9_Deadly_Poison
+  Id:
+    _value: MP9_Deadly_Poison
   Name: Deadly Poison
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Chroma Collection
+  Collection:
+    _value: Collection_Chroma
   Price:
     MinPrice: 0.22
     MaxPrice: 3.3

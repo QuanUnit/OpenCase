@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Whiteout
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 271a2ae8-543e-4d33-a0be-a40fdb2382d5
-  SkinStringId: MP7_Whiteout
+  Id:
+    _value: MP7_Whiteout
   Name: Whiteout
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Office Collection
+  Collection:
+    _value: Collection_Office
   Price:
     MinPrice: 21.53
     MaxPrice: 711.85

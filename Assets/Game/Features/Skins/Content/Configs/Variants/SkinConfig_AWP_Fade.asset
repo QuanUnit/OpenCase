@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Fade
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 04a507d9-7296-4f39-b09c-99684130a51e
-  SkinStringId: AWP_Fade
+  Id:
+    _value: AWP_Fade
   Name: Fade
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Control Collection
+  Collection:
+    _value: Collection_Control
   Price:
     MinPrice: 1060.53
     MaxPrice: 1117.57

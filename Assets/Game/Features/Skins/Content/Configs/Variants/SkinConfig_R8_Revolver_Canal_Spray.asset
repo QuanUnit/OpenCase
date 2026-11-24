@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_R8_Revolver_Canal_Spray
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2f70f1d7-3bdc-4264-84a6-4d52c3c8a1dc
-  SkinStringId: R8_Revolver_Canal_Spray
+  Id:
+    _value: R8_Revolver_Canal_Spray
   Name: Canal Spray
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Canals Collection
+  Collection:
+    _value: Collection_Canals
   Price:
     MinPrice: 1.46
     MaxPrice: 7.97

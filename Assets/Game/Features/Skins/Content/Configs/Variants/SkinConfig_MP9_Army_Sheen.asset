@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Army_Sheen
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f5b094d3-c0a7-4111-a80e-60bb8776238d
-  SkinStringId: MP9_Army_Sheen
+  Id:
+    _value: MP9_Army_Sheen
   Name: Army Sheen
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Control Collection
+  Collection:
+    _value: Collection_Control
   Price:
     MinPrice: 0.48
     MaxPrice: 0.64

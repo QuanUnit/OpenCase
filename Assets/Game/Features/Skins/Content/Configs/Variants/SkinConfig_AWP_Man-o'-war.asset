@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Man-o'-war
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 91e465b0-6d79-45e2-9992-7b6f464644c8
-  SkinStringId: AWP_Man-o'-war
+  Id:
+    _value: AWP_Man-o'-war
   Name: Man-o'-war
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Chroma Collection
+  Collection:
+    _value: Collection_Chroma
   Price:
     MinPrice: 112.47
     MaxPrice: 114.43

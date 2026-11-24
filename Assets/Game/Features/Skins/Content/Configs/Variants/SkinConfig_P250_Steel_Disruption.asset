@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Steel_Disruption
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5cdbbbed-d732-46fe-a22f-263476c24262
-  SkinStringId: P250_Steel_Disruption
+  Id:
+    _value: P250_Steel_Disruption
   Name: Steel Disruption
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The eSports 2013 Winter Collection
+  Collection:
+    _value: Collection_eSports_2013_Winter
   Price:
     MinPrice: 2.03
     MaxPrice: 2.52

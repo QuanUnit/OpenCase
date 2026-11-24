@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Sunbaked
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8bf547d0-6dc2-4195-8455-2ed1f198df94
-  SkinStringId: MP7_Sunbaked
+  Id:
+    _value: MP7_Sunbaked
   Name: Sunbaked
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Anubis Collection
+  Collection:
+    _value: Collection_Anubis
   Price:
     MinPrice: 0.02
     MaxPrice: 0.22

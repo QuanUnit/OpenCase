@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Slide
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b408c291-e12f-489d-8dab-226cf97fa2b9
-  SkinStringId: MP9_Slide
+  Id:
+    _value: MP9_Slide
   Name: Slide
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The 2018 Inferno Collection
+  Collection:
+    _value: Collection_2018_Inferno
   Price:
     MinPrice: 0.01
     MaxPrice: 0.15

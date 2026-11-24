@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SG_553_Aloha
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 16aa8b32-0dcb-4eb3-8731-1743d4cbafcf
-  SkinStringId: SG_553_Aloha
+  Id:
+    _value: SG_553_Aloha
   Name: Aloha
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Clutch Collection
+  Collection:
+    _value: Collection_Clutch
   Price:
     MinPrice: 0.06
     MaxPrice: 0.37

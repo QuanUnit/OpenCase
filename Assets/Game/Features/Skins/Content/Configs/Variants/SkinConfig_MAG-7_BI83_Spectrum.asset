@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAG-7_BI83_Spectrum
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 97c23841-2796-4bfc-901e-38e0c86fd9f9
-  SkinStringId: MAG-7_BI83_Spectrum
+  Id:
+    _value: MAG-7_BI83_Spectrum
   Name: BI83 Spectrum
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Operation Riptide Collection
+  Collection:
+    _value: Collection_Operation_Riptide
   Price:
     MinPrice: 2.68
     MaxPrice: 8.99

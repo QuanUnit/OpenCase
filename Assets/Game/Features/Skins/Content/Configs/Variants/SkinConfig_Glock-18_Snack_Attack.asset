@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Snack_Attack
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: db1a3ca7-e2fe-4732-baab-69d03a0ed67a
-  SkinStringId: Glock-18_Snack_Attack
+  Id:
+    _value: Glock-18_Snack_Attack
   Name: Snack Attack
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Operation Riptide Collection
+  Collection:
+    _value: Collection_Operation_Riptide
   Price:
     MinPrice: 22.4
     MaxPrice: 188.54

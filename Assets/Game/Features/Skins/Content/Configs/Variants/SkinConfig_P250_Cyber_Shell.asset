@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Cyber_Shell
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 92e4707a-4573-4757-a9bf-7602b1ecd2a1
-  SkinStringId: P250_Cyber_Shell
+  Id:
+    _value: P250_Cyber_Shell
   Name: Cyber Shell
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Snakebite Collection
+  Collection:
+    _value: Collection_Snakebite
   Price:
     MinPrice: 0.41
     MaxPrice: 3.08

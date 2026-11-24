@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Supernova
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: be2f1f8a-c914-4639-8725-2bbf180629e1
-  SkinStringId: P250_Supernova
+  Id:
+    _value: P250_Supernova
   Name: Supernova
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Breakout Collection
+  Collection:
+    _value: Collection_Breakout
   Price:
     MinPrice: 1.88
     MaxPrice: 2.81

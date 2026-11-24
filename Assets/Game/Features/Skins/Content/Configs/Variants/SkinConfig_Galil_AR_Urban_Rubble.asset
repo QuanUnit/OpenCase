@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_Urban_Rubble
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 836c91c4-0baf-49d1-9878-24aae8bad1b1
-  SkinStringId: Galil_AR_Urban_Rubble
+  Id:
+    _value: Galil_AR_Urban_Rubble
   Name: Urban Rubble
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Chop Shop Collection
+  Collection:
+    _value: Collection_Chop_Shop
   Price:
     MinPrice: 9.92
     MaxPrice: 23.97

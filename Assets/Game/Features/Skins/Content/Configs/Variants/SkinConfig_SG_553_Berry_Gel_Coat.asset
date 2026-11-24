@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SG_553_Berry_Gel_Coat
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 26111901-e1f7-4e7d-a026-94cdb1627d78
-  SkinStringId: SG_553_Berry_Gel_Coat
+  Id:
+    _value: SG_553_Berry_Gel_Coat
   Name: Berry Gel Coat
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Graphic Design Collection
+  Collection:
+    _value: Collection_Graphic_Design
   Price:
     MinPrice: 1.56
     MaxPrice: 4.74

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Sawed-Off_Sage_Spray
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8c274a05-ebaf-49a3-bb37-9b3cc72c1e5a
-  SkinStringId: Sawed-Off_Sage_Spray
+  Id:
+    _value: Sawed-Off_Sage_Spray
   Name: Sage Spray
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Overpass Collection
+  Collection:
+    _value: Collection_Overpass
   Price:
     MinPrice: 0.28
     MaxPrice: 8.38

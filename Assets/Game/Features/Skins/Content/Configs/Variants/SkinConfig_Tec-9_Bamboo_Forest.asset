@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Bamboo_Forest
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e031a070-540d-408f-940d-88c63611961b
-  SkinStringId: Tec-9_Bamboo_Forest
+  Id:
+    _value: Tec-9_Bamboo_Forest
   Name: Bamboo Forest
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Rising Sun Collection
+  Collection:
+    _value: Collection_Rising_Sun
   Price:
     MinPrice: 4.16
     MaxPrice: 33.18

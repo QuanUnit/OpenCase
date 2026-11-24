@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Nuclear_Garden
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 72aa3455-1ae6-4af4-8895-119fbd4b58ea
-  SkinStringId: MAC-10_Nuclear_Garden
+  Id:
+    _value: MAC-10_Nuclear_Garden
   Name: Nuclear Garden
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Cache Collection
+  Collection:
+    _value: Collection_Cache
   Price:
     MinPrice: 15.38
     MaxPrice: 31.14

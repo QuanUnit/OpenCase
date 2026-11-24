@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Scorched
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b1ab2c4b-83ca-41a3-93b4-ab0e65e5153c
-  SkinStringId: MP7_Scorched
+  Id:
+    _value: MP7_Scorched
   Name: Scorched
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Norse Collection
+  Collection:
+    _value: Collection_Norse
   Price:
     MinPrice: 6.33
     MaxPrice: 12.81

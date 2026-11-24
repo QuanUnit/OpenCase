@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Ice_Coaled
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8cfb1c97-d83f-4fbe-9b1f-8e4c36a64aba
-  SkinStringId: AWP_Ice_Coaled
+  Id:
+    _value: AWP_Ice_Coaled
   Name: Ice Coaled
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Genesis Collection
+  Collection:
+    _value: Collection_Genesis
   Price:
     MinPrice: 7.49
     MaxPrice: 57.42

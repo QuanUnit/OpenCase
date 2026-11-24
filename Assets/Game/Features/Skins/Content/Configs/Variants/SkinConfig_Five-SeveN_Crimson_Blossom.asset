@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Crimson_Blossom
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 45105eec-941e-425e-b8f4-ce7bd4e43786
-  SkinStringId: Five-SeveN_Crimson_Blossom
+  Id:
+    _value: Five-SeveN_Crimson_Blossom
   Name: Crimson Blossom
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The St. Marc Collection
+  Collection:
+    _value: Collection_St_Marc
   Price:
     MinPrice: 85.44
     MaxPrice: 218.31

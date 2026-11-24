@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Monkey_Business
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 76049efa-ef0a-4321-b1c1-b858f9647f23
-  SkinStringId: Five-SeveN_Monkey_Business
+  Id:
+    _value: Five-SeveN_Monkey_Business
   Name: Monkey Business
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Chroma 2 Collection
+  Collection:
+    _value: Collection_Chroma_2
   Price:
     MinPrice: 10.64
     MaxPrice: 44.26

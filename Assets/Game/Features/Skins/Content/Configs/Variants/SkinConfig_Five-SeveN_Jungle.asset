@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Jungle
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ccf7b822-ed46-485f-ae80-44ca0912191d
-  SkinStringId: Five-SeveN_Jungle
+  Id:
+    _value: Five-SeveN_Jungle
   Name: Jungle
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Aztec Collection
+  Collection:
+    _value: Collection_Aztec
   Price:
     MinPrice: 2.1
     MaxPrice: 38.53

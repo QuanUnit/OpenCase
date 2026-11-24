@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_G3SG1_Orange_Kimono
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5ac4ded6-59ca-4372-851d-d7859cc5e802
-  SkinStringId: G3SG1_Orange_Kimono
+  Id:
+    _value: G3SG1_Orange_Kimono
   Name: Orange Kimono
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Rising Sun Collection
+  Collection:
+    _value: Collection_Rising_Sun
   Price:
     MinPrice: 4.38
     MaxPrice: 7.99

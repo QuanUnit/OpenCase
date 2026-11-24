@@ -6,6 +6,7 @@ using Features.RemoteConfigs.Editor.Models;
 using Features.Skins.Configs;
 using UnityEditor;
 using UnityEngine;
+using Features.Skins.Data;
 
 namespace Features.RemoteConfigs.Editor.Interpreters
 {
@@ -85,9 +86,9 @@ namespace Features.RemoteConfigs.Editor.Interpreters
                 var assetPath = AssetDatabase.GUIDToAssetPath(guid);
                 var skin = AssetDatabase.LoadAssetAtPath<SkinConfig>(assetPath);
 
-                if (skin != null && skins.ContainsKey(skin.SkinStringId) == false)
+                if (skin != null && skins.ContainsKey(skin.Id.Value) == false)
                 {
-                    skins.Add(skin.SkinStringId, skin);
+                    skins.Add(skin.Id.Value, skin);
                 }
             }
 
@@ -112,8 +113,7 @@ namespace Features.RemoteConfigs.Editor.Interpreters
         private SkinConfig CreateNew(string skinId, string skinsPath)
         {
             var newSkin = ScriptableObject.CreateInstance<SkinConfig>();
-            newSkin.CreateId();
-            newSkin.SkinStringId = skinId;
+            newSkin.Id = new SkinId(skinId);
             newSkin.ContextData = new SkinConfig.UIContextData
             {
                 SpriteSource = new AddressableLoadContainerSprite(),

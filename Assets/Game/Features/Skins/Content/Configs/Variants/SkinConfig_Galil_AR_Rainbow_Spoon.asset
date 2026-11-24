@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_Rainbow_Spoon
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 968b3257-1ef4-4e26-876f-5bdd25fcf6c0
-  SkinStringId: Galil_AR_Rainbow_Spoon
+  Id:
+    _value: Galil_AR_Rainbow_Spoon
   Name: Rainbow Spoon
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Sport & Field Collection
+  Collection:
+    _value: Collection_Sport_And_Field
   Price:
     MinPrice: 55.14
     MaxPrice: 110.41

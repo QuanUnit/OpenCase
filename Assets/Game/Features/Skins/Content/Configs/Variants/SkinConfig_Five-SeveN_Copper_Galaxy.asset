@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Copper_Galaxy
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 50e83c85-5732-4714-9234-488f3b37ae84
-  SkinStringId: Five-SeveN_Copper_Galaxy
+  Id:
+    _value: Five-SeveN_Copper_Galaxy
   Name: Copper Galaxy
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Arms Deal 3 Collection
+  Collection:
+    _value: Collection_Arms_Deal_3
   Price:
     MinPrice: 11.41
     MaxPrice: 11.86

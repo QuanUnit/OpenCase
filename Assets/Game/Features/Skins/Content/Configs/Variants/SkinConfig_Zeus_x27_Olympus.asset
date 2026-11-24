@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Zeus_x27_Olympus
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 639df8f9-1197-4772-9464-2da3aff7d560
-  SkinStringId: Zeus_x27_Olympus
+  Id:
+    _value: Zeus_x27_Olympus
   Name: Olympus
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Kilowatt Collection
+  Collection:
+    _value: Collection_Kilowatt
   Price:
     MinPrice: 3.57
     MaxPrice: 11.55

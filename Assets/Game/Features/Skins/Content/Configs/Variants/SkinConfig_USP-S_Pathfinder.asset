@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_Pathfinder
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 6a0dd4da-7419-4db8-bb57-c96a1be0fa55
-  SkinStringId: USP-S_Pathfinder
+  Id:
+    _value: USP-S_Pathfinder
   Name: Pathfinder
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Norse Collection
+  Collection:
+    _value: Collection_Norse
   Price:
     MinPrice: 18.38
     MaxPrice: 32.81

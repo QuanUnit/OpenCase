@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Heat_Treated
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ac13debf-bdd4-4326-a4bc-822e87b7e849
-  SkinStringId: Five-SeveN_Heat_Treated
+  Id:
+    _value: Five-SeveN_Heat_Treated
   Name: Heat Treated
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Sport & Field Collection
+  Collection:
+    _value: Collection_Sport_And_Field
   Price:
     MinPrice: 5.5
     MaxPrice: 24.52

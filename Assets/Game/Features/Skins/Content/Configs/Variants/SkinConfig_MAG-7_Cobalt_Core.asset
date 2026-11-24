@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAG-7_Cobalt_Core
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a78b6961-8c63-48de-b82f-b3fbc07d7232
-  SkinStringId: MAG-7_Cobalt_Core
+  Id:
+    _value: MAG-7_Cobalt_Core
   Name: Cobalt Core
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Shadow Collection
+  Collection:
+    _value: Collection_Shadow
   Price:
     MinPrice: 0.15
     MaxPrice: 0.74

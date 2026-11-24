@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A1-S_Solitude
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5fd21033-7312-468d-8a05-d4bcc0d3f61b
-  SkinStringId: M4A1-S_Solitude
+  Id:
+    _value: M4A1-S_Solitude
   Name: Solitude
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: Limited Edition Item
+  Collection:
+    _value: Collection_Limited_Edition_Item
   Price:
     MinPrice: 1.04
     MaxPrice: 31.55

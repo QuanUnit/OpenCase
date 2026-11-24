@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
   m_Name: CaseConfig_Case_Inferno
   m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
-  _id:
-    _idBody: 76494cd2-d6be-4991-85c6-ad5ef828639a
-  CaseStringId: Case_Inferno
+  Id:
+    _value: Case_Inferno
   Name: Inferno
   Price: 3.58
   SkinsMapEntries:

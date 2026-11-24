@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A4_Desert-Strike
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 57d6a5dd-3da9-46f7-aecc-ad77827e5e71
-  SkinStringId: M4A4_Desert-Strike
+  Id:
+    _value: M4A4_Desert-Strike
   Name: Desert-Strike
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Huntsman Collection
+  Collection:
+    _value: Collection_Huntsman
   Price:
     MinPrice: 32.57
     MaxPrice: 153.06

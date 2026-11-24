@@ -2,23 +2,23 @@ using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using QCore.AddressablesWrapper.Containers;
-using QCore.Tools.Configs;
+using Shared.Identifiers;
 using UnityEngine;
 using Features.Skins.Data;
 
 namespace Features.Skins.Configs
 {
     [CreateAssetMenu(menuName = "Configs/Skins/" + nameof(SkinConfig), fileName = nameof(SkinConfig))]
-    public class SkinConfig : IdentifiedScriptableObject
+    public class SkinConfig : ScriptableObject
     {
         private const char IdSeparator = '_';
         private const char NameSeparator = ' ';
 
-        public string SkinStringId;
+        [EntityIdDefinition] public SkinId Id = new SkinId();
         public string Name;
         public UIContextData ContextData;
         public Rarity Rarity;
-        public string Collection;
+        public SkinCollectionId Collection = new SkinCollectionId();
         public PriceRange Price;
         public bool AvailableStatTrak;
         public bool AvailableSouvenir;
@@ -37,15 +37,16 @@ namespace Features.Skins.Configs
 
         private string GetWeaponName()
         {
+            var id = Id.Value;
             var nameSuffix = IdSeparator + Name.Replace(NameSeparator, IdSeparator);
 
-            if (SkinStringId.EndsWith(nameSuffix, StringComparison.Ordinal) == false || SkinStringId.Length <= nameSuffix.Length)
+            if (id.EndsWith(nameSuffix, StringComparison.Ordinal) == false || id.Length <= nameSuffix.Length)
             {
                 return string.Empty;
             }
 
-            return SkinStringId
-                .Substring(0, SkinStringId.Length - nameSuffix.Length)
+            return id
+                .Substring(0, id.Length - nameSuffix.Length)
                 .Replace(IdSeparator, NameSeparator);
         }
         

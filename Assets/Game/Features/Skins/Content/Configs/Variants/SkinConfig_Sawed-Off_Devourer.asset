@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Sawed-Off_Devourer
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a393acc9-282a-4d43-aa92-da3714114852
-  SkinStringId: Sawed-Off_Devourer
+  Id:
+    _value: Sawed-Off_Devourer
   Name: Devourer
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Horizon Collection
+  Collection:
+    _value: Collection_Horizon
   Price:
     MinPrice: 4.54
     MaxPrice: 25.96

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Incinegator
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d570c968-6996-4ea2-b3b0-792c7638e47b
-  SkinStringId: XM1014_Incinegator
+  Id:
+    _value: XM1014_Incinegator
   Name: Incinegator
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Prisma Collection
+  Collection:
+    _value: Collection_Prisma
   Price:
     MinPrice: 4.93
     MaxPrice: 50.18

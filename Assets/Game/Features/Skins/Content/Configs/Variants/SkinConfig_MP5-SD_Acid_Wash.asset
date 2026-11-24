@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP5-SD_Acid_Wash
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 05a2734a-f995-444b-93d5-0940e694cdaf
-  SkinStringId: MP5-SD_Acid_Wash
+  Id:
+    _value: MP5-SD_Acid_Wash
   Name: Acid Wash
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Shattered Web Collection
+  Collection:
+    _value: Collection_Shattered_Web
   Price:
     MinPrice: 0.57
     MaxPrice: 2.12

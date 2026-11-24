@@ -169,7 +169,7 @@ namespace Features.RemoteConfigs.Editor.Cases
 
         private string GetControlName(SkinConfig skin)
         {
-            return WeightControlPrefix + skin.SkinStringId;
+            return WeightControlPrefix + skin.Id.Value;
         }
 
         private void DrawHeader()

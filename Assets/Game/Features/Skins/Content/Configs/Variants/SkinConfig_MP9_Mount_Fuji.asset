@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Mount_Fuji
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 03b28f76-b9f6-4bf4-846d-49980115d2b6
-  SkinStringId: MP9_Mount_Fuji
+  Id:
+    _value: MP9_Mount_Fuji
   Name: Mount Fuji
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Operation Riptide Collection
+  Collection:
+    _value: Collection_Operation_Riptide
   Price:
     MinPrice: 5.58
     MaxPrice: 21.68

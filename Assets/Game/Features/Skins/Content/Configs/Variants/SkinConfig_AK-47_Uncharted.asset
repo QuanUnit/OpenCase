@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Uncharted
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c9cf4a99-60a5-48bc-9d68-90baa000c754
-  SkinStringId: AK-47_Uncharted
+  Id:
+    _value: AK-47_Uncharted
   Name: Uncharted
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Prisma Collection
+  Collection:
+    _value: Collection_Prisma
   Price:
     MinPrice: 0.51
     MaxPrice: 1.93

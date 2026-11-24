@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SCAR-20_Army_Sheen
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9a24ef50-c849-47df-bb77-13abd528fceb
-  SkinStringId: SCAR-20_Army_Sheen
+  Id:
+    _value: SCAR-20_Army_Sheen
   Name: Army Sheen
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Chop Shop Collection
+  Collection:
+    _value: Collection_Chop_Shop
   Price:
     MinPrice: 1.79
     MaxPrice: 3.99

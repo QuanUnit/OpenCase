@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Nova_Baroque_Orange
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 366f3cc2-7a97-4ef2-960a-4a2dd44952fa
-  SkinStringId: Nova_Baroque_Orange
+  Id:
+    _value: Nova_Baroque_Orange
   Name: Baroque Orange
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Canals Collection
+  Collection:
+    _value: Collection_Canals
   Price:
     MinPrice: 94.17
     MaxPrice: 288.88

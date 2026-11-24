@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Hypnotic
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 65a92a1c-485b-4d3b-b5bd-5e71f4ffc634
-  SkinStringId: Desert_Eagle_Hypnotic
+  Id:
+    _value: Desert_Eagle_Hypnotic
   Name: Hypnotic
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Arms Deal Collection
+  Collection:
+    _value: Collection_Arms_Deal
   Price:
     MinPrice: 170.6
     MaxPrice: 178.8

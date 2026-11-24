@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Derailment
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 748820c4-04f3-4883-952f-29d6b1042b2f
-  SkinStringId: MAC-10_Derailment
+  Id:
+    _value: MAC-10_Derailment
   Name: Derailment
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Train 2025 Collection
+  Collection:
+    _value: Collection_Train_2025
   Price:
     MinPrice: 3.21
     MaxPrice: 26.72

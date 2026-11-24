@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Safety_Net
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0f11b58d-2b9e-4c51-be0c-58d7d871add1
-  SkinStringId: AK-47_Safety_Net
+  Id:
+    _value: AK-47_Safety_Net
   Name: Safety Net
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The 2018 Inferno Collection
+  Collection:
+    _value: Collection_2018_Inferno
   Price:
     MinPrice: 1.91
     MaxPrice: 10.56

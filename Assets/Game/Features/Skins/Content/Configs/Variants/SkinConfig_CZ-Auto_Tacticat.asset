@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Tacticat
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d8d0905b-ae0f-4106-bf0a-c335f86075f5
-  SkinStringId: CZ-Auto_Tacticat
+  Id:
+    _value: CZ-Auto_Tacticat
   Name: Tacticat
   ContextData:
     SpriteSource:

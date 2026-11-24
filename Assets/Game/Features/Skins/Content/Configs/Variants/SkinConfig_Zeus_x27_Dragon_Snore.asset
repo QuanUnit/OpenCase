@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Zeus_x27_Dragon_Snore
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c79c7d68-a7a1-4227-ab81-b7e6c23972bc
-  SkinStringId: Zeus_x27_Dragon_Snore
+  Id:
+    _value: Zeus_x27_Dragon_Snore
   Name: Dragon Snore
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Overpass 2024 Collection
+  Collection:
+    _value: Collection_Overpass_2024
   Price:
     MinPrice: 27.14
     MaxPrice: 157.32

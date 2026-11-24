@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Midnight_Lily
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0682a873-d933-427b-8d26-a9ec7e9a244b
-  SkinStringId: AUG_Midnight_Lily
+  Id:
+    _value: AUG_Midnight_Lily
   Name: Midnight Lily
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The St. Marc Collection
+  Collection:
+    _value: Collection_St_Marc
   Price:
     MinPrice: 342.12
     MaxPrice: 700

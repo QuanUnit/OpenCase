@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Green_Energy
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5e34c889-ff66-42cf-8bfb-547a8ddab3e8
-  SkinStringId: AWP_Green_Energy
+  Id:
+    _value: AWP_Green_Energy
   Name: Green Energy
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Boreal Collection
+  Collection:
+    _value: Collection_Boreal
   Price:
     MinPrice: 16.33
     MaxPrice: 158.04

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Dual_Berettas_Demolition
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 00ee11d0-cf22-4970-a222-1801af4d538f
-  SkinStringId: Dual_Berettas_Demolition
+  Id:
+    _value: Dual_Berettas_Demolition
   Name: Demolition
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Vertigo Collection
+  Collection:
+    _value: Collection_Vertigo
   Price:
     MinPrice: 15.74
     MaxPrice: 18.1

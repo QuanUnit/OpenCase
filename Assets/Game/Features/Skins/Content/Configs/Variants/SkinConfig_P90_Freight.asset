@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Freight
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f7a903b8-e8a7-484a-ba93-87127796122c
-  SkinStringId: P90_Freight
+  Id:
+    _value: P90_Freight
   Name: Freight
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Fracture Collection
+  Collection:
+    _value: Collection_Fracture
   Price:
     MinPrice: 0.05
     MaxPrice: 0.85

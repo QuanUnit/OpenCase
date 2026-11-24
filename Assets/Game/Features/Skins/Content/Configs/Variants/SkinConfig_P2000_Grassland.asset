@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P2000_Grassland
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 6fd6a1a4-08a2-43fc-868c-2b113a2c8a52
-  SkinStringId: P2000_Grassland
+  Id:
+    _value: P2000_Grassland
   Name: Grassland
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Overpass Collection
+  Collection:
+    _value: Collection_Overpass
   Price:
     MinPrice: 1.58
     MaxPrice: 17.1

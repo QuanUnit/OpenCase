@@ -4,6 +4,7 @@ using Features.RemoteConfigs.Editor.Models;
 using Features.Skins.Configs;
 using NUnit.Framework;
 using UnityEngine;
+using Features.Skins.Data;
 
 namespace Features.RemoteConfigs.Editor.Tests
 {
@@ -15,7 +16,7 @@ namespace Features.RemoteConfigs.Editor.Tests
         public void SetUp()
         {
             _knownSkin = ScriptableObject.CreateInstance<SkinConfig>();
-            _knownSkin.SkinStringId = "AK-47_Redline";
+            _knownSkin.Id = new SkinId("AK-47_Redline");
         }
 
         [TearDown]
@@ -27,7 +28,7 @@ namespace Features.RemoteConfigs.Editor.Tests
         [Test]
         public void BuildSkinsMap_UnknownSkinId_SkippedAndReported()
         {
-            var skinsById = new Dictionary<string, SkinConfig> { { _knownSkin.SkinStringId, _knownSkin } };
+            var skinsById = new Dictionary<string, SkinConfig> { { _knownSkin.Id.Value, _knownSkin } };
             var caseDataModel = new CaseDataModel
             {
                 Id = "Case_1",

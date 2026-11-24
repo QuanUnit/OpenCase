@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAG-7_Storm
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 4036f7af-674e-474c-859d-137bce754245
-  SkinStringId: MAG-7_Storm
+  Id:
+    _value: MAG-7_Storm
   Name: Storm
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Overpass Collection
+  Collection:
+    _value: Collection_Overpass
   Price:
     MinPrice: 0.26
     MaxPrice: 13.21

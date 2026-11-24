@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Virus
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d5679612-b1d6-4f9c-a521-9e2efcf4cce0
-  SkinStringId: P90_Virus
+  Id:
+    _value: P90_Virus
   Name: Virus
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The eSports 2014 Summer Collection
+  Collection:
+    _value: Collection_eSports_2014_Summer
   Price:
     MinPrice: 2.62
     MaxPrice: 17.14

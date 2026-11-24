@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP5-SD_Bamboo_Garden
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e3a7e933-6a33-425b-b4b5-f43eea44b193
-  SkinStringId: MP5-SD_Bamboo_Garden
+  Id:
+    _value: MP5-SD_Bamboo_Garden
   Name: Bamboo Garden
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The St. Marc Collection
+  Collection:
+    _value: Collection_St_Marc
   Price:
     MinPrice: 3.62
     MaxPrice: 5.01

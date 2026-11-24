@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Urban_Hazard
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 920065a9-aae5-4bda-83a8-80907f86ad74
-  SkinStringId: Five-SeveN_Urban_Hazard
+  Id:
+    _value: Five-SeveN_Urban_Hazard
   Name: Urban Hazard
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Vanguard Collection
+  Collection:
+    _value: Collection_Vanguard
   Price:
     MinPrice: 2
     MaxPrice: 2.82

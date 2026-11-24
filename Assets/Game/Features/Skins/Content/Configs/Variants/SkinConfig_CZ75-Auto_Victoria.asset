@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ75-Auto_Victoria
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0f9b9b80-a123-4895-a987-8127517963e6
-  SkinStringId: CZ75-Auto_Victoria
+  Id:
+    _value: CZ75-Auto_Victoria
   Name: Victoria
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Arms Deal 3 Collection
+  Collection:
+    _value: Collection_Arms_Deal_3
   Price:
     MinPrice: 67.22
     MaxPrice: 101.35

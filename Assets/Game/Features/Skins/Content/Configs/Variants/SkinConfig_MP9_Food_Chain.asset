@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Food_Chain
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c0df0aa3-7e2c-4723-9217-93a53fe00df6
-  SkinStringId: MP9_Food_Chain
+  Id:
+    _value: MP9_Food_Chain
   Name: Food Chain
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Snakebite Collection
+  Collection:
+    _value: Collection_Snakebite
   Price:
     MinPrice: 3.29
     MaxPrice: 27.5

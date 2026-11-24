@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Djinn
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 387a460c-fabb-43cb-a2bb-71b9aa6951fb
-  SkinStringId: FAMAS_Djinn
+  Id:
+    _value: FAMAS_Djinn
   Name: Djinn
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Chroma 2 Collection
+  Collection:
+    _value: Collection_Chroma_2
   Price:
     MinPrice: 10.99
     MaxPrice: 48.08

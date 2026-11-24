@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_PP-Bizon_Harvester
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 4048780c-6c0c-4d0d-981e-1632b2393ed3
-  SkinStringId: PP-Bizon_Harvester
+  Id:
+    _value: PP-Bizon_Harvester
   Name: Harvester
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Gamma Collection
+  Collection:
+    _value: Collection_Gamma
   Price:
     MinPrice: 0.22
     MaxPrice: 1.64

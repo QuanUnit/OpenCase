@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_UMP-45_Metal_Flowers
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3051f37c-d13e-4a04-b39a-40583664936d
-  SkinStringId: UMP-45_Metal_Flowers
+  Id:
+    _value: UMP-45_Metal_Flowers
   Name: Metal Flowers
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Operation Hydra Collection
+  Collection:
+    _value: Collection_Operation_Hydra
   Price:
     MinPrice: 3.24
     MaxPrice: 7.12

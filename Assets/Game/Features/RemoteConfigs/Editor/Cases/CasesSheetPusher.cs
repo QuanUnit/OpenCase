@@ -35,14 +35,14 @@ namespace Features.RemoteConfigs.Editor.Cases
         public List<CasesSheetCase> BuildCases(IReadOnlyList<CaseConfig> cases)
         {
             return cases.Select(caseConfig => new CasesSheetCase(
-                    caseConfig.CaseStringId,
+                    caseConfig.Id.Value,
                     caseConfig.Name,
                     caseConfig.Price,
                     caseConfig.SkinsMapEntries == null
                         ? new List<KeyValuePair<string, float>>()
                         : caseConfig.SkinsMapEntries.Entries
                             .Where(entry => entry.Key != null)
-                            .Select(entry => new KeyValuePair<string, float>(entry.Key.SkinStringId, entry.Value))
+                            .Select(entry => new KeyValuePair<string, float>(entry.Key.Id.Value, entry.Value))
                             .ToList()))
                 .ToList();
         }

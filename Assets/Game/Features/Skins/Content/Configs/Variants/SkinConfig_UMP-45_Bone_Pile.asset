@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_UMP-45_Bone_Pile
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2591659f-bb61-48d9-bea0-e014dfcb37fe
-  SkinStringId: UMP-45_Bone_Pile
+  Id:
+    _value: UMP-45_Bone_Pile
   Name: Bone Pile
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Bravo Collection
+  Collection:
+    _value: Collection_Bravo
   Price:
     MinPrice: 3.57
     MaxPrice: 15.04

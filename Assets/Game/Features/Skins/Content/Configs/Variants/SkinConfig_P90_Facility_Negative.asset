@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Facility_Negative
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7c3599f9-07e3-4771-a074-48928adf9459
-  SkinStringId: P90_Facility_Negative
+  Id:
+    _value: P90_Facility_Negative
   Name: Facility Negative
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The 2018 Nuke Collection
+  Collection:
+    _value: Collection_2018_Nuke
   Price:
     MinPrice: 0.07
     MaxPrice: 0.54

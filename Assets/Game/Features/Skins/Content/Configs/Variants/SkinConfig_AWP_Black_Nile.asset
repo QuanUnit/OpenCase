@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Black_Nile
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c2d8f626-cc24-4852-a218-3c6acaabc002
-  SkinStringId: AWP_Black_Nile
+  Id:
+    _value: AWP_Black_Nile
   Name: Black Nile
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Anubis Collection
+  Collection:
+    _value: Collection_Anubis
   Price:
     MinPrice: 2.57
     MaxPrice: 11.5

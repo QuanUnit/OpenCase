@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Bullet_Queen
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: aede2097-e2ce-4557-8a60-f8604ebb87b2
-  SkinStringId: Glock-18_Bullet_Queen
+  Id:
+    _value: Glock-18_Bullet_Queen
   Name: Bullet Queen
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Prisma 2 Collection
+  Collection:
+    _value: Collection_Prisma_2
   Price:
     MinPrice: 48.52
     MaxPrice: 150.07

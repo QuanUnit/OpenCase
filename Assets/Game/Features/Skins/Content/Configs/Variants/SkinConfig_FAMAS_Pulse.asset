@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Pulse
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2d2b28c7-0786-476f-aa15-acf74cc9abf8
-  SkinStringId: FAMAS_Pulse
+  Id:
+    _value: FAMAS_Pulse
   Name: Pulse
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Winter Offensive Collection
+  Collection:
+    _value: Collection_Winter_Offensive
   Price:
     MinPrice: 7.78
     MaxPrice: 10.23

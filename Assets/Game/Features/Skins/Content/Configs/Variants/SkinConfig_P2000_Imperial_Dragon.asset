@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P2000_Imperial_Dragon
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7fd3d917-62d6-479d-bd46-9cca3f3abd7b
-  SkinStringId: P2000_Imperial_Dragon
+  Id:
+    _value: P2000_Imperial_Dragon
   Name: Imperial Dragon
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Gamma Collection
+  Collection:
+    _value: Collection_Gamma
   Price:
     MinPrice: 10.27
     MaxPrice: 52.15

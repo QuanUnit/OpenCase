@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Digital_Architect
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b2ff4135-bfdc-4454-9999-38bdf91c5b59
-  SkinStringId: P250_Digital_Architect
+  Id:
+    _value: P250_Digital_Architect
   Name: Digital Architect
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The 2021 Vertigo Collection
+  Collection:
+    _value: Collection_2021_Vertigo
   Price:
     MinPrice: 42.62
     MaxPrice: 58

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Whiteout
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 4a45d2ee-7650-486e-ad4f-906b3d639266
-  SkinStringId: Tec-9_Whiteout
+  Id:
+    _value: Tec-9_Whiteout
   Name: Whiteout
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Train 2025 Collection
+  Collection:
+    _value: Collection_Train_2025
   Price:
     MinPrice: 3.54
     MaxPrice: 271.72

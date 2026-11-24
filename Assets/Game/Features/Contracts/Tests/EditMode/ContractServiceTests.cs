@@ -4,16 +4,16 @@ using Features.Inventory.Services;
 using Features.Skins.Configs;
 using Features.Skins.Data;
 using NUnit.Framework;
-using QCore.Tools.Identifiers;
 using UnityEngine;
+using Shared.Identifiers;
 
 namespace Features.Contracts.Tests.EditMode
 {
     public class ContractServiceTests
     {
         private const float Tolerance = 0.0001f;
-        private const string CollectionA = "Collection A";
-        private const string CollectionB = "Collection B";
+        private const string CollectionA = "Collection_A";
+        private const string CollectionB = "Collection_B";
 
         private FakeSkinsDatabaseService _skinsDatabase;
         private FakeSkinFactory _skinFactory;
@@ -48,9 +48,9 @@ namespace Features.Contracts.Tests.EditMode
         private SkinConfig AddConfig(Rarity rarity, string collection)
         {
             var config = ScriptableObject.CreateInstance<SkinConfig>();
-            config.CreateId();
+            config.Id = EntityIds.CreateUnique<SkinId>("TestSkin");
             config.Rarity = rarity;
-            config.Collection = collection;
+            config.Collection = new SkinCollectionId(collection);
 
             _skinsDatabase.Add(config);
 
@@ -59,7 +59,7 @@ namespace Features.Contracts.Tests.EditMode
 
         private Skin CreateSkin(SkinConfig config, float floatValue = 0.1f, bool isStatTrak = false, bool isSouvenir = false)
         {
-            return new Skin(config.Id, QGuid.CreateNew(), floatValue, 1f, isStatTrak, isSouvenir);
+            return new Skin(config.Id, EntityIds.CreateUnique<SkinInstanceId>(SkinInstanceId.EntityName), floatValue, 1f, isStatTrak, isSouvenir);
         }
 
         private List<Skin> CreateInputs(SkinConfig configA, int countA, SkinConfig configB, int countB, float floatA = 0.1f, float floatB = 0.1f, bool isStatTrak = false)
@@ -121,7 +121,7 @@ namespace Features.Contracts.Tests.EditMode
         [Test]
         public void IsEligible_CollectionWithoutNextRarity_ReturnsFalse()
         {
-            var lonely = AddConfig(Rarity.MilSpec, "Lonely Collection");
+            var lonely = AddConfig(Rarity.MilSpec, "Collection_Lonely");
             var service = CreateService();
 
             Assert.IsTrue(service.IsEligible(CreateSkin(lonely)) == false);

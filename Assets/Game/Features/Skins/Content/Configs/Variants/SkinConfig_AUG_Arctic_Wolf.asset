@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Arctic_Wolf
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 515a9961-a3c8-4f7d-8d18-d276641b52f4
-  SkinStringId: AUG_Arctic_Wolf
+  Id:
+    _value: AUG_Arctic_Wolf
   Name: Arctic Wolf
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Shattered Web Collection
+  Collection:
+    _value: Collection_Shattered_Web
   Price:
     MinPrice: 1.74
     MaxPrice: 9.22

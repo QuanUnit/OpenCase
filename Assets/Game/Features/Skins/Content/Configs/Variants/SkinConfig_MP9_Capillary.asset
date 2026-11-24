@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP9_Capillary
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 9441239c-2867-448c-a7bc-9a4f9b73fd53
-  SkinStringId: MP9_Capillary
+  Id:
+    _value: MP9_Capillary
   Name: Capillary
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Horizon Collection
+  Collection:
+    _value: Collection_Horizon
   Price:
     MinPrice: 0.19
     MaxPrice: 0.79

@@ -1,8 +1,7 @@
-using QCore.Tools.Identifiers;
 using Features.Skins.Configs;
 using Shared.Tools.Mathematics;
 using UnityEngine;
-using Zenject;
+using Shared.Identifiers;
 using Features.Skins.Data;
 
 namespace Features.Skins.Services
@@ -26,7 +25,7 @@ namespace Features.Skins.Services
             floatValue = _globalConfig.FloatValueCurve.Evaluate(floatValue);
 
             var price = CalculatePrice(config.Price, floatValue, isStatTrack, isSouvenir);
-            var id = QGuid.CreateNew();
+            var id = EntityIds.CreateUnique<SkinInstanceId>(SkinInstanceId.EntityName);
             
             return new Skin(config.Id, id, floatValue, price, isStatTrack, isSouvenir);
         }
@@ -34,7 +33,7 @@ namespace Features.Skins.Services
         public Skin Create(SkinConfig config, float floatValue, bool isStatTrak)
         {
             var price = CalculatePrice(config.Price, floatValue, isStatTrak, false);
-            var id = QGuid.CreateNew();
+            var id = EntityIds.CreateUnique<SkinInstanceId>(SkinInstanceId.EntityName);
 
             return new Skin(config.Id, id, floatValue, price, isStatTrak, false);
         }

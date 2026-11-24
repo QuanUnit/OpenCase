@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ75-Auto_Tread_Plate
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2a35aabc-dcf9-4451-b7bc-ad8e5a5414fc
-  SkinStringId: CZ75-Auto_Tread_Plate
+  Id:
+    _value: CZ75-Auto_Tread_Plate
   Name: Tread Plate
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Arms Deal 3 Collection
+  Collection:
+    _value: Collection_Arms_Deal_3
   Price:
     MinPrice: 3.7
     MaxPrice: 4.26

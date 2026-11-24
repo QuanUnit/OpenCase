@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using Features.Skins.Configs;
 using Features.Skins.Data;
 using Features.Skins.Services;
-using QCore.Tools.Identifiers;
 
 namespace Features.Contracts.Tests.EditMode
 {
@@ -17,7 +16,7 @@ namespace Features.Contracts.Tests.EditMode
             _configs.Add(config);
         }
 
-        public SkinConfig GetSkinConfigById(QGuid id)
+        public SkinConfig GetSkinConfigById(SkinId id)
         {
             return _configs.Find(config => config.Id == id);
         }

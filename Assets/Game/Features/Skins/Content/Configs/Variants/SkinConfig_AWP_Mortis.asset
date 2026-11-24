@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Mortis
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ad3f0b0d-4ec6-472d-9993-bb083b5468da
-  SkinStringId: AWP_Mortis
+  Id:
+    _value: AWP_Mortis
   Name: Mortis
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Clutch Collection
+  Collection:
+    _value: Collection_Clutch
   Price:
     MinPrice: 3.43
     MaxPrice: 13.99

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_The_Fuschia_Is_Now
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: dfa0b349-80a3-469d-b51a-4decd4f9c7e1
-  SkinStringId: CZ-Auto_The_Fuschia_Is_Now
+  Id:
+    _value: CZ-Auto_The_Fuschia_Is_Now
   Name: The Fuschia Is Now
   ContextData:
     SpriteSource:

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A1-S_Rose_Hex
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 03b4764d-21b9-4620-9a4b-3b4fdf0bdbfb
-  SkinStringId: M4A1-S_Rose_Hex
+  Id:
+    _value: M4A1-S_Rose_Hex
   Name: Rose Hex
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Radiant Collection
+  Collection:
+    _value: Collection_Radiant
   Price:
     MinPrice: 0.44
     MaxPrice: 2.17

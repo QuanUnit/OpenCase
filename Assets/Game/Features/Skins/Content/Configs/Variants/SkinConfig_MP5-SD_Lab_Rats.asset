@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP5-SD_Lab_Rats
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f5cb3d2c-a8d0-4a16-b344-8871dd2de6ea
-  SkinStringId: MP5-SD_Lab_Rats
+  Id:
+    _value: MP5-SD_Lab_Rats
   Name: Lab Rats
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Blacksite Collection
+  Collection:
+    _value: Collection_Blacksite
   Price:
     MinPrice: 0
     MaxPrice: 0

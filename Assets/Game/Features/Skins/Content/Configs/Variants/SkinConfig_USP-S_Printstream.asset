@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_Printstream
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0e8191ee-4459-4b90-a8ae-5ad4287b9569
-  SkinStringId: USP-S_Printstream
+  Id:
+    _value: USP-S_Printstream
   Name: Printstream
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Recoil Collection
+  Collection:
+    _value: Collection_Recoil
   Price:
     MinPrice: 32.34
     MaxPrice: 125.52

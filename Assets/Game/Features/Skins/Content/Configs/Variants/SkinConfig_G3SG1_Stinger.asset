@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_G3SG1_Stinger
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 4132ff9e-f87d-4e58-b41d-cf2c85229f11
-  SkinStringId: G3SG1_Stinger
+  Id:
+    _value: G3SG1_Stinger
   Name: Stinger
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Glove Collection
+  Collection:
+    _value: Collection_Glove
   Price:
     MinPrice: 5.14
     MaxPrice: 8.24

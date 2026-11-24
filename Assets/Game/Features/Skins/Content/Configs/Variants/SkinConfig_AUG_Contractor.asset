@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Contractor
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1d3c7e55-7aa0-48e4-ae0b-139386b35e7a
-  SkinStringId: AUG_Contractor
+  Id:
+    _value: AUG_Contractor
   Name: Contractor
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Italy Collection
+  Collection:
+    _value: Collection_Italy
   Price:
     MinPrice: 0.01
     MaxPrice: 0.31

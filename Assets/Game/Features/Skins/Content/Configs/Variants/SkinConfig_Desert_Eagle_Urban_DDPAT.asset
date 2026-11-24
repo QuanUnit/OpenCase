@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Urban_DDPAT
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5222eb92-0c1d-47c3-8467-df684d4b3d9e
-  SkinStringId: Desert_Eagle_Urban_DDPAT
+  Id:
+    _value: Desert_Eagle_Urban_DDPAT
   Name: Urban DDPAT
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Overpass Collection
+  Collection:
+    _value: Collection_Overpass
   Price:
     MinPrice: 1.53
     MaxPrice: 26.27

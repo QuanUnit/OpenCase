@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP7_Neon_Ply
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 384d9ee1-5d4f-4d31-b88c-4a0969f7ceda
-  SkinStringId: MP7_Neon_Ply
+  Id:
+    _value: MP7_Neon_Ply
   Name: Neon Ply
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Shattered Web Collection
+  Collection:
+    _value: Collection_Shattered_Web
   Price:
     MinPrice: 1.68
     MaxPrice: 9.34

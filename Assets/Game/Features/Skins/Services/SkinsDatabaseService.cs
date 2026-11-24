@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using System.Linq;
 using Cysharp.Threading.Tasks;
 using QCore.Tools.Extensions;
-using QCore.Tools.Identifiers;
 using QCore.Tools.Mathematics;
 using Features.Skins.Configs;
 using Shared.Tools.Collections;
@@ -18,7 +17,7 @@ namespace Features.Skins.Services
         private readonly AllSkinsConfig _allSkinsConfig;
         private readonly SkinsGlobalSettingsConfig _skinsGlobalSettingsConfig;
 
-        private Dictionary<QGuid, SkinConfig> _skinsMap;
+        private Dictionary<SkinId, SkinConfig> _skinsMap;
 
         public SkinsDatabaseService(AllSkinsConfig allSkinsConfig, SkinsGlobalSettingsConfig skinsGlobalSettingsConfig)
         {
@@ -44,7 +43,7 @@ namespace Features.Skins.Services
             _skinsMap = _allSkinsConfig.Skins.ToDictionary(a => a.Id, b => b);
         }
 
-        public SkinConfig GetSkinConfigById(QGuid id)
+        public SkinConfig GetSkinConfigById(SkinId id)
         {
             return _skinsMap[id];
         }
@@ -68,7 +67,7 @@ namespace Features.Skins.Services
 
         public Rarity GetSkinRarity(Skin skin)
         {
-            var skinConfig = GetSkinConfigById(skin.SkinSourceId);
+            var skinConfig = GetSkinConfigById(skin.ConfigId);
             return skinConfig.Rarity;
         }
 

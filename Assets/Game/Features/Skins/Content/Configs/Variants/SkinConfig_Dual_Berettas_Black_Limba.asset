@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Dual_Berettas_Black_Limba
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 698e0957-056c-4d7c-b1dc-62e4a95fe26a
-  SkinStringId: Dual_Berettas_Black_Limba
+  Id:
+    _value: Dual_Berettas_Black_Limba
   Name: Black Limba
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Bravo Collection
+  Collection:
+    _value: Collection_Bravo
   Price:
     MinPrice: 3.16
     MaxPrice: 15.33

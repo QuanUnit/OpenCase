@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
   m_Name: CaseConfig_Case_Test
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5b30bd4e-a49a-4410-ae76-badb47d0c6be
-  CaseStringId: Case_Test
+  Id:
+    _value: Case_Test
   Name: Test
   Price: 52.94
   SkinsMapEntries:

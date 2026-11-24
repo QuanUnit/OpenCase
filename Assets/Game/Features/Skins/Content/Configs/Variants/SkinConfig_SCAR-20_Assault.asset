@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SCAR-20_Assault
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: cd510150-5468-4c53-93fb-c854622483db
-  SkinStringId: SCAR-20_Assault
+  Id:
+    _value: SCAR-20_Assault
   Name: Assault
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The CS20 Collection
+  Collection:
+    _value: Collection_CS20
   Price:
     MinPrice: 0.13
     MaxPrice: 0.38

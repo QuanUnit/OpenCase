@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Negev_Palm
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 14e1a85a-5eff-4e1f-b22a-bf26fd31f9ce
-  SkinStringId: Negev_Palm
+  Id:
+    _value: Negev_Palm
   Name: Palm
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Alpha Collection
+  Collection:
+    _value: Collection_Alpha
   Price:
     MinPrice: 3.47
     MaxPrice: 42

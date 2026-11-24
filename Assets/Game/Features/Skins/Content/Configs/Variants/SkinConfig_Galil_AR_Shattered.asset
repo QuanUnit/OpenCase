@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_Shattered
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a8eafd18-e832-47fd-8b7a-7ed5c53c6fa1
-  SkinStringId: Galil_AR_Shattered
+  Id:
+    _value: Galil_AR_Shattered
   Name: Shattered
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Bravo Collection
+  Collection:
+    _value: Collection_Bravo
   Price:
     MinPrice: 3.7
     MaxPrice: 38.04

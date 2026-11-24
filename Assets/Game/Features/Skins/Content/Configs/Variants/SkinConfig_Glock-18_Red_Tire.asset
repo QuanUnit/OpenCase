@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Red_Tire
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c5e68770-ed4e-4252-87d0-8742377fbc71
-  SkinStringId: Glock-18_Red_Tire
+  Id:
+    _value: Glock-18_Red_Tire
   Name: Red Tire
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The 2021 Vertigo Collection
+  Collection:
+    _value: Collection_2021_Vertigo
   Price:
     MinPrice: 3.43
     MaxPrice: 11.1

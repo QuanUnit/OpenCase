@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Sawed-Off_Highwayman
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e95cd6d4-8d93-492d-9796-c9a2bf362c61
-  SkinStringId: Sawed-Off_Highwayman
+  Id:
+    _value: Sawed-Off_Highwayman
   Name: Highwayman
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Vanguard Collection
+  Collection:
+    _value: Collection_Vanguard
   Price:
     MinPrice: 0.95
     MaxPrice: 4.76

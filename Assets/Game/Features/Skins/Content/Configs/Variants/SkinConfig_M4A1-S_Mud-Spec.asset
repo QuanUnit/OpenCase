@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A1-S_Mud-Spec
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 502242ce-8971-4c06-a7c9-15556d727d38
-  SkinStringId: M4A1-S_Mud-Spec
+  Id:
+    _value: M4A1-S_Mud-Spec
   Name: Mud-Spec
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Anubis Collection
+  Collection:
+    _value: Collection_Anubis
   Price:
     MinPrice: 0.15
     MaxPrice: 2.42

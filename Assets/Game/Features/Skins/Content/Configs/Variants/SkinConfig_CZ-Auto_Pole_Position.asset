@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Pole_Position
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 586fdcdb-d310-4aa8-8787-a98d5623677b
-  SkinStringId: CZ-Auto_Pole_Position
+  Id:
+    _value: CZ-Auto_Pole_Position
   Name: Pole Position
   ContextData:
     SpriteSource:

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Dual_Berettas_Emerald
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 57133cff-db72-4604-a7d3-491bb30e56b5
-  SkinStringId: Dual_Berettas_Emerald
+  Id:
+    _value: Dual_Berettas_Emerald
   Name: Emerald
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Canals Collection
+  Collection:
+    _value: Collection_Canals
   Price:
     MinPrice: 40.53
     MaxPrice: 44.14

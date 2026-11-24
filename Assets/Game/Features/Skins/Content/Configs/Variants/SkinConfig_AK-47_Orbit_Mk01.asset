@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Orbit_Mk01
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 580bf700-daa0-4d38-855e-73ffb092f56d
-  SkinStringId: AK-47_Orbit_Mk01
+  Id:
+    _value: AK-47_Orbit_Mk01
   Name: Orbit Mk01
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Operation Hydra Collection
+  Collection:
+    _value: Collection_Operation_Hydra
   Price:
     MinPrice: 30.62
     MaxPrice: 90.49

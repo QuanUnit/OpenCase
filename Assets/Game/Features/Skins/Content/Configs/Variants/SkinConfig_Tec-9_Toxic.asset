@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Toxic
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0d91ff35-c3c3-4d0e-b3e5-ac1fc3796cc2
-  SkinStringId: Tec-9_Toxic
+  Id:
+    _value: Tec-9_Toxic
   Name: Toxic
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Cache Collection
+  Collection:
+    _value: Collection_Cache
   Price:
     MinPrice: 12.22
     MaxPrice: 28.45

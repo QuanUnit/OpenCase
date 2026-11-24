@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Exchanger
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 124177af-7cfc-4f49-ada6-a95190a4ef71
-  SkinStringId: P250_Exchanger
+  Id:
+    _value: P250_Exchanger
   Name: Exchanger
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The 2018 Nuke Collection
+  Collection:
+    _value: Collection_2018_Nuke
   Price:
     MinPrice: 0.07
     MaxPrice: 0.56

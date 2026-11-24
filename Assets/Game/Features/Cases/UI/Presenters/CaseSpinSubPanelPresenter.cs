@@ -13,7 +13,6 @@ using Features.SlotMachine.Data;
 using Features.SlotMachine.UI;
 using Features.Wallet.Services;
 using QCore.Tools.Extensions;
-using QCore.Tools.Identifiers;
 using QCore.UISystem.Presenters;
 using QCore.UISystem.Services;
 using UnityEngine;
@@ -21,7 +20,7 @@ using Object = UnityEngine.Object;
 
 namespace Features.Cases.UI.Presenters
 {
-    public class CaseSpinSubPanelPresenter : PanelPresenter<CaseSpinSubPanel>, IPanelPresenterWithPayload<QGuid>
+    public class CaseSpinSubPanelPresenter : PanelPresenter<CaseSpinSubPanel>, IPanelPresenterWithPayload<CaseId>
     {
         private readonly ICasesDatabaseService _casesDatabaseService;
         private readonly IUIPanelsService _panelsService;
@@ -74,7 +73,7 @@ namespace Features.Cases.UI.Presenters
             ApplyCount(_count);
         }
 
-        public void SetPayload(QGuid payload)
+        public void SetPayload(CaseId payload)
         {
             _caseConfig = _casesDatabaseService.GetCaseById(payload);
         }
@@ -291,7 +290,7 @@ namespace Features.Cases.UI.Presenters
 
         private DropResultCard.Data CreateRewardData(Skin skin)
         {
-            var skinConfig = _skinsDatabaseService.GetSkinConfigById(skin.SkinSourceId);
+            var skinConfig = _skinsDatabaseService.GetSkinConfigById(skin.ConfigId);
             var rarityVisual = _skinsUIContextDataService.GetRarityVisual(skinConfig.Rarity);
             var wear = _skinsDatabaseService.GetSkinWear(skin);
 

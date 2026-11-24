@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Nova_Moon_in_Libra
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 18c6d852-e365-4d55-a635-b384a8dba053
-  SkinStringId: Nova_Moon_in_Libra
+  Id:
+    _value: Nova_Moon_in_Libra
   Name: Moon in Libra
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Gods and Monsters Collection
+  Collection:
+    _value: Collection_Gods_and_Monsters
   Price:
     MinPrice: 4.51
     MaxPrice: 6.63

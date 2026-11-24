@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Groundwater
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 023cd4a2-b53f-44c5-9c7a-26a2f75c90e7
-  SkinStringId: Tec-9_Groundwater
+  Id:
+    _value: Tec-9_Groundwater
   Name: Groundwater
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Italy Collection
+  Collection:
+    _value: Collection_Italy
   Price:
     MinPrice: 0.01
     MaxPrice: 0.75

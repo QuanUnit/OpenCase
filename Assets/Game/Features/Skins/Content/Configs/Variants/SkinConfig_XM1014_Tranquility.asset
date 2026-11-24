@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Tranquility
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5af7000a-f912-4dc6-ba40-e6ba458e3887
-  SkinStringId: XM1014_Tranquility
+  Id:
+    _value: XM1014_Tranquility
   Name: Tranquility
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Vanguard Collection
+  Collection:
+    _value: Collection_Vanguard
   Price:
     MinPrice: 8.48
     MaxPrice: 24.29

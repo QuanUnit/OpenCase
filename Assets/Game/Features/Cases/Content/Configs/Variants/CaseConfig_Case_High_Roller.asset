@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
   m_Name: CaseConfig_Case_High_Roller
   m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
-  _id:
-    _idBody: 0ab0122d-9e1e-42da-870c-641798c65bcd
-  CaseStringId: Case_High_Roller
+  Id:
+    _value: Case_High_Roller
   Name: High Roller
   Price: 154.38
   SkinsMapEntries:

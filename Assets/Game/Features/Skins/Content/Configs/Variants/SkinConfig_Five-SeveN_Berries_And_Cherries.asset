@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Berries_And_Cherries
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 93e5fc3e-2483-48e2-b0a9-8c49c403bf75
-  SkinStringId: Five-SeveN_Berries_And_Cherries
+  Id:
+    _value: Five-SeveN_Berries_And_Cherries
   Name: Berries And Cherries
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Control Collection
+  Collection:
+    _value: Collection_Control
   Price:
     MinPrice: 111.85
     MaxPrice: 125.02

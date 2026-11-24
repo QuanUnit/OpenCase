@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Syd_Mead
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a01edc70-3a73-4d67-8267-f2315e468e60
-  SkinStringId: AUG_Syd_Mead
+  Id:
+    _value: AUG_Syd_Mead
   Name: Syd Mead
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Gamma 2 Collection
+  Collection:
+    _value: Collection_Gamma_2
   Price:
     MinPrice: 9.85
     MaxPrice: 33.52

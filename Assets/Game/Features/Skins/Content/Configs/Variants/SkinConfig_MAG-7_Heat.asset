@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAG-7_Heat
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d80ebfc8-4f69-40ed-9660-dfc680897918
-  SkinStringId: MAG-7_Heat
+  Id:
+    _value: MAG-7_Heat
   Name: Heat
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Chroma 2 Collection
+  Collection:
+    _value: Collection_Chroma_2
   Price:
     MinPrice: 1.01
     MaxPrice: 13.75

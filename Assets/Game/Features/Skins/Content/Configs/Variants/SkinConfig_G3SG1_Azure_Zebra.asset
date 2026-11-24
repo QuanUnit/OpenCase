@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_G3SG1_Azure_Zebra
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e789ed42-f7f1-4cf0-9765-b9c68e693612
-  SkinStringId: G3SG1_Azure_Zebra
+  Id:
+    _value: G3SG1_Azure_Zebra
   Name: Azure Zebra
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The eSports 2013 Winter Collection
+  Collection:
+    _value: Collection_eSports_2013_Winter
   Price:
     MinPrice: 1.88
     MaxPrice: 2.43

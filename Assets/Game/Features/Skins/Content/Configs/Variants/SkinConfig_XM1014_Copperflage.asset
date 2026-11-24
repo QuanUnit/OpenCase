@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Copperflage
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 6b01e246-458b-4def-a417-09a567e6c7bd
-  SkinStringId: XM1014_Copperflage
+  Id:
+    _value: XM1014_Copperflage
   Name: Copperflage
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Boreal Collection
+  Collection:
+    _value: Collection_Boreal
   Price:
     MinPrice: 0.17
     MaxPrice: 1.63

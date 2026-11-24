@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Prime_Conspiracy
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: beec141c-5813-44bb-8847-41ef26a6178d
-  SkinStringId: FAMAS_Prime_Conspiracy
+  Id:
+    _value: FAMAS_Prime_Conspiracy
   Name: Prime Conspiracy
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Control Collection
+  Collection:
+    _value: Collection_Control
   Price:
     MinPrice: 94.66
     MaxPrice: 121.14

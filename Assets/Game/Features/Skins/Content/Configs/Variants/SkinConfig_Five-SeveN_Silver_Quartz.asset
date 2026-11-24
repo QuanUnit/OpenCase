@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Silver_Quartz
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 404e0067-f149-4718-9f1b-09ed76a368a9
-  SkinStringId: Five-SeveN_Silver_Quartz
+  Id:
+    _value: Five-SeveN_Silver_Quartz
   Name: Silver Quartz
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Safehouse Collection
+  Collection:
+    _value: Collection_Safehouse
   Price:
     MinPrice: 0.08
     MaxPrice: 0.52

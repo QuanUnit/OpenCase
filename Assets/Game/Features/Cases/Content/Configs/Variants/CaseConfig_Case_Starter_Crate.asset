@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
   m_Name: CaseConfig_Case_Starter_Crate
   m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
-  _id:
-    _idBody: 317e1273-d897-4495-8c1a-724d2be595e7
-  CaseStringId: Case_Starter_Crate
+  Id:
+    _value: Case_Starter_Crate
   Name: Starter Crate
   Price: 0.12
   SkinsMapEntries:

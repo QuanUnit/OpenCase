@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_R8_Revolver_Night
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 975918d7-37c8-436c-b084-3e2e192bd9ae
-  SkinStringId: R8_Revolver_Night
+  Id:
+    _value: R8_Revolver_Night
   Name: Night
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Ancient Collection
+  Collection:
+    _value: Collection_Ancient
   Price:
     MinPrice: 0.41
     MaxPrice: 6.47

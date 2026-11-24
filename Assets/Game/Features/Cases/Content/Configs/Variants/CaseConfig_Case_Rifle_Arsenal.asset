@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
   m_Name: CaseConfig_Case_Rifle_Arsenal
   m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
-  _id:
-    _idBody: 47a5ea52-d3d3-46c9-a335-e55970bc8ec4
-  CaseStringId: Case_Rifle_Arsenal
+  Id:
+    _value: Case_Rifle_Arsenal
   Name: Rifle Arsenal
   Price: 4.57
   SkinsMapEntries:

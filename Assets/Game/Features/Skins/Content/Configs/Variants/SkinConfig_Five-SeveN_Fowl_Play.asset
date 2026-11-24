@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Five-SeveN_Fowl_Play
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 38be288f-2f21-44dd-ba45-0c3956134556
-  SkinStringId: Five-SeveN_Fowl_Play
+  Id:
+    _value: Five-SeveN_Fowl_Play
   Name: Fowl Play
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Breakout Collection
+  Collection:
+    _value: Collection_Breakout
   Price:
     MinPrice: 17.57
     MaxPrice: 46.13

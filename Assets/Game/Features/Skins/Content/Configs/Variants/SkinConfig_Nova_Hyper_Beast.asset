@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Nova_Hyper_Beast
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8731bb17-6ac9-420b-b918-af5be8617f39
-  SkinStringId: Nova_Hyper_Beast
+  Id:
+    _value: Nova_Hyper_Beast
   Name: Hyper Beast
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Wildfire Collection
+  Collection:
+    _value: Collection_Wildfire
   Price:
     MinPrice: 13.49
     MaxPrice: 43.69

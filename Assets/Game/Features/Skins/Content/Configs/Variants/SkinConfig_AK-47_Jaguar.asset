@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Jaguar
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d611f051-05d6-48c1-89df-1227711a9155
-  SkinStringId: AK-47_Jaguar
+  Id:
+    _value: AK-47_Jaguar
   Name: Jaguar
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The eSports 2014 Summer Collection
+  Collection:
+    _value: Collection_eSports_2014_Summer
   Price:
     MinPrice: 72.5
     MaxPrice: 563.96

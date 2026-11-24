@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Classic_Crate
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 142aa817-f922-4cb7-9697-7ebea71c471b
-  SkinStringId: MAC-10_Classic_Crate
+  Id:
+    _value: MAC-10_Classic_Crate
   Name: Classic Crate
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The CS20 Collection
+  Collection:
+    _value: Collection_CS20
   Price:
     MinPrice: 0.11
     MaxPrice: 0.88

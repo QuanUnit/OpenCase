@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Last_Dive
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: bc283a45-bbe7-4b0f-b93f-48f41d957694
-  SkinStringId: MAC-10_Last_Dive
+  Id:
+    _value: MAC-10_Last_Dive
   Name: Last Dive
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Spectrum Collection
+  Collection:
+    _value: Collection_Spectrum
   Price:
     MinPrice: 1.26
     MaxPrice: 3.42

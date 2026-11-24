@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Nova_Green_Apple
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8c80b82e-b23b-4767-acf1-1fe8813964fb
-  SkinStringId: Nova_Green_Apple
+  Id:
+    _value: Nova_Green_Apple
   Name: Green Apple
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Cobblestone Collection
+  Collection:
+    _value: Collection_Cobblestone
   Price:
     MinPrice: 11.49
     MaxPrice: 14.51

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P2000_Wicked_Sick
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a869e403-7eb2-4469-b282-d7e88bb6821a
-  SkinStringId: P2000_Wicked_Sick
+  Id:
+    _value: P2000_Wicked_Sick
   Name: Wicked Sick
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Revolution Collection
+  Collection:
+    _value: Collection_Revolution
   Price:
     MinPrice: 2.99
     MaxPrice: 23.34

@@ -10,6 +10,7 @@ using Shared.Tools.AssetsExtensions;
 using UnityEditor;
 using UnityEditor.AddressableAssets;
 using UnityEngine;
+using Features.Cases.Data;
 
 namespace Features.RemoteConfigs.Editor.Cases
 {
@@ -42,7 +43,7 @@ namespace Features.RemoteConfigs.Editor.Cases
             if (_allCases == null || _allCases.Any(caseConfig => caseConfig == null) == true)
             {
                 _allCases = AssetDatabaseTools.FindAllAssets<CaseConfig>()
-                    .OrderBy(caseConfig => caseConfig.CaseStringId, StringComparer.Ordinal)
+                    .OrderBy(caseConfig => caseConfig.Id.Value, StringComparer.Ordinal)
                     .ToList();
             }
 
@@ -140,8 +141,7 @@ namespace Features.RemoteConfigs.Editor.Cases
         public CaseConfig CreateCase(int categoryIndex)
         {
             var caseConfig = ScriptableObject.CreateInstance<CaseConfig>();
-            caseConfig.CreateId();
-            caseConfig.CaseStringId = GetFreeId(_config.NewCaseIdPrefix, 1);
+            caseConfig.Id = new CaseId(GetFreeId(_config.NewCaseIdPrefix, 1));
             caseConfig.Name = _config.NewCaseName;
             caseConfig.Price = _config.NewCasePrice;
             caseConfig.SkinsMapEntries = new WeightedMap<SkinConfig>();
@@ -160,8 +160,7 @@ namespace Features.RemoteConfigs.Editor.Cases
         public CaseConfig DuplicateCase(CaseConfig source)
         {
             var caseConfig = UnityEngine.Object.Instantiate(source);
-            caseConfig.CreateId();
-            caseConfig.CaseStringId = GetFreeId(source.CaseStringId + _config.DuplicateIdSuffix, 0);
+            caseConfig.Id = new CaseId(GetFreeId(source.Id.Value + _config.DuplicateIdSuffix, 0));
 
             CreateAsset(caseConfig);
 
@@ -188,7 +187,7 @@ namespace Features.RemoteConfigs.Editor.Cases
                 return "Id contains characters not allowed in a file name or a sheet cell";
             }
 
-            if (GetAllCases().Any(other => other != caseConfig && other.CaseStringId == id) == true)
+            if (GetAllCases().Any(other => other != caseConfig && other.Id.Value == id) == true)
             {
                 return $"Id {id} is already used by another case";
             }
@@ -199,7 +198,7 @@ namespace Features.RemoteConfigs.Editor.Cases
         public void SetId(CaseConfig caseConfig, string id)
         {
             Undo.RecordObject(caseConfig, "Change case id");
-            caseConfig.CaseStringId = id;
+            caseConfig.Id = new CaseId(id);
             Save(caseConfig);
 
             var path = AssetDatabase.GetAssetPath(caseConfig);
@@ -342,7 +341,7 @@ namespace Features.RemoteConfigs.Editor.Cases
 
         private void CreateAsset(CaseConfig caseConfig)
         {
-            var path = $"{_config.CasesFolderPath}/{AssetNamePrefix}{caseConfig.CaseStringId}{AssetExtension}";
+            var path = $"{_config.CasesFolderPath}/{AssetNamePrefix}{caseConfig.Id.Value}{AssetExtension}";
 
             AssetDatabase.CreateAsset(caseConfig, path);
             AssetDatabase.SaveAssetIfDirty(caseConfig);
@@ -351,7 +350,7 @@ namespace Features.RemoteConfigs.Editor.Cases
 
         private string GetFreeId(string baseId, int firstNumber)
         {
-            var usedIds = new HashSet<string>(GetAllCases().Select(caseConfig => caseConfig.CaseStringId), StringComparer.Ordinal);
+            var usedIds = new HashSet<string>(GetAllCases().Select(caseConfig => caseConfig.Id.Value), StringComparer.Ordinal);
 
             if (firstNumber == 0 && IsFree(baseId, usedIds) == true)
             {

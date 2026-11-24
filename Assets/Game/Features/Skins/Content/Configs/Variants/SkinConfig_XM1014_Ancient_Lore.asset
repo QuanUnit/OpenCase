@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_XM1014_Ancient_Lore
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 579fb0e2-45e9-4e1a-97f8-e4a7ee77ee4f
-  SkinStringId: XM1014_Ancient_Lore
+  Id:
+    _value: XM1014_Ancient_Lore
   Name: Ancient Lore
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Ancient Collection
+  Collection:
+    _value: Collection_Ancient
   Price:
     MinPrice: 58.49
     MaxPrice: 92.04

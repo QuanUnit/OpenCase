@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAG-7_Copper_Coated
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1a8a2826-1125-416a-847f-eed5fa503d73
-  SkinStringId: MAG-7_Copper_Coated
+  Id:
+    _value: MAG-7_Copper_Coated
   Name: Copper Coated
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Anubis Collection
+  Collection:
+    _value: Collection_Anubis
   Price:
     MinPrice: 1.1
     MaxPrice: 6.57

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Light_Rail
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d4ac928b-76b0-4410-9c74-889e3fa7bfdb
-  SkinStringId: Desert_Eagle_Light_Rail
+  Id:
+    _value: Desert_Eagle_Light_Rail
   Name: Light Rail
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Prisma Collection
+  Collection:
+    _value: Collection_Prisma
   Price:
     MinPrice: 0.78
     MaxPrice: 6.09

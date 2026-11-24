@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Nuclear_Garden
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 787950fa-34fb-440c-9069-ad6f2f795caf
-  SkinStringId: Glock-18_Nuclear_Garden
+  Id:
+    _value: Glock-18_Nuclear_Garden
   Name: Nuclear Garden
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The 2018 Nuke Collection
+  Collection:
+    _value: Collection_2018_Nuke
   Price:
     MinPrice: 1.05
     MaxPrice: 10.1

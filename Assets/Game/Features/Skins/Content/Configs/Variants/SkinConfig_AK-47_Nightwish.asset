@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Nightwish
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 0148bd07-cac1-489c-98ff-6fefee5bf5d2
-  SkinStringId: AK-47_Nightwish
+  Id:
+    _value: AK-47_Nightwish
   Name: Nightwish
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Dreams & Nightmares Collection
+  Collection:
+    _value: Collection_Dreams_And_Nightmares
   Price:
     MinPrice: 64.06
     MaxPrice: 130

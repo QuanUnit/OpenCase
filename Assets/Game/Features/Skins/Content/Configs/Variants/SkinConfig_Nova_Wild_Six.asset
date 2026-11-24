@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Nova_Wild_Six
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 89f88b29-9276-46ee-8c23-13fabbaae158
-  SkinStringId: Nova_Wild_Six
+  Id:
+    _value: Nova_Wild_Six
   Name: Wild Six
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Clutch Collection
+  Collection:
+    _value: Collection_Clutch
   Price:
     MinPrice: 0.41
     MaxPrice: 2.43

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Carved_Jade
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 75072714-d2a2-4374-9127-049bfbedc5ee
-  SkinStringId: AUG_Carved_Jade
+  Id:
+    _value: AUG_Carved_Jade
   Name: Carved Jade
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Ancient Collection
+  Collection:
+    _value: Collection_Ancient
   Price:
     MinPrice: 19.49
     MaxPrice: 31.92

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Decommissioned
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 6235c412-20bb-4512-b905-e96efa0de3c0
-  SkinStringId: FAMAS_Decommissioned
+  Id:
+    _value: FAMAS_Decommissioned
   Name: Decommissioned
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The CS20 Collection
+  Collection:
+    _value: Collection_CS20
   Price:
     MinPrice: 0.19
     MaxPrice: 1.17

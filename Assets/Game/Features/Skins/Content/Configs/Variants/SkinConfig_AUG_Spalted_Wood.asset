@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AUG_Spalted_Wood
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 93ce8c26-0e13-45ba-8f67-502ceb612dec
-  SkinStringId: AUG_Spalted_Wood
+  Id:
+    _value: AUG_Spalted_Wood
   Name: Spalted Wood
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The 2021 Dust 2 Collection
+  Collection:
+    _value: Collection_2021_Dust_2
   Price:
     MinPrice: 2.35
     MaxPrice: 3.53

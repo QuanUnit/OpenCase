@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_The_Outsiders
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e76c338c-b02f-4804-b9c1-5035c38581fa
-  SkinStringId: AK-47_The_Outsiders
+  Id:
+    _value: AK-47_The_Outsiders
   Name: The Outsiders
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Gallery Collection
+  Collection:
+    _value: Collection_Gallery
   Price:
     MinPrice: 7.99
     MaxPrice: 125.68

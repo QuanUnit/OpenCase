@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A4_Choppa
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2cdc0374-01da-4d96-8ae7-3c9420dfee58
-  SkinStringId: M4A4_Choppa
+  Id:
+    _value: M4A4_Choppa
   Name: Choppa
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Fever Collection
+  Collection:
+    _value: Collection_Fever
   Price:
     MinPrice: 0.06
     MaxPrice: 1.71

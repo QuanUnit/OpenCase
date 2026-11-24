@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_G3SG1_New_Roots
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1964e913-a486-4f89-93ae-7c7112713953
-  SkinStringId: G3SG1_New_Roots
+  Id:
+    _value: G3SG1_New_Roots
   Name: New Roots
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The 2021 Dust 2 Collection
+  Collection:
+    _value: Collection_2021_Dust_2
   Price:
     MinPrice: 14.11
     MaxPrice: 21.79

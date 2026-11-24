@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Dual_Berettas_Polished_Malachite
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c9f26b46-c116-4c99-932b-ca6de4f4b9a8
-  SkinStringId: Dual_Berettas_Polished_Malachite
+  Id:
+    _value: Dual_Berettas_Polished_Malachite
   Name: Polished Malachite
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Boreal Collection
+  Collection:
+    _value: Collection_Boreal
   Price:
     MinPrice: 0.04
     MaxPrice: 1.16

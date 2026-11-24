@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Copper_Oxide
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b1f7f926-a90e-49e6-a3bd-3094503522c5
-  SkinStringId: P250_Copper_Oxide
+  Id:
+    _value: P250_Copper_Oxide
   Name: Copper Oxide
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Boreal Collection
+  Collection:
+    _value: Collection_Boreal
   Price:
     MinPrice: 0.01
     MaxPrice: 0.04

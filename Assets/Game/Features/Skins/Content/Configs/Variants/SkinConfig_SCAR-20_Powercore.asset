@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SCAR-20_Powercore
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d5b46ad3-ca54-49f2-8a1d-1ea9d95fb977
-  SkinStringId: SCAR-20_Powercore
+  Id:
+    _value: SCAR-20_Powercore
   Name: Powercore
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Gamma 2 Collection
+  Collection:
+    _value: Collection_Gamma_2
   Price:
     MinPrice: 0.88
     MaxPrice: 4.84

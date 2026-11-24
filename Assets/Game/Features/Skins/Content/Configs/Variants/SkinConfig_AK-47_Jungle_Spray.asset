@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Jungle_Spray
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a728d4b6-1d6b-467f-8809-c76e94de74c3
-  SkinStringId: AK-47_Jungle_Spray
+  Id:
+    _value: AK-47_Jungle_Spray
   Name: Jungle Spray
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Aztec Collection
+  Collection:
+    _value: Collection_Aztec
   Price:
     MinPrice: 5.84
     MaxPrice: 125.07

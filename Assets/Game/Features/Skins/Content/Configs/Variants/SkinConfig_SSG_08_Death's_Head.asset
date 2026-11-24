@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SSG_08_Death's_Head
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f0b8ad70-f7fb-4389-8e5a-d08d4f525394
-  SkinStringId: SSG_08_Death's_Head
+  Id:
+    _value: SSG_08_Death's_Head
   Name: Death's Head
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Operation Hydra Collection
+  Collection:
+    _value: Collection_Operation_Hydra
   Price:
     MinPrice: 26.22
     MaxPrice: 40.29

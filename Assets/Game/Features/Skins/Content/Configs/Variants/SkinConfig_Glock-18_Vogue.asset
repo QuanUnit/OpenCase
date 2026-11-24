@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Vogue
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7cd7db90-cc2c-4feb-84ba-1a7228663349
-  SkinStringId: Glock-18_Vogue
+  Id:
+    _value: Glock-18_Vogue
   Name: Vogue
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Fracture Collection
+  Collection:
+    _value: Collection_Fracture
   Price:
     MinPrice: 3.48
     MaxPrice: 12.57

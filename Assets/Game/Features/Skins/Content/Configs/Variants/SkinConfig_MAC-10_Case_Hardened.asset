@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Case_Hardened
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ac6caa08-cc46-4c7e-9ae9-6f8bcf509549
-  SkinStringId: MAC-10_Case_Hardened
+  Id:
+    _value: MAC-10_Case_Hardened
   Name: Case Hardened
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The 2021 Dust 2 Collection
+  Collection:
+    _value: Collection_2021_Dust_2
   Price:
     MinPrice: 78.31
     MaxPrice: 117.94

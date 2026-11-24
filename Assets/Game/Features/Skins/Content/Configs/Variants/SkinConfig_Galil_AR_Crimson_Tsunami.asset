@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_Crimson_Tsunami
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2a90ff45-363d-4d5a-a43a-677d0d9b10de
-  SkinStringId: Galil_AR_Crimson_Tsunami
+  Id:
+    _value: Galil_AR_Crimson_Tsunami
   Name: Crimson Tsunami
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Spectrum Collection
+  Collection:
+    _value: Collection_Spectrum
   Price:
     MinPrice: 1.67
     MaxPrice: 5.36

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Syndicate
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e1b8290d-d0b0-4df0-b4d7-e78ae3a3b212
-  SkinStringId: CZ-Auto_Syndicate
+  Id:
+    _value: CZ-Auto_Syndicate
   Name: Syndicate
   ContextData:
     SpriteSource:

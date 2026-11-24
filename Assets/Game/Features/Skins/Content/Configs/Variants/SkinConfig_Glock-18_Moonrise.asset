@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Moonrise
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 925dc305-0fd3-4eb4-82f4-f4063d9095d1
-  SkinStringId: Glock-18_Moonrise
+  Id:
+    _value: Glock-18_Moonrise
   Name: Moonrise
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Clutch Collection
+  Collection:
+    _value: Collection_Clutch
   Price:
     MinPrice: 0.57
     MaxPrice: 2.84

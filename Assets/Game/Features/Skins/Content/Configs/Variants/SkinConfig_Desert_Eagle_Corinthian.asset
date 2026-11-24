@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Corinthian
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 5bfd19f7-0160-430f-8f2a-32ecc100f9a7
-  SkinStringId: Desert_Eagle_Corinthian
+  Id:
+    _value: Desert_Eagle_Corinthian
   Name: Corinthian
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Revolver Case Collection
+  Collection:
+    _value: Collection_Revolver_Case
   Price:
     MinPrice: 0.38
     MaxPrice: 0.83

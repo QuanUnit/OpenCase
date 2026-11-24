@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAG-7_Hard_Water
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a94b6056-d928-412b-afe9-9df6bcf4bf38
-  SkinStringId: MAG-7_Hard_Water
+  Id:
+    _value: MAG-7_Hard_Water
   Name: Hard Water
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Operation Hydra Collection
+  Collection:
+    _value: Collection_Operation_Hydra
   Price:
     MinPrice: 3.76
     MaxPrice: 6.47

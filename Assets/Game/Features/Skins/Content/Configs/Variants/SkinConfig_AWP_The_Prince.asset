@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_The_Prince
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7b513155-d6d2-414e-81bd-f664af7ebc73
-  SkinStringId: AWP_The_Prince
+  Id:
+    _value: AWP_The_Prince
   Name: The Prince
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Canals Collection
+  Collection:
+    _value: Collection_Canals
   Price:
     MinPrice: 2082.71
     MaxPrice: 3673.14

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_G3SG1_Polar_Camo
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ee52cd1a-6e18-4d2a-a1e7-f831dd99d816
-  SkinStringId: G3SG1_Polar_Camo
+  Id:
+    _value: G3SG1_Polar_Camo
   Name: Polar Camo
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Train Collection
+  Collection:
+    _value: Collection_Train
   Price:
     MinPrice: 0.01
     MaxPrice: 0.57

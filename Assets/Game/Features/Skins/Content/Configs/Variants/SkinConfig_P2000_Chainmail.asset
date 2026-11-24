@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P2000_Chainmail
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 8f7ca2b4-e96e-4f28-8af3-24e1ba195169
-  SkinStringId: P2000_Chainmail
+  Id:
+    _value: P2000_Chainmail
   Name: Chainmail
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Cobblestone Collection
+  Collection:
+    _value: Collection_Cobblestone
   Price:
     MinPrice: 89.31
     MaxPrice: 93.92

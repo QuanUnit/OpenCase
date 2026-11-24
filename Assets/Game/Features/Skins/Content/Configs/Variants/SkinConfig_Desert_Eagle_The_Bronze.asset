@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_The_Bronze
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 4aafba87-11e1-475b-a889-98cb7b0f104a
-  SkinStringId: Desert_Eagle_The_Bronze
+  Id:
+    _value: Desert_Eagle_The_Bronze
   Name: The Bronze
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Control Collection
+  Collection:
+    _value: Collection_Control
   Price:
     MinPrice: 3.21
     MaxPrice: 4.91

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SSG_08_Threat_Detected
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 34e51912-6da0-4da6-8716-a6d3607acf93
-  SkinStringId: SSG_08_Threat_Detected
+  Id:
+    _value: SSG_08_Threat_Detected
   Name: Threat Detected
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Control Collection
+  Collection:
+    _value: Collection_Control
   Price:
     MinPrice: 17.19
     MaxPrice: 32.1

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Valence
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: bf6bcf3d-f416-4f56-ac67-7879b129b67c
-  SkinStringId: P250_Valence
+  Id:
+    _value: P250_Valence
   Name: Valence
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Chroma 2 Collection
+  Collection:
+    _value: Collection_Chroma_2
   Price:
     MinPrice: 0.17
     MaxPrice: 1.12

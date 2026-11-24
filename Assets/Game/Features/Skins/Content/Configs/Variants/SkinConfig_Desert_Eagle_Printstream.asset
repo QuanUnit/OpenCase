@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Printstream
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: ab971214-d1c2-4619-87ca-dad6c1a6a1af
-  SkinStringId: Desert_Eagle_Printstream
+  Id:
+    _value: Desert_Eagle_Printstream
   Name: Printstream
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Fracture Collection
+  Collection:
+    _value: Collection_Fracture
   Price:
     MinPrice: 32.56
     MaxPrice: 84.28

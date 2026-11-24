@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P2000_Woodsman
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1f57c50c-231f-4575-95ba-b62ab0c2d794
-  SkinStringId: P2000_Woodsman
+  Id:
+    _value: P2000_Woodsman
   Name: Woodsman
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Operation Hydra Collection
+  Collection:
+    _value: Collection_Operation_Hydra
   Price:
     MinPrice: 28.48
     MaxPrice: 49.24

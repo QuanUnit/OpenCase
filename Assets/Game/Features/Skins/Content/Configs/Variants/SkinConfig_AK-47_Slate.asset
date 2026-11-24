@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AK-47_Slate
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: b45170da-65a7-4e79-b263-4fab9918e67c
-  SkinStringId: AK-47_Slate
+  Id:
+    _value: AK-47_Slate
   Name: Slate
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Snakebite Collection
+  Collection:
+    _value: Collection_Snakebite
   Price:
     MinPrice: 3.54
     MaxPrice: 15.82

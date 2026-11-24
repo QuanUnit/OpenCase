@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Bronze_Deco
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 6933fcca-3ddc-46f2-aaba-c375b0687038
-  SkinStringId: Desert_Eagle_Bronze_Deco
+  Id:
+    _value: Desert_Eagle_Bronze_Deco
   Name: Bronze Deco
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Chroma 2 Collection
+  Collection:
+    _value: Collection_Chroma_2
   Price:
     MinPrice: 0.18
     MaxPrice: 0.54

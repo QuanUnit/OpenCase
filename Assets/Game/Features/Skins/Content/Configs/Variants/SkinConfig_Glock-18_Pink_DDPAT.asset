@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Pink_DDPAT
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 32fe83e4-a290-4a60-a9a8-487e1c087e1e
-  SkinStringId: Glock-18_Pink_DDPAT
+  Id:
+    _value: Glock-18_Pink_DDPAT
   Name: Pink DDPAT
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The 2021 Mirage Collection
+  Collection:
+    _value: Collection_2021_Mirage
   Price:
     MinPrice: 66.56
     MaxPrice: 145.22

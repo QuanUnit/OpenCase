@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Dragon_Tattoo
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 44aabd75-aa2f-4011-9d16-e2e678d90a06
-  SkinStringId: Glock-18_Dragon_Tattoo
+  Id:
+    _value: Glock-18_Dragon_Tattoo
   Name: Dragon Tattoo
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Arms Deal Collection
+  Collection:
+    _value: Collection_Arms_Deal
   Price:
     MinPrice: 135.4
     MaxPrice: 146.36

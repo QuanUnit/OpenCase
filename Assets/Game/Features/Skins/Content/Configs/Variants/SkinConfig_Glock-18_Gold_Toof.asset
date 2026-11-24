@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Gold_Toof
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: cffdacb3-b4f6-48d5-998c-385d7fcf4aba
-  SkinStringId: Glock-18_Gold_Toof
+  Id:
+    _value: Glock-18_Gold_Toof
   Name: Gold Toof
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 5
-  Collection: The Gallery Collection
+  Collection:
+    _value: Collection_Gallery
   Price:
     MinPrice: 29.43
     MaxPrice: 180.54

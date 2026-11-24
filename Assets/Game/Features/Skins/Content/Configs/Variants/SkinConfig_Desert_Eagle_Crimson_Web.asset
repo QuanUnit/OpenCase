@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Crimson_Web
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 6a189eac-be33-4cba-8000-5e0795a9ee98
-  SkinStringId: Desert_Eagle_Crimson_Web
+  Id:
+    _value: Desert_Eagle_Crimson_Web
   Name: Crimson Web
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The eSports 2014 Summer Collection
+  Collection:
+    _value: Collection_eSports_2014_Summer
   Price:
     MinPrice: 12.69
     MaxPrice: 215.24

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Elite_Build
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: d5df5ed1-3dd0-4bf8-80f3-42e02d5d38a9
-  SkinStringId: AWP_Elite_Build
+  Id:
+    _value: AWP_Elite_Build
   Name: Elite Build
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Wildfire Collection
+  Collection:
+    _value: Collection_Wildfire
   Price:
     MinPrice: 15.05
     MaxPrice: 245.17

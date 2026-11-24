@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_G3SG1_Flux
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 2c15c628-c570-4ed0-b557-cc1a16b13dd3
-  SkinStringId: G3SG1_Flux
+  Id:
+    _value: G3SG1_Flux
   Name: Flux
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Shadow Collection
+  Collection:
+    _value: Collection_Shadow
   Price:
     MinPrice: 6.85
     MaxPrice: 43.95

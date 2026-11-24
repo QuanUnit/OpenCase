@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A1-S_Liquidation
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f8805bbe-f5c8-4379-b88a-e3139193e8d9
-  SkinStringId: M4A1-S_Liquidation
+  Id:
+    _value: M4A1-S_Liquidation
   Name: Liquidation
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Genesis Collection
+  Collection:
+    _value: Collection_Genesis
   Price:
     MinPrice: 2.7
     MaxPrice: 23.8

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SSG_08_Acid_Fade
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: afb52dd2-a943-4d40-9d07-5a284611b3c5
-  SkinStringId: SSG_08_Acid_Fade
+  Id:
+    _value: SSG_08_Acid_Fade
   Name: Acid Fade
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Safehouse Collection
+  Collection:
+    _value: Collection_Safehouse
   Price:
     MinPrice: 0
     MaxPrice: 0

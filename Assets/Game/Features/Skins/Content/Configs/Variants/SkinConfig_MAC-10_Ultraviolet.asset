@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAC-10_Ultraviolet
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c7cde3da-a9ba-4c0c-85cc-823465ef4e47
-  SkinStringId: MAC-10_Ultraviolet
+  Id:
+    _value: MAC-10_Ultraviolet
   Name: Ultraviolet
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The eSports 2014 Summer Collection
+  Collection:
+    _value: Collection_eSports_2014_Summer
   Price:
     MinPrice: 2.22
     MaxPrice: 43.53

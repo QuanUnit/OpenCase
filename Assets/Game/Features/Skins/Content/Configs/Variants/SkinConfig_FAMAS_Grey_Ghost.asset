@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Grey_Ghost
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: eabf2d16-3fe8-4f3d-9fa3-07e59e84f255
-  SkinStringId: FAMAS_Grey_Ghost
+  Id:
+    _value: FAMAS_Grey_Ghost
   Name: Grey Ghost
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Radiant Collection
+  Collection:
+    _value: Collection_Radiant
   Price:
     MinPrice: 0.03
     MaxPrice: 0.24

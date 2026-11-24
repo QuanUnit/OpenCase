@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Phobos
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 274c26b5-751e-4fdd-af9e-8627f883c987
-  SkinStringId: AWP_Phobos
+  Id:
+    _value: AWP_Phobos
   Name: Phobos
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Gamma Collection
+  Collection:
+    _value: Collection_Gamma
   Price:
     MinPrice: 1.91
     MaxPrice: 4.43

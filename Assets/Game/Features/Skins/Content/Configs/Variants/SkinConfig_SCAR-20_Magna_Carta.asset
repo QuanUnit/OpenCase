@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SCAR-20_Magna_Carta
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1c5c0282-66d9-4189-a19d-beba6f8521fe
-  SkinStringId: SCAR-20_Magna_Carta
+  Id:
+    _value: SCAR-20_Magna_Carta
   Name: Magna Carta
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Control Collection
+  Collection:
+    _value: Collection_Control
   Price:
     MinPrice: 16.3
     MaxPrice: 19

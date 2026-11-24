@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Tec-9_Jambiya
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3a55b466-8a6f-46c6-abf2-c5572f4c057c
-  SkinStringId: Tec-9_Jambiya
+  Id:
+    _value: Tec-9_Jambiya
   Name: Jambiya
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Wildfire Collection
+  Collection:
+    _value: Collection_Wildfire
   Price:
     MinPrice: 0.32
     MaxPrice: 2.22

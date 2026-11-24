@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Glock-18_Water_Elemental
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: e1bced70-2a5e-4a1f-a828-af9c8d29ed23
-  SkinStringId: Glock-18_Water_Elemental
+  Id:
+    _value: Glock-18_Water_Elemental
   Name: Water Elemental
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Breakout Collection
+  Collection:
+    _value: Collection_Breakout
   Price:
     MinPrice: 18.63
     MaxPrice: 35.32

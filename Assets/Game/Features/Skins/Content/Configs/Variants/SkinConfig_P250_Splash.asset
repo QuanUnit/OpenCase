@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P250_Splash
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 63d33c89-6c83-4e45-b75e-e977fff728a2
-  SkinStringId: P250_Splash
+  Id:
+    _value: P250_Splash
   Name: Splash
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The eSports 2013 Collection
+  Collection:
+    _value: Collection_eSports_2013
   Price:
     MinPrice: 22.14
     MaxPrice: 50.31

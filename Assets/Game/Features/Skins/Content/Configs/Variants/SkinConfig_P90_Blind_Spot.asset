@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Blind_Spot
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 53393139-8e21-40f2-a42d-c1ef139a4a4a
-  SkinStringId: P90_Blind_Spot
+  Id:
+    _value: P90_Blind_Spot
   Name: Blind Spot
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The eSports 2013 Winter Collection
+  Collection:
+    _value: Collection_eSports_2013_Winter
   Price:
     MinPrice: 6.39
     MaxPrice: 10.6

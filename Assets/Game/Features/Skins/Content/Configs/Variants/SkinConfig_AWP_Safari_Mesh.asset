@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_AWP_Safari_Mesh
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 68909f3a-fe6e-47ce-955b-b9f9eb74a14f
-  SkinStringId: AWP_Safari_Mesh
+  Id:
+    _value: AWP_Safari_Mesh
   Name: Safari Mesh
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Lake Collection
+  Collection:
+    _value: Collection_Lake
   Price:
     MinPrice: 0.07
     MaxPrice: 4.18

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_R8_Revolver_Llama_Cannon
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a858ab98-dbc5-4eda-9bea-95095e6cc2bc
-  SkinStringId: R8_Revolver_Llama_Cannon
+  Id:
+    _value: R8_Revolver_Llama_Cannon
   Name: Llama Cannon
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Spectrum 2 Collection
+  Collection:
+    _value: Collection_Spectrum_2
   Price:
     MinPrice: 7.7
     MaxPrice: 33.57

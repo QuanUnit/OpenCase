@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Tiger_Pit
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 10247e55-0346-4e37-8444-35d5aad2104f
-  SkinStringId: P90_Tiger_Pit
+  Id:
+    _value: P90_Tiger_Pit
   Name: Tiger Pit
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Havoc Collection
+  Collection:
+    _value: Collection_Havoc
   Price:
     MinPrice: 22.51
     MaxPrice: 29.69

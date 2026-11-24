@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Vendetta
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 7224576b-456a-41c9-94f3-747eee96c122
-  SkinStringId: CZ-Auto_Vendetta
+  Id:
+    _value: CZ-Auto_Vendetta
   Name: Vendetta
   ContextData:
     SpriteSource:

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M249_Spectre
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 1ea796f4-2bf8-4a63-aaa4-95b85103fa29
-  SkinStringId: M249_Spectre
+  Id:
+    _value: M249_Spectre
   Name: Spectre
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Chroma 3 Collection
+  Collection:
+    _value: Collection_Chroma_3
   Price:
     MinPrice: 0.19
     MaxPrice: 0.44

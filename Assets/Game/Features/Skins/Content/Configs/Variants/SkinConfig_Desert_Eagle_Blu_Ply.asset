@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Desert_Eagle_Blu_Ply
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: f2246519-b2c6-4ca1-b508-f358dd71c09c
-  SkinStringId: Desert_Eagle_Blu_Ply
+  Id:
+    _value: Desert_Eagle_Blu_Ply
   Name: Blue Ply
   ContextData:
     SpriteSource:

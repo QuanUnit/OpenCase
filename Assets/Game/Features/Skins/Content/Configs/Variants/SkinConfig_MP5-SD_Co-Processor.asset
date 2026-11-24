@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MP5-SD_Co-Processor
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 3c476b76-45cc-4192-83d9-87b6dd4821a4
-  SkinStringId: MP5-SD_Co-Processor
+  Id:
+    _value: MP5-SD_Co-Processor
   Name: Co-Processor
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The 2018 Nuke Collection
+  Collection:
+    _value: Collection_2018_Nuke
   Price:
     MinPrice: 0.08
     MaxPrice: 0.5

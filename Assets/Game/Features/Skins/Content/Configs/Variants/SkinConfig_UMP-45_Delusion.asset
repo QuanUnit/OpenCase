@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_UMP-45_Delusion
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: c6d71209-4339-4233-b199-3e09d432ea48
-  SkinStringId: UMP-45_Delusion
+  Id:
+    _value: UMP-45_Delusion
   Name: Delusion
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Vanguard Collection
+  Collection:
+    _value: Collection_Vanguard
   Price:
     MinPrice: 0.47
     MaxPrice: 3.31

@@ -138,7 +138,7 @@ namespace Features.RemoteConfigs.Editor.Cases
                 EditorGUILayout.HelpBox($"Low-rarity skin pays more than the case (a common tier, at least {CaseEditorGuiTools.FormatPercent(_config.CommonRarityChance)} chance, below the top rarity): {names}", MessageType.Warning);
             }
 
-            var skinsWithoutIcon = skins.Where(skin => _catalog.HasIcon(skin) == false).Select(skin => skin.SkinStringId).ToList();
+            var skinsWithoutIcon = skins.Where(skin => _catalog.HasIcon(skin) == false).Select(skin => skin.Id.Value).ToList();
 
             if (skinsWithoutIcon.Count > 0)
             {

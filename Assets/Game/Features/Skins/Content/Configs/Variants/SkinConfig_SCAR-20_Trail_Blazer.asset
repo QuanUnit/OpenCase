@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SCAR-20_Trail_Blazer
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 60d41932-5473-4fc1-83d9-17837b160e78
-  SkinStringId: SCAR-20_Trail_Blazer
+  Id:
+    _value: SCAR-20_Trail_Blazer
   Name: Trail Blazer
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Gallery Collection
+  Collection:
+    _value: Collection_Gallery
   Price:
     MinPrice: 0.09
     MaxPrice: 0.96

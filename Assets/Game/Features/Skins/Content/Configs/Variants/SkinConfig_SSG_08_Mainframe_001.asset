@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SSG_08_Mainframe_001
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 92988271-4827-4b39-8dcb-f16dfdad3342
-  SkinStringId: SSG_08_Mainframe_001
+  Id:
+    _value: SSG_08_Mainframe_001
   Name: Mainframe 001
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Fracture Collection
+  Collection:
+    _value: Collection_Fracture
   Price:
     MinPrice: 0.05
     MaxPrice: 0.77

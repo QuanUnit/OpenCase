@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_FAMAS_Spitfire
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 277321cc-7655-48cc-aa53-9a9164a94b01
-  SkinStringId: FAMAS_Spitfire
+  Id:
+    _value: FAMAS_Spitfire
   Name: Spitfire
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Alpha Collection
+  Collection:
+    _value: Collection_Alpha
   Price:
     MinPrice: 24.73
     MaxPrice: 521.8

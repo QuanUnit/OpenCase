@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A1-S_Atomic_Alloy
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 39309358-1fb2-4de7-805c-a790026e90a5
-  SkinStringId: M4A1-S_Atomic_Alloy
+  Id:
+    _value: M4A1-S_Atomic_Alloy
   Name: Atomic Alloy
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Huntsman Collection
+  Collection:
+    _value: Collection_Huntsman
   Price:
     MinPrice: 32.89
     MaxPrice: 257.8

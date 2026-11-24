@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_CZ-Auto_Chalice
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: a127aec6-3215-4d6d-a94c-dcba5fb616e3
-  SkinStringId: CZ-Auto_Chalice
+  Id:
+    _value: CZ-Auto_Chalice
   Name: Chalice
   ContextData:
     SpriteSource:

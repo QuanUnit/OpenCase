@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_Orange_DDPAT
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 066945d2-a7f8-4250-ac66-4a3e289919f9
-  SkinStringId: Galil_AR_Orange_DDPAT
+  Id:
+    _value: Galil_AR_Orange_DDPAT
   Name: Orange DDPAT
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The eSports 2013 Collection
+  Collection:
+    _value: Collection_eSports_2013
   Price:
     MinPrice: 13.01
     MaxPrice: 70

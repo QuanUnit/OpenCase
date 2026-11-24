@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_Galil_AR_Aqua_Terrace
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: bb7adfb0-1acb-4177-a611-dc5afea73ff0
-  SkinStringId: Galil_AR_Aqua_Terrace
+  Id:
+    _value: Galil_AR_Aqua_Terrace
   Name: Aqua Terrace
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 2
-  Collection: The Rising Sun Collection
+  Collection:
+    _value: Collection_Rising_Sun
   Price:
     MinPrice: 130.79
     MaxPrice: 242.73

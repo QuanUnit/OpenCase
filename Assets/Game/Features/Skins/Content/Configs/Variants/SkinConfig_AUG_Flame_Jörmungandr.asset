@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: "SkinConfig_AUG_Flame_J\xF6rmungandr"
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 74344915-1fc8-40f7-811a-d6f938b83eea
-  SkinStringId: "AUG_Flame_J\xF6rmungandr"
+  Id:
+    _value: "AUG_Flame_J\xF6rmungandr"
   Name: "Flame J\xF6rmungandr"
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Norse Collection
+  Collection:
+    _value: Collection_Norse
   Price:
     MinPrice: 358.45
     MaxPrice: 711.85

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_M4A4_Hellfire
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 40728d5d-6bd8-4d32-b742-b7e564fa5f75
-  SkinStringId: M4A4_Hellfire
+  Id:
+    _value: M4A4_Hellfire
   Name: Hellfire
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 4
-  Collection: The Operation Hydra Collection
+  Collection:
+    _value: Collection_Operation_Hydra
   Price:
     MinPrice: 129.99
     MaxPrice: 840

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_P90_Storm
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: bc67972c-618d-4bff-90c2-c3ee3c88f05c
-  SkinStringId: P90_Storm
+  Id:
+    _value: P90_Storm
   Name: Storm
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 0
-  Collection: The Cobblestone Collection
+  Collection:
+    _value: Collection_Cobblestone
   Price:
     MinPrice: 2
     MaxPrice: 14.7

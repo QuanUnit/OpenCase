@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_SG_553_Gator_Mesh
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: bebb2937-aee4-40cd-b2cc-b1275c2a28df
-  SkinStringId: SG_553_Gator_Mesh
+  Id:
+    _value: SG_553_Gator_Mesh
   Name: Gator Mesh
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Mirage Collection
+  Collection:
+    _value: Collection_Mirage
   Price:
     MinPrice: 21.07
     MaxPrice: 24.93

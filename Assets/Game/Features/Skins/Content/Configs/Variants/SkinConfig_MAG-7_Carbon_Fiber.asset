@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_MAG-7_Carbon_Fiber
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 14ca994b-ee0a-46f0-a8d5-7a29a75926ef
-  SkinStringId: MAG-7_Carbon_Fiber
+  Id:
+    _value: MAG-7_Carbon_Fiber
   Name: Carbon Fiber
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 1
-  Collection: The Control Collection
+  Collection:
+    _value: Collection_Control
   Price:
     MinPrice: 3.13
     MaxPrice: 3.15

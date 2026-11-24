@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
   m_Name: SkinConfig_USP-S_Ticket_to_Hell
   m_EditorClassIdentifier: 
-  _id:
-    _idBody: 52172cdd-989b-459c-aff9-f477517c4069
-  SkinStringId: USP-S_Ticket_to_Hell
+  Id:
+    _value: USP-S_Ticket_to_Hell
   Name: Ticket to Hell
   ContextData:
     SpriteSource:
@@ -25,7 +24,8 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 3
-  Collection: The Dreams & Nightmares Collection
+  Collection:
+    _value: Collection_Dreams_And_Nightmares
   Price:
     MinPrice: 0.43
     MaxPrice: 2.17
