@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aecc7be4a8bb40d2a92f2129c0d974bc, type: 3}
   m_Name: SoftCurrencyWalletConfig
   m_EditorClassIdentifier: 
-  _defaultValue: 5000
+  _defaultValue: 10
