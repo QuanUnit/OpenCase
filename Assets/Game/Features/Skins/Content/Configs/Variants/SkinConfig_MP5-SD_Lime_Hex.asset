@@ -18,10 +18,11 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: 43bdcd6cb467b43a595012def0e22a32
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: MP5-SD_Lime_Hex
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: 43bdcd6cb467b43a595012def0e22a32
         m_EditorAssetChanged: 0
   Rarity: 0
   Collection:

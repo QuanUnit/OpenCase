@@ -18,10 +18,11 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: d127c4932ca4b4f948a7bbcb7956f39b
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: Five-SeveN_Buddy
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: d127c4932ca4b4f948a7bbcb7956f39b
         m_EditorAssetChanged: 0
   Rarity: 3
   Collection:

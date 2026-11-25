@@ -18,10 +18,11 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: 325c7327d0de64f49a22f62574212b1b
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: UMP-45_Warm_Blooded
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: 325c7327d0de64f49a22f62574212b1b
         m_EditorAssetChanged: 0
   Rarity: 2
   Collection:

@@ -18,12 +18,15 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: 0da6673ac05c962488b68ea770f1af37
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: CZ75-Auto_Emerald
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: 94348428335ad45b3b0a49b90935988b
         m_EditorAssetChanged: 0
   Rarity: 2
+  Collection:
+    _value: 
   Price:
     MinPrice: 47.13
     MaxPrice: 52.55

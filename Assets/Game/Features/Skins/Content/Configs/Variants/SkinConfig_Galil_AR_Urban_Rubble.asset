@@ -18,10 +18,11 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: 5db231f4a69cd44099a4aa29b0d3fc03
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: Galil_AR_Urban_Rubble
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: 5db231f4a69cd44099a4aa29b0d3fc03
         m_EditorAssetChanged: 0
   Rarity: 1
   Collection:

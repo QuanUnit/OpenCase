@@ -18,10 +18,11 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: 339983c7156f34eb5ac79a4a435a43bc
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: AWP_Sovereign_Flame
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: 339983c7156f34eb5ac79a4a435a43bc
         m_EditorAssetChanged: 0
   Rarity: 5
   Collection:

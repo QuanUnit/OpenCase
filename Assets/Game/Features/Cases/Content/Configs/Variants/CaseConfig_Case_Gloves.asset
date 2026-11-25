@@ -209,8 +209,9 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: e07c089929c364edd8741ebd11b8a8f9
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+        m_SubObjectName: case_gloves
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: e07c089929c364edd8741ebd11b8a8f9
         m_EditorAssetChanged: 0

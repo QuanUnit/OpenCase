@@ -18,12 +18,15 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: fc9e6e9e0b6e88b42a4507ce61bfa8a8
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: CZ75-Auto_Tread_Plate
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: 00b5ee149bc4b4b7fa0b97afb038c2ae
         m_EditorAssetChanged: 0
   Rarity: 3
+  Collection:
+    _value: 
   Price:
     MinPrice: 3.57
     MaxPrice: 4.68

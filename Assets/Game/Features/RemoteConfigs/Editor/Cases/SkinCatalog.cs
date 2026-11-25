@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Features.RemoteConfigs.Editor.Icons;
 using Features.Skins.Configs;
+using Shared.Editor.SpriteAtlases;
 using Shared.Tools.AssetsExtensions;
 using UnityEditor;
 using UnityEngine;
@@ -151,7 +152,7 @@ namespace Features.RemoteConfigs.Editor.Cases
                 return string.Empty;
             }
 
-            return spriteSource.AssetReference.AssetGUID;
+            return AtlasedSpriteReferences.GetSpriteGuid(spriteSource.AssetReference);
         }
 
         public void RefreshValueModel()

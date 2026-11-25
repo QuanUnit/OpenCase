@@ -14,7 +14,6 @@ namespace Features.RemoteConfigs.Editor.Icons
         public int SourceTimeoutSeconds => _sourceConfig.RequestTimeoutSeconds;
         public int MaxParallelDownloads => _maxParallelDownloads;
         public int DownloadTimeoutSeconds => _downloadTimeoutSeconds;
-        public string AddressablesGroupName => _addressablesGroupName;
         public IReadOnlyList<string> CopiedPlatforms => _copiedPlatforms;
 
         [Header("Folders")]
@@ -29,7 +28,6 @@ namespace Features.RemoteConfigs.Editor.Icons
         [SerializeField, Min(1)] private int _downloadTimeoutSeconds = 30;
 
         [Header("Import")]
-        [SerializeField] private string _addressablesGroupName = "Default Local Group";
         [SerializeField] private List<string> _copiedPlatforms = new List<string> { "Standalone", "iPhone", "Android", "WebGL" };
     }
 }

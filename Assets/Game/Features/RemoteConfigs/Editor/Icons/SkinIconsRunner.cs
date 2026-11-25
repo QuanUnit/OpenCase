@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 using Features.RemoteConfigs.Editor.Exporters.Skins;
 using Features.Skins.Configs;
 using QCore.AddressablesWrapper.Containers;
+using Shared.Editor.SpriteAtlases;
+using Shared.Tools.AssetsExtensions;
 using Shared.Tools.Web;
 using UnityEditor;
-using UnityEditor.AddressableAssets;
-using UnityEditor.AddressableAssets.Settings;
 using UnityEngine;
+using UnityEngine.U2D;
 using UnityEngine.Networking;
 using Object = UnityEngine.Object;
 
@@ -19,6 +20,7 @@ namespace Features.RemoteConfigs.Editor.Icons
     public class SkinIconsRunner
     {
         private const string TemporaryFolderName = "SkinIcons";
+        private const string SpriteReferencePath = "ContextData.SpriteSource._assetReference";
 
         private readonly byte[] _pngSignature = { 0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A };
         private readonly SkinIconsConfig _config;
@@ -69,7 +71,6 @@ namespace Features.RemoteConfigs.Editor.Icons
             var report = new SkinIconsReport(preparation.Plan, true);
 
             report.PlannedNewFolders.AddRange(GetMissingFolders(preparation.Plan));
-            report.PlannedRegisteredFolders.AddRange(GetFoldersWithoutEntry(GetIconFolders(preparation.States, preparation.Plan)));
             report.UnreferencedIcons.AddRange(FindUnreferencedIcons(preparation.States));
 
             return report;
@@ -79,7 +80,6 @@ namespace Features.RemoteConfigs.Editor.Icons
         {
             var report = new SkinIconsReport(preparation.Plan, false);
             report.PlannedNewFolders.AddRange(GetMissingFolders(preparation.Plan));
-            report.PlannedRegisteredFolders.AddRange(GetFoldersWithoutEntry(GetIconFolders(preparation.States, preparation.Plan)));
 
             var temporaryFolder = CreateTemporaryFolder();
             var failedPaths = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
@@ -100,7 +100,8 @@ namespace Features.RemoteConfigs.Editor.Icons
                 ImportBatch(report.CreatedFolders.Concat(movedPaths), report, failedPaths);
                 ApplyImporterSettings(GetExistingTargets(preparation.Plan, failedPaths), report, failedPaths);
 
-                RegisterFolders(GetIconFolders(preparation.States, preparation.Plan), report);
+                progressChanged("Rebuilding sprite atlases", 1f);
+                RebuildAtlases(report);
 
                 progressChanged("Assigning icons", 1f);
                 Assign(preparation, movedPaths, failedPaths, report);
@@ -162,14 +163,14 @@ namespace Features.RemoteConfigs.Editor.Icons
 
         private string GetCurrentIconPath(SkinConfig config)
         {
-            var guid = config.ContextData.SpriteSource?.AssetReference?.AssetGUID;
+            var assetReference = config.ContextData.SpriteSource?.AssetReference;
 
-            if (string.IsNullOrEmpty(guid) == true)
+            if (assetReference == null || string.IsNullOrEmpty(assetReference.AssetGUID) == true)
             {
                 return null;
             }
 
-            var path = AssetDatabase.GUIDToAssetPath(guid);
+            var path = AtlasedSpriteReferences.GetSpritePath(assetReference);
 
             if (string.IsNullOrEmpty(path) == true || File.Exists(path) == false)
             {
@@ -191,30 +192,6 @@ namespace Features.RemoteConfigs.Editor.Icons
                 .Distinct(StringComparer.OrdinalIgnoreCase)
                 .Where(folder => AssetDatabase.IsValidFolder(folder) == false)
                 .OrderBy(folder => folder, StringComparer.Ordinal)
-                .ToList();
-        }
-
-        private List<string> GetIconFolders(IReadOnlyList<SkinIconConfigState> states, SkinIconsPlan plan)
-        {
-            var referencedFolders = states
-                .Where(state => state.CurrentIconPath != null)
-                .Select(state => GetParentFolder(state.CurrentIconPath));
-
-            var targetFolders = plan.Items.Select(item => GetParentFolder(item.TargetPath));
-
-            return referencedFolders
-                .Concat(targetFolders)
-                .Distinct(StringComparer.OrdinalIgnoreCase)
-                .OrderBy(folder => folder, StringComparer.Ordinal)
-                .ToList();
-        }
-
-        private List<string> GetFoldersWithoutEntry(List<string> folders)
-        {
-            var settings = AddressableAssetSettingsDefaultObject.Settings;
-
-            return folders
-                .Where(folder => AssetDatabase.IsValidFolder(folder) == false || settings.FindAssetEntry(AssetDatabase.AssetPathToGUID(folder), true) == null)
                 .ToList();
         }
 
@@ -567,54 +544,18 @@ namespace Features.RemoteConfigs.Editor.Icons
             }
         }
 
-        private void RegisterFolders(List<string> folders, SkinIconsReport report)
+        private void RebuildAtlases(SkinIconsReport report)
         {
-            var settings = AddressableAssetSettingsDefaultObject.Settings;
-            var group = settings.FindGroup(_config.AddressablesGroupName);
+            var atlasesConfig = AssetDatabaseTools.FindAllAssets<SpriteAtlasesConfig>().First();
 
-            if (group == null)
-            {
-                report.Errors.Add($"Addressables group '{_config.AddressablesGroupName}' not found, folders were not registered");
-                return;
-            }
-
-            try
-            {
-                foreach (var folder in folders)
-                {
-                    if (AssetDatabase.IsValidFolder(folder) == false)
-                    {
-                        continue;
-                    }
-
-                    var guid = AssetDatabase.AssetPathToGUID(folder);
-
-                    if (settings.FindAssetEntry(guid, true) != null)
-                    {
-                        continue;
-                    }
-
-                    var entry = settings.CreateOrMoveEntry(guid, group);
-                    entry.address = folder;
-                    report.RegisteredFolders.Add(folder);
-                }
-            }
-            finally
-            {
-                SaveAddressables(settings, group);
-            }
-        }
-
-        private void SaveAddressables(AddressableAssetSettings settings, AddressableAssetGroup group)
-        {
-            AssetDatabase.SaveAssetIfDirty(group);
-            AssetDatabase.SaveAssetIfDirty(settings);
+            report.RebuiltAtlases = SpriteAtlasesBuilder.Rebuild(atlasesConfig).Count;
         }
 
         private void Assign(SkinIconsPreparation preparation, List<string> movedPaths, HashSet<string> failedPaths, SkinIconsReport report)
         {
             var moved = new HashSet<string>(movedPaths, StringComparer.OrdinalIgnoreCase);
             var changedConfigs = new List<SkinConfig>();
+            var atlases = AtlasedSpriteReferences.FindAllAtlases();
 
             try
             {
@@ -632,7 +573,7 @@ namespace Features.RemoteConfigs.Editor.Icons
 
                     try
                     {
-                        if (AssignItem(preparation, item, report) == true)
+                        if (AssignItem(preparation, item, atlases, report) == true)
                         {
                             changedConfigs.Add(preparation.ConfigsByPath[item.ConfigPath]);
                         }
@@ -652,7 +593,7 @@ namespace Features.RemoteConfigs.Editor.Icons
             }
         }
 
-        private bool AssignItem(SkinIconsPreparation preparation, SkinIconsPlanItem item, SkinIconsReport report)
+        private bool AssignItem(SkinIconsPreparation preparation, SkinIconsPlanItem item, List<SpriteAtlas> atlases, SkinIconsReport report)
         {
             var sprite = AssetDatabase.LoadAssetAtPath<Sprite>(item.TargetPath);
 
@@ -662,13 +603,24 @@ namespace Features.RemoteConfigs.Editor.Icons
                 return false;
             }
 
+            var atlas = AtlasedSpriteReferences.FindAtlas(sprite, atlases);
+
+            if (atlas == null)
+            {
+                report.Failed.Add($"{item.Id}: {item.TargetPath} is not packed by any sprite atlas, run Tools/Sprite Atlases/Rebuild");
+                return false;
+            }
+
             var config = preparation.ConfigsByPath[item.ConfigPath];
-            var guid = AssetDatabase.AssetPathToGUID(item.TargetPath);
 
             config.ContextData = new SkinConfig.UIContextData
             {
-                SpriteSource = new AddressableLoadContainerSprite(guid),
+                SpriteSource = new AddressableLoadContainerSprite(AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(atlas))),
             };
+
+            var serializedConfig = new SerializedObject(config);
+            AtlasedSpriteReferences.Write(serializedConfig.FindProperty(SpriteReferencePath), atlas, sprite);
+            serializedConfig.ApplyModifiedPropertiesWithoutUndo();
 
             EditorUtility.SetDirty(config);
 

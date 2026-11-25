@@ -18,12 +18,15 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: 60e9ff80b429c2244beb75817c45d67e
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: CZ75-Auto_Crimson_Web
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: 4c90114f29aed43788612f4dec7f0c99
         m_EditorAssetChanged: 0
   Rarity: 2
+  Collection:
+    _value: 
   Price:
     MinPrice: 0.92
     MaxPrice: 14.67

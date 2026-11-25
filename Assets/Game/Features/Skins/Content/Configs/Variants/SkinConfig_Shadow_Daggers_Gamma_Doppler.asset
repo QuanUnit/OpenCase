@@ -18,10 +18,11 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: f33dcae6ea10842aaa4e4253f6ed8ba2
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: Shadow_Daggers_Gamma_Doppler
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: f33dcae6ea10842aaa4e4253f6ed8ba2
         m_EditorAssetChanged: 0
   Rarity: 6
   Collection:

@@ -18,12 +18,15 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: 1fa8f8b2a0c97cf4282410b19942ba90
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: CZ75-Auto_Tigris
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: ec53447175f994bf1bba4bf56391617a
         m_EditorAssetChanged: 0
   Rarity: 3
+  Collection:
+    _value: 
   Price:
     MinPrice: 1.59
     MaxPrice: 4.42

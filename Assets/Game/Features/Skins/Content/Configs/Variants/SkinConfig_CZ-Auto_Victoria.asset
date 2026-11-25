@@ -18,12 +18,15 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: a1f50059916f10947906126f5febe20c
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: CZ75-Auto_Victoria
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: 910007ee906234352bc72226e6a7f53c
         m_EditorAssetChanged: 0
   Rarity: 5
+  Collection:
+    _value: 
   Price:
     MinPrice: 65.06
     MaxPrice: 93.42

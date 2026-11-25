@@ -18,12 +18,15 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: 25f89145c1846a8409cb8cea14479354
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: CZ75-Auto_Silver
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: 8e3b0d6e00b5a4931ae2e8417711642e
         m_EditorAssetChanged: 0
   Rarity: 1
+  Collection:
+    _value: 
   Price:
     MinPrice: 2.7
     MaxPrice: 4.57

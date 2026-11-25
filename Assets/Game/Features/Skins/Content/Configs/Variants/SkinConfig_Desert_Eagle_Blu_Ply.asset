@@ -18,12 +18,15 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: d1c3fa3866f9a51488ee078e4195e990
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: Desert_Eagle_Blue_Ply
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: 1eaf407fe4d324c8fb590887cce9c4fc
         m_EditorAssetChanged: 0
   Rarity: 2
+  Collection:
+    _value: 
   Price:
     MinPrice: 0.2
     MaxPrice: 2.1

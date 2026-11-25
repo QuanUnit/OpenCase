@@ -16,18 +16,17 @@ namespace Features.RemoteConfigs.Editor.Icons
         public readonly List<string> NoFolder;
         public readonly List<string> SharedFile;
         public readonly List<string> PlannedNewFolders = new List<string>();
-        public readonly List<string> PlannedRegisteredFolders = new List<string>();
 
         public readonly List<string> Downloaded = new List<string>();
         public readonly List<string> Reused = new List<string>();
         public readonly List<string> Assigned = new List<string>();
         public readonly List<string> Failed = new List<string>();
         public readonly List<string> CreatedFolders = new List<string>();
-        public readonly List<string> RegisteredFolders = new List<string>();
         public readonly List<string> UnreferencedIcons = new List<string>();
         public readonly List<string> Errors = new List<string>();
 
         public bool IsCancelled;
+        public int RebuiltAtlases;
 
         public SkinIconsReport(SkinIconsPlan plan, bool isDryRun)
         {
@@ -67,7 +66,12 @@ namespace Features.RemoteConfigs.Editor.Icons
             builder.AppendLine($"Already ok: {AlreadyOk}");
             builder.AppendLine($"Skipped: no source {NoSource.Count}, no image {NoImage.Count}, no folder {NoFolder.Count}, shared file {SharedFile.Count}");
             builder.AppendLine($"New weapon folders: {(IsDryRun == true ? PlannedNewFolders.Count : CreatedFolders.Count)}");
-            builder.AppendLine($"Folders registered in Addressables: {(IsDryRun == true ? PlannedRegisteredFolders.Count : RegisteredFolders.Count)}");
+
+            if (IsDryRun == false)
+            {
+                builder.AppendLine($"Sprite atlases rebuilt: {RebuiltAtlases}");
+            }
+
             builder.Append($"Icon files not referenced by any config: {UnreferencedIcons.Count}");
 
             return builder.ToString();
@@ -85,7 +89,6 @@ namespace Features.RemoteConfigs.Editor.Icons
             AppendList(builder, "Skipped, no folder", NoFolder);
             AppendList(builder, "Skipped, file name taken by another id", SharedFile);
             AppendList(builder, IsDryRun == true ? "Planned new weapon folders" : "Created weapon folders", IsDryRun == true ? PlannedNewFolders : CreatedFolders);
-            AppendList(builder, IsDryRun == true ? "Folders to register in Addressables" : "Folders registered in Addressables", IsDryRun == true ? PlannedRegisteredFolders : RegisteredFolders);
             AppendList(builder, "Icon files not referenced by any config (kept)", UnreferencedIcons);
 
             return builder.ToString();

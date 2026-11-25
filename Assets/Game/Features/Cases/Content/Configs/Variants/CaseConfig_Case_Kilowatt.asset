@@ -81,8 +81,9 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: e218530a7a3014ebf8602733b814462a
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+        m_SubObjectName: case_kilowatt
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: e218530a7a3014ebf8602733b814462a
         m_EditorAssetChanged: 0

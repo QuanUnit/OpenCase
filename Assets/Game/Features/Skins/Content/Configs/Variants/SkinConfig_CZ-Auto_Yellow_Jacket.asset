@@ -18,12 +18,15 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: ec0eff895fc943e4998c3befc34a326e
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: CZ75-Auto_Yellow_Jacket
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: d09a8075cd19848329dde91068772071
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection:
+    _value: 
   Price:
     MinPrice: 4.31
     MaxPrice: 25

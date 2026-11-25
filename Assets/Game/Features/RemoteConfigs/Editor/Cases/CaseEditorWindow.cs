@@ -446,7 +446,7 @@ namespace Features.RemoteConfigs.Editor.Cases
             }
             else if (_editing.IsIconAddressable(_selectedCase) == false)
             {
-                EditorGUILayout.HelpBox("The icon is not addressable, reassign it to register it", MessageType.Error);
+                EditorGUILayout.HelpBox("The icon is not taken from an addressable sprite atlas, reassign it", MessageType.Error);
             }
         }
 

@@ -18,12 +18,15 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: e0764e76c5a6bd541a9956e94317d00b
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: CZ75-Auto_Eco
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: d7933124d28a849e7b32688c9abe8a08
         m_EditorAssetChanged: 0
   Rarity: 3
+  Collection:
+    _value: 
   Price:
     MinPrice: 0.62
     MaxPrice: 5.52

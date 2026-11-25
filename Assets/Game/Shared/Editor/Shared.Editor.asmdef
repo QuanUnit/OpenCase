@@ -2,7 +2,9 @@
     "name": "Shared.Editor",
     "rootNamespace": "Shared.Editor",
     "references": [
-        "Shared"
+        "Shared",
+        "Unity.Addressables",
+        "Unity.Addressables.Editor"
     ],
     "includePlatforms": [
         "Editor"

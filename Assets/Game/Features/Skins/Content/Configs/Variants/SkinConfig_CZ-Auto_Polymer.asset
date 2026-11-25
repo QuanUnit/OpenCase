@@ -18,12 +18,15 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: 7fda79a5aaa258a409ea181d9bf4eadf
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: CZ75-Auto_Polymer
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: ea96b8e4265324e028e7a97c58c6f56b
         m_EditorAssetChanged: 0
   Rarity: 2
+  Collection:
+    _value: 
   Price:
     MinPrice: 0.47
     MaxPrice: 1.52

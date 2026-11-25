@@ -18,7 +18,6 @@ MonoBehaviour:
   _clickerConfig: {fileID: 11400000, guid: 482d8663adb2d48e7adcd84ff5a99c75, type: 2}
   _casesFolder: {fileID: 102900000, guid: 0d399f878262273439e847b317ed0a21, type: 3}
   _defaultCaseIcon: {fileID: 21300000, guid: fad2a1039df0b4157bae230cb2eb10c5, type: 3}
-  _addressablesGroupName: Default Local Group
   _remoteConfigsData: {fileID: 11400000, guid: f3dc4cf9fbc3ec34a9ba0cfe11c3bd06, type: 2}
   _casesPageName: Cases
   _sheetsApiConfig: {fileID: 11400000, guid: 4aa4296cf6167427abadb69ee6ec89dd, type: 2}

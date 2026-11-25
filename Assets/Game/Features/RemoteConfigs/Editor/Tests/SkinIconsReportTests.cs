@@ -37,15 +37,24 @@ namespace Features.RemoteConfigs.Editor.Tests
         }
 
         [Test]
-        public void GetFullSummary_DryRunWithFoldersToRegister_ListsThem()
+        public void GetShortSummary_AppliedWithRebuiltAtlases_ShowsCount()
+        {
+            var report = new SkinIconsReport(new SkinIconsPlan(SkinIconsMode.OnlyMissing), false);
+            report.RebuiltAtlases = 3;
+
+            var summary = report.GetShortSummary();
+
+            Assert.That(summary, Does.Contain("Sprite atlases rebuilt: 3"));
+        }
+
+        [Test]
+        public void GetShortSummary_DryRun_DoesNotMentionAtlases()
         {
             var report = new SkinIconsReport(new SkinIconsPlan(SkinIconsMode.OnlyMissing), true);
-            report.PlannedRegisteredFolders.Add("Assets/Weapons/Nova");
 
-            var summary = report.GetFullSummary();
+            var summary = report.GetShortSummary();
 
-            Assert.That(summary, Does.Contain("Folders registered in Addressables: 1"));
-            Assert.That(summary, Does.Contain("Assets/Weapons/Nova"));
+            Assert.That(summary, Does.Not.Contain("Sprite atlases rebuilt"));
         }
     }
 }

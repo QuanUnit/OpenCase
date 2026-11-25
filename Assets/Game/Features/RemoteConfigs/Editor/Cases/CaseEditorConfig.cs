@@ -20,7 +20,6 @@ namespace Features.RemoteConfigs.Editor.Cases
         public ClickerConfig ClickerConfig => _clickerConfig;
         public string CasesFolderPath => AssetDatabase.GetAssetPath(_casesFolder);
         public Sprite DefaultCaseIcon => _defaultCaseIcon;
-        public string AddressablesGroupName => _addressablesGroupName;
         public EditorRemoteConfigsData RemoteConfigsData => _remoteConfigsData;
         public string CasesPageName => _casesPageName;
         public SkinsSheetExportConfig SheetsApiConfig => _sheetsApiConfig;
@@ -55,7 +54,6 @@ namespace Features.RemoteConfigs.Editor.Cases
         [Header("Assets")]
         [SerializeField] private DefaultAsset _casesFolder;
         [SerializeField] private Sprite _defaultCaseIcon;
-        [SerializeField] private string _addressablesGroupName = "Default Local Group";
 
         [Header("Sheet")]
         [SerializeField] private EditorRemoteConfigsData _remoteConfigsData;

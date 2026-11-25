@@ -6,6 +6,7 @@
         "Features.Cases",
         "Features.Clicker",
         "Shared",
+        "Shared.Editor",
         "QCore.Tools",
         "QCore.AddressablesWrapper",
         "Unity.Addressables",

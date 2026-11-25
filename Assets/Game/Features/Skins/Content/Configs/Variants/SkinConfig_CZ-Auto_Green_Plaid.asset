@@ -18,12 +18,15 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: d729f8b4b873c8e4fae64e568f9359d2
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: CZ75-Auto_Green_Plaid
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: 8689c2cab984f4832aa53c9bdf393c43
         m_EditorAssetChanged: 0
   Rarity: 0
+  Collection:
+    _value: 
   Price:
     MinPrice: 2.73
     MaxPrice: 5.78

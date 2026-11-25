@@ -18,12 +18,15 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: c99f53bd7bb6df346978f7093525199d
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: CZ75-Auto_Slalom
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: 20cef4dfc8c634aeda68a4414db4c5e9
         m_EditorAssetChanged: 0
   Rarity: 3
+  Collection:
+    _value: 
   Price:
     MinPrice: 11.52
     MaxPrice: 33.2

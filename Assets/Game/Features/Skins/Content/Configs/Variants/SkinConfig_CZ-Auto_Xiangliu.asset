@@ -18,12 +18,15 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: 3a2485c285d5590478c432eb8f6d5278
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: CZ75-Auto_Xiangliu
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: c2a68fbcae31046e897e8d88c94f8ea2
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection:
+    _value: 
   Price:
     MinPrice: 12.07
     MaxPrice: 23.05

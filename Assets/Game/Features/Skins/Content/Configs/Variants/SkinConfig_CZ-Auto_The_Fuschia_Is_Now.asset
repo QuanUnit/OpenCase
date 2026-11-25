@@ -18,12 +18,15 @@ MonoBehaviour:
   ContextData:
     SpriteSource:
       _assetReference:
-        m_AssetGUID: c60a3a7bc4e75d24596b28e6626aab0f
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
+        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+        m_SubObjectName: CZ75-Auto_The_Fuschia_Is_Now
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_SubObjectGUID: dd2ce1e2441e340b185b08183d4fb8f7
         m_EditorAssetChanged: 0
   Rarity: 4
+  Collection:
+    _value: 
   Price:
     MinPrice: 17.41
     MaxPrice: 31.46
