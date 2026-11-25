@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4670122932242149950}
   - component: {fileID: 603685984993316494}
   - component: {fileID: 8365918594782490313}
+  - component: {fileID: 4049053341238869073}
   m_Layer: 0
   m_Name: CasesGrid
   m_TagString: Untagged
@@ -82,3 +83,23 @@ MonoBehaviour:
   _ease: 9
   _playOnEnable: 1
   _animateAddedChildren: 1
+--- !u!114 &4049053341238869073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781506907274268003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.LayoutElement
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: 1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1

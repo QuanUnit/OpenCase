@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Chroma
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Chroma
+  Name: Chroma Case
+  Price: 3.28
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 755a4d7b994dd834fa04c774fd4d039a, type: 2}
+      Value: 16.025667
+    - Key: {fileID: 11400000, guid: 59b9a49a127249742b2e4d6ad4ec45d6, type: 2}
+      Value: 16.025667
+    - Key: {fileID: 11400000, guid: 22623671541fa7248b5c0b34b534946d, type: 2}
+      Value: 16.025667
+    - Key: {fileID: 11400000, guid: 6234abf6e5f829745a52863b0e9e5803, type: 2}
+      Value: 16.025667
+    - Key: {fileID: 11400000, guid: ca91afdc83ac211468dd25fc26251179, type: 2}
+      Value: 16.025667
+    - Key: {fileID: 11400000, guid: b42ed51d07352a34faf782d9afbbb73e, type: 2}
+      Value: 4.005414
+    - Key: {fileID: 11400000, guid: 1cd4402267f4875489c52ad1e2c60354, type: 2}
+      Value: 4.005414
+    - Key: {fileID: 11400000, guid: 185266de848b1454ba59cb1b1b5b5312, type: 2}
+      Value: 4.005414
+    - Key: {fileID: 11400000, guid: 8d0017ed18bf9114d9d38f9752172dac, type: 2}
+      Value: 4.005414
+    - Key: {fileID: 11400000, guid: bdbc4c309bc09b0429976db3d8343c02, type: 2}
+      Value: 1.0694473
+    - Key: {fileID: 11400000, guid: 0131186a5541aa94fb3a467af8e22ae9, type: 2}
+      Value: 1.0694473
+    - Key: {fileID: 11400000, guid: 3fec2af0f6a4eca4594caf36bfeb360f, type: 2}
+      Value: 1.0694473
+    - Key: {fileID: 11400000, guid: d74695936a18dbb42ac3e95a59101b8f, type: 2}
+      Value: 0.32083416
+    - Key: {fileID: 11400000, guid: 87dda8e9860e7e34a89ba95fb438fec8, type: 2}
+      Value: 0.32083416
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: ab20521cebf8842fd9b7a2589e3d0257
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0

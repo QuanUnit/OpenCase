@@ -17,7 +17,7 @@ MonoBehaviour:
   _skinsUIContextDataConfig: {fileID: 11400000, guid: f5a89ada1107035469b9d1827e3b3943, type: 2}
   _clickerConfig: {fileID: 11400000, guid: 482d8663adb2d48e7adcd84ff5a99c75, type: 2}
   _casesFolder: {fileID: 102900000, guid: 0d399f878262273439e847b317ed0a21, type: 3}
-  _defaultCaseIcon: {fileID: 21300000, guid: 44ff9f774390af34787c9c54dea659cb, type: 3}
+  _defaultCaseIcon: {fileID: 21300000, guid: fad2a1039df0b4157bae230cb2eb10c5, type: 3}
   _addressablesGroupName: Default Local Group
   _remoteConfigsData: {fileID: 11400000, guid: f3dc4cf9fbc3ec34a9ba0cfe11c3bd06, type: 2}
   _casesPageName: Cases

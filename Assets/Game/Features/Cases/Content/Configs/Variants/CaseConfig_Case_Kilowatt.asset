@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Kilowatt
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Kilowatt
+  Name: Kilowatt Case
+  Price: 1.19
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 07ae94d560a03254c8409d218da499d1, type: 2}
+      Value: 11.446905
+    - Key: {fileID: 11400000, guid: 674b94a11a56c91418f9c9e128db6f53, type: 2}
+      Value: 11.446905
+    - Key: {fileID: 11400000, guid: 09401af3307c68e4fabf91b84c6c242b, type: 2}
+      Value: 11.446905
+    - Key: {fileID: 11400000, guid: 0dd04ad4c9bee4341a91d0242fabc4a3, type: 2}
+      Value: 11.446905
+    - Key: {fileID: 11400000, guid: 8b2d7adac32a3c44cbbc40cace107472, type: 2}
+      Value: 11.446905
+    - Key: {fileID: 11400000, guid: 03f39564b4930984a9e1989cee5ebb71, type: 2}
+      Value: 11.446905
+    - Key: {fileID: 11400000, guid: b8dd03b46ce261941922ef643961c2d8, type: 2}
+      Value: 11.446905
+    - Key: {fileID: 11400000, guid: 4334ff1db1e20554e80ea918635777eb, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: 633bdf33b78fd4d4ca3a49c17efadfd3, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: bbf7b2863e62a4c418c1904f39089361, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: 17d73ee333cbcfd4fa0b0cd2612034c4, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: b7728033adcee824aa07f7f3c668a4e9, type: 2}
+      Value: 3.2043312
+    - Key: {fileID: 11400000, guid: 1958fbde1c0545748b366f6e4011fc16, type: 2}
+      Value: 1.0694473
+    - Key: {fileID: 11400000, guid: 2788162da0a61d848bc0768c466b0d75, type: 2}
+      Value: 1.0694473
+    - Key: {fileID: 11400000, guid: fe84ff5c58df7914a8501933060f801c, type: 2}
+      Value: 1.0694473
+    - Key: {fileID: 11400000, guid: 157b9606d2ab9e84f832f2731b239e89, type: 2}
+      Value: 0.32083416
+    - Key: {fileID: 11400000, guid: fb59c67c4abca7441909a1c7df8821fe, type: 2}
+      Value: 0.32083416
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: e218530a7a3014ebf8602733b814462a
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0

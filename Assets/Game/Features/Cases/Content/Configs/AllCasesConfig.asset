@@ -14,11 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _categoriesMap:
   - Key:
-      Name: Secret Collection
-    Value:
-    - {fileID: 11400000, guid: 16d02fdbba33fdf42a4cc7d28c84246b, type: 2}
-    - {fileID: 11400000, guid: 24b2351aacdab4249965ace77cc8b838, type: 2}
-  - Key:
       Name: Themed
     Value:
     - {fileID: 11400000, guid: 24dc7ef1a784646deb44af2d5c196ac0, type: 2}
@@ -30,3 +25,16 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 0d1e17930b0c549f183d6ab197bc37d8, type: 2}
     - {fileID: 11400000, guid: 02061b0615ba84354975e1275bd93609, type: 2}
     - {fileID: 11400000, guid: 9676820596a4c4eb89f8baef3468571d, type: 2}
+  - Key:
+      Name: Collections
+    Value:
+    - {fileID: 11400000, guid: 666eb508a9f9d44c0b77f3ed4fd23e24, type: 2}
+    - {fileID: 11400000, guid: 6c04c62937d954d92b0f55e9e0350198, type: 2}
+    - {fileID: 11400000, guid: f7f4aa01e710e4053ba5dbec4a8fbb58, type: 2}
+    - {fileID: 11400000, guid: 7afb3868bd6ac4197b9d82c2851be51c, type: 2}
+    - {fileID: 11400000, guid: 572d21188e6ac4433986d49715c393f4, type: 2}
+    - {fileID: 11400000, guid: f688f375d3e93449e89edba3ee5478fe, type: 2}
+    - {fileID: 11400000, guid: 9db5d3018c45c493890f555b2b9c139f, type: 2}
+    - {fileID: 11400000, guid: 8eea762a3e11443029580ec944922aa5, type: 2}
+    - {fileID: 11400000, guid: ebfbe5f357a1142f4b1389e42276aab8, type: 2}
+    - {fileID: 11400000, guid: a788c5f2ea4c2467dba8f241b055f7ed, type: 2}
