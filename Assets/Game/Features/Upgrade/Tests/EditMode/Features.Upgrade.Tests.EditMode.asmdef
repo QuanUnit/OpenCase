@@ -4,6 +4,7 @@
     "references": [
         "Features.Upgrade",
         "Features.Inventory",
+        "Features.Wallet",
         "Features.Skins",
         "Shared",
         "QCore.Tools",

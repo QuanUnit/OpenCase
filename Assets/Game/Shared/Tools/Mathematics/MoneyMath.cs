@@ -12,6 +12,13 @@ namespace Shared.Tools.Mathematics
             return Mathf.Round(value * scale) / scale;
         }
 
+        public static float FloorToMoney(float value)
+        {
+            var scale = GetMinorUnitsScale();
+
+            return Mathf.Floor(value * scale) / scale;
+        }
+
         public static int ToMinorUnits(float value)
         {
             return Mathf.RoundToInt(value * GetMinorUnitsScale());

@@ -6,14 +6,14 @@ namespace Features.Upgrade.Data
     {
         public Skin Source { get; private set; }
         public Skin Target { get; private set; }
-        public float Multiplier { get; private set; }
+        public float Extra { get; private set; }
         public float Chance { get; private set; }
 
-        public UpgradeOffer(Skin source, Skin target, float multiplier, float chance)
+        public UpgradeOffer(Skin source, Skin target, float extra, float chance)
         {
             Source = source;
             Target = target;
-            Multiplier = multiplier;
+            Extra = extra;
             Chance = chance;
         }
     }

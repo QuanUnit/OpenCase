@@ -22,6 +22,8 @@ MonoBehaviour:
   _priceTolerance: 0.1
   _targetAttempts: 20
   _maxCandidates: 30
+  _targetsCount: 8
+  _maxChance: 0.8
   _rollDuration: 3
   _rollTurns: 4
   _resultHoldDuration: 1.5

@@ -4,6 +4,7 @@
     "references": [
         "Features.Skins",
         "Features.Inventory",
+        "Features.Wallet",
         "Shared",
         "QCore.Tools",
         "QCore.UI",

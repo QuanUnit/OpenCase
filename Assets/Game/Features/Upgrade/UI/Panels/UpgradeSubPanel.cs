@@ -18,6 +18,9 @@ namespace Features.Upgrade.UI.Panels
         public event Action<SkinInstanceId> SkinClicked;
         public event Action<int> MultiplierClicked;
         public event Action UpgradeClicked;
+        public event Action<int> TargetClicked;
+        public event Action RefreshTargetsClicked;
+        public event Action<float> ExtraChanged;
 
         [Header("Inventory")]
         [SerializeField] private Transform _skinsViewport;
@@ -34,6 +37,16 @@ namespace Features.Upgrade.UI.Panels
         [SerializeField] private Button _upgradeButton;
         [SerializeField] private CanvasGroup _inputGroup;
 
+        [Header("Targets")]
+        [SerializeField] private ScrollRect _targetsScroll;
+        [SerializeField] private Transform _targetsRoot;
+        [SerializeField] private UpgradeTargetOption _targetOptionPrefab;
+        [SerializeField] private GameObject _targetsEmptyState;
+        [SerializeField] private Button _refreshTargetsButton;
+
+        [Header("Extra")]
+        [SerializeField] private UpgradeExtraMoneyInput _extraInput;
+
         [Header("Result")]
         [SerializeField] private TMP_Text _resultText;
         [SerializeField] private string _successText = "UPGRADED";
@@ -45,10 +58,13 @@ namespace Features.Upgrade.UI.Panels
         private readonly Dictionary<SkinInstanceId, SkinView> _activeViews = new Dictionary<SkinInstanceId, SkinView>();
         private readonly Dictionary<SkinView, SkinInstanceId> _viewToSkinIdMap = new Dictionary<SkinView, SkinInstanceId>();
         private readonly List<UpgradeMultiplierOption> _multiplierOptions = new List<UpgradeMultiplierOption>();
+        private readonly List<UpgradeTargetOption> _targetOptions = new List<UpgradeTargetOption>();
 
         private void OnEnable()
         {
             _upgradeButton.onClick.AddListener(UpgradeButtonClickHandle);
+            _refreshTargetsButton.onClick.AddListener(RefreshTargetsButtonClickHandle);
+            _extraInput.ValueChanged += ExtraValueChangeHandle;
             _resultText.gameObject.SetActive(false);
         }
 
@@ -142,6 +158,62 @@ namespace Features.Upgrade.UI.Panels
             }
         }
 
+        public void SetTargets(IReadOnlyList<UpgradeTargetOption.Data> targets)
+        {
+            RemoveTargetOptions();
+
+            foreach (var target in targets)
+            {
+                var option = Instantiate(_targetOptionPrefab, _targetsRoot);
+                option.SetView(target);
+                option.SetSelected(false);
+                option.Clicked += TargetOptionClickHandle;
+
+                _targetOptions.Add(option);
+            }
+
+            _targetsEmptyState.SetActive(_targetOptions.Count == 0);
+            _targetsScroll.verticalNormalizedPosition = 1f;
+        }
+
+        public void SetTargetsEmpty()
+        {
+            RemoveTargetOptions();
+
+            _targetsEmptyState.SetActive(true);
+        }
+
+        public void SetSelectedTarget(int index)
+        {
+            for (var optionIndex = 0; optionIndex < _targetOptions.Count; optionIndex++)
+            {
+                _targetOptions[optionIndex].SetSelected(optionIndex == index);
+            }
+        }
+
+        public void SetTargetChances(IReadOnlyList<float> chances)
+        {
+            for (var index = 0; index < _targetOptions.Count; index++)
+            {
+                _targetOptions[index].SetChance(chances[index]);
+            }
+        }
+
+        public void SetRefreshInteractable(bool isInteractable)
+        {
+            _refreshTargetsButton.interactable = isInteractable;
+        }
+
+        public void SetExtraRange(float max)
+        {
+            _extraInput.SetRange(max);
+        }
+
+        public void SetExtra(float value)
+        {
+            _extraInput.SetValue(value);
+        }
+
         public void SetSource(UpgradeSkinCard.Data data)
         {
             _sourceCard.SetView(data);
@@ -224,6 +296,33 @@ namespace Features.Upgrade.UI.Panels
             _multiplierOptions.Clear();
         }
 
+        private void RemoveTargetOptions()
+        {
+            foreach (var option in _targetOptions)
+            {
+                option.Clicked -= TargetOptionClickHandle;
+                option.gameObject.SetActive(false);
+                Destroy(option.gameObject);
+            }
+
+            _targetOptions.Clear();
+        }
+
+        private void TargetOptionClickHandle(UpgradeTargetOption sender)
+        {
+            TargetClicked?.Invoke(_targetOptions.IndexOf(sender));
+        }
+
+        private void RefreshTargetsButtonClickHandle()
+        {
+            RefreshTargetsClicked?.Invoke();
+        }
+
+        private void ExtraValueChangeHandle(float value)
+        {
+            ExtraChanged?.Invoke(value);
+        }
+
         private void SkinViewClickHandle(SkinView sender)
         {
             SkinClicked?.Invoke(_viewToSkinIdMap[sender]);
@@ -242,6 +341,8 @@ namespace Features.Upgrade.UI.Panels
         private void OnDisable()
         {
             _upgradeButton.onClick.RemoveListener(UpgradeButtonClickHandle);
+            _refreshTargetsButton.onClick.RemoveListener(RefreshTargetsButtonClickHandle);
+            _extraInput.ValueChanged -= ExtraValueChangeHandle;
         }
     }
 }

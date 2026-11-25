@@ -7,7 +7,9 @@ using Features.Skins.Data;
 using Features.Skins.Services;
 using Features.Upgrade.Configs;
 using Features.Upgrade.Data;
+using Features.Wallet.Services;
 using Shared.Tools.Collections;
+using Shared.Tools.Mathematics;
 
 namespace Features.Upgrade.Services
 {
@@ -18,25 +20,27 @@ namespace Features.Upgrade.Services
         private readonly ISkinFactory _skinFactory;
         private readonly IInventoryService _inventoryService;
         private readonly IChanceRoller _chanceRoller;
+        private readonly SoftCurrencyWallet _wallet;
 
         public IReadOnlyList<float> Multipliers => _config.Multipliers;
 
-        public UpgradeService(UpgradeConfig config, ISkinsDatabaseService skinsDatabaseService, ISkinFactory skinFactory, IInventoryService inventoryService, IChanceRoller chanceRoller)
+        public UpgradeService(UpgradeConfig config, ISkinsDatabaseService skinsDatabaseService, ISkinFactory skinFactory, IInventoryService inventoryService, IChanceRoller chanceRoller, SoftCurrencyWallet wallet)
         {
             _config = config;
             _skinsDatabaseService = skinsDatabaseService;
             _skinFactory = skinFactory;
             _inventoryService = inventoryService;
             _chanceRoller = chanceRoller;
+            _wallet = wallet;
         }
 
-        public bool TryCreateOffer(Skin source, float multiplier, out UpgradeOffer offer)
+        public IReadOnlyList<Skin> CreateTargets(Skin source, float multiplier)
         {
-            offer = null;
+            var targets = new List<Skin>();
 
             if (source.Price <= 0f)
             {
-                return false;
+                return targets;
             }
 
             var targetPrice = source.Price * multiplier;
@@ -47,35 +51,73 @@ namespace Features.Upgrade.Services
 
             foreach (var candidate in candidates)
             {
+                if (targets.Count >= _config.TargetsCount)
+                {
+                    break;
+                }
+
                 var target = FindClosestTarget(candidate, source.Price, minPrice, maxPrice, targetPrice);
 
                 if (target != null)
                 {
-                    var chance = source.Price / target.Price * _config.ReturnToPlayer;
-                    offer = new UpgradeOffer(source, target, multiplier, chance);
-
-                    return true;
+                    targets.Add(target);
                 }
             }
 
-            return false;
+            targets.Sort((first, second) => first.Price.CompareTo(second.Price));
+
+            return targets;
         }
 
-        public bool Upgrade(UpgradeOffer offer)
+        public float GetChance(Skin source, Skin target, float extra)
         {
-            if (_inventoryService.Remove(offer.Source) == false)
+            var chance = (source.Price + extra) / target.Price * _config.ReturnToPlayer;
+
+            return Math.Min(chance, _config.MaxChance);
+        }
+
+        public float GetMaxExtra(Skin source, Skin target)
+        {
+            var extraForMaxChance = _config.MaxChance * target.Price / _config.ReturnToPlayer - source.Price;
+            var balance = Math.Min(MoneyMath.RoundToMoney(_wallet.Currency), _wallet.Currency);
+            var maxExtra = Math.Min(balance, MoneyMath.FloorToMoney(extraForMaxChance));
+
+            return Math.Max(maxExtra, 0f);
+        }
+
+        public UpgradeOffer CreateOffer(Skin source, Skin target, float extra)
+        {
+            var maxExtra = GetMaxExtra(source, target);
+            var clampedExtra = Math.Clamp(MoneyMath.RoundToMoney(extra), 0f, maxExtra);
+            var chance = GetChance(source, target, clampedExtra);
+
+            return new UpgradeOffer(source, target, clampedExtra, chance);
+        }
+
+        public UpgradeResult Upgrade(UpgradeOffer offer)
+        {
+            if (_inventoryService.TryGet(offer.Source.Id, out _) == false)
             {
-                return false;
+                return UpgradeResult.Rejected;
             }
+
+            if (offer.Extra > 0f && _wallet.TrySpend(offer.Extra) == false)
+            {
+                return UpgradeResult.Rejected;
+            }
+
+            _inventoryService.Remove(offer.Source);
 
             var isSuccess = _chanceRoller.Roll(offer.Chance);
 
             if (isSuccess == true)
             {
                 _inventoryService.Add(offer.Target);
+
+                return UpgradeResult.Success;
             }
 
-            return isSuccess;
+            return UpgradeResult.Lost;
         }
 
         private List<SkinConfig> GetCandidates(float minPrice, float maxPrice)

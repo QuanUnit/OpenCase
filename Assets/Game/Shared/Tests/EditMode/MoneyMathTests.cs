@@ -30,6 +30,14 @@ namespace Shared.Tests.EditMode
             }
         }
 
+        [Test]
+        public void FloorToMoney_FractionalCents_RoundsDown()
+        {
+            var result = MoneyMath.FloorToMoney(25.555f);
+
+            Assert.AreEqual(25.55f, result);
+        }
+
         [TestCase(0.01f, 1)]
         [TestCase(0.0099999f, 1)]
         [TestCase(0.39f, 39)]
