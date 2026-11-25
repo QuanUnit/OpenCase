@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_2021_Mirage
   Price:
-    MinPrice: 66.56
-    MaxPrice: 145.22
+    MinPrice: 19.39
+    MaxPrice: 74.3
   AvailableStatTrak: 0
   AvailableSouvenir: 1

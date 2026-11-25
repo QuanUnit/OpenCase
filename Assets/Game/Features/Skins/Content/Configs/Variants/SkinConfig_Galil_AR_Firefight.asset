@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Chroma_3
   Price:
-    MinPrice: 0.93
-    MaxPrice: 10.98
+    MinPrice: 1.14
+    MaxPrice: 10.76
   AvailableStatTrak: 1
   AvailableSouvenir: 0

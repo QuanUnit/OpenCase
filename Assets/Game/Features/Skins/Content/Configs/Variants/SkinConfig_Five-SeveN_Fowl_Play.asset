@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Breakout
   Price:
-    MinPrice: 17.57
-    MaxPrice: 46.13
+    MinPrice: 17.04
+    MaxPrice: 60.35
   AvailableStatTrak: 1
   AvailableSouvenir: 0

@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Canals
   Price:
-    MinPrice: 2082.71
-    MaxPrice: 3673.14
+    MinPrice: 1561.73
+    MaxPrice: 2458.01
   AvailableStatTrak: 0
   AvailableSouvenir: 0

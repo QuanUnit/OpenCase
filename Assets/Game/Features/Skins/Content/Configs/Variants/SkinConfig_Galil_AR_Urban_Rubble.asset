@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Chop_Shop
   Price:
-    MinPrice: 9.92
-    MaxPrice: 23.97
+    MinPrice: 5.23
+    MaxPrice: 12.6
   AvailableStatTrak: 0
   AvailableSouvenir: 0

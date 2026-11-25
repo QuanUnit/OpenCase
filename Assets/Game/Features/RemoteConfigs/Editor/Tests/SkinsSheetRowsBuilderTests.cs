@@ -19,7 +19,13 @@ namespace Features.RemoteConfigs.Editor.Tests
                 { "Contraband", Rarity.RareSpecial },
             };
 
-            _builder = new SkinsSheetRowsBuilder(new[] { "Knives", "Gloves" }, rarityMap, "Souvenir");
+            var categoryRarityMap = new Dictionary<string, Rarity>
+            {
+                { "Knives", Rarity.RareSpecial },
+                { "Gloves", Rarity.RareSpecial },
+            };
+
+            _builder = new SkinsSheetRowsBuilder(new[] { "Agents" }, rarityMap, categoryRarityMap, "Souvenir");
         }
 
         [Test]
@@ -145,14 +151,63 @@ namespace Features.RemoteConfigs.Editor.Tests
         [Test]
         public void Build_ExcludedCategory_SkipsSilently()
         {
-            var skins = new List<SourceSkin> { CreateSkin("★ Karambit", "Fade", "Knives", "Covert", true, false, "Factory New") };
-            var prices = new Dictionary<string, float> { { "★ Karambit | Fade (Factory New)", 1000f } };
+            var skins = new List<SourceSkin> { CreateSkin("Agent", "Sir Bloody", "Agents", "Covert", false, false, "Factory New") };
+            var prices = new Dictionary<string, float> { { "Agent | Sir Bloody (Factory New)", 10f } };
 
             var result = _builder.Build(skins, prices);
 
             Assert.That(result.Rows, Is.Empty);
             Assert.That(result.SkippedWithoutPrice, Is.Empty);
             Assert.That(result.SkippedUnknownRarity, Is.Empty);
+        }
+
+        [Test]
+        public void Build_Knife_UsesStarredMarketNameAndCategoryRarity()
+        {
+            var skins = new List<SourceSkin> { CreateStarredSkin("Karambit", "Fade", "Knives", "Covert", "Factory New", "Minimal Wear") };
+
+            var prices = new Dictionary<string, float>
+            {
+                { "★ Karambit | Fade (Factory New)", 1500f },
+                { "★ Karambit | Fade (Minimal Wear)", 1400f },
+            };
+
+            var result = _builder.Build(skins, prices);
+
+            Assert.That(result.Rows.Count, Is.EqualTo(1));
+            Assert.That(result.Rows[0].Id, Is.EqualTo("Karambit_Fade"));
+            Assert.That(result.Rows[0].Name, Is.EqualTo("Fade"));
+            Assert.That(result.Rows[0].Rarity, Is.EqualTo(Rarity.RareSpecial));
+            Assert.That(result.Rows[0].Price.From, Is.EqualTo(1400f));
+            Assert.That(result.Rows[0].Price.To, Is.EqualTo(1500f));
+        }
+
+        [Test]
+        public void Build_VanillaKnifeWithoutWears_UsesWearlessPriceAndVanillaName()
+        {
+            var skin = CreateStarredSkin("Karambit", "Fade", "Knives", "Covert");
+            skin.name = "★ Karambit";
+
+            var prices = new Dictionary<string, float> { { "★ Karambit", 700f } };
+
+            var result = _builder.Build(new List<SourceSkin> { skin }, prices);
+
+            Assert.That(result.Rows[0].Id, Is.EqualTo("Karambit_Vanilla"));
+            Assert.That(result.Rows[0].Name, Is.EqualTo("Vanilla"));
+            Assert.That(result.Rows[0].Price.From, Is.EqualTo(700f));
+            Assert.That(result.Rows[0].Price.To, Is.EqualTo(700f));
+        }
+
+        [Test]
+        public void Build_GlovesWithUnmappedRarity_MapsToCategoryRarity()
+        {
+            var skins = new List<SourceSkin> { CreateStarredSkin("Sport Gloves", "Vice", "Gloves", "Extraordinary", "Field-Tested") };
+            var prices = new Dictionary<string, float> { { "★ Sport Gloves | Vice (Field-Tested)", 900f } };
+
+            var result = _builder.Build(skins, prices);
+
+            Assert.That(result.Rows[0].Id, Is.EqualTo("Sport_Gloves_Vice"));
+            Assert.That(result.Rows[0].Rarity, Is.EqualTo(Rarity.RareSpecial));
         }
 
         [Test]
@@ -239,6 +294,14 @@ namespace Features.RemoteConfigs.Editor.Tests
                 wears = wearEntities,
                 crates = new SourceNamedEntity[0],
             };
+        }
+
+        private SourceSkin CreateStarredSkin(string weapon, string name, string category, string rarity, params string[] wears)
+        {
+            var skin = CreateSkin(weapon, name, category, rarity, true, false, wears);
+            skin.name = $"★ {weapon} | {name}";
+
+            return skin;
         }
     }
 }

@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Vanguard
   Price:
-    MinPrice: 3.23
-    MaxPrice: 43.63
+    MinPrice: 2.46
+    MaxPrice: 61.29
   AvailableStatTrak: 1
   AvailableSouvenir: 0

@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Cobblestone
   Price:
-    MinPrice: 468.12
-    MaxPrice: 547.82
+    MinPrice: 300
+    MaxPrice: 300
   AvailableStatTrak: 0
   AvailableSouvenir: 1

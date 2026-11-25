@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Militia
   Price:
-    MinPrice: 17.64
-    MaxPrice: 285
+    MinPrice: 39.84
+    MaxPrice: 75.38
   AvailableStatTrak: 0
   AvailableSouvenir: 0

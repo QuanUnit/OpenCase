@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Winter_Offensive
   Price:
-    MinPrice: 3.69
-    MaxPrice: 16.84
+    MinPrice: 4.21
+    MaxPrice: 26.39
   AvailableStatTrak: 1
   AvailableSouvenir: 0

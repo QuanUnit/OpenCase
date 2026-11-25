@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Ancient
   Price:
-    MinPrice: 16.85
-    MaxPrice: 54.02
+    MinPrice: 5.8
+    MaxPrice: 37.29
   AvailableStatTrak: 0
   AvailableSouvenir: 1

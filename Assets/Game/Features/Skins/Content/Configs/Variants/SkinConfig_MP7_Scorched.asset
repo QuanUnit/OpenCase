@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Norse
   Price:
-    MinPrice: 6.33
-    MaxPrice: 12.81
+    MinPrice: 3.55
+    MaxPrice: 14.18
   AvailableStatTrak: 0
   AvailableSouvenir: 0

@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Havoc
   Price:
-    MinPrice: 98.02
-    MaxPrice: 126.71
+    MinPrice: 53.21
+    MaxPrice: 75.79
   AvailableStatTrak: 0
   AvailableSouvenir: 0

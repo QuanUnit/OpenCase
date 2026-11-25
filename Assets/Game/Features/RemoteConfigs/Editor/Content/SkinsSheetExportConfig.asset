@@ -39,3 +39,10 @@ MonoBehaviour:
     Rarity: 5
   - SourceName: Contraband
     Rarity: 6
+  - SourceName: Extraordinary
+    Rarity: 6
+  _categoryRarityMappings:
+  - SourceName: Knives
+    Rarity: 6
+  - SourceName: Gloves
+    Rarity: 6

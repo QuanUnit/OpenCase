@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_R8_Revolver_Monarch
+  m_EditorClassIdentifier: Features.Skins::Features.Skins.Configs.SkinConfig
+  Id:
+    _value: R8_Revolver_Monarch
+  Name: Monarch
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 6d926ebca57474020af9b5ca04c94b42
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 2
+  Collection:
+    _value: Collection_Spy_Tech
+  Price:
+    MinPrice: 0.25
+    MaxPrice: 1.86
+  AvailableStatTrak: 0
+  AvailableSouvenir: 0

@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Clutch
   Price:
-    MinPrice: 28.26
-    MaxPrice: 200.07
+    MinPrice: 25.04
+    MaxPrice: 65
   AvailableStatTrak: 1
   AvailableSouvenir: 0

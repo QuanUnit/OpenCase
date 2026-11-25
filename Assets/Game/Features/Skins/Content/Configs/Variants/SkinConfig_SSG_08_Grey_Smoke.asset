@@ -28,6 +28,6 @@ MonoBehaviour:
     _value: Collection_Ascent
   Price:
     MinPrice: 0.01
-    MaxPrice: 0.04
+    MaxPrice: 0.02
   AvailableStatTrak: 0
   AvailableSouvenir: 0

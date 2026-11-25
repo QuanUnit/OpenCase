@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Office
   Price:
-    MinPrice: 5.22
-    MaxPrice: 71.27
+    MinPrice: 8.16
+    MaxPrice: 121.04
   AvailableStatTrak: 0
   AvailableSouvenir: 0

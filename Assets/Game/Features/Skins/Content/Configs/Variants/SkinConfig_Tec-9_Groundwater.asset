@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Italy
   Price:
-    MinPrice: 0.01
-    MaxPrice: 0.75
+    MinPrice: 0.02
+    MaxPrice: 1.24
   AvailableStatTrak: 0
   AvailableSouvenir: 1

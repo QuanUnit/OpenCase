@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Dust
   Price:
-    MinPrice: 81.2
-    MaxPrice: 428.98
+    MinPrice: 71.74
+    MaxPrice: 324
   AvailableStatTrak: 0
   AvailableSouvenir: 0

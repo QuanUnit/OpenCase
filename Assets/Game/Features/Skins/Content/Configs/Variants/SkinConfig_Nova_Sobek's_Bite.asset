@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Anubis
   Price:
-    MinPrice: 8.64
-    MaxPrice: 33.8
+    MinPrice: 4.19
+    MaxPrice: 10.35
   AvailableStatTrak: 0
   AvailableSouvenir: 1

@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Lake
   Price:
-    MinPrice: 0.26
-    MaxPrice: 0.52
+    MinPrice: 0.25
+    MaxPrice: 0.54
   AvailableStatTrak: 0
   AvailableSouvenir: 1

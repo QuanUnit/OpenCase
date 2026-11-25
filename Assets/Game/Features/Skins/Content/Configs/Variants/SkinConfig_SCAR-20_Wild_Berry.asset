@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Graphic_Design
   Price:
-    MinPrice: 1.48
-    MaxPrice: 4.39
+    MinPrice: 0.49
+    MaxPrice: 1.7
   AvailableStatTrak: 0
   AvailableSouvenir: 0

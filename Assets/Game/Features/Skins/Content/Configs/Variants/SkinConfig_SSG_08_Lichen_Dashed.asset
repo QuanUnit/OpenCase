@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Aztec
   Price:
-    MinPrice: 1.54
-    MaxPrice: 50.43
+    MinPrice: 1.47
+    MaxPrice: 171.46
   AvailableStatTrak: 0
   AvailableSouvenir: 0

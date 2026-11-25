@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_eSports_2013_Winter
   Price:
-    MinPrice: 1.88
-    MaxPrice: 2.43
+    MinPrice: 1.91
+    MaxPrice: 2.28
   AvailableStatTrak: 1
   AvailableSouvenir: 0

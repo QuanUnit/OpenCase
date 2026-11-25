@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_Moto_Gloves_Turtle
+  m_EditorClassIdentifier: Features.Skins::Features.Skins.Configs.SkinConfig
+  Id:
+    _value: Moto_Gloves_Turtle
+  Name: Turtle
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 1432cdc186fbb42b184780f76c51d271
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 6
+  Collection:
+    _value: 
+  Price:
+    MinPrice: 49.61
+    MaxPrice: 399.95
+  AvailableStatTrak: 0
+  AvailableSouvenir: 0

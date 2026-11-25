@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Inferno
   Price:
-    MinPrice: 5.5
-    MaxPrice: 9.93
+    MinPrice: 15.32
+    MaxPrice: 27.52
   AvailableStatTrak: 0
   AvailableSouvenir: 1

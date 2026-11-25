@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Gods_and_Monsters
   Price:
-    MinPrice: 120
-    MaxPrice: 147.93
+    MinPrice: 71.2
+    MaxPrice: 84.63
   AvailableStatTrak: 0
   AvailableSouvenir: 0

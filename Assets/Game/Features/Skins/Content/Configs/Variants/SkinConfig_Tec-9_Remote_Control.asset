@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_2018_Nuke
   Price:
-    MinPrice: 1.53
-    MaxPrice: 37.22
+    MinPrice: 1.81
+    MaxPrice: 18.49
   AvailableStatTrak: 0
   AvailableSouvenir: 1

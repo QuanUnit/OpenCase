@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Operation_Hydra
   Price:
-    MinPrice: 423.42
-    MaxPrice: 1154.2
+    MinPrice: 188.57
+    MaxPrice: 655.92
   AvailableStatTrak: 1
   AvailableSouvenir: 0

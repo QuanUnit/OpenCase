@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Bravo
   Price:
-    MinPrice: 3.16
-    MaxPrice: 15.33
+    MinPrice: 5.84
+    MaxPrice: 59.01
   AvailableStatTrak: 1
   AvailableSouvenir: 0

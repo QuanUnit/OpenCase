@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Assault
   Price:
-    MinPrice: 465.81
-    MaxPrice: 480
+    MinPrice: 340
+    MaxPrice: 340
   AvailableStatTrak: 0
   AvailableSouvenir: 0

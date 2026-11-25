@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Gallery
   Price:
-    MinPrice: 0.82
-    MaxPrice: 6.6
+    MinPrice: 0.9
+    MaxPrice: 3.62
   AvailableStatTrak: 1
   AvailableSouvenir: 0

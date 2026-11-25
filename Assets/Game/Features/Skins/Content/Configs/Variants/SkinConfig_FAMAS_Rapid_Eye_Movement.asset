@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Dreams_And_Nightmares
   Price:
-    MinPrice: 5.48
-    MaxPrice: 24.36
+    MinPrice: 3.85
+    MaxPrice: 11.04
   AvailableStatTrak: 1
   AvailableSouvenir: 0

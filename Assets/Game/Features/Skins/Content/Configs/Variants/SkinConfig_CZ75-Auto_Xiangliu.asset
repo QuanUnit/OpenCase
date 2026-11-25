@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Spectrum
   Price:
-    MinPrice: 11.66
-    MaxPrice: 22.73
+    MinPrice: 10.75
+    MaxPrice: 14.83
   AvailableStatTrak: 1
   AvailableSouvenir: 0

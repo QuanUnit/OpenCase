@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Horizon
   Price:
-    MinPrice: 44.87
-    MaxPrice: 285.92
+    MinPrice: 37.92
+    MaxPrice: 150.1
   AvailableStatTrak: 1
   AvailableSouvenir: 0

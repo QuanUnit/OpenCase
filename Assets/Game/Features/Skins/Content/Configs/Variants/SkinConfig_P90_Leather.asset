@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Baggage
   Price:
-    MinPrice: 6.28
-    MaxPrice: 20.73
+    MinPrice: 5.39
+    MaxPrice: 17.91
   AvailableStatTrak: 0
   AvailableSouvenir: 0

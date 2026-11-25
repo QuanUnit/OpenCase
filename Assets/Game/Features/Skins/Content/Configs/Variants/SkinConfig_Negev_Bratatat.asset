@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_eSports_2014_Summer
   Price:
-    MinPrice: 1.19
-    MaxPrice: 6.14
+    MinPrice: 1.9
+    MaxPrice: 9.99
   AvailableStatTrak: 1
   AvailableSouvenir: 0

@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_St_Marc
   Price:
-    MinPrice: 3.21
-    MaxPrice: 11.04
+    MinPrice: 1.79
+    MaxPrice: 14.82
   AvailableStatTrak: 0
   AvailableSouvenir: 0

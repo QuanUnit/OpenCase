@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Arms_Deal_3
   Price:
-    MinPrice: 11.41
-    MaxPrice: 11.86
+    MinPrice: 11.5
+    MaxPrice: 19.54
   AvailableStatTrak: 1
   AvailableSouvenir: 0

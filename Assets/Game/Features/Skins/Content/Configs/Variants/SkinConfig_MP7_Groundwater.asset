@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Alpha
   Price:
-    MinPrice: 2.23
-    MaxPrice: 57.25
+    MinPrice: 3.04
+    MaxPrice: 6.3
   AvailableStatTrak: 0
   AvailableSouvenir: 0

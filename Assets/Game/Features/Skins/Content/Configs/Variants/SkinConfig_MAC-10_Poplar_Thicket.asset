@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Boreal
   Price:
-    MinPrice: 0.16
-    MaxPrice: 1.83
+    MinPrice: 0.05
+    MaxPrice: 0.31
   AvailableStatTrak: 0
   AvailableSouvenir: 0

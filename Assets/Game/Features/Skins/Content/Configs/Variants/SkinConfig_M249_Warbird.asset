@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Shattered_Web
   Price:
-    MinPrice: 0.56
-    MaxPrice: 3.77
+    MinPrice: 0.44
+    MaxPrice: 4.31
   AvailableStatTrak: 1
   AvailableSouvenir: 0

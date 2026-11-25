@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Gamma
   Price:
-    MinPrice: 102.22
-    MaxPrice: 350.72
+    MinPrice: 87.39
+    MaxPrice: 166.33
   AvailableStatTrak: 1
   AvailableSouvenir: 0

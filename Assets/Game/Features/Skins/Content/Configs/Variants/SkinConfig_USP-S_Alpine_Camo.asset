@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Sport_And_Field
   Price:
-    MinPrice: 0.56
-    MaxPrice: 4.62
+    MinPrice: 0.25
+    MaxPrice: 1
   AvailableStatTrak: 0
   AvailableSouvenir: 0

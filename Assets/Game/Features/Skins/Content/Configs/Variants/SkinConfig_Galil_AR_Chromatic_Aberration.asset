@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Snakebite
   Price:
-    MinPrice: 3.27
-    MaxPrice: 35.95
+    MinPrice: 2.85
+    MaxPrice: 16.55
   AvailableStatTrak: 1
   AvailableSouvenir: 0

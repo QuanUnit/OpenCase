@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Operation_Riptide
   Price:
-    MinPrice: 0.81
-    MaxPrice: 5.11
+    MinPrice: 1.2
+    MaxPrice: 6.91
   AvailableStatTrak: 1
   AvailableSouvenir: 0

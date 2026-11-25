@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Overpass_2024
   Price:
-    MinPrice: 27.14
-    MaxPrice: 157.32
+    MinPrice: 5.31
+    MaxPrice: 31.23
   AvailableStatTrak: 0
   AvailableSouvenir: 1

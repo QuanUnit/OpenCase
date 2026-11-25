@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Shadow
   Price:
-    MinPrice: 54.79
-    MaxPrice: 407.34
+    MinPrice: 53.18
+    MaxPrice: 193.83
   AvailableStatTrak: 1
   AvailableSouvenir: 0

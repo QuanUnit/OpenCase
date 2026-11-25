@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Safehouse
   Price:
-    MinPrice: 0
-    MaxPrice: 0
+    MinPrice: 0.52
+    MaxPrice: 0.52
   AvailableStatTrak: 0
   AvailableSouvenir: 1

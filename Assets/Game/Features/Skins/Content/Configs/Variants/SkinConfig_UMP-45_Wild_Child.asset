@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Revolution
   Price:
-    MinPrice: 3.15
-    MaxPrice: 22.87
+    MinPrice: 2.46
+    MaxPrice: 9.64
   AvailableStatTrak: 1
   AvailableSouvenir: 0

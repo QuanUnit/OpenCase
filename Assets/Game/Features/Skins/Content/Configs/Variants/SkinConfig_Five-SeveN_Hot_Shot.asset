@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Cache
   Price:
-    MinPrice: 2.34
-    MaxPrice: 33.96
+    MinPrice: 1.39
+    MaxPrice: 33.58
   AvailableStatTrak: 0
   AvailableSouvenir: 1

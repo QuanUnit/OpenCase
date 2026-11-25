@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Bank
   Price:
-    MinPrice: 0.01
-    MaxPrice: 0.67
+    MinPrice: 0.03
+    MaxPrice: 3.64
   AvailableStatTrak: 0
   AvailableSouvenir: 0

@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Glove
   Price:
-    MinPrice: 5.14
-    MaxPrice: 8.24
+    MinPrice: 2.64
+    MaxPrice: 8.65
   AvailableStatTrak: 1
   AvailableSouvenir: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11f399abdaa4bccb5fecf5a4eda8615, type: 3}
+  m_Name: SkinConfig_Sport_Gloves_Big_Game
+  m_EditorClassIdentifier: Features.Skins::Features.Skins.Configs.SkinConfig
+  Id:
+    _value: Sport_Gloves_Big_Game
+  Name: Big Game
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: f60c89b124b0b4a29896bd1bcc9905bf
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+  Rarity: 6
+  Collection:
+    _value: 
+  Price:
+    MinPrice: 86.15
+    MaxPrice: 683.92
+  AvailableStatTrak: 0
+  AvailableSouvenir: 0

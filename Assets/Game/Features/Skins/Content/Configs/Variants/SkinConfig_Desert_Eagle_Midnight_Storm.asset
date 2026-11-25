@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Rising_Sun
   Price:
-    MinPrice: 24.55
-    MaxPrice: 87.75
+    MinPrice: 11.53
+    MaxPrice: 62.62
   AvailableStatTrak: 0
   AvailableSouvenir: 0

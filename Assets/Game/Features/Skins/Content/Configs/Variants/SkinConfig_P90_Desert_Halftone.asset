@@ -28,6 +28,6 @@ MonoBehaviour:
     _value: Collection_Radiant
   Price:
     MinPrice: 0.01
-    MaxPrice: 0.03
+    MaxPrice: 0.06
   AvailableStatTrak: 0
   AvailableSouvenir: 0

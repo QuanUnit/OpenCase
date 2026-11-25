@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_2021_Vertigo
   Price:
-    MinPrice: 12.49
-    MaxPrice: 22.88
+    MinPrice: 4.42
+    MaxPrice: 65
   AvailableStatTrak: 0
   AvailableSouvenir: 1

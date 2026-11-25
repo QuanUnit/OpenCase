@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Kilowatt
   Price:
-    MinPrice: 0.42
-    MaxPrice: 4.35
+    MinPrice: 0.28
+    MaxPrice: 2.55
   AvailableStatTrak: 1
   AvailableSouvenir: 0

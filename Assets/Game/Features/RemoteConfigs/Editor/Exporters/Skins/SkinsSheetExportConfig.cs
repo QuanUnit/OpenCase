@@ -35,7 +35,7 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
         [SerializeField, Min(1)] private int _requestTimeoutSeconds = 60;
 
         [Header("Rows")]
-        [SerializeField] private List<string> _excludedCategories = new List<string> { "Knives", "Gloves" };
+        [SerializeField] private List<string> _excludedCategories = new List<string>();
         [SerializeField] private string _souvenirCrateMarker = "Souvenir";
 
         [SerializeField] private List<RarityMapping> _rarityMappings = new List<RarityMapping>
@@ -47,6 +47,13 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
             new RarityMapping { SourceName = "Classified", Rarity = Rarity.Classified },
             new RarityMapping { SourceName = "Covert", Rarity = Rarity.Covert },
             new RarityMapping { SourceName = "Contraband", Rarity = Rarity.RareSpecial },
+            new RarityMapping { SourceName = "Extraordinary", Rarity = Rarity.RareSpecial },
+        };
+
+        [SerializeField] private List<RarityMapping> _categoryRarityMappings = new List<RarityMapping>
+        {
+            new RarityMapping { SourceName = "Knives", Rarity = Rarity.RareSpecial },
+            new RarityMapping { SourceName = "Gloves", Rarity = Rarity.RareSpecial },
         };
 
         public GoogleSheetsClientSettings GetGoogleSheetsClientSettings()
@@ -56,9 +63,19 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
 
         public Dictionary<string, Rarity> GetRarityMap()
         {
+            return ToDictionary(_rarityMappings);
+        }
+
+        public Dictionary<string, Rarity> GetCategoryRarityMap()
+        {
+            return ToDictionary(_categoryRarityMappings);
+        }
+
+        private Dictionary<string, Rarity> ToDictionary(List<RarityMapping> mappings)
+        {
             var rarityMap = new Dictionary<string, Rarity>();
 
-            foreach (var rarityMapping in _rarityMappings)
+            foreach (var rarityMapping in mappings)
             {
                 rarityMap[rarityMapping.SourceName] = rarityMapping.Rarity;
             }

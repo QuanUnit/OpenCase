@@ -15,6 +15,11 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: 7fa7cfac63b5245409cdfcfbb1bfaaba
   m_SerializeEntries:
+  - m_GUID: 00c7d37abe2a447258b1aaf5a4fe5d81
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/Bayonet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 03352ca6f4724aa439e0bbc39d50414b
     m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/Glock18
     m_ReadOnly: 0
@@ -25,8 +30,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1038cd39840094904b35db4114fab9b8
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/UrsusKnife
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15aebb014167b43778635ee3509b2b01
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/ButterflyKnife
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 17c949b06934b9c40a6b81a327f22b66
     m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/Nova
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ef2232522faa4d99b38600157d44548
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/SurvivalKnife
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26717510879b3419b8eb57bc41b3ede9
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/ParacordKnife
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -45,8 +70,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 388fd10efddbc4a6aa8762e936e3ea40
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/HandWraps
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3bcbd544cfe55fe4882cc39959012fdd
     m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/P2000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44e3ee2f9013e440cbbc0119c220e7cb
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/BowieKnife
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -70,8 +105,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53f05436aa7a043609bb4557bada11ff
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/FalchionKnife
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5623d77c4035f4185b1815f1cf4cc538
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/StilettoKnife
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5910311d6950356419491f1830bbbb64
     m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/Revolver
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c0127f29c1504102927a57debf254a0
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/ShadowDaggers
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -80,8 +130,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6261bd507a0c04025912d47c863db313
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/NavajaKnife
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 64b4d774b23ab654a915b5735b2086e0
     m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/FiveSeven
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c049dd67c5f14186a34d746d6f58f84
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/BrokenFangGloves
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c05f93aa220148038c293ca1960f0a3
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/DriverGloves
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -92,6 +157,21 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 702211a7ae875f84388042ccf8b01db7
     m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/Negev
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7429f52b10deb4aeeb730b9a0f9ca0d5
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/Karambit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 742dabbe63cfe456aa5d723e77affbaf
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/GutKnife
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a18e7eb5f21c4846990fb59a7710b37
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/HydraGloves
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -120,13 +200,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3647871c84c64ff3951fa175392b44a
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/BloodhoundGloves
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ac828ede1aff2fb46b1e3a6409d7232e
     m_Address: Assets/Game/Features/Cases/Content/Textures
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad79f2b69a09948a7b103584e71cb758
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/TalonKnife
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae715905c9f114461aed0685080f6879
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/ClassicKnife
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b04fd8fa8b52a2b429fcfb20b82ed2bb
     m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/Tec9
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b91c51cbbc4a54e438d106aa8d511b9f
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/FlipKnife
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -140,6 +240,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1c2af3b0b85a473da89a7c56636d4ca
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/HuntsmanKnife
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4ef1c40b366c4287a7c0c10655ad0f4
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/SpecialistGloves
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c54de277582e8f84d8671eed50273e8d
     m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/SG553
     m_ReadOnly: 0
@@ -150,6 +260,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf0a48339a5a74d4282c00769ca4c128
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/M9Bayonet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d00e64657c7534fc1bf8b6955fac20a1
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/SportGloves
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d3872943c012c134f9cee3b1c9dbe847
     m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/P90
     m_ReadOnly: 0
@@ -157,6 +277,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d3c18d0a7a25aea42bd0a44658dd1116
     m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/MP9
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db74d96df490640608397436fd667b6e
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/MotoGloves
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -182,6 +307,21 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f634a1f7570b81c4eb0664ad2131bf69
     m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/MAG-7
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f64894453ff234081961f8daad9c5d46
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/NomadKnife
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: faca8db784b0a4e1481aeffbaf08d3dc
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/SkeletonKnife
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc07965a3ab184ae78ede649d7bc5362
+    m_Address: Assets/Game/Features/Skins/Content/Textures/Weapons/KukriKnife
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

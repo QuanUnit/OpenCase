@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Phoenix
   Price:
-    MinPrice: 2.33
-    MaxPrice: 8.25
+    MinPrice: 2.52
+    MaxPrice: 5.91
   AvailableStatTrak: 1
   AvailableSouvenir: 0

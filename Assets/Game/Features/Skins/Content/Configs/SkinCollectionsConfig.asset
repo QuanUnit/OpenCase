@@ -32,6 +32,9 @@ MonoBehaviour:
       _value: Collection_2021_Vertigo
     Name: The 2021 Vertigo Collection
   - Id:
+      _value: Collection_Achroma
+    Name: The Achroma Collection
+  - Id:
       _value: Collection_Alpha
     Name: The Alpha Collection
   - Id:
@@ -40,6 +43,9 @@ MonoBehaviour:
   - Id:
       _value: Collection_Anubis
     Name: The Anubis Collection
+  - Id:
+      _value: Collection_Arabesque
+    Name: The Arabesque Collection
   - Id:
       _value: Collection_Arms_Deal
     Name: The Arms Deal Collection
@@ -110,6 +116,9 @@ MonoBehaviour:
       _value: Collection_Danger_Zone
     Name: The Danger Zone Collection
   - Id:
+      _value: Collection_Dead_Hand
+    Name: The Dead Hand Collection
+  - Id:
       _value: Collection_Dreams_And_Nightmares
     Name: The Dreams & Nightmares Collection
   - Id:
@@ -148,6 +157,9 @@ MonoBehaviour:
   - Id:
       _value: Collection_Graphic_Design
     Name: The Graphic Design Collection
+  - Id:
+      _value: Collection_Harlequin
+    Name: The Harlequin Collection
   - Id:
       _value: Collection_Havoc
     Name: The Havoc Collection
@@ -247,6 +259,9 @@ MonoBehaviour:
   - Id:
       _value: Collection_Sport_And_Field
     Name: The Sport & Field Collection
+  - Id:
+      _value: Collection_Spy_Tech
+    Name: The Spy Tech Collection
   - Id:
       _value: Collection_St_Marc
     Name: The St. Marc Collection

@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Genesis
   Price:
-    MinPrice: 5.54
-    MaxPrice: 47.09
+    MinPrice: 3.28
+    MaxPrice: 18.56
   AvailableStatTrak: 1
   AvailableSouvenir: 0

@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Danger_Zone
   Price:
-    MinPrice: 0.56
-    MaxPrice: 2.04
+    MinPrice: 0.49
+    MaxPrice: 3.9
   AvailableStatTrak: 1
   AvailableSouvenir: 0

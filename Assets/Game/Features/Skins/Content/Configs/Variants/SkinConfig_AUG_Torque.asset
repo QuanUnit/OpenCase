@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Huntsman
   Price:
-    MinPrice: 5.62
-    MaxPrice: 11.63
+    MinPrice: 4.19
+    MaxPrice: 8.71
   AvailableStatTrak: 1
   AvailableSouvenir: 0

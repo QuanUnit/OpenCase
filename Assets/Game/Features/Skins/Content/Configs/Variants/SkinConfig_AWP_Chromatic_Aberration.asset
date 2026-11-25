@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Recoil
   Price:
-    MinPrice: 27.98
-    MaxPrice: 102.66
+    MinPrice: 26.93
+    MaxPrice: 61.52
   AvailableStatTrak: 1
   AvailableSouvenir: 0

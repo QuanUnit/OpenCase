@@ -28,6 +28,6 @@ MonoBehaviour:
     _value: Collection_Fever
   Price:
     MinPrice: 0.06
-    MaxPrice: 0.81
+    MaxPrice: 0.57
   AvailableStatTrak: 1
   AvailableSouvenir: 0

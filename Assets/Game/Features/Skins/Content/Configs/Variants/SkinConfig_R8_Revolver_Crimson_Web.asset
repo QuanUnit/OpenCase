@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Revolver_Case
   Price:
-    MinPrice: 0.14
-    MaxPrice: 6.4
+    MinPrice: 0.3
+    MaxPrice: 11.15
   AvailableStatTrak: 1
   AvailableSouvenir: 0

@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Wildfire
   Price:
-    MinPrice: 15.05
-    MaxPrice: 245.17
+    MinPrice: 8.44
+    MaxPrice: 53.42
   AvailableStatTrak: 1
   AvailableSouvenir: 0

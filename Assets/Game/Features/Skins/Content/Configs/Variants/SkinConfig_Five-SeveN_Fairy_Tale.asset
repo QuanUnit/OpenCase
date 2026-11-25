@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Operation_Broken_Fang
   Price:
-    MinPrice: 23
-    MaxPrice: 121.17
+    MinPrice: 15.47
+    MaxPrice: 200.93
   AvailableStatTrak: 1
   AvailableSouvenir: 0

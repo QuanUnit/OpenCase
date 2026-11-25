@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Fracture
   Price:
-    MinPrice: 31.86
-    MaxPrice: 57.14
+    MinPrice: 26
+    MaxPrice: 42.31
   AvailableStatTrak: 1
   AvailableSouvenir: 0

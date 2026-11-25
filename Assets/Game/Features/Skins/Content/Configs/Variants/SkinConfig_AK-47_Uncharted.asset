@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Prisma
   Price:
-    MinPrice: 0.51
-    MaxPrice: 1.93
+    MinPrice: 0.5
+    MaxPrice: 2.11
   AvailableStatTrak: 1
   AvailableSouvenir: 0

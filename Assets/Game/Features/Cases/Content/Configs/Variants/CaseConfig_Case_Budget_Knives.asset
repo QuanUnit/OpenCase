@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Budget_Knives
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Budget_Knives
+  Name: Budget Knives Case
+  Price: 51.02
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 2ce585a68e2b94e399109c47cd144a8d, type: 2}
+      Value: 4.397436
+    - Key: {fileID: 11400000, guid: 977bb5e26999f460995351e289b61972, type: 2}
+      Value: 4.210517
+    - Key: {fileID: 11400000, guid: 9f077a19f14e24cb0b7e288628c39f72, type: 2}
+      Value: 3.8564916
+    - Key: {fileID: 11400000, guid: e86bc7e71dd644e9c8a8fe0b8748c3c9, type: 2}
+      Value: 3.701929
+    - Key: {fileID: 11400000, guid: be2e01f8f601f464b87360614fdc8fce, type: 2}
+      Value: 4.165771
+    - Key: {fileID: 11400000, guid: 36a25e6e736fb433487cd8f8ff090b64, type: 2}
+      Value: 3.9358609
+    - Key: {fileID: 11400000, guid: 43782d33a5c6d430d83615c6a3d3ca1c, type: 2}
+      Value: 3.4996514
+    - Key: {fileID: 11400000, guid: 9cbc00e85f6194650aefd2d3dfdb2abc, type: 2}
+      Value: 3.4474576
+    - Key: {fileID: 11400000, guid: 6168186913b1e434a946a35d592a2a09, type: 2}
+      Value: 3.5416203
+    - Key: {fileID: 11400000, guid: 48480b03df3914fe99196dd2feafb2bd, type: 2}
+      Value: 2.8865693
+    - Key: {fileID: 11400000, guid: 957f093d360df440eb7e4981c77a00cb, type: 2}
+      Value: 3.3526993
+    - Key: {fileID: 11400000, guid: 6bf79796c3776423b9a8a38d6a7396e1, type: 2}
+      Value: 3.0616457
+    - Key: {fileID: 11400000, guid: 23674056cba4a4b61a62363b5ec8d122, type: 2}
+      Value: 3.4886403
+    - Key: {fileID: 11400000, guid: eef2864559d9d4239979d470e65eef43, type: 2}
+      Value: 3.47092
+    - Key: {fileID: 11400000, guid: 01944b30357a54b348601587a2c4d86b, type: 2}
+      Value: 3.0489495
+    - Key: {fileID: 11400000, guid: 771fd3cf7acc74323b55b8c61015c2a9, type: 2}
+      Value: 3.660243
+    - Key: {fileID: 11400000, guid: fe2cc0ecc1ff64e7c85caef78ef5dc43, type: 2}
+      Value: 3.0234153
+    - Key: {fileID: 11400000, guid: be1d6503af2f64e989d15ee31b69b8cf, type: 2}
+      Value: 3.2968516
+    - Key: {fileID: 11400000, guid: 33daebbd2717249d49302a91e74fc464, type: 2}
+      Value: 3.1767497
+    - Key: {fileID: 11400000, guid: d474e19efbcb049a78515183a62177da, type: 2}
+      Value: 2.9020565
+    - Key: {fileID: 11400000, guid: 659c19c71e19b42ada2d898058bcfb84, type: 2}
+      Value: 2.5632076
+    - Key: {fileID: 11400000, guid: 0128f193db6f2415a93dd17824a76c43, type: 2}
+      Value: 2.8882947
+    - Key: {fileID: 11400000, guid: a4a99fe8d8d4e4e2bacad30aaad387e8, type: 2}
+      Value: 3.1394088
+    - Key: {fileID: 11400000, guid: 24ea1aa3be28e40acb55a8353be7f47e, type: 2}
+      Value: 2.957437
+    - Key: {fileID: 11400000, guid: 149caad33d1834e3c822190c3490ff37, type: 2}
+      Value: 3.017919
+    - Key: {fileID: 11400000, guid: d2437302174364d0dbfd532bb366ff03, type: 2}
+      Value: 3.3304453
+    - Key: {fileID: 11400000, guid: f9ecc1331d44e4fa6865d7ab2e4ea8fe, type: 2}
+      Value: 3.5166142
+    - Key: {fileID: 11400000, guid: 32751643aa69e4e3e99801b4f7c64b0d, type: 2}
+      Value: 2.4586375
+    - Key: {fileID: 11400000, guid: 86539a275be1e460893709afcb97912e, type: 2}
+      Value: 3.0513396
+    - Key: {fileID: 11400000, guid: 3ef6fc37db1f1487f96fc91415794f54, type: 2}
+      Value: 2.951221
+  ContextData:
+    SpriteSource:
+      _assetReference:
+        m_AssetGUID: 796ad263d75c241fa9ce99d95c4e1211
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0

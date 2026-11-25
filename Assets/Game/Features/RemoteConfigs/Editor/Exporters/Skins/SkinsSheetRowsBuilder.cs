@@ -11,12 +11,14 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
     {
         private readonly HashSet<string> _excludedCategories;
         private readonly IReadOnlyDictionary<string, Rarity> _rarityMap;
+        private readonly IReadOnlyDictionary<string, Rarity> _categoryRarityMap;
         private readonly string _souvenirCrateMarker;
 
-        public SkinsSheetRowsBuilder(IEnumerable<string> excludedCategories, IReadOnlyDictionary<string, Rarity> rarityMap, string souvenirCrateMarker)
+        public SkinsSheetRowsBuilder(IEnumerable<string> excludedCategories, IReadOnlyDictionary<string, Rarity> rarityMap, IReadOnlyDictionary<string, Rarity> categoryRarityMap, string souvenirCrateMarker)
         {
             _excludedCategories = new HashSet<string>(excludedCategories);
             _rarityMap = rarityMap;
+            _categoryRarityMap = categoryRarityMap;
             _souvenirCrateMarker = souvenirCrateMarker;
         }
 
@@ -35,14 +37,14 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
                 var name = SkinIds.GetName(skin.name);
                 var id = SkinIds.Create(skin.weapon.name, name);
 
-                if (TryGetRarity(skin.rarity.name, out var rarity) == false)
+                if (TryGetRarity(skin, out var rarity) == false)
                 {
                     AddUnique(result.SkippedUnknownRarity, $"{skin.name} ({skin.rarity.name})");
                     result.SkippedIds.Add(id);
                     continue;
                 }
 
-                if (TryGetPrice(skin, name, prices, out var price) == false)
+                if (TryGetPrice(skin, prices, out var price) == false)
                 {
                     AddUnique(result.SkippedWithoutPrice, skin.name);
                     result.SkippedIds.Add(id);
@@ -72,9 +74,14 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
             return result;
         }
 
-        private bool TryGetRarity(string rarityName, out Rarity rarity)
+        private bool TryGetRarity(SourceSkin skin, out Rarity rarity)
         {
-            rarity = default;
+            if (_categoryRarityMap.TryGetValue(skin.category.name, out rarity) == true)
+            {
+                return true;
+            }
+
+            var rarityName = skin.rarity.name;
 
             if (string.IsNullOrEmpty(rarityName) == true)
             {
@@ -84,9 +91,14 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
             return _rarityMap.TryGetValue(rarityName, out rarity);
         }
 
-        private bool TryGetPrice(SourceSkin skin, string name, IReadOnlyDictionary<string, float> prices, out FloatRange price)
+        private bool TryGetPrice(SourceSkin skin, IReadOnlyDictionary<string, float> prices, out FloatRange price)
         {
             price = default;
+
+            if (skin.wears.Length == 0)
+            {
+                return TryGetWearlessPrice(skin, prices, out price);
+            }
 
             var min = float.MaxValue;
             var max = float.MinValue;
@@ -94,7 +106,7 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
 
             foreach (var wear in skin.wears)
             {
-                if (prices.TryGetValue(SkinIds.GetMarketHashName(skin.weapon.name, name, wear.name), out var wearPrice) == false)
+                if (prices.TryGetValue(SkinIds.GetMarketHashName(skin.name, wear.name), out var wearPrice) == false)
                 {
                     continue;
                 }
@@ -110,6 +122,19 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
             }
 
             price = new FloatRange(min, max);
+            return true;
+        }
+
+        private bool TryGetWearlessPrice(SourceSkin skin, IReadOnlyDictionary<string, float> prices, out FloatRange price)
+        {
+            price = default;
+
+            if (prices.TryGetValue(skin.name, out var wearlessPrice) == false)
+            {
+                return false;
+            }
+
+            price = new FloatRange(wearlessPrice, wearlessPrice);
             return true;
         }
 

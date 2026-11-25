@@ -38,3 +38,13 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 8eea762a3e11443029580ec944922aa5, type: 2}
     - {fileID: 11400000, guid: ebfbe5f357a1142f4b1389e42276aab8, type: 2}
     - {fileID: 11400000, guid: a788c5f2ea4c2467dba8f241b055f7ed, type: 2}
+  - Key:
+      Name: Knives & Gloves
+    Value:
+    - {fileID: 11400000, guid: 67dfb1e44c913471fb98f771b02b05a7, type: 2}
+    - {fileID: 11400000, guid: 6556322df1b6f477aacb06f06cba055b, type: 2}
+    - {fileID: 11400000, guid: f44cc143fa3194f358d39ee28530e237, type: 2}
+    - {fileID: 11400000, guid: d1982292806c84ed8a68eb84c1d9791e, type: 2}
+    - {fileID: 11400000, guid: 53419d37dc8594ace87749ed0022ca5e, type: 2}
+    - {fileID: 11400000, guid: 55f86e44d02274e888db1a3ce7126352, type: 2}
+    - {fileID: 11400000, guid: 73d9faa66a7c44de8b25a622c78637e5, type: 2}

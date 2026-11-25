@@ -75,7 +75,7 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
             var skins = _sourcesParser.ParseSkins(skinsJson);
             var prices = _sourcesParser.ParsePrices(pricesJson);
 
-            var rowsBuilder = new SkinsSheetRowsBuilder(_config.ExcludedCategories, _config.GetRarityMap(), _config.SouvenirCrateMarker);
+            var rowsBuilder = new SkinsSheetRowsBuilder(_config.ExcludedCategories, _config.GetRarityMap(), _config.GetCategoryRarityMap(), _config.SouvenirCrateMarker);
             var buildResult = rowsBuilder.Build(skins, prices);
             var mergeResult = _merger.Merge(existingRows, buildResult.Rows, buildResult.SkippedIds);
 

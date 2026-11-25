@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_Falchion
   Price:
-    MinPrice: 0.53
-    MaxPrice: 8.28
+    MinPrice: 0.82
+    MaxPrice: 15.6
   AvailableStatTrak: 1
   AvailableSouvenir: 0

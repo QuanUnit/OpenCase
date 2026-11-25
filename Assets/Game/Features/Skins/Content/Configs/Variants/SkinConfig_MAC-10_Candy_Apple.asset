@@ -28,6 +28,6 @@ MonoBehaviour:
     _value: Collection_Train
   Price:
     MinPrice: 0.14
-    MaxPrice: 0.38
+    MaxPrice: 0.25
   AvailableStatTrak: 0
   AvailableSouvenir: 1

@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_CS20
   Price:
-    MinPrice: 0.19
-    MaxPrice: 1.17
+    MinPrice: 0.35
+    MaxPrice: 5
   AvailableStatTrak: 1
   AvailableSouvenir: 0

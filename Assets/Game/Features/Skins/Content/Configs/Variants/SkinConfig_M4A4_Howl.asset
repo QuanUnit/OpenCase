@@ -24,8 +24,10 @@ MonoBehaviour:
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
   Rarity: 6
+  Collection:
+    _value: 
   Price:
-    MinPrice: 4759.97
-    MaxPrice: 7243.12
+    MinPrice: 4452.76
+    MaxPrice: 6842.92
   AvailableStatTrak: 1
   AvailableSouvenir: 0

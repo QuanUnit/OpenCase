@@ -27,7 +27,7 @@ MonoBehaviour:
   Collection:
     _value: Collection_2021_Train
   Price:
-    MinPrice: 54.42
-    MaxPrice: 134.19
+    MinPrice: 24.57
+    MaxPrice: 72.35
   AvailableStatTrak: 0
   AvailableSouvenir: 0

@@ -6,6 +6,8 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
     {
         private const string NameSeparator = " | ";
         private const char IdSeparator = '_';
+        private const string StarPrefix = "★ ";
+        private const string VanillaName = "Vanilla";
 
         public static string GetName(string fullName)
         {
@@ -13,7 +15,7 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
 
             if (separatorIndex < 0)
             {
-                return fullName;
+                return fullName.StartsWith(StarPrefix, StringComparison.Ordinal) == true ? VanillaName : fullName;
             }
 
             return fullName.Substring(separatorIndex + NameSeparator.Length);
@@ -41,9 +43,9 @@ namespace Features.RemoteConfigs.Editor.Exporters.Skins
             return id;
         }
 
-        public static string GetMarketHashName(string weaponName, string name, string wearName)
+        public static string GetMarketHashName(string fullName, string wearName)
         {
-            return $"{weaponName}{NameSeparator}{name} ({wearName})";
+            return $"{fullName} ({wearName})";
         }
     }
 }

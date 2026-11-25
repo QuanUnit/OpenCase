@@ -28,6 +28,6 @@ MonoBehaviour:
     _value: Collection_X_Ray
   Price:
     MinPrice: 0.38
-    MaxPrice: 0.74
+    MaxPrice: 0.61
   AvailableStatTrak: 1
   AvailableSouvenir: 0
