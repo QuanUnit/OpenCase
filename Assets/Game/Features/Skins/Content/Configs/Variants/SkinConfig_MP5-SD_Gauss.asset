@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Gauss
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: MP5-SD_Gauss
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: c3853ac78721b477f94cbcfe4fb3d8f2
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: MP5-SD_Gauss
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: c3853ac78721b477f94cbcfe4fb3d8f2
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Prisma

@@ -62,7 +62,7 @@ namespace Features.OthersDrop.UI.Presenters
             {
                 Name = config.Name,
                 RarityBar = rarityVisual.RarityMainColor,
-                SkinIcon = config.ContextData.SpriteSource.GetAsset(),
+                SkinIcon = (Sprite)config.ContextData.SpriteSource.Asset,
             });
 
             return view;

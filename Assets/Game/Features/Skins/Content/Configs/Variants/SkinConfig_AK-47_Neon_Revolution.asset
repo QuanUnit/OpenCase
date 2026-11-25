@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Neon Revolution
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: AK-47_Neon_Revolution
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: d445a56a9caf84b65b8a88f2ea6d46dd
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: AK-47_Neon_Revolution
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: d445a56a9caf84b65b8a88f2ea6d46dd
+      m_EditorAssetChanged: 0
   Rarity: 5
   Collection:
     _value: Collection_Gamma_2

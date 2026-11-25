@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Blue Ply
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Desert_Eagle_Blue_Ply
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 1eaf407fe4d324c8fb590887cce9c4fc
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Desert_Eagle_Blue_Ply
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 1eaf407fe4d324c8fb590887cce9c4fc
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Prisma_2

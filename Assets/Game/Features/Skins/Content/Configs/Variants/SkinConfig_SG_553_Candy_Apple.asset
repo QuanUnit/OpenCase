@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Candy Apple
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: SG_553_Candy_Apple
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 363eaa3eb3a0f4e22bc742485f1ba2ba
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: SG_553_Candy_Apple
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 363eaa3eb3a0f4e22bc742485f1ba2ba
+      m_EditorAssetChanged: 0
   Rarity: 1
   Collection:
     _value: Collection_Canals

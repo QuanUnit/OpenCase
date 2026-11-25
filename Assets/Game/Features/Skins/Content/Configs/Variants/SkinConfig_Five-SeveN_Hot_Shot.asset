@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Hot Shot
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Five-SeveN_Hot_Shot
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: a0d4df5581a71488eb5f780a4d3cfccf
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Five-SeveN_Hot_Shot
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: a0d4df5581a71488eb5f780a4d3cfccf
+      m_EditorAssetChanged: 0
   Rarity: 1
   Collection:
     _value: Collection_Cache

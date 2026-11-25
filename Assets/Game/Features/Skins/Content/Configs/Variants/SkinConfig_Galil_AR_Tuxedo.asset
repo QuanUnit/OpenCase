@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Tuxedo
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Galil_AR_Tuxedo
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: c3ff962d9a38c4001bdd8cd1bb1e62ad
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Galil_AR_Tuxedo
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: c3ff962d9a38c4001bdd8cd1bb1e62ad
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Bank

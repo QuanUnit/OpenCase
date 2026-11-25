@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Occult
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Sport_Gloves_Occult
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 231584ed0a50d4c6eaf7962e7bf57432
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Sport_Gloves_Occult
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 231584ed0a50d4c6eaf7962e7bf57432
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Plum Quill
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Driver_Gloves_Plum_Quill
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: df97a4afceea0434399683a68c682e24
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Driver_Gloves_Plum_Quill
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: df97a4afceea0434399683a68c682e24
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

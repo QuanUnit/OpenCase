@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Point Disarray
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: AK-47_Point_Disarray
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: ab09823a4f59342e6b6d9b6dd72209cc
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: AK-47_Point_Disarray
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: ab09823a4f59342e6b6d9b6dd72209cc
+      m_EditorAssetChanged: 0
   Rarity: 4
   Collection:
     _value: Collection_Revolver_Case

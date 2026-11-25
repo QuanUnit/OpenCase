@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Autumn Thicket
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Five-SeveN_Autumn_Thicket
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 74e6f08494b3c47c091682f321c1a1ac
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Five-SeveN_Autumn_Thicket
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 74e6f08494b3c47c091682f321c1a1ac
+      m_EditorAssetChanged: 0
   Rarity: 0
   Collection:
     _value: Collection_Radiant

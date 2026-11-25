@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Phantom Disruptor
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: AK-47_Phantom_Disruptor
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 4c7eae54c237445bb8f43bebd5a9fddf
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: AK-47_Phantom_Disruptor
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 4c7eae54c237445bb8f43bebd5a9fddf
+      m_EditorAssetChanged: 0
   Rarity: 4
   Collection:
     _value: Collection_Prisma_2

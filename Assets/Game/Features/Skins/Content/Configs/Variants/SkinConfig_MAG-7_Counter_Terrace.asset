@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Counter Terrace
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: MAG-7_Counter_Terrace
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 84ff630987541472087f57cad7c2a809
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: MAG-7_Counter_Terrace
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 84ff630987541472087f57cad7c2a809
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Rising_Sun

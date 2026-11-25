@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Night
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Huntsman_Knife_Night
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 8afb6c2ee54c6457bba0d28df2ee051c
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Huntsman_Knife_Night
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 8afb6c2ee54c6457bba0d28df2ee051c
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

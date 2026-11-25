@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Monkeyflage
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: MAC-10_Monkeyflage
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 6e554da2c2fa44057a27bd6af175b0ba
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: MAC-10_Monkeyflage
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 6e554da2c2fa44057a27bd6af175b0ba
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Recoil

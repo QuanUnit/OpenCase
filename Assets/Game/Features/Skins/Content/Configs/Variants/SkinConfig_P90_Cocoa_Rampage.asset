@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Cocoa Rampage
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: P90_Cocoa_Rampage
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: b669c68015c1741f2bb1872d1e4fe35e
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: P90_Cocoa_Rampage
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: b669c68015c1741f2bb1872d1e4fe35e
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Operation_Broken_Fang

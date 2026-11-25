@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Royal Consorts
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Dual_Berettas_Royal_Consorts
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: d69ad4685a5e841b59c32613e23bf34e
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Dual_Berettas_Royal_Consorts
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: d69ad4685a5e841b59c32613e23bf34e
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Glove

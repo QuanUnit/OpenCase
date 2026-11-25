@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Canal Spray
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: R8_Revolver_Canal_Spray
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: bb02707e5e38848a295e73fc243efa7f
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: R8_Revolver_Canal_Spray
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: bb02707e5e38848a295e73fc243efa7f
+      m_EditorAssetChanged: 0
   Rarity: 0
   Collection:
     _value: Collection_Canals

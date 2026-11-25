@@ -80,10 +80,9 @@ MonoBehaviour:
       Value: 0.02
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
-        m_SubObjectName: case_gallery
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: ea2913becfa4d420fa518ad6d49fdf94
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_gallery
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: ea2913becfa4d420fa518ad6d49fdf94
+      m_EditorAssetChanged: 0

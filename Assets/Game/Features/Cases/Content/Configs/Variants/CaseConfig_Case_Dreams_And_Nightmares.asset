@@ -114,10 +114,9 @@ MonoBehaviour:
       Value: 0.008666666
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
-        m_SubObjectName: case_dreams_nightmares
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 6ca3306c641db49ad9f5703d6abdf166
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_dreams_nightmares
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 6ca3306c641db49ad9f5703d6abdf166
+      m_EditorAssetChanged: 0

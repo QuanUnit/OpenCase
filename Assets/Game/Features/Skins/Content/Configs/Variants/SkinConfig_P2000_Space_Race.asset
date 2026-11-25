@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Space Race
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: P2000_Space_Race
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: ef64628c842ba467895324710c51782e
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: P2000_Space_Race
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: ef64628c842ba467895324710c51782e
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_2021_Train

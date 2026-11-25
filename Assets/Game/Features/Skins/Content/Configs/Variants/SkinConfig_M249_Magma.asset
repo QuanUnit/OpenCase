@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Magma
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: M249_Magma
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: bb961c1590d594a5a8259dd7d0254337
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: M249_Magma
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: bb961c1590d594a5a8259dd7d0254337
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Winter_Offensive

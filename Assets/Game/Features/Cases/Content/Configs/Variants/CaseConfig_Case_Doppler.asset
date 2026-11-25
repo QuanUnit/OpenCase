@@ -76,10 +76,9 @@ MonoBehaviour:
       Value: 4.2874293
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
-        m_SubObjectName: case_doppler
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 85fd2b95bf2e444b0a0427427a42a80f
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_doppler
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 85fd2b95bf2e444b0a0427427a42a80f
+      m_EditorAssetChanged: 0

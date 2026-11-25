@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Case Hardened
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: M9_Bayonet_Case_Hardened
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: fcd17f42d22bb4501bbdc9b228c5e25f
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: M9_Bayonet_Case_Hardened
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: fcd17f42d22bb4501bbdc9b228c5e25f
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

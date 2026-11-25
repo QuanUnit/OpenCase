@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Panther
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Dual_Berettas_Panther
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 9ff696ce7b1d045b1997de0a314b3356
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Dual_Berettas_Panther
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 9ff696ce7b1d045b1997de0a314b3356
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Arms_Deal_3

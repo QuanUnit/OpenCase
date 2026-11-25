@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Signal Scanner
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: AUG_Signal_Scanner
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: e7567e05d0c4446ca8e8289fd9c7317f
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: AUG_Signal_Scanner
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: e7567e05d0c4446ca8e8289fd9c7317f
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Spy_Tech

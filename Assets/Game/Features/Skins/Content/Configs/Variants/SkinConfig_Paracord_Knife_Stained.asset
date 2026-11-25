@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Stained
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Paracord_Knife_Stained
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 26f3564ac76e0436e877d8ad04c130be
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Paracord_Knife_Stained
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 26f3564ac76e0436e877d8ad04c130be
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

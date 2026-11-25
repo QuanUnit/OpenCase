@@ -4,7 +4,6 @@ using System.IO;
 using System.Linq;
 using Features.Cases.Configs;
 using Features.Skins.Configs;
-using QCore.AddressablesWrapper.Containers;
 using QCore.Tools.Collections;
 using Shared.Editor.SpriteAtlases;
 using Shared.Tools.AssetsExtensions;
@@ -22,7 +21,6 @@ namespace Features.RemoteConfigs.Editor.Cases
         private const string CategoryCasesProperty = "Value";
         private const string AssetNamePrefix = "CaseConfig_";
         private const string AssetExtension = ".asset";
-        private const string SpriteReferencePath = "ContextData.SpriteSource._assetReference";
 
         public IReadOnlyList<KeyValue<CasesCategory, List<CaseConfig>>> Categories => _config.AllCasesConfig.CategoriesMap;
 
@@ -242,29 +240,29 @@ namespace Features.RemoteConfigs.Editor.Cases
         {
             var spriteSource = caseConfig.ContextData.SpriteSource;
 
-            if (spriteSource == null || spriteSource.AssetReference == null || string.IsNullOrEmpty(spriteSource.AssetReference.AssetGUID) == true)
+            if (spriteSource == null || string.IsNullOrEmpty(spriteSource.AssetGUID) == true)
             {
                 return null;
             }
 
-            return AtlasedSpriteReferences.LoadSprite(spriteSource.AssetReference);
+            return AtlasedSpriteReferences.LoadSprite(spriteSource);
         }
 
         public bool IsIconAddressable(CaseConfig caseConfig)
         {
             var spriteSource = caseConfig.ContextData.SpriteSource;
 
-            if (spriteSource == null || spriteSource.AssetReference == null || string.IsNullOrEmpty(spriteSource.AssetReference.AssetGUID) == true)
+            if (spriteSource == null || string.IsNullOrEmpty(spriteSource.AssetGUID) == true)
             {
                 return false;
             }
 
-            if (string.IsNullOrEmpty(spriteSource.AssetReference.SubObjectName) == true)
+            if (string.IsNullOrEmpty(spriteSource.SubObjectName) == true)
             {
                 return false;
             }
 
-            return AddressableAssetSettingsDefaultObject.Settings.FindAssetEntry(spriteSource.AssetReference.AssetGUID) != null;
+            return AddressableAssetSettingsDefaultObject.Settings.FindAssetEntry(spriteSource.AssetGUID) != null;
         }
 
         public List<KeyValue<SkinConfig, float>> GetEntries(CaseConfig caseConfig)
@@ -390,12 +388,10 @@ namespace Features.RemoteConfigs.Editor.Cases
                 throw new InvalidOperationException($"Icon '{sprite.name}' is not packed by any sprite atlas: put it into the cases icons folder and run Tools/Sprite Atlases/Rebuild");
             }
 
-            var atlasGuid = AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(atlas));
-            caseConfig.ContextData = new CaseConfig.UIContextData { SpriteSource = new AddressableLoadContainerSprite(atlasGuid) };
-
-            var serializedConfig = new SerializedObject(caseConfig);
-            AtlasedSpriteReferences.Write(serializedConfig.FindProperty(SpriteReferencePath), atlas, sprite);
-            serializedConfig.ApplyModifiedPropertiesWithoutUndo();
+            caseConfig.ContextData = new CaseConfig.UIContextData
+            {
+                SpriteSource = AtlasedSpriteReferences.Create(atlas, sprite),
+            };
         }
 
         private void Save(UnityEngine.Object asset)

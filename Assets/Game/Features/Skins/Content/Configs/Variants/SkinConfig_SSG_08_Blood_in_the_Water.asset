@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Blood in the Water
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: SSG_08_Blood_in_the_Water
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: db32c831b4a774d8abbee9821e231211
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: SSG_08_Blood_in_the_Water
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: db32c831b4a774d8abbee9821e231211
+      m_EditorAssetChanged: 0
   Rarity: 5
   Collection:
     _value: Collection_Arms_Deal_2

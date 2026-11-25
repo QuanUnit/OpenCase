@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Analog Input
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Sawed-Off_Analog_Input
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 514b7750a7cf54a1b9e6b56e99369922
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Sawed-Off_Analog_Input
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 514b7750a7cf54a1b9e6b56e99369922
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Kilowatt

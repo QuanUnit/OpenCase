@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Torque
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: AUG_Torque
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: ec7e08c9cd0194104a5f6eaf0c5aeae8
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: AUG_Torque
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: ec7e08c9cd0194104a5f6eaf0c5aeae8
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Huntsman

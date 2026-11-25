@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Fade
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Specialist_Gloves_Fade
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 945c88c205d5a45a0aaa19ac9a9362c5
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Specialist_Gloves_Fade
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 945c88c205d5a45a0aaa19ac9a9362c5
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

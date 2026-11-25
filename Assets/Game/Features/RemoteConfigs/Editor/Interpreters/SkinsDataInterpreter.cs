@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using QCore.AddressablesWrapper.Containers;
 using Features.RemoteConfigs.Editor.Models;
 using Features.Skins.Configs;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using Features.Skins.Data;
 
 namespace Features.RemoteConfigs.Editor.Interpreters
@@ -116,7 +116,7 @@ namespace Features.RemoteConfigs.Editor.Interpreters
             newSkin.Id = new SkinId(skinId);
             newSkin.ContextData = new SkinConfig.UIContextData
             {
-                SpriteSource = new AddressableLoadContainerSprite(),
+                SpriteSource = new AssetReferenceAtlasedSprite(string.Empty),
             };
 
             var assetPath = $"{skinsPath}/SkinConfig_{skinId}.asset";

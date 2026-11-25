@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Desert Halftone
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: P90_Desert_Halftone
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: e94b8d75e1e4c4a308d404b08a9f7001
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: P90_Desert_Halftone
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: e94b8d75e1e4c4a308d404b08a9f7001
+      m_EditorAssetChanged: 0
   Rarity: 0
   Collection:
     _value: Collection_Radiant

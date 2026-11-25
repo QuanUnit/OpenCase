@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Sultan
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Tec-9_Sultan
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 9c1694ebd2571450a9f6d85a24a66a2c
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Tec-9_Sultan
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 9c1694ebd2571450a9f6d85a24a66a2c
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Arabesque

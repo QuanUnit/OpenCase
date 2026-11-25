@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Ultraviolet
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Talon_Knife_Ultraviolet
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 90775c4edf4ea43a998f62152c8fc76f
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Talon_Knife_Ultraviolet
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 90775c4edf4ea43a998f62152c8fc76f
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

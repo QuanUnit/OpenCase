@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Tiger Tooth
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Skeleton_Knife_Tiger_Tooth
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: bf6e9f6d9f7f14b35807944889c85884
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Skeleton_Knife_Tiger_Tooth
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: bf6e9f6d9f7f14b35807944889c85884
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

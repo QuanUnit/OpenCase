@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Desert DDPAT
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: P90_Desert_DDPAT
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: d28c60c59329642bbbcec915710159ca
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: P90_Desert_DDPAT
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: d28c60c59329642bbbcec915710159ca
+      m_EditorAssetChanged: 0
   Rarity: 0
   Collection:
     _value: Collection_2021_Dust_2

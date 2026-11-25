@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Urban Masked
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Classic_Knife_Urban_Masked
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 5780fa26012c24f4987587bd7f5def6a
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Classic_Knife_Urban_Masked
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 5780fa26012c24f4987587bd7f5def6a
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

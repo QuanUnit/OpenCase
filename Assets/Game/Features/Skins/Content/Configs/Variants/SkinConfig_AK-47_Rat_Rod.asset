@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Rat Rod
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: AK-47_Rat_Rod
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 952e44e5d450b4bd18c4799a79dd4f7c
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: AK-47_Rat_Rod
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 952e44e5d450b4bd18c4799a79dd4f7c
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Shattered_Web

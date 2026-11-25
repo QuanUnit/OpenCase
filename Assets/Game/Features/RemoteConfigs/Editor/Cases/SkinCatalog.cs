@@ -147,12 +147,12 @@ namespace Features.RemoteConfigs.Editor.Cases
         {
             var spriteSource = config.ContextData.SpriteSource;
 
-            if (spriteSource == null || spriteSource.AssetReference == null)
+            if (spriteSource == null)
             {
                 return string.Empty;
             }
 
-            return AtlasedSpriteReferences.GetSpriteGuid(spriteSource.AssetReference);
+            return AtlasedSpriteReferences.GetSpriteGuid(spriteSource);
         }
 
         public void RefreshValueModel()

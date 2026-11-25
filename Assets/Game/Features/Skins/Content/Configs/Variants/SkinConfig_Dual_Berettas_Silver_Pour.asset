@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Silver Pour
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Dual_Berettas_Silver_Pour
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 4c992b912e47f4d6ab484b6264a15428
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Dual_Berettas_Silver_Pour
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 4c992b912e47f4d6ab484b6264a15428
+      m_EditorAssetChanged: 0
   Rarity: 0
   Collection:
     _value: Collection_Achroma

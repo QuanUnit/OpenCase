@@ -8,7 +8,6 @@
         "Shared",
         "Shared.Editor",
         "QCore.Tools",
-        "QCore.AddressablesWrapper",
         "Unity.Addressables",
         "Unity.Addressables.Editor",
         "UniTask",

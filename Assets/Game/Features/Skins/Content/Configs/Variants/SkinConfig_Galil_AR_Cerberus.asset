@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Cerberus
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Galil_AR_Cerberus
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: d2035ad8fca424f6c81e21ea94a07bcf
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Galil_AR_Cerberus
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: d2035ad8fca424f6c81e21ea94a07bcf
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Cache

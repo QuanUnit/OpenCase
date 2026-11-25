@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Asterion
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: MP7_Asterion
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 88e62cc1a146d45a1954bf06b5524f1c
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: MP7_Asterion
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 88e62cc1a146d45a1954bf06b5524f1c
+      m_EditorAssetChanged: 0
   Rarity: 0
   Collection:
     _value: Collection_Gods_and_Monsters

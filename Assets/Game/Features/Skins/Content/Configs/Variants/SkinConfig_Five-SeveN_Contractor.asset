@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Contractor
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Five-SeveN_Contractor
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: ab2dcb1198be148e2be0e202c3d23e68
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Five-SeveN_Contractor
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: ab2dcb1198be148e2be0e202c3d23e68
+      m_EditorAssetChanged: 0
   Rarity: 0
   Collection:
     _value: Collection_Mirage

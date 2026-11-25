@@ -1,8 +1,8 @@
 using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
-using QCore.AddressablesWrapper.Containers;
 using Shared.Identifiers;
+using UnityEngine.AddressableAssets;
 using UnityEngine;
 using Features.Skins.Data;
 
@@ -27,12 +27,12 @@ namespace Features.Skins.Configs
 
         public async UniTask LoadAssets(CancellationToken cancellationToken = default)
         {
-            await ContextData.SpriteSource.Load(cancellationToken);
+            await ContextData.SpriteSource.LoadAssetAsync<Sprite>().WithCancellation(cancellationToken);
         }
 
         public void ReleaseAssets()
         {
-            ContextData.SpriteSource.Release();
+            ContextData.SpriteSource.ReleaseAsset();
         }
 
         private string GetWeaponName()
@@ -53,7 +53,7 @@ namespace Features.Skins.Configs
         [Serializable]
         public struct UIContextData
         {
-            public AddressableLoadContainerSprite SpriteSource;
+            public AssetReferenceAtlasedSprite SpriteSource;
         }
     }
 }

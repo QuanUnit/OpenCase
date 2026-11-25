@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Icarus Fell
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: M4A1-S_Icarus_Fell
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 8a9f933c87b0442d1bb3bdca5a1b3cc2
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: M4A1-S_Icarus_Fell
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 8a9f933c87b0442d1bb3bdca5a1b3cc2
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Gods_and_Monsters

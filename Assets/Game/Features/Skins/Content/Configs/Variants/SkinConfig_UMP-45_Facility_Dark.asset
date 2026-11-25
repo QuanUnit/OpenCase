@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Facility Dark
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: UMP-45_Facility_Dark
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 1b18f8fc0160247699c2e0979a8a967e
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: UMP-45_Facility_Dark
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 1b18f8fc0160247699c2e0979a8a967e
+      m_EditorAssetChanged: 0
   Rarity: 0
   Collection:
     _value: Collection_2018_Nuke

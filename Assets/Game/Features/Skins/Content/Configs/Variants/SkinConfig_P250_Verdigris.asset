@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Verdigris
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: P250_Verdigris
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: abe1fc8d54a6b41f9ba7d252c353c63e
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: P250_Verdigris
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: abe1fc8d54a6b41f9ba7d252c353c63e
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Prisma

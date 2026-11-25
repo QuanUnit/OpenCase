@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Toy Soldier
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Nova_Toy_Soldier
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 13100607e6faf4c31aca86913196f3da
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Nova_Toy_Soldier
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 13100607e6faf4c31aca86913196f3da
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Horizon

@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Colony
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: FAMAS_Colony
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 814568495cdd54229b03b2f95269e25c
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: FAMAS_Colony
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 814568495cdd54229b03b2f95269e25c
+      m_EditorAssetChanged: 0
   Rarity: 0
   Collection:
     _value: Collection_Italy

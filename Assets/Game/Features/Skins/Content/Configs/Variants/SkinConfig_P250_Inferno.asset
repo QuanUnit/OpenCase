@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Inferno
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: P250_Inferno
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 40795dd7c0aae4333b25c8458f0a33ec
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: P250_Inferno
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 40795dd7c0aae4333b25c8458f0a33ec
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_CS20

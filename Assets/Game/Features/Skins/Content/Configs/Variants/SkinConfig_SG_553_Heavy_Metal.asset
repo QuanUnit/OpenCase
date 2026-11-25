@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Heavy Metal
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: SG_553_Heavy_Metal
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: a24c7f221708f4393986704cc50872b3
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: SG_553_Heavy_Metal
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: a24c7f221708f4393986704cc50872b3
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Snakebite

@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Nitro
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: CZ75-Auto_Nitro
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: cbaf5aeeb80e34cf1ad79fa20451b1bf
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: CZ75-Auto_Nitro
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: cbaf5aeeb80e34cf1ad79fa20451b1bf
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: 

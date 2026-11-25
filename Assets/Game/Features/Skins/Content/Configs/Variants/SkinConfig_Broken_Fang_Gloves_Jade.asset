@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Jade
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Broken_Fang_Gloves_Jade
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 2ff11754185cf4c6b918817622922d62
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Broken_Fang_Gloves_Jade
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 2ff11754185cf4c6b918817622922d62
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

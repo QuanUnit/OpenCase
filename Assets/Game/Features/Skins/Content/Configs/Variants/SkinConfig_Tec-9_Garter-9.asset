@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Garter-9
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Tec-9_Garter-9
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 8a14c9ef90f39487d82fa8b2b5b1e9a0
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Tec-9_Garter-9
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 8a14c9ef90f39487d82fa8b2b5b1e9a0
+      m_EditorAssetChanged: 0
   Rarity: 1
   Collection:
     _value: Collection_Boreal

@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: ZX Spectron
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: FAMAS_ZX_Spectron
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 747082587e4724592af2e0170b3e8804
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: FAMAS_ZX_Spectron
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 747082587e4724592af2e0170b3e8804
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Operation_Riptide

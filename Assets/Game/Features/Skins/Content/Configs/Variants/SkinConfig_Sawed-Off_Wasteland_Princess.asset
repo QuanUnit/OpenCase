@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Wasteland Princess
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Sawed-Off_Wasteland_Princess
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 930d162bf15d243489107bc2a464a1a9
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Sawed-Off_Wasteland_Princess
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 930d162bf15d243489107bc2a464a1a9
+      m_EditorAssetChanged: 0
   Rarity: 4
   Collection:
     _value: Collection_Glove

@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Crimson Web
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Gut_Knife_Crimson_Web
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: b3e2f5d8166144cc9b2db66852d924e8
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Gut_Knife_Crimson_Web
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: b3e2f5d8166144cc9b2db66852d924e8
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

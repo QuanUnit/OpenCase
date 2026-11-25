@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Boreal Forest
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Flip_Knife_Boreal_Forest
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 2c0b604d44d16471c8a36887696fe5cb
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Flip_Knife_Boreal_Forest
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 2c0b604d44d16471c8a36887696fe5cb
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

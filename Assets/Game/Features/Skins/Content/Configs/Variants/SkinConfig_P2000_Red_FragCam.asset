@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Red FragCam
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: P2000_Red_FragCam
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 43948757a5c554bf1b09e82519e7cca2
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: P2000_Red_FragCam
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 43948757a5c554bf1b09e82519e7cca2
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Arms_Deal_3

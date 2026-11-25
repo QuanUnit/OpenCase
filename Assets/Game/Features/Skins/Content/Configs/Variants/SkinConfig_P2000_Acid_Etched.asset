@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Acid Etched
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: P2000_Acid_Etched
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 766a962f20d344b718204240066abee8
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: P2000_Acid_Etched
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 766a962f20d344b718204240066abee8
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Prisma_2

@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Corp Defense
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: FAMAS_Corp_Defense
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 1df1a9d3e144940198785b35b030b3c2
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: FAMAS_Corp_Defense
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 1df1a9d3e144940198785b35b030b3c2
+      m_EditorAssetChanged: 0
   Rarity: 1
   Collection:
     _value: Collection_Spy_Tech

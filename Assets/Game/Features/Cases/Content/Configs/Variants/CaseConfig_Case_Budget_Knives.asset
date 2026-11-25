@@ -80,10 +80,9 @@ MonoBehaviour:
       Value: 2.951221
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
-        m_SubObjectName: case_budget_knives
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 796ad263d75c241fa9ce99d95c4e1211
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_budget_knives
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 796ad263d75c241fa9ce99d95c4e1211
+      m_EditorAssetChanged: 0

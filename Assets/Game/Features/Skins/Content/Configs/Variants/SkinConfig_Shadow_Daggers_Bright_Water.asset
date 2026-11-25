@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Bright Water
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Shadow_Daggers_Bright_Water
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 82de267a05cf34a41bd10a71e9dc15c5
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Shadow_Daggers_Bright_Water
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 82de267a05cf34a41bd10a71e9dc15c5
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

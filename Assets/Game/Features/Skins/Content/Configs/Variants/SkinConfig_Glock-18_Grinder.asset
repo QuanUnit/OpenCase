@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Grinder
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Glock-18_Grinder
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: a7943ae81d2404e00b240aad5edad487
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Glock-18_Grinder
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: a7943ae81d2404e00b240aad5edad487
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Vanguard

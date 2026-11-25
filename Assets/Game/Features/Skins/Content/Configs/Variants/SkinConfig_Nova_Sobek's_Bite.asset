@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Sobek's Bite
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Nova_Sobek's_Bite
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: f47d9e5ef30884835ad96a506bcf4b08
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Nova_Sobek's_Bite
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: f47d9e5ef30884835ad96a506bcf4b08
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Anubis

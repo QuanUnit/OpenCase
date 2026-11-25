@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Sunset Lily
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: P90_Sunset_Lily
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 40cecda21b6294f28b99289cc765168b
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: P90_Sunset_Lily
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 40cecda21b6294f28b99289cc765168b
+      m_EditorAssetChanged: 0
   Rarity: 1
   Collection:
     _value: Collection_St_Marc

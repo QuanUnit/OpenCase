@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Minotaur's Labyrinth
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: UMP-45_Minotaur's_Labyrinth
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 3221d4d01ecd2494ea8fff13e72b6318
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: UMP-45_Minotaur's_Labyrinth
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 3221d4d01ecd2494ea8fff13e72b6318
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Gods_and_Monsters

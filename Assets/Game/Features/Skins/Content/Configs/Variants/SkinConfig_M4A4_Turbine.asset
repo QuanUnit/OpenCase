@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Turbine
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: M4A4_Turbine
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: c759b581163c146e49e0ba7d6f06be8e
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: M4A4_Turbine
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: c759b581163c146e49e0ba7d6f06be8e
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Gallery

@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Player Two
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: M4A1-S_Player_Two
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 8cf91af4cb9c5464f9f5e8ef93374c76
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: M4A1-S_Player_Two
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 8cf91af4cb9c5464f9f5e8ef93374c76
+      m_EditorAssetChanged: 0
   Rarity: 5
   Collection:
     _value: Collection_Prisma_2

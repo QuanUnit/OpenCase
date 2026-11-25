@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Damascus Steel
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: M9_Bayonet_Damascus_Steel
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: ea5a06610df374df2bb5c86b9d2a21b2
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: M9_Bayonet_Damascus_Steel
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: ea5a06610df374df2bb5c86b9d2a21b2
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

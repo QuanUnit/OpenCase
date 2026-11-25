@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Midnight Storm
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Desert_Eagle_Midnight_Storm
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 878486b4e01344b5a982f0ca1824cca1
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Desert_Eagle_Midnight_Storm
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 878486b4e01344b5a982f0ca1824cca1
+      m_EditorAssetChanged: 0
   Rarity: 1
   Collection:
     _value: Collection_Rising_Sun

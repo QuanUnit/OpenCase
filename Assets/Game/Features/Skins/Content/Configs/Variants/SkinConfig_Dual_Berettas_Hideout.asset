@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Hideout
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Dual_Berettas_Hideout
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: b522b5f799b1941ed9d0024c05b6c054
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Dual_Berettas_Hideout
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: b522b5f799b1941ed9d0024c05b6c054
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Kilowatt

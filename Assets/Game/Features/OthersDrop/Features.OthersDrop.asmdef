@@ -6,10 +6,10 @@
         "Shared",
         "QCore.Tools",
         "QCore.UI",
-        "QCore.AddressablesWrapper",
         "Zenject",
         "Unity.TextMeshPro",
-        "UnityEngine.UI"
+        "UnityEngine.UI",
+        "Unity.Addressables"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

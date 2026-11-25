@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Walnut
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Nova_Walnut
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 2aa87caf957a64f60898914e84fd068f
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Nova_Walnut
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 2aa87caf957a64f60898914e84fd068f
+      m_EditorAssetChanged: 0
   Rarity: 0
   Collection:
     _value: Collection_Inferno

@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Vulcan
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: AK-47_Vulcan
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: c1ce92a1616804a8d9a15ba289df61c7
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: AK-47_Vulcan
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: c1ce92a1616804a8d9a15ba289df61c7
+      m_EditorAssetChanged: 0
   Rarity: 5
   Collection:
     _value: Collection_Huntsman

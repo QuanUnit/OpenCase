@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Storm
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: MP9_Storm
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 2850c13932d7d4be582af0612c70a6c4
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: MP9_Storm
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 2850c13932d7d4be582af0612c70a6c4
+      m_EditorAssetChanged: 0
   Rarity: 0
   Collection:
     _value: Collection_Overpass

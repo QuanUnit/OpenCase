@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Vanilla
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: M9_Bayonet_Vanilla
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 08e96a3e7ca5140cca425679ce001e53
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: M9_Bayonet_Vanilla
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 08e96a3e7ca5140cca425679ce001e53
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

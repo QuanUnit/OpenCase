@@ -5,7 +5,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Features.RemoteConfigs.Editor.Exporters.Skins;
 using Features.Skins.Configs;
-using QCore.AddressablesWrapper.Containers;
 using Shared.Editor.SpriteAtlases;
 using Shared.Tools.AssetsExtensions;
 using Shared.Tools.Web;
@@ -20,7 +19,6 @@ namespace Features.RemoteConfigs.Editor.Icons
     public class SkinIconsRunner
     {
         private const string TemporaryFolderName = "SkinIcons";
-        private const string SpriteReferencePath = "ContextData.SpriteSource._assetReference";
 
         private readonly byte[] _pngSignature = { 0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A };
         private readonly SkinIconsConfig _config;
@@ -163,7 +161,7 @@ namespace Features.RemoteConfigs.Editor.Icons
 
         private string GetCurrentIconPath(SkinConfig config)
         {
-            var assetReference = config.ContextData.SpriteSource?.AssetReference;
+            var assetReference = config.ContextData.SpriteSource;
 
             if (assetReference == null || string.IsNullOrEmpty(assetReference.AssetGUID) == true)
             {
@@ -615,12 +613,8 @@ namespace Features.RemoteConfigs.Editor.Icons
 
             config.ContextData = new SkinConfig.UIContextData
             {
-                SpriteSource = new AddressableLoadContainerSprite(AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(atlas))),
+                SpriteSource = AtlasedSpriteReferences.Create(atlas, sprite),
             };
-
-            var serializedConfig = new SerializedObject(config);
-            AtlasedSpriteReferences.Write(serializedConfig.FindProperty(SpriteReferencePath), atlas, sprite);
-            serializedConfig.ApplyModifiedPropertiesWithoutUndo();
 
             EditorUtility.SetDirty(config);
 

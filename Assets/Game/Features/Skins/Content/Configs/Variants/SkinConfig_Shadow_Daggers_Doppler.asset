@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Doppler
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Shadow_Daggers_Doppler
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: a94e43ef8d4b644f6970160cb7152975
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Shadow_Daggers_Doppler
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: a94e43ef8d4b644f6970160cb7152975
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

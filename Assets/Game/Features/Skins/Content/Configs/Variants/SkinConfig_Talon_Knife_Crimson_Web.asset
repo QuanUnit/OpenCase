@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Crimson Web
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Talon_Knife_Crimson_Web
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 3e4aa68c56eff4ef483f7ca1200c1993
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Talon_Knife_Crimson_Web
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 3e4aa68c56eff4ef483f7ca1200c1993
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

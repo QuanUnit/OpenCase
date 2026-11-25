@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Bioleak
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: MP9_Bioleak
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: b67a1c74b7dc34136801c03106550174
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: MP9_Bioleak
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: b67a1c74b7dc34136801c03106550174
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Chroma_3

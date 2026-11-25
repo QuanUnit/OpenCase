@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Snake Song
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: FAMAS_Snake_Song
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 4067e3ab353164a788f10742967cd00d
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: FAMAS_Snake_Song
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 4067e3ab353164a788f10742967cd00d
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Arabesque

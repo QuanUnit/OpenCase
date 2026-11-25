@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Rangeen
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: MAC-10_Rangeen
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: e648704b51b294613a888931ec2bd163
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: MAC-10_Rangeen
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: e648704b51b294613a888931ec2bd163
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Shadow

@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Gamma Doppler Phase 4
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Glock-18_Gamma_Doppler_Phase_4
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 2ce62c420187344719cad7cff69f28e7
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Glock-18_Gamma_Doppler_Phase_4
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 2ce62c420187344719cad7cff69f28e7
+      m_EditorAssetChanged: 0
   Rarity: 5
   Collection:
     _value: Collection_2021_Train

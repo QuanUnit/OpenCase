@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Night Stripe
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Classic_Knife_Night_Stripe
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 7c846fe03e48a4e1b82bfec0088e8f1c
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Classic_Knife_Night_Stripe
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 7c846fe03e48a4e1b82bfec0088e8f1c
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

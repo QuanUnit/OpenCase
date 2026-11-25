@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Heat Treated
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Five-SeveN_Heat_Treated
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 1edde83826fe04e30943a479c94331f9
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Five-SeveN_Heat_Treated
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 1edde83826fe04e30943a479c94331f9
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Sport_And_Field

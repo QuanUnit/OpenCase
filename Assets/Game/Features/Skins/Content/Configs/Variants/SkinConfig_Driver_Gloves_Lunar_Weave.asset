@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Lunar Weave
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Driver_Gloves_Lunar_Weave
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 6b6340ddcdba646e5b2ef54f5b3fb006
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Driver_Gloves_Lunar_Weave
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 6b6340ddcdba646e5b2ef54f5b3fb006
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

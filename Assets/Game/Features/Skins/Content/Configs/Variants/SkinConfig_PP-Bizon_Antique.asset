@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Antique
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: PP-Bizon_Antique
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 2ed8fce99e93a435ba25f765e9f4d0c8
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: PP-Bizon_Antique
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 2ed8fce99e93a435ba25f765e9f4d0c8
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Huntsman

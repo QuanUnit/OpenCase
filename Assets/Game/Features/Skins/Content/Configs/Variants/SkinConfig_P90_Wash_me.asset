@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Wash me
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: P90_Wash_me
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: d4855879d9d3946e1bb6e4d9f7c47765
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: P90_Wash_me
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: d4855879d9d3946e1bb6e4d9f7c47765
+      m_EditorAssetChanged: 0
   Rarity: 1
   Collection:
     _value: Collection_Overpass_2024

@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Stinger
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: G3SG1_Stinger
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 8d6275b2663d5456c94376c766e2f73f
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: G3SG1_Stinger
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 8d6275b2663d5456c94376c766e2f73f
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Glove

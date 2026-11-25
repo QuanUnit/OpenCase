@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Naval Shred Camo
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: M4A4_Naval_Shred_Camo
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 7ada4683375614511a9418c5f31a8beb
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: M4A4_Naval_Shred_Camo
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 7ada4683375614511a9418c5f31a8beb
+      m_EditorAssetChanged: 0
   Rarity: 1
   Collection:
     _value: Collection_Ascent

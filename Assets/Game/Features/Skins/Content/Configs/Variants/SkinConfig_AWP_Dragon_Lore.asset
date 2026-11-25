@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Dragon Lore
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: AWP_Dragon_Lore
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: b3cfc572a34ea4b359ec5584dc0d6c6b
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: AWP_Dragon_Lore
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: b3cfc572a34ea4b359ec5584dc0d6c6b
+      m_EditorAssetChanged: 0
   Rarity: 5
   Collection:
     _value: Collection_Cobblestone

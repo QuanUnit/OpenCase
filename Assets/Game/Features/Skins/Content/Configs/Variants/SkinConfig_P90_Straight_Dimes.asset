@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Straight Dimes
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: P90_Straight_Dimes
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: c33ddf561d9e44f9b8013e16bb06ed05
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: P90_Straight_Dimes
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: c33ddf561d9e44f9b8013e16bb06ed05
+      m_EditorAssetChanged: 0
   Rarity: 1
   Collection:
     _value: Collection_Train_2025

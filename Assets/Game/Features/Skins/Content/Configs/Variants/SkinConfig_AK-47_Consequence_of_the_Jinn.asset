@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Consequence of the Jinn
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: AK-47_Consequence_of_the_Jinn
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 4d47f6b0c66e3474191c563a6f8ae980
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: AK-47_Consequence_of_the_Jinn
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 4d47f6b0c66e3474191c563a6f8ae980
+      m_EditorAssetChanged: 0
   Rarity: 5
   Collection:
     _value: Collection_Arabesque

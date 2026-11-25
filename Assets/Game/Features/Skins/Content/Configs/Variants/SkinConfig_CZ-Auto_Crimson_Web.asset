@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Crimson Web
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: CZ75-Auto_Crimson_Web
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 4c90114f29aed43788612f4dec7f0c99
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: CZ75-Auto_Crimson_Web
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 4c90114f29aed43788612f4dec7f0c99
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: 

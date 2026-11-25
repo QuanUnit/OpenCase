@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Featherweight
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: MP9_Featherweight
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 19b3e1fd8c11e4004b14a18c210a5116
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: MP9_Featherweight
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 19b3e1fd8c11e4004b14a18c210a5116
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Revolution

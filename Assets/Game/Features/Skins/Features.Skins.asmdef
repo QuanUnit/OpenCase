@@ -4,10 +4,12 @@
     "references": [
         "Shared",
         "QCore.Tools",
-        "QCore.AddressablesWrapper",
         "NaughtyAttributes.Core",
         "Zenject",
-        "UniTask"
+        "UniTask",
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "UniTask.Addressables"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

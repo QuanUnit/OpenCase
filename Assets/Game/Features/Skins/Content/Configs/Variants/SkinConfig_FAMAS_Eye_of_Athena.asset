@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Eye of Athena
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: FAMAS_Eye_of_Athena
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: ae562372e387040bb96bc310b6e0a623
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: FAMAS_Eye_of_Athena
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: ae562372e387040bb96bc310b6e0a623
+      m_EditorAssetChanged: 0
   Rarity: 4
   Collection:
     _value: Collection_Horizon

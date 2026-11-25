@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Black & Tan
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: P250_Black_&_Tan
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: fbdc849b4efef41509658e81a6f0ec49
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: P250_Black_&_Tan
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: fbdc849b4efef41509658e81a6f0ec49
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_2021_Dust_2

@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Calligrafaux
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: SSG_08_Calligrafaux
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 6a50e6b115c494d7a92e4172423b78c4
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: SSG_08_Calligrafaux
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 6a50e6b115c494d7a92e4172423b78c4
+      m_EditorAssetChanged: 0
   Rarity: 1
   Collection:
     _value: Collection_Harlequin

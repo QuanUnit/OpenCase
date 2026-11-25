@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Fuel Injector
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Tec-9_Fuel_Injector
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 42c4be97fb60442cfa69a77c5c5260ce
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Tec-9_Fuel_Injector
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 42c4be97fb60442cfa69a77c5c5260ce
+      m_EditorAssetChanged: 0
   Rarity: 4
   Collection:
     _value: Collection_Gamma_2

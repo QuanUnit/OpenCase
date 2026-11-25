@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Orange Filigree
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: SSG_08_Orange_Filigree
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 788725dff5a064879937d250b6166ae7
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: SSG_08_Orange_Filigree
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 788725dff5a064879937d250b6166ae7
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Canals

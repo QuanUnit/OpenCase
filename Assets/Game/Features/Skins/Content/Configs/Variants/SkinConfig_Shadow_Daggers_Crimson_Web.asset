@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Crimson Web
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Shadow_Daggers_Crimson_Web
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 71ff23bdd6d794dd9bbf1573f0012a39
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Shadow_Daggers_Crimson_Web
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 71ff23bdd6d794dd9bbf1573f0012a39
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

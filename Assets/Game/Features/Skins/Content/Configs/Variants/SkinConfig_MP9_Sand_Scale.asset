@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Sand Scale
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: MP9_Sand_Scale
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: c0b2e857c8f2d4d628d8eedb3e94f568
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: MP9_Sand_Scale
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: c0b2e857c8f2d4d628d8eedb3e94f568
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Glove

@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Blackbook
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Specialist_Gloves_Blackbook
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 8a3eb484648c34180b2633e7a49eb1bd
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Specialist_Gloves_Blackbook
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 8a3eb484648c34180b2633e7a49eb1bd
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

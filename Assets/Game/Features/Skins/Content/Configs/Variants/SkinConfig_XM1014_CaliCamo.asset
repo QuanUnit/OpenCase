@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: CaliCamo
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: XM1014_CaliCamo
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: f314647086ea841ed978ee9e2104eb51
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: XM1014_CaliCamo
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: f314647086ea841ed978ee9e2104eb51
+      m_EditorAssetChanged: 0
   Rarity: 1
   Collection:
     _value: Collection_Italy

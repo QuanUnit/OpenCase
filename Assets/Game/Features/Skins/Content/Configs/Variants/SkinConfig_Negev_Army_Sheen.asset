@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Army Sheen
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Negev_Army_Sheen
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: c1f2b991fe59e45e0a0c79a928500b30
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Negev_Army_Sheen
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: c1f2b991fe59e45e0a0c79a928500b30
+      m_EditorAssetChanged: 0
   Rarity: 0
   Collection:
     _value: Collection_Bank

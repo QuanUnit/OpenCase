@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Serpent Strike
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Desert_Eagle_Serpent_Strike
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 6c8053f771d8a4958b6c22e21f1d3ab5
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Desert_Eagle_Serpent_Strike
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 6c8053f771d8a4958b6c22e21f1d3ab5
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Fever

@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Plum Netting
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: P250_Plum_Netting
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 641d62e0b32be4fffae294b1494e1c0b
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: P250_Plum_Netting
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 641d62e0b32be4fffae294b1494e1c0b
+      m_EditorAssetChanged: 0
   Rarity: 0
   Collection:
     _value: Collection_Ascent

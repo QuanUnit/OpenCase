@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Vendetta
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: CZ75-Auto_Vendetta
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 1b96e428841fb4985b5d6d38ff911442
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: CZ75-Auto_Vendetta
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 1b96e428841fb4985b5d6d38ff911442
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Operation_Broken_Fang

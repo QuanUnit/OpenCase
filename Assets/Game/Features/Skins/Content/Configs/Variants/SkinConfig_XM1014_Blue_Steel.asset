@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Blue Steel
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: XM1014_Blue_Steel
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 1c6da53e7bc7145cb94cfc1732a74739
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: XM1014_Blue_Steel
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 1c6da53e7bc7145cb94cfc1732a74739
+      m_EditorAssetChanged: 0
   Rarity: 1
   Collection:
     _value: Collection_Lake

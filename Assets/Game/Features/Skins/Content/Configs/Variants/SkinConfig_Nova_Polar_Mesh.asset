@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Polar Mesh
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Nova_Polar_Mesh
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 994b6de3df00548d8acdf5f083519533
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Nova_Polar_Mesh
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 994b6de3df00548d8acdf5f083519533
+      m_EditorAssetChanged: 0
   Rarity: 0
   Collection:
     _value: Collection_Train

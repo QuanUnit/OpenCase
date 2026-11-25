@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Aqua Terrace
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Galil_AR_Aqua_Terrace
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: a5a1f31532d244fb69eb4e87973046e3
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Galil_AR_Aqua_Terrace
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: a5a1f31532d244fb69eb4e87973046e3
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Rising_Sun

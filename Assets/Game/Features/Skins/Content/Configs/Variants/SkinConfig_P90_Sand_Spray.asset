@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Sand Spray
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: P90_Sand_Spray
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: e1da9e40bce4845e3be2f2a87ee981d6
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: P90_Sand_Spray
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: e1da9e40bce4845e3be2f2a87ee981d6
+      m_EditorAssetChanged: 0
   Rarity: 0
   Collection:
     _value: Collection_Dust_2

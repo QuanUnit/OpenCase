@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Irradiated Alert
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Sawed-Off_Irradiated_Alert
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 19ad8285e8ab1480dbd56a523ef44066
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Sawed-Off_Irradiated_Alert
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 19ad8285e8ab1480dbd56a523ef44066
+      m_EditorAssetChanged: 0
   Rarity: 0
   Collection:
     _value: Collection_Nuke

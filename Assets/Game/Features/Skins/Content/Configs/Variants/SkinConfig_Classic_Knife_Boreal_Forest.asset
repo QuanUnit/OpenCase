@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Boreal Forest
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Classic_Knife_Boreal_Forest
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: d6266a1444ff74452990da620e32cd66
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Classic_Knife_Boreal_Forest
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: d6266a1444ff74452990da620e32cd66
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

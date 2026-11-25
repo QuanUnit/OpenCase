@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Stratosphere
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: M4A1-S_Stratosphere
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: ce17d81d609864c028eeb01309a59fc7
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: M4A1-S_Stratosphere
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: ce17d81d609864c028eeb01309a59fc7
+      m_EditorAssetChanged: 0
   Rarity: 4
   Collection:
     _value: Collection_Ascent

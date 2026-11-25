@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Triumvirate
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Five-SeveN_Triumvirate
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: df22288a35c884c128fff6c9af3c6e8b
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Five-SeveN_Triumvirate
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: df22288a35c884c128fff6c9af3c6e8b
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Wildfire

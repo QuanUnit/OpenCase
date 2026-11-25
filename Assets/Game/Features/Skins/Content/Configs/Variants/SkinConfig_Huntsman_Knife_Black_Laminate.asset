@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Black Laminate
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Huntsman_Knife_Black_Laminate
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 40b4dde6edf524f07b83281417e3e7dd
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Huntsman_Knife_Black_Laminate
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 40b4dde6edf524f07b83281417e3e7dd
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

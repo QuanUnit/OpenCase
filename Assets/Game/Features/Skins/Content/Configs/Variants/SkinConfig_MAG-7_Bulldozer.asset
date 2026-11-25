@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Bulldozer
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: MAG-7_Bulldozer
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: e5efa75f4f6984a9cbd6678d6c8141e5
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: MAG-7_Bulldozer
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: e5efa75f4f6984a9cbd6678d6c8141e5
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Mirage

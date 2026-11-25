@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Damascus Steel
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Skeleton_Knife_Damascus_Steel
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: fffb4109904924263ae7ad1a3d60b1c8
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Skeleton_Knife_Damascus_Steel
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: fffb4109904924263ae7ad1a3d60b1c8
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Eco
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Galil_AR_Eco
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: d31214152215545c092c2e22561d33ba
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Galil_AR_Eco
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: d31214152215545c092c2e22561d33ba
+      m_EditorAssetChanged: 0
   Rarity: 4
   Collection:
     _value: Collection_Chroma_2

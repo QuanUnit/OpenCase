@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Marble Fade
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Karambit_Marble_Fade
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 1500103ba94044cfe81cf509b3fe03af
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Karambit_Marble_Fade
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 1500103ba94044cfe81cf509b3fe03af
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

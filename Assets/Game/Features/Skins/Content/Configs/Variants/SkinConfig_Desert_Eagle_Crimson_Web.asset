@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Crimson Web
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Desert_Eagle_Crimson_Web
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: d9f5e1a4af4a648479ee6a8c3bcee37a
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Desert_Eagle_Crimson_Web
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: d9f5e1a4af4a648479ee6a8c3bcee37a
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_eSports_2014_Summer

@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Army Recon
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: MP7_Army_Recon
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: d50072fc3422e4257adac6ef5499109c
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: MP7_Army_Recon
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: d50072fc3422e4257adac6ef5499109c
+      m_EditorAssetChanged: 0
   Rarity: 0
   Collection:
     _value: Collection_Safehouse

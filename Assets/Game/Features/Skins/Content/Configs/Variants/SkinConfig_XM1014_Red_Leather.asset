@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Red Leather
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: XM1014_Red_Leather
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: b605bec53b1be4a0e82553930ead5574
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: XM1014_Red_Leather
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: b605bec53b1be4a0e82553930ead5574
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Baggage

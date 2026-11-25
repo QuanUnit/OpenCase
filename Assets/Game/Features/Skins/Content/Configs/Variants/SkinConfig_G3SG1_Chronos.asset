@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Chronos
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: G3SG1_Chronos
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: dab0e0d549f814372b126dc9a22558f7
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: G3SG1_Chronos
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: dab0e0d549f814372b126dc9a22558f7
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Gods_and_Monsters

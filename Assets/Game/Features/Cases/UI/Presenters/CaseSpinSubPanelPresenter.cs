@@ -95,7 +95,7 @@ namespace Features.Cases.UI.Presenters
                 items.Add(new CaseContentItemView.Data()
                 {
                     Name = skinConfig.Name,
-                    Icon = skinConfig.ContextData.SpriteSource.GetAsset(),
+                    Icon = (Sprite)skinConfig.ContextData.SpriteSource.Asset,
                     RarityColor = rarityVisual.RarityMainColor,
                 });
             }
@@ -338,7 +338,7 @@ namespace Features.Cases.UI.Presenters
 
             var slot = (SkinSlot)Object.Instantiate(prefab, viewport);
 
-            var skinSprite = skinConfig.ContextData.SpriteSource.GetAsset();
+            var skinSprite = (Sprite)skinConfig.ContextData.SpriteSource.Asset;
             var rarityVisual = _skinsUIContextDataService.GetRarityVisual(skinConfig.Rarity);
 
             slot.SetData(skinSprite, rarityVisual);

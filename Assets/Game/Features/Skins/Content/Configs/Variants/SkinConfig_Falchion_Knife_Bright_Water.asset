@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Bright Water
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Falchion_Knife_Bright_Water
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: bd82c8c26aef44718a7959416232722b
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Falchion_Knife_Bright_Water
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: bd82c8c26aef44718a7959416232722b
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

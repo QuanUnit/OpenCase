@@ -162,7 +162,7 @@ namespace Features.Contracts.UI.Presenters
             Panel.SetInputBlocked(true);
             Panel.ShowResult(new ContractResultView.Data()
             {
-                Icon = config.ContextData.SpriteSource.GetAsset(),
+                Icon = (Sprite)config.ContextData.SpriteSource.Asset,
                 Name = config.Name,
                 Price = result.Price,
                 RarityColor = GetRarityColor(config.Rarity),
@@ -195,7 +195,7 @@ namespace Features.Contracts.UI.Presenters
                 if (index < _inputs.Count)
                 {
                     var config = _skinsDatabaseService.GetSkinConfigById(_inputs[index].ConfigId);
-                    Panel.SetSlot(index, config.ContextData.SpriteSource.GetAsset(), GetRarityColor(config.Rarity));
+                    Panel.SetSlot(index, (Sprite)config.ContextData.SpriteSource.Asset, GetRarityColor(config.Rarity));
                     continue;
                 }
 
@@ -206,7 +206,7 @@ namespace Features.Contracts.UI.Presenters
                 .GetOutcomes(_inputs)
                 .Select(outcome => new ContractOutcomeView.Data()
                 {
-                    Icon = outcome.Config.ContextData.SpriteSource.GetAsset(),
+                    Icon = (Sprite)outcome.Config.ContextData.SpriteSource.Asset,
                     Name = outcome.Config.Name,
                     Chance = outcome.Chance,
                     RarityColor = GetRarityColor(outcome.Config.Rarity),
@@ -260,7 +260,7 @@ namespace Features.Contracts.UI.Presenters
 
             view.SetView(new SkinView.Data()
             {
-                Icon = skinConfig.ContextData.SpriteSource.GetAsset(),
+                Icon = (Sprite)skinConfig.ContextData.SpriteSource.Asset,
                 Name = skinConfig.Name,
                 Price = skin.Price,
                 RarityColor = GetRarityColor(skinConfig.Rarity),

@@ -327,7 +327,7 @@ namespace Features.Upgrade.UI.Presenters
 
             return new UpgradeSkinCard.Data()
             {
-                Icon = skinConfig.ContextData.SpriteSource.GetAsset(),
+                Icon = (Sprite)skinConfig.ContextData.SpriteSource.Asset,
                 Name = skinConfig.Name,
                 Price = skin.Price,
                 RarityColor = GetRarityColor(skin),
@@ -347,7 +347,7 @@ namespace Features.Upgrade.UI.Presenters
 
             return new UpgradeTargetOption.Data()
             {
-                Icon = skinConfig.ContextData.SpriteSource.GetAsset(),
+                Icon = (Sprite)skinConfig.ContextData.SpriteSource.Asset,
                 Name = skinConfig.Name,
                 Price = skin.Price,
                 RarityColor = GetRarityColor(skin),
@@ -362,7 +362,7 @@ namespace Features.Upgrade.UI.Presenters
 
             view.SetView(new SkinView.Data()
             {
-                Icon = skinConfig.ContextData.SpriteSource.GetAsset(),
+                Icon = (Sprite)skinConfig.ContextData.SpriteSource.Asset,
                 Name = skinConfig.Name,
                 Price = skin.Price,
                 RarityColor = GetRarityColor(skin),

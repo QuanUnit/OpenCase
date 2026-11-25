@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Melondrama
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Dual_Berettas_Melondrama
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 9a967775cb76b4c468c7b97c237d6849
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Dual_Berettas_Melondrama
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 9a967775cb76b4c468c7b97c237d6849
+      m_EditorAssetChanged: 0
   Rarity: 4
   Collection:
     _value: Collection_Dreams_And_Nightmares

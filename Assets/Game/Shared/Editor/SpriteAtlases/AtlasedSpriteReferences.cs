@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
@@ -9,11 +10,6 @@ namespace Shared.Editor.SpriteAtlases
 {
     public static class AtlasedSpriteReferences
     {
-        private const string AssetGuidField = "m_AssetGUID";
-        private const string SubObjectNameField = "m_SubObjectName";
-        private const string SubObjectGuidField = "m_SubObjectGUID";
-        private const string SubObjectTypeField = "m_SubObjectType";
-
         public static List<SpriteAtlas> FindAllAtlases()
         {
             return AssetDatabase.FindAssets("t:" + nameof(SpriteAtlas))
@@ -27,15 +23,17 @@ namespace Shared.Editor.SpriteAtlases
             return atlases.FirstOrDefault(atlas => atlas.CanBindTo(sprite) == true);
         }
 
-        public static void Write(SerializedProperty assetReference, SpriteAtlas atlas, Sprite sprite)
+        public static AssetReferenceAtlasedSprite Create(SpriteAtlas atlas, Sprite sprite)
         {
             var atlasGuid = AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(atlas));
-            var spriteGuid = AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(sprite));
+            var assetReference = new AssetReferenceAtlasedSprite(atlasGuid);
 
-            assetReference.FindPropertyRelative(AssetGuidField).stringValue = atlasGuid;
-            assetReference.FindPropertyRelative(SubObjectNameField).stringValue = sprite.name;
-            assetReference.FindPropertyRelative(SubObjectGuidField).stringValue = spriteGuid;
-            assetReference.FindPropertyRelative(SubObjectTypeField).stringValue = typeof(Sprite).AssemblyQualifiedName;
+            if (assetReference.SetEditorSubObject(sprite) == false)
+            {
+                throw new InvalidOperationException($"Sprite '{sprite.name}' is not packed by atlas '{atlas.name}'");
+            }
+
+            return assetReference;
         }
 
         public static string GetSpriteGuid(AssetReference assetReference)

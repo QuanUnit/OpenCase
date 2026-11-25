@@ -133,7 +133,7 @@ namespace Features.Inventory.UI.Presenters
             
             view.SetView(new SkinView.Data()
             {
-                Icon = skinConfig.ContextData.SpriteSource.GetAsset(),
+                Icon = (Sprite)skinConfig.ContextData.SpriteSource.Asset,
                 Name = skinConfig.Name,
                 Price = _skinSellService.GetSellPrice(skin),
                 RarityColor = rarityVisual.RarityMainColor,

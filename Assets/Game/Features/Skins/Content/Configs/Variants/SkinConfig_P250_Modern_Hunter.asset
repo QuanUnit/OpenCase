@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Modern Hunter
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: P250_Modern_Hunter
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 8bfa34821179b4f49ad8fa837cf9f525
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: P250_Modern_Hunter
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 8bfa34821179b4f49ad8fa837cf9f525
+      m_EditorAssetChanged: 0
   Rarity: 2
   Collection:
     _value: Collection_Militia

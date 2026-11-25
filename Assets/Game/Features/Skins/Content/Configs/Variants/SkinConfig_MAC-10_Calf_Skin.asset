@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Calf Skin
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: MAC-10_Calf_Skin
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 5f6f196f91536446f95d25dda501af51
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: MAC-10_Calf_Skin
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 5f6f196f91536446f95d25dda501af51
+      m_EditorAssetChanged: 0
   Rarity: 1
   Collection:
     _value: Collection_2018_Inferno

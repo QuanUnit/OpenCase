@@ -46,10 +46,9 @@ MonoBehaviour:
       Value: 1.0763539
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
-        m_SubObjectName: case_covertops
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 7cb3e9d6f95274fadb24e2b077e5b162
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_covertops
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 7cb3e9d6f95274fadb24e2b077e5b162
+      m_EditorAssetChanged: 0

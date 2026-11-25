@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Marble Fade
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Butterfly_Knife_Marble_Fade
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: d3f3ba3acf641415fb15511d2d9a7076
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Butterfly_Knife_Marble_Fade
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: d3f3ba3acf641415fb15511d2d9a7076
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

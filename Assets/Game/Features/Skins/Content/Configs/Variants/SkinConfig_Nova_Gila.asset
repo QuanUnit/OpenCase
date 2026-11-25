@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Gila
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Nova_Gila
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 60d07d2ffb3e44fa7ab32b9b462632f2
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Nova_Gila
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 60d07d2ffb3e44fa7ab32b9b462632f2
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Glove

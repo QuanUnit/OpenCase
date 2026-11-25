@@ -10,7 +10,7 @@
         "Zenject",
         "Unity.TextMeshPro",
         "UnityEngine.UI",
-        "QCore.AddressablesWrapper"
+        "Unity.Addressables"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

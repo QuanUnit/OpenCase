@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Abyssal Apparition
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: MP7_Abyssal_Apparition
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: f55399007346e49e4be4a9357c526be2
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: MP7_Abyssal_Apparition
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: f55399007346e49e4be4a9357c526be2
+      m_EditorAssetChanged: 0
   Rarity: 4
   Collection:
     _value: Collection_Dreams_And_Nightmares

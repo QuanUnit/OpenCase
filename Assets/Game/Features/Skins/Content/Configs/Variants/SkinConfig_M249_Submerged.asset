@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Submerged
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: M249_Submerged
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 1cfbee64399fe43c8acf932b1df36f33
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: M249_Submerged
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 1cfbee64399fe43c8acf932b1df36f33
+      m_EditorAssetChanged: 0
   Rarity: 0
   Collection:
     _value: Collection_Anubis

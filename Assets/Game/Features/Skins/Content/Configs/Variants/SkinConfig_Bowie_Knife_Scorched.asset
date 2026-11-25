@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Scorched
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Bowie_Knife_Scorched
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 36f7454fcc44049c79f8e4212ad321e3
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Bowie_Knife_Scorched
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 36f7454fcc44049c79f8e4212ad321e3
+      m_EditorAssetChanged: 0
   Rarity: 6
   Collection:
     _value: 

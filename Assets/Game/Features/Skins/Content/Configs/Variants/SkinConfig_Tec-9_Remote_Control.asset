@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Remote Control
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Tec-9_Remote_Control
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 286c696f829c54302b871a8789ce4518
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Tec-9_Remote_Control
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 286c696f829c54302b871a8789ce4518
+      m_EditorAssetChanged: 0
   Rarity: 4
   Collection:
     _value: Collection_2018_Nuke

@@ -6,6 +6,7 @@ using QCore.UISystem.Services;
 using Features.Inventory.Services;
 using Features.Skins.Services;
 using Features.Skins.Configs;
+using UnityEngine;
 
 namespace Features.Inventory.UI.Presenters
 {
@@ -46,7 +47,7 @@ namespace Features.Inventory.UI.Presenters
             {
                 Price = _skinSellService.GetSellPrice(_skin),
                 RarityColor = rarityVisual.RarityMainColor,
-                SkinIcon = skinConfig.ContextData.SpriteSource.GetAsset(),
+                SkinIcon = (Sprite)skinConfig.ContextData.SpriteSource.Asset,
                 SkinName = skinConfig.Name,
                 FloatValue = _skin.FloatValue,
             });

@@ -1,11 +1,11 @@
 using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
-using QCore.AddressablesWrapper.Containers;
 using QCore.Tools.Collections;
 using Features.Cases.Data;
 using Features.Skins.Configs;
 using Shared.Identifiers;
+using UnityEngine.AddressableAssets;
 using UnityEngine;
 
 namespace Features.Cases.Configs
@@ -21,18 +21,18 @@ namespace Features.Cases.Configs
         
         public async UniTask LoadAssets(CancellationToken cancellationToken = default)
         {
-            await ContextData.SpriteSource.Load(cancellationToken);
+            await ContextData.SpriteSource.LoadAssetAsync<Sprite>().WithCancellation(cancellationToken);
         }
 
         public void ReleaseAssets()
         {
-            ContextData.SpriteSource.Release();
+            ContextData.SpriteSource.ReleaseAsset();
         }
         
         [Serializable]
         public struct UIContextData
         {
-            public AddressableLoadContainerSprite SpriteSource;
+            public AssetReferenceAtlasedSprite SpriteSource;
         }
     }
 }

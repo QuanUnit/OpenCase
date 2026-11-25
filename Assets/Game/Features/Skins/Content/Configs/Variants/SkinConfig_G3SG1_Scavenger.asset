@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Scavenger
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: G3SG1_Scavenger
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 997909fc1b6e5451ab70fb4c5d4ea99a
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: G3SG1_Scavenger
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 997909fc1b6e5451ab70fb4c5d4ea99a
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Danger_Zone

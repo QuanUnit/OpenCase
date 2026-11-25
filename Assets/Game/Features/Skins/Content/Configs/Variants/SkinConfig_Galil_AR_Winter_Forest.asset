@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Winter Forest
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Galil_AR_Winter_Forest
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 12fd63a20cd704895be055d7214a5f75
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Galil_AR_Winter_Forest
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 12fd63a20cd704895be055d7214a5f75
+      m_EditorAssetChanged: 0
   Rarity: 1
   Collection:
     _value: Collection_Office

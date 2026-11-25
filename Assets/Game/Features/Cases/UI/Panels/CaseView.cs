@@ -26,7 +26,7 @@ namespace Features.Cases.UI.Panels
 
             CaseId = caseConfig.Id;
             
-            _mainIcon.sprite = uiContext.SpriteSource.GetAsset();
+            _mainIcon.sprite = (Sprite)uiContext.SpriteSource.Asset;
             _name.text = caseConfig.Name;
             _price.SetView(caseConfig.Price);
         }

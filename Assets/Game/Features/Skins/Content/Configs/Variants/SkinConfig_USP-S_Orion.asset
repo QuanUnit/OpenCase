@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Orion
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: USP-S_Orion
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 065d725d0e66e42ad8cc284eae3f5dc6
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: USP-S_Orion
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 065d725d0e66e42ad8cc284eae3f5dc6
+      m_EditorAssetChanged: 0
   Rarity: 4
   Collection:
     _value: Collection_Huntsman

@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Brother
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: Tec-9_Brother
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: 47aeb02f2934e41e7928a105642fcec9
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: Tec-9_Brother
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 47aeb02f2934e41e7928a105642fcec9
+      m_EditorAssetChanged: 0
   Rarity: 3
   Collection:
     _value: Collection_Fracture

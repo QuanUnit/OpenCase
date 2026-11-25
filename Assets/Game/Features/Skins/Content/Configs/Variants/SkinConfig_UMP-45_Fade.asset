@@ -17,13 +17,12 @@ MonoBehaviour:
   Name: Fade
   ContextData:
     SpriteSource:
-      _assetReference:
-        m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
-        m_SubObjectName: UMP-45_Fade
-        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_SubObjectGUID: bc96ca14c0723460ca50c25639915f0a
-        m_EditorAssetChanged: 0
+      m_AssetGUID: 0f5e03b72f21f44f281687f288bdedd9
+      m_SubObjectName: UMP-45_Fade
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: bc96ca14c0723460ca50c25639915f0a
+      m_EditorAssetChanged: 0
   Rarity: 4
   Collection:
     _value: Collection_2021_Dust_2
