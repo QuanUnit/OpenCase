@@ -47,7 +47,7 @@ MonoBehaviour:
   - Rarity: 6
     Odds: 0.0026
   _priceStep: 0.01
-  _defaultTargetReturnToPlayer: 0.9
+  _defaultTargetReturnToPlayer: 1.05
   _valueSamplesCount: 512
   _priceMultipliers:
   - 2
@@ -55,8 +55,8 @@ MonoBehaviour:
   - 10
   _rareRarity: 5
   _topContributorsCount: 5
-  _maxReturnToPlayer: 1
-  _minReturnToPlayer: 0.6
+  _maxReturnToPlayer: 1.3
+  _minReturnToPlayer: 0.85
   _defaultSimulationOpens: 100000
   _dominantShare: 0.4
   _commonRarityChance: 0.1

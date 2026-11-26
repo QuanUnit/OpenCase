@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_High_Roller
   Name: High Roller
-  Price: 154.38
+  Price: 62.81
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 4b77a1e4e46a451449f739ed2c391910, type: 2}

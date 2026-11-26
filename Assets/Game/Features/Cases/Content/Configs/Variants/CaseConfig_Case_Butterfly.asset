@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Butterfly
   Name: Butterfly Case
-  Price: 744.49
+  Price: 761.99
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 0a6bd55648aeb4e008909099697eb82c, type: 2}

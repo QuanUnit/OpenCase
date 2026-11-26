@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Chroma
   Name: Chroma Case
-  Price: 4.23
+  Price: 4.55
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 755a4d7b994dd834fa04c774fd4d039a, type: 2}

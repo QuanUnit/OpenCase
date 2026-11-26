@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Inferno
   Name: Inferno
-  Price: 3.58
+  Price: 2.89
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 0248f6446243d934b84f1620eef6f306, type: 2}

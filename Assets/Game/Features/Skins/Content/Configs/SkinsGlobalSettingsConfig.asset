@@ -18,29 +18,20 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 0.17829026
-      outSlope: 0.17829026
+      inSlope: 1.5
+      outSlope: 1.5
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0.118748344
-    - serializedVersion: 3
-      time: 0.8658243
-      value: 0.660633
-      inSlope: 1.6515585
-      outSlope: 1.6515585
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.75818664
+      outWeight: 0
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 3.7626147
-      outSlope: 3.7626147
+      inSlope: 0.5
+      outSlope: 0.5
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.4529123
+      inWeight: 0
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -50,18 +41,18 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
-      inSlope: 1
-      outSlope: 1
+      value: 1
+      inSlope: -1
+      outSlope: -1
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
       time: 1
-      value: 1
-      inSlope: 1
-      outSlope: 1
+      value: 0
+      inSlope: -1
+      outSlope: -1
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
@@ -69,10 +60,10 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _statTrakChance: 0
-  _souvenirChance: 0
+  _statTrakChance: 0.1
+  _souvenirChance: 0.1
   _priceMultiplierByStatTrak: 2
-  _priceMultiplierBySouvenir: 0.7
+  _priceMultiplierBySouvenir: 1.5
   _wearValuesMap:
   - Key: 0
     Value:

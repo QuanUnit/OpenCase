@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Dreams_And_Nightmares
   Name: Dreams & Nightmares Case
-  Price: 1.51
+  Price: 1.83
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 3f00799e56ca2a048b273c3f4325a765, type: 2}

@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Covert_Ops
   Name: Covert Ops
-  Price: 34.57
+  Price: 19.23
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 8d0017ed18bf9114d9d38f9752172dac, type: 2}

@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Fade
   Name: Fade Case
-  Price: 235.76
+  Price: 236.07
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: afb35ae801c8f4d3d924382614f4cc88, type: 2}

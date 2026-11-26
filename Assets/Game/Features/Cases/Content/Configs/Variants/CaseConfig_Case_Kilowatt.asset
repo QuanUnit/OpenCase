@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Kilowatt
   Name: Kilowatt Case
-  Price: 0.95
+  Price: 1.03
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 07ae94d560a03254c8409d218da499d1, type: 2}

@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Gallery
   Name: Gallery Case
-  Price: 2.44
+  Price: 2.85
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 5ce60489fa69b7b47bebd418d6a3251f, type: 2}

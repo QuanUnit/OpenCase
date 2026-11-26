@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Doppler
   Name: Doppler Case
-  Price: 297.98
+  Price: 295.68
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 8652fbf00e2b5450b8e5e6d17d10826d, type: 2}

@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Snipers_Nest
   Name: Sniper's Nest
-  Price: 4.05
+  Price: 3.24
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 0c423389ec8b7154dbd30dee5e92ab7f, type: 2}

@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Starter_Crate
   Name: Starter Crate
-  Price: 0.12
+  Price: 0.29
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 0501b6615f037e441a2ada9d4a60bfdf, type: 2}

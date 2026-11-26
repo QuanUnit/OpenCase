@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Budget_Knives
   Name: Budget Knives Case
-  Price: 51.02
+  Price: 49.36
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 2ce585a68e2b94e399109c47cd144a8d, type: 2}

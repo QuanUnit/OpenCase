@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Bayonet
   Name: Bayonet Case
-  Price: 303.57
+  Price: 308.63
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 5f26b4a9b5b924e05bdb592934c89d8e, type: 2}

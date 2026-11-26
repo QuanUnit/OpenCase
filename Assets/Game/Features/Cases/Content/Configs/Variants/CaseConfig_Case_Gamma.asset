@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Gamma
   Name: Gamma Case
-  Price: 3.84
+  Price: 4.82
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 05c5403f83e0f374f994f1b9355188e9, type: 2}

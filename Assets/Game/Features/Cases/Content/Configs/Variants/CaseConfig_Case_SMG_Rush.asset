@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_SMG_Rush
   Name: SMG Rush
-  Price: 1.81
+  Price: 1.62
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 03f39564b4930984a9e1989cee5ebb71, type: 2}

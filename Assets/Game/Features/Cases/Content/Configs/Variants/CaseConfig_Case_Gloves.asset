@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Gloves
   Name: Gloves Case
-  Price: 232.55
+  Price: 248.60
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: ca45091c75bf14ea59001a55c63911b5, type: 2}

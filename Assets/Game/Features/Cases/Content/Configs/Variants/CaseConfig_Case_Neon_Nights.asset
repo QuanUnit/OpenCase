@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Neon_Nights
   Name: Neon Nights
-  Price: 4.39
+  Price: 3.80
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 674b94a11a56c91418f9c9e128db6f53, type: 2}

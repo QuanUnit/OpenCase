@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Recoil
   Name: Recoil Case
-  Price: 1.75
+  Price: 2.26
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: a2c8d956f3cffec4f9461de57e1c963e, type: 2}

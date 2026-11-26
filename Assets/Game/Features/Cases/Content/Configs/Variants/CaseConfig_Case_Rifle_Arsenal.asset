@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Rifle_Arsenal
   Name: Rifle Arsenal
-  Price: 4.57
+  Price: 3.76
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 1bbbd1a6598211e46bfe198cfb95076e, type: 2}

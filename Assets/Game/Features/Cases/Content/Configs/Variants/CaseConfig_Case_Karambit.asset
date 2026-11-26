@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Karambit
   Name: Karambit Case
-  Price: 667.66
+  Price: 678.14
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 6bfa31ee933c346dc8976ff12b5a5a61, type: 2}

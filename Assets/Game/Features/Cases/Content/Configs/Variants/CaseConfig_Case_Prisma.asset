@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Prisma
   Name: Prisma Case
-  Price: 3.01
+  Price: 3.38
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: e915180958bc30744abfb0bdfa3f5fd1, type: 2}

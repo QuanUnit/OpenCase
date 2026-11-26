@@ -15,7 +15,7 @@ MonoBehaviour:
   Id:
     _value: Case_Spectrum
   Name: Spectrum Case
-  Price: 3.06
+  Price: 3.67
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 8e42612109eda7c4d9f6a19797aebfdc, type: 2}
