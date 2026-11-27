@@ -19,37 +19,37 @@ MonoBehaviour:
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 03f39564b4930984a9e1989cee5ebb71, type: 2}
-      Value: 13.354722
+      Value: 12.39796
     - Key: {fileID: 11400000, guid: f5cbf969d47ea594091475f0b68d43d7, type: 2}
-      Value: 13.354722
+      Value: 12.39796
     - Key: {fileID: 11400000, guid: 98ed359f00d3f9a4081d3dadedd0e13c, type: 2}
-      Value: 13.354722
+      Value: 12.39796
     - Key: {fileID: 11400000, guid: b95914882dae34b449227de86de69bcc, type: 2}
-      Value: 13.354722
+      Value: 12.39796
     - Key: {fileID: 11400000, guid: f4e73495fdebbe1478468621d23d02e0, type: 2}
-      Value: 13.354722
+      Value: 12.39796
     - Key: {fileID: 11400000, guid: 1c30af7686166b044bc2a2f0c655baf2, type: 2}
-      Value: 13.354722
+      Value: 12.39796
     - Key: {fileID: 11400000, guid: f55dd7f9c1b980440894f31a23f3c9de, type: 2}
-      Value: 3.2043312
+      Value: 3.859518
     - Key: {fileID: 11400000, guid: a4123280ec01abd4190e019c2c4ec174, type: 2}
-      Value: 3.2043312
+      Value: 3.859518
     - Key: {fileID: 11400000, guid: 6f52d3c2eb8fad34484781a6dae511a1, type: 2}
-      Value: 3.2043312
+      Value: 3.859518
     - Key: {fileID: 11400000, guid: d00e771818b59a34abc6f49d26deb599, type: 2}
-      Value: 3.2043312
+      Value: 3.859518
     - Key: {fileID: 11400000, guid: ab25e9561c452d742894ee9de233605f, type: 2}
-      Value: 3.2043312
+      Value: 3.859518
     - Key: {fileID: 11400000, guid: cdaf2dfc86d8c88449d4251f109c7239, type: 2}
-      Value: 1.0694473
+      Value: 1.671227
     - Key: {fileID: 11400000, guid: 3bf12949cebbe12468fd096798509839, type: 2}
-      Value: 1.0694473
+      Value: 1.671227
     - Key: {fileID: 11400000, guid: e74c1e88a6719ad478203c39a31e9be2, type: 2}
-      Value: 1.0694473
+      Value: 1.671227
     - Key: {fileID: 11400000, guid: f5483887d63cdf9439d88281dedfa4af, type: 2}
-      Value: 0.32083416
+      Value: 0.650484
     - Key: {fileID: 11400000, guid: e541d50b6d4ee9b40ad35c8e2429d337, type: 2}
-      Value: 0.32083416
+      Value: 0.650484
   ContextData:
     SpriteSource:
       m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4

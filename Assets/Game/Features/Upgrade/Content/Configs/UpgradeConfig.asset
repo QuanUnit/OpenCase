@@ -18,7 +18,7 @@ MonoBehaviour:
   - 3
   - 5
   - 10
-  _returnToPlayer: 0.9
+  _returnToPlayer: 1.5
   _priceTolerance: 0.1
   _targetAttempts: 20
   _maxCandidates: 30

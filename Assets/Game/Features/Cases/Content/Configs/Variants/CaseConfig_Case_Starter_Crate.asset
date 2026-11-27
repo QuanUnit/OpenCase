@@ -19,35 +19,35 @@ MonoBehaviour:
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 0501b6615f037e441a2ada9d4a60bfdf, type: 2}
-      Value: 13.44086
+      Value: 9.716999
     - Key: {fileID: 11400000, guid: 094804bbacc8ff34bb9084a12e98dba3, type: 2}
-      Value: 13.44086
+      Value: 9.716999
     - Key: {fileID: 11400000, guid: 43bb85caff62a7247a80a0445919083e, type: 2}
-      Value: 13.44086
+      Value: 9.716999
     - Key: {fileID: 11400000, guid: 6779e82080c6d894491ccd4b7edb69ff, type: 2}
-      Value: 13.44086
+      Value: 9.716999
     - Key: {fileID: 11400000, guid: 96c83b4aace7e924fb2d724a27e4711e, type: 2}
-      Value: 13.44086
+      Value: 9.716999
     - Key: {fileID: 11400000, guid: 463e53a172b09514889aaf973237dec7, type: 2}
-      Value: 13.44086
+      Value: 9.716999
     - Key: {fileID: 11400000, guid: 692730f6209279547acf14f74024cdfb, type: 2}
-      Value: 3.2258065
+      Value: 5.625555
     - Key: {fileID: 11400000, guid: 57d71f1b9bea90a43a367add4bd744bd, type: 2}
-      Value: 3.2258065
+      Value: 5.625555
     - Key: {fileID: 11400000, guid: cd506706a33b004448524e38518590bf, type: 2}
-      Value: 3.2258065
+      Value: 5.625555
     - Key: {fileID: 11400000, guid: 175f048d4879c3a47868be2dd3050f0d, type: 2}
-      Value: 3.2258065
+      Value: 5.625555
     - Key: {fileID: 11400000, guid: d111b69fb04b0db40963c58e52fb8f7b, type: 2}
-      Value: 3.2258065
+      Value: 5.625555
     - Key: {fileID: 11400000, guid: 6bd74e649fdc40143ae3b8237f497d54, type: 2}
-      Value: 0.8064516
+      Value: 3.392558
     - Key: {fileID: 11400000, guid: 05c5403f83e0f374f994f1b9355188e9, type: 2}
-      Value: 0.8064516
+      Value: 3.392558
     - Key: {fileID: 11400000, guid: d63475d1f9bfb7647ab2164394f4f6a2, type: 2}
-      Value: 0.8064516
+      Value: 3.392558
     - Key: {fileID: 11400000, guid: 2e8f81214c5ff9341a521e83309cdb86, type: 2}
-      Value: 0.8064516
+      Value: 3.392558
   ContextData:
     SpriteSource:
       m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4

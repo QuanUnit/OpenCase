@@ -19,37 +19,37 @@ MonoBehaviour:
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 07ae94d560a03254c8409d218da499d1, type: 2}
-      Value: 13.354722
+      Value: 11.568791
     - Key: {fileID: 11400000, guid: b4ed5b3f0b9869e4bb544a8f14506586, type: 2}
-      Value: 13.354722
+      Value: 11.568791
     - Key: {fileID: 11400000, guid: b45fc9702a3db324ca74aec61a4c7965, type: 2}
-      Value: 13.354722
+      Value: 11.568791
     - Key: {fileID: 11400000, guid: ca54216caa7973441b87c3c44d0d4cd0, type: 2}
-      Value: 13.354722
+      Value: 11.568791
     - Key: {fileID: 11400000, guid: 69c6a4cb585d22141ae7d66c6cc390fd, type: 2}
-      Value: 13.354722
+      Value: 11.568791
     - Key: {fileID: 11400000, guid: efb2577698f350c478efb0305b322535, type: 2}
-      Value: 13.354722
+      Value: 11.568791
     - Key: {fileID: 11400000, guid: 80a9216463a40334f98b6ed1f57bcf2b, type: 2}
-      Value: 3.2043312
+      Value: 4.336731
     - Key: {fileID: 11400000, guid: 633bdf33b78fd4d4ca3a49c17efadfd3, type: 2}
-      Value: 3.2043312
+      Value: 4.336731
     - Key: {fileID: 11400000, guid: 79fa805ab0e02d34eba93d31691f4c4f, type: 2}
-      Value: 3.2043312
+      Value: 4.336731
     - Key: {fileID: 11400000, guid: 12073214c6ead0140aac5cc2d4441ea5, type: 2}
-      Value: 3.2043312
+      Value: 4.336731
     - Key: {fileID: 11400000, guid: f0de6cd68892cd74c835e10d87fba21a, type: 2}
-      Value: 3.2043312
+      Value: 4.336731
     - Key: {fileID: 11400000, guid: f09b98edfdca22049bd1bd44de96bb63, type: 2}
-      Value: 1.0694473
+      Value: 2.261291
     - Key: {fileID: 11400000, guid: 3fec2af0f6a4eca4594caf36bfeb360f, type: 2}
-      Value: 1.0694473
+      Value: 2.261291
     - Key: {fileID: 11400000, guid: bf7e488ced2c4104b81f9de8a7de86b3, type: 2}
-      Value: 1.0694473
+      Value: 2.261291
     - Key: {fileID: 11400000, guid: d9515dd9823fc944c9eab0d4ba9ef727, type: 2}
-      Value: 0.32083416
+      Value: 1.059863
     - Key: {fileID: 11400000, guid: a42cbf916987c394096f0a80d2da0e65, type: 2}
-      Value: 0.32083416
+      Value: 1.059863
   ContextData:
     SpriteSource:
       m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
