@@ -71,14 +71,14 @@ namespace Features.Upgrade.Services
 
         public float GetChance(Skin source, Skin target, float extra)
         {
-            var chance = (source.Price + extra) / target.Price * _config.ReturnToPlayer;
+            var chance = (source.Price + extra) / target.Price;
 
             return Math.Min(chance, _config.MaxChance);
         }
 
         public float GetMaxExtra(Skin source, Skin target)
         {
-            var extraForMaxChance = _config.MaxChance * target.Price / _config.ReturnToPlayer - source.Price;
+            var extraForMaxChance = _config.MaxChance * target.Price - source.Price;
             var balance = Math.Min(MoneyMath.RoundToMoney(_wallet.Currency), _wallet.Currency);
             var maxExtra = Math.Min(balance, MoneyMath.FloorToMoney(extraForMaxChance));
 

@@ -159,11 +159,27 @@ namespace Features.Upgrade.Tests.EditMode
         {
             var source = AddSourceSkin(10f);
             var target = CreateSkin(40f);
-            var service = CreateService(new UpgradeConfigBuilder().WithReturnToPlayer(0.9f).Build());
+            var service = CreateService(new UpgradeConfigBuilder().Build());
 
             var chance = service.GetChance(source, target, 10f);
 
-            Assert.AreEqual(0.45f, chance, Tolerance);
+            Assert.AreEqual(0.5f, chance, Tolerance);
+        }
+
+        [TestCase(10f, 15f, 0.6666667f)]
+        [TestCase(10f, 20f, 0.5f)]
+        [TestCase(10f, 30f, 0.3333333f)]
+        [TestCase(10f, 50f, 0.2f)]
+        [TestCase(10f, 100f, 0.1f)]
+        public void GetChance_FairMultipliers_EqualsPriceRatio(float sourcePrice, float targetPrice, float expected)
+        {
+            var source = AddSourceSkin(sourcePrice);
+            var target = CreateSkin(targetPrice);
+            var service = CreateService();
+
+            var chance = service.GetChance(source, target, 0f);
+
+            Assert.AreEqual(expected, chance, Tolerance);
         }
 
         [Test]
@@ -183,12 +199,12 @@ namespace Features.Upgrade.Tests.EditMode
         {
             var source = AddSourceSkin(10f);
             var target = CreateSkin(40f);
-            var service = CreateService(new UpgradeConfigBuilder().WithReturnToPlayer(0.9f).WithMaxChance(0.8f).Build());
+            var service = CreateService(new UpgradeConfigBuilder().WithMaxChance(0.8f).Build());
             _wallet.Add(1000f);
 
             var maxExtra = service.GetMaxExtra(source, target);
 
-            Assert.AreEqual(25.55f, maxExtra, Tolerance);
+            Assert.AreEqual(22f, maxExtra, Tolerance);
         }
 
         [Test]
@@ -233,14 +249,14 @@ namespace Features.Upgrade.Tests.EditMode
         public void GetMaxExtra_RoundsDownToCents()
         {
             var source = AddSourceSkin(10f);
-            var target = CreateSkin(40f);
-            var service = CreateService(new UpgradeConfigBuilder().WithReturnToPlayer(0.9f).WithMaxChance(0.8f).Build());
+            var target = CreateSkin(40.01f);
+            var service = CreateService(new UpgradeConfigBuilder().WithMaxChance(0.8f).Build());
             _wallet.Add(1000f);
 
             var maxExtra = service.GetMaxExtra(source, target);
-            var uncappedChance = (10f + maxExtra) / 40f * 0.9f;
+            var uncappedChance = (10f + maxExtra) / 40.01f;
 
-            Assert.AreEqual(25.55f, maxExtra, Tolerance);
+            Assert.AreEqual(22f, maxExtra, Tolerance);
             Assert.IsTrue(uncappedChance <= 0.8f + 0.000001f);
         }
 

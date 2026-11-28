@@ -7,7 +7,6 @@ namespace Features.Upgrade.Configs
     public class UpgradeConfig : ScriptableObject
     {
         public IReadOnlyList<float> Multipliers => _multipliers;
-        public float ReturnToPlayer => _returnToPlayer;
         public float PriceTolerance => _priceTolerance;
         public int TargetAttempts => _targetAttempts;
         public int MaxCandidates => _maxCandidates;
@@ -18,7 +17,6 @@ namespace Features.Upgrade.Configs
         public float ResultHoldDuration => _resultHoldDuration;
 
         [SerializeField] private List<float> _multipliers = new List<float>() { 1.5f, 2f, 3f, 5f, 10f };
-        [SerializeField, Range(0.01f, 1f)] private float _returnToPlayer = 0.9f;
         [SerializeField, Range(0f, 0.5f)] private float _priceTolerance = 0.1f;
         [SerializeField, Min(1)] private int _targetAttempts = 20;
         [SerializeField, Min(1)] private int _maxCandidates = 30;
