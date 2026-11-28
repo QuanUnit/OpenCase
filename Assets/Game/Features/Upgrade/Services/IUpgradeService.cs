@@ -8,10 +8,11 @@ namespace Features.Upgrade.Services
     {
         public IReadOnlyList<float> Multipliers { get; }
 
-        public IReadOnlyList<Skin> CreateTargets(Skin source, float multiplier);
-        public float GetChance(Skin source, Skin target, float extra);
-        public float GetMaxExtra(Skin source, Skin target);
-        public UpgradeOffer CreateOffer(Skin source, Skin target, float extra);
+        public float GetSourcesPrice(IReadOnlyList<Skin> sources);
+        public IReadOnlyList<Skin> CreateTargets(IReadOnlyList<Skin> sources, float multiplier);
+        public float GetChance(IReadOnlyList<Skin> sources, Skin target, float extra);
+        public float GetMaxExtra(IReadOnlyList<Skin> sources, Skin target);
+        public UpgradeOffer CreateOffer(IReadOnlyList<Skin> sources, Skin target, float extra);
         public UpgradeResult Upgrade(UpgradeOffer offer);
     }
 }

@@ -34,17 +34,30 @@ namespace Features.Upgrade.Services
             _wallet = wallet;
         }
 
-        public IReadOnlyList<Skin> CreateTargets(Skin source, float multiplier)
+        public float GetSourcesPrice(IReadOnlyList<Skin> sources)
+        {
+            var price = 0f;
+
+            foreach (var source in sources)
+            {
+                price += source.Price;
+            }
+
+            return price;
+        }
+
+        public IReadOnlyList<Skin> CreateTargets(IReadOnlyList<Skin> sources, float multiplier)
         {
             var targets = new List<Skin>();
+            var sourcesPrice = GetSourcesPrice(sources);
 
-            if (source.Price <= 0f)
+            if (sourcesPrice <= 0f)
             {
                 return targets;
             }
 
-            var targetPrice = source.Price * multiplier;
-            var minPrice = Math.Max(targetPrice * (1f - _config.PriceTolerance), source.Price);
+            var targetPrice = sourcesPrice * multiplier;
+            var minPrice = Math.Max(targetPrice * (1f - _config.PriceTolerance), sourcesPrice);
             var maxPrice = targetPrice * (1f + _config.PriceTolerance);
 
             var candidates = GetCandidates(minPrice, maxPrice);
@@ -56,7 +69,7 @@ namespace Features.Upgrade.Services
                     break;
                 }
 
-                var target = FindClosestTarget(candidate, source.Price, minPrice, maxPrice, targetPrice);
+                var target = FindClosestTarget(candidate, sourcesPrice, minPrice, maxPrice, targetPrice);
 
                 if (target != null)
                 {
@@ -69,36 +82,45 @@ namespace Features.Upgrade.Services
             return targets;
         }
 
-        public float GetChance(Skin source, Skin target, float extra)
+        public float GetChance(IReadOnlyList<Skin> sources, Skin target, float extra)
         {
-            var chance = (source.Price + extra) / target.Price;
+            var chance = (GetSourcesPrice(sources) + extra) / target.Price;
 
             return Math.Min(chance, _config.MaxChance);
         }
 
-        public float GetMaxExtra(Skin source, Skin target)
+        public float GetMaxExtra(IReadOnlyList<Skin> sources, Skin target)
         {
-            var extraForMaxChance = _config.MaxChance * target.Price - source.Price;
+            var extraForMaxChance = _config.MaxChance * target.Price - GetSourcesPrice(sources);
             var balance = Math.Min(MoneyMath.RoundToMoney(_wallet.Currency), _wallet.Currency);
             var maxExtra = Math.Min(balance, MoneyMath.FloorToMoney(extraForMaxChance));
 
             return Math.Max(maxExtra, 0f);
         }
 
-        public UpgradeOffer CreateOffer(Skin source, Skin target, float extra)
+        public UpgradeOffer CreateOffer(IReadOnlyList<Skin> sources, Skin target, float extra)
         {
-            var maxExtra = GetMaxExtra(source, target);
+            var offerSources = sources.ToList();
+            var maxExtra = GetMaxExtra(offerSources, target);
             var clampedExtra = Math.Clamp(MoneyMath.RoundToMoney(extra), 0f, maxExtra);
-            var chance = GetChance(source, target, clampedExtra);
+            var chance = GetChance(offerSources, target, clampedExtra);
 
-            return new UpgradeOffer(source, target, clampedExtra, chance);
+            return new UpgradeOffer(offerSources, target, clampedExtra, chance);
         }
 
         public UpgradeResult Upgrade(UpgradeOffer offer)
         {
-            if (_inventoryService.TryGet(offer.Source.Id, out _) == false)
+            if (offer.Sources.Count == 0)
             {
                 return UpgradeResult.Rejected;
+            }
+
+            foreach (var source in offer.Sources)
+            {
+                if (_inventoryService.TryGet(source.Id, out _) == false)
+                {
+                    return UpgradeResult.Rejected;
+                }
             }
 
             if (offer.Extra > 0f && _wallet.TrySpend(offer.Extra) == false)
@@ -106,7 +128,10 @@ namespace Features.Upgrade.Services
                 return UpgradeResult.Rejected;
             }
 
-            _inventoryService.Remove(offer.Source);
+            foreach (var source in offer.Sources)
+            {
+                _inventoryService.Remove(source);
+            }
 
             var isSuccess = _chanceRoller.Roll(offer.Chance);
 

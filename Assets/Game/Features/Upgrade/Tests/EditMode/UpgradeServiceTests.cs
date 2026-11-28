@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 using Features.Inventory.Services;
 using Features.Skins.Configs;
@@ -77,7 +78,7 @@ namespace Features.Upgrade.Tests.EditMode
             var source = AddSourceSkin(10f);
             var service = CreateService();
 
-            var targets = service.CreateTargets(source, 2f);
+            var targets = service.CreateTargets(new[] { source }, 2f);
 
             Assert.AreEqual(3, targets.Count);
             Assert.AreEqual(19f, targets[0].Price, Tolerance);
@@ -97,7 +98,7 @@ namespace Features.Upgrade.Tests.EditMode
             var source = AddSourceSkin(10f);
             var service = CreateService(new UpgradeConfigBuilder().WithTargetsCount(2).Build());
 
-            var targets = service.CreateTargets(source, 2f);
+            var targets = service.CreateTargets(new[] { source }, 2f);
 
             Assert.AreEqual(2, targets.Count);
         }
@@ -109,7 +110,7 @@ namespace Features.Upgrade.Tests.EditMode
             var source = AddSourceSkin(10f);
             var service = CreateService();
 
-            var targets = service.CreateTargets(source, 2f);
+            var targets = service.CreateTargets(new[] { source }, 2f);
 
             Assert.AreEqual(0, targets.Count);
         }
@@ -121,7 +122,7 @@ namespace Features.Upgrade.Tests.EditMode
             var source = AddSourceSkin(0f);
             var service = CreateService();
 
-            var targets = service.CreateTargets(source, 2f);
+            var targets = service.CreateTargets(new[] { source }, 2f);
 
             Assert.AreEqual(0, targets.Count);
         }
@@ -133,7 +134,7 @@ namespace Features.Upgrade.Tests.EditMode
             var source = AddSourceSkin(10f);
             var service = CreateService(new UpgradeConfigBuilder().WithPriceTolerance(0.1f).Build());
 
-            var targets = service.CreateTargets(source, 1.05f);
+            var targets = service.CreateTargets(new[] { source }, 1.05f);
 
             Assert.AreEqual(0, targets.Count);
         }
@@ -149,7 +150,7 @@ namespace Features.Upgrade.Tests.EditMode
             var source = AddSourceSkin(10f);
             var service = CreateService(new UpgradeConfigBuilder().WithMaxCandidates(3).WithTargetAttempts(2).Build());
 
-            service.CreateTargets(source, 2f);
+            service.CreateTargets(new[] { source }, 2f);
 
             Assert.AreEqual(6, _skinFactory.CreatedCount);
         }
@@ -161,7 +162,7 @@ namespace Features.Upgrade.Tests.EditMode
             var target = CreateSkin(40f);
             var service = CreateService(new UpgradeConfigBuilder().Build());
 
-            var chance = service.GetChance(source, target, 10f);
+            var chance = service.GetChance(new[] { source }, target, 10f);
 
             Assert.AreEqual(0.5f, chance, Tolerance);
         }
@@ -177,7 +178,7 @@ namespace Features.Upgrade.Tests.EditMode
             var target = CreateSkin(targetPrice);
             var service = CreateService();
 
-            var chance = service.GetChance(source, target, 0f);
+            var chance = service.GetChance(new[] { source }, target, 0f);
 
             Assert.AreEqual(expected, chance, Tolerance);
         }
@@ -189,7 +190,7 @@ namespace Features.Upgrade.Tests.EditMode
             var target = CreateSkin(12f);
             var service = CreateService(new UpgradeConfigBuilder().WithMaxChance(0.8f).Build());
 
-            var chance = service.GetChance(source, target, 5f);
+            var chance = service.GetChance(new[] { source }, target, 5f);
 
             Assert.AreEqual(0.8f, chance, Tolerance);
         }
@@ -202,7 +203,7 @@ namespace Features.Upgrade.Tests.EditMode
             var service = CreateService(new UpgradeConfigBuilder().WithMaxChance(0.8f).Build());
             _wallet.Add(1000f);
 
-            var maxExtra = service.GetMaxExtra(source, target);
+            var maxExtra = service.GetMaxExtra(new[] { source }, target);
 
             Assert.AreEqual(22f, maxExtra, Tolerance);
         }
@@ -215,7 +216,7 @@ namespace Features.Upgrade.Tests.EditMode
             var service = CreateService();
             _wallet.Add(5f);
 
-            var maxExtra = service.GetMaxExtra(source, target);
+            var maxExtra = service.GetMaxExtra(new[] { source }, target);
 
             Assert.AreEqual(5f, maxExtra, Tolerance);
         }
@@ -227,7 +228,7 @@ namespace Features.Upgrade.Tests.EditMode
             var target = CreateSkin(40f);
             var service = CreateService();
 
-            var maxExtra = service.GetMaxExtra(source, target);
+            var maxExtra = service.GetMaxExtra(new[] { source }, target);
 
             Assert.AreEqual(0f, maxExtra, Tolerance);
         }
@@ -240,7 +241,7 @@ namespace Features.Upgrade.Tests.EditMode
             var service = CreateService();
             _wallet.Add(1000f);
 
-            var maxExtra = service.GetMaxExtra(source, target);
+            var maxExtra = service.GetMaxExtra(new[] { source }, target);
 
             Assert.AreEqual(0f, maxExtra, Tolerance);
         }
@@ -253,7 +254,7 @@ namespace Features.Upgrade.Tests.EditMode
             var service = CreateService(new UpgradeConfigBuilder().WithMaxChance(0.8f).Build());
             _wallet.Add(1000f);
 
-            var maxExtra = service.GetMaxExtra(source, target);
+            var maxExtra = service.GetMaxExtra(new[] { source }, target);
             var uncappedChance = (10f + maxExtra) / 40.01f;
 
             Assert.AreEqual(22f, maxExtra, Tolerance);
@@ -268,7 +269,7 @@ namespace Features.Upgrade.Tests.EditMode
             var service = CreateService();
             _wallet.Add(0.29f);
 
-            var maxExtra = service.GetMaxExtra(source, target);
+            var maxExtra = service.GetMaxExtra(new[] { source }, target);
 
             Assert.AreEqual(0.29f, maxExtra);
         }
@@ -280,7 +281,7 @@ namespace Features.Upgrade.Tests.EditMode
             var target = CreateSkin(400f);
             var service = CreateService();
             _wallet.Add(5.299999f);
-            var offer = service.CreateOffer(source, target, service.GetMaxExtra(source, target));
+            var offer = service.CreateOffer(new[] { source }, target, service.GetMaxExtra(new[] { source }, target));
             var balanceBefore = _wallet.Currency;
             _chanceRoller.Result = true;
 
@@ -298,10 +299,10 @@ namespace Features.Upgrade.Tests.EditMode
             var service = CreateService();
             _wallet.Add(5f);
 
-            var offer = service.CreateOffer(source, target, 100f);
+            var offer = service.CreateOffer(new[] { source }, target, 100f);
 
             Assert.AreEqual(5f, offer.Extra, Tolerance);
-            Assert.AreEqual(service.GetChance(source, target, 5f), offer.Chance, Tolerance);
+            Assert.AreEqual(service.GetChance(new[] { source }, target, 5f), offer.Chance, Tolerance);
         }
 
         [Test]
@@ -311,7 +312,7 @@ namespace Features.Upgrade.Tests.EditMode
             var target = CreateSkin(40f);
             var service = CreateService();
             _wallet.Add(100f);
-            var offer = service.CreateOffer(source, target, 12.34f);
+            var offer = service.CreateOffer(new[] { source }, target, 12.34f);
             _chanceRoller.Result = true;
 
             var result = service.Upgrade(offer);
@@ -328,7 +329,7 @@ namespace Features.Upgrade.Tests.EditMode
             var target = CreateSkin(40f);
             var service = CreateService();
             _wallet.Add(100f);
-            var offer = service.CreateOffer(source, target, 10f);
+            var offer = service.CreateOffer(new[] { source }, target, 10f);
             _chanceRoller.Result = false;
 
             var result = service.Upgrade(offer);
@@ -345,7 +346,7 @@ namespace Features.Upgrade.Tests.EditMode
             var source = AddSourceSkin(10f);
             var target = CreateSkin(40f);
             var service = CreateService();
-            var offer = service.CreateOffer(source, target, 0f);
+            var offer = service.CreateOffer(new[] { source }, target, 0f);
             _chanceRoller.Result = true;
 
             var result = service.Upgrade(offer);
@@ -361,7 +362,7 @@ namespace Features.Upgrade.Tests.EditMode
             var target = CreateSkin(40f);
             var service = CreateService();
             _wallet.Add(10f);
-            var offer = service.CreateOffer(source, target, 10f);
+            var offer = service.CreateOffer(new[] { source }, target, 10f);
             _wallet.Spend(5f);
 
             var result = service.Upgrade(offer);
@@ -378,7 +379,7 @@ namespace Features.Upgrade.Tests.EditMode
             var source = AddSourceSkin(10f);
             var target = CreateSkin(40f);
             var service = CreateService();
-            var offer = service.CreateOffer(source, target, 0f);
+            var offer = service.CreateOffer(new[] { source }, target, 0f);
             _inventory.Remove(source);
             _chanceRoller.Result = true;
 
@@ -395,11 +396,130 @@ namespace Features.Upgrade.Tests.EditMode
             var source = AddSourceSkin(10f);
             var target = CreateSkin(20f);
             var service = CreateService();
-            var offer = service.CreateOffer(source, target, 0f);
+            var offer = service.CreateOffer(new[] { source }, target, 0f);
 
             service.Upgrade(offer);
 
             Assert.AreEqual(offer.Chance, _chanceRoller.LastChance, Tolerance);
+        }
+
+        [Test]
+        public void CreateTargets_SeveralSources_UsesSumOfPrices()
+        {
+            AddSkinConfig(15f, 25f, 20f);
+            AddSkinConfig(30f, 50f, 40f);
+            var sources = new[] { AddSourceSkin(4f), AddSourceSkin(6f) };
+            var service = CreateService();
+
+            var targets = service.CreateTargets(sources, 2f);
+
+            Assert.AreEqual(1, targets.Count);
+            Assert.AreEqual(20f, targets[0].Price, Tolerance);
+        }
+
+        [Test]
+        public void CreateTargets_NoSources_ReturnsEmpty()
+        {
+            AddSkinConfig(15f, 25f, 20f);
+            var service = CreateService();
+
+            var targets = service.CreateTargets(new Skin[0], 2f);
+
+            Assert.AreEqual(0, targets.Count);
+        }
+
+        [Test]
+        public void GetChance_SeveralSources_UsesSumOfPricesAndExtra()
+        {
+            var sources = new[] { AddSourceSkin(5f), AddSourceSkin(10f) };
+            var target = CreateSkin(40f);
+            var service = CreateService();
+
+            var chance = service.GetChance(sources, target, 5f);
+
+            Assert.AreEqual(0.5f, chance, Tolerance);
+        }
+
+        [Test]
+        public void GetMaxExtra_SeveralSources_SubtractsSumOfPrices()
+        {
+            var sources = new[] { AddSourceSkin(4f), AddSourceSkin(6f) };
+            var target = CreateSkin(40f);
+            var service = CreateService(new UpgradeConfigBuilder().WithMaxChance(0.8f).Build());
+            _wallet.Add(1000f);
+
+            var maxExtra = service.GetMaxExtra(sources, target);
+
+            Assert.AreEqual(22f, maxExtra, Tolerance);
+        }
+
+        [Test]
+        public void Upgrade_SeveralSourcesSuccess_RemovesAllSourcesAndAddsTarget()
+        {
+            var first = AddSourceSkin(5f);
+            var second = AddSourceSkin(5f);
+            var target = CreateSkin(20f);
+            var service = CreateService();
+            var offer = service.CreateOffer(new[] { first, second }, target, 0f);
+            _chanceRoller.Result = true;
+
+            var result = service.Upgrade(offer);
+
+            Assert.AreEqual(UpgradeResult.Success, result);
+            Assert.IsTrue(_inventory.TryGet(first.Id, out _) == false);
+            Assert.IsTrue(_inventory.TryGet(second.Id, out _) == false);
+            Assert.IsTrue(_inventory.TryGet(target.Id, out _) == true);
+        }
+
+        [Test]
+        public void Upgrade_SeveralSourcesLost_RemovesAllSources()
+        {
+            var first = AddSourceSkin(5f);
+            var second = AddSourceSkin(5f);
+            var target = CreateSkin(20f);
+            var service = CreateService();
+            var offer = service.CreateOffer(new[] { first, second }, target, 0f);
+            _chanceRoller.Result = false;
+
+            var result = service.Upgrade(offer);
+
+            Assert.AreEqual(UpgradeResult.Lost, result);
+            Assert.IsTrue(_inventory.TryGet(first.Id, out _) == false);
+            Assert.IsTrue(_inventory.TryGet(second.Id, out _) == false);
+            Assert.IsTrue(_inventory.TryGet(target.Id, out _) == false);
+        }
+
+        [Test]
+        public void Upgrade_OneOfSourcesNotInInventory_ReturnsRejectedWithoutChanges()
+        {
+            var first = AddSourceSkin(5f);
+            var second = AddSourceSkin(5f);
+            var target = CreateSkin(20f);
+            var service = CreateService();
+            _wallet.Add(10f);
+            var offer = service.CreateOffer(new[] { first, second }, target, 2f);
+            _inventory.Remove(second);
+
+            var result = service.Upgrade(offer);
+
+            Assert.AreEqual(UpgradeResult.Rejected, result);
+            Assert.IsTrue(_inventory.TryGet(first.Id, out _) == true);
+            Assert.AreEqual(10f, _wallet.Currency, Tolerance);
+            Assert.AreEqual(0, _chanceRoller.RollsCount);
+        }
+
+        [Test]
+        public void CreateOffer_SourcesListChangedAfterwards_OfferKeepsOriginalSources()
+        {
+            var first = AddSourceSkin(5f);
+            var second = AddSourceSkin(5f);
+            var sources = new List<Skin>() { first, second };
+            var service = CreateService();
+
+            var offer = service.CreateOffer(sources, CreateSkin(20f), 0f);
+            sources.Clear();
+
+            Assert.AreEqual(2, offer.Sources.Count);
         }
     }
 }

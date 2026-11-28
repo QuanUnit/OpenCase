@@ -27,11 +27,11 @@ namespace Features.Upgrade.UI.Presenters
         private readonly ISkinsUIContextDataService _skinsUIContextDataService;
         private readonly SoftCurrencyWallet _wallet;
         private readonly UpgradeConfig _upgradeConfig;
+        private readonly List<Skin> _sources = new List<Skin>();
         private readonly List<Skin> _targets = new List<Skin>();
         private readonly List<float> _chances = new List<float>();
         private readonly List<UpgradeTargetOption.Data> _targetsData = new List<UpgradeTargetOption.Data>();
 
-        private Skin _source;
         private bool[] _multipliersAvailability;
         private int _multiplierIndex = NoSelection;
         private int _targetIndex = NoSelection;
@@ -75,25 +75,55 @@ namespace Features.Upgrade.UI.Presenters
 
         private void SkinClickHandle(SkinInstanceId skinId)
         {
-            _source = _inventoryService.Get(skinId);
+            var selectedIndex = _sources.FindIndex(source => source.Id == skinId);
+            var isSelecting = selectedIndex == NoSelection;
+
+            if (isSelecting == true)
+            {
+                _sources.Add(_inventoryService.Get(skinId));
+            }
+            else
+            {
+                _sources.RemoveAt(selectedIndex);
+            }
+
+            Panel.ResetResult();
+            Panel.SetSkinSelected(skinId, isSelecting);
+
+            RefreshSources();
+        }
+
+        private void RefreshSources()
+        {
+            if (_sources.Count == 0)
+            {
+                ClearSelection();
+                return;
+            }
+
+            var previousMultiplierIndex = _multiplierIndex;
             _multiplierIndex = NoSelection;
             _targets.Clear();
 
             for (var index = 0; index < _multipliersAvailability.Length; index++)
             {
-                var targets = _upgradeService.CreateTargets(_source, _upgradeService.Multipliers[index]);
+                var targets = _upgradeService.CreateTargets(_sources, _upgradeService.Multipliers[index]);
                 _multipliersAvailability[index] = targets.Count > 0;
 
-                if (_multiplierIndex == NoSelection && targets.Count > 0)
+                if (targets.Count == 0)
+                {
+                    continue;
+                }
+
+                if (_multiplierIndex == NoSelection || index == previousMultiplierIndex)
                 {
                     _multiplierIndex = index;
+                    _targets.Clear();
                     _targets.AddRange(targets);
                 }
             }
 
-            Panel.ResetResult();
-            Panel.SetSelectedSkin(_source.Id);
-            Panel.SetSource(CreateCardData(_source));
+            Panel.SetSource(CreateSourceCardData(), _sources.Count);
             Panel.SetMultiplierStates(_multipliersAvailability, _multiplierIndex);
 
             ShowTargets();
@@ -158,7 +188,7 @@ namespace Features.Upgrade.UI.Presenters
 
             _isRolling = true;
 
-            var offer = _upgradeService.CreateOffer(_source, _targets[_targetIndex], _extra);
+            var offer = _upgradeService.CreateOffer(_sources, _targets[_targetIndex], _extra);
             var result = _upgradeService.Upgrade(offer);
 
             if (result == UpgradeResult.Rejected)
@@ -207,7 +237,7 @@ namespace Features.Upgrade.UI.Presenters
         private void RebuildTargets()
         {
             _targets.Clear();
-            _targets.AddRange(_upgradeService.CreateTargets(_source, _upgradeService.Multipliers[_multiplierIndex]));
+            _targets.AddRange(_upgradeService.CreateTargets(_sources, _upgradeService.Multipliers[_multiplierIndex]));
 
             if (_targets.Count == 0)
             {
@@ -253,7 +283,7 @@ namespace Features.Upgrade.UI.Presenters
 
         private void RefreshExtraAndChances()
         {
-            var maxExtra = _upgradeService.GetMaxExtra(_source, _targets[_targetIndex]);
+            var maxExtra = _upgradeService.GetMaxExtra(_sources, _targets[_targetIndex]);
             _extra = Mathf.Clamp(_extra, 0f, maxExtra);
 
             Panel.SetExtraRange(maxExtra);
@@ -268,7 +298,7 @@ namespace Features.Upgrade.UI.Presenters
 
             foreach (var target in _targets)
             {
-                _chances.Add(_upgradeService.GetChance(_source, target, _extra));
+                _chances.Add(_upgradeService.GetChance(_sources, target, _extra));
             }
 
             Panel.SetTargetChances(_chances);
@@ -277,12 +307,12 @@ namespace Features.Upgrade.UI.Presenters
 
         private void ClearSelection()
         {
-            _source = null;
+            _sources.Clear();
             _multiplierIndex = NoSelection;
             _targets.Clear();
             Array.Clear(_multipliersAvailability, 0, _multipliersAvailability.Length);
 
-            Panel.HideSelectionFrame();
+            Panel.HideSelectionFrames();
             Panel.SetSourceEmpty();
             Panel.SetMultiplierStates(_multipliersAvailability, _multiplierIndex);
 
@@ -291,7 +321,7 @@ namespace Features.Upgrade.UI.Presenters
 
         private void RebuildSkinViews()
         {
-            Panel.HideSelectionFrame();
+            Panel.HideSelectionFrames();
             Panel.RemoveAllSkinViews();
             Panel.AddSkinViews(_inventoryService.AllSkins, CreateSkinView);
         }
@@ -315,9 +345,11 @@ namespace Features.Upgrade.UI.Presenters
 
             Panel.RemoveSkinView(skin.Id);
 
-            if (_source != null && _source.Id == skin.Id)
+            var removedCount = _sources.RemoveAll(source => source.Id == skin.Id);
+
+            if (removedCount > 0)
             {
-                ClearSelection();
+                RefreshSources();
             }
         }
 
@@ -332,6 +364,14 @@ namespace Features.Upgrade.UI.Presenters
                 Price = skin.Price,
                 RarityColor = GetRarityColor(skin),
             };
+        }
+
+        private UpgradeSkinCard.Data CreateSourceCardData()
+        {
+            var data = CreateCardData(_sources[0]);
+            data.Price = _upgradeService.GetSourcesPrice(_sources);
+
+            return data;
         }
 
         private Color GetRarityColor(Skin skin)
@@ -351,7 +391,7 @@ namespace Features.Upgrade.UI.Presenters
                 Name = skinConfig.Name,
                 Price = skin.Price,
                 RarityColor = GetRarityColor(skin),
-                Chance = _upgradeService.GetChance(_source, skin, _extra),
+                Chance = _upgradeService.GetChance(_sources, skin, _extra),
             };
         }
 
@@ -388,7 +428,7 @@ namespace Features.Upgrade.UI.Presenters
             _inventoryService.Removed -= SkinRemoveHandle;
             _wallet.Changed -= WalletChangeHandle;
 
-            Panel.HideSelectionFrame();
+            Panel.HideSelectionFrames();
             Panel.RemoveAllSkinViews();
             Panel.SetInputBlocked(false);
         }

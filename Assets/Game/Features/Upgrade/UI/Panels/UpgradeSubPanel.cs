@@ -30,6 +30,7 @@ namespace Features.Upgrade.UI.Panels
 
         [Header("Upgrade")]
         [SerializeField] private UpgradeSkinCard _sourceCard;
+        [SerializeField] private UpgradeSourceStack _sourceStack;
         [SerializeField] private UpgradeSkinCard _targetCard;
         [SerializeField] private UpgradeChanceDial _chanceDial;
         [SerializeField] private Transform _multipliersRoot;
@@ -57,6 +58,7 @@ namespace Features.Upgrade.UI.Panels
 
         private readonly Dictionary<SkinInstanceId, SkinView> _activeViews = new Dictionary<SkinInstanceId, SkinView>();
         private readonly Dictionary<SkinView, SkinInstanceId> _viewToSkinIdMap = new Dictionary<SkinView, SkinInstanceId>();
+        private readonly Dictionary<SkinInstanceId, RectTransform> _selectionFrames = new Dictionary<SkinInstanceId, RectTransform>();
         private readonly List<UpgradeMultiplierOption> _multiplierOptions = new List<UpgradeMultiplierOption>();
         private readonly List<UpgradeTargetOption> _targetOptions = new List<UpgradeTargetOption>();
 
@@ -98,10 +100,7 @@ namespace Features.Upgrade.UI.Panels
 
             _viewToSkinIdMap.Remove(view);
 
-            if (_selectionFrame.parent == view.transform)
-            {
-                HideSelectionFrame();
-            }
+            _selectionFrames.Remove(id);
 
             view.Clicked -= SkinViewClickHandle;
             Destroy(view.gameObject);
@@ -117,23 +116,41 @@ namespace Features.Upgrade.UI.Panels
             }
         }
 
-        public void SetSelectedSkin(SkinInstanceId skinId)
+        public void SetSkinSelected(SkinInstanceId skinId, bool isSelected)
         {
-            var view = _activeViews[skinId];
+            var hasFrame = _selectionFrames.Remove(skinId, out var frame);
 
-            _selectionFrame.SetParent(view.transform, false);
-            _selectionFrame.SetAsLastSibling();
-            _selectionFrame.anchorMin = Vector2.zero;
-            _selectionFrame.anchorMax = Vector2.one;
-            _selectionFrame.offsetMin = Vector2.zero;
-            _selectionFrame.offsetMax = Vector2.zero;
-            _selectionFrame.gameObject.SetActive(true);
+            if (hasFrame == true)
+            {
+                Destroy(frame.gameObject);
+            }
+
+            if (isSelected == false)
+            {
+                return;
+            }
+
+            var view = _activeViews[skinId];
+            var created = Instantiate(_selectionFrame, view.transform, false);
+
+            created.SetAsLastSibling();
+            created.anchorMin = Vector2.zero;
+            created.anchorMax = Vector2.one;
+            created.offsetMin = Vector2.zero;
+            created.offsetMax = Vector2.zero;
+            created.gameObject.SetActive(true);
+
+            _selectionFrames.Add(skinId, created);
         }
 
-        public void HideSelectionFrame()
+        public void HideSelectionFrames()
         {
-            _selectionFrame.gameObject.SetActive(false);
-            _selectionFrame.SetParent(transform, false);
+            foreach (var frame in _selectionFrames.Values)
+            {
+                Destroy(frame.gameObject);
+            }
+
+            _selectionFrames.Clear();
         }
 
         public void SetMultipliers(IReadOnlyList<float> multipliers)
@@ -214,14 +231,16 @@ namespace Features.Upgrade.UI.Panels
             _extraInput.SetValue(value);
         }
 
-        public void SetSource(UpgradeSkinCard.Data data)
+        public void SetSource(UpgradeSkinCard.Data data, int count)
         {
             _sourceCard.SetView(data);
+            _sourceStack.SetCount(count);
         }
 
         public void SetSourceEmpty()
         {
             _sourceCard.SetEmpty();
+            _sourceStack.SetCount(0);
         }
 
         public void SetTarget(UpgradeSkinCard.Data data, float chance)
