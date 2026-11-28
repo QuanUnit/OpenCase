@@ -4,6 +4,7 @@
     "references": [
         "Features.RemoteConfigs.Editor",
         "Features.Skins",
+        "Features.Cases",
         "Shared",
         "Features.Skins.Tests.EditMode",
         "QCore.Tools",

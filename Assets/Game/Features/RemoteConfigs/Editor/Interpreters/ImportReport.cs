@@ -12,6 +12,8 @@ namespace Features.RemoteConfigs.Editor.Interpreters
         public readonly List<string> Errors = new List<string>();
 
         public string PageName;
+        public bool CanRemoveMissing;
+        public string ConfigsFolder;
 
         public bool HasProblems => Missing.Count > 0 || UnknownReferences.Count > 0 || Errors.Count > 0;
 
@@ -27,7 +29,7 @@ namespace Features.RemoteConfigs.Editor.Interpreters
 
             AppendList(builder, "Errors", Errors);
             AppendList(builder, "Created", Created);
-            AppendList(builder, "Configs in project but not in sheet (kept)", Missing);
+            AppendList(builder, "Configs in project but not in sheet", Missing);
             AppendList(builder, "Unknown references (skipped)", UnknownReferences);
 
             return builder.ToString();

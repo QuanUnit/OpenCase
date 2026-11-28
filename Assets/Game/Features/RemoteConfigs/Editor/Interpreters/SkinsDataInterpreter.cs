@@ -17,8 +17,12 @@ namespace Features.RemoteConfigs.Editor.Interpreters
 
         public ImportReport Interpret(List<IEntityModel> parsedData)
         {
-            var report = new ImportReport();
             var skinsPath = AssetDatabase.GetAssetPath(_skinsFolder);
+            var report = new ImportReport
+            {
+                CanRemoveMissing = true,
+                ConfigsFolder = skinsPath,
+            };
             var allSkinsMap = GetExistingSkins(skinsPath);
             var existingIds = allSkinsMap.Keys.ToList();
             var skinDataModels = parsedData.Cast<SkinDataModel>().ToList();

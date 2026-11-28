@@ -15,7 +15,7 @@ namespace Features.Skins.Configs
 #if UNITY_EDITOR
         
         [Button]
-        private void Collect()
+        public void Collect()
         {
             _skins = AssetDatabaseTools.FindAllAssets<SkinConfig>();
         }

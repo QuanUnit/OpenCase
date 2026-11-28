@@ -15,6 +15,8 @@ namespace Features.RemoteConfigs.Editor
     {
         private const string Title = "Remote Configs Importer";
         private const float ButtonHeight = 30f;
+        private const int MaxShownMissingIds = 20;
+        private const float MaxMissingSkinsShare = 0.1f;
         private const string DownloadIconsPrefsKey = "OpenCase.RemoteConfigsImporter.DownloadMissingIcons";
 
         private EditorRemoteConfigsData _remoteConfigsData;
@@ -81,6 +83,7 @@ namespace Features.RemoteConfigs.Editor
 
                 EditorUtility.ClearProgressBar();
                 ShowSummary(reports);
+                OfferMissingSkinsRemoval(reports);
 
                 if (_isDownloadingIcons == true && reports.Any(report => report.Errors.Count > 0) == true)
                 {
@@ -151,6 +154,41 @@ namespace Features.RemoteConfigs.Editor
             dialogText.Append("Details are in the console.");
 
             EditorUtility.DisplayDialog(Title, dialogText.ToString(), "OK");
+        }
+
+        private void OfferMissingSkinsRemoval(List<ImportReport> reports)
+        {
+            var policy = new MissingSkinsRemovalPolicy(MaxMissingSkinsShare);
+
+            foreach (var report in reports.Where(policy.CanOffer))
+            {
+                var remover = new MissingSkinsRemover(report.ConfigsFolder);
+                var referencedIds = remover.FindReferencedIds();
+                var removableIds = policy.FindRemovable(report.Missing, referencedIds);
+                var keptIds = report.Missing.Where(id => referencedIds.Contains(id) == true).ToList();
+
+                if (removableIds.Count == 0)
+                {
+                    Debug.LogWarning($"Skin configs missing from the sheet are still used by cases and were kept:\n{string.Join("\n", keptIds)}");
+                    continue;
+                }
+
+                var message = policy.BuildMessage(removableIds, keptIds, MaxShownMissingIds);
+
+                if (EditorUtility.DisplayDialog(Title, message, "Delete", "Keep") == false)
+                {
+                    continue;
+                }
+
+                var result = remover.Remove(removableIds);
+
+                if (result.FailedPaths.Count > 0)
+                {
+                    Debug.LogError($"Failed to delete skin configs:\n{string.Join("\n", result.FailedPaths)}");
+                }
+
+                Debug.Log($"Deleted {result.DeletedIds.Count} skin configs missing from the sheet:\n{string.Join("\n", result.DeletedIds)}");
+            }
         }
     }
 }
