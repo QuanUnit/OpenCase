@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Ursus_Navaja
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Ursus_Navaja
+  Name: Ursus & Navaja Case
+  Price: 121.4
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 4ffa66005e010404e9eb7984093851d2, type: 2}
+      Value: 2.7110043
+    - Key: {fileID: 11400000, guid: 5dbe12b2bb5aa4c36a8c41e352acfccc, type: 2}
+      Value: 2.628773
+    - Key: {fileID: 11400000, guid: 6d44fab9f8e644abe9036a8e8901f382, type: 2}
+      Value: 2.591198
+    - Key: {fileID: 11400000, guid: 8409cf3fb6f1f4177bf36c8f10b6deb5, type: 2}
+      Value: 2.7928505
+    - Key: {fileID: 11400000, guid: 6168186913b1e434a946a35d592a2a09, type: 2}
+      Value: 2.9707448
+    - Key: {fileID: 11400000, guid: 3d8c16f754f2242728596ff633d97e15, type: 2}
+      Value: 2.5235903
+    - Key: {fileID: 11400000, guid: d0d756b611a60407daf2cf586012cfe6, type: 2}
+      Value: 2.5990314
+    - Key: {fileID: 11400000, guid: 2654ff1934cea4a8ba0e615c1b889fe3, type: 2}
+      Value: 2.6602437
+    - Key: {fileID: 11400000, guid: de45fa445d4e64669a84bd4ddffaaad3, type: 2}
+      Value: 2.6734672
+    - Key: {fileID: 11400000, guid: 64b7992f03d9b44e7aa49dd9acb0d7d0, type: 2}
+      Value: 2.7599795
+    - Key: {fileID: 11400000, guid: be2e01f8f601f464b87360614fdc8fce, type: 2}
+      Value: 3.052802
+    - Key: {fileID: 11400000, guid: 7c3e7c161d8574ab89e4210935df5ffd, type: 2}
+      Value: 2.3642821
+    - Key: {fileID: 11400000, guid: 23674056cba4a4b61a62363b5ec8d122, type: 2}
+      Value: 2.9605162
+    - Key: {fileID: 11400000, guid: 9d28ce26363a84437bfcf302c4c03cea, type: 2}
+      Value: 2.7428951
+    - Key: {fileID: 11400000, guid: 0330e144a925d475f888a7f2997aeaa8, type: 2}
+      Value: 2.8040802
+    - Key: {fileID: 11400000, guid: f0bf81ba7e5304f48b189d6ce2c15151, type: 2}
+      Value: 2.7248135
+    - Key: {fileID: 11400000, guid: 8f78aa0652e0347e19afbe7e0056822b, type: 2}
+      Value: 2.7290413
+    - Key: {fileID: 11400000, guid: 98a2bd55488624a74b670f70839f89a7, type: 2}
+      Value: 2.589318
+    - Key: {fileID: 11400000, guid: 2ce585a68e2b94e399109c47cd144a8d, type: 2}
+      Value: 3.089729
+    - Key: {fileID: 11400000, guid: 636ba11f8be5646dc968984d1d514f8b, type: 2}
+      Value: 2.5374777
+    - Key: {fileID: 11400000, guid: 1718a7e7bffba4e74a04d5fe6a7c7773, type: 2}
+      Value: 2.6736
+    - Key: {fileID: 11400000, guid: ee8a542b12d4d485e93eadac07a3eafe, type: 2}
+      Value: 2.412994
+    - Key: {fileID: 11400000, guid: b405dd84baef4491b8757f9607bdb065, type: 2}
+      Value: 2.0288246
+    - Key: {fileID: 11400000, guid: 7b613d464ff3b4c8589725cfe8ab1330, type: 2}
+      Value: 2.7673566
+    - Key: {fileID: 11400000, guid: e49ad52e785ed4e06a08bf05a8c832c3, type: 2}
+      Value: 2.2919486
+    - Key: {fileID: 11400000, guid: b73dbba73025f49768e95c7c4abe9bcc, type: 2}
+      Value: 2.3397417
+    - Key: {fileID: 11400000, guid: cd84ebbe1df1a4511bbcbae8842b9822, type: 2}
+      Value: 2.6404614
+    - Key: {fileID: 11400000, guid: 3b62ab7f67cd04d5684cb6ce21d4ab58, type: 2}
+      Value: 2.4237318
+    - Key: {fileID: 11400000, guid: edd9ca2bf9990405c91c08d7e1cc5011, type: 2}
+      Value: 2.3738956
+    - Key: {fileID: 11400000, guid: 01944b30357a54b348601587a2c4d86b, type: 2}
+      Value: 2.9062495
+    - Key: {fileID: 11400000, guid: ece33f2fdad5844dabfd491c927ef16b, type: 2}
+      Value: 2.5091877
+    - Key: {fileID: 11400000, guid: f8f11e3dd3f7746c4b2d8238b66e86bd, type: 2}
+      Value: 2.6314688
+    - Key: {fileID: 11400000, guid: 0dd43c0b63d9f4ff1be0bad45a749693, type: 2}
+      Value: 2.4664116
+    - Key: {fileID: 11400000, guid: 102b5f087f80a45f3b6603cad926c14f, type: 2}
+      Value: 2.6186728
+    - Key: {fileID: 11400000, guid: 2030cc9b158de4edd8c80c6edf8a5306, type: 2}
+      Value: 2.496405
+    - Key: {fileID: 11400000, guid: 4c45213e4ddfb4de29f83924d17e3628, type: 2}
+      Value: 2.3325343
+    - Key: {fileID: 11400000, guid: 95ff3a21fc32f437bb6b8dceb57409fd, type: 2}
+      Value: 2.7614474
+    - Key: {fileID: 11400000, guid: 32751643aa69e4e3e99801b4f7c64b0d, type: 2}
+      Value: 2.8192308
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_ursus_navaja
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 23f622811a2024aa48e9e603351dd80c
+      m_EditorAssetChanged: 1

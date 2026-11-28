@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Breakout
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Breakout
+  Name: Operation Breakout Case
+  Price: 6.7
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 156fb489f5aeb4af1b5bae4faefa824a, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 3a474c523c5cb448793b053e622c6c3d, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 2906a083ec38948e6a66646baef0dfc4, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 7c5b39483197343c6825d311ae6bc020, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: cd979efa24b25419cbaf7e221f32e713, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 8532cdd9409aa47f89e3178f58e20a22, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: b2d29bc34712a46e7b041e731f57c63d, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: b3c12267699984c1e8c5b3d30fad1c49, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 7089208c1be0d4209878a6360152064f, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 80530be7c17e1485da87344c731a4181, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: bf97cfbb08cef4263b1407dfebd3b6d1, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 6d5692789fdb4484c91db0804e67af38, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: acda96ad3ab5c4447a14eacd9629bd94, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 87930f095abff084aae6948a8d797abd, type: 2}
+      Value: 4.6320324
+    - Key: {fileID: 11400000, guid: 38ba8aa66bf82b4479fcf3ffec41b7fc, type: 2}
+      Value: 1.5170224
+    - Key: {fileID: 11400000, guid: 72e662232c7af174bbc00226157ffd71, type: 2}
+      Value: 1.5170224
+    - Key: {fileID: 11400000, guid: 237122898b00c52419025bfae1ecd9d5, type: 2}
+      Value: 1.5170224
+    - Key: {fileID: 11400000, guid: 2058fdc27698ca641a7fd17bd9a61ecc, type: 2}
+      Value: 0.55824095
+    - Key: {fileID: 11400000, guid: 810b4d72f3031d6438152c1d4875ea71, type: 2}
+      Value: 15.108864
+    - Key: {fileID: 11400000, guid: e159f473a4375df48820d50fcdec3219, type: 2}
+      Value: 15.108864
+    - Key: {fileID: 11400000, guid: c8cd601ac36a1f54b840df29dbbb66ef, type: 2}
+      Value: 4.6320324
+    - Key: {fileID: 11400000, guid: 70a52c16a0c36264da9a0bd6c8ec051f, type: 2}
+      Value: 15.108864
+    - Key: {fileID: 11400000, guid: efd847d598d4c864f9a20ee9b89a5101, type: 2}
+      Value: 4.6320324
+    - Key: {fileID: 11400000, guid: 6277983a3327f0646b7a0dceea8163a9, type: 2}
+      Value: 0.55824095
+    - Key: {fileID: 11400000, guid: 5e7dacc4f989f644f924d967482cc8df, type: 2}
+      Value: 4.6320324
+    - Key: {fileID: 11400000, guid: 4b3b783754ad60e4785329df18786a8b, type: 2}
+      Value: 15.108864
+    - Key: {fileID: 11400000, guid: afab7f518a0d1a14e8a2e72ada9f2cdb, type: 2}
+      Value: 15.108864
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_breakout
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 582f7210ede3a4e6faf06539ffe6a8da
+      m_EditorAssetChanged: 1

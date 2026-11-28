@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Rare_Gloves
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Rare_Gloves
+  Name: Rare Gloves Case
+  Price: 237.74
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: ca45091c75bf14ea59001a55c63911b5, type: 2}
+      Value: 4.025668
+    - Key: {fileID: 11400000, guid: 0dc0602222bdf48fb8ff9641d0bcf5ae, type: 2}
+      Value: 4.2306366
+    - Key: {fileID: 11400000, guid: b00b1a2078d9147f18861635a86e4383, type: 2}
+      Value: 3.9892282
+    - Key: {fileID: 11400000, guid: 5240446621b75407ab72a81f31e22630, type: 2}
+      Value: 4.18634
+    - Key: {fileID: 11400000, guid: 74c3114e35e5a48859b63fe8522722c2, type: 2}
+      Value: 3.9346936
+    - Key: {fileID: 11400000, guid: 53cece6e68d0e42629da84f86f1488ee, type: 2}
+      Value: 4.507912
+    - Key: {fileID: 11400000, guid: cbf9ca7a4250f426b8439083ef5774ed, type: 2}
+      Value: 4.2437515
+    - Key: {fileID: 11400000, guid: 33782ece6ffa34cd4a31557c8238460f, type: 2}
+      Value: 3.908975
+    - Key: {fileID: 11400000, guid: ad3e579f392df4498b2df16060224493, type: 2}
+      Value: 4.520019
+    - Key: {fileID: 11400000, guid: 45e547604b2ca4b84aae5c2ba21d1c84, type: 2}
+      Value: 3.8759923
+    - Key: {fileID: 11400000, guid: 355d81d3e68b9436ba169330aa2c7840, type: 2}
+      Value: 3.937124
+    - Key: {fileID: 11400000, guid: 231a0cc735e11400ca096184c8877772, type: 2}
+      Value: 3.6943023
+    - Key: {fileID: 11400000, guid: 1b4d5faa0e7df4d7090f72afd8604582, type: 2}
+      Value: 4.4340863
+    - Key: {fileID: 11400000, guid: 81f2a2875636141909e50d4c6b3bd14f, type: 2}
+      Value: 4.4914865
+    - Key: {fileID: 11400000, guid: 586713680b2db4af99f569118cd68701, type: 2}
+      Value: 4.5838017
+    - Key: {fileID: 11400000, guid: e478f29b29a08483d963e0590683e4be, type: 2}
+      Value: 4.408077
+    - Key: {fileID: 11400000, guid: f0dd89d07d83841ffad6c5a3ac32fc9c, type: 2}
+      Value: 3.581013
+    - Key: {fileID: 11400000, guid: d35b26c8c436a4ab084fda1da97e9913, type: 2}
+      Value: 4.1498146
+    - Key: {fileID: 11400000, guid: 896b1571169524025a9ccfef2000bda5, type: 2}
+      Value: 3.3535688
+    - Key: {fileID: 11400000, guid: 505a882d7068c4118abf4699b08c5538, type: 2}
+      Value: 4.0526156
+    - Key: {fileID: 11400000, guid: d4b3dab19d5a34d31afad6b57a804db1, type: 2}
+      Value: 4.0505486
+    - Key: {fileID: 11400000, guid: 40ed072ac4ccf409fa99d5cdadc67136, type: 2}
+      Value: 4.5152426
+    - Key: {fileID: 11400000, guid: 4bc2ca7b8d44d4795be9313c27068b49, type: 2}
+      Value: 4.5692186
+    - Key: {fileID: 11400000, guid: 1a1ae8604083b4798a9cbb07deeb1097, type: 2}
+      Value: 4.7558837
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_rare_gloves
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: a8791bd4a854e41ae99fcbe41df0d60d
+      m_EditorAssetChanged: 1

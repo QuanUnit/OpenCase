@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Nomad_Survival
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Nomad_Survival
+  Name: Nomad & Survival Case
+  Price: 147.12
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 49f2d76d02c8b48ac802d81a9e174151, type: 2}
+      Value: 2.3681226
+    - Key: {fileID: 11400000, guid: 03d09f3846529494c8497d91314b15c1, type: 2}
+      Value: 2.7677045
+    - Key: {fileID: 11400000, guid: 1ae9ac951de32488087abc17a030c489, type: 2}
+      Value: 2.2233613
+    - Key: {fileID: 11400000, guid: 6ede1729bc3f04e7ebf2c09b4a22d2bf, type: 2}
+      Value: 2.139893
+    - Key: {fileID: 11400000, guid: bce9f08e512b24cba997c3e7e94d4c2f, type: 2}
+      Value: 2.5850382
+    - Key: {fileID: 11400000, guid: 7eee45ef6f1664c94af4a7de6253c715, type: 2}
+      Value: 2.0961092
+    - Key: {fileID: 11400000, guid: b52b199b081ee4e7aa964f1d1acfdef9, type: 2}
+      Value: 2.280738
+    - Key: {fileID: 11400000, guid: 7635a5e05756f4880a2f083fdd1e113b, type: 2}
+      Value: 2.9062085
+    - Key: {fileID: 11400000, guid: 9f1a1f90ac6ac48f6a891d459822ee82, type: 2}
+      Value: 2.3225768
+    - Key: {fileID: 11400000, guid: c27e4118f0df1406c849988f2f8b5d51, type: 2}
+      Value: 2.374616
+    - Key: {fileID: 11400000, guid: cc76ab765d8d1474e9d7536ba5b1888e, type: 2}
+      Value: 2.7738822
+    - Key: {fileID: 11400000, guid: 07db9af8270414dcca5d310492068427, type: 2}
+      Value: 2.643526
+    - Key: {fileID: 11400000, guid: 757225c2b01fd40ea90a57610dafc725, type: 2}
+      Value: 2.8813682
+    - Key: {fileID: 11400000, guid: 70aa4c0ad37c64a47aef595007045813, type: 2}
+      Value: 2.3702407
+    - Key: {fileID: 11400000, guid: 7e97c9d90c4094847aad7b5c7840b87b, type: 2}
+      Value: 2.5267951
+    - Key: {fileID: 11400000, guid: 8e063dd83357645059a86446f668a2ad, type: 2}
+      Value: 2.423453
+    - Key: {fileID: 11400000, guid: 58c4467c8bb4c457093612002385561d, type: 2}
+      Value: 2.4215283
+    - Key: {fileID: 11400000, guid: 07857862720e745d3a28c6e8e3e546ab, type: 2}
+      Value: 2.7666128
+    - Key: {fileID: 11400000, guid: a237f3493420c42babc8bd0e533cf9f2, type: 2}
+      Value: 2.7400846
+    - Key: {fileID: 11400000, guid: 43695345ccbfe4b9da37791a39864cdd, type: 2}
+      Value: 2.7441568
+    - Key: {fileID: 11400000, guid: 6358759ccefda4edc873619e2bcf020e, type: 2}
+      Value: 2.6767683
+    - Key: {fileID: 11400000, guid: c6c69d8766e4649dfa51281a93351fae, type: 2}
+      Value: 2.6650302
+    - Key: {fileID: 11400000, guid: 6297921a61d394028b0cc45e26366d1a, type: 2}
+      Value: 2.2913892
+    - Key: {fileID: 11400000, guid: 80f4c7e0a38f546d0bab750626010e73, type: 2}
+      Value: 3.0339255
+    - Key: {fileID: 11400000, guid: 23ca962358f874178b65f4656a595887, type: 2}
+      Value: 2.3460112
+    - Key: {fileID: 11400000, guid: 39566007ae5f841bd91031fd5b2f0e65, type: 2}
+      Value: 2.5789857
+    - Key: {fileID: 11400000, guid: 882a92aeafab14a40a070a820f8e8f80, type: 2}
+      Value: 2.6738276
+    - Key: {fileID: 11400000, guid: 2572f6bfa00ad4ecc88b7c9ae7b499b2, type: 2}
+      Value: 2.5765243
+    - Key: {fileID: 11400000, guid: 5e5ab0d10507e4699b51807335b532bf, type: 2}
+      Value: 2.9353328
+    - Key: {fileID: 11400000, guid: 36a25e6e736fb433487cd8f8ff090b64, type: 2}
+      Value: 3.2697594
+    - Key: {fileID: 11400000, guid: 62412ccbb31164b15950709b4c720b37, type: 2}
+      Value: 3.0083222
+    - Key: {fileID: 11400000, guid: 896a1d5da6ec04b71a4b29ba526fab3d, type: 2}
+      Value: 2.6870866
+    - Key: {fileID: 11400000, guid: 5b5990723961d4a73adb4ba4198e1230, type: 2}
+      Value: 2.692171
+    - Key: {fileID: 11400000, guid: 4f8c931f58485446da55e2868f52b588, type: 2}
+      Value: 2.909539
+    - Key: {fileID: 11400000, guid: 5e2199f3fdcae4750b8fc0cf64f16661, type: 2}
+      Value: 2.6835117
+    - Key: {fileID: 11400000, guid: 39fb222b86622436c962fba9001477df, type: 2}
+      Value: 2.7994642
+    - Key: {fileID: 11400000, guid: 38fa16b17c5e849379c6ad0e93a7f48a, type: 2}
+      Value: 2.611328
+    - Key: {fileID: 11400000, guid: 43782d33a5c6d430d83615c6a3d3ca1c, type: 2}
+      Value: 3.2050073
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_nomad_survival
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 4e843d2b5445d40afbffa8994793cf7e
+      m_EditorAssetChanged: 1

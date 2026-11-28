@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Danger_Zone
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Danger_Zone
+  Name: Danger Zone Case
+  Price: 3.29
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 3cd7133d59cfbbb4eb2db1658923fc15, type: 2}
+      Value: 0.7149787
+    - Key: {fileID: 11400000, guid: 8f981e12746ca3942a3c1675fd174f96, type: 2}
+      Value: 0.7149787
+    - Key: {fileID: 11400000, guid: 62c4d9959e3e6d64ab3ea89856840ce1, type: 2}
+      Value: 1.7710614
+    - Key: {fileID: 11400000, guid: 43cfe6fd6ee93024e8514ebeab178370, type: 2}
+      Value: 3.9434237
+    - Key: {fileID: 11400000, guid: 5a8f36ca01528fa4986172c5403b69ce, type: 2}
+      Value: 3.9434237
+    - Key: {fileID: 11400000, guid: 2ca5990df22a3e44c823365dcabff5d2, type: 2}
+      Value: 10.468534
+    - Key: {fileID: 11400000, guid: 59a79ef4033a3b9409ef12eca69b41c5, type: 2}
+      Value: 10.468534
+    - Key: {fileID: 11400000, guid: 2617060d1ac313544a1c03d080c3677f, type: 2}
+      Value: 3.9434237
+    - Key: {fileID: 11400000, guid: 58847bc5c67e20e4c900bff159327a28, type: 2}
+      Value: 1.7710614
+    - Key: {fileID: 11400000, guid: 96367a64a2714d647a54edc147ab6ebe, type: 2}
+      Value: 10.468534
+    - Key: {fileID: 11400000, guid: 4ffa66005e010404e9eb7984093851d2, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 5dbe12b2bb5aa4c36a8c41e352acfccc, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 6d44fab9f8e644abe9036a8e8901f382, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 8409cf3fb6f1f4177bf36c8f10b6deb5, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: d0d756b611a60407daf2cf586012cfe6, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 2654ff1934cea4a8ba0e615c1b889fe3, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 64b7992f03d9b44e7aa49dd9acb0d7d0, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 7c3e7c161d8574ab89e4210935df5ffd, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 23674056cba4a4b61a62363b5ec8d122, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 9d28ce26363a84437bfcf302c4c03cea, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 0330e144a925d475f888a7f2997aeaa8, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 98a2bd55488624a74b670f70839f89a7, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 2ce585a68e2b94e399109c47cd144a8d, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: dbe56e4a8e9edbe45bfb6c34f8574c98, type: 2}
+      Value: 10.468534
+    - Key: {fileID: 11400000, guid: 11c20b9925aefa44db395eec05a0bc1d, type: 2}
+      Value: 3.9434237
+    - Key: {fileID: 11400000, guid: c07e658712b267844ad680222d0e595d, type: 2}
+      Value: 10.468534
+    - Key: {fileID: 11400000, guid: 0814abcdfdace9245a869f1551242149, type: 2}
+      Value: 10.468534
+    - Key: {fileID: 11400000, guid: c156878b7366f4eca8beb383779c9c38, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: be11d8849b5ca44269a1af121a1b2295, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 9553ca3cbcc1e42718a6ffa7be8817ff, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 255d7b5b9d8794bf080173306396a058, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 37bb6ec16746b46568900d59415ce120, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: b16020a7d5ada47b1b838696a1793dee, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 8e4fcd701918b4d54bc3f9ecae59034f, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 5630a2212b2b147f48432ea506deb98c, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 5babee2e857a040219c9fde3bc5bc823, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 1d202e8adbe4d4565ab6645ed353ba9f, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: e0e029094893344099ab2c52782c72c9, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 18ab1ebe78b304fa1a9ca4557162cb85, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: b14c55a77c46a48109418cf445a18834, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 14713da845bc3441187b3c3b17e1259c, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 461433b3807a5426ba57d42c1a01d9dc, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: d308926b2ac8c4f33b645d40981f2a03, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: d3ca414aae32942cea81cf48e8682f58, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: e827205216feb4da9b0a9182540ed4d6, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 8e8033e91fc8240f99ef586811183cb1, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 77a28259c75bd42ae8657fe817335c6b, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 274081f759e424cf1a6cf1ad574c15b1, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 240efa8f1c5704b59802ab9c724bc9b5, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 5a32f4e2a3bd94d49a6744f2a384517b, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 6b82fbbd5d2f6414ca02cf5ec1af6451, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 121e125c4a8c94f8f811e2f8030b86ae, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 59a642abf66d44e9daaceffc362f9309, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 43ab86d84d2bead4c8ec8c2ddd24bdf2, type: 2}
+      Value: 10.468534
+    - Key: {fileID: 11400000, guid: cdaf2dfc86d8c88449d4251f109c7239, type: 2}
+      Value: 1.7710614
+    - Key: {fileID: 11400000, guid: b4d458e6d631c6541a81cc4118696b9b, type: 2}
+      Value: 3.9434237
+    - Key: {fileID: 11400000, guid: 636ba11f8be5646dc968984d1d514f8b, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 1718a7e7bffba4e74a04d5fe6a7c7773, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: ee8a542b12d4d485e93eadac07a3eafe, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: b405dd84baef4491b8757f9607bdb065, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: b73dbba73025f49768e95c7c4abe9bcc, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: cd84ebbe1df1a4511bbcbae8842b9822, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: edd9ca2bf9990405c91c08d7e1cc5011, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: ece33f2fdad5844dabfd491c927ef16b, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: f8f11e3dd3f7746c4b2d8238b66e86bd, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 0dd43c0b63d9f4ff1be0bad45a749693, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 102b5f087f80a45f3b6603cad926c14f, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 95ff3a21fc32f437bb6b8dceb57409fd, type: 2}
+      Value: 0.005
+    - Key: {fileID: 11400000, guid: 32751643aa69e4e3e99801b4f7c64b0d, type: 2}
+      Value: 0.005
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_danger_zone
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 8c390f003bd9947b980f4639d58d0bcb
+      m_EditorAssetChanged: 1

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Crimson_T4
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Crimson_T4
+  Name: Crimson Elite
+  Price: 52.9
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 678a816be3c7f534592da064aea9d2bd, type: 2}
+      Value: 0.12434261
+    - Key: {fileID: 11400000, guid: 98db27a9105fa334da8cb60eac175259, type: 2}
+      Value: 0.545296
+    - Key: {fileID: 11400000, guid: 016c6178884f1ad4aac7fdcd8da1fcf0, type: 2}
+      Value: 0.545296
+    - Key: {fileID: 11400000, guid: d13db5218df3c7440b5b38d11143b2ca, type: 2}
+      Value: 0.545296
+    - Key: {fileID: 11400000, guid: 202fd11981b37b7428c3841f251db18d, type: 2}
+      Value: 0.12434261
+    - Key: {fileID: 11400000, guid: b2a453b551951cf449e8c87774cce804, type: 2}
+      Value: 4.975769
+    - Key: {fileID: 11400000, guid: a1a0f2c01686b2f44b53b1b4ec05c08b, type: 2}
+      Value: 40.92442
+    - Key: {fileID: 11400000, guid: c491906b677384e0fa5eb49ec0e7145c, type: 2}
+      Value: 4.975769
+    - Key: {fileID: 11400000, guid: f5483887d63cdf9439d88281dedfa4af, type: 2}
+      Value: 0.12434261
+    - Key: {fileID: 11400000, guid: cbf37d785c0a0a34a88437e35224e762, type: 2}
+      Value: 4.975769
+    - Key: {fileID: 11400000, guid: 000b93fa50ad94a24945b61c1d8caf23, type: 2}
+      Value: 40.92442
+    - Key: {fileID: 11400000, guid: 17064ad73142da344925b5cd5dd126b5, type: 2}
+      Value: 0.545296
+    - Key: {fileID: 11400000, guid: 9cc9698ad1383c54db2808d74ad49c43, type: 2}
+      Value: 0.12434261
+    - Key: {fileID: 11400000, guid: c79aa2500c590e742a0eb2c732ab7cf3, type: 2}
+      Value: 0.545296
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_crimson_t4
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 28ecae8feeb114841b647738420355a2
+      m_EditorAssetChanged: 1

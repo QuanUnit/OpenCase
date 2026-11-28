@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_M9_Bayonet
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_M9_Bayonet
+  Name: M9 Bayonet Case
+  Price: 643.66
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 8536f922f5fa245faba8dc159650dc60, type: 2}
+      Value: 3.6673708
+    - Key: {fileID: 11400000, guid: 92c5551feea154b379e617a6ed446ae3, type: 2}
+      Value: 4.0676336
+    - Key: {fileID: 11400000, guid: 17806d4a326bf4b7982e6fb39bc5f367, type: 2}
+      Value: 3.952094
+    - Key: {fileID: 11400000, guid: 7ff0073c4641a48d9b14cee28796765f, type: 2}
+      Value: 4.5121512
+    - Key: {fileID: 11400000, guid: bc69606b51dae4866a0a767e848e2a76, type: 2}
+      Value: 4.4290853
+    - Key: {fileID: 11400000, guid: babf1fd2904694b5fb008bd127d05e46, type: 2}
+      Value: 3.6713803
+    - Key: {fileID: 11400000, guid: 6a31a308c8a2f47c49c93333df5bc266, type: 2}
+      Value: 2.8249576
+    - Key: {fileID: 11400000, guid: d07d11e2a788c427bbf352e1b868059d, type: 2}
+      Value: 4.235938
+    - Key: {fileID: 11400000, guid: 2c88e909494bf4c58890d1acd1d58854, type: 2}
+      Value: 3.6395502
+    - Key: {fileID: 11400000, guid: a00c6c2026d2a456abf73a0b5e6cb1a4, type: 2}
+      Value: 3.5552282
+    - Key: {fileID: 11400000, guid: baab21031bde246c8950d766e1b46f28, type: 2}
+      Value: 4.159541
+    - Key: {fileID: 11400000, guid: 0bc9a7fd0135b4457b3f1ee19560ac6c, type: 2}
+      Value: 4.357941
+    - Key: {fileID: 11400000, guid: d45bcd028b32c4adeaa68c9113fa0cc3, type: 2}
+      Value: 3.506088
+    - Key: {fileID: 11400000, guid: 69a55b2ca143f45b98500c70abcc4588, type: 2}
+      Value: 3.9333086
+    - Key: {fileID: 11400000, guid: b76aaa38e57c84acfa65fb7060d70367, type: 2}
+      Value: 3.757397
+    - Key: {fileID: 11400000, guid: cb54bd94bda334b4da252ab3c1798bc5, type: 2}
+      Value: 4.384124
+    - Key: {fileID: 11400000, guid: 4588871346fba4abc9898cb140c9299c, type: 2}
+      Value: 4.467814
+    - Key: {fileID: 11400000, guid: c1264e3e2dda24154be9730276f19f39, type: 2}
+      Value: 4.5859804
+    - Key: {fileID: 11400000, guid: f78ff9d705f074ab093bf648e6f8f4ec, type: 2}
+      Value: 4.5476813
+    - Key: {fileID: 11400000, guid: e3fa4e5f50a0f4c87b8545a809e15fc7, type: 2}
+      Value: 3.8399532
+    - Key: {fileID: 11400000, guid: 8fc72c99db7ac4403a40ee8e63d00091, type: 2}
+      Value: 4.161612
+    - Key: {fileID: 11400000, guid: fc3294dd2e84d40cbb12ded68ae48c02, type: 2}
+      Value: 3.9166675
+    - Key: {fileID: 11400000, guid: fc554723f8dd24d75bf6937d585e01ba, type: 2}
+      Value: 3.5017781
+    - Key: {fileID: 11400000, guid: 31bdd061fb7cd4c8e9bbf2103bb055e0, type: 2}
+      Value: 4.472881
+    - Key: {fileID: 11400000, guid: b6b73e7d5984748cebf633ef0fa6e274, type: 2}
+      Value: 3.851843
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_m9_bayonet
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 95dd1b74a861c4280a57a4c4b7d1b45a
+      m_EditorAssetChanged: 1

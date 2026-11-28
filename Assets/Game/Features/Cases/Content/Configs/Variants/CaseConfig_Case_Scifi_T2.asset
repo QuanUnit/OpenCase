@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Scifi_T2
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Scifi_T2
+  Name: Sci-Fi
+  Price: 3.08
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 8a5869c8214828443b40fc9c7e38c6c8, type: 2}
+      Value: 2.81524
+    - Key: {fileID: 11400000, guid: ae421b85e33981f419b4e18cb7c3e5f2, type: 2}
+      Value: 2.81524
+    - Key: {fileID: 11400000, guid: b1202d3b8d0672444ae2cd440a98f8ec, type: 2}
+      Value: 84.61543
+    - Key: {fileID: 11400000, guid: d3cb0cd7dc0868f4d933d52250c3679a, type: 2}
+      Value: 4.877043
+    - Key: {fileID: 11400000, guid: 9bb1f1c6ca5063b4198143b9c2371f25, type: 2}
+      Value: 4.877043
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_scifi_t2
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 34b3592152af04acfb99ee64d8a77ad7
+      m_EditorAssetChanged: 1

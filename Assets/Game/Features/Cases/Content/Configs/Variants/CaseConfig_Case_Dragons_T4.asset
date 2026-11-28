@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Dragons_T4
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Dragons_T4
+  Name: Dragons & Beasts Elite
+  Price: 49.81
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 31475634726177443840d2889b5bcb16, type: 2}
+      Value: 0.1607701
+    - Key: {fileID: 11400000, guid: 918106d5dfc222f4d9ac5d94a415cba2, type: 2}
+      Value: 0.0429263
+    - Key: {fileID: 11400000, guid: 758cb300faca11341ae32a0c01713918, type: 2}
+      Value: 8.010174
+    - Key: {fileID: 11400000, guid: 791b3320a305a3b45922ff12ddeb3096, type: 2}
+      Value: 0.1607701
+    - Key: {fileID: 11400000, guid: c7d86fec3794ba94ab0e76bbd1e17de5, type: 2}
+      Value: 3.2073228
+    - Key: {fileID: 11400000, guid: 5ab2d63a2a71f7349a4b7cb2130ef85d, type: 2}
+      Value: 0.0429263
+    - Key: {fileID: 11400000, guid: ff2d7b0b54b8c5941a9fc6ffdb859652, type: 2}
+      Value: 80.00047
+    - Key: {fileID: 11400000, guid: 0f14680a949344907a2d05b909a10894, type: 2}
+      Value: 0.1607701
+    - Key: {fileID: 11400000, guid: d62a611d0395c764193337612e9a8227, type: 2}
+      Value: 0.1607701
+    - Key: {fileID: 11400000, guid: 17d72ee7517beb6428912c6ab14aa588, type: 2}
+      Value: 8.010174
+    - Key: {fileID: 11400000, guid: 38983e2b30a42c541b6a32665d01ef4a, type: 2}
+      Value: 0.0429263
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_dragons_t4
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 03e9d77b8583b42cbbfa3890a0eada82
+      m_EditorAssetChanged: 1

@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Snipers_T1
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Snipers_T1
+  Name: Sniper Street
+  Price: 0.46
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 4a8b70c6cd223474aa754abbcef5636e, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: 90cd5cdd4406912479999bbe091870f2, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: fdf76ce0a7e4f1843818fb32f6147c7b, type: 2}
+      Value: 2.8434398
+    - Key: {fileID: 11400000, guid: be9bc0e2052a2364f895649e5e7e3ddd, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: 96c83b4aace7e924fb2d724a27e4711e, type: 2}
+      Value: 9.776635
+    - Key: {fileID: 11400000, guid: 088698892c084844e8ae7558fae621f4, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: f4720fde380bf8b438df7d2a7af3813e, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: 1d90505413c83c44795e8332640a948d, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: df55ba98c4cc6784fbb9978947683e20, type: 2}
+      Value: 9.776635
+    - Key: {fileID: 11400000, guid: 43cfe6fd6ee93024e8514ebeab178370, type: 2}
+      Value: 2.8434398
+    - Key: {fileID: 11400000, guid: 8bf8bf4f1742b6445af8829ba1f395ed, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: 742f8062809474c208a9d1d2040a88c8, type: 2}
+      Value: 6.8297415
+    - Key: {fileID: 11400000, guid: 0c423389ec8b7154dbd30dee5e92ab7f, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: aacf24bd4c1c4d8448a46d2b1bd22c1e, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: dda5b81d13fc061429541e15b02c388a, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: 03c9cb261d6cf9a43a9ec46516c9a245, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: 6234abf6e5f829745a52863b0e9e5803, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: b9b122e1739cd3f419952b84e54f7688, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: b9277d86c10e3a245a7b9b03ecce9756, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: 0032c25660445ad438f676362802602f, type: 2}
+      Value: 2.8434398
+    - Key: {fileID: 11400000, guid: 3de5416fafc1f224bbb1be0d87263762, type: 2}
+      Value: 9.776635
+    - Key: {fileID: 11400000, guid: 20808b994838c8a498c95c028600a1c1, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: 42ceef240fd414949856b29dd51b52a7, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: 18f21d5001dd0af4e9825bfc500106bb, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: 4b3b783754ad60e4785329df18786a8b, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: 6b8a91c3f4f25904fa1aa086a83a98ab, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: 35b62ecc52a0f65479f9d3825417f440, type: 2}
+      Value: 6.8297415
+    - Key: {fileID: 11400000, guid: 17c8d8a67d2599b4ab0d6f4982a9111c, type: 2}
+      Value: 9.776635
+    - Key: {fileID: 11400000, guid: acd8ba57be2972d4fada2196c32b7a49, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: b74290c25d2b1445eb49e895f83f33ae, type: 2}
+      Value: 6.8297415
+    - Key: {fileID: 11400000, guid: 798953be2d58e014a87799e2dfb63681, type: 2}
+      Value: 6.8297415
+    - Key: {fileID: 11400000, guid: 32166c186970c1c4789f17dc049ea071, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: d78c73c2ef047d345a98340b8615b52b, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: 057f2e9a7412fb24dbfcec5ac9962344, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: cd721b964c379f14bbdbe5db6ad4c659, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: 6e16a643d9566e441a81b52a9bbfc6e9, type: 2}
+      Value: 9.776635
+    - Key: {fileID: 11400000, guid: c400b2618762fd04cb5df875337bb12a, type: 2}
+      Value: 0.58721316
+    - Key: {fileID: 11400000, guid: ba3910d9844db92438b84f4e64433228, type: 2}
+      Value: 0.58721316
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_snipers_t1
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: a28e58d1c62e34a69b2f2772116661bb
+      m_EditorAssetChanged: 1

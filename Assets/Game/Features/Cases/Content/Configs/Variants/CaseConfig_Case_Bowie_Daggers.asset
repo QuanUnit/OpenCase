@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Bowie_Daggers
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Bowie_Daggers
+  Name: Bowie & Daggers Case
+  Price: 201.08
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: f6ced76c2fcd946f1a366bb7e14826cb, type: 2}
+      Value: 2.0031266
+    - Key: {fileID: 11400000, guid: 3ef6fc37db1f1487f96fc91415794f54, type: 2}
+      Value: 2.0426404
+    - Key: {fileID: 11400000, guid: e733ee2ddb6a64ef0a17a2c366fbe3a4, type: 2}
+      Value: 1.9479867
+    - Key: {fileID: 11400000, guid: 27b5397763bab41c8a9f5ffb9a4f376e, type: 2}
+      Value: 2.0341604
+    - Key: {fileID: 11400000, guid: 149caad33d1834e3c822190c3490ff37, type: 2}
+      Value: 2.0444148
+    - Key: {fileID: 11400000, guid: d26ee6514418a40469aa5dcb1219f45e, type: 2}
+      Value: 1.7531706
+    - Key: {fileID: 11400000, guid: 13b96627f361c475486c2dd787a7a469, type: 2}
+      Value: 1.9820192
+    - Key: {fileID: 11400000, guid: e19e9227d447e4998bcd78d2c82a8750, type: 2}
+      Value: 2.019517
+    - Key: {fileID: 11400000, guid: 7bac9a6b65a5d46eba6775557bb76529, type: 2}
+      Value: 1.9330453
+    - Key: {fileID: 11400000, guid: f8283bfe098e84672bfbf99b6a76ab92, type: 2}
+      Value: 1.9445922
+    - Key: {fileID: 11400000, guid: 98f3b85e2b4864cbab3f4a3252d21aba, type: 2}
+      Value: 2.0264108
+    - Key: {fileID: 11400000, guid: 87c580dd56581477196ad658a82a4a27, type: 2}
+      Value: 2.0328298
+    - Key: {fileID: 11400000, guid: f3c120eaadabc4eb0a4c377d1be0db46, type: 2}
+      Value: 1.9580176
+    - Key: {fileID: 11400000, guid: 09cde5cb98fdd4cf4ba5b9f66b4c7d2b, type: 2}
+      Value: 1.99818
+    - Key: {fileID: 11400000, guid: 273ff99b8afe748fcbfce9e4d22ea6c6, type: 2}
+      Value: 1.9647233
+    - Key: {fileID: 11400000, guid: 642fbd7511a3540be9c49956e5e7d2e5, type: 2}
+      Value: 1.9549288
+    - Key: {fileID: 11400000, guid: be1d6503af2f64e989d15ee31b69b8cf, type: 2}
+      Value: 2.050243
+    - Key: {fileID: 11400000, guid: 957f093d360df440eb7e4981c77a00cb, type: 2}
+      Value: 2.052459
+    - Key: {fileID: 11400000, guid: 51e570f79f57243f7b11e7129e3ae68b, type: 2}
+      Value: 2.0421169
+    - Key: {fileID: 11400000, guid: f956aa323fb4f426b992898c1bb8a180, type: 2}
+      Value: 1.9629194
+    - Key: {fileID: 11400000, guid: 359d77daef91849ef891562e1fb3e915, type: 2}
+      Value: 1.9944803
+    - Key: {fileID: 11400000, guid: 1f9a3b655bd304ea08ea7b265a58cd45, type: 2}
+      Value: 1.9840101
+    - Key: {fileID: 11400000, guid: b3ad80a361c624edca6ad07081b49c6c, type: 2}
+      Value: 1.9517163
+    - Key: {fileID: 11400000, guid: 8ad9e6cb352004403b089b8d0e2e0db2, type: 2}
+      Value: 2.0257556
+    - Key: {fileID: 11400000, guid: 7d8e8d6370cbc4419bf970cff749009f, type: 2}
+      Value: 2.0230646
+    - Key: {fileID: 11400000, guid: e1adea476331f4e09a63e98d624666ea, type: 2}
+      Value: 2.0306706
+    - Key: {fileID: 11400000, guid: f9ecc1331d44e4fa6865d7ab2e4ea8fe, type: 2}
+      Value: 2.0531034
+    - Key: {fileID: 11400000, guid: 25910310854264eaabf67bf62c72ca8c, type: 2}
+      Value: 1.9924499
+    - Key: {fileID: 11400000, guid: e035eeb56a4834c728156a6ede96a10a, type: 2}
+      Value: 1.9746785
+    - Key: {fileID: 11400000, guid: 977bb5e26999f460995351e289b61972, type: 2}
+      Value: 2.0700867
+    - Key: {fileID: 11400000, guid: 81d854aca82cb4f1688b33b95a9c2135, type: 2}
+      Value: 1.9684782
+    - Key: {fileID: 11400000, guid: 1e27dcb3912504dba8787aef7876e29b, type: 2}
+      Value: 1.8910981
+    - Key: {fileID: 11400000, guid: 33daebbd2717249d49302a91e74fc464, type: 2}
+      Value: 2.0480332
+    - Key: {fileID: 11400000, guid: caee9ecb879044348a36c364cee11f73, type: 2}
+      Value: 1.966195
+    - Key: {fileID: 11400000, guid: 229180e8efda849019296694c0eae180, type: 2}
+      Value: 1.9721372
+    - Key: {fileID: 11400000, guid: bc5c8fb72d88a4edd80ff67ec5ab1fa5, type: 2}
+      Value: 1.991331
+    - Key: {fileID: 11400000, guid: cb64df155f0ec41c6ac4a0b17a222698, type: 2}
+      Value: 2.040833
+    - Key: {fileID: 11400000, guid: 682218a0f3e254b60a922caa652b79a6, type: 2}
+      Value: 1.9960448
+    - Key: {fileID: 11400000, guid: c841df216e9134e839faf45c9ca1d33d, type: 2}
+      Value: 2.0255291
+    - Key: {fileID: 11400000, guid: bf3e9bd9328014dda8f7dca140ce72ac, type: 2}
+      Value: 2.001154
+    - Key: {fileID: 11400000, guid: bb2d6940985df443cadc01bc2eaae2bf, type: 2}
+      Value: 2.019852
+    - Key: {fileID: 11400000, guid: 771fd3cf7acc74323b55b8c61015c2a9, type: 2}
+      Value: 2.056556
+    - Key: {fileID: 11400000, guid: 9f077a19f14e24cb0b7e288628c39f72, type: 2}
+      Value: 2.064139
+    - Key: {fileID: 11400000, guid: d2437302174364d0dbfd532bb366ff03, type: 2}
+      Value: 2.0500383
+    - Key: {fileID: 11400000, guid: e48359a08f17d43128380166398ba406, type: 2}
+      Value: 1.9897134
+    - Key: {fileID: 11400000, guid: e473b42a7bb4e4657a83f94d6c454cde, type: 2}
+      Value: 2.018914
+    - Key: {fileID: 11400000, guid: 9cf58bd736850460991f656389790840, type: 2}
+      Value: 2.019517
+    - Key: {fileID: 11400000, guid: e14c1b2d2b6384975b875eece68d2a10, type: 2}
+      Value: 1.9908289
+    - Key: {fileID: 11400000, guid: 8bfc758fc42744d78b45d7a1e5f7b60b, type: 2}
+      Value: 2.0068235
+    - Key: {fileID: 11400000, guid: 659c19c71e19b42ada2d898058bcfb84, type: 2}
+      Value: 2.035267
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_bowie_daggers
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 9079734f89b974e7c944dbd75d87992f
+      m_EditorAssetChanged: 1

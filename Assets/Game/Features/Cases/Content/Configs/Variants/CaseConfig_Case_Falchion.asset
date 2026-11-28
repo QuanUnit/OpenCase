@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Falchion
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Falchion
+  Name: Falchion Case
+  Price: 3.7
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: f1824a9bcec2a854a828756e10bf11a1, type: 2}
+      Value: 0.7648359
+    - Key: {fileID: 11400000, guid: 918106d5dfc222f4d9ac5d94a415cba2, type: 2}
+      Value: 0.7648359
+    - Key: {fileID: 11400000, guid: 6c695e5702fee364a8680062f2e7a49a, type: 2}
+      Value: 1.8469306
+    - Key: {fileID: 11400000, guid: 68d85b53de3b99841963ee02f05f7f58, type: 2}
+      Value: 4.008964
+    - Key: {fileID: 11400000, guid: f903dd0a368cd4796899d32ae3807b92, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 56c52893d990c4114a9fcf342c9d4737, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: a20a23389d7444905979af941d75ef10, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 22cac3ad3e0f541dfaf0e7df1ba76e15, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: d9d808bc610ff4c94b50ee9d4050f4ff, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 91772407504414e42840c1929de211d5, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 892a7e86de1564792bcc73cb304e3a88, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 0128f193db6f2415a93dd17824a76c43, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 8f5c4237b0ef04e4a8ffd006b82e6846, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 10b692f0d13be472f846afb834711284, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 885a67570e701438989b8cd2781dd2dc, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 2a815d064671e4ff6b6fd05faf4deb5c, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 7bf7a893ff84c4bfc9422fe3bc36f9dd, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: b5e99459518fff14e8b7355c7fdeb321, type: 2}
+      Value: 12.104119
+    - Key: {fileID: 11400000, guid: 69c6a4cb585d22141ae7d66c6cc390fd, type: 2}
+      Value: 12.104119
+    - Key: {fileID: 11400000, guid: 3409d6ec923ece045a0601db471108de, type: 2}
+      Value: 4.008964
+    - Key: {fileID: 11400000, guid: 7864f81eb4e90a54b870567eaa584893, type: 2}
+      Value: 1.8469306
+    - Key: {fileID: 11400000, guid: 4a201084d5f735943ad7518c0473d9d2, type: 2}
+      Value: 4.008964
+    - Key: {fileID: 11400000, guid: 7951f5393946b034ab3b4b0591e9595d, type: 2}
+      Value: 4.008964
+    - Key: {fileID: 11400000, guid: 777f118221d7b954e87542ef44c445f9, type: 2}
+      Value: 12.104119
+    - Key: {fileID: 11400000, guid: a6d85d05f5e73e64499a10ffb06096a6, type: 2}
+      Value: 4.008964
+    - Key: {fileID: 11400000, guid: 8b97a58590dae3342b3ca6e12e11bd22, type: 2}
+      Value: 12.104119
+    - Key: {fileID: 11400000, guid: ae421b85e33981f419b4e18cb7c3e5f2, type: 2}
+      Value: 1.8469306
+    - Key: {fileID: 11400000, guid: bb0de9cb042ba864689e2309f5f325de, type: 2}
+      Value: 12.104119
+    - Key: {fileID: 11400000, guid: 0979ffd73e8725a4eb6ee552f0e91420, type: 2}
+      Value: 12.104119
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_falchion
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 4cf4a754f0e454a12a6745fa94ff7bf2
+      m_EditorAssetChanged: 1

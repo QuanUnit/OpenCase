@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Contract_AWP_The_Prince
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Contract_AWP_The_Prince
+  Name: The Prince Contract
+  Price: 41.75
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 7737e8c6647c73341a3d8e8753165343, type: 2}
+      Value: 0.026576888
+    - Key: {fileID: 11400000, guid: ffb3a602d3ee2b7408465e33493dedf6, type: 2}
+      Value: 4.023283
+    - Key: {fileID: 11400000, guid: 49f3cb6860e86df41be19f04dc13e7cd, type: 2}
+      Value: 15.970308
+    - Key: {fileID: 11400000, guid: ba1a83a9b1bba4645bea4ecf7dfe9e7b, type: 2}
+      Value: 15.970308
+    - Key: {fileID: 11400000, guid: 7d1a5823c1be42448994410635e842bc, type: 2}
+      Value: 0.81084496
+    - Key: {fileID: 11400000, guid: ef9a81340d2299e41a58c9595eabaee8, type: 2}
+      Value: 0.81084496
+    - Key: {fileID: 11400000, guid: c491906b677384e0fa5eb49ec0e7145c, type: 2}
+      Value: 0.21783373
+    - Key: {fileID: 11400000, guid: 916b5b8c8247001469040308b0116a03, type: 2}
+      Value: 0.13187025
+    - Key: {fileID: 11400000, guid: c11e7c5a3b57f484c989fca9e0ed4b6a, type: 2}
+      Value: 0.21783373
+    - Key: {fileID: 11400000, guid: 84ce79313c5123246886a09d04270cd6, type: 2}
+      Value: 15.970308
+    - Key: {fileID: 11400000, guid: cb29685d27ff79e46b7a0b83369a1efc, type: 2}
+      Value: 0.21783373
+    - Key: {fileID: 11400000, guid: ee549cf069c09493eb49648308aa1510, type: 2}
+      Value: 4.023283
+    - Key: {fileID: 11400000, guid: 000b93fa50ad94a24945b61c1d8caf23, type: 2}
+      Value: 0.81084496
+    - Key: {fileID: 11400000, guid: 295ac1e2decf7b543a2137e37b70c8c5, type: 2}
+      Value: 15.970308
+    - Key: {fileID: 11400000, guid: ed6e99415a3400d42a286d9738919702, type: 2}
+      Value: 15.970308
+    - Key: {fileID: 11400000, guid: fc5358c65650a784583aed8a82b25837, type: 2}
+      Value: 4.023283
+    - Key: {fileID: 11400000, guid: ff9a99fd1bbf54b4b969d15ae8bafbd6, type: 2}
+      Value: 0.81084496
+    - Key: {fileID: 11400000, guid: 7c5de3af48b94b8438c51c318c592a77, type: 2}
+      Value: 4.023283
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_contract_awp_the_prince
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: b89d340fe944b47aba3715e96c3cfa35
+      m_EditorAssetChanged: 1

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Pistols_T5
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Pistols_T5
+  Name: Pistol Legend
+  Price: 355.58
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: e598415ba0161ae46ab195fd2f22276e, type: 2}
+      Value: 7.334495
+    - Key: {fileID: 11400000, guid: 43b7f1f74c7c1234c8612c098eb320be, type: 2}
+      Value: 7.334495
+    - Key: {fileID: 11400000, guid: 77f5523bf9582624d8eec95d8ed2125a, type: 2}
+      Value: 7.334495
+    - Key: {fileID: 11400000, guid: 8451a17ba49a8974eb9b3096b73fb2c5, type: 2}
+      Value: 4.1222706
+    - Key: {fileID: 11400000, guid: 76431a17b16686644a29a90a4e6bba1b, type: 2}
+      Value: 2.3139799
+    - Key: {fileID: 11400000, guid: 7e880ed6efaa4774daf0d6b31d599ef9, type: 2}
+      Value: 7.334495
+    - Key: {fileID: 11400000, guid: a88a29e33219eae429c507ee2dca70b9, type: 2}
+      Value: 4.1222706
+    - Key: {fileID: 11400000, guid: c5982103fb96d6b4e8056da00ad8f779, type: 2}
+      Value: 7.334495
+    - Key: {fileID: 11400000, guid: 9ffcf35e2dc5ed748853d121467c299f, type: 2}
+      Value: 7.334495
+    - Key: {fileID: 11400000, guid: 130c2176d5d2ea44bab0d2f56f532b50, type: 2}
+      Value: 7.334495
+    - Key: {fileID: 11400000, guid: d4ec6ef3a9eb50e4fbeea016623038b9, type: 2}
+      Value: 4.1222706
+    - Key: {fileID: 11400000, guid: 18518e21c2aa0604fa4a825f58f36456, type: 2}
+      Value: 2.3139799
+    - Key: {fileID: 11400000, guid: a505533e47218cd479be69f90684566f, type: 2}
+      Value: 7.334495
+    - Key: {fileID: 11400000, guid: c43b0e6a01701c8458b2ce77978242b9, type: 2}
+      Value: 2.3139799
+    - Key: {fileID: 11400000, guid: 499c5e11fd849491fac649f984c7cd93, type: 2}
+      Value: 2.3139799
+    - Key: {fileID: 11400000, guid: 2d17b5619632b4f73bbc0ef7c081e117, type: 2}
+      Value: 7.334495
+    - Key: {fileID: 11400000, guid: 83d45e8abc0464a4085de5650bf6d702, type: 2}
+      Value: 4.1222706
+    - Key: {fileID: 11400000, guid: 83cab2a463e752b44a4de309c3ae8374, type: 2}
+      Value: 4.1222706
+    - Key: {fileID: 11400000, guid: e4dee648bf04f634bbcf6b101b416103, type: 2}
+      Value: 4.1222706
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_pistols_t5
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: ee44eaf093ae347a58c5066b32e2807b
+      m_EditorAssetChanged: 1

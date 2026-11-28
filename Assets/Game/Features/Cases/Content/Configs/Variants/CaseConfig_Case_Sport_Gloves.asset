@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Sport_Gloves
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Sport_Gloves
+  Name: Sport Gloves Case
+  Price: 1153.65
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 487cd52dcd4ca489ebfda0180f26d35f, type: 2}
+      Value: 3.565976
+    - Key: {fileID: 11400000, guid: 7188760f4674648aeaf132b4fad12765, type: 2}
+      Value: 3.290007
+    - Key: {fileID: 11400000, guid: 0890ab8e51b8e4d10993654ca9099151, type: 2}
+      Value: 3.310843
+    - Key: {fileID: 11400000, guid: 529412fe59b004219a8c8d0fcb58b782, type: 2}
+      Value: 3.146091
+    - Key: {fileID: 11400000, guid: fa3f3097766da4edca126d638a6b28c6, type: 2}
+      Value: 3.2891786
+    - Key: {fileID: 11400000, guid: fe893c044ee4d4064b7ed8eda6f07e7a, type: 2}
+      Value: 3.4165766
+    - Key: {fileID: 11400000, guid: 4aed5ab04284e46b39e91275c1c3b5ff, type: 2}
+      Value: 3.408125
+    - Key: {fileID: 11400000, guid: 823a5f4791d22415d9dc3440358ff1ce, type: 2}
+      Value: 3.3439121
+    - Key: {fileID: 11400000, guid: b02588c01459e42d5a6b7ebc61f2d9f0, type: 2}
+      Value: 3.3182492
+    - Key: {fileID: 11400000, guid: 5afb56f2eba324a0b943788c4f85d28e, type: 2}
+      Value: 2.9388273
+    - Key: {fileID: 11400000, guid: 0f8da3358f33442578457d82ad1df6e4, type: 2}
+      Value: 3.4378355
+    - Key: {fileID: 11400000, guid: 79143f754397d4d609ab30cfcefa9942, type: 2}
+      Value: 3.4421458
+    - Key: {fileID: 11400000, guid: deaa5c66a0b364df494e5c39c13a212f, type: 2}
+      Value: 3.081768
+    - Key: {fileID: 11400000, guid: 33822d3d1bf36490fbbd96e404c34ca6, type: 2}
+      Value: 3.1090581
+    - Key: {fileID: 11400000, guid: 6392f9b8372a5456da80343ec498756b, type: 2}
+      Value: 3.337027
+    - Key: {fileID: 11400000, guid: b98cde45e8bff41f7ae0376c98335d7d, type: 2}
+      Value: 3.5109286
+    - Key: {fileID: 11400000, guid: fd0de157095ee4676bc9a115e8583c89, type: 2}
+      Value: 3.3975394
+    - Key: {fileID: 11400000, guid: 20e8e407ded9b4174b57e585d73df6e2, type: 2}
+      Value: 3.3268929
+    - Key: {fileID: 11400000, guid: 66cd6ecc21b274ab19378bce7748bb55, type: 2}
+      Value: 3.4462287
+    - Key: {fileID: 11400000, guid: 12e7e613826a0480e96888662ca67d6f, type: 2}
+      Value: 2.9206157
+    - Key: {fileID: 11400000, guid: 3f2f4da5637724287bc9fe9f1c5d01d6, type: 2}
+      Value: 3.0948486
+    - Key: {fileID: 11400000, guid: 209d0ee68f376431481fbd6e66b190a5, type: 2}
+      Value: 3.106694
+    - Key: {fileID: 11400000, guid: 6eeee27dc79c243afaeeff81cdce1063, type: 2}
+      Value: 3.2251296
+    - Key: {fileID: 11400000, guid: 221218d9e5db14a2e990b6e54dd428b7, type: 2}
+      Value: 2.7258153
+    - Key: {fileID: 11400000, guid: 3cf4455e160534b8d980060dff2eedca, type: 2}
+      Value: 3.2801397
+    - Key: {fileID: 11400000, guid: dfe9533f2bff342f6b7ecf26baf4fc2e, type: 2}
+      Value: 3.2687566
+    - Key: {fileID: 11400000, guid: 3c2611a751b10488d8e8739c39c59ccf, type: 2}
+      Value: 3.0678256
+    - Key: {fileID: 11400000, guid: 6ac0d3fee6dbf4ac49d285218605fc67, type: 2}
+      Value: 3.084142
+    - Key: {fileID: 11400000, guid: c400508a5d89a49d3b3576b140e25c28, type: 2}
+      Value: 2.9822633
+    - Key: {fileID: 11400000, guid: 5a3b71d97c5db45c384c60f7e8eef6bd, type: 2}
+      Value: 2.995008
+    - Key: {fileID: 11400000, guid: 9457ab1d8a31e4546aa7ad070fa9398b, type: 2}
+      Value: 3.131552
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_sport_gloves
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 2b70c15d5bdef4b04bcc877d022c9739
+      m_EditorAssetChanged: 1

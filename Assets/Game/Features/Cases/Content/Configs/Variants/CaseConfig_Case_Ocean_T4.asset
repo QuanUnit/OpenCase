@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Ocean_T4
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Ocean_T4
+  Name: Ocean Elite
+  Price: 37.92
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: f1824a9bcec2a854a828756e10bf11a1, type: 2}
+      Value: 0.012107098
+    - Key: {fileID: 11400000, guid: 58437b520f98144428aa6adcf8f4ddbb, type: 2}
+      Value: 0.012107098
+    - Key: {fileID: 11400000, guid: 5e9c3bf74c4ea454db1baeba4fafaea8, type: 2}
+      Value: 0.084760144
+    - Key: {fileID: 11400000, guid: e065cb33de38310429fb5bea412a7edc, type: 2}
+      Value: 4.482127
+    - Key: {fileID: 11400000, guid: 237122898b00c52419025bfae1ecd9d5, type: 2}
+      Value: 0.084760144
+    - Key: {fileID: 11400000, guid: a0ac07c14dfe23e49ad6c3c2db5c6ab4, type: 2}
+      Value: 0.35559148
+    - Key: {fileID: 11400000, guid: 9cf1fd55a4d0a134798858ca7ff5731c, type: 2}
+      Value: 0.012107098
+    - Key: {fileID: 11400000, guid: b321acee21ef354459deb702f9f64f67, type: 2}
+      Value: 94.136284
+    - Key: {fileID: 11400000, guid: 7307ae0a53a62a946ba768c170887e9e, type: 2}
+      Value: 0.084760144
+    - Key: {fileID: 11400000, guid: 9cc9698ad1383c54db2808d74ad49c43, type: 2}
+      Value: 0.012107098
+    - Key: {fileID: 11400000, guid: 701c14f90f7cf834a8ebeb6fd0cb3f0f, type: 2}
+      Value: 0.35559148
+    - Key: {fileID: 11400000, guid: 84f88a6d0b51d504caac574abbdf9972, type: 2}
+      Value: 0.012107098
+    - Key: {fileID: 11400000, guid: a0c1a4bc721e0e242bb0760f75160c21, type: 2}
+      Value: 0.35559148
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_ocean_t4
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 3eb35cbee70fd45c781bd5d3c68363b3
+      m_EditorAssetChanged: 1

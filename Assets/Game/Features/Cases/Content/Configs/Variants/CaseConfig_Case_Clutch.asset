@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Clutch
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Clutch
+  Name: Clutch Case
+  Price: 2.11
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 4308356df5878674ba95df76930f8bb5, type: 2}
+      Value: 1.9005361
+    - Key: {fileID: 11400000, guid: 3bd8b7c6cb782984ea4693f8e3a51753, type: 2}
+      Value: 1.9005361
+    - Key: {fileID: 11400000, guid: c4fd7164197cc463e98802c532753f74, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 3efba0c2478884e4cb81f2d9a679b8e5, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 05fc4d54d905d4784913ff730af1c4ec, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 43f26e575da05492c809387623fcbaea, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 79238c5f706a39f469433ae84bd0d43d, type: 2}
+      Value: 10.309588
+    - Key: {fileID: 11400000, guid: 79fa805ab0e02d34eba93d31691f4c4f, type: 2}
+      Value: 4.053894
+    - Key: {fileID: 11400000, guid: ad3e579f392df4498b2df16060224493, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 231a0cc735e11400ca096184c8877772, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 586713680b2db4af99f569118cd68701, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: d35b26c8c436a4ab084fda1da97e9913, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: d4b3dab19d5a34d31afad6b57a804db1, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 40ed072ac4ccf409fa99d5cdadc67136, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 4bc2ca7b8d44d4795be9313c27068b49, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 1a1ae8604083b4798a9cbb07deeb1097, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 3e339fb45bb3fb945a6c9186f4dfb43e, type: 2}
+      Value: 0.80090153
+    - Key: {fileID: 11400000, guid: 02d7b7dc970783849ba1ee7c37081373, type: 2}
+      Value: 4.053894
+    - Key: {fileID: 11400000, guid: f5483887d63cdf9439d88281dedfa4af, type: 2}
+      Value: 0.80090153
+    - Key: {fileID: 11400000, guid: 28a99b2d1228f9e4aabaffdb676327f3, type: 2}
+      Value: 10.309588
+    - Key: {fileID: 11400000, guid: 4aed5ab04284e46b39e91275c1c3b5ff, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 823a5f4791d22415d9dc3440358ff1ce, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 0f8da3358f33442578457d82ad1df6e4, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 79143f754397d4d609ab30cfcefa9942, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 1d797cfc5a9aeeb4dace12fd2189f9b8, type: 2}
+      Value: 4.053894
+    - Key: {fileID: 11400000, guid: 2e443ae4a312b654fb5ce7312cabf808, type: 2}
+      Value: 4.053894
+    - Key: {fileID: 11400000, guid: 649dff467a50b2a48b61b28964d62013, type: 2}
+      Value: 10.309588
+    - Key: {fileID: 11400000, guid: 858fecdc388ba0e4d8cd8b5ec58abdb3, type: 2}
+      Value: 10.309588
+    - Key: {fileID: 11400000, guid: 2d0e28cbaacb9a444962ea9ab927e1e2, type: 2}
+      Value: 10.309588
+    - Key: {fileID: 11400000, guid: db891f97c8a1a5f49b2a25f4516ba6c6, type: 2}
+      Value: 10.309588
+    - Key: {fileID: 11400000, guid: e1c2fd23308ec43718197df3eccf2256, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: aee7c3f59aa6b4ad19d4961ec86945a3, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 4b4559d9e24134f76996a17ea2aabdce, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 20852714aed1649bea1efcceb82bdad4, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: deaa5c66a0b364df494e5c39c13a212f, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: fd0de157095ee4676bc9a115e8583c89, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 6eeee27dc79c243afaeeff81cdce1063, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 5a3b71d97c5db45c384c60f7e8eef6bd, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 77ed2e4ff484cfd44bdcffbc73cc5ac9, type: 2}
+      Value: 4.053894
+    - Key: {fileID: 11400000, guid: 9a4ae37c0e67a5648917cb26a56006cb, type: 2}
+      Value: 1.9005361
+    - Key: {fileID: 11400000, guid: 0248f6446243d934b84f1620eef6f306, type: 2}
+      Value: 10.309588
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_clutch
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 1f504aee0649247299e9343a915c8bc5
+      m_EditorAssetChanged: 1

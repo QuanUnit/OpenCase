@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Camo_T2
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Camo_T2
+  Name: Camo
+  Price: 2
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 2cb467cf84554f743be1da45320e0533, type: 2}
+      Value: 3.9746869
+    - Key: {fileID: 11400000, guid: c531fc162ae857f44bdc00d9068be5a9, type: 2}
+      Value: 4.229495
+    - Key: {fileID: 11400000, guid: 1d5c1d1bd873d1345bd94a5338cb2605, type: 2}
+      Value: 8.753733
+    - Key: {fileID: 11400000, guid: 1cd4402267f4875489c52ad1e2c60354, type: 2}
+      Value: 0.42281651
+    - Key: {fileID: 11400000, guid: 94fd723cfc1477143804491782efe91e, type: 2}
+      Value: 2.879169
+    - Key: {fileID: 11400000, guid: 2b49b223d6ca23642bd1b66af43e6de9, type: 2}
+      Value: 0.07664722
+    - Key: {fileID: 11400000, guid: 77985b42b412efe4a8fee32fd9c80c05, type: 2}
+      Value: 11.596622
+    - Key: {fileID: 11400000, guid: 600ddcdb4ec485e4b965303d117c2cba, type: 2}
+      Value: 0.45560223
+    - Key: {fileID: 11400000, guid: 90cd5cdd4406912479999bbe091870f2, type: 2}
+      Value: 0.2314274
+    - Key: {fileID: 11400000, guid: e4f55df5644ae164cab277461d7b2ec7, type: 2}
+      Value: 0.08242219
+    - Key: {fileID: 11400000, guid: 0780d02a9532f2146a51cfb1d4094c80, type: 2}
+      Value: 0.08008323
+    - Key: {fileID: 11400000, guid: 73cd165eed09595459cf89e8b7098856, type: 2}
+      Value: 2.3145995
+    - Key: {fileID: 11400000, guid: 810b4d72f3031d6438152c1d4875ea71, type: 2}
+      Value: 0.10429738
+    - Key: {fileID: 11400000, guid: b5375a2a2cc33472d8bc66d1851994da, type: 2}
+      Value: 0.3288805
+    - Key: {fileID: 11400000, guid: 86b4a2f4ed983214bac55fda87a14c3c, type: 2}
+      Value: 0.4047664
+    - Key: {fileID: 11400000, guid: 649dff467a50b2a48b61b28964d62013, type: 2}
+      Value: 0.11383635
+    - Key: {fileID: 11400000, guid: 8e0073a8f89344871979db9cbaa08519, type: 2}
+      Value: 2.248691
+    - Key: {fileID: 11400000, guid: 0e939e8c278b40842b4005735db6056e, type: 2}
+      Value: 21.598782
+    - Key: {fileID: 11400000, guid: c0a85b103e532fa4295ae3b5252c9791, type: 2}
+      Value: 0.47852477
+    - Key: {fileID: 11400000, guid: 0389fec08cfb086408ad3a5e9cd883a3, type: 2}
+      Value: 17.941313
+    - Key: {fileID: 11400000, guid: 075f5f908266da9489c01cc62342af21, type: 2}
+      Value: 7.0993214
+    - Key: {fileID: 11400000, guid: f24a60a7deaefee4abfbc9379bed32a4, type: 2}
+      Value: 0.07800082
+    - Key: {fileID: 11400000, guid: 58a1b444d2267114d9c760c94f4f6562, type: 2}
+      Value: 1.9853429
+    - Key: {fileID: 11400000, guid: c7e577c6c27d8b4408de5c95b309e099, type: 2}
+      Value: 2.9885514
+    - Key: {fileID: 11400000, guid: f7425a842f7df7848a1022f88632dd22, type: 2}
+      Value: 9.53239
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_camo_t2
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 3b78a43417ca44a6488ece07b2d58bea
+      m_EditorAssetChanged: 1

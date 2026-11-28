@@ -18,32 +18,32 @@ MonoBehaviour:
   Price: 2.89
   SkinsMapEntries:
     _entries:
-    - Key: {fileID: 11400000, guid: 0248f6446243d934b84f1620eef6f306, type: 2}
-      Value: 12.185798
     - Key: {fileID: 11400000, guid: 79238c5f706a39f469433ae84bd0d43d, type: 2}
-      Value: 12.185798
+      Value: 12.503917
     - Key: {fileID: 11400000, guid: 2ca5990df22a3e44c823365dcabff5d2, type: 2}
-      Value: 12.185798
+      Value: 12.503917
     - Key: {fileID: 11400000, guid: ba0f0b74d3edf1d419a49236eda7e7cb, type: 2}
-      Value: 12.185798
-    - Key: {fileID: 11400000, guid: e03451592b652c449be5d7489afbf3c4, type: 2}
-      Value: 12.185798
-    - Key: {fileID: 11400000, guid: 8a222dc44c98f2743819e3121ff52aea, type: 2}
-      Value: 12.185798
-    - Key: {fileID: 11400000, guid: dc0274852b10e6845823142491746adc, type: 2}
-      Value: 9.973753
-    - Key: {fileID: 11400000, guid: 3f91f6e1960772c47a296cfe9b0f149f, type: 2}
-      Value: 9.973753
-    - Key: {fileID: 11400000, guid: c17b671b14cdfe34fae34ac83183ccab, type: 2}
-      Value: 1.816781
-    - Key: {fileID: 11400000, guid: e59f6bfa9ce24e04298fa3df70d2d2cb, type: 2}
-      Value: 1.816781
-    - Key: {fileID: 11400000, guid: ada5042def763ee498b4f9f6fec70b3b, type: 2}
-      Value: 1.816781
-    - Key: {fileID: 11400000, guid: b0d9c18b38ef6234398a4b2378d3a1f8, type: 2}
-      Value: 0.74368
+      Value: 12.503917
     - Key: {fileID: 11400000, guid: 976ea20587f2b5a47b9c4b2fefb2414b, type: 2}
-      Value: 0.74368
+      Value: 0.60679156
+    - Key: {fileID: 11400000, guid: e03451592b652c449be5d7489afbf3c4, type: 2}
+      Value: 12.503917
+    - Key: {fileID: 11400000, guid: b0d9c18b38ef6234398a4b2378d3a1f8, type: 2}
+      Value: 0.60679156
+    - Key: {fileID: 11400000, guid: e59f6bfa9ce24e04298fa3df70d2d2cb, type: 2}
+      Value: 1.600058
+    - Key: {fileID: 11400000, guid: 3f91f6e1960772c47a296cfe9b0f149f, type: 2}
+      Value: 9.481372
+    - Key: {fileID: 11400000, guid: 8a222dc44c98f2743819e3121ff52aea, type: 2}
+      Value: 12.503917
+    - Key: {fileID: 11400000, guid: dc0274852b10e6845823142491746adc, type: 2}
+      Value: 9.481372
+    - Key: {fileID: 11400000, guid: c17b671b14cdfe34fae34ac83183ccab, type: 2}
+      Value: 1.600058
+    - Key: {fileID: 11400000, guid: 0248f6446243d934b84f1620eef6f306, type: 2}
+      Value: 12.503917
+    - Key: {fileID: 11400000, guid: ada5042def763ee498b4f9f6fec70b3b, type: 2}
+      Value: 1.600058
   ContextData:
     SpriteSource:
       m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4

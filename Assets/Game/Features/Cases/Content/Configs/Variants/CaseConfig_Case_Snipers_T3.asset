@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Snipers_T3
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Snipers_T3
+  Name: Sniper Elite
+  Price: 12.28
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: e2a4bf82be71640488999ee069065745, type: 2}
+      Value: 8.195366
+    - Key: {fileID: 11400000, guid: 7c441e4b570ff1447b9f3a484e1853bb, type: 2}
+      Value: 0.9907858
+    - Key: {fileID: 11400000, guid: 867f753fbd9c45a46b4e0b903a78cd4a, type: 2}
+      Value: 0.11990179
+    - Key: {fileID: 11400000, guid: aab4a561d60e839448c7e89cfb88e2a0, type: 2}
+      Value: 0.39361233
+    - Key: {fileID: 11400000, guid: eab7de8a9c4e9f04d8b3bd1f4c07f368, type: 2}
+      Value: 0.9907858
+    - Key: {fileID: 11400000, guid: 3e86885e8e677264b969c4b819782974, type: 2}
+      Value: 8.195366
+    - Key: {fileID: 11400000, guid: 23c6e5690c967b54dac76292367f4bb6, type: 2}
+      Value: 8.195366
+    - Key: {fileID: 11400000, guid: 67f2ac7b779ed7340a421bcf11f9a50a, type: 2}
+      Value: 0.39361233
+    - Key: {fileID: 11400000, guid: 2fe6d41a1debc1148a667e33b0cbe859, type: 2}
+      Value: 0.11990179
+    - Key: {fileID: 11400000, guid: bd0630a5b0a81154fb6deebac4f5adfe, type: 2}
+      Value: 0.11990179
+    - Key: {fileID: 11400000, guid: 891e997f055df804ca6692b18285e1be, type: 2}
+      Value: 0.11990179
+    - Key: {fileID: 11400000, guid: d8acf8c9604a8ff48818c51ff81aa990, type: 2}
+      Value: 0.9907858
+    - Key: {fileID: 11400000, guid: 6555707aa7a1a4c41b4e96aa500458ab, type: 2}
+      Value: 0.11990179
+    - Key: {fileID: 11400000, guid: 70a2b8dfa3b30cd42a4f255602eb6288, type: 2}
+      Value: 0.39361233
+    - Key: {fileID: 11400000, guid: bf829989c0f2bbe44a7d50f7573bd983, type: 2}
+      Value: 0.9907858
+    - Key: {fileID: 11400000, guid: d3873316fc4e931459110d90797c3790, type: 2}
+      Value: 0.11990179
+    - Key: {fileID: 11400000, guid: ed6e99415a3400d42a286d9738919702, type: 2}
+      Value: 8.195366
+    - Key: {fileID: 11400000, guid: 40ea2522aac9e534a9bfe6779f7dc85c, type: 2}
+      Value: 8.195366
+    - Key: {fileID: 11400000, guid: 5d0d05f86b2b7814d9bcf4c568afc5b7, type: 2}
+      Value: 0.11990179
+    - Key: {fileID: 11400000, guid: ed626f3cba99ed54d8b530377e0c2650, type: 2}
+      Value: 0.9907858
+    - Key: {fileID: 11400000, guid: ed5607ed7c6eead428a18b187ec1c268, type: 2}
+      Value: 0.39361233
+    - Key: {fileID: 11400000, guid: c9f3e63c3b8613044ab1006cccf0622f, type: 2}
+      Value: 0.9907858
+    - Key: {fileID: 11400000, guid: 8b307f8351a6c4c4eb16817c0d4234ae, type: 2}
+      Value: 0.39361233
+    - Key: {fileID: 11400000, guid: 263c0c0ed9fafdb408b97cb74848bcbe, type: 2}
+      Value: 8.195366
+    - Key: {fileID: 11400000, guid: 28681edafe5cd6845a224b505b8ba886, type: 2}
+      Value: 11.398142
+    - Key: {fileID: 11400000, guid: ff9a99fd1bbf54b4b969d15ae8bafbd6, type: 2}
+      Value: 0.9907858
+    - Key: {fileID: 11400000, guid: 37ed59c2064eb3b409381356a590de3c, type: 2}
+      Value: 0.39361233
+    - Key: {fileID: 11400000, guid: 4ae196f70ae3518439b4d2cd30ef48ee, type: 2}
+      Value: 0.39361233
+    - Key: {fileID: 11400000, guid: dfbab8d7cff0d2344981b359ce93357d, type: 2}
+      Value: 8.195366
+    - Key: {fileID: 11400000, guid: fb75a4d706a622e408576bdb6a02b9f9, type: 2}
+      Value: 8.195366
+    - Key: {fileID: 11400000, guid: f95060b413532854ebe821d142855b0d, type: 2}
+      Value: 0.9907858
+    - Key: {fileID: 11400000, guid: a66ae87208c281542b0185b37feaea27, type: 2}
+      Value: 11.398142
+    - Key: {fileID: 11400000, guid: 8d045bbe1cd57e34e90da92b9dc8da3c, type: 2}
+      Value: 0.11990179
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_snipers_t3
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: bca19ea24e03b436e83c1e42023a3965
+      m_EditorAssetChanged: 1

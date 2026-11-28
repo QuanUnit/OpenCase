@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Specialist_Gloves
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Specialist_Gloves
+  Name: Specialist Gloves Case
+  Price: 681.88
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: be50181ad5ca14e8ebcc388aae7b586a, type: 2}
+      Value: 2.5093548
+    - Key: {fileID: 11400000, guid: b31941f1560cf40c5b25d56c4a210e48, type: 2}
+      Value: 2.6648126
+    - Key: {fileID: 11400000, guid: 0c2766c00f9ba425e8fdd024c11b2360, type: 2}
+      Value: 2.6816182
+    - Key: {fileID: 11400000, guid: 314ca95459cfe4651b23eb75159586ef, type: 2}
+      Value: 2.612932
+    - Key: {fileID: 11400000, guid: ea974c8b6657640cf99f9e20478370e6, type: 2}
+      Value: 2.4295294
+    - Key: {fileID: 11400000, guid: 7a8443cd411114432a544f8e8e1b147b, type: 2}
+      Value: 2.5381007
+    - Key: {fileID: 11400000, guid: f6a4cb9fe074f49f982c82304f7ea272, type: 2}
+      Value: 2.778322
+    - Key: {fileID: 11400000, guid: d9cadcc1cf3d14c46a84e8f91d1480ec, type: 2}
+      Value: 2.4186387
+    - Key: {fileID: 11400000, guid: 59d4f925d73ea4a4d9801d78fc1ff1c2, type: 2}
+      Value: 2.7576766
+    - Key: {fileID: 11400000, guid: c4fd7164197cc463e98802c532753f74, type: 2}
+      Value: 2.538229
+    - Key: {fileID: 11400000, guid: 3efba0c2478884e4cb81f2d9a679b8e5, type: 2}
+      Value: 2.4422224
+    - Key: {fileID: 11400000, guid: 08c992e6c435e4287bcbf0ff9333d767, type: 2}
+      Value: 2.4271712
+    - Key: {fileID: 11400000, guid: 05fc4d54d905d4784913ff730af1c4ec, type: 2}
+      Value: 2.7234035
+    - Key: {fileID: 11400000, guid: d9579378bb09c4f3b81c3344296d1987, type: 2}
+      Value: 2.7664955
+    - Key: {fileID: 11400000, guid: 459ee4f2b991f4130899f074a767591c, type: 2}
+      Value: 2.6789908
+    - Key: {fileID: 11400000, guid: 43f26e575da05492c809387623fcbaea, type: 2}
+      Value: 2.8363047
+    - Key: {fileID: 11400000, guid: f791e2755589b4f079843f6bfe5bfc46, type: 2}
+      Value: 2.6316972
+    - Key: {fileID: 11400000, guid: 45972c09df1ea4fd7b393ec316c2863b, type: 2}
+      Value: 2.805104
+    - Key: {fileID: 11400000, guid: a763a9f716e0b4cf39d3eac201d3a21d, type: 2}
+      Value: 2.4474301
+    - Key: {fileID: 11400000, guid: e82c71bec3e1342f2b6ded8f630fa26b, type: 2}
+      Value: 2.6268325
+    - Key: {fileID: 11400000, guid: 1c114d2721f684b0bbb56c1cc26727d8, type: 2}
+      Value: 2.678346
+    - Key: {fileID: 11400000, guid: f17b92d51d2e54ab4a50346df525410d, type: 2}
+      Value: 2.4928374
+    - Key: {fileID: 11400000, guid: e1c2fd23308ec43718197df3eccf2256, type: 2}
+      Value: 2.7962213
+    - Key: {fileID: 11400000, guid: b6699bf1170874ef2985f997006387fe, type: 2}
+      Value: 2.800358
+    - Key: {fileID: 11400000, guid: 12f31bda0b3434ab5816d00f1b1766a7, type: 2}
+      Value: 2.308212
+    - Key: {fileID: 11400000, guid: b34637d319f0345b58759860c57720d5, type: 2}
+      Value: 2.115597
+    - Key: {fileID: 11400000, guid: aee7c3f59aa6b4ad19d4961ec86945a3, type: 2}
+      Value: 2.5201266
+    - Key: {fileID: 11400000, guid: 1840fba6330e949d79c913564a0b9297, type: 2}
+      Value: 2.2602313
+    - Key: {fileID: 11400000, guid: 4b4559d9e24134f76996a17ea2aabdce, type: 2}
+      Value: 2.466928
+    - Key: {fileID: 11400000, guid: 80beb748d6e584c49a9d885beae01df3, type: 2}
+      Value: 2.5399585
+    - Key: {fileID: 11400000, guid: 6c681c607578a476e9265d49c9b3dd1d, type: 2}
+      Value: 2.4861364
+    - Key: {fileID: 11400000, guid: 5718b639cc3c34af4b7ee217e55d188d, type: 2}
+      Value: 2.5220592
+    - Key: {fileID: 11400000, guid: a706e6a7f06e3415ba7e85c374fb1bde, type: 2}
+      Value: 2.4728303
+    - Key: {fileID: 11400000, guid: f25b037216bcd4299a3cbf6d7fd3d0f2, type: 2}
+      Value: 2.5720599
+    - Key: {fileID: 11400000, guid: cdfc624d2864443ac9cc851f181e6bbf, type: 2}
+      Value: 2.465598
+    - Key: {fileID: 11400000, guid: 20852714aed1649bea1efcceb82bdad4, type: 2}
+      Value: 2.635787
+    - Key: {fileID: 11400000, guid: 287c860f02b67478c91650bba05950d3, type: 2}
+      Value: 2.49253
+    - Key: {fileID: 11400000, guid: 9f638b9c19276480bafdee600b9119b3, type: 2}
+      Value: 2.506716
+    - Key: {fileID: 11400000, guid: 5fe777c5a18194bc39755c8266edfe20, type: 2}
+      Value: 2.5526013
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_specialist_gloves
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 5b8f7d96136d741aa846917a624a7212
+      m_EditorAssetChanged: 1

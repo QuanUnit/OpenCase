@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_AK_T4
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_AK_T4
+  Name: AK-47 Master
+  Price: 45.51
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: dfec3427f846b4b1e9bfea987e3f8c4a, type: 2}
+      Value: 0.010662783
+    - Key: {fileID: 11400000, guid: f1824a9bcec2a854a828756e10bf11a1, type: 2}
+      Value: 0.010662783
+    - Key: {fileID: 11400000, guid: 3cd7133d59cfbbb4eb2db1658923fc15, type: 2}
+      Value: 0.010662783
+    - Key: {fileID: 11400000, guid: 8b5dc4f003cc8a14187726298dd5d1eb, type: 2}
+      Value: 0.010662783
+    - Key: {fileID: 11400000, guid: ffb3a602d3ee2b7408465e33493dedf6, type: 2}
+      Value: 39.407314
+    - Key: {fileID: 11400000, guid: 01b5d84564472c7488f0b38b36cc8681, type: 2}
+      Value: 8.361938
+    - Key: {fileID: 11400000, guid: 678a816be3c7f534592da064aea9d2bd, type: 2}
+      Value: 0.010662783
+    - Key: {fileID: 11400000, guid: bdbc4c309bc09b0429976db3d8343c02, type: 2}
+      Value: 0.083750844
+    - Key: {fileID: 11400000, guid: 2d9788462faed4ffba828dfe787ce15b, type: 2}
+      Value: 0.083750844
+    - Key: {fileID: 11400000, guid: 549e937de2fa64cf490eb4fee110277e, type: 2}
+      Value: 1.182598
+    - Key: {fileID: 11400000, guid: 8b59f63a02a8d1c4dab4168f5534ecb8, type: 2}
+      Value: 0.083750844
+    - Key: {fileID: 11400000, guid: e316744c0d4bb6e42a6ddb6fc68f8c62, type: 2}
+      Value: 0.010662783
+    - Key: {fileID: 11400000, guid: bb393d411d7ef8543b5c1c247dc95bc1, type: 2}
+      Value: 8.361938
+    - Key: {fileID: 11400000, guid: 53ed0cb58f01118458714942b8b95cb7, type: 2}
+      Value: 0.010662783
+    - Key: {fileID: 11400000, guid: 157b9606d2ab9e84f832f2731b239e89, type: 2}
+      Value: 0.010662783
+    - Key: {fileID: 11400000, guid: 7bed7f12723e5bd459d26c8149f2947e, type: 2}
+      Value: 0.010662783
+    - Key: {fileID: 11400000, guid: 99ea715ec8c7ee140ac4d4ec57c4ab3c, type: 2}
+      Value: 39.407314
+    - Key: {fileID: 11400000, guid: ab39e904302175149ab51043668c1b3e, type: 2}
+      Value: 0.010662783
+    - Key: {fileID: 11400000, guid: 34c62824bfe6cc34daaffb8cf973268d, type: 2}
+      Value: 0.010662783
+    - Key: {fileID: 11400000, guid: 952d060fbe723744281bc94fd00b0495, type: 2}
+      Value: 0.010662783
+    - Key: {fileID: 11400000, guid: d7558f48ba8144045993c7967b6d53a3, type: 2}
+      Value: 0.010662783
+    - Key: {fileID: 11400000, guid: 072b8a6f7ce1bca42aeeea5e734165a1, type: 2}
+      Value: 1.182598
+    - Key: {fileID: 11400000, guid: 2d132200aab8b4ce5ad502d65799412f, type: 2}
+      Value: 0.083750844
+    - Key: {fileID: 11400000, guid: cba9cf91258436240b36d09fc2a73839, type: 2}
+      Value: 0.083750844
+    - Key: {fileID: 11400000, guid: 8cacf26696d0d6a4786d82874c3821f8, type: 2}
+      Value: 0.083750844
+    - Key: {fileID: 11400000, guid: c05f961b5fde34648b2939910c87e9c4, type: 2}
+      Value: 1.182598
+    - Key: {fileID: 11400000, guid: 98db27a9105fa334da8cb60eac175259, type: 2}
+      Value: 0.083750844
+    - Key: {fileID: 11400000, guid: 016c6178884f1ad4aac7fdcd8da1fcf0, type: 2}
+      Value: 0.083750844
+    - Key: {fileID: 11400000, guid: 67d44dcbcb1c0354db300d29370d9459, type: 2}
+      Value: 0.010662783
+    - Key: {fileID: 11400000, guid: c023eed4ea98a914aa7195c7fec2e86a, type: 2}
+      Value: 0.010662783
+    - Key: {fileID: 11400000, guid: fe13ca28b0141414abfc7d0da4a09e45, type: 2}
+      Value: 0.083750844
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_ak_t4
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 056ade97f490940a992af76810a9d2e3
+      m_EditorAssetChanged: 1

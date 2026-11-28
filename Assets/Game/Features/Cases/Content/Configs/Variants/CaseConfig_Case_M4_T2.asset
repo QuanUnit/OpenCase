@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_M4_T2
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_M4_T2
+  Name: M4 Pro
+  Price: 2.57
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 1d59edb1825764947b26067b14129c56, type: 2}
+      Value: 2.2153957
+    - Key: {fileID: 11400000, guid: 1015c43f71a1342faba9502caf7b2744, type: 2}
+      Value: 2.7911928
+    - Key: {fileID: 11400000, guid: 57b6bff049040de4db17abd70fdc1dd9, type: 2}
+      Value: 2.7911928
+    - Key: {fileID: 11400000, guid: b3207dd04569fa64bbb06a8f9274b905, type: 2}
+      Value: 2.7911928
+    - Key: {fileID: 11400000, guid: 6a57dce2d88d7a54e82cbf5c70bf4d2a, type: 2}
+      Value: 2.7911928
+    - Key: {fileID: 11400000, guid: 1825126d7b6e6a74ab74ca588147cad4, type: 2}
+      Value: 2.2153957
+    - Key: {fileID: 11400000, guid: 5e2d211f368823e47b0ca070aa040360, type: 2}
+      Value: 2.7911928
+    - Key: {fileID: 11400000, guid: 010f3633904619a409270d5b9249f408, type: 2}
+      Value: 2.7911928
+    - Key: {fileID: 11400000, guid: 40324eae6d9da7f488140aa1313aba23, type: 2}
+      Value: 59.89705
+    - Key: {fileID: 11400000, guid: e4f55df5644ae164cab277461d7b2ec7, type: 2}
+      Value: 3.517142
+    - Key: {fileID: 11400000, guid: babaa698ccf66ec478935f956eaa64db, type: 2}
+      Value: 3.517142
+    - Key: {fileID: 11400000, guid: 6fcab1d8b05144bb0a7345aedc2882fc, type: 2}
+      Value: 3.517142
+    - Key: {fileID: 11400000, guid: bbf7b2863e62a4c418c1904f39089361, type: 2}
+      Value: 2.7911928
+    - Key: {fileID: 11400000, guid: 3409d6ec923ece045a0601db471108de, type: 2}
+      Value: 2.7911928
+    - Key: {fileID: 11400000, guid: 43a8c717a56ec184e893c5cc408449e1, type: 2}
+      Value: 2.7911928
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_m4_t2
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: d6247221c8cc14cd5b35594afa41dcae
+      m_EditorAssetChanged: 1

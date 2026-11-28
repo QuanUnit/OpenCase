@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Fade_Doppler_T2
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Fade_Doppler_T2
+  Name: Fade & Doppler
+  Price: 2.54
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: b7801c88b60ab5544ac056d792150548, type: 2}
+      Value: 37.165886
+    - Key: {fileID: 11400000, guid: ad19074c824cbc04babf2bbde5a0969c, type: 2}
+      Value: 35.072765
+    - Key: {fileID: 11400000, guid: 5b6da27bd52486c4a969dd332ffd4024, type: 2}
+      Value: 23.569973
+    - Key: {fileID: 11400000, guid: 47501bb69a85baf43b229538db02945f, type: 2}
+      Value: 2.2396176
+    - Key: {fileID: 11400000, guid: f09b98edfdca22049bd1bd44de96bb63, type: 2}
+      Value: 1.9517579
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_fade_doppler_t2
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 3f100305e540b4c079755632881ed376
+      m_EditorAssetChanged: 1

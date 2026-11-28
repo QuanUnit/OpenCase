@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Contract_AK47_Gold_Arabesque
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Contract_AK47_Gold_Arabesque
+  Name: Gold Arabesque Contract
+  Price: 12.13
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 2bfc96e57d5c24dddaafaa4422b87607, type: 2}
+      Value: 0.031939264
+    - Key: {fileID: 11400000, guid: 87b62b0105e9b1548afc6d8345a16946, type: 2}
+      Value: 4.1406407
+    - Key: {fileID: 11400000, guid: c20b02cdc7b5c3a478886982822c390a, type: 2}
+      Value: 4.1406407
+    - Key: {fileID: 11400000, guid: eab7de8a9c4e9f04d8b3bd1f4c07f368, type: 2}
+      Value: 0.8674776
+    - Key: {fileID: 11400000, guid: cfdc14e89eda7e94384fbd5db0b4806a, type: 2}
+      Value: 0.8674776
+    - Key: {fileID: 11400000, guid: 07f789376f1518e41909857d05b2eab7, type: 2}
+      Value: 4.1406407
+    - Key: {fileID: 11400000, guid: 28c10533d6ccf844a8520db3d2c75f63, type: 2}
+      Value: 0.2422585
+    - Key: {fileID: 11400000, guid: 81bbcb229f4511b4c8df290d3a44832e, type: 2}
+      Value: 0.2422585
+    - Key: {fileID: 11400000, guid: dd161168df0f2a44b82a9739772e763d, type: 2}
+      Value: 15.811272
+    - Key: {fileID: 11400000, guid: e68c591207545d34597152e671e349ed, type: 2}
+      Value: 4.1406407
+    - Key: {fileID: 11400000, guid: d4832eec341e28d4785dafab0bc43f02, type: 2}
+      Value: 0.8674776
+    - Key: {fileID: 11400000, guid: 9c329d0294570684c9452fdebdaf142d, type: 2}
+      Value: 0.8674776
+    - Key: {fileID: 11400000, guid: 6863af4854e3a6440bd91f676380edcc, type: 2}
+      Value: 15.811272
+    - Key: {fileID: 11400000, guid: d6a533f3e2f7cd64bb6fed7e44415bfb, type: 2}
+      Value: 15.811272
+    - Key: {fileID: 11400000, guid: 74624463a9c34014f82e1ad6a0331530, type: 2}
+      Value: 15.811272
+    - Key: {fileID: 11400000, guid: f0f95298e10d9dc46b600619da98132d, type: 2}
+      Value: 0.07622619
+    - Key: {fileID: 11400000, guid: f93853b66d4dc3345a7e08dbf10a7ec5, type: 2}
+      Value: 15.811272
+    - Key: {fileID: 11400000, guid: 6db09a1fd4195c9419230c6aa06986f8, type: 2}
+      Value: 0.07622619
+    - Key: {fileID: 11400000, guid: 822839b58ba2e9f47861c7bb78aa42d7, type: 2}
+      Value: 0.2422585
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_contract_ak47_gold_arabesque
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 004e0e37f696a4d38be1eda22525fa69
+      m_EditorAssetChanged: 1

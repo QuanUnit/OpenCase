@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Neon_T4
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Neon_T4
+  Name: Neon Elite
+  Price: 52.27
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 34c62824bfe6cc34daaffb8cf973268d, type: 2}
+      Value: 1.8034657
+    - Key: {fileID: 11400000, guid: 952d060fbe723744281bc94fd00b0495, type: 2}
+      Value: 1.8034657
+    - Key: {fileID: 11400000, guid: 918106d5dfc222f4d9ac5d94a415cba2, type: 2}
+      Value: 1.8034657
+    - Key: {fileID: 11400000, guid: 8f981e12746ca3942a3c1675fd174f96, type: 2}
+      Value: 1.8034657
+    - Key: {fileID: 11400000, guid: cc203401b76e33841a0bd36fc16217ed, type: 2}
+      Value: 1.8034657
+    - Key: {fileID: 11400000, guid: 9cf1fd55a4d0a134798858ca7ff5731c, type: 2}
+      Value: 1.8034657
+    - Key: {fileID: 11400000, guid: faf92cfcb83ac3641b61c02bf223ccc4, type: 2}
+      Value: 83.76881
+    - Key: {fileID: 11400000, guid: 3e339fb45bb3fb945a6c9186f4dfb43e, type: 2}
+      Value: 1.8034657
+    - Key: {fileID: 11400000, guid: e541d50b6d4ee9b40ad35c8e2429d337, type: 2}
+      Value: 1.8034657
+    - Key: {fileID: 11400000, guid: a42cbf916987c394096f0a80d2da0e65, type: 2}
+      Value: 1.8034657
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_neon_t4
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 04b0f4669d2104f80a495072eb42b394
+      m_EditorAssetChanged: 1

@@ -15,43 +15,13 @@ MonoBehaviour:
   Id:
     _value: Case_Revolution
   Name: Revolution Case
-  Price: 2.10
+  Price: 1.8
   SkinsMapEntries:
     _entries:
-    - Key: {fileID: 11400000, guid: 25cd9f4f44a2ea4438bea7f7a2740ce0, type: 2}
-      Value: 11.417143
-    - Key: {fileID: 11400000, guid: 78d39593151082c43806adbb880facee, type: 2}
-      Value: 11.417143
-    - Key: {fileID: 11400000, guid: e8440e2e184dec140af21ce10cee8f53, type: 2}
-      Value: 11.417143
-    - Key: {fileID: 11400000, guid: a7d4c2d7f7d8c0c4c841764941428256, type: 2}
-      Value: 11.417143
-    - Key: {fileID: 11400000, guid: e8713e3be2208144b9686773d473a218, type: 2}
-      Value: 11.417143
-    - Key: {fileID: 11400000, guid: d73fb77c104b405498fd30feceffd6a7, type: 2}
-      Value: 11.417143
-    - Key: {fileID: 11400000, guid: 28dd64f8a34e8b34887e78295ce575e3, type: 2}
-      Value: 11.417143
-    - Key: {fileID: 11400000, guid: 9a450b38490181e4e85df1c9e25f4776, type: 2}
-      Value: 3.196
-    - Key: {fileID: 11400000, guid: 57b6bff049040de4db17abd70fdc1dd9, type: 2}
-      Value: 3.196
-    - Key: {fileID: 11400000, guid: f55dd7f9c1b980440894f31a23f3c9de, type: 2}
-      Value: 3.196
-    - Key: {fileID: 11400000, guid: 9fc3566be1141274d82183d1e14f6bee, type: 2}
-      Value: 3.196
-    - Key: {fileID: 11400000, guid: 959396a8b0320a94a9fb9036d1a15fb9, type: 2}
-      Value: 3.196
-    - Key: {fileID: 11400000, guid: 7024744fbe3d43547a7cabc2c4ab3e02, type: 2}
-      Value: 1.0666667
-    - Key: {fileID: 11400000, guid: c11c279e0725b3848a223d0e8114701c, type: 2}
-      Value: 1.0666667
-    - Key: {fileID: 11400000, guid: 641b982334c7ba0438fb42958c563604, type: 2}
-      Value: 1.0666667
     - Key: {fileID: 11400000, guid: 53ed0cb58f01118458714942b8b95cb7, type: 2}
-      Value: 0.32
-    - Key: {fileID: 11400000, guid: 6a98fd9208b0a694b99a7dd6ff530ede, type: 2}
-      Value: 0.32
+      Value: 0.8285718
+    - Key: {fileID: 11400000, guid: 7024744fbe3d43547a7cabc2c4ab3e02, type: 2}
+      Value: 1.9409814
     - Key: {fileID: 11400000, guid: c4fd7164197cc463e98802c532753f74, type: 2}
       Value: 0.010833333
     - Key: {fileID: 11400000, guid: 3efba0c2478884e4cb81f2d9a679b8e5, type: 2}
@@ -60,6 +30,8 @@ MonoBehaviour:
       Value: 0.010833333
     - Key: {fileID: 11400000, guid: 43f26e575da05492c809387623fcbaea, type: 2}
       Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 9a450b38490181e4e85df1c9e25f4776, type: 2}
+      Value: 4.087068
     - Key: {fileID: 11400000, guid: ad3e579f392df4498b2df16060224493, type: 2}
       Value: 0.010833333
     - Key: {fileID: 11400000, guid: 231a0cc735e11400ca096184c8877772, type: 2}
@@ -76,6 +48,18 @@ MonoBehaviour:
       Value: 0.010833333
     - Key: {fileID: 11400000, guid: 1a1ae8604083b4798a9cbb07deeb1097, type: 2}
       Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 57b6bff049040de4db17abd70fdc1dd9, type: 2}
+      Value: 4.087068
+    - Key: {fileID: 11400000, guid: 6a98fd9208b0a694b99a7dd6ff530ede, type: 2}
+      Value: 0.8285718
+    - Key: {fileID: 11400000, guid: f55dd7f9c1b980440894f31a23f3c9de, type: 2}
+      Value: 4.087068
+    - Key: {fileID: 11400000, guid: 25cd9f4f44a2ea4438bea7f7a2740ce0, type: 2}
+      Value: 10.2606535
+    - Key: {fileID: 11400000, guid: 78d39593151082c43806adbb880facee, type: 2}
+      Value: 10.2606535
+    - Key: {fileID: 11400000, guid: e8440e2e184dec140af21ce10cee8f53, type: 2}
+      Value: 10.2606535
     - Key: {fileID: 11400000, guid: 4aed5ab04284e46b39e91275c1c3b5ff, type: 2}
       Value: 0.010833333
     - Key: {fileID: 11400000, guid: 823a5f4791d22415d9dc3440358ff1ce, type: 2}
@@ -84,6 +68,18 @@ MonoBehaviour:
       Value: 0.010833333
     - Key: {fileID: 11400000, guid: 79143f754397d4d609ab30cfcefa9942, type: 2}
       Value: 0.010833333
+    - Key: {fileID: 11400000, guid: c11c279e0725b3848a223d0e8114701c, type: 2}
+      Value: 1.9409814
+    - Key: {fileID: 11400000, guid: a7d4c2d7f7d8c0c4c841764941428256, type: 2}
+      Value: 10.2606535
+    - Key: {fileID: 11400000, guid: 9fc3566be1141274d82183d1e14f6bee, type: 2}
+      Value: 4.087068
+    - Key: {fileID: 11400000, guid: 959396a8b0320a94a9fb9036d1a15fb9, type: 2}
+      Value: 4.087068
+    - Key: {fileID: 11400000, guid: e8713e3be2208144b9686773d473a218, type: 2}
+      Value: 10.2606535
+    - Key: {fileID: 11400000, guid: d73fb77c104b405498fd30feceffd6a7, type: 2}
+      Value: 10.2606535
     - Key: {fileID: 11400000, guid: e1c2fd23308ec43718197df3eccf2256, type: 2}
       Value: 0.010833333
     - Key: {fileID: 11400000, guid: aee7c3f59aa6b4ad19d4961ec86945a3, type: 2}
@@ -100,6 +96,10 @@ MonoBehaviour:
       Value: 0.010833333
     - Key: {fileID: 11400000, guid: 5a3b71d97c5db45c384c60f7e8eef6bd, type: 2}
       Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 28dd64f8a34e8b34887e78295ce575e3, type: 2}
+      Value: 10.2606535
+    - Key: {fileID: 11400000, guid: 641b982334c7ba0438fb42958c563604, type: 2}
+      Value: 1.9409814
   ContextData:
     SpriteSource:
       m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Contract_AK47_Fire_Serpent
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Contract_AK47_Fire_Serpent
+  Name: Fire Serpent Contract
+  Price: 32.2
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: ed98962595e0c412db6ce25b9bcecfc9, type: 2}
+      Value: 0.6962898
+    - Key: {fileID: 11400000, guid: d71a74f9448bd0a4f9fc27c3e321792d, type: 2}
+      Value: 1.1265404
+    - Key: {fileID: 11400000, guid: d92a66130df658249a1768872dd8a139, type: 2}
+      Value: 13.256789
+    - Key: {fileID: 11400000, guid: 7c441e4b570ff1447b9f3a484e1853bb, type: 2}
+      Value: 13.256789
+    - Key: {fileID: 11400000, guid: f257acf90b027bf4abd55b07a994eec1, type: 2}
+      Value: 13.256789
+    - Key: {fileID: 11400000, guid: fda6fa1549b6927478492ff409b025f7, type: 2}
+      Value: 4.095839
+    - Key: {fileID: 11400000, guid: 77da52f302172fd49a770fa3b892d996, type: 2}
+      Value: 4.095839
+    - Key: {fileID: 11400000, guid: 84658114fef93ec4b9944d76441f35a1, type: 2}
+      Value: 4.095839
+    - Key: {fileID: 11400000, guid: 4dacb3d7327a01c4a9ea3c5400b0d877, type: 2}
+      Value: 13.256789
+    - Key: {fileID: 11400000, guid: 7307ae0a53a62a946ba768c170887e9e, type: 2}
+      Value: 1.1265404
+    - Key: {fileID: 11400000, guid: d62a611d0395c764193337612e9a8227, type: 2}
+      Value: 1.1265404
+    - Key: {fileID: 11400000, guid: 165b63c6d11fb094c80bbfaa71fc2140, type: 2}
+      Value: 13.256789
+    - Key: {fileID: 11400000, guid: fe09a3ae30a683d4689ca4c57a218c85, type: 2}
+      Value: 13.256789
+    - Key: {fileID: 11400000, guid: 26ce3ece0417cff4082df7114bf52e54, type: 2}
+      Value: 4.095839
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_contract_ak47_fire_serpent
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 2fb53ac04903a4cf5a13195e23c17963
+      m_EditorAssetChanged: 1

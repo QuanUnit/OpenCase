@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_AWP_T4
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_AWP_T4
+  Name: AWP Master
+  Price: 52.91
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 12d5ff6871dc474478c17c37a0433dc4, type: 2}
+      Value: 0.011181406
+    - Key: {fileID: 11400000, guid: 6b9635b1f5f88c24c93b52831ea9cf3b, type: 2}
+      Value: 0.011181406
+    - Key: {fileID: 11400000, guid: fb59c67c4abca7441909a1c7df8821fe, type: 2}
+      Value: 0.011181406
+    - Key: {fileID: 11400000, guid: cb0bd619908d4744a9371b60ffc12ffc, type: 2}
+      Value: 0.011181406
+    - Key: {fileID: 11400000, guid: 6a170818cd43bdc45ac238f6054e4618, type: 2}
+      Value: 0.10362764
+    - Key: {fileID: 11400000, guid: 817a4a677c7456949905ddfd9e8ce278, type: 2}
+      Value: 0.10362764
+    - Key: {fileID: 11400000, guid: 7503a3a6d663ef84b8882e016a023118, type: 2}
+      Value: 0.10362764
+    - Key: {fileID: 11400000, guid: 680cca7a9ae378043bacbed5bef1f803, type: 2}
+      Value: 0.10362764
+    - Key: {fileID: 11400000, guid: d71a74f9448bd0a4f9fc27c3e321792d, type: 2}
+      Value: 0.10362764
+    - Key: {fileID: 11400000, guid: 918106d5dfc222f4d9ac5d94a415cba2, type: 2}
+      Value: 0.011181406
+    - Key: {fileID: 11400000, guid: d74695936a18dbb42ac3e95a59101b8f, type: 2}
+      Value: 0.011181406
+    - Key: {fileID: 11400000, guid: 8f981e12746ca3942a3c1675fd174f96, type: 2}
+      Value: 0.011181406
+    - Key: {fileID: 11400000, guid: 0d478591b6d318c4e8026797818f5ce8, type: 2}
+      Value: 3.1392171
+    - Key: {fileID: 11400000, guid: 8630029517ed04d4091117096fdeb91e, type: 2}
+      Value: 0.011181406
+    - Key: {fileID: 11400000, guid: 5f5f8c671d2d744bba4f3eff8f82bb34, type: 2}
+      Value: 0.011181406
+    - Key: {fileID: 11400000, guid: d13db5218df3c7440b5b38d11143b2ca, type: 2}
+      Value: 0.10362764
+    - Key: {fileID: 11400000, guid: 758cb300faca11341ae32a0c01713918, type: 2}
+      Value: 15.873321
+    - Key: {fileID: 11400000, guid: dd32fe1ff74e1425fbcd4a9372f78dda, type: 2}
+      Value: 0.011181406
+    - Key: {fileID: 11400000, guid: 4d4bca1ba457f7e41be0ff8412901236, type: 2}
+      Value: 80.2427
+    - Key: {fileID: 11400000, guid: 73051f3032c72b6469383d694836f430, type: 2}
+      Value: 0.011181406
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_awp_t4
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 5c1d4786b13cf4a4c98f471539335756
+      m_EditorAssetChanged: 1

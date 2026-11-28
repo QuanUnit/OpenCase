@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Shadow
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Shadow
+  Name: Shadow Case
+  Price: 4.05
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 8b59f63a02a8d1c4dab4168f5534ecb8, type: 2}
+      Value: 1.5171101
+    - Key: {fileID: 11400000, guid: e7684f846762b874597c9fcbed0ff514, type: 2}
+      Value: 10.791931
+    - Key: {fileID: 11400000, guid: 91b6eec6ed6bdcf4294046000472c8a0, type: 2}
+      Value: 10.791931
+    - Key: {fileID: 11400000, guid: 867f753fbd9c45a46b4e0b903a78cd4a, type: 2}
+      Value: 1.5171101
+    - Key: {fileID: 11400000, guid: 1ade748e6fea774409a9df0e8b4d878d, type: 2}
+      Value: 4.6321416
+    - Key: {fileID: 11400000, guid: c6fe084b38ce70747a4ea3b65244c889, type: 2}
+      Value: 10.791931
+    - Key: {fileID: 11400000, guid: 387212f01a98b74459d67ee9b63b6f40, type: 2}
+      Value: 4.6321416
+    - Key: {fileID: 11400000, guid: e69a480c52dcf2746b847b90022363ad, type: 2}
+      Value: 0.5582924
+    - Key: {fileID: 11400000, guid: 43f568ff1f97f724696c0890325c7d66, type: 2}
+      Value: 10.791931
+    - Key: {fileID: 11400000, guid: e37be7d93c777b54494e37a9c0fc2904, type: 2}
+      Value: 10.791931
+    - Key: {fileID: 11400000, guid: 501aeafbe8360324c990235acf182ea5, type: 2}
+      Value: 4.6321416
+    - Key: {fileID: 11400000, guid: 7ee225e80a1023a40a09eb54976cea26, type: 2}
+      Value: 4.6321416
+    - Key: {fileID: 11400000, guid: 03c9cb261d6cf9a43a9ec46516c9a245, type: 2}
+      Value: 10.791931
+    - Key: {fileID: 11400000, guid: 5d0d05f86b2b7814d9bcf4c568afc5b7, type: 2}
+      Value: 1.5171101
+    - Key: {fileID: 11400000, guid: 25910310854264eaabf67bf62c72ca8c, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: e035eeb56a4834c728156a6ede96a10a, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 81d854aca82cb4f1688b33b95a9c2135, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 1e27dcb3912504dba8787aef7876e29b, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 229180e8efda849019296694c0eae180, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: bc5c8fb72d88a4edd80ff67ec5ab1fa5, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: bb2d6940985df443cadc01bc2eaae2bf, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 9f077a19f14e24cb0b7e288628c39f72, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: d2437302174364d0dbfd532bb366ff03, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: e48359a08f17d43128380166398ba406, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: e473b42a7bb4e4657a83f94d6c454cde, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 8bfc758fc42744d78b45d7a1e5f7b60b, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 659c19c71e19b42ada2d898058bcfb84, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 81f3c92c4d1636d42b072a32e8d57880, type: 2}
+      Value: 0.5582924
+    - Key: {fileID: 11400000, guid: 32bd08169ec0ce74a85133f660b6b443, type: 2}
+      Value: 10.791931
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_shadow
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: b5ac85495973d41c093d76c09f0829b6
+      m_EditorAssetChanged: 1

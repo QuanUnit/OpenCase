@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Scifi_T4
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Scifi_T4
+  Name: Sci-Fi Elite
+  Price: 50.61
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 3cd7133d59cfbbb4eb2db1658923fc15, type: 2}
+      Value: 1.185929
+    - Key: {fileID: 11400000, guid: 8b5dc4f003cc8a14187726298dd5d1eb, type: 2}
+      Value: 1.185929
+    - Key: {fileID: 11400000, guid: d7558f48ba8144045993c7967b6d53a3, type: 2}
+      Value: 1.185929
+    - Key: {fileID: 11400000, guid: 12d5ff6871dc474478c17c37a0433dc4, type: 2}
+      Value: 1.185929
+    - Key: {fileID: 11400000, guid: 918106d5dfc222f4d9ac5d94a415cba2, type: 2}
+      Value: 1.185929
+    - Key: {fileID: 11400000, guid: 8630029517ed04d4091117096fdeb91e, type: 2}
+      Value: 1.185929
+    - Key: {fileID: 11400000, guid: 62c4d9959e3e6d64ab3ea89856840ce1, type: 2}
+      Value: 20.849249
+    - Key: {fileID: 11400000, guid: d9515dd9823fc944c9eab0d4ba9ef727, type: 2}
+      Value: 1.185929
+    - Key: {fileID: 11400000, guid: 7bfe5a25f62b3bf448946e8181810fde, type: 2}
+      Value: 20.849249
+    - Key: {fileID: 11400000, guid: 2058fdc27698ca641a7fd17bd9a61ecc, type: 2}
+      Value: 1.185929
+    - Key: {fileID: 11400000, guid: 5ab2d63a2a71f7349a4b7cb2130ef85d, type: 2}
+      Value: 1.185929
+    - Key: {fileID: 11400000, guid: 98c0b7d1027a7ca419eaa30cb4851d20, type: 2}
+      Value: 1.185929
+    - Key: {fileID: 11400000, guid: 584b6c1971a987342b7b4c72a6e84dd5, type: 2}
+      Value: 1.185929
+    - Key: {fileID: 11400000, guid: f5984dda0ee2b204facb6ad1a955d053, type: 2}
+      Value: 1.185929
+    - Key: {fileID: 11400000, guid: 6277983a3327f0646b7a0dceea8163a9, type: 2}
+      Value: 1.185929
+    - Key: {fileID: 11400000, guid: 6555707aa7a1a4c41b4e96aa500458ab, type: 2}
+      Value: 20.849249
+    - Key: {fileID: 11400000, guid: c5411a401dc766b44861cb208b448628, type: 2}
+      Value: 20.849249
+    - Key: {fileID: 11400000, guid: 1f68cada0995d5d42bd52fe7274402cb, type: 2}
+      Value: 1.185929
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_scifi_t4
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 93fcae4aa4c2f4f08a3f65ad70beffda
+      m_EditorAssetChanged: 1

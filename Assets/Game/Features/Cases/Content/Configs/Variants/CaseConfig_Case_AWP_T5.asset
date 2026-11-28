@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_AWP_T5
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_AWP_T5
+  Name: AWP Legend
+  Price: 345.31
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 0ab444fe9dabc1e42866a48a9e045c9c, type: 2}
+      Value: 1.9429078
+    - Key: {fileID: 11400000, guid: 16f0f2f5be3a5bc40a5b034238a72002, type: 2}
+      Value: 1.9429078
+    - Key: {fileID: 11400000, guid: b3c419f12917690458995df47ece4f02, type: 2}
+      Value: 1.9429078
+    - Key: {fileID: 11400000, guid: e75a2555d84628047b159661fb99e9bf, type: 2}
+      Value: 1.9429078
+    - Key: {fileID: 11400000, guid: 2d74a61bf18a8f34a8619531824ccea4, type: 2}
+      Value: 1.9429078
+    - Key: {fileID: 11400000, guid: 9c098db6694e1f345b11511e638f55b9, type: 2}
+      Value: 88.34255
+    - Key: {fileID: 11400000, guid: 7737e8c6647c73341a3d8e8753165343, type: 2}
+      Value: 1.9429078
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_awp_t5
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 1dc00d4d3f74b4cd6ad44effdca99206
+      m_EditorAssetChanged: 1

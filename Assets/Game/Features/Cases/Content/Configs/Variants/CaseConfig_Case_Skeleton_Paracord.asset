@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Skeleton_Paracord
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Skeleton_Paracord
+  Name: Skeleton & Paracord Case
+  Price: 229.49
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 42ac043a60d4e491cbc3c9fbb91d1556, type: 2}
+      Value: 2.769494
+    - Key: {fileID: 11400000, guid: e31bcf17017e84e22af5712a9cc3ce83, type: 2}
+      Value: 2.872321
+    - Key: {fileID: 11400000, guid: 0f1f6cd20a6374d02a0f9e36711006ab, type: 2}
+      Value: 2.669027
+    - Key: {fileID: 11400000, guid: 1860d89a9051e447ab35c954f1f6d468, type: 2}
+      Value: 2.196747
+    - Key: {fileID: 11400000, guid: 9c9b04b77ccb54e999c8836606327274, type: 2}
+      Value: 2.9275734
+    - Key: {fileID: 11400000, guid: d03cc0698174a4776bf9b126ae2a771e, type: 2}
+      Value: 2.5375912
+    - Key: {fileID: 11400000, guid: 9356606dca8fe4f10868db27edb0166f, type: 2}
+      Value: 2.6308298
+    - Key: {fileID: 11400000, guid: 79004cc50fd174304a42c6138b6d9e7a, type: 2}
+      Value: 2.8297553
+    - Key: {fileID: 11400000, guid: 089d826bffd3f4bb4a9df7074f389f6a, type: 2}
+      Value: 2.691666
+    - Key: {fileID: 11400000, guid: 19983e12f66744b238d2cba9ef2cd75e, type: 2}
+      Value: 2.7494898
+    - Key: {fileID: 11400000, guid: eef2864559d9d4239979d470e65eef43, type: 2}
+      Value: 3.024298
+    - Key: {fileID: 11400000, guid: 241741cf61be846c3835f8ca4ef0a084, type: 2}
+      Value: 2.8951225
+    - Key: {fileID: 11400000, guid: 99e4627e8f54f4ae5b62469ec364607c, type: 2}
+      Value: 2.9184027
+    - Key: {fileID: 11400000, guid: dfda1d902b40448fc81453851d1facb5, type: 2}
+      Value: 2.7138553
+    - Key: {fileID: 11400000, guid: a6b126bf055254413849b8b86b353e80, type: 2}
+      Value: 2.8788924
+    - Key: {fileID: 11400000, guid: 1a183ee1894f04f2eaabf79bd7273606, type: 2}
+      Value: 2.7461832
+    - Key: {fileID: 11400000, guid: 01fff1c99237742d58497fa5fcb6fdb9, type: 2}
+      Value: 2.885348
+    - Key: {fileID: 11400000, guid: 779d81bf9dba546ecb75cf49f765f73c, type: 2}
+      Value: 2.5220978
+    - Key: {fileID: 11400000, guid: e86bc7e71dd644e9c8a8fe0b8748c3c9, type: 2}
+      Value: 3.0607827
+    - Key: {fileID: 11400000, guid: 0e2fbabe425d44ddf8561cbdde15bdca, type: 2}
+      Value: 2.5132182
+    - Key: {fileID: 11400000, guid: cfbcdd637650e43e5bc54e2c2e698b38, type: 2}
+      Value: 2.6242766
+    - Key: {fileID: 11400000, guid: 0d8d85aa607bb40bdb82ca71d8d20fc5, type: 2}
+      Value: 2.4275815
+    - Key: {fileID: 11400000, guid: cd53cdf4fc0cf4b8498b281e132f5f81, type: 2}
+      Value: 2.1630175
+    - Key: {fileID: 11400000, guid: d61ea57ec605a404fb3267ec9286b530, type: 2}
+      Value: 2.6026003
+    - Key: {fileID: 11400000, guid: 5684ab9cacca744639366d6e7e2db935, type: 2}
+      Value: 2.2790058
+    - Key: {fileID: 11400000, guid: b1e7592cb26534bd58eed48f566b749e, type: 2}
+      Value: 2.3480062
+    - Key: {fileID: 11400000, guid: 5e6d393107c9942bda5929d32ac0a300, type: 2}
+      Value: 2.6306217
+    - Key: {fileID: 11400000, guid: 30b1264157c1647e99111f5afab91b05, type: 2}
+      Value: 2.410809
+    - Key: {fileID: 11400000, guid: e1d9a70da1a59479aa1dbddfb96fb470, type: 2}
+      Value: 2.4794981
+    - Key: {fileID: 11400000, guid: 88aa97984cd3741dfb2325c70561ffd8, type: 2}
+      Value: 2.703439
+    - Key: {fileID: 11400000, guid: 38feb3b67fa98413ebccf0c7e77d7574, type: 2}
+      Value: 2.6348524
+    - Key: {fileID: 11400000, guid: 78217b108c884487f8fd9239cfa27498, type: 2}
+      Value: 2.4523644
+    - Key: {fileID: 11400000, guid: e9797d799c1a34076a567e472f0255f3, type: 2}
+      Value: 2.4413893
+    - Key: {fileID: 11400000, guid: 800937cd5b37c49f98c3bf40af10e88d, type: 2}
+      Value: 2.5344393
+    - Key: {fileID: 11400000, guid: cdb0f4e73b1344578956ebf023b11aa1, type: 2}
+      Value: 2.4607038
+    - Key: {fileID: 11400000, guid: 2c3bab99dd73c4cfd9fdbfee78eb5c83, type: 2}
+      Value: 2.4910963
+    - Key: {fileID: 11400000, guid: 4656a5d6160ab434fad77319f46de2a3, type: 2}
+      Value: 2.6857007
+    - Key: {fileID: 11400000, guid: 7e4fd8e04e04e401ab5383235e2fbd02, type: 2}
+      Value: 2.5979025
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_skeleton_paracord
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: a13bce2ad84c54c3b8b520ef8f65b490
+      m_EditorAssetChanged: 1

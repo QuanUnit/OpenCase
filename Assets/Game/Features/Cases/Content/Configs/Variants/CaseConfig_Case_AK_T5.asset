@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_AK_T5
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_AK_T5
+  Name: AK-47 Legend
+  Price: 317.76
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: d1da68c500202444394898e81b0eb547, type: 2}
+      Value: 1.7059902
+    - Key: {fileID: 11400000, guid: 3c64a0a6511282049abac8274a5159c3, type: 2}
+      Value: 28.654545
+    - Key: {fileID: 11400000, guid: 3273f2fff48ca4c57a480bad45fb91a0, type: 2}
+      Value: 1.7073421
+    - Key: {fileID: 11400000, guid: ed98962595e0c412db6ce25b9bcecfc9, type: 2}
+      Value: 1.1111115
+    - Key: {fileID: 11400000, guid: e316744c0d4bb6e42a6ddb6fc68f8c62, type: 2}
+      Value: 1.9411225
+    - Key: {fileID: 11400000, guid: 7bed7f12723e5bd459d26c8149f2947e, type: 2}
+      Value: 1.9247067
+    - Key: {fileID: 11400000, guid: 1fae7eb0df6414533b40a52aede9abeb, type: 2}
+      Value: 23.383833
+    - Key: {fileID: 11400000, guid: be10f6c8916d0ae4c8e4f4e4c49e0abd, type: 2}
+      Value: 1.7610283
+    - Key: {fileID: 11400000, guid: 34c62824bfe6cc34daaffb8cf973268d, type: 2}
+      Value: 2.0260835
+    - Key: {fileID: 11400000, guid: 2d132200aab8b4ce5ad502d65799412f, type: 2}
+      Value: 30.995668
+    - Key: {fileID: 11400000, guid: c563a6b5605ef7a48864b211ce466094, type: 2}
+      Value: 1.7302685
+    - Key: {fileID: 11400000, guid: 64d43a04e1bd40342b3669ac9bff149e, type: 2}
+      Value: 1.8131555
+    - Key: {fileID: 11400000, guid: e84f3b8f02b5549feabea3e6308555b1, type: 2}
+      Value: 1.245147
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_ak_t5
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 1993eda88915d4f688352a1017d793fe
+      m_EditorAssetChanged: 1

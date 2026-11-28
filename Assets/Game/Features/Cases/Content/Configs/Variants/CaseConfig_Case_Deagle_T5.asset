@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Deagle_T5
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Deagle_T5
+  Name: Desert Eagle Legend
+  Price: 330.62
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 43b7f1f74c7c1234c8612c098eb320be, type: 2}
+      Value: 11.930214
+    - Key: {fileID: 11400000, guid: 196504782add7904ca68a01e977e2786, type: 2}
+      Value: 5.448111
+    - Key: {fileID: 11400000, guid: 202fd11981b37b7428c3841f251db18d, type: 2}
+      Value: 2.2087567
+    - Key: {fileID: 11400000, guid: 77f5523bf9582624d8eec95d8ed2125a, type: 2}
+      Value: 11.930214
+    - Key: {fileID: 11400000, guid: 8451a17ba49a8974eb9b3096b73fb2c5, type: 2}
+      Value: 5.448111
+    - Key: {fileID: 11400000, guid: 76431a17b16686644a29a90a4e6bba1b, type: 2}
+      Value: 2.2087567
+    - Key: {fileID: 11400000, guid: 7e880ed6efaa4774daf0d6b31d599ef9, type: 2}
+      Value: 11.930214
+    - Key: {fileID: 11400000, guid: a88a29e33219eae429c507ee2dca70b9, type: 2}
+      Value: 5.448111
+    - Key: {fileID: 11400000, guid: 58437b520f98144428aa6adcf8f4ddbb, type: 2}
+      Value: 2.2087567
+    - Key: {fileID: 11400000, guid: 7a4d18141079dab4f8f8a2d94a7a6c02, type: 2}
+      Value: 11.930214
+    - Key: {fileID: 11400000, guid: f5588ee56c6757d46832c9e0f335ea05, type: 2}
+      Value: 5.448111
+    - Key: {fileID: 11400000, guid: c5982103fb96d6b4e8056da00ad8f779, type: 2}
+      Value: 11.930214
+    - Key: {fileID: 11400000, guid: 9ffcf35e2dc5ed748853d121467c299f, type: 2}
+      Value: 11.930214
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_deagle_t5
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 3f0d47eb2ba6a49b59c3ecb9bb232bef
+      m_EditorAssetChanged: 1

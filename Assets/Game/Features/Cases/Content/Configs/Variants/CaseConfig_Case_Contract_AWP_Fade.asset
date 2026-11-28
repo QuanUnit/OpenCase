@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Contract_AWP_Fade
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Contract_AWP_Fade
+  Name: Fade Contract
+  Price: 3.93
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: b3c419f12917690458995df47ece4f02, type: 2}
+      Value: 0.056066953
+    - Key: {fileID: 11400000, guid: 5011e6b6d2184ad458c43270b8be5961, type: 2}
+      Value: 15.281377
+    - Key: {fileID: 11400000, guid: 1d5c1d1bd873d1345bd94a5338cb2605, type: 2}
+      Value: 15.281377
+    - Key: {fileID: 11400000, guid: b2bcfdab5780f284bb666443ea3936b3, type: 2}
+      Value: 4.5092106
+    - Key: {fileID: 11400000, guid: 09dd700c407251e4f826a69b514d837e, type: 2}
+      Value: 4.5092106
+    - Key: {fileID: 11400000, guid: 46bdbaa3d2a7de041b082f5520176106, type: 2}
+      Value: 0.33495504
+    - Key: {fileID: 11400000, guid: 455b004b9fcf1fa44af2f5d7b6fa77b2, type: 2}
+      Value: 0.33495504
+    - Key: {fileID: 11400000, guid: b06266988a1ad6040ad978d0ac3c098d, type: 2}
+      Value: 0.11875419
+    - Key: {fileID: 11400000, guid: acd404a3aee9d574887d0bd22f50636e, type: 2}
+      Value: 1.0644579
+    - Key: {fileID: 11400000, guid: 7240c19ff553ee94bb3a754ca4a50791, type: 2}
+      Value: 4.5092106
+    - Key: {fileID: 11400000, guid: 94263c4d9c8cdb24999ca78b21203045, type: 2}
+      Value: 4.5092106
+    - Key: {fileID: 11400000, guid: 183a0e19fa2fb83459700e2cfd821db2, type: 2}
+      Value: 15.281377
+    - Key: {fileID: 11400000, guid: 09ca6d2d797153542b377ae914fe57c9, type: 2}
+      Value: 1.0644579
+    - Key: {fileID: 11400000, guid: 0e939e8c278b40842b4005735db6056e, type: 2}
+      Value: 15.281377
+    - Key: {fileID: 11400000, guid: bf829989c0f2bbe44a7d50f7573bd983, type: 2}
+      Value: 1.0644579
+    - Key: {fileID: 11400000, guid: f95060b413532854ebe821d142855b0d, type: 2}
+      Value: 1.0644579
+    - Key: {fileID: 11400000, guid: f42f96eac6e285144bb885aa7372f646, type: 2}
+      Value: 0.33495504
+    - Key: {fileID: 11400000, guid: 83cab2a463e752b44a4de309c3ae8374, type: 2}
+      Value: 0.11875419
+    - Key: {fileID: 11400000, guid: 8c529644462b0a5449d07913da35bf0a, type: 2}
+      Value: 15.281377
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_contract_awp_fade
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: d184499dc3c25426ca77809d4d9413b8
+      m_EditorAssetChanged: 1

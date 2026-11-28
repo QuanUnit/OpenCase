@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Huntsman
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Huntsman
+  Name: Huntsman Case
+  Price: 7.28
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: c563a6b5605ef7a48864b211ce466094, type: 2}
+      Value: 0.55429715
+    - Key: {fileID: 11400000, guid: 3a5731caaf8c47b4e966693cc163ad9c, type: 2}
+      Value: 4.6236176
+    - Key: {fileID: 11400000, guid: 62b16b8f9241f764089515abdb805410, type: 2}
+      Value: 12.601016
+    - Key: {fileID: 11400000, guid: 16a14d899af0c9f418a9550b4049be13, type: 2}
+      Value: 12.601016
+    - Key: {fileID: 11400000, guid: 7dfd40b0355be4db49b983bd1059338a, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: d4158519a03c84c0e8511f54966b47ef, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 1f0dd1298b1694bbc91942e9ae4edc0e, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 3bde59dc1206a40a7be7f724c99fb646, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 13cd18d8388b0424db1ee0b92ccf43e4, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: d474e19efbcb049a78515183a62177da, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: aa41e5eee1e524606a4d11c0aafeafad, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 26dea1e6dab6b4c6c80abb1c01ba7ddb, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: ac37c358258f74edfa46ce10d6a184fc, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 648a183cf27584e13bcd52fd16036c24, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: a651035cdc65348eeacf55f9b17fa64f, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 496c2ecfdd8364827bdea81bf42de112, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: bc60d7c40fdeb4747bff92bcaee37183, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: f1d338d4c06dc5e4a9b3f8103d1f7455, type: 2}
+      Value: 1.5102805
+    - Key: {fileID: 11400000, guid: 3c0905168bfc6ce4dbfddbdc18fcd997, type: 2}
+      Value: 0.55429715
+    - Key: {fileID: 11400000, guid: 9b0490f372473c4459650004443bb5ee, type: 2}
+      Value: 4.6236176
+    - Key: {fileID: 11400000, guid: 945aa4467f272314f902b5e34a782815, type: 2}
+      Value: 12.601016
+    - Key: {fileID: 11400000, guid: ab0e18253e97af94991965dbdfa422a0, type: 2}
+      Value: 12.601016
+    - Key: {fileID: 11400000, guid: 74e68c5e9ffcc944b9f2428aa3ae6032, type: 2}
+      Value: 4.6236176
+    - Key: {fileID: 11400000, guid: 6555707aa7a1a4c41b4e96aa500458ab, type: 2}
+      Value: 1.5102805
+    - Key: {fileID: 11400000, guid: c400b2618762fd04cb5df875337bb12a, type: 2}
+      Value: 12.601016
+    - Key: {fileID: 11400000, guid: c82dbc6eeb5345f489dea4dbfd78c6e1, type: 2}
+      Value: 12.601016
+    - Key: {fileID: 11400000, guid: be2334db1409934408cfec9fa4b12050, type: 2}
+      Value: 1.5102805
+    - Key: {fileID: 11400000, guid: 29ba6990ab379f5419b6bfd9ce6c7236, type: 2}
+      Value: 4.6236176
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_huntsman
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: d2a29ac1ca4f94507ba8382aba63f799
+      m_EditorAssetChanged: 1

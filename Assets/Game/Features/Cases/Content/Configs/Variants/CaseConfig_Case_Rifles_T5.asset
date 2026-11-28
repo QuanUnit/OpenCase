@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Rifles_T5
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Rifles_T5
+  Name: Rifle Legend
+  Price: 332.4
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: d1da68c500202444394898e81b0eb547, type: 2}
+      Value: 0.04886595
+    - Key: {fileID: 11400000, guid: 3c64a0a6511282049abac8274a5159c3, type: 2}
+      Value: 0.6674547
+    - Key: {fileID: 11400000, guid: 3273f2fff48ca4c57a480bad45fb91a0, type: 2}
+      Value: 0.049199913
+    - Key: {fileID: 11400000, guid: ed98962595e0c412db6ce25b9bcecfc9, type: 2}
+      Value: 0.001224318
+    - Key: {fileID: 11400000, guid: e316744c0d4bb6e42a6ddb6fc68f8c62, type: 2}
+      Value: 0.14830375
+    - Key: {fileID: 11400000, guid: 7bed7f12723e5bd459d26c8149f2947e, type: 2}
+      Value: 0.13786033
+    - Key: {fileID: 11400000, guid: 1fae7eb0df6414533b40a52aede9abeb, type: 2}
+      Value: 0.116254024
+    - Key: {fileID: 11400000, guid: be10f6c8916d0ae4c8e4f4e4c49e0abd, type: 2}
+      Value: 0.064205386
+    - Key: {fileID: 11400000, guid: 34c62824bfe6cc34daaffb8cf973268d, type: 2}
+      Value: 0.21434477
+    - Key: {fileID: 11400000, guid: 2d132200aab8b4ce5ad502d65799412f, type: 2}
+      Value: 1.3112289
+    - Key: {fileID: 11400000, guid: c563a6b5605ef7a48864b211ce466094, type: 2}
+      Value: 0.055178773
+    - Key: {fileID: 11400000, guid: 64d43a04e1bd40342b3669ac9bff149e, type: 2}
+      Value: 0.08250821
+    - Key: {fileID: 11400000, guid: e84f3b8f02b5549feabea3e6308555b1, type: 2}
+      Value: 0.003259697
+    - Key: {fileID: 11400000, guid: bcc02c4dc3e824d42b4e9d10b6dc3a89, type: 2}
+      Value: 1.8663473
+    - Key: {fileID: 11400000, guid: 7b50c242aff7b0344867df8523541b5a, type: 2}
+      Value: 75.50446
+    - Key: {fileID: 11400000, guid: 787f1ce9f7c612d429386b699b910976, type: 2}
+      Value: 3.9756024
+    - Key: {fileID: 11400000, guid: 87dda8e9860e7e34a89ba95fb438fec8, type: 2}
+      Value: 0.22313204
+    - Key: {fileID: 11400000, guid: b06266988a1ad6040ad978d0ac3c098d, type: 2}
+      Value: 0.1387836
+    - Key: {fileID: 11400000, guid: 976ea20587f2b5a47b9c4b2fefb2414b, type: 2}
+      Value: 0.19756362
+    - Key: {fileID: 11400000, guid: 2058fdc27698ca641a7fd17bd9a61ecc, type: 2}
+      Value: 0.12828784
+    - Key: {fileID: 11400000, guid: 8fa4f94bed00bbb4396d0cd5bdc4437d, type: 2}
+      Value: 0.17005347
+    - Key: {fileID: 11400000, guid: 93be3702fa3bf5e43892c19ede6dddc0, type: 2}
+      Value: 0.015843738
+    - Key: {fileID: 11400000, guid: 5ab2d63a2a71f7349a4b7cb2130ef85d, type: 2}
+      Value: 0.19608188
+    - Key: {fileID: 11400000, guid: 54d21dc987c534e4b97410c23a3947e6, type: 2}
+      Value: 1.884284
+    - Key: {fileID: 11400000, guid: 2a88040a0ef60744aa5b006b7e2263af, type: 2}
+      Value: 0.002261636
+    - Key: {fileID: 11400000, guid: ac1d3fae9819b944d8f729d11e43cb42, type: 2}
+      Value: 1.881334
+    - Key: {fileID: 11400000, guid: a2f61a89879507f4db7684ff73447aeb, type: 2}
+      Value: 0.08762655
+    - Key: {fileID: 11400000, guid: acbbbb0a26168cc40a08b213523926dd, type: 2}
+      Value: 0.001584906
+    - Key: {fileID: 11400000, guid: 584b6c1971a987342b7b4c72a6e84dd5, type: 2}
+      Value: 0.20225525
+    - Key: {fileID: 11400000, guid: c1899f086b6740b4c9e7c9ad9fe71dd3, type: 2}
+      Value: 0.04006155
+    - Key: {fileID: 11400000, guid: 9d0e0f7c976fecd4ebd551dfe6a91516, type: 2}
+      Value: 0.97822005
+    - Key: {fileID: 11400000, guid: d8adfcf77c316994bba766001554ca41, type: 2}
+      Value: 0.03175427
+    - Key: {fileID: 11400000, guid: 6a5064963cefaa443893ceb435a0e9c5, type: 2}
+      Value: 1.740392
+    - Key: {fileID: 11400000, guid: 68fe94243d0a4db44bbc8238d5004024, type: 2}
+      Value: 1.7869216
+    - Key: {fileID: 11400000, guid: beb850792fa897743bb481e8b04ef179, type: 2}
+      Value: 0.0200832
+    - Key: {fileID: 11400000, guid: d4b5e72bd467753439c8aa203741d041, type: 2}
+      Value: 0.20472272
+    - Key: {fileID: 11400000, guid: 94eed944543f6bc4bb265cab91f580fa, type: 2}
+      Value: 0.011135924
+    - Key: {fileID: 11400000, guid: c1b965e121a5f3a4ea5f5e388be8b79e, type: 2}
+      Value: 5.0880165
+    - Key: {fileID: 11400000, guid: 3631136285546334ab526e5a38ae0df6, type: 2}
+      Value: 0.7232958
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_rifles_t5
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 0dd0a1b52e4d24f58a2858ef33dc506b
+      m_EditorAssetChanged: 1

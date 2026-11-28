@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Classic_Kukri
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Classic_Kukri
+  Name: Classic & Kukri Case
+  Price: 146.08
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 2f95d3507f1374358b34d830c89f5c65, type: 2}
+      Value: 3.7242515
+    - Key: {fileID: 11400000, guid: d0c2faf7c87aa4eed80e58f732f8d0a5, type: 2}
+      Value: 3.7869475
+    - Key: {fileID: 11400000, guid: 5295e0ec0bbb64e70973464efa210dd6, type: 2}
+      Value: 3.5751045
+    - Key: {fileID: 11400000, guid: 141305764dce64ca1a892cf4a8574712, type: 2}
+      Value: 3.0719273
+    - Key: {fileID: 11400000, guid: 135e2ee812e2848539967a0b7de8baf3, type: 2}
+      Value: 3.4946988
+    - Key: {fileID: 11400000, guid: a7404b994aa7b4b1fba0e91cf3d4bbc2, type: 2}
+      Value: 4.097355
+    - Key: {fileID: 11400000, guid: 2753cb450ceff4ea29d50c15a972dfac, type: 2}
+      Value: 3.499199
+    - Key: {fileID: 11400000, guid: 27d85edffa9ac404a9f1523cfb4ba6e0, type: 2}
+      Value: 4.1208405
+    - Key: {fileID: 11400000, guid: c82ecbe97bae442d990242bd8669921d, type: 2}
+      Value: 4.035733
+    - Key: {fileID: 11400000, guid: ef1151c1f22ca4e17943af31a5ba6c4d, type: 2}
+      Value: 3.6576667
+    - Key: {fileID: 11400000, guid: 65ae91ca2877f419e9f3b6be0ed55cc1, type: 2}
+      Value: 3.767329
+    - Key: {fileID: 11400000, guid: 07c1ab4877af14cb6a58c9fb171894cd, type: 2}
+      Value: 3.9974174
+    - Key: {fileID: 11400000, guid: a758ceb7501fc475eaec16e1159a4842, type: 2}
+      Value: 3.6812408
+    - Key: {fileID: 11400000, guid: c187c0bc66d3842d3a71793b8356893a, type: 2}
+      Value: 3.9425137
+    - Key: {fileID: 11400000, guid: 90086b718ce3e4c738f5a1aabe0a43d3, type: 2}
+      Value: 4.1184545
+    - Key: {fileID: 11400000, guid: e4628a2b72165457fb0f6ee267fda82f, type: 2}
+      Value: 3.8286347
+    - Key: {fileID: 11400000, guid: 414b2818bc3d6418d96d1dd2b909398a, type: 2}
+      Value: 3.6800408
+    - Key: {fileID: 11400000, guid: 13520060cc26d4f69a3ea457e02b8944, type: 2}
+      Value: 3.7226117
+    - Key: {fileID: 11400000, guid: d7df637d8add24bde82f449f2b0cb616, type: 2}
+      Value: 4.0756874
+    - Key: {fileID: 11400000, guid: 6f39cfe1299e44c0b8f532ac80ccefc3, type: 2}
+      Value: 3.908147
+    - Key: {fileID: 11400000, guid: 1b8d3cc18925d44e5989646dadd251bb, type: 2}
+      Value: 4.171056
+    - Key: {fileID: 11400000, guid: cf3eeae618cdf4339949f47ba4eba5a1, type: 2}
+      Value: 4.015056
+    - Key: {fileID: 11400000, guid: 4326e85e236bb460a95c1ef01b7b3ae0, type: 2}
+      Value: 3.8794768
+    - Key: {fileID: 11400000, guid: df94805b1bb86451dae48860e753d202, type: 2}
+      Value: 4.0926104
+    - Key: {fileID: 11400000, guid: 294d9799f95e84015ae2888e1c3eb9d0, type: 2}
+      Value: 3.981116
+    - Key: {fileID: 11400000, guid: b188f4f41756e4df9ba9886051608d22, type: 2}
+      Value: 4.074884
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_classic_kukri
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 0964b6ab8b81e4674bcaba0a0a229c15
+      m_EditorAssetChanged: 1

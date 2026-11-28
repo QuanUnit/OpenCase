@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Huntsman_Falchion
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Huntsman_Falchion
+  Name: Huntsman & Falchion Case
+  Price: 174.34
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: f7ffb4b576b144535bf7f68bc10fa9d1, type: 2}
+      Value: 2.0332685
+    - Key: {fileID: 11400000, guid: f1a705e66adc8468a978def31e7a23a8, type: 2}
+      Value: 2.156312
+    - Key: {fileID: 11400000, guid: f903dd0a368cd4796899d32ae3807b92, type: 2}
+      Value: 1.8760779
+    - Key: {fileID: 11400000, guid: 56c52893d990c4114a9fcf342c9d4737, type: 2}
+      Value: 2.040428
+    - Key: {fileID: 11400000, guid: 71291ae7163ff4cd78d4f1481ab638b3, type: 2}
+      Value: 2.204833
+    - Key: {fileID: 11400000, guid: a20a23389d7444905979af941d75ef10, type: 2}
+      Value: 1.6248267
+    - Key: {fileID: 11400000, guid: 22cac3ad3e0f541dfaf0e7df1ba76e15, type: 2}
+      Value: 1.9832239
+    - Key: {fileID: 11400000, guid: b1287b61becad4c8b84a0a5d522732b0, type: 2}
+      Value: 2.0863466
+    - Key: {fileID: 11400000, guid: 40999e1ada3984a62baee88692b6948b, type: 2}
+      Value: 1.789816
+    - Key: {fileID: 11400000, guid: d9d808bc610ff4c94b50ee9d4050f4ff, type: 2}
+      Value: 1.8362068
+    - Key: {fileID: 11400000, guid: 91772407504414e42840c1929de211d5, type: 2}
+      Value: 1.9205812
+    - Key: {fileID: 11400000, guid: 9c270becee8e94087ad50b7af90aa6c5, type: 2}
+      Value: 2.17028
+    - Key: {fileID: 11400000, guid: 0cb29eaa9d01141a4affa6db583cb04f, type: 2}
+      Value: 1.8713838
+    - Key: {fileID: 11400000, guid: d56d098ae2d994482a12898c916259b4, type: 2}
+      Value: 2.0628629
+    - Key: {fileID: 11400000, guid: fe90102161db34257b1541c25f267395, type: 2}
+      Value: 1.9069579
+    - Key: {fileID: 11400000, guid: 892a7e86de1564792bcc73cb304e3a88, type: 2}
+      Value: 1.8324317
+    - Key: {fileID: 11400000, guid: 24ea1aa3be28e40acb55a8353be7f47e, type: 2}
+      Value: 2.2403996
+    - Key: {fileID: 11400000, guid: 0128f193db6f2415a93dd17824a76c43, type: 2}
+      Value: 2.2359827
+    - Key: {fileID: 11400000, guid: 8f5c4237b0ef04e4a8ffd006b82e6846, type: 2}
+      Value: 2.034654
+    - Key: {fileID: 11400000, guid: 10b692f0d13be472f846afb834711284, type: 2}
+      Value: 1.9048721
+    - Key: {fileID: 11400000, guid: 885a67570e701438989b8cd2781dd2dc, type: 2}
+      Value: 2.007783
+    - Key: {fileID: 11400000, guid: b89fc57cc12cf47228e783d193a35343, type: 2}
+      Value: 1.9781123
+    - Key: {fileID: 11400000, guid: 91aa4d02408e640008009d4a98df10b9, type: 2}
+      Value: 1.9086901
+    - Key: {fileID: 11400000, guid: 2a815d064671e4ff6b6fd05faf4deb5c, type: 2}
+      Value: 2.1261437
+    - Key: {fileID: 11400000, guid: 7bf7a893ff84c4bfc9422fe3bc36f9dd, type: 2}
+      Value: 2.0946653
+    - Key: {fileID: 11400000, guid: 0476d386f10db4737b2ada2cfa508999, type: 2}
+      Value: 2.039765
+    - Key: {fileID: 11400000, guid: c88b386807d2e45da88ec2ff8000ada6, type: 2}
+      Value: 2.1425834
+    - Key: {fileID: 11400000, guid: 7dfd40b0355be4db49b983bd1059338a, type: 2}
+      Value: 2.027071
+    - Key: {fileID: 11400000, guid: d4158519a03c84c0e8511f54966b47ef, type: 2}
+      Value: 2.2010615
+    - Key: {fileID: 11400000, guid: fe2cc0ecc1ff64e7c85caef78ef5dc43, type: 2}
+      Value: 2.2478676
+    - Key: {fileID: 11400000, guid: 1f0dd1298b1694bbc91942e9ae4edc0e, type: 2}
+      Value: 1.7814994
+    - Key: {fileID: 11400000, guid: 3bde59dc1206a40a7be7f724c99fb646, type: 2}
+      Value: 1.6785407
+    - Key: {fileID: 11400000, guid: d3d21b483244449fb82c013fcda4bfbf, type: 2}
+      Value: 2.1202383
+    - Key: {fileID: 11400000, guid: 4ea7c7772e8654aa4b26eb71074e725c, type: 2}
+      Value: 1.7943517
+    - Key: {fileID: 11400000, guid: 13cd18d8388b0424db1ee0b92ccf43e4, type: 2}
+      Value: 1.8638996
+    - Key: {fileID: 11400000, guid: d474e19efbcb049a78515183a62177da, type: 2}
+      Value: 2.2376852
+    - Key: {fileID: 11400000, guid: 0fa8a1c7825fb4cfdb3131882929f655, type: 2}
+      Value: 2.2007577
+    - Key: {fileID: 11400000, guid: ad2217ddbab8d47fbbd02d32c3c5c1f3, type: 2}
+      Value: 1.8893267
+    - Key: {fileID: 11400000, guid: 7b5ff5e9c945e4a4aafa0283b89d4239, type: 2}
+      Value: 2.0879114
+    - Key: {fileID: 11400000, guid: 0697006649234441b9893ddff1a8fc26, type: 2}
+      Value: 1.8984108
+    - Key: {fileID: 11400000, guid: aa41e5eee1e524606a4d11c0aafeafad, type: 2}
+      Value: 1.6405238
+    - Key: {fileID: 11400000, guid: 86539a275be1e460893709afcb97912e, type: 2}
+      Value: 2.2464964
+    - Key: {fileID: 11400000, guid: 26dea1e6dab6b4c6c80abb1c01ba7ddb, type: 2}
+      Value: 1.8700838
+    - Key: {fileID: 11400000, guid: ac37c358258f74edfa46ce10d6a184fc, type: 2}
+      Value: 2.1709642
+    - Key: {fileID: 11400000, guid: 648a183cf27584e13bcd52fd16036c24, type: 2}
+      Value: 1.8740735
+    - Key: {fileID: 11400000, guid: a651035cdc65348eeacf55f9b17fa64f, type: 2}
+      Value: 1.9144603
+    - Key: {fileID: 11400000, guid: 1f87543ae5ece4b9e8311824fbcc2aaf, type: 2}
+      Value: 1.9890248
+    - Key: {fileID: 11400000, guid: 4d2b5128e07dd4e6f9eb9693d29f94f5, type: 2}
+      Value: 1.9013772
+    - Key: {fileID: 11400000, guid: 496c2ecfdd8364827bdea81bf42de112, type: 2}
+      Value: 2.1904335
+    - Key: {fileID: 11400000, guid: bc60d7c40fdeb4747bff92bcaee37183, type: 2}
+      Value: 2.064454
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_huntsman_falchion
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 9354453c06c9b48b689fdc5b6c10dacf
+      m_EditorAssetChanged: 1

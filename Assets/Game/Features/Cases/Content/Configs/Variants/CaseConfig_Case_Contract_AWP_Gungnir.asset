@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Contract_AWP_Gungnir
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Contract_AWP_Gungnir
+  Name: Gungnir Contract
+  Price: 19.21
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: a568002987362f34e9583145773e4aa0, type: 2}
+      Value: 0.031511247
+    - Key: {fileID: 11400000, guid: bcc02c4dc3e824d42b4e9d10b6dc3a89, type: 2}
+      Value: 0.24037766
+    - Key: {fileID: 11400000, guid: e6b0ca8dc3411794f86339b251e0cc60, type: 2}
+      Value: 0.8631982
+    - Key: {fileID: 11400000, guid: 77f5523bf9582624d8eec95d8ed2125a, type: 2}
+      Value: 0.24037766
+    - Key: {fileID: 11400000, guid: 604518afb44ba484aa18dea7ea87cdd7, type: 2}
+      Value: 4.1319685
+    - Key: {fileID: 11400000, guid: 1cc1f76180b3e9044897b500f7e8929c, type: 2}
+      Value: 15.82317
+    - Key: {fileID: 11400000, guid: daa6be9152e49634f8c687a29adf226d, type: 2}
+      Value: 15.82317
+    - Key: {fileID: 11400000, guid: 876bbf89ad74c8d4aaf0820625cc638b, type: 2}
+      Value: 4.1319685
+    - Key: {fileID: 11400000, guid: b05e520d39f2df745939ad2c973e82f1, type: 2}
+      Value: 0.8631982
+    - Key: {fileID: 11400000, guid: 4426849b23defe941b6241aeb8d5cbff, type: 2}
+      Value: 4.1319685
+    - Key: {fileID: 11400000, guid: 336f55db49e716741aaa04b7d111dade, type: 2}
+      Value: 15.82317
+    - Key: {fileID: 11400000, guid: 3f2893a087afee74785c6aa4ac106f5a, type: 2}
+      Value: 0.15083846
+    - Key: {fileID: 11400000, guid: 66de71e95ac1941d3a20a452c641706e, type: 2}
+      Value: 0.24037766
+    - Key: {fileID: 11400000, guid: 16e1901f0c485044e8ab11ce31be5763, type: 2}
+      Value: 0.8631982
+    - Key: {fileID: 11400000, guid: 87b373bb380ddb944a35385f58b9e152, type: 2}
+      Value: 15.82317
+    - Key: {fileID: 11400000, guid: dfbab8d7cff0d2344981b359ce93357d, type: 2}
+      Value: 15.82317
+    - Key: {fileID: 11400000, guid: 4d9e5600e23d2374ea4ff14e58c6aaa6, type: 2}
+      Value: 4.1319685
+    - Key: {fileID: 11400000, guid: 67efb80d04ef6f7499bf53fa85010792, type: 2}
+      Value: 0.8631982
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_contract_awp_gungnir
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: b5ceeedfd57654583894ca3c062eefb2
+      m_EditorAssetChanged: 1

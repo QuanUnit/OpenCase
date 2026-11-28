@@ -18,94 +18,94 @@ MonoBehaviour:
   Price: 4.55
   SkinsMapEntries:
     _entries:
-    - Key: {fileID: 11400000, guid: 755a4d7b994dd834fa04c774fd4d039a, type: 2}
-      Value: 15.12602
-    - Key: {fileID: 11400000, guid: 59b9a49a127249742b2e4d6ad4ec45d6, type: 2}
-      Value: 15.12602
-    - Key: {fileID: 11400000, guid: 22623671541fa7248b5c0b34b534946d, type: 2}
-      Value: 15.12602
-    - Key: {fileID: 11400000, guid: 6234abf6e5f829745a52863b0e9e5803, type: 2}
-      Value: 15.12602
-    - Key: {fileID: 11400000, guid: ca91afdc83ac211468dd25fc26251179, type: 2}
-      Value: 15.12602
-    - Key: {fileID: 11400000, guid: b42ed51d07352a34faf782d9afbbb73e, type: 2}
-      Value: 4.579824
-    - Key: {fileID: 11400000, guid: 1cd4402267f4875489c52ad1e2c60354, type: 2}
-      Value: 4.579824
-    - Key: {fileID: 11400000, guid: 185266de848b1454ba59cb1b1b5b5312, type: 2}
-      Value: 4.579824
-    - Key: {fileID: 11400000, guid: 8d0017ed18bf9114d9d38f9752172dac, type: 2}
-      Value: 4.579824
     - Key: {fileID: 11400000, guid: bdbc4c309bc09b0429976db3d8343c02, type: 2}
-      Value: 1.481336
-    - Key: {fileID: 11400000, guid: 0131186a5541aa94fb3a467af8e22ae9, type: 2}
-      Value: 1.481336
-    - Key: {fileID: 11400000, guid: 3fec2af0f6a4eca4594caf36bfeb360f, type: 2}
-      Value: 1.481336
+      Value: 1.5969794
     - Key: {fileID: 11400000, guid: d74695936a18dbb42ac3e95a59101b8f, type: 2}
-      Value: 0.538354
-    - Key: {fileID: 11400000, guid: 87dda8e9860e7e34a89ba95fb438fec8, type: 2}
-      Value: 0.538354
+      Value: 0.60586864
     - Key: {fileID: 11400000, guid: 5faca6a3d7adb4d09b3928421fb0e3e5, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: 8652fbf00e2b5450b8e5e6d17d10826d, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: 5cb836921f56046c79e893eb2ba73494, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: b5582c4810205465b98d0520de40fffa, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: 1857324dec62746199dcc3994e4cdfb7, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: 8688ea1082c2f4187a09f1f21d425f5b, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
+    - Key: {fileID: 11400000, guid: b42ed51d07352a34faf782d9afbbb73e, type: 2}
+      Value: 4.729655
+    - Key: {fileID: 11400000, guid: 1cd4402267f4875489c52ad1e2c60354, type: 2}
+      Value: 4.729655
     - Key: {fileID: 11400000, guid: aa0f0d4f1aca84442b621a59c045b613, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: 53596c2004ebe460492540049330167c, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: dc3012a6c9d8f44e09ea835aed3733dc, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: d14803a65029d44c99769dffd76f0715, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: 1314994807aa5401e94d41ebc8f3323f, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: 3620dd3e4031f4f5c90e4b1fed9a6777, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
+    - Key: {fileID: 11400000, guid: 87dda8e9860e7e34a89ba95fb438fec8, type: 2}
+      Value: 0.60586864
+    - Key: {fileID: 11400000, guid: 755a4d7b994dd834fa04c774fd4d039a, type: 2}
+      Value: 14.963741
     - Key: {fileID: 11400000, guid: 6d5c3d89453aa411eafd8b8c8240705e, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: fbed75592238e40a59f61f117cb04b28, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: 7a65ace3f2a044d7ea83d8c56ba905bc, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: 08caaf44a6ca1461da0aec17c9eced2d, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: f845fdb66bba3495a88b7ebd850b1811, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: 313db8586245c48bd8ace490ccdf598e, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: 28bebe7359847479ab598938af3d2dfe, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: 0a30bb473bf824890b9dc0136bf18282, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: fb659a933f92b459587529b9703f36b2, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: 3f5e7a756ab594a75ba41d7d8c70f35b, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: c40e284b31e504f6e84a9edfb134c645, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: 0cda6631fc00b44088272df62f4aa259, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
+    - Key: {fileID: 11400000, guid: 59b9a49a127249742b2e4d6ad4ec45d6, type: 2}
+      Value: 14.963741
+    - Key: {fileID: 11400000, guid: 0131186a5541aa94fb3a467af8e22ae9, type: 2}
+      Value: 1.5969794
     - Key: {fileID: 11400000, guid: d07d11e2a788c427bbf352e1b868059d, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: 2c88e909494bf4c58890d1acd1d58854, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: b76aaa38e57c84acfa65fb7060d70367, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: 4588871346fba4abc9898cb140c9299c, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: fc3294dd2e84d40cbb12ded68ae48c02, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
     - Key: {fileID: 11400000, guid: fc554723f8dd24d75bf6937d585e01ba, type: 2}
-      Value: 0.017663
+      Value: 0.008666667
+    - Key: {fileID: 11400000, guid: 185266de848b1454ba59cb1b1b5b5312, type: 2}
+      Value: 4.729655
+    - Key: {fileID: 11400000, guid: 22623671541fa7248b5c0b34b534946d, type: 2}
+      Value: 14.963741
+    - Key: {fileID: 11400000, guid: 3fec2af0f6a4eca4594caf36bfeb360f, type: 2}
+      Value: 1.5969794
+    - Key: {fileID: 11400000, guid: 6234abf6e5f829745a52863b0e9e5803, type: 2}
+      Value: 14.963741
+    - Key: {fileID: 11400000, guid: 8d0017ed18bf9114d9d38f9752172dac, type: 2}
+      Value: 4.729655
+    - Key: {fileID: 11400000, guid: ca91afdc83ac211468dd25fc26251179, type: 2}
+      Value: 14.963741
   ContextData:
     SpriteSource:
       m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4

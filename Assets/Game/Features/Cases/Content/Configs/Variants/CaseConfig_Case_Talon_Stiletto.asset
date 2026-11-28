@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Talon_Stiletto
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Talon_Stiletto
+  Name: Talon & Stiletto Case
+  Price: 370.88
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: c156878b7366f4eca8beb383779c9c38, type: 2}
+      Value: 2.6154861
+    - Key: {fileID: 11400000, guid: be11d8849b5ca44269a1af121a1b2295, type: 2}
+      Value: 2.9695923
+    - Key: {fileID: 11400000, guid: 9553ca3cbcc1e42718a6ffa7be8817ff, type: 2}
+      Value: 2.5077002
+    - Key: {fileID: 11400000, guid: 255d7b5b9d8794bf080173306396a058, type: 2}
+      Value: 2.1129038
+    - Key: {fileID: 11400000, guid: 06fa0a92bbe57468cb2b891c15fe9d34, type: 2}
+      Value: 2.8978226
+    - Key: {fileID: 11400000, guid: 6fa6012a5b16d47678cf6391e30565b7, type: 2}
+      Value: 2.381477
+    - Key: {fileID: 11400000, guid: 37bb6ec16746b46568900d59415ce120, type: 2}
+      Value: 2.4318223
+    - Key: {fileID: 11400000, guid: b16020a7d5ada47b1b838696a1793dee, type: 2}
+      Value: 3.1328778
+    - Key: {fileID: 11400000, guid: 7c14af275ec9d484395121d176f7d4ec, type: 2}
+      Value: 2.6376474
+    - Key: {fileID: 11400000, guid: 8e4fcd701918b4d54bc3f9ecae59034f, type: 2}
+      Value: 3.020536
+    - Key: {fileID: 11400000, guid: 010b5972a69334c7bbb81dfcaf56cd4e, type: 2}
+      Value: 3.0616
+    - Key: {fileID: 11400000, guid: 5630a2212b2b147f48432ea506deb98c, type: 2}
+      Value: 2.7985964
+    - Key: {fileID: 11400000, guid: 5babee2e857a040219c9fde3bc5bc823, type: 2}
+      Value: 3.0186884
+    - Key: {fileID: 11400000, guid: 1d202e8adbe4d4565ab6645ed353ba9f, type: 2}
+      Value: 2.569093
+    - Key: {fileID: 11400000, guid: e0e029094893344099ab2c52782c72c9, type: 2}
+      Value: 2.946096
+    - Key: {fileID: 11400000, guid: a80f5ae7bdcae46968a46e4caf3b9354, type: 2}
+      Value: 2.6642866
+    - Key: {fileID: 11400000, guid: f19262f7a39d04d9fb57cd8a682eccf2, type: 2}
+      Value: 2.6134892
+    - Key: {fileID: 11400000, guid: 18ab1ebe78b304fa1a9ca4557162cb85, type: 2}
+      Value: 2.945822
+    - Key: {fileID: 11400000, guid: b14c55a77c46a48109418cf445a18834, type: 2}
+      Value: 3.0050187
+    - Key: {fileID: 11400000, guid: 14713da845bc3441187b3c3b17e1259c, type: 2}
+      Value: 2.4278393
+    - Key: {fileID: 11400000, guid: 461433b3807a5426ba57d42c1a01d9dc, type: 2}
+      Value: 2.539026
+    - Key: {fileID: 11400000, guid: d308926b2ac8c4f33b645d40981f2a03, type: 2}
+      Value: 2.2815056
+    - Key: {fileID: 11400000, guid: d3ca414aae32942cea81cf48e8682f58, type: 2}
+      Value: 1.9022901
+    - Key: {fileID: 11400000, guid: 4ed51cb6a8e3a4f499d007fa7b0107a4, type: 2}
+      Value: 2.6576025
+    - Key: {fileID: 11400000, guid: a024074edca854a4181082c04cf9c921, type: 2}
+      Value: 2.202628
+    - Key: {fileID: 11400000, guid: e827205216feb4da9b0a9182540ed4d6, type: 2}
+      Value: 2.2255712
+    - Key: {fileID: 11400000, guid: 8e8033e91fc8240f99ef586811183cb1, type: 2}
+      Value: 2.8141615
+    - Key: {fileID: 11400000, guid: 8917d41fcca0144eebf18e91efe80003, type: 2}
+      Value: 2.3657062
+    - Key: {fileID: 11400000, guid: 77a28259c75bd42ae8657fe817335c6b, type: 2}
+      Value: 2.7353754
+    - Key: {fileID: 11400000, guid: b809edb68c9694571b2c3cd6bbceae22, type: 2}
+      Value: 2.745598
+    - Key: {fileID: 11400000, guid: 274081f759e424cf1a6cf1ad574c15b1, type: 2}
+      Value: 2.679444
+    - Key: {fileID: 11400000, guid: 240efa8f1c5704b59802ab9c724bc9b5, type: 2}
+      Value: 2.581697
+    - Key: {fileID: 11400000, guid: 5a32f4e2a3bd94d49a6744f2a384517b, type: 2}
+      Value: 2.35846
+    - Key: {fileID: 11400000, guid: 6b82fbbd5d2f6414ca02cf5ec1af6451, type: 2}
+      Value: 2.5312495
+    - Key: {fileID: 11400000, guid: 3e818ddb7e1a44aa09490c8141cc0d04, type: 2}
+      Value: 2.4602149
+    - Key: {fileID: 11400000, guid: 2bb6db46bebfb4ce081b77d6e7ad7347, type: 2}
+      Value: 2.6907299
+    - Key: {fileID: 11400000, guid: 121e125c4a8c94f8f811e2f8030b86ae, type: 2}
+      Value: 2.7683437
+    - Key: {fileID: 11400000, guid: 59a642abf66d44e9daaceffc362f9309, type: 2}
+      Value: 2.702001
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_talon_stiletto
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: d9b54b59225564a5cbbb83f1003f78ad
+      m_EditorAssetChanged: 1

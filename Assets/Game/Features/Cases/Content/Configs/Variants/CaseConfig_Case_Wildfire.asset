@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Wildfire
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Wildfire
+  Name: Operation Wildfire Case
+  Price: 6.31
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: e316744c0d4bb6e42a6ddb6fc68f8c62, type: 2}
+      Value: 0.68069655
+    - Key: {fileID: 11400000, guid: 680cca7a9ae378043bacbed5bef1f803, type: 2}
+      Value: 1.7176185
+    - Key: {fileID: 11400000, guid: e733ee2ddb6a64ef0a17a2c366fbe3a4, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 27b5397763bab41c8a9f5ffb9a4f376e, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: d26ee6514418a40469aa5dcb1219f45e, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 13b96627f361c475486c2dd787a7a469, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: f8283bfe098e84672bfbf99b6a76ab92, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 98f3b85e2b4864cbab3f4a3252d21aba, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 642fbd7511a3540be9c49956e5e7d2e5, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 957f093d360df440eb7e4981c77a00cb, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 51e570f79f57243f7b11e7129e3ae68b, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: f956aa323fb4f426b992898c1bb8a180, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 359d77daef91849ef891562e1fb3e915, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 8ad9e6cb352004403b089b8d0e2e0db2, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 7d8e8d6370cbc4419bf970cff749009f, type: 2}
+      Value: 0.02
+    - Key: {fileID: 11400000, guid: 791b3320a305a3b45922ff12ddeb3096, type: 2}
+      Value: 1.7176185
+    - Key: {fileID: 11400000, guid: bbd281bd2fd869f439e60662b23740f4, type: 2}
+      Value: 12.291107
+    - Key: {fileID: 11400000, guid: 9f4d910b69493f04f87ed4d0a5adc4ae, type: 2}
+      Value: 3.8958223
+    - Key: {fileID: 11400000, guid: 662c72188d46e8c459c8090d6657fdcf, type: 2}
+      Value: 3.8958223
+    - Key: {fileID: 11400000, guid: 56e2052c783df194180d61558d998913, type: 2}
+      Value: 3.8958223
+    - Key: {fileID: 11400000, guid: 951ae44cba9223b418c5ddef8e361b81, type: 2}
+      Value: 0.68069655
+    - Key: {fileID: 11400000, guid: 74c0cf94bd2fb854cb0dca3ea5d7f13b, type: 2}
+      Value: 12.291107
+    - Key: {fileID: 11400000, guid: 0831bd2b720dea246a5d52d0856ff39d, type: 2}
+      Value: 3.8958223
+    - Key: {fileID: 11400000, guid: 321299e9324ef5c4488952fcb3ed96ac, type: 2}
+      Value: 3.8958223
+    - Key: {fileID: 11400000, guid: 8a5869c8214828443b40fc9c7e38c6c8, type: 2}
+      Value: 1.7176185
+    - Key: {fileID: 11400000, guid: 23cf7377d87e13644a3decec7cd2ef4b, type: 2}
+      Value: 12.291107
+    - Key: {fileID: 11400000, guid: cd721b964c379f14bbdbe5db6ad4c659, type: 2}
+      Value: 12.291107
+    - Key: {fileID: 11400000, guid: 1c19c156dcacb2845826d4bfeabeecbd, type: 2}
+      Value: 12.291107
+    - Key: {fileID: 11400000, guid: 2b91c8d745a5c3346be71e4519b5a9b5, type: 2}
+      Value: 12.291107
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_wildfire
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 38212c5cba8a3448f87772cf335629fd
+      m_EditorAssetChanged: 1

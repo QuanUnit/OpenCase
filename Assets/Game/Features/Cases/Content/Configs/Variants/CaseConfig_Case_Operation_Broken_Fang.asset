@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Operation_Broken_Fang
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Operation_Broken_Fang
+  Name: Operation Broken Fang Case
+  Price: 7.2
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 28e9f09571acb4e48831e8e9fadfc9d1, type: 2}
+      Value: 3.6598413
+    - Key: {fileID: 11400000, guid: 74c3114e35e5a48859b63fe8522722c2, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 53cece6e68d0e42629da84f86f1488ee, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: cbf9ca7a4250f426b8439083ef5774ed, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 33782ece6ffa34cd4a31557c8238460f, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 725b0ce54ddffbe478a6ef837a0f1260, type: 2}
+      Value: 10.851728
+    - Key: {fileID: 11400000, guid: be50181ad5ca14e8ebcc388aae7b586a, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 459ee4f2b991f4130899f074a767591c, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: f791e2755589b4f079843f6bfe5bfc46, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: a763a9f716e0b4cf39d3eac201d3a21d, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: f36ce60099d471a48b9e78012973572a, type: 2}
+      Value: 3.6598413
+    - Key: {fileID: 11400000, guid: 037f3baf2311d714480c3c3bafb79d77, type: 2}
+      Value: 1.4716287
+    - Key: {fileID: 11400000, guid: 90cd5cdd4406912479999bbe091870f2, type: 2}
+      Value: 10.851728
+    - Key: {fileID: 11400000, guid: 536618c675bb6964f976df578eb77d4a, type: 2}
+      Value: 10.851728
+    - Key: {fileID: 11400000, guid: cc203401b76e33841a0bd36fc16217ed, type: 2}
+      Value: 0.5319043
+    - Key: {fileID: 11400000, guid: 355d81d3e68b9436ba169330aa2c7840, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 1b4d5faa0e7df4d7090f72afd8604582, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 81f2a2875636141909e50d4c6b3bd14f, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: e478f29b29a08483d963e0590683e4be, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: db1dc3c20fa40c549bffc48ee8e4cc34, type: 2}
+      Value: 10.851728
+    - Key: {fileID: 11400000, guid: a2f61a89879507f4db7684ff73447aeb, type: 2}
+      Value: 0.5319043
+    - Key: {fileID: 11400000, guid: faf92cfcb83ac3641b61c02bf223ccc4, type: 2}
+      Value: 1.4716287
+    - Key: {fileID: 11400000, guid: 1a4060a29535c174098a3ccfde7f8129, type: 2}
+      Value: 10.851728
+    - Key: {fileID: 11400000, guid: 487cd52dcd4ca489ebfda0180f26d35f, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 7188760f4674648aeaf132b4fad12765, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: fe893c044ee4d4064b7ed8eda6f07e7a, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: b02588c01459e42d5a6b7ebc61f2d9f0, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: ba69323938a00be4a879a44d1f9d616a, type: 2}
+      Value: 3.6598413
+    - Key: {fileID: 11400000, guid: c7c5087deef9341129ef91c29e07410b, type: 2}
+      Value: 10.851728
+    - Key: {fileID: 11400000, guid: f4e73495fdebbe1478468621d23d02e0, type: 2}
+      Value: 10.851728
+    - Key: {fileID: 11400000, guid: 37ed59c2064eb3b409381356a590de3c, type: 2}
+      Value: 3.6598413
+    - Key: {fileID: 11400000, guid: 80beb748d6e584c49a9d885beae01df3, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: f25b037216bcd4299a3cbf6d7fd3d0f2, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: cdfc624d2864443ac9cc851f181e6bbf, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 5fe777c5a18194bc39755c8266edfe20, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 6392f9b8372a5456da80343ec498756b, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 3f2f4da5637724287bc9fe9f1c5d01d6, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: dfe9533f2bff342f6b7ecf26baf4fc2e, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: 3c2611a751b10488d8e8739c39c59ccf, type: 2}
+      Value: 0.010833333
+    - Key: {fileID: 11400000, guid: fd7fbb95391608845bbbae45e3ba179a, type: 2}
+      Value: 3.6598413
+    - Key: {fileID: 11400000, guid: c5411a401dc766b44861cb208b448628, type: 2}
+      Value: 1.4716287
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_operation_broken_fang
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: fca0782972a1a452086a18ebc2317bcd
+      m_EditorAssetChanged: 1

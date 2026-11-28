@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Deagle_T3
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Deagle_T3
+  Name: Desert Eagle Elite
+  Price: 9.18
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: eb583d8cd64136c4b9a0f2fd9892e5d1, type: 2}
+      Value: 13.308686
+    - Key: {fileID: 11400000, guid: 38ba8aa66bf82b4479fcf3ffec41b7fc, type: 2}
+      Value: 6.501646
+    - Key: {fileID: 11400000, guid: 052d02960a2724df3999307c3adc169d, type: 2}
+      Value: 6.501646
+    - Key: {fileID: 11400000, guid: 95500c74599e98042a8c5d24c9300964, type: 2}
+      Value: 6.501646
+    - Key: {fileID: 11400000, guid: 7070d60abe6eb2b4692e810a8122ff12, type: 2}
+      Value: 5.692053
+    - Key: {fileID: 11400000, guid: 1620782f391bfa041a4498d68e09f658, type: 2}
+      Value: 5.692053
+    - Key: {fileID: 11400000, guid: b42ed51d07352a34faf782d9afbbb73e, type: 2}
+      Value: 5.692053
+    - Key: {fileID: 11400000, guid: 0928319e9c089654c8cd946b86e13ad5, type: 2}
+      Value: 13.308686
+    - Key: {fileID: 11400000, guid: b2bcfdab5780f284bb666443ea3936b3, type: 2}
+      Value: 15.554739
+    - Key: {fileID: 11400000, guid: 439797c593a9dca44a8f28ae29a77e07, type: 2}
+      Value: 5.692053
+    - Key: {fileID: 11400000, guid: 951c674358c1aae49b8b55416bf0b443, type: 2}
+      Value: 15.554739
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_deagle_t3
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: f1a7eba71cd05457bab7ae61a6ac9e39
+      m_EditorAssetChanged: 1

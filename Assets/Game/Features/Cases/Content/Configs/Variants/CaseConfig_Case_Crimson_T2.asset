@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Crimson_T2
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Crimson_T2
+  Name: Crimson
+  Price: 2
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: c7e1b5ef9824cf74c9bff718d799ef98, type: 2}
+      Value: 4.403154
+    - Key: {fileID: 11400000, guid: c20b02cdc7b5c3a478886982822c390a, type: 2}
+      Value: 46.116592
+    - Key: {fileID: 11400000, guid: 8ab3a5fbcef9efe48b2f6b6f37897199, type: 2}
+      Value: 4.403154
+    - Key: {fileID: 11400000, guid: 4a201084d5f735943ad7518c0473d9d2, type: 2}
+      Value: 4.403154
+    - Key: {fileID: 11400000, guid: 3f91f6e1960772c47a296cfe9b0f149f, type: 2}
+      Value: 4.403154
+    - Key: {fileID: 11400000, guid: 37af010bdb2d03240b57d492116e8bb0, type: 2}
+      Value: 15.93382
+    - Key: {fileID: 11400000, guid: bd6d0bc04d998844fb3fd1a866722844, type: 2}
+      Value: 4.403154
+    - Key: {fileID: 11400000, guid: 1d205886a954c3443937674017ef2769, type: 2}
+      Value: 15.93382
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_crimson_t2
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 4bafd3cc6726e47c49669cfb83af5eb6
+      m_EditorAssetChanged: 1

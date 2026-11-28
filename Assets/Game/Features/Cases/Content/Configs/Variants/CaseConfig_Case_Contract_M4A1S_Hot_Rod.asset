@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Contract_M4A1S_Hot_Rod
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Contract_M4A1S_Hot_Rod
+  Name: Hot Rod Contract
+  Price: 10.42
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 93be3702fa3bf5e43892c19ede6dddc0, type: 2}
+      Value: 0.18190512
+    - Key: {fileID: 11400000, guid: a438f02511bd99341b4d545d9e43629c, type: 2}
+      Value: 19.518822
+    - Key: {fileID: 11400000, guid: 642b7410cf1b2db468c7457f08d33f67, type: 2}
+      Value: 0.7533417
+    - Key: {fileID: 11400000, guid: 0db941e36577b2743bb058587d312b8a, type: 2}
+      Value: 5.71632
+    - Key: {fileID: 11400000, guid: 130c2176d5d2ea44bab0d2f56f532b50, type: 2}
+      Value: 0.41356856
+    - Key: {fileID: 11400000, guid: f5ad426258c3e2143addbcc47e60a9d9, type: 2}
+      Value: 0.7533417
+    - Key: {fileID: 11400000, guid: 917a2428f0c2323419acb448db9f2593, type: 2}
+      Value: 5.71632
+    - Key: {fileID: 11400000, guid: 99590d9fd5b8bf0419745269cbded93e, type: 2}
+      Value: 19.518822
+    - Key: {fileID: 11400000, guid: 9b15b39694908f947842a96a7bb54947, type: 2}
+      Value: 0.7533417
+    - Key: {fileID: 11400000, guid: 9b4cca4df9fff8d4aa3d92ef67db2513, type: 2}
+      Value: 19.518822
+    - Key: {fileID: 11400000, guid: bfaa8952bc4499a4ab646ff8b48d6ac4, type: 2}
+      Value: 0.7533417
+    - Key: {fileID: 11400000, guid: 1590c2698dd2d2542a8f5053a8bab674, type: 2}
+      Value: 0.7533417
+    - Key: {fileID: 11400000, guid: 538aa5a20d1dca6409cca7a32943562d, type: 2}
+      Value: 19.518822
+    - Key: {fileID: 11400000, guid: c1b965e121a5f3a4ea5f5e388be8b79e, type: 2}
+      Value: 0.41356856
+    - Key: {fileID: 11400000, guid: 128e270b29952f3438ccfb76e344f045, type: 2}
+      Value: 5.71632
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_contract_m4a1s_hot_rod
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 22404df71c5104affaeafed7b95c6992
+      m_EditorAssetChanged: 1

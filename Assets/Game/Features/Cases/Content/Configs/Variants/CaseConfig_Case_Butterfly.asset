@@ -15,59 +15,59 @@ MonoBehaviour:
   Id:
     _value: Case_Butterfly
   Name: Butterfly Case
-  Price: 761.99
+  Price: 990.39
   SkinsMapEntries:
     _entries:
     - Key: {fileID: 11400000, guid: 0a6bd55648aeb4e008909099697eb82c, type: 2}
-      Value: 4.018227
+      Value: 4.0289884
     - Key: {fileID: 11400000, guid: c933e633c1c6f429b836a5fa92d8d90b, type: 2}
-      Value: 4.678939
+      Value: 4.327948
     - Key: {fileID: 11400000, guid: 156fb489f5aeb4af1b5bae4faefa824a, type: 2}
-      Value: 3.609866
+      Value: 3.7980738
     - Key: {fileID: 11400000, guid: 3a474c523c5cb448793b053e622c6c3d, type: 2}
-      Value: 4.637707
+      Value: 4.2039223
     - Key: {fileID: 11400000, guid: ef8684a81f7844ef0a54068a2ce7f7f5, type: 2}
-      Value: 5.447125
+      Value: 4.6940536
     - Key: {fileID: 11400000, guid: 2906a083ec38948e6a66646baef0dfc4, type: 2}
-      Value: 3.715109
+      Value: 3.8432415
     - Key: {fileID: 11400000, guid: 7c5b39483197343c6825d311ae6bc020, type: 2}
-      Value: 2.204325
+      Value: 2.9545803
     - Key: {fileID: 11400000, guid: a877161ec03a24698a2d23f58c62339d, type: 2}
-      Value: 4.296846
+      Value: 4.235666
     - Key: {fileID: 11400000, guid: 5e3e6e8d2e7914fe2b4917e0987d91a4, type: 2}
-      Value: 1.933549
+      Value: 3.0156527
     - Key: {fileID: 11400000, guid: cd979efa24b25419cbaf7e221f32e713, type: 2}
-      Value: 2.031775
+      Value: 3.0510712
     - Key: {fileID: 11400000, guid: 8532cdd9409aa47f89e3178f58e20a22, type: 2}
-      Value: 4.889014
+      Value: 4.324916
     - Key: {fileID: 11400000, guid: ae5bed8c652414222a226eb0f6a58f16, type: 2}
-      Value: 5.106279
+      Value: 4.5774956
     - Key: {fileID: 11400000, guid: 64ac7cbb11a7b4cdcba92e927f9dcad4, type: 2}
-      Value: 2.493435
+      Value: 3.4016886
     - Key: {fileID: 11400000, guid: 1dbd5ce2a32e6401980dbce443ac65c0, type: 2}
-      Value: 3.904073
+      Value: 3.8600724
     - Key: {fileID: 11400000, guid: 233070b0a34b74b8d9db30832e1beceb, type: 2}
-      Value: 2.94983
+      Value: 3.6159327
     - Key: {fileID: 11400000, guid: b2d29bc34712a46e7b041e731f57c63d, type: 2}
-      Value: 3.483146
+      Value: 3.6395736
     - Key: {fileID: 11400000, guid: 9a28c36935aa945dfa93be228fea666f, type: 2}
-      Value: 5.062055
+      Value: 4.5324016
     - Key: {fileID: 11400000, guid: b3c12267699984c1e8c5b3d30fad1c49, type: 2}
-      Value: 5.68992
+      Value: 4.7204323
     - Key: {fileID: 11400000, guid: 7089208c1be0d4209878a6360152064f, type: 2}
-      Value: 5.916668
+      Value: 4.851932
     - Key: {fileID: 11400000, guid: 80530be7c17e1485da87344c731a4181, type: 2}
-      Value: 3.110794
+      Value: 3.7372189
     - Key: {fileID: 11400000, guid: bf97cfbb08cef4263b1407dfebd3b6d1, type: 2}
-      Value: 4.684408
+      Value: 4.3128014
     - Key: {fileID: 11400000, guid: 00b8ac0a34f4d4e0a95f8fceee9d85a0, type: 2}
-      Value: 3.284425
+      Value: 3.7682085
     - Key: {fileID: 11400000, guid: 06ecf19b64a0c4ef7863f3dee2f416f8, type: 2}
-      Value: 4.941199
+      Value: 4.4632206
     - Key: {fileID: 11400000, guid: 6d5692789fdb4484c91db0804e67af38, type: 2}
-      Value: 4.751953
+      Value: 4.251774
     - Key: {fileID: 11400000, guid: acda96ad3ab5c4447a14eacd9629bd94, type: 2}
-      Value: 3.159333
+      Value: 3.7891347
   ContextData:
     SpriteSource:
       m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4

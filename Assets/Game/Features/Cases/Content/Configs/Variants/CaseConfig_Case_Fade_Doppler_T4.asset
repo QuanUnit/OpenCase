@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Fade_Doppler_T4
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Fade_Doppler_T4
+  Name: Fade & Doppler Elite
+  Price: 50.61
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 9277b1bcc2a3e4f45b815dc1a91355a0, type: 2}
+      Value: 0.18797925
+    - Key: {fileID: 11400000, guid: c43b0e6a01701c8458b2ce77978242b9, type: 2}
+      Value: 0.18797925
+    - Key: {fileID: 11400000, guid: 8fa4f94bed00bbb4396d0cd5bdc4437d, type: 2}
+      Value: 0.18797925
+    - Key: {fileID: 11400000, guid: 9b15b39694908f947842a96a7bb54947, type: 2}
+      Value: 95.45736
+    - Key: {fileID: 11400000, guid: 916a7190e508baa409c5d0f473f4da47, type: 2}
+      Value: 0.18797925
+    - Key: {fileID: 11400000, guid: 6db09a1fd4195c9419230c6aa06986f8, type: 2}
+      Value: 3.790722
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_fade_doppler_t4
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: c0e5b13dbef9f4920b2e20979c037183
+      m_EditorAssetChanged: 1

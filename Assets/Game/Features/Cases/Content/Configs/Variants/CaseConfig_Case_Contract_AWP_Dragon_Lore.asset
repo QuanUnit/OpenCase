@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Contract_AWP_Dragon_Lore
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Contract_AWP_Dragon_Lore
+  Name: Dragon Lore Contract
+  Price: 18.13
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 29614d4187482f74bbb6b55abfde6642, type: 2}
+      Value: 0.03183887
+    - Key: {fileID: 11400000, guid: e598415ba0161ae46ab195fd2f22276e, type: 2}
+      Value: 0.3627275
+    - Key: {fileID: 11400000, guid: 7e880ed6efaa4774daf0d6b31d599ef9, type: 2}
+      Value: 0.3627275
+    - Key: {fileID: 11400000, guid: a5142a2b8f6ee2c4184c9bea5bcc2f40, type: 2}
+      Value: 15.814052
+    - Key: {fileID: 11400000, guid: 6e9bc4c7c64459048a80449d8a9cba4b, type: 2}
+      Value: 0.15207425
+    - Key: {fileID: 11400000, guid: bda328630f4ee7a4da7179c58c4ff591, type: 2}
+      Value: 15.814052
+    - Key: {fileID: 11400000, guid: c700123234ffca44197ab99eb9f1c8fb, type: 2}
+      Value: 4.138616
+    - Key: {fileID: 11400000, guid: d5e9c9ff74ca5f14996d8121e1d5c387, type: 2}
+      Value: 1.7329545
+    - Key: {fileID: 11400000, guid: a499e784d40babe4f8f69b75c6d87460, type: 2}
+      Value: 4.138616
+    - Key: {fileID: 11400000, guid: e609d7aae4c2d03438d125debbd560f1, type: 2}
+      Value: 1.7329545
+    - Key: {fileID: 11400000, guid: ef789f5a830186541904d0085c2001aa, type: 2}
+      Value: 15.814052
+    - Key: {fileID: 11400000, guid: 40ea2522aac9e534a9bfe6779f7dc85c, type: 2}
+      Value: 15.814052
+    - Key: {fileID: 11400000, guid: dbf85ebf1eb73c846a2d3652f7e68a3a, type: 2}
+      Value: 4.138616
+    - Key: {fileID: 11400000, guid: f7c384f2e83d49346b4f6ba805cdd5df, type: 2}
+      Value: 15.814052
+    - Key: {fileID: 11400000, guid: b743c6aaf2a3c454fb585d0674a9540e, type: 2}
+      Value: 4.138616
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_contract_awp_dragon_lore
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: f970df0665444414681c6148dfb38b74
+      m_EditorAssetChanged: 1
