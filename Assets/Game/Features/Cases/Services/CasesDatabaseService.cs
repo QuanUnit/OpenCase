@@ -12,8 +12,9 @@ namespace Features.Cases.Services
     {
         private readonly AllCasesConfig _allCasesConfig;
 
-        public IReadOnlyList<KeyValue<CasesCategory, List<CaseConfig>>> AllCases => _allCasesConfig.CategoriesMap;
+        public IReadOnlyList<KeyValue<CasesCategory, List<CaseConfig>>> AllCases => _sortedCategories;
         private Dictionary<CaseId, CaseConfig> _allCasesMap;
+        private List<KeyValue<CasesCategory, List<CaseConfig>>> _sortedCategories;
 
         public CasesDatabaseService(AllCasesConfig allCasesConfig)
         {
@@ -24,6 +25,10 @@ namespace Features.Cases.Services
         {
             _allCasesMap = _allCasesConfig.CategoriesMap.SelectMany(a => a.Value)
                 .ToDictionary(a => a.Id, b => b);
+
+            _sortedCategories = _allCasesConfig.CategoriesMap
+                .Select(pair => new KeyValue<CasesCategory, List<CaseConfig>>(pair.Key, pair.Value.OrderBy(caseConfig => caseConfig.Price).ToList()))
+                .ToList();
         }
         
         public async UniTask LoadAssets()
