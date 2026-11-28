@@ -17,6 +17,10 @@ MonoBehaviour:
       Name: Starter
     Value:
     - {fileID: 11400000, guid: 24dc7ef1a784646deb44af2d5c196ac0, type: 2}
+    - {fileID: 11400000, guid: cc698721b385e49fa900d9ebb2f59b99, type: 2}
+    - {fileID: 11400000, guid: dfcef196d46e2405db5cf9a015afe80c, type: 2}
+    - {fileID: 11400000, guid: 53c8d8a430d934c52a5d830364e92786, type: 2}
+    - {fileID: 11400000, guid: 01ae9c2b4874c438da98cf8ac36d7974, type: 2}
   - Key:
       Name: CS Cases
     Value:

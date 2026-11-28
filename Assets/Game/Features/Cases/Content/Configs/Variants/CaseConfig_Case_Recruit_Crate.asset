@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Recruit_Crate
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Recruit_Crate
+  Name: Recruit Crate
+  Price: 0.22
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: f91764ea8d637fb4393070d716707057, type: 2}
+      Value: 8.576081
+    - Key: {fileID: 11400000, guid: c2416884889b1b74398cae34c4ee23b4, type: 2}
+      Value: 8.576081
+    - Key: {fileID: 11400000, guid: 0501b6615f037e441a2ada9d4a60bfdf, type: 2}
+      Value: 8.576081
+    - Key: {fileID: 11400000, guid: 801425cf67281e9478ee551d7e01f015, type: 2}
+      Value: 8.576081
+    - Key: {fileID: 11400000, guid: a29f9c6addbba493ea25e65f6f6e4106, type: 2}
+      Value: 8.576081
+    - Key: {fileID: 11400000, guid: 43bb85caff62a7247a80a0445919083e, type: 2}
+      Value: 8.576081
+    - Key: {fileID: 11400000, guid: 5e632970e689937468ec8f752d1a4615, type: 2}
+      Value: 8.576081
+    - Key: {fileID: 11400000, guid: b564505413acc124e9db59ef5bdcee9d, type: 2}
+      Value: 8.576081
+    - Key: {fileID: 11400000, guid: 5db1e4ac87d654ef6af34f48d1d7314a, type: 2}
+      Value: 3.6142688
+    - Key: {fileID: 11400000, guid: b74290c25d2b1445eb49e895f83f33ae, type: 2}
+      Value: 3.6142688
+    - Key: {fileID: 11400000, guid: 32a4be9bc66944dcc8fc478e9c6ac210, type: 2}
+      Value: 3.6142688
+    - Key: {fileID: 11400000, guid: a44c0077488b349ec87ddd8293af5e70, type: 2}
+      Value: 3.6142688
+    - Key: {fileID: 11400000, guid: f3f5af14995c94c7cb5fa46688a82d71, type: 2}
+      Value: 3.6142688
+    - Key: {fileID: 11400000, guid: a3c6df28f7ad3c14ebb61028b7cb7fc7, type: 2}
+      Value: 3.6142688
+    - Key: {fileID: 11400000, guid: 8e01016fbad20984698bc29945688234, type: 2}
+      Value: 1.3708645
+    - Key: {fileID: 11400000, guid: 6e34a325708cdf94b9a5f7b89ab26e61, type: 2}
+      Value: 1.3708645
+    - Key: {fileID: 11400000, guid: bbc4995e92485244b81b20ce0054b92b, type: 2}
+      Value: 1.3708645
+    - Key: {fileID: 11400000, guid: ded8223f7adb62a4e9a87b6580c21deb, type: 2}
+      Value: 1.3708645
+    - Key: {fileID: 11400000, guid: 810b4d72f3031d6438152c1d4875ea71, type: 2}
+      Value: 1.3708645
+    - Key: {fileID: 11400000, guid: 45ea858c4407f44c8ae8cfa8e77d79d1, type: 2}
+      Value: 0.72198373
+    - Key: {fileID: 11400000, guid: 2844351a7b657734e8804ecc2dce266b, type: 2}
+      Value: 0.72198373
+    - Key: {fileID: 11400000, guid: 0d88d0983fa6fbb4da82bb05ee58987a, type: 2}
+      Value: 0.72198373
+    - Key: {fileID: 11400000, guid: 73a9add5e24115544ac42c402ed8b478, type: 2}
+      Value: 0.34273204
+    - Key: {fileID: 11400000, guid: 402ceeb2b0f35a84797d6ddb069592cd, type: 2}
+      Value: 0.34273204
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_recruit_crate
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 8bd9756fd424349f48fcc6cddf90421e
+      m_EditorAssetChanged: 1

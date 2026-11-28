@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28734920e9ce43f4a40db0aa88843c3d, type: 3}
+  m_Name: CaseConfig_Case_Cadet_Crate
+  m_EditorClassIdentifier: Features.Cases::Features.Cases.Configs.CaseConfig
+  Id:
+    _value: Case_Cadet_Crate
+  Name: Cadet Crate
+  Price: 0.55
+  SkinsMapEntries:
+    _entries:
+    - Key: {fileID: 11400000, guid: 475902e4547942347b6110e02f81c844, type: 2}
+      Value: 8.757428
+    - Key: {fileID: 11400000, guid: f6fc1f2e206b24948b508eb07eb8fa68, type: 2}
+      Value: 8.757428
+    - Key: {fileID: 11400000, guid: 463e53a172b09514889aaf973237dec7, type: 2}
+      Value: 8.757428
+    - Key: {fileID: 11400000, guid: b7b5cd6553e85cc4db714c7d0537023c, type: 2}
+      Value: 8.757428
+    - Key: {fileID: 11400000, guid: 5337571f59af8b04aa85590b5d2ffeb2, type: 2}
+      Value: 8.757428
+    - Key: {fileID: 11400000, guid: df55ba98c4cc6784fbb9978947683e20, type: 2}
+      Value: 8.757428
+    - Key: {fileID: 11400000, guid: 3de5416fafc1f224bbb1be0d87263762, type: 2}
+      Value: 8.757428
+    - Key: {fileID: 11400000, guid: 24d8e0fec6e86f94697fdab953cc2b0f, type: 2}
+      Value: 8.757428
+    - Key: {fileID: 11400000, guid: c3a2cfe149dda0e4f81025cf9f1cd4ab, type: 2}
+      Value: 3.516284
+    - Key: {fileID: 11400000, guid: 1825126d7b6e6a74ab74ca588147cad4, type: 2}
+      Value: 3.516284
+    - Key: {fileID: 11400000, guid: 3fdd9ff8a0eafe14e9905a159ca2710a, type: 2}
+      Value: 3.516284
+    - Key: {fileID: 11400000, guid: 9bb9df1e063f9aa4a982f4dd3f3590c5, type: 2}
+      Value: 3.516284
+    - Key: {fileID: 11400000, guid: 07f789376f1518e41909857d05b2eab7, type: 2}
+      Value: 3.516284
+    - Key: {fileID: 11400000, guid: e68c591207545d34597152e671e349ed, type: 2}
+      Value: 3.516284
+    - Key: {fileID: 11400000, guid: 9562b9c20d1dded46bd9139129ad6ae2, type: 2}
+      Value: 1.270673
+    - Key: {fileID: 11400000, guid: bbd281bd2fd869f439e60662b23740f4, type: 2}
+      Value: 1.270673
+    - Key: {fileID: 11400000, guid: 62b16b8f9241f764089515abdb805410, type: 2}
+      Value: 1.270673
+    - Key: {fileID: 11400000, guid: 23cf7377d87e13644a3decec7cd2ef4b, type: 2}
+      Value: 1.270673
+    - Key: {fileID: 11400000, guid: 04bb39e606fe87345b46c92a460bd900, type: 2}
+      Value: 1.270673
+    - Key: {fileID: 11400000, guid: 74e68c5e9ffcc944b9f2428aa3ae6032, type: 2}
+      Value: 0.6375914
+    - Key: {fileID: 11400000, guid: b4105aa687985894dba51c72453c7877, type: 2}
+      Value: 0.6375914
+    - Key: {fileID: 11400000, guid: 662c72188d46e8c459c8090d6657fdcf, type: 2}
+      Value: 0.6375914
+    - Key: {fileID: 11400000, guid: cadfbae172a57b745829404233da7a12, type: 2}
+      Value: 0.288367
+    - Key: {fileID: 11400000, guid: 23c4f46e822ca9c4f8866c095024b8cb, type: 2}
+      Value: 0.288367
+  ContextData:
+    SpriteSource:
+      m_AssetGUID: 508b98fc52f8b4a28a52bf570146aec4
+      m_SubObjectName: case_cadet_crate
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 23ee34934299b40b0a3b61b9082ac70c
+      m_EditorAssetChanged: 1
